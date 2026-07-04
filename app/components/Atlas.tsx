@@ -14,9 +14,10 @@ import {
   useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type JSX,
 } from "react";
 import { NODES } from "../data/nodes";
-import { getPlayers, companyOfPlayer, PRODUCTS, relatedProducts } from "../data/players";
+import { getPlayers, companyOfPlayer, PRODUCTS, relatedTree, type TreeRelated } from "../data/players";
 import { COMPANIES, KIND_LABEL } from "../data/companies";
 import CompanyLogo from "./CompanyLogo";
+import CompanyDetail from "./CompanyDetail";
 import {
   worldLayout, roadsFor, isCrossLayer, clusterRadius, CLUSTERS, LAYER_IDS, type Pt,
 } from "../data/atlas";
@@ -38,6 +39,54 @@ const KMIN = 0.14, KMAX = 2.8, K_FOCUS = 1.5;
 const CARD_RESERVE = 250; // 底部信息卡占用的高度，进城/路线时为它让位
 const clamp = (v: number, a: number, b: number) => Math.min(b, Math.max(a, v));
 
+const ROAD_CORNER = 46; // 公路拐角圆角半径（世界单位）
+const dist = (a: Pt, b: Pt) => Math.hypot(b.x - a.x, b.y - a.y);
+function unit(dx: number, dy: number): Pt {
+  const m = Math.hypot(dx, dy) || 1;
+  return { x: dx / m, y: dy / m };
+}
+
+/**
+ * 把一串折线点转成「带圆角拐弯」的 SVG path —— 拐角处用二次贝塞尔抹圆，
+ * 让横竖道路看起来像真实地图里平滑的公路转弯。
+ */
+function roundedPath(pts: Pt[], r: number): string {
+  if (pts.length < 2) return "";
+  if (r <= 0) return "M" + pts.map((p) => `${p.x} ${p.y}`).join(" L");
+  let d = `M ${pts[0].x} ${pts[0].y}`;
+  for (let i = 1; i < pts.length - 1; i++) {
+    const p0 = pts[i - 1], p = pts[i], p1 = pts[i + 1];
+    const v0 = unit(p0.x - p.x, p0.y - p.y);
+    const v1 = unit(p1.x - p.x, p1.y - p.y);
+    const d0 = Math.min(r, dist(p0, p) / 2);
+    const d1 = Math.min(r, dist(p, p1) / 2);
+    const s = { x: p.x + v0.x * d0, y: p.y + v0.y * d0 };
+    const e = { x: p.x + v1.x * d1, y: p.y + v1.y * d1 };
+    d += ` L ${s.x} ${s.y} Q ${p.x} ${p.y} ${e.x} ${e.y}`;
+  }
+  const last = pts[pts.length - 1];
+  d += ` L ${last.x} ${last.y}`;
+  return d;
+}
+
+const ALIGN_TOL = 70; // 两端已大致对齐时直接走直线，不拐弯
+
+/**
+ * 正交「公路」路径：横平竖直，**最多只拐一次弯**（L 形）。
+ * 两端已经接近同一行/同一列时干脆走直线，尽量减少拐弯与重叠。
+ */
+function roadPath(a: Pt, b: Pt): string {
+  const dx = b.x - a.x, dy = b.y - a.y;
+  // 几乎对齐 → 直线，零拐弯
+  if (Math.abs(dx) <= ALIGN_TOL || Math.abs(dy) <= ALIGN_TOL) {
+    return `M ${a.x} ${a.y} L ${b.x} ${b.y}`;
+  }
+  // 否则单个直角弯：先走长轴，再拐向短轴
+  const corner =
+    Math.abs(dx) >= Math.abs(dy) ? { x: b.x, y: a.y } : { x: a.x, y: b.y };
+  return roundedPath([a, corner, b], ROAD_CORNER);
+}
+
 /** 把关系标签归类，用于配色：同公司 / 驱动 / 算力 / 上游供应 / 网络 / 能源。 */
 function relKind(rel: string): string {
   if (rel === "同公司") return "same";
@@ -48,28 +97,52 @@ function relKind(rel: string): string {
   if (/芯片|EML|DSP|激光|显存|HBM|封装|代工|设备|光刻|器件|零部件|谐波|减速器|模块|代工制造/.test(rel)) return "supply";
   return "default";
 }
-const REL_LEGEND: { kind: string; label: string }[] = [
-  { kind: "drive", label: "驱动" },
-  { kind: "compute", label: "算力" },
-  { kind: "supply", label: "上游供应" },
-  { kind: "network", label: "网络" },
-  { kind: "energy", label: "能源" },
-  { kind: "same", label: "同公司" },
-];
+/* ---- 价值链分组：按产业链「层级」把相关产品分到一列一列（环节）---- */
+/** 层级 → 中文「环节」名（列首标签，像价值链里的 Design / Foundry / Packaging…）。 */
+const BAND_LABEL: Record<number, string> = {
+  0: "应用", 1: "太空算力", 2: "火箭发射", 3: "模型", 5: "计算芯片",
+  6: "部件·网络·存储", 6.5: "光模块", 7: "先进封装", 7.5: "代工·光芯片",
+  8.5: "设备·EDA", 9: "供电·散热", 9.5: "电网", 10: "发电·核电",
+};
 
-const RING_RADII = [205, 400, 600];
-/** 相关项目多时分多层同心圆摊开，避免挤成一团看不清。 */
-function ringPlan(n: number): { sizes: number[]; maxR: number } {
-  let sizes: number[];
-  if (n <= 13) sizes = [n];
-  else if (n <= 28) {
-    const a = Math.ceil(n * 0.4);
-    sizes = [a, n - a];
-  } else {
-    const a = Math.ceil(n * 0.26), b = Math.ceil(n * 0.34);
-    sizes = [a, b, n - a - b];
+export interface ChainCol {
+  rank: number;
+  label: string;
+  dir: "up" | "down";
+  items: TreeRelated[];
+}
+
+function groupByRank(list: TreeRelated[]): [number, TreeRelated[]][] {
+  const m = new Map<number, TreeRelated[]>();
+  for (const it of list) {
+    const arr = m.get(it.rank) ?? [];
+    arr.push(it);
+    m.set(it.rank, arr);
   }
-  return { sizes, maxR: RING_RADII[sizes.length - 1] };
+  return [...m.entries()];
+}
+
+/**
+ * 把相关产品组织成**横向价值链的列**：
+ *   · 上游(被依赖) → origin 左侧，按层级越上游越靠左
+ *   · 下游(去使用) → origin 右侧，按层级越下游越靠右
+ *   · 同侧(同公司 / 同行) → 底部一排
+ * 每一列是产业链上的一个「环节」（含环节名 + 该环节的若干公司/产品）。
+ */
+function valueChain(pid: string) {
+  const related = relatedTree(pid);
+  const origin = PRODUCTS[pid];
+  const toCol = (list: TreeRelated[], dir: "up" | "down"): ChainCol[] =>
+    groupByRank(list)
+      .sort((a, b) => b[0] - a[0]) // 高层级(更上游)在前 → 渲染时更靠左
+      .map(([rank, items]) => ({ rank, label: BAND_LABEL[rank] ?? "其它", dir, items }));
+  return {
+    origin,
+    related,
+    upCols: toCol(related.filter((r) => r.dir === "up"), "up"),
+    downCols: toCol(related.filter((r) => r.dir === "down"), "down"),
+    side: related.filter((r) => r.dir === "side"),
+  };
 }
 
 function StarMark() {
@@ -95,41 +168,35 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
   const [view, setView] = useState({ cx: 0, cy: 0, k: 0.4 });
   const [active, setActive] = useState<string | null>(null);
   const [tour, setTour] = useState<Tour | null>(null);
+  const [tourPath, setTourPath] = useState<string[]>([]); // 无限钻取的面包屑历史
+  const [panelCo, setPanelCo] = useState<string | null>(null);
   const [arrived, setArrived] = useState<string | null>(null);
   const [smooth, setSmooth] = useState(false);
   const ready = size.w > 0;
 
+  const originColRef = useRef<HTMLDivElement>(null);
   const drag = useRef<{ x: number; y: number; cx: number; cy: number; moved: boolean } | null>(null);
   const gestureMoved = useRef(false);
   const onBackground = useRef(false);
 
   /**
-   * 旅行路线（聚拢式）：把相关产品拉到出发产品**身边**围成一圈，
-   * 短线连接、不再横跨整张地图。
+   * 旅行路线（树状图）：以出发产品为根，把相关产品按产业链方向上下拆分——
+   * 上游(origin 依赖的) 在上、下游(依赖 origin 的) 在下，同公司/同行分到左右两侧。
    */
   const tourData = useMemo(() => {
     if (!tour) return null;
-    const origin = PRODUCTS[tour.productId];
-    if (!origin) return null;
-    // 显式关系（驱动/算力…）排前，「同公司」排后
-    const related = relatedProducts(tour.productId).sort(
-      (a, b) => (a.rel === "同公司" ? 1 : 0) - (b.rel === "同公司" ? 1 : 0)
+    if (!PRODUCTS[tour.productId]) return null;
+    return valueChain(tour.productId);
+  }, [tour]);
+
+  // 价值链打开/切根后，把「当前」这一列滚到水平中央（长链时上下游都能往两侧看）
+  useEffect(() => {
+    if (!tour) return;
+    const id = requestAnimationFrame(() =>
+      originColRef.current?.scrollIntoView({ inline: "center", block: "nearest" })
     );
-    const center = pos[origin.cityId];
-    const { sizes, maxR } = ringPlan(related.length);
-    // 多层同心圆摊开：内圈放跨公司供应链，外圈放同公司足迹
-    const nodes: (typeof related[number] & { x: number; y: number })[] = [];
-    let idx = 0;
-    sizes.forEach((cnt, ring) => {
-      const R = RING_RADII[ring];
-      for (let j = 0; j < cnt; j++) {
-        const r = related[idx++];
-        const ang = -Math.PI / 2 + (j * 2 * Math.PI) / cnt + (ring % 2) * (Math.PI / cnt);
-        nodes.push({ ...r, x: center.x + Math.cos(ang) * R, y: center.y + Math.sin(ang) * R });
-      }
-    });
-    return { origin, related, nodes, center, ringR: maxR };
-  }, [tour, pos]);
+    return () => cancelAnimationFrame(id);
+  }, [tour]);
 
   const fitPoints = useCallback(
     (cityIds: string[], maxK = KMAX, pad = 480) => {
@@ -180,7 +247,7 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
     const el = vpRef.current;
     if (!el) return;
     const onWheel = (e: WheelEvent) => {
-      if ((e.target as HTMLElement)?.closest(".atlas-card")) return;
+      if ((e.target as HTMLElement)?.closest(".atlas-card, .atlas-panel, .vchain")) return;
       e.preventDefault();
       const r = el.getBoundingClientRect();
       const mx = e.clientX - r.left, my = e.clientY - r.top;
@@ -200,7 +267,8 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== "Escape") return;
-      if (tour) exitTour();
+      if (panelCo) setPanelCo(null);
+      else if (tour) exitTour();
       else if (active) exitCity();
     };
     window.addEventListener("keydown", onKey);
@@ -215,7 +283,7 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
   const onPointerDown = (e: React.PointerEvent) => {
     const t = e.target as HTMLElement;
     onBackground.current = !t.closest(
-      ".city, .attraction, .tour-stop, .atlas-card, .atlas-top, .atlas-controls"
+      ".city, .attraction, .tour-node, .tour-origin, .atlas-card, .atlas-top, .atlas-controls, .atlas-panel"
     );
     drag.current = { x: e.clientX, y: e.clientY, cx: view.cx, cy: view.cy, moved: false };
     setSmooth(false);
@@ -251,31 +319,48 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
     setActive(null);
     setTour(null);
   };
-  /** 点产品 → 开启该产品的旅行路线（聚拢在身边，放大到看得清）。 */
-  const openTour = (productId: string) => {
-    if (gestureMoved.current) return;
+  /** 切换价值链的根产品（不动面包屑历史）。价值链是固定浮层，与地图缩放无关。 */
+  const focusTour = (productId: string) => {
     const origin = PRODUCTS[productId];
     if (!origin) return;
-    const { maxR } = ringPlan(relatedProducts(productId).length);
     setSmooth(true);
     setActive(null);
     setTour({ productId });
-    // 镜头对准出发城市，缩放把最外圈装进「卡片以上」的可视区，且字够大
-    const W = size.w, usableH = size.h - CARD_RESERVE;
-    const k = W && usableH > 0 ? clamp(Math.min(W, usableH) / (2 * (maxR + 130)), 0.45, 1.5) : K_FOCUS;
-    setView({ cx: pos[origin.cityId].x, cy: pos[origin.cityId].y, k });
+    // 镜头悄悄对准该产品所在城市，方便退出时回到对应位置
+    setView({ cx: pos[origin.cityId].x, cy: pos[origin.cityId].y, k: K_FOCUS });
+  };
+  /** 从城市里点产品 → 新开一条价值链（重置面包屑）。 */
+  const openTour = (productId: string) => {
+    if (gestureMoved.current || !PRODUCTS[productId]) return;
+    setTourPath([productId]);
+    focusTour(productId);
+  };
+  /** 点价值链里的某个产品 → 以它为根继续展开（无限循环钻取，追加面包屑）。 */
+  const hopTo = (productId: string) => {
+    if (gestureMoved.current || !PRODUCTS[productId]) return;
+    setTourPath((prev) => {
+      const at = prev.indexOf(productId);
+      return at >= 0 ? prev.slice(0, at + 1) : [...prev, productId];
+    });
+    focusTour(productId);
+  };
+  /** 点面包屑某一站 → 回到那一步。 */
+  const jumpTourTo = (i: number) => {
+    const id = tourPath[i];
+    if (!id) return;
+    setTourPath(tourPath.slice(0, i + 1));
+    focusTour(id);
   };
   const exitTour = () => {
     setSmooth(true);
     const origin = tour ? PRODUCTS[tour.productId] : null;
     setTour(null);
+    setTourPath([]);
     if (origin) {
       setActive(origin.cityId);
       setView({ cx: pos[origin.cityId].x, cy: pos[origin.cityId].y, k: K_FOCUS });
     }
   };
-  /** 行程里点某一站的产品 → 沿着这条线继续走（开启那个产品的路线）。 */
-  const hopTo = (productId: string) => openTour(productId);
   /** 地图上点某个站点城市 → 进入那座城市。 */
   const flyToLayer = (layer: string) => {
     setSmooth(true);
@@ -297,9 +382,48 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
     setView((v) => ({ ...v, k: clamp(v.k * f, KMIN, KMAX) }));
   };
 
+  /** 在左侧抽屉里打开公司详情（不跳页）。 */
+  const openCompanyPanel = (id?: string) => {
+    if (!id || !COMPANIES[id]) return;
+    setPanelCo(id);
+  };
+  /** 抽屉里点「地图环节」→ 让地图飞过去定位（城市则进城）。 */
+  const gotoNode = (nodeId: string) => {
+    const n = NODES[nodeId];
+    if (!n) return;
+    setSmooth(true);
+    setTour(null);
+    setPanelCo(null);
+    if (pos[nodeId]) {
+      setActive(nodeId);
+      setArrived(nodeId);
+      setView({ cx: pos[nodeId].x, cy: pos[nodeId].y, k: K_FOCUS });
+    } else if (CLUSTERS[nodeId]) {
+      setActive(null);
+      setView({ cx: CLUSTERS[nodeId].x, cy: CLUSTERS[nodeId].y, k: 0.5 });
+    }
+  };
+
   const activeNode = active && !tour ? NODES[active] : null;
   const activePlayers = activeNode ? getPlayers(active!) : [];
   const tourCo = tourData ? COMPANIES[tourData.origin.companyId ?? ""] : null;
+
+  /** 价值链里的一个产品/公司小卡——点它即以它为新根继续钻取（无限循环）。 */
+  const renderChip = (it: TreeRelated) => (
+    <button
+      key={it.id}
+      className="vchain-item"
+      title={it.note}
+      onClick={(e) => {
+        e.stopPropagation();
+        hopTo(it.id);
+      }}
+    >
+      <CompanyLogo companyId={it.companyId} size={24} />
+      <span className="vi-name">{it.name}</span>
+      <span className={`rel-tag ${relKind(it.rel)}`}>{it.rel}</span>
+    </button>
+  );
 
   return (
     <div
@@ -322,7 +446,8 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
           style={{ left: -5000, top: -5000 }}
           aria-hidden="true"
         >
-          {LAYER_IDS.map((layer) => {
+          {/* 价值链模式下隐去地理底图（区域水印 / 城市），只突出这条链 */}
+          {!tour && LAYER_IDS.map((layer) => {
             const c = CLUSTERS[layer];
             const r = clusterRadius(layer);
             const n = NODES[layer];
@@ -343,9 +468,9 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
             const cross = isCrossLayer(a, b);
             const hot = active && !tour && (a === active || b === active);
             return (
-              <line
+              <path
                 key={i}
-                x1={pos[a].x} y1={pos[a].y} x2={pos[b].x} y2={pos[b].y}
+                d={roadPath(pos[a], pos[b])}
                 className={`${cross ? "route" : "road"}${hot ? " hot" : ""}${tour ? " faded" : ""}`}
               />
             );
@@ -369,36 +494,22 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
               );
             })}
 
-          {/* 旅行路线：从出发产品连向围在身边的相关产品（短线） */}
-          {tourData && (
-            <>
-              <circle cx={tourData.center.x} cy={tourData.center.y} r={tourData.ringR + 26} className="city-aura" />
-              {tourData.nodes.map((nd) => (
-                <line
-                  key={nd.id}
-                  x1={tourData.center.x} y1={tourData.center.y} x2={nd.x} y2={nd.y}
-                  className="tour-route"
-                />
-              ))}
-            </>
-          )}
         </svg>
 
-        {/* 城市 */}
-        {ids.map((id) => {
+        {/* 城市（价值链模式下整片隐去，避免和居中产品/连线重叠） */}
+        {!tour && ids.map((id) => {
           const n = NODES[id];
           const p = pos[id];
           const Icon = n.icon ? ICONS[n.icon] : null;
           const count = getPlayers(id).length;
-          const isActive = !tour && active === id;
-          const isTourHub = tour && tourData?.origin.cityId === id;
-          const dim = (active && !isActive && !tour) || (!!tour && !isTourHub);
+          const isActive = active === id;
+          const dim = active && !isActive;
           return (
             <button
               key={id}
               className={`city${isActive ? " active" : ""}${dim ? " dim" : ""}${
-                isTourHub ? " on-route" : ""
-              }${arrived === id ? " arrived" : ""}`}
+                arrived === id ? " arrived" : ""
+              }`}
               style={{ left: p.x, top: p.y }}
               onClick={(e) => {
                 e.stopPropagation();
@@ -443,37 +554,83 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
             );
           })}
 
-        {/* 旅行模式：出发产品（中心）+ 围在身边的相关产品 */}
-        {tourData && (
-          <div
-            className="tour-origin"
-            style={{ left: tourData.center.x, top: tourData.center.y }}
-          >
-            <CompanyLogo companyId={tourData.origin.companyId} size={46} />
-            <span className="to-name">{tourData.origin.name}</span>
-          </div>
-        )}
-        {tourData &&
-          tourData.nodes.map((nd) => (
-            <button
-              key={nd.id}
-              className="tour-node"
-              style={{ left: nd.x, top: nd.y }}
-              title={nd.note}
-              onClick={(e) => {
-                e.stopPropagation();
-                hopTo(nd.id);
-              }}
-            >
-              <CompanyLogo companyId={nd.companyId} size={34} />
-              <span className="tn-name">{nd.name}</span>
-              <span className="tn-meta">
-                <span className={`rel-tag ${relKind(nd.rel)}`}>{nd.rel}</span>
-                <span className="tn-city">{NODES[nd.cityId]?.name}</span>
-              </span>
-            </button>
-          ))}
       </div>
+
+      {/* ---------- 价值链浮层（固定，不随地图缩放，避免重叠/过小） ---------- */}
+      {tourData && (
+        <div
+          className="vchain"
+          onPointerDown={(e) => e.stopPropagation()}
+          onClick={(e) => {
+            if (e.target === e.currentTarget) exitTour();
+          }}
+        >
+          <div className="vchain-bar">
+            <button className="atlas-back" onClick={exitTour}>← 返回地图</button>
+            {tourPath.length > 1 && (
+              <div className="tour-crumb">
+                {tourPath.map((id, i) => (
+                  <span key={id} className="tour-crumb-step">
+                    {i > 0 && <span className="sep">›</span>}
+                    <button
+                      className={i === tourPath.length - 1 ? "cur" : ""}
+                      onClick={() => jumpTourTo(i)}
+                    >
+                      {PRODUCTS[id]?.name ?? id}
+                    </button>
+                  </span>
+                ))}
+              </div>
+            )}
+            <span className="vchain-count">
+              上下游 {tourData.related.length} 项 · 点任意项继续无限钻取
+            </span>
+          </div>
+          <div className="vchain-ends">
+            <span>◀ 上游 UPSTREAM（被它依赖）</span>
+            <span>下游 DOWNSTREAM（去使用它）▶</span>
+          </div>
+          <div className="vchain-flow">
+            {tourData.upCols.map((col, ci) => (
+              <div key={`u${ci}`} className="vchain-col up">
+                <div className="vchain-col-head">{col.label}</div>
+                <div className="vchain-card">{col.items.map(renderChip)}</div>
+              </div>
+            ))}
+            <div className="vchain-col origin" ref={originColRef}>
+              <div className="vchain-col-head cur">当前</div>
+              <div className="vchain-card origin">
+                <CompanyLogo companyId={tourData.origin.companyId} size={44} />
+                <span className="vo-name">{tourData.origin.name}</span>
+                {tourCo && (
+                  <span className={`kind-badge ${tourCo.kind}`}>{KIND_LABEL[tourCo.kind]}</span>
+                )}
+                {tourData.origin.note && <p className="vo-note">{tourData.origin.note}</p>}
+                {tourCo && (
+                  <button
+                    className="vo-cta"
+                    onClick={() => openCompanyPanel(tourData.origin.companyId)}
+                  >
+                    查看 {tourCo.name} 主页 →
+                  </button>
+                )}
+              </div>
+            </div>
+            {tourData.downCols.map((col, ci) => (
+              <div key={`d${ci}`} className="vchain-col down">
+                <div className="vchain-col-head">{col.label}</div>
+                <div className="vchain-card">{col.items.map(renderChip)}</div>
+              </div>
+            ))}
+          </div>
+          {tourData.side.length > 0 && (
+            <div className="vchain-side">
+              <span className="vchain-side-label">同公司 / 同行</span>
+              <div className="vchain-card row">{tourData.side.map(renderChip)}</div>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* ---------- 浮层 UI ---------- */}
       <div className="atlas-top">
@@ -506,37 +663,24 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
         </div>
       )}
 
-      {/* 旅行行程卡 */}
-      {tourData && (
-        <div className="atlas-card tour">
-          <button className="atlas-back" onClick={exitTour}>← 返回地图</button>
-          <div className="tour-head">
-            <CompanyLogo companyId={tourData.origin.companyId} size={36} />
-            <div className="tour-head-t">
-              <h3>{tourData.origin.name}</h3>
-              <span className="atlas-card-en">
-                {tourData.origin.by ?? tourCo?.name}
-                {tourCo && <span className={`kind-badge ${tourCo.kind}`}>{KIND_LABEL[tourCo.kind]}</span>}
-              </span>
-            </div>
+      {/* 左侧公司详情抽屉（Google-Maps 式，不跳页） */}
+      {panelCo && COMPANIES[panelCo] && (
+        <aside
+          className="atlas-panel"
+          onPointerDown={(e) => e.stopPropagation()}
+        >
+          <div className="atlas-panel-bar">
+            <button className="atlas-back" onClick={() => setPanelCo(null)}>← 关闭</button>
+            <Link href={`/company/${panelCo}`} className="atlas-panel-full">整页查看 ↗</Link>
           </div>
-          {tourData.origin.note && <p>{tourData.origin.note}</p>}
-          <div className="tour-foot">
-            {tourCo && (
-              <Link href={`/company/${tourData.origin.companyId}`} className="tour-cta">
-                查看 {tourCo.name} 公司主页 →
-              </Link>
-            )}
-            <span className="tour-foot-hint">
-              身边 {tourData.related.length} 个相关项目 · 点图标继续逛
-            </span>
+          <div className="atlas-panel-body">
+            <CompanyDetail
+              c={COMPANIES[panelCo]}
+              onOpenCompany={openCompanyPanel}
+              onGotoNode={gotoNode}
+            />
           </div>
-          <div className="rel-legend">
-            {REL_LEGEND.map((l) => (
-              <span key={l.kind} className={`rel-tag ${l.kind}`}>{l.label}</span>
-            ))}
-          </div>
-        </div>
+        </aside>
       )}
 
       <div className="atlas-controls">

@@ -14,6 +14,66 @@ export interface Financial {
   netIncome: number; // 净利润，USD B
 }
 
+/** 股票 / 行情（对应 schema 的 Market 模块）。 */
+export interface Stock {
+  exchange: string;
+  ticker: string;
+  marketCapB?: number; // 市值，USD B
+  sharePrice?: number; // 股价
+  peRatio?: number; // 市盈率
+  grossMargin?: string; // 毛利率，如 "76%"
+  revenueTTM?: string; // 近 12 月营收，如 "$248B"
+  week52High?: number;
+  week52Low?: number;
+  dayChangePct?: string; // 当日涨跌，如 "+2.13%"
+}
+
+/** 代表性产品 / 平台（对应 schema 的 Products 模块）。 */
+export interface CompanyProduct {
+  name: string;
+  category?: string;
+  description?: string;
+  status?: string; // GA / Preview / ...
+}
+
+/** 一条新闻（对应 schema 的 News 模块）。 */
+export interface NewsItem {
+  title: string;
+  date?: string;
+  category?: string;
+  summary?: string;
+  url?: string;
+}
+
+/** 高管（对应 schema 的 Leadership 模块）。 */
+export interface Exec {
+  name: string;
+  title: string;
+}
+
+/** 评分（对应 schema 的 Metrics 模块），0–100。 */
+export interface Scores {
+  ai?: number;
+  moat?: number;
+  growth?: number;
+  innovation?: number;
+  community?: number;
+}
+
+/** 外链 / 社媒（对应 schema 的 Links 模块）。 */
+export interface CompanyLinks {
+  docs?: string;
+  developer?: string;
+  investor?: string;
+  blog?: string;
+  github?: string;
+  linkedin?: string;
+  x?: string;
+  youtube?: string;
+  discord?: string;
+  huggingface?: string;
+}
+
 export interface Company {
   id: string;
   name: string;
@@ -30,11 +90,43 @@ export interface Company {
   hq?: string;
   website?: string;
   aliases: string[]; // 把 players 的 `by` / `name` 文案匹配到本公司
-  stock?: { exchange: string; ticker: string; marketCapB?: number };
+  stock?: Stock;
   business: string;
   financials?: Financial[];
   competitors?: string[];
+
+  /* ---- 富信息（对应 AI_Company_Schema.xlsx；均可选，缺省时页面自动隐藏对应区块） ---- */
+  tagline?: string; // 一句话 slogan（缺省回退到 oneLiner）
+  description?: string; // 公司介绍（缺省回退到 business）
+  foundedYear?: number;
+  employees?: string; // 如 "36,000+"
+  country?: string;
+  status?: string; // Active / Acquired / IPO
+  coverImage?: string;
+  industry?: string; // 如 "AI 基础设施"
+  subcategory?: string; // 如 "GPU"
+  role?: string; // 在产业链中的角色
+  aiScore?: number; // AI Score，0–100（缺省回退到 scores.ai）
+  whyItMatters?: string[]; // 「为什么重要」要点
+  scores?: Scores;
+  products?: CompanyProduct[];
+  keyCustomers?: string[]; // 公司 id 优先，找不到则按原文显示
+  partners?: string[];
+  suppliers?: string[];
+  relatedCompanies?: string[];
+  investors?: string[];
+  leadership?: Exec[];
+  news?: NewsItem[];
+  links?: CompanyLinks;
+  tags?: string[];
 }
+
+/** 标语：优先 tagline，回退到 oneLiner。 */
+export const companyTagline = (c: Company): string => c.tagline ?? c.oneLiner;
+/** 介绍：优先 description，回退到 business。 */
+export const companyDescription = (c: Company): string => c.description ?? c.business;
+/** AI Score：优先 aiScore，回退到 scores.ai。 */
+export const companyAiScore = (c: Company): number | undefined => c.aiScore ?? c.scores?.ai;
 
 export const COMPANIES: Record<string, Company> = {
   /* ============ 上市·重点 ============ */
@@ -61,9 +153,53 @@ export const COMPANIES: Record<string, Company> = {
   nvda: {
     id: "nvda", name: "英伟达", nameEn: "NVIDIA", kind: "public", aliases: ["NVIDIA", "英伟达"],
     oneLiner: "AI 算力的「卖铲人」，GPU 与 CUDA 生态的绝对龙头。",
-    hq: "美国·圣克拉拉", website: "nvidia.com",
-    stock: { exchange: "NASDAQ", ticker: "NVDA", marketCapB: 3000 },
+    tagline: "为 AI 时代提供加速计算",
+    hq: "美国·圣克拉拉", country: "美国", website: "nvidia.com",
+    foundedYear: 1993, employees: "36,000+", status: "Active",
+    industry: "AI 基础设施", subcategory: "GPU", role: "算力",
+    stock: {
+      exchange: "NASDAQ", ticker: "NVDA", marketCapB: 5100,
+      sharePrice: 213.48, peRatio: 57.2, grossMargin: "76%", revenueTTM: "$248B",
+      week52High: 230, week52Low: 86, dayChangePct: "+2.13%",
+    },
     business: "数据中心 GPU(H100/Blackwell)、CUDA 软件栈、NVLink 互联、机器人(GR00T)与汽车平台。",
+    description:
+      "英伟达是全球加速计算的领导者。其 GPU、CUDA 软件平台与高速网络/系统，已成为现代 AI 基础设施的根基——从训练前沿大模型到大规模推理部署，几乎所有 AI 算力都跑在英伟达之上。",
+    aiScore: 96,
+    whyItMatters: [
+      "数据中心 AI 训练 GPU 市场份额超过 90%",
+      "CUDA 软件生态构筑十余年的深厚护城河",
+      "Blackwell 平台供不应求，订单排到明年",
+      "对整个 AI 产业链具有系统级影响力",
+    ],
+    scores: { ai: 96, moat: 97, growth: 95, innovation: 100, community: 93 },
+    products: [
+      { name: "Blackwell", category: "GPU", status: "GA", description: "新一代 AI 训练 / 推理 GPU 平台。" },
+      { name: "DGX", category: "系统", description: "开箱即用的 AI 超级计算机。" },
+      { name: "CUDA", category: "软件", description: "并行计算平台与编程模型，生态护城河。" },
+      { name: "Spectrum-X", category: "网络", description: "面向 AI 的高性能以太网平台。" },
+      { name: "NVLink", category: "互联", description: "GPU 之间的高速互联。" },
+      { name: "Omniverse", category: "仿真", description: "工业数字孪生与仿真平台。" },
+    ],
+    keyCustomers: ["msft", "meta", "amzn", "googl", "tsla"],
+    partners: ["tsm", "skhynix"],
+    suppliers: ["tsm", "skhynix", "asml"],
+    relatedCompanies: ["tsm", "asml", "avgo", "arm"],
+    leadership: [{ name: "黄仁勋", title: "创始人 / CEO" }],
+    news: [
+      { title: "Blackwell 平台全面售罄", date: "2026", category: "产品", summary: "新一代 GPU 需求超预期，产能排满。" },
+      { title: "英伟达与沙特达成 AI 算力合作", date: "2026", category: "合作", summary: "向中东大型 AI 数据中心供应算力。" },
+      { title: "市值站上 5 万亿美元", date: "2026", category: "市场", summary: "成为全球市值最高的公司之一。" },
+    ],
+    links: {
+      investor: "https://investor.nvidia.com",
+      developer: "https://developer.nvidia.com",
+      github: "https://github.com/NVIDIA",
+      linkedin: "https://www.linkedin.com/company/nvidia",
+      x: "https://x.com/nvidia",
+      youtube: "https://www.youtube.com/nvidia",
+    },
+    tags: ["GPU", "CUDA", "数据中心", "加速计算"],
     financials: [{ year: 2023, revenue: 60.9, netIncome: 29.8 }, { year: 2024, revenue: 130.5, netIncome: 72.9 }],
     competitors: ["amd", "avgo", "intc"],
   },

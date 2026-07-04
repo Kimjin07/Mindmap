@@ -507,6 +507,85 @@ export function relatedProducts(pid: string): Related[] {
     .map(([id, r]) => ({ ...PRODUCTS[id], rel: r }));
 }
 
+/** 上游(origin 依赖它) / 下游(它依赖 origin) / 同侧(同公司·同行·对标)。 */
+export type RelDir = "up" | "down" | "side";
+
+export interface TreeRelated extends Related {
+  dir: RelDir;
+  rank: number; // 供应链层级（越大越上游）
+}
+
+/**
+ * 每座城市在产业链上的「层级」：越下游(贴近用户)越小、越上游(贴近原料/能源)越大。
+ * 应用(0) → 模型(3) → 计算芯片(5) → 集群部件/互联/存储(6) → 光模块/光芯片(6.5–7.5)
+ *         → 封装/代工(7–7.5) → 半导体设备/EDA(8.5) → 能源(9–10)
+ */
+const CITY_RANK: Record<string, number> = {
+  // 应用层（终端产品，最下游）
+  chatbots: 0, digital_biology: 0, robotaxi: 0, enterprise: 0,
+  science: 0, robotics: 0, manufacturing: 0, ai_coder: 0,
+  // 太空（前沿应用 / 轨道基建）
+  orbital_dc: 1, satellite: 1, launch: 2,
+  // 模型层
+  llm: 3, vlm: 3, vla: 3, mmllm: 3, gpt: 3, dm: 3, gnn: 3, moe: 3, ssm: 3, lbm: 3,
+  // 计算芯片
+  gpu: 5, cpu: 5, dpu: 5,
+  // 集群部件：互联 / 网络 / 显存存储
+  nvlink: 6, network: 6, storage: 6,
+  // 光通信：下游设备(6) → 中游模块(6.5) → 上游光芯片(7.5)
+  opt_network: 6, opt_module: 6.5, opt_chip: 7.5,
+  // 制造：封装 → 代工 → 设备 / EDA
+  packaging: 7, foundry: 7.5, equipment: 8.5, eda: 8.5,
+  // 能源（最上游）
+  cooling: 9, power: 9, grid: 9.5, generation: 10, nuclear: 10,
+};
+/** 少数「混在应用城市里的部件/大脑」按真实层级修正。 */
+const PRODUCT_RANK: Record<string, number> = {
+  groot: 3, // 机器人大脑(模型)
+  jetson_robot: 5, // 机器人计算芯片
+  harmonic_drive: 7, // 谐波减速器(上游零部件)
+  teradyne_arm: 7, // 机械臂部件
+};
+const rankOf = (p: ProductEntry): number =>
+  PRODUCT_RANK[p.id] ?? CITY_RANK[p.cityId] ?? 3;
+
+/**
+ * 把相关产品按**产业链层级**归类，用于树状图上下拆分：
+ *   · 对端层级 > origin → 「上游」(origin 依赖它，如算力/部件/代工/能源)
+ *   · 对端层级 < origin → 「下游」(它依赖 origin)
+ *   · 层级相同 / 仅「同公司」足迹 → 「同侧」(同行·对标·同一家公司)
+ * 用层级而非 LINKS 的书写顺序，避免「供货 / 服务」等反向写法和重复连边造成的方向错乱。
+ */
+export function relatedTree(pid: string): TreeRelated[] {
+  const origin = PRODUCTS[pid];
+  if (!origin) return [];
+  const ro = rankOf(origin);
+  const map = new Map<string, { rel: string; dir: RelDir }>();
+  // ① 同公司足迹 → 同侧
+  if (origin.companyId) {
+    for (const e of Object.values(PRODUCTS)) {
+      if (e.id !== pid && e.companyId === origin.companyId) {
+        map.set(e.id, { rel: "同公司", dir: "side" });
+      }
+    }
+  }
+  // ② 显式供应/驱动关系 → 按层级定方向（覆盖「同公司」）
+  for (const [a, b, label] of LINKS) {
+    let other: string;
+    if (a === pid) other = b;
+    else if (b === pid) other = a;
+    else continue;
+    const op = PRODUCTS[other];
+    if (!op) continue;
+    const rr = rankOf(op);
+    const dir: RelDir = rr > ro ? "up" : rr < ro ? "down" : "side";
+    map.set(other, { rel: label, dir });
+  }
+  return [...map.entries()]
+    .filter(([id]) => PRODUCTS[id])
+    .map(([id, v]) => ({ ...PRODUCTS[id], rel: v.rel, dir: v.dir, rank: rankOf(PRODUCTS[id]) }));
+}
+
 /* ---------------- 公司足迹（公司页用） ---------------- */
 export interface Stop {
   cityId: string;
