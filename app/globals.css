@@ -566,7 +566,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 5px;
-  width: 116px;
+  width: 176px;
   padding: 6px;
   background: none;
   border: 0;
@@ -577,8 +577,8 @@ body {
 }
 .city-marker {
   position: relative;
-  width: 56px;
-  height: 56px;
+  width: 124px;
+  height: 124px;
   display: grid;
   place-items: center;
   border-radius: 50%;
@@ -587,8 +587,8 @@ body {
   transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 .city-marker svg {
-  width: 34px;
-  height: 34px;
+  width: 80px;
+  height: 80px;
   display: block;
 }
 .city:hover {
@@ -599,7 +599,7 @@ body {
   box-shadow: 0 0 18px rgba(var(--gold-rgb), 0.3);
 }
 .city-name {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   color: var(--ink-strong);
   line-height: 1.2;
@@ -607,7 +607,7 @@ body {
   max-width: 11ch;
 }
 .city-en {
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-dim);
@@ -717,7 +717,7 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 16px 20px;
+  padding: 16px 68px 16px 20px;
   pointer-events: none;
   background: linear-gradient(180deg, rgba(var(--shadow-rgb), 0.75), transparent);
 }
@@ -1162,6 +1162,8 @@ body {
 .rel-tag.supply  { color: var(--ink-soft); border-color: rgba(var(--gold-rgb), 0.45); }
 .rel-tag.network { color: var(--ink-dim); border-color: rgba(var(--gold-rgb), 0.4); }
 .rel-tag.energy  { color: var(--ink-dim); border-color: rgba(var(--gold-rgb), 0.4); }
+.rel-tag.rival   { color: #e0796b; border-color: rgba(224, 121, 107, 0.55); background: rgba(224, 121, 107, 0.12); }
+.rel-tag.invest  { color: #6fae7d; border-color: rgba(111, 174, 125, 0.55); background: rgba(111, 174, 125, 0.12); }
 .rel-tag.default { color: var(--gold-line); border-color: rgba(var(--gold-rgb), 0.4); }
 
 .rel-legend {
@@ -1955,7 +1957,8 @@ body {
   gap: 0;
   overflow-x: auto;
   overflow-y: hidden;
-  padding: 6px 4px 14px;
+  /* 左右各留半屏空档，无论关联多少都能把「当前」列滚到正中 */
+  padding: 6px 50% 14px;
 }
 .vchain-flow > .vchain-col:not(:last-child) {
   margin-right: 30px;
@@ -2102,6 +2105,48 @@ body {
 }
 .vchain-side .vchain-item {
   width: auto;
+}
+/* 国外 / 国内 两行并排（一上一下），每行前面带地区标签 */
+.vchain-side-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  align-items: stretch;
+  max-height: 26vh;
+  overflow-y: auto;
+}
+.vchain-side-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.vchain-side-row .vchain-card.row {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.region-tag {
+  flex: 0 0 auto;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 3px 9px;
+  border-radius: 6px;
+  border: 1px solid;
+  white-space: nowrap;
+  align-self: flex-start;
+  margin-top: 6px;
+}
+.region-tag.overseas {
+  color: var(--gold-bright);
+  border-color: rgba(var(--gold-rgb), 0.5);
+  background: rgba(var(--gold-rgb), 0.12);
+}
+.region-tag.domestic {
+  color: #e0796b;
+  border-color: rgba(224, 121, 107, 0.5);
+  background: rgba(224, 121, 107, 0.12);
 }
 
 @media (max-width: 720px) {

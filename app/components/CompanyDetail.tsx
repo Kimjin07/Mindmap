@@ -429,9 +429,11 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
             c.competitors?.length ||
             c.relatedCompanies?.length ||
             c.partners?.length ||
-            c.suppliers?.length) ? (
+            c.suppliers?.length ||
+            c.investors?.length) ? (
             <section className="company-card">
               <h2>关系网络</h2>
+              <RefColumn title="投资方 / 股东" refs={c.investors} />
               <RefColumn title="重要客户" refs={c.keyCustomers} />
               <RefColumn title="主要竞争对手" refs={c.competitors} />
               <RefColumn title="合作伙伴" refs={c.partners} />

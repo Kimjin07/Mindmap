@@ -138,7 +138,10 @@ export const COMPANIES: Record<string, Company> = {
     stock: { exchange: "NASDAQ", ticker: "MSFT", marketCapB: 3100 },
     business: "云计算(Azure)、生产力软件(Microsoft 365 + Copilot)、操作系统与游戏。Azure 是 OpenAI 模型的独家云底座。",
     financials: [{ year: 2023, revenue: 211.9, netIncome: 72.4 }, { year: 2024, revenue: 245.1, netIncome: 88.1 }],
-    competitors: ["googl", "crm", "now"],
+    competitors: ["googl", "amzn", "crm", "now"],
+    partners: ["openai", "nvda"],
+    relatedCompanies: ["openai"],
+    suppliers: ["nvda", "tsm"],
   },
   googl: {
     id: "googl", name: "谷歌母公司", nameEn: "Alphabet", kind: "public",
@@ -148,7 +151,10 @@ export const COMPANIES: Record<string, Company> = {
     stock: { exchange: "NASDAQ", ticker: "GOOGL", marketCapB: 2100 },
     business: "广告(搜索/YouTube)、谷歌云、安卓生态。旗下 DeepMind 产出 Gemini、AlphaFold、Waymo，自研 TPU 芯片。",
     financials: [{ year: 2023, revenue: 307.4, netIncome: 73.8 }, { year: 2024, revenue: 350.0, netIncome: 100.1 }],
-    competitors: ["msft", "meta", "nvda"],
+    competitors: ["msft", "meta", "amzn", "openai"],
+    partners: ["anthropic"],
+    relatedCompanies: ["anthropic"],
+    suppliers: ["tsm"],
   },
   nvda: {
     id: "nvda", name: "英伟达", nameEn: "NVIDIA", kind: "public", aliases: ["NVIDIA", "英伟达"],
@@ -219,14 +225,20 @@ export const COMPANIES: Record<string, Company> = {
     stock: { exchange: "NASDAQ", ticker: "META", marketCapB: 1300 },
     business: "社交广告(Facebook/Instagram/WhatsApp)、Reality Labs(VR/AR)。Llama 开源模型推动了整个开源 AI 生态。",
     financials: [{ year: 2023, revenue: 134.9, netIncome: 39.1 }, { year: 2024, revenue: 164.5, netIncome: 62.4 }],
-    competitors: ["googl", "msft"],
+    competitors: ["googl", "msft", "openai"],
+    partners: ["nvda"],
+    suppliers: ["nvda", "tsm"],
   },
   amd: {
     id: "amd", name: "超威半导体", nameEn: "AMD", kind: "public", aliases: ["AMD"],
     oneLiner: "英伟达在 GPU 与 CPU 上的主要挑战者。", hq: "美国·圣克拉拉", website: "amd.com",
     stock: { exchange: "NASDAQ", ticker: "AMD", marketCapB: 250 },
     business: "数据中心 GPU(Instinct MI300)、EPYC 服务器 CPU、消费级处理器与显卡。",
-    financials: [{ year: 2024, revenue: 25.8, netIncome: 1.6 }], competitors: ["nvda", "intc"],
+    financials: [{ year: 2024, revenue: 25.8, netIncome: 1.6 }],
+    competitors: ["nvda", "intc"],
+    keyCustomers: ["msft", "meta", "amzn", "openai"],
+    partners: ["tsm", "ualink"],
+    suppliers: ["tsm", "skhynix"],
   },
   intc: {
     id: "intc", name: "英特尔", nameEn: "Intel", kind: "public", aliases: ["Intel", "英特尔"],
@@ -254,7 +266,11 @@ export const COMPANIES: Record<string, Company> = {
     oneLiner: "全球先进芯片制造的绝对核心，英伟达/苹果都靠它代工。", hq: "中国台湾·新竹", website: "tsmc.com",
     stock: { exchange: "NYSE", ticker: "TSM", marketCapB: 900 },
     business: "晶圆代工龙头，掌握最先进制程(3nm/2nm)与 CoWoS 先进封装——AI 芯片产能的真正瓶颈。",
-    financials: [{ year: 2024, revenue: 90.0, netIncome: 36.0 }], competitors: ["intc"],
+    financials: [{ year: 2024, revenue: 90.0, netIncome: 36.0 }],
+    competitors: ["intc", "samsung"],
+    keyCustomers: ["nvda", "amd", "avgo"],
+    partners: ["asml"],
+    suppliers: ["asml", "amat", "lrcx", "klac"],
   },
   adbe: {
     id: "adbe", name: "Adobe", nameEn: "Adobe", kind: "public", aliases: ["Adobe"],
@@ -323,7 +339,9 @@ export const COMPANIES: Record<string, Company> = {
     oneLiner: "光通信器件与光模块的关键供应商。", hq: "美国·萨克森堡", website: "coherent.com",
     stock: { exchange: "NYSE", ticker: "COHR", marketCapB: 12 },
     business: "光模块、激光与光电子器件，为 AI 数据中心高速光互联提供核心元件。",
-    competitors: ["innolight", "eoptolink"],
+    competitors: ["lite", "aaoi", "fn"],
+    investors: ["nvda"],
+    keyCustomers: ["nvda", "csco"],
   },
 
   /* ============ 上市·补充 ============ */
@@ -346,7 +364,11 @@ export const COMPANIES: Record<string, Company> = {
     oneLiner: "云计算(AWS)龙头 + 电商，自研芯片与 Zoox 无人车。", hq: "美国·西雅图", website: "amazon.com",
     stock: { exchange: "NASDAQ", ticker: "AMZN", marketCapB: 2000 },
     business: "AWS 云、电商与广告，自研 Trainium/Inferentia 芯片，Zoox Robotaxi，重金投资 Anthropic。",
-    financials: [{ year: 2024, revenue: 638.0, netIncome: 59.2 }], competitors: ["msft", "googl"],
+    financials: [{ year: 2024, revenue: 638.0, netIncome: 59.2 }],
+    competitors: ["msft", "googl"],
+    partners: ["anthropic", "nvda"],
+    relatedCompanies: ["anthropic"],
+    suppliers: ["nvda", "tsm"],
   },
   pony: {
     id: "pony", name: "小马智行", nameEn: "Pony.ai", kind: "public", aliases: ["Pony.ai", "小马智行"],
@@ -377,8 +399,13 @@ export const COMPANIES: Record<string, Company> = {
     id: "arm", name: "Arm", nameEn: "Arm Holdings", kind: "public", aliases: ["Arm", "ARM 架构", "ARM"],
     oneLiner: "全球移动与低功耗芯片架构的事实标准。", hq: "英国·剑桥", website: "arm.com",
     stock: { exchange: "NASDAQ", ticker: "ARM", marketCapB: 130 },
-    business: "授权 CPU/GPU 架构(IP)，几乎所有手机与越来越多数据中心芯片基于 Arm 架构。",
+    business: "授权 CPU/GPU 架构(IP)，几乎所有手机与越来越多数据中心芯片基于 Arm 架构。数据中心里，英伟达 Grace、AWS Graviton/Trainium、Ampere 等都采用 Arm 架构。",
     competitors: ["intc", "amd"],
+    keyCustomers: ["nvda", "amzn", "avgo", "mrvl"],
+    partners: ["tsm", "snps", "cdns"],
+    relatedCompanies: ["nvda", "tsm"],
+    role: "芯片架构 / IP 授权",
+    industry: "半导体 IP", subcategory: "CPU 架构",
   },
   pstg: {
     id: "pstg", name: "Pure Storage", nameEn: "Pure Storage", kind: "public", aliases: ["Pure Storage"],
@@ -691,19 +718,29 @@ export const COMPANIES: Record<string, Company> = {
     oneLiner: "ChatGPT 与 GPT/o 系列、Sora 的缔造者，本轮 AI 浪潮的引爆点。",
     hq: "美国·旧金山", website: "openai.com",
     business: "前沿大模型(GPT/o 系列)、ChatGPT 产品、Sora 视频生成、API 平台。微软是其最大投资方与云伙伴。",
-    competitors: ["googl", "anthropic", "xai"],
+    competitors: ["googl", "anthropic", "xai", "mistral"],
+    investors: ["msft", "nvda"],
+    partners: ["msft", "nvda", "onex"],
+    keyCustomers: ["msft", "anysphere", "replit", "glean"],
+    suppliers: ["nvda", "msft"],
   },
   anthropic: {
     id: "anthropic", name: "Anthropic", nameEn: "Anthropic", kind: "private", aliases: ["Anthropic"],
     oneLiner: "Claude 系列大模型的研发公司，主打安全与编程能力。",
     hq: "美国·旧金山", website: "anthropic.com",
     business: "Claude 大模型与 API，强调 AI 安全(Constitutional AI)，编程与智能体能力突出。亚马逊、谷歌为主要投资方。",
-    competitors: ["openai", "googl"],
+    competitors: ["openai", "googl", "xai", "mistral"],
+    investors: ["amzn", "googl"],
+    partners: ["amzn", "googl", "nvda"],
+    keyCustomers: ["anysphere", "codeium", "replit", "glean"],
+    suppliers: ["nvda", "amzn"],
   },
   xai: {
     id: "xai", name: "xAI", nameEn: "xAI", kind: "private", aliases: ["xAI"],
     oneLiner: "马斯克创立的 AI 公司，产品为 Grok。", hq: "美国·旧金山", website: "x.ai",
-    business: "Grok 大模型，深度绑定 X 平台数据，自建 Colossus 超大算力集群。", competitors: ["openai", "googl"],
+    business: "Grok 大模型，深度绑定 X 平台数据，自建 Colossus 超大算力集群。",
+    competitors: ["openai", "googl", "anthropic"],
+    partners: ["nvda"], suppliers: ["nvda", "skhynix"],
   },
   deepseek: {
     id: "deepseek", name: "深度求索", nameEn: "DeepSeek", kind: "private", aliases: ["深度求索", "DeepSeek", "幻方"],
@@ -728,7 +765,10 @@ export const COMPANIES: Record<string, Company> = {
     id: "figure", name: "Figure", nameEn: "Figure AI", kind: "private", aliases: ["Figure"],
     oneLiner: "明星人形机器人初创，主打通用具身智能。", hq: "美国·桑尼维尔", website: "figure.ai",
     business: "Figure 人形机器人与自研 Helix VLA 模型，目标工厂与家庭通用作业。",
-    competitors: ["tsla", "bostondynamics", "onex"],
+    competitors: ["tsla", "bostondynamics", "onex", "apptronik", "agility"],
+    investors: ["msft", "nvda", "openai"],
+    partners: ["nvda"],
+    suppliers: ["nvda", "harmonic"],
   },
   agility: {
     id: "agility", name: "Agility Robotics", nameEn: "Agility Robotics", kind: "private", aliases: ["Agility Robotics", "Agility"],
@@ -738,7 +778,10 @@ export const COMPANIES: Record<string, Company> = {
   apptronik: {
     id: "apptronik", name: "Apptronik", nameEn: "Apptronik", kind: "private", aliases: ["Apptronik"],
     oneLiner: "人形机器人 Apollo 的开发商，与奔驰、GXO 合作。", hq: "美国·奥斯汀", website: "apptronik.com",
-    business: "Apollo 通用人形机器人，瞄准制造与物流，获谷歌等投资。", competitors: ["figure", "agility", "tsla"],
+    business: "Apollo 通用人形机器人，瞄准制造与物流，获谷歌等投资。",
+    competitors: ["figure", "agility", "tsla", "bostondynamics"],
+    investors: ["googl"],
+    suppliers: ["nvda"],
   },
   unitree: {
     id: "unitree", name: "宇树科技", nameEn: "Unitree", kind: "private", aliases: ["Unitree", "宇树", "宇树科技"],
@@ -748,7 +791,10 @@ export const COMPANIES: Record<string, Company> = {
   onex: {
     id: "onex", name: "1X", nameEn: "1X Technologies", kind: "private", aliases: ["1X", "1X NEO"],
     oneLiner: "挪威人形机器人公司，主打家用机器人 NEO。", hq: "挪威·莫斯", website: "1x.tech",
-    business: "NEO 家用人形机器人，OpenAI 为投资方之一。", competitors: ["figure", "tsla"],
+    business: "NEO 家用人形机器人，OpenAI 为投资方之一。",
+    competitors: ["figure", "tsla", "apptronik"],
+    investors: ["openai"],
+    suppliers: ["nvda"],
   },
   anysphere: {
     id: "anysphere", name: "Anysphere", nameEn: "Anysphere (Cursor)", kind: "private", aliases: ["Anysphere", "Cursor"],
@@ -786,7 +832,9 @@ export const COMPANIES: Record<string, Company> = {
     id: "physicalint", name: "Physical Intelligence", nameEn: "Physical Intelligence", kind: "private", aliases: ["Physical Intelligence", "π0", "Pi"],
     oneLiner: "机器人基础模型公司，打造通用「动作大模型」。", hq: "美国·旧金山", website: "physicalintelligence.company",
     business: "π0 等跨本体通用机器人策略模型，目标让一个模型驱动各种机器人。",
-    competitors: ["covariant", "googl"],
+    competitors: ["covariant", "googl", "figure"],
+    investors: ["openai"],
+    suppliers: ["nvda"],
   },
   covariant: {
     id: "covariant", name: "Covariant", nameEn: "Covariant", kind: "private", aliases: ["Covariant"],
@@ -849,6 +897,531 @@ export const COMPANIES: Record<string, Company> = {
     business: "AMD、博通、谷歌等共同推动的开放 GPU/加速器高速互联标准，挑战英伟达 NVLink。",
     competitors: ["nvda"],
   },
+
+  /* ============ 扩充·生成式媒体（语音 / 音乐 / 视频 / 数字人）============ */
+  elevenlabs: {
+    id: "elevenlabs", name: "ElevenLabs", nameEn: "ElevenLabs", kind: "private", aliases: ["ElevenLabs", "11Labs"],
+    oneLiner: "最逼真的 AI 语音合成与配音平台。", hq: "美国·纽约", website: "elevenlabs.io",
+    business: "文本转语音、语音克隆与多语种配音 API，广泛用于有声书、游戏与视频创作。",
+    competitors: ["openai", "runwayml"],
+  },
+  runwayml: {
+    id: "runwayml", name: "Runway", nameEn: "Runway", kind: "private", aliases: ["Runway", "RunwayML"],
+    oneLiner: "AI 视频生成先驱，Gen 系列模型。", hq: "美国·纽约", website: "runwayml.com",
+    business: "Gen-3/Gen-4 文生视频与视频编辑工具，面向影视与广告创作。",
+    competitors: ["openai", "pika", "luma", "googl"],
+  },
+  pika: {
+    id: "pika", name: "Pika", nameEn: "Pika Labs", kind: "private", aliases: ["Pika", "Pika Labs"],
+    oneLiner: "主打易用与特效的 AI 视频生成。", hq: "美国·帕洛阿尔托", website: "pika.art",
+    business: "文/图生视频与创意特效，社区驱动增长快。", competitors: ["runwayml", "luma", "openai"],
+  },
+  luma: {
+    id: "luma", name: "Luma AI", nameEn: "Luma AI", kind: "private", aliases: ["Luma", "Luma AI", "Dream Machine"],
+    oneLiner: "Dream Machine 视频生成与 3D 重建。", hq: "美国·帕洛阿尔托", website: "lumalabs.ai",
+    business: "Dream Machine 文生视频与 NeRF/3D 捕捉，兼顾视频与三维内容。",
+    competitors: ["runwayml", "pika", "openai"],
+  },
+  suno: {
+    id: "suno", name: "Suno", nameEn: "Suno", kind: "private", aliases: ["Suno"],
+    oneLiner: "现象级 AI 音乐生成，一句话生成整首歌。", hq: "美国·剑桥(麻省)", website: "suno.com",
+    business: "文本生成带人声的完整歌曲，重塑音乐创作，面临版权争议。", competitors: ["udio"],
+  },
+  udio: {
+    id: "udio", name: "Udio", nameEn: "Udio", kind: "private", aliases: ["Udio"],
+    oneLiner: "高音质 AI 音乐生成，Suno 的主要对手。", hq: "美国·纽约", website: "udio.com",
+    business: "AI 音乐生成平台，主打音质与可控性。", competitors: ["suno"],
+  },
+  heygen: {
+    id: "heygen", name: "HeyGen", nameEn: "HeyGen", kind: "private", aliases: ["HeyGen"],
+    oneLiner: "AI 数字人视频与口播生成。", hq: "美国·洛杉矶", website: "heygen.com",
+    business: "用 AI 头像 + 语音克隆批量生成多语种口播视频，主攻营销与培训。",
+    competitors: ["synthesia", "elevenlabs"],
+  },
+  synthesia: {
+    id: "synthesia", name: "Synthesia", nameEn: "Synthesia", kind: "private", aliases: ["Synthesia"],
+    oneLiner: "企业级 AI 数字人视频平台。", hq: "英国·伦敦", website: "synthesia.io",
+    business: "AI 虚拟主播生成企业培训与沟通视频，客户覆盖大量世界 500 强。",
+    competitors: ["heygen"],
+  },
+  ideogram: {
+    id: "ideogram", name: "Ideogram", nameEn: "Ideogram", kind: "private", aliases: ["Ideogram"],
+    oneLiner: "擅长文字排版的 AI 图像生成。", hq: "美国·多伦多/旧金山", website: "ideogram.ai",
+    business: "文生图工具，尤其擅长在图中准确生成文字与海报排版。",
+    competitors: ["midjourney", "openai", "adbe"],
+  },
+  blackforest: {
+    id: "blackforest", name: "Black Forest Labs", nameEn: "Black Forest Labs", kind: "private", aliases: ["Black Forest Labs", "FLUX", "Flux"],
+    oneLiner: "开源图像模型 FLUX 的开发商，原 Stable Diffusion 核心团队。",
+    hq: "德国·弗莱堡", website: "blackforestlabs.ai",
+    business: "FLUX 系列高质量开源/商用图像生成模型，被 X(Grok) 等集成。",
+    competitors: ["stabilityai", "midjourney", "openai"],
+  },
+
+  /* ============ 扩充·AI 加速芯片（新架构）============ */
+  groq: {
+    id: "groq", name: "Groq", nameEn: "Groq", kind: "private", aliases: ["Groq", "LPU"],
+    oneLiner: "LPU 推理芯片，主打超低延迟大模型推理。", hq: "美国·山景城", website: "groq.com",
+    business: "自研 LPU(语言处理单元)与 GroqCloud，以极快的 token 生成速度切入推理市场。",
+    competitors: ["nvda", "cerebras", "sambanova"],
+  },
+  cerebras: {
+    id: "cerebras", name: "Cerebras", nameEn: "Cerebras Systems", kind: "private", aliases: ["Cerebras"],
+    oneLiner: "晶圆级引擎(WSE)——世界最大的 AI 芯片。", hq: "美国·森尼维尔", website: "cerebras.ai",
+    business: "把整块晶圆做成一颗巨型芯片(WSE-3)，主打超大模型训练与高速推理。",
+    competitors: ["nvda", "groq", "sambanova"],
+  },
+  sambanova: {
+    id: "sambanova", name: "SambaNova", nameEn: "SambaNova Systems", kind: "private", aliases: ["SambaNova"],
+    oneLiner: "数据流架构 AI 芯片与整机系统。", hq: "美国·帕洛阿尔托", website: "sambanova.ai",
+    business: "可重构数据流单元(RDU)与 AI 一体机，面向企业私有部署大模型。",
+    competitors: ["nvda", "groq", "cerebras"],
+  },
+  graphcore: {
+    id: "graphcore", name: "Graphcore", nameEn: "Graphcore", kind: "private", aliases: ["Graphcore", "IPU"],
+    oneLiner: "IPU 智能处理器，已被软银收购。", hq: "英国·布里斯托", website: "graphcore.ai",
+    business: "IPU(智能处理单元)架构 AI 芯片，2024 年被软银收购。",
+    competitors: ["nvda", "cerebras"],
+  },
+  tenstorrent: {
+    id: "tenstorrent", name: "Tenstorrent", nameEn: "Tenstorrent", kind: "private", aliases: ["Tenstorrent"],
+    oneLiner: "Jim Keller 掌舵的 RISC-V + AI 芯片新锐。", hq: "加拿大·多伦多", website: "tenstorrent.com",
+    business: "基于 RISC-V 的 AI 处理器与 IP 授权，走开放路线挑战英伟达。",
+    competitors: ["nvda", "arm", "amd"],
+  },
+  etched: {
+    id: "etched", name: "Etched", nameEn: "Etched", kind: "private", aliases: ["Etched", "Sohu"],
+    oneLiner: "把 Transformer 直接刻进芯片的 ASIC。", hq: "美国·库比蒂诺", website: "etched.com",
+    business: "Sohu 芯片专为 Transformer 架构定制，宣称推理吞吐远超 GPU。",
+    competitors: ["nvda", "groq"],
+  },
+
+  /* ============ 扩充·AI 云算力（Neoclouds）============ */
+  crwv: {
+    id: "crwv", name: "CoreWeave", nameEn: "CoreWeave", kind: "public", aliases: ["CoreWeave"],
+    oneLiner: "最大的 AI 专属 GPU 云，2025 年上市。", hq: "美国·利文斯顿", website: "coreweave.com",
+    stock: { exchange: "NASDAQ", ticker: "CRWV", marketCapB: 70 },
+    business: "以英伟达 GPU 为核心的 AI 云算力租赁，微软、OpenAI 等为大客户。",
+    competitors: ["lambda", "crusoe", "nbis", "amzn"], keyCustomers: ["msft", "openai"], suppliers: ["nvda"],
+  },
+  lambda: {
+    id: "lambda", name: "Lambda", nameEn: "Lambda", kind: "private", aliases: ["Lambda", "Lambda Labs"],
+    oneLiner: "面向研究者与企业的 GPU 云与工作站。", hq: "美国·旧金山", website: "lambdalabs.com",
+    business: "GPU 云、AI 工作站与集群，主打易用与性价比。", competitors: ["crwv", "crusoe"], suppliers: ["nvda"],
+  },
+  crusoe: {
+    id: "crusoe", name: "Crusoe", nameEn: "Crusoe Energy", kind: "private", aliases: ["Crusoe", "Crusoe Energy"],
+    oneLiner: "用低碳能源驱动的 AI 数据中心与 GPU 云。", hq: "美国·丹佛", website: "crusoe.ai",
+    business: "自建低碳(弃电/天然气)供电的 AI 数据中心与 GPU 云，绑定能源与算力。",
+    competitors: ["crwv", "lambda"], suppliers: ["nvda"],
+  },
+  nbis: {
+    id: "nbis", name: "Nebius", nameEn: "Nebius Group", kind: "public", aliases: ["Nebius"],
+    oneLiner: "源自 Yandex 的欧洲 AI 云算力商。", hq: "荷兰·阿姆斯特丹", website: "nebius.com",
+    stock: { exchange: "NASDAQ", ticker: "NBIS", marketCapB: 20 },
+    business: "全栈 AI 云与 GPU 算力，自建数据中心，英伟达为战略投资方之一。",
+    competitors: ["crwv", "lambda", "crusoe"], suppliers: ["nvda"], investors: ["nvda"],
+  },
+  together: {
+    id: "together", name: "Together AI", nameEn: "Together AI", kind: "private", aliases: ["Together", "Together AI"],
+    oneLiner: "开源模型的推理/训练云平台。", hq: "美国·旧金山", website: "together.ai",
+    business: "为开源大模型提供高性价比推理与微调云，主打开放生态。",
+    competitors: ["fireworks", "crwv"], suppliers: ["nvda"],
+  },
+  fireworks: {
+    id: "fireworks", name: "Fireworks AI", nameEn: "Fireworks AI", kind: "private", aliases: ["Fireworks", "Fireworks AI"],
+    oneLiner: "极速开源模型推理平台。", hq: "美国·雷德伍德城", website: "fireworks.ai",
+    business: "面向开发者的高速、低成本大模型推理 API，主打开源模型托管。",
+    competitors: ["together", "openai"],
+  },
+
+  /* ============ 扩充·AI 开发框架 / 数据底座 ============ */
+  huggingface: {
+    id: "huggingface", name: "Hugging Face", nameEn: "Hugging Face", kind: "private", aliases: ["Hugging Face", "HuggingFace"],
+    oneLiner: "开源 AI 社区与模型托管中心——AI 界的 GitHub。", hq: "美国·纽约", website: "huggingface.co",
+    business: "模型/数据集托管、Transformers 库与协作平台，开源 AI 生态的枢纽。",
+    competitors: ["googl", "msft"],
+  },
+  databricks: {
+    id: "databricks", name: "Databricks", nameEn: "Databricks", kind: "private", aliases: ["Databricks", "DBRX", "Mosaic", "MosaicML"],
+    oneLiner: "数据 + AI 一体化平台，估值最高的 AI 独角兽之一。", hq: "美国·旧金山", website: "databricks.com",
+    business: "湖仓一体(Lakehouse)数据平台与 DBRX 开源模型，帮企业用自有数据训练/部署 AI。",
+    competitors: ["snow", "msft", "googl"],
+  },
+  snow: {
+    id: "snow", name: "Snowflake", nameEn: "Snowflake", kind: "public", aliases: ["Snowflake"],
+    oneLiner: "云数据仓库龙头，向 AI 数据平台延伸。", hq: "美国·博兹曼", website: "snowflake.com",
+    stock: { exchange: "NYSE", ticker: "SNOW", marketCapB: 60 },
+    business: "云数据云与 Cortex AI，帮企业在数据上直接跑 AI。", competitors: ["databricks", "msft"],
+  },
+  pinecone: {
+    id: "pinecone", name: "Pinecone", nameEn: "Pinecone", kind: "private", aliases: ["Pinecone"],
+    oneLiner: "最流行的向量数据库，RAG 标配。", hq: "美国·纽约", website: "pinecone.io",
+    business: "托管向量数据库，为检索增强(RAG)与语义搜索提供长期记忆。",
+    competitors: ["weaviate", "chroma"],
+  },
+  weaviate: {
+    id: "weaviate", name: "Weaviate", nameEn: "Weaviate", kind: "private", aliases: ["Weaviate"],
+    oneLiner: "开源向量数据库。", hq: "荷兰·阿姆斯特丹", website: "weaviate.io",
+    business: "开源向量数据库与混合检索，面向 RAG 与 AI 搜索。", competitors: ["pinecone", "chroma"],
+  },
+  chroma: {
+    id: "chroma", name: "Chroma", nameEn: "Chroma", kind: "private", aliases: ["Chroma", "ChromaDB"],
+    oneLiner: "开发者友好的开源向量库。", hq: "美国·旧金山", website: "trychroma.com",
+    business: "轻量开源向量数据库，深受 AI 应用开发者欢迎。", competitors: ["pinecone", "weaviate"],
+  },
+  langchain: {
+    id: "langchain", name: "LangChain", nameEn: "LangChain", kind: "private", aliases: ["LangChain", "LangGraph"],
+    oneLiner: "最流行的大模型应用编排框架。", hq: "美国·旧金山", website: "langchain.com",
+    business: "LangChain/LangGraph 开发框架与 LangSmith 可观测平台，串起模型、工具与数据。",
+    competitors: ["llamaindex"],
+  },
+  llamaindex: {
+    id: "llamaindex", name: "LlamaIndex", nameEn: "LlamaIndex", kind: "private", aliases: ["LlamaIndex"],
+    oneLiner: "面向 RAG 的数据编排框架。", hq: "美国·旧金山", website: "llamaindex.ai",
+    business: "把企业数据接进大模型的检索/索引框架，主攻知识型 AI 应用。",
+    competitors: ["langchain"],
+  },
+  scaleai: {
+    id: "scaleai", name: "Scale AI", nameEn: "Scale AI", kind: "private", aliases: ["Scale AI", "Scale"],
+    oneLiner: "AI 训练数据标注与评测龙头。", hq: "美国·旧金山", website: "scale.com",
+    business: "为大模型提供数据标注、RLHF 与评测，Meta 于 2025 年大额入股。",
+    competitors: ["surge"], investors: ["meta"], keyCustomers: ["openai", "meta"],
+  },
+  surge: {
+    id: "surge", name: "Surge AI", nameEn: "Surge AI", kind: "private", aliases: ["Surge AI", "Surge"],
+    oneLiner: "高质量 RLHF 数据标注新贵。", hq: "美国·旧金山", website: "surgehq.ai",
+    business: "面向前沿实验室的高质量人类反馈与数据标注服务。", competitors: ["scaleai"],
+  },
+
+  /* ============ 扩充·大模型 / 实验室 ============ */
+  cohere: {
+    id: "cohere", name: "Cohere", nameEn: "Cohere", kind: "private", aliases: ["Cohere", "Command"],
+    oneLiner: "面向企业的大模型公司，主打私有部署。", hq: "加拿大·多伦多", website: "cohere.com",
+    business: "Command 系列大模型与 Embed/Rerank 检索模型，专注企业级安全部署。",
+    competitors: ["openai", "anthropic", "mistral"],
+  },
+  reka: {
+    id: "reka", name: "Reka AI", nameEn: "Reka AI", kind: "private", aliases: ["Reka", "Reka AI"],
+    oneLiner: "多模态大模型新锐。", hq: "美国·旧金山", website: "reka.ai",
+    business: "Reka 系列原生多模态模型，团队来自 DeepMind/FAIR。", competitors: ["openai", "googl"],
+  },
+  zeroone: {
+    id: "zeroone", name: "零一万物", nameEn: "01.AI", kind: "private", aliases: ["零一万物", "01.AI", "Yi"],
+    oneLiner: "李开复创立的中国大模型公司，Yi 系列开源。", hq: "中国·北京", website: "01.ai",
+    business: "Yi 系列开源大模型与应用，主打高性价比与中英双语。", competitors: ["deepseek", "baba", "moonshot2"],
+  },
+  moonshot2: {
+    id: "moonshot2", name: "月之暗面", nameEn: "Moonshot AI", kind: "private", aliases: ["月之暗面", "Moonshot", "Kimi"],
+    oneLiner: "中国大模型独角兽，Kimi 以超长上下文见长。", hq: "中国·北京", website: "moonshot.cn",
+    business: "Kimi 助手与月之暗面大模型，长上下文能力突出。", competitors: ["deepseek", "zeroone", "baba"], investors: ["baba"],
+  },
+
+  /* ============ 扩充·代码 / 企业智能体 ============ */
+  cognition: {
+    id: "cognition", name: "Cognition", nameEn: "Cognition AI", kind: "private", aliases: ["Cognition", "Devin"],
+    oneLiner: "首个「AI 软件工程师」Devin 的开发商。", hq: "美国·纽约", website: "cognition.ai",
+    business: "Devin —— 能自主完成编程任务的 AI 智能体，2025 年收购 Windsurf。",
+    competitors: ["anysphere", "msft", "replit"],
+  },
+  tabnine: {
+    id: "tabnine", name: "Tabnine", nameEn: "Tabnine", kind: "private", aliases: ["Tabnine"],
+    oneLiner: "注重隐私与私有部署的 AI 代码助手。", hq: "以色列·特拉维夫", website: "tabnine.com",
+    business: "企业级 AI 代码补全与智能体，支持私有化与合规部署。",
+    competitors: ["msft", "anysphere", "codeium"],
+  },
+  vercel: {
+    id: "vercel", name: "Vercel", nameEn: "Vercel", kind: "private", aliases: ["Vercel", "v0"],
+    oneLiner: "前端云平台，v0 用 AI 生成界面。", hq: "美国·旧金山", website: "vercel.com",
+    business: "Next.js 与前端部署云，v0 从提示词生成可用 UI 代码。",
+    competitors: ["replit", "anysphere"],
+  },
+  writer: {
+    id: "writer", name: "Writer", nameEn: "Writer", kind: "private", aliases: ["Writer", "Writer AI"],
+    oneLiner: "面向企业的全栈生成式 AI 平台。", hq: "美国·旧金山", website: "writer.com",
+    business: "自研 Palmyra 模型与企业工作流平台，主攻大企业内容与知识场景。",
+    competitors: ["crm", "glean", "cohere"],
+  },
+  sierra: {
+    id: "sierra", name: "Sierra", nameEn: "Sierra", kind: "private", aliases: ["Sierra", "Sierra AI"],
+    oneLiner: "Bret Taylor 创立的企业级 AI 客服智能体。", hq: "美国·旧金山", website: "sierra.ai",
+    business: "面向企业的对话式 AI 客服智能体平台，主打真实业务落地。",
+    competitors: ["crm", "decagon"],
+  },
+  decagon: {
+    id: "decagon", name: "Decagon", nameEn: "Decagon", kind: "private", aliases: ["Decagon"],
+    oneLiner: "AI 客服智能体新贵。", hq: "美国·旧金山", website: "decagon.ai",
+    business: "面向企业的 AI 客服智能体，自动化大规模客户支持。", competitors: ["sierra", "crm"],
+  },
+  harvey: {
+    id: "harvey", name: "Harvey", nameEn: "Harvey", kind: "private", aliases: ["Harvey", "Harvey AI"],
+    oneLiner: "法律行业专用的 AI 智能体。", hq: "美国·旧金山", website: "harvey.ai",
+    business: "面向律所与法务的生成式 AI，处理合同、检索与起草。",
+    competitors: ["openai", "thomson"],
+  },
+  hebbia: {
+    id: "hebbia", name: "Hebbia", nameEn: "Hebbia", kind: "private", aliases: ["Hebbia"],
+    oneLiner: "面向金融/专业服务的 AI 知识智能体。", hq: "美国·纽约", website: "hebbia.com",
+    business: "Matrix 平台对海量文档做检索与分析，主攻投行、PE 等专业场景。",
+    competitors: ["glean", "openai"],
+  },
+  characterai: {
+    id: "characterai", name: "Character.AI", nameEn: "Character.AI", kind: "private", aliases: ["Character.AI", "Character AI", "c.ai"],
+    oneLiner: "AI 角色扮演聊天平台，用户黏性极高。", hq: "美国·门洛帕克", website: "character.ai",
+    business: "可自定义 AI 角色的对话娱乐平台；核心团队 2024 年加入谷歌。",
+    competitors: ["openai", "meta"], investors: ["googl"],
+  },
+  inflection: {
+    id: "inflection", name: "Inflection AI", nameEn: "Inflection AI", kind: "private", aliases: ["Inflection", "Pi"],
+    oneLiner: "个人 AI 助手 Pi 的开发商，后转向企业。", hq: "美国·帕洛阿尔托", website: "inflection.ai",
+    business: "曾推出情感陪伴助手 Pi，2024 年核心团队加入微软，转向企业 AI。",
+    competitors: ["openai", "msft"],
+  },
+
+  /* ============ 扩充·机器人 / 自动驾驶 ============ */
+  sanctuary: {
+    id: "sanctuary", name: "Sanctuary AI", nameEn: "Sanctuary AI", kind: "private", aliases: ["Sanctuary", "Sanctuary AI"],
+    oneLiner: "加拿大人形机器人公司，主打灵巧手操作。", hq: "加拿大·温哥华", website: "sanctuary.ai",
+    business: "Phoenix 人形机器人与 Carbon 控制系统，强调类人灵巧操作。",
+    competitors: ["figure", "tsla", "apptronik"],
+  },
+  fourier: {
+    id: "fourier", name: "傅利叶", nameEn: "Fourier Intelligence", kind: "private", aliases: ["傅利叶", "Fourier", "Fourier Intelligence"],
+    oneLiner: "中国人形与康复机器人公司。", hq: "中国·上海", website: "fftai.com",
+    business: "GR 系列通用人形机器人与康复机器人，产学结合落地。",
+    competitors: ["unitree", "tsla", "figure"],
+  },
+  mbly: {
+    id: "mbly", name: "Mobileye", nameEn: "Mobileye", kind: "public", aliases: ["Mobileye"],
+    oneLiner: "自动驾驶视觉与芯片老牌龙头（英特尔控股）。", hq: "以色列·耶路撒冷", website: "mobileye.com",
+    stock: { exchange: "NASDAQ", ticker: "MBLY", marketCapB: 15 },
+    business: "EyeQ 视觉芯片与 ADAS/自动驾驶方案，供货全球主流车企。",
+    competitors: ["nvda", "tsla", "aurora"],
+  },
+  aurora: {
+    id: "aurora", name: "Aurora", nameEn: "Aurora Innovation", kind: "public", aliases: ["Aurora", "Aurora Innovation"],
+    oneLiner: "自动驾驶卡车领先者，已开启无人商运。", hq: "美国·匹兹堡", website: "aurora.tech",
+    stock: { exchange: "NASDAQ", ticker: "AUR", marketCapB: 12 },
+    business: "Aurora Driver 自动驾驶系统，率先在美国德州开展无人重卡货运。",
+    competitors: ["tsla", "waymo", "kodiak"],
+  },
+  wayve: {
+    id: "wayve", name: "Wayve", nameEn: "Wayve", kind: "private", aliases: ["Wayve"],
+    oneLiner: "端到端学习的自动驾驶英国新锐。", hq: "英国·伦敦", website: "wayve.ai",
+    business: "用端到端 AI(无高精地图)做通用自动驾驶，获软银、英伟达投资。",
+    competitors: ["tsla", "waymo", "mbly"], investors: ["nvda"],
+  },
+  nuro: {
+    id: "nuro", name: "Nuro", nameEn: "Nuro", kind: "private", aliases: ["Nuro"],
+    oneLiner: "无人配送车先驱，转向授权自动驾驶。", hq: "美国·山景城", website: "nuro.ai",
+    business: "自研 Nuro Driver，从无人配送转向对外授权 L4 自动驾驶方案。",
+    competitors: ["waymo", "tsla"],
+  },
+
+  /* ============ 扩充·数字生物 ============ */
+  xaira: {
+    id: "xaira", name: "Xaira", nameEn: "Xaira Therapeutics", kind: "private", aliases: ["Xaira", "Xaira Therapeutics"],
+    oneLiner: "重金起步的 AI 药物发现公司。", hq: "美国·旧金山湾区", website: "xaira.com",
+    business: "由 ARCH 等重金孵化，用生成式 AI 与大规模实验做新药发现。",
+    competitors: ["isomorphic", "rxrx", "insilico"],
+  },
+  evoscale: {
+    id: "evoscale", name: "EvolutionaryScale", nameEn: "EvolutionaryScale", kind: "private", aliases: ["EvolutionaryScale", "ESM3", "ESM"],
+    oneLiner: "蛋白质大语言模型 ESM3 的开发商。", hq: "美国·纽约", website: "evolutionaryscale.ai",
+    business: "ESM 系列蛋白质语言模型，能生成全新蛋白，原 Meta FAIR 团队创立。",
+    competitors: ["googl", "isomorphic"],
+  },
+
+  /* ============ 第二波·中国大模型 / 芯片 / 机器人 ============ */
+  minimax: {
+    id: "minimax", name: "MiniMax", nameEn: "MiniMax", kind: "private", aliases: ["MiniMax", "海螺", "Hailuo"],
+    oneLiner: "中国大模型独角兽，海螺 AI 与视频生成出圈。", hq: "中国·上海", website: "minimaxi.com",
+    business: "自研大模型与海螺 AI 助手、Hailuo 视频生成，出海表现亮眼。",
+    competitors: ["deepseek", "moonshot2", "zhipu"],
+  },
+  zhipu: {
+    id: "zhipu", name: "智谱 AI", nameEn: "Zhipu AI", kind: "private", aliases: ["智谱", "智谱 AI", "Zhipu", "GLM"],
+    oneLiner: "清华系大模型公司，GLM 系列。", hq: "中国·北京", website: "zhipuai.cn",
+    business: "GLM 系列大模型与企业应用，中国「AI 六小龙」之一。",
+    competitors: ["deepseek", "moonshot2", "baba"],
+  },
+  stepfun: {
+    id: "stepfun", name: "阶跃星辰", nameEn: "StepFun", kind: "private", aliases: ["阶跃星辰", "StepFun", "Step"],
+    oneLiner: "中国多模态大模型公司。", hq: "中国·上海", website: "stepfun.com",
+    business: "Step 系列多模态大模型，主打万亿参数与多模态能力。",
+    competitors: ["zhipu", "minimax", "deepseek"],
+  },
+  sensetime: {
+    id: "sensetime", name: "商汤科技", nameEn: "SenseTime", kind: "public", aliases: ["商汤", "商汤科技", "SenseTime", "日日新"],
+    oneLiner: "中国 AI 视觉与大模型老牌公司。", hq: "中国·上海", website: "sensetime.com",
+    stock: { exchange: "HKEX", ticker: "0020", marketCapB: 12 },
+    business: "计算机视觉起家，日日新(SenseNova)大模型与 AI 算力基础设施。",
+    competitors: ["baba", "zhipu", "iflytek"],
+  },
+  iflytek: {
+    id: "iflytek", name: "科大讯飞", nameEn: "iFlytek", kind: "public", aliases: ["科大讯飞", "iFlytek", "讯飞", "星火"],
+    oneLiner: "中国智能语音龙头，星火大模型。", hq: "中国·合肥", website: "iflytek.com",
+    stock: { exchange: "SZSE", ticker: "002230", marketCapB: 18 },
+    business: "智能语音、翻译与教育硬件，讯飞星火大模型自研自主可控。",
+    competitors: ["baba", "baidu", "sensetime"],
+  },
+  cambricon: {
+    id: "cambricon", name: "寒武纪", nameEn: "Cambricon", kind: "public", aliases: ["寒武纪", "Cambricon", "思元"],
+    oneLiner: "中国 AI 芯片第一股，思元系列。", hq: "中国·北京", website: "cambricon.com",
+    stock: { exchange: "SSE", ticker: "688256", marketCapB: 40 },
+    business: "思元(MLU)系列 AI 训练/推理芯片，国产算力替代核心标的。",
+    competitors: ["nvda", "huawei", "hygon"],
+  },
+  moorethreads: {
+    id: "moorethreads", name: "摩尔线程", nameEn: "Moore Threads", kind: "private", aliases: ["摩尔线程", "Moore Threads", "MTT"],
+    oneLiner: "国产全功能 GPU 新锐。", hq: "中国·北京", website: "mthreads.com",
+    business: "自研全功能 GPU(MTT 系列)，覆盖 AI 计算与图形，冲刺国产替代。",
+    competitors: ["nvda", "biren", "huawei"],
+  },
+  biren: {
+    id: "biren", name: "壁仞科技", nameEn: "Biren", kind: "private", aliases: ["壁仞", "壁仞科技", "Biren"],
+    oneLiner: "国产高端 GPGPU 新锐。", hq: "中国·上海", website: "birentech.com",
+    business: "壁砺(BR)系列通用 GPU，面向 AI 训练与通用计算。",
+    competitors: ["nvda", "moorethreads", "huawei"],
+  },
+  hygon: {
+    id: "hygon", name: "海光信息", nameEn: "Hygon", kind: "public", aliases: ["海光", "海光信息", "Hygon"],
+    oneLiner: "国产 CPU + DCU 加速卡厂商。", hq: "中国·天津", website: "hygon.cn",
+    stock: { exchange: "SSE", ticker: "688041", marketCapB: 60 },
+    business: "x86 CPU 与 DCU(深度计算单元)加速卡，国产算力重要一极。",
+    competitors: ["cambricon", "nvda", "intc"],
+  },
+  ubtech: {
+    id: "ubtech", name: "优必选", nameEn: "UBTech", kind: "public", aliases: ["优必选", "UBTech", "Walker"],
+    oneLiner: "中国人形机器人第一股。", hq: "中国·深圳", website: "ubtrobot.com",
+    stock: { exchange: "HKEX", ticker: "9880", marketCapB: 10 },
+    business: "Walker 系列人形机器人，率先进入工厂实训，教育机器人起家。",
+    competitors: ["unitree", "tsla", "fourier"],
+  },
+  agibot: {
+    id: "agibot", name: "智元机器人", nameEn: "AgiBot", kind: "private", aliases: ["智元", "智元机器人", "AgiBot", "远征"],
+    oneLiner: "中国明星人形机器人公司，量产落地快。", hq: "中国·上海", website: "zhiyuan-robot.com",
+    business: "远征/灵犀系列人形机器人，主打量产与具身数据，稚晖君联合创立。",
+    competitors: ["unitree", "ubtech", "fourier"],
+  },
+  galbot: {
+    id: "galbot", name: "银河通用", nameEn: "Galbot", kind: "private", aliases: ["银河通用", "Galbot"],
+    oneLiner: "中国具身智能机器人公司。", hq: "中国·北京", website: "galbot.com",
+    business: "轮式人形机器人与具身大模型，主打真实场景通用操作。",
+    competitors: ["agibot", "unitree", "figure"],
+  },
+
+  /* ============ 第二波·代码 / 医疗 / 设计 / 基础设施 ============ */
+  magicdev: {
+    id: "magicdev", name: "Magic.dev", nameEn: "Magic", kind: "private", aliases: ["Magic.dev", "Magic"],
+    oneLiner: "主攻超长上下文的 AI 编程模型。", hq: "美国·旧金山", website: "magic.dev",
+    business: "自研超长上下文代码模型，目标打造自动化软件工程师。",
+    competitors: ["cognition", "anysphere", "poolside"],
+  },
+  poolside: {
+    id: "poolside", name: "Poolside", nameEn: "Poolside", kind: "private", aliases: ["Poolside"],
+    oneLiner: "自研代码大模型的 AI 编程公司。", hq: "美国·旧金山", website: "poolside.ai",
+    business: "从零训练代码基座模型，面向企业私有部署的 AI 软件开发。",
+    competitors: ["cognition", "magicdev", "anysphere"],
+  },
+  stackblitz: {
+    id: "stackblitz", name: "StackBlitz", nameEn: "StackBlitz", kind: "private", aliases: ["StackBlitz", "Bolt", "Bolt.new"],
+    oneLiner: "Bolt.new——浏览器里说话建全栈应用。", hq: "美国·旧金山", website: "stackblitz.com",
+    business: "Bolt.new 用 AI 在浏览器内生成并运行全栈应用，增长迅猛。",
+    competitors: ["replit", "vercel", "lovable"],
+  },
+  lovable: {
+    id: "lovable", name: "Lovable", nameEn: "Lovable", kind: "private", aliases: ["Lovable"],
+    oneLiner: "欧洲爆红的「说话做应用」平台。", hq: "瑞典·斯德哥尔摩", website: "lovable.dev",
+    business: "用自然语言生成可部署的 Web 应用，增长速度创纪录。",
+    competitors: ["stackblitz", "vercel", "replit"],
+  },
+  abridge: {
+    id: "abridge", name: "Abridge", nameEn: "Abridge", kind: "private", aliases: ["Abridge"],
+    oneLiner: "AI 临床问诊记录龙头。", hq: "美国·匹兹堡", website: "abridge.com",
+    business: "实时把医患对话转成结构化病历，深度接入大型医院系统。",
+    competitors: ["openevidence", "msft"],
+  },
+  openevidence: {
+    id: "openevidence", name: "OpenEvidence", nameEn: "OpenEvidence", kind: "private", aliases: ["OpenEvidence"],
+    oneLiner: "医生用的 AI 医学证据搜索。", hq: "美国·剑桥(麻省)", website: "openevidence.com",
+    business: "面向临床医生的循证医学问答，被大量美国医生日常使用。",
+    competitors: ["abridge", "openai"],
+  },
+  tempus: {
+    id: "tempus", name: "Tempus AI", nameEn: "Tempus AI", kind: "public", aliases: ["Tempus", "Tempus AI"],
+    oneLiner: "精准医疗数据与 AI 诊断公司。", hq: "美国·芝加哥", website: "tempus.com",
+    stock: { exchange: "NASDAQ", ticker: "TEM", marketCapB: 12 },
+    business: "汇聚基因组与临床数据，用 AI 做精准医疗与药物研发辅助。",
+    competitors: ["rxrx", "googl"],
+  },
+  hippocratic: {
+    id: "hippocratic", name: "Hippocratic AI", nameEn: "Hippocratic AI", kind: "private", aliases: ["Hippocratic", "Hippocratic AI"],
+    oneLiner: "医疗语音智能体，做「AI 护士」。", hq: "美国·帕洛阿尔托", website: "hippocraticai.com",
+    business: "面向非诊断场景的医疗语音 AI 智能体，主打患者随访与健康关怀。",
+    competitors: ["abridge", "openai"],
+  },
+  lightmatter: {
+    id: "lightmatter", name: "Lightmatter", nameEn: "Lightmatter", kind: "private", aliases: ["Lightmatter"],
+    oneLiner: "光子计算与光互联新锐。", hq: "美国·山景城", website: "lightmatter.co",
+    business: "用光子技术做芯片间高带宽互联(Passage)与光计算，攻 AI 互联瓶颈。",
+    competitors: ["nvda", "ayarlabs", "celestial"],
+  },
+  ayarlabs: {
+    id: "ayarlabs", name: "Ayar Labs", nameEn: "Ayar Labs", kind: "private", aliases: ["Ayar Labs", "Ayar"],
+    oneLiner: "硅光 I/O(光互连)领先者。", hq: "美国·圣克拉拉", website: "ayarlabs.com",
+    business: "把光 I/O 直接集成进芯片封装(共封装光学 CPO)，英伟达等参与投资。",
+    competitors: ["lightmatter", "celestial", "avgo"], investors: ["nvda"],
+  },
+  celestial: {
+    id: "celestial", name: "Celestial AI", nameEn: "Celestial AI", kind: "private", aliases: ["Celestial AI", "Celestial"],
+    oneLiner: "光子互联「光子结构」新锐。", hq: "美国·圣克拉拉", website: "celestial.ai",
+    business: "Photonic Fabric 光互联技术，主攻 AI 内存与算力扩展的带宽瓶颈。",
+    competitors: ["lightmatter", "ayarlabs"],
+  },
+  modal: {
+    id: "modal", name: "Modal", nameEn: "Modal Labs", kind: "private", aliases: ["Modal", "Modal Labs"],
+    oneLiner: "面向 AI 的无服务器计算平台。", hq: "美国·纽约", website: "modal.com",
+    business: "让开发者秒级弹性调用 GPU 跑 AI 任务，主打开发体验。",
+    competitors: ["baseten", "replicate", "together"],
+  },
+  baseten: {
+    id: "baseten", name: "Baseten", nameEn: "Baseten", kind: "private", aliases: ["Baseten"],
+    oneLiner: "模型部署与推理平台。", hq: "美国·旧金山", website: "baseten.co",
+    business: "把机器学习模型一键部署为可扩展的推理服务。",
+    competitors: ["modal", "replicate", "fireworks"],
+  },
+  replicate: {
+    id: "replicate", name: "Replicate", nameEn: "Replicate", kind: "private", aliases: ["Replicate"],
+    oneLiner: "一行代码调用开源模型的托管平台。", hq: "美国·旧金山", website: "replicate.com",
+    business: "把开源模型打包成 API，开发者按用量调用，社区生态活跃。",
+    competitors: ["modal", "baseten", "huggingface"],
+  },
+  anyscale: {
+    id: "anyscale", name: "Anyscale", nameEn: "Anyscale", kind: "private", aliases: ["Anyscale", "Ray"],
+    oneLiner: "Ray 分布式计算框架的商业公司。", hq: "美国·旧金山", website: "anyscale.com",
+    business: "开源 Ray 框架与托管平台，支撑大规模分布式训练与推理。",
+    competitors: ["databricks", "modal"],
+  },
+  wandb: {
+    id: "wandb", name: "Weights & Biases", nameEn: "Weights & Biases", kind: "private", aliases: ["Weights & Biases", "W&B", "wandb"],
+    oneLiner: "AI 实验跟踪与 MLOps 平台。", hq: "美国·旧金山", website: "wandb.ai",
+    business: "模型训练实验管理、可视化与评测，2025 年被 CoreWeave 收购。",
+    competitors: ["comet", "databricks"],
+  },
+  canva: {
+    id: "canva", name: "Canva", nameEn: "Canva", kind: "private", aliases: ["Canva"],
+    oneLiner: "全球最大在线设计平台，深度接入 AI。", hq: "澳大利亚·悉尼", website: "canva.com",
+    business: "在线平面设计工具，Magic Studio 系列把生成式 AI 装进设计流程。",
+    competitors: ["adbe", "figma"],
+  },
+  figma: {
+    id: "figma", name: "Figma", nameEn: "Figma", kind: "public", aliases: ["Figma"],
+    oneLiner: "协作式 UI 设计龙头，2025 年上市。", hq: "美国·旧金山", website: "figma.com",
+    stock: { exchange: "NYSE", ticker: "FIG", marketCapB: 40 },
+    business: "云端协作设计平台，Figma AI 辅助生成与自动化设计。",
+    competitors: ["adbe", "canva"],
+  },
 };
 
 /* ---------------- 工具函数 ---------------- */
@@ -869,6 +1442,13 @@ const ALIAS_INDEX: Record<string, string> = (() => {
 /** 把一段文案（players 的 by 或 name）解析到公司 id。 */
 export const companyIdByName = (s?: string): string | undefined =>
   s ? ALIAS_INDEX[s.trim().toLowerCase()] : undefined;
+
+/** 公司是否为中国（含港澳台）公司，用于「国内 / 国外」分行展示。 */
+export const isDomesticCompany = (id?: string): boolean => {
+  if (!id) return false;
+  const c = COMPANIES[id];
+  return !!c?.hq && c.hq.includes("中国");
+};
 
 /** 该公司出现在产业链的哪些节点（由 nodes.ts 反查）。 */
 export const nodesForCompany = (id: string): NodeData[] =>

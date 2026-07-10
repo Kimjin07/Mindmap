@@ -148,6 +148,38 @@ export const NODES: Record<string, NodeData> = {
     },
     companyIds: ["msft", "googl"],
   },
+  genmedia: {
+    id: "genmedia", parentId: "apps", type: "category", name: "生成式媒体", nameEn: "Generative Media", icon: "chatbots",
+    levels: {
+      l0: "用 AI 生成语音、音乐、视频与数字人。",
+      l1: "生成式媒体把文字变成配音、歌曲、视频和虚拟主播，正在重塑内容创作与营销。",
+    },
+    companyIds: ["elevenlabs", "runwayml"],
+  },
+  search_ai: {
+    id: "search_ai", parentId: "apps", type: "category", name: "AI 搜索", nameEn: "AI Search", icon: "chatbots",
+    levels: {
+      l0: "用对话直接给答案的新一代搜索。",
+      l1: "AI 搜索用大模型 + 实时检索，把「找链接」变成「给答案」，挑战传统搜索引擎。",
+    },
+    companyIds: ["perplexity", "googl"],
+  },
+  health_ai: {
+    id: "health_ai", parentId: "apps", type: "category", name: "医疗 AI", nameEn: "Healthcare AI", icon: "digital_biology",
+    levels: {
+      l0: "帮医生看病、写病历、找证据的 AI。",
+      l1: "医疗 AI 做临床问诊记录、医学检索、影像与诊断辅助，正快速渗透医院与药企。",
+    },
+    companyIds: ["tempus", "abridge"],
+  },
+  design_ai: {
+    id: "design_ai", parentId: "apps", type: "category", name: "AI 设计", nameEn: "AI Design", icon: "manufacturing",
+    levels: {
+      l0: "帮人做图、排版、出设计稿的 AI。",
+      l1: "把生成式 AI 装进设计与创意工具，从海报、UI 到品牌素材一键生成。",
+    },
+    companyIds: ["canva", "figma"],
+  },
 
   /* ---------------- 模型层 ---------------- */
   llm: { id: "llm", parentId: "models", type: "category", name: "大语言模型", nameEn: "LLM",
@@ -179,12 +211,18 @@ export const NODES: Record<string, NodeData> = {
     levels: { l0: "计算机的通用大脑。", l1: "CPU 负责通用计算与调度，在 AI 系统里与 GPU 协同工作。" }, companyIds: ["intc", "amd"] },
   dpu: { id: "dpu", parentId: "chips", type: "category", name: "数据处理器", nameEn: "DPU", icon: "dpu",
     levels: { l0: "专门处理数据搬运的芯片。", l1: "DPU 卸载网络、存储等任务，让 GPU/CPU 专注于计算。" }, companyIds: ["nvda", "mrvl"] },
+  ai_accel: { id: "ai_accel", parentId: "chips", type: "category", name: "AI 加速芯片", nameEn: "AI Accelerators", icon: "gpu",
+    levels: { l0: "挑战 GPU 的推理/训练新架构芯片。", l1: "Groq、Cerebras、SambaNova 等用全新架构(晶圆级、数据流、LPU)专攻 AI 推理与训练，主打更快更省。" }, companyIds: ["groq", "cerebras", "sambanova"] },
   nvlink: { id: "nvlink", parentId: "infra", type: "category", name: "高速互联", nameEn: "NVLink", icon: "nvlink",
     levels: { l0: "芯片之间的「高速公路」。", l1: "NVLink 让多张 GPU 高速互联，组成更大的算力集群。" }, companyIds: ["nvda"] },
   network: { id: "network", parentId: "infra", type: "category", name: "网络", nameEn: "Network", icon: "network",
     levels: { l0: "连接成千上万台服务器的网络。", l1: "高速网络把数据中心里的机器连成一台「超级计算机」。" }, companyIds: ["avgo", "anet", "nvda"] },
   storage: { id: "storage", parentId: "infra", type: "category", name: "存储", nameEn: "Storage", icon: "storage",
     levels: { l0: "存放海量训练数据的「仓库」。", l1: "AI 需要存储并快速读取 PB 级数据，存储是隐形刚需。" }, companyIds: ["wdc"] },
+  neocloud: { id: "neocloud", parentId: "infra", type: "category", name: "AI 云算力", nameEn: "AI Cloud / Neoclouds", icon: "network",
+    levels: { l0: "专门出租 GPU 算力的「AI 云」。", l1: "CoreWeave、Lambda、Crusoe 等新型云厂把成千上万张 GPU 打包成云服务出租，是 AI 训练/推理的算力二房东。" }, companyIds: ["crwv", "lambda", "crusoe"] },
+  ai_infra_sw: { id: "ai_infra_sw", parentId: "infra", type: "category", name: "AI 开发框架", nameEn: "AI Dev Frameworks", icon: "storage",
+    levels: { l0: "搭 AI 应用用的软件工具与数据底座。", l1: "向量数据库、编排框架、数据标注与实验管理等，是把大模型接进真实应用的「脚手架」。" }, companyIds: ["pinecone", "langchain", "scaleai"] },
   cooling: { id: "cooling", parentId: "energy", type: "category", name: "散热", nameEn: "Cooling", icon: "cooling",
     levels: { l0: "给发烫的芯片降温。", l1: "高密度算力发热惊人，液冷等散热技术正变得越来越关键。" }, companyIds: ["vrt"] },
   power: { id: "power", parentId: "energy", type: "category", name: "电力", nameEn: "Power", icon: "power",

@@ -15,7 +15,7 @@ import {
 } from "react";
 import { NODES } from "../data/nodes";
 import { getPlayers, companyOfPlayer, PRODUCTS, relatedTree, type TreeRelated } from "../data/players";
-import { COMPANIES, KIND_LABEL } from "../data/companies";
+import { COMPANIES, KIND_LABEL, isDomesticCompany } from "../data/companies";
 import CompanyLogo from "./CompanyLogo";
 import CompanyDetail from "./CompanyDetail";
 import {
@@ -90,6 +90,8 @@ function roadPath(a: Pt, b: Pt): string {
 /** 把关系标签归类，用于配色：同公司 / 驱动 / 算力 / 上游供应 / 网络 / 能源。 */
 function relKind(rel: string): string {
   if (rel === "同公司") return "same";
+  if (/竞品|竞争|对标|同行|同道|双雄/.test(rel)) return "rival";
+  if (/投资|股东|入股|押注|被投/.test(rel)) return "invest";
   if (/驱动|运行|同系|同模型|加持|大脑|VLA/.test(rel)) return "drive";
   if (/算力|训练|GPU算力/.test(rel)) return "compute";
   if (/发电|核电|供电|散热|电力|SMR|并网|太阳能|燃气/.test(rel)) return "energy";
@@ -102,7 +104,7 @@ function relKind(rel: string): string {
 const BAND_LABEL: Record<number, string> = {
   0: "应用", 1: "太空算力", 2: "火箭发射", 3: "模型", 5: "计算芯片",
   6: "部件·网络·存储", 6.5: "光模块", 7: "先进封装", 7.5: "代工·光芯片",
-  8.5: "设备·EDA", 9: "供电·散热", 9.5: "电网", 10: "发电·核电",
+  8: "芯片架构·IP", 8.5: "设备·EDA", 9: "供电·散热", 9.5: "电网", 10: "发电·核电",
 };
 
 export interface ChainCol {
@@ -136,13 +138,24 @@ function valueChain(pid: string) {
     groupByRank(list)
       .sort((a, b) => b[0] - a[0]) // 高层级(更上游)在前 → 渲染时更靠左
       .map(([rank, items]) => ({ rank, label: BAND_LABEL[rank] ?? "其它", dir, items }));
-  return {
-    origin,
-    related,
-    upCols: toCol(related.filter((r) => r.dir === "up"), "up"),
-    downCols: toCol(related.filter((r) => r.dir === "down"), "down"),
-    side: related.filter((r) => r.dir === "side"),
-  };
+  let upCols = toCol(related.filter((r) => r.dir === "up"), "up");
+  let downCols = toCol(related.filter((r) => r.dir === "down"), "down");
+  let side = related.filter((r) => r.dir === "side");
+
+  // 没有天然上/下游的节点（最上游能源、最下游应用等）：把「同类·相关产品」
+  // 补到空着的那一侧，避免一边空白；两侧都有则同类照旧放底部一排。
+  if (side.length > 0) {
+    const peerCol: ChainCol = { rank: 0, label: "同类 · 相关", dir: "down", items: side };
+    if (downCols.length === 0) {
+      downCols = [{ ...peerCol, dir: "down" }];
+      side = [];
+    } else if (upCols.length === 0) {
+      upCols = [{ ...peerCol, dir: "up" }];
+      side = [];
+    }
+  }
+
+  return { origin, related, upCols, downCols, side };
 }
 
 function StarMark() {
@@ -214,6 +227,17 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
 
   const fitAll = useCallback(() => fitPoints(ids, KMAX, 320), [fitPoints, ids]);
 
+  /** 把某个板块（层）的所有城市刚好框进视野。 */
+  const fitLayer = useCallback(
+    (layer: string) => {
+      const cityIds = ids.filter((id) => NODES[id]?.parentId === layer);
+      if (cityIds.length === 0) return null;
+      // 单城市的层给个合理放大；多城市按范围自适应，留足边距不切边。
+      return fitPoints(cityIds, 1.0, 620);
+    },
+    [fitPoints, ids]
+  );
+
   useLayoutEffect(() => {
     const el = vpRef.current;
     if (!el) return;
@@ -235,12 +259,13 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
       setView({ cx: pos[hash].x, cy: pos[hash].y, k: 0.75 });
       setArrived(hash);
     } else if (focusLayer && CLUSTERS[focusLayer]) {
-      setView({ cx: CLUSTERS[focusLayer].x, cy: CLUSTERS[focusLayer].y, k: 0.5 });
+      const v = fitLayer(focusLayer);
+      setView(v ?? { cx: CLUSTERS[focusLayer].x, cy: CLUSTERS[focusLayer].y, k: 0.6 });
     } else {
       const v = fitAll();
       if (v) setView(v);
     }
-  }, [ready, fitAll, ids, pos, focusLayer]);
+  }, [ready, fitAll, fitLayer, ids, pos, focusLayer]);
 
   /* 滚轮缩放——但指针在信息卡上时放行，让卡片内部正常滚动 */
   useEffect(() => {
@@ -367,8 +392,10 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
     setActive(null);
     setTour(null);
     setArrived(null);
+    const v = fitLayer(layer);
     const c = CLUSTERS[layer];
-    if (c) setView({ cx: c.x, cy: c.y, k: 0.5 });
+    if (v) setView(v);
+    else if (c) setView({ cx: c.x, cy: c.y, k: 0.6 });
   };
   const resetView = () => {
     setSmooth(true);
@@ -625,8 +652,27 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
           </div>
           {tourData.side.length > 0 && (
             <div className="vchain-side">
-              <span className="vchain-side-label">同公司 / 同行</span>
-              <div className="vchain-card row">{tourData.side.map(renderChip)}</div>
+              <span className="vchain-side-label">同公司 / 同行 · 竞品</span>
+              {(() => {
+                const overseas = tourData.side.filter((s) => !isDomesticCompany(s.companyId));
+                const domestic = tourData.side.filter((s) => isDomesticCompany(s.companyId));
+                return (
+                  <div className="vchain-side-rows">
+                    {overseas.length > 0 && (
+                      <div className="vchain-side-row">
+                        <span className="region-tag overseas">国外</span>
+                        <div className="vchain-card row">{overseas.map(renderChip)}</div>
+                      </div>
+                    )}
+                    {domestic.length > 0 && (
+                      <div className="vchain-side-row">
+                        <span className="region-tag domestic">国内</span>
+                        <div className="vchain-card row">{domestic.map(renderChip)}</div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })()}
             </div>
           )}
         </div>
