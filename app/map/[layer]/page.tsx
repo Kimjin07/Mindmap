@@ -3,7 +3,7 @@ import SketchDefs from "../../components/SketchDefs";
 import Atlas from "../../components/Atlas";
 import { getNode } from "../../data/nodes";
 
-const LAYERS = ["apps", "models", "infra", "chips", "energy", "space", "optical"];
+const LAYERS = ["apps", "models", "infra", "chips", "energy", "space", "optical", "storage", "materials"];
 
 export function generateStaticParams() {
   return LAYERS.map((layer) => ({ layer }));

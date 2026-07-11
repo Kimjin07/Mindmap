@@ -79,7 +79,7 @@ function BoxGroup({
           />
           <text
             x={X + W / 2} y={b.y + b.h / 2} textAnchor="middle"
-            dominantBaseline="central" fill="#ece0a8"
+            dominantBaseline="central" fill="var(--diagram-box-ink)"
             fontSize={b.big ? 20 : 15} letterSpacing="3"
             style={{ fontWeight: 400 }}
           >
@@ -112,6 +112,63 @@ function IconGrid({
   );
 }
 
+/** 「AI FACTORIES」——阶梯式等距服务器机柜（每个柜有独立顶面+侧面，草图+金光风格）。 */
+function AIFactories({ onClick }: { onClick: () => void }) {
+  const RW = 24, RH = 56, DX = 20, DY = 12, VBW = 620, VBH = 300;
+  // 前(宽、低、亮) → 后(窄、高、暗)。层间纵向留出 DY 让下层顶面(台阶)露出。
+  const tiers = [
+    { n: 14, yBase: 262, op: 1 },
+    { n: 12, yBase: 262 - RH - DY, op: 0.82 },
+    { n: 10, yBase: 262 - 2 * (RH + DY), op: 0.64 },
+  ];
+  return (
+    <button className="factories" onClick={onClick} aria-label="AI Factories">
+      <div className="factories-title">AI FACTORIES</div>
+      <svg viewBox={`0 0 ${VBW} ${VBH}`} preserveAspectRatio="xMidYMid meet">
+        {/* 后层先画（在下方），前层后画盖住 → 正确遮挡 */}
+        {[...tiers].reverse().map((t) => {
+          const rowW = t.n * RW;
+          const x0 = (VBW - rowW) / 2;
+          const yTop = t.yBase - RH;
+          const rackXs = Array.from({ length: t.n }, (_, i) => x0 + i * RW);
+          return (
+            <g key={t.n} filter="url(#sketch)" opacity={t.op} stroke="url(#gold)" strokeWidth={1} strokeLinejoin="round">
+              {/* 每个机柜的顶面（等距平行四边形） → 一排连续的柜顶 */}
+              {rackXs.map((rx, i) => (
+                <path
+                  key={`t${i}`}
+                  d={`M ${rx} ${yTop} L ${rx + DX} ${yTop - DY} L ${rx + RW + DX} ${yTop - DY} L ${rx + RW} ${yTop} Z`}
+                  fill="rgba(224,200,110,0.16)"
+                />
+              ))}
+              {/* 整排的右侧面（深色，增强体积） */}
+              <path
+                d={`M ${x0 + rowW} ${yTop} L ${x0 + rowW + DX} ${yTop - DY} L ${x0 + rowW + DX} ${t.yBase - DY} L ${x0 + rowW} ${t.yBase} Z`}
+                fill="rgba(0,0,0,0.5)"
+              />
+              {/* 每个机柜正面 + 金色发光卡槽 */}
+              {rackXs.map((rx, i) => (
+                <g key={`f${i}`}>
+                  <rect x={rx} y={yTop} width={RW} height={RH} fill="rgba(16,13,7,0.62)" />
+                  {[0, 1, 2, 3, 4].map((s) => (
+                    <rect
+                      key={s}
+                      x={rx + 3.5} y={yTop + 6 + s * 10} width={RW - 7} height={4} rx={1}
+                      fill="url(#gold)" stroke="none"
+                      opacity={(i * 2 + s) % 3 === 0 ? 0.95 : 0.3}
+                      filter="url(#glow)"
+                    />
+                  ))}
+                </g>
+              ))}
+            </g>
+          );
+        })}
+      </svg>
+    </button>
+  );
+}
+
 function Pill({ id, go }: { id: string; go: (id: string) => void }) {
   return (
     <button className="pill" onClick={() => go(id)}>
@@ -138,6 +195,8 @@ export default function Diagram() {
           <div className="content">
             {group.content.kind === "icons" ? (
               <IconGrid ids={group.content.ids} cols={group.content.cols} go={go} />
+            ) : group.content.kind === "factories" ? (
+              <AIFactories onClick={() => go(group.content.kind === "factories" ? group.content.go : "infra")} />
             ) : (
               <div className="pill-rows">
                 {group.content.rows.map((row, i) => (

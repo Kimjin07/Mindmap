@@ -24,35 +24,37 @@
 
   --on-gold: #000000;
   --text-halo: #000;
+  --diagram-box-ink: #ece0a8;
 
   color-scheme: dark;
 }
 
 html[data-theme="light"] {
-  /* ---- light ：白底黑字 ---- */
-  --gold-rgb: 0, 0, 0;
-  --gold-bright-rgb: 0, 0, 0;
-  --surface-rgb: 255, 255, 255;
-  --shadow-rgb: 0, 0, 0;
+  /* ---- light ：柔和米白底 + 深墨字，降低刺眼、拉高对比 ---- */
+  --gold-rgb: 30, 26, 18;
+  --gold-bright-rgb: 20, 16, 8;
+  --surface-rgb: 250, 248, 243;
+  --shadow-rgb: 40, 36, 28;
 
-  --bg: #ffffff;
-  --bg-vignette: #f6f6f6;
-  --bg-map: #f3f3f3;
+  --bg: #e7e3d9;
+  --bg-vignette: #ddd8cc;
+  --bg-map: #d8d2c4;
 
-  --gold: #000000;
-  --gold-dim: #aaaaaa;
-  --gold-line: #777777;
-  --gold-hi: #000000;
-  --gold-bright: #000000;
+  --gold: #2a2418;
+  --gold-dim: #8a8270;
+  --gold-line: #4a4436;
+  --gold-hi: #17130a;
+  --gold-bright: #0e0b05;
 
-  --ink: #1a1a1a;
+  --ink: #171310;
   --ink-strong: #000000;
-  --ink-soft: #444444;
-  --ink-dim: #777777;
-  --ink-faint: #aaaaaa;
+  --ink-soft: #2c2822;
+  --ink-dim: #55503f;
+  --ink-faint: #8a8474;
 
-  --on-gold: #ffffff;
-  --text-halo: rgba(255, 255, 255, 0.9);
+  --on-gold: #f4f1e8;
+  --text-halo: rgba(231, 227, 217, 0.9);
+  --diagram-box-ink: #0e0b05;
 
   color-scheme: light;
 }
@@ -148,6 +150,38 @@ body {
   width: 100%;
 }
 
+/* ---------- AI Factories（第三组：服务器机柜插画） ---------- */
+.factories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  transition: filter 0.18s ease, transform 0.18s ease;
+}
+.factories:hover {
+  filter: brightness(1.22);
+  transform: translateY(-1px);
+}
+.factories-title {
+  font-size: 22px;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--ink-strong);
+  font-weight: 400;
+}
+.factories svg {
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  display: block;
+}
+
 /* fixed, left-aligned columns so the first cell of every row
    (Chatbots / LLM / GPU) lines up on the same vertical axis */
 .icon-grid {
@@ -183,9 +217,13 @@ body {
   transform: translateY(-1px);
 }
 .icon-cell svg {
-  width: 46px;
-  height: 46px;
+  width: 52px;
+  height: 52px;
   display: block;
+  transition: transform 0.18s ease;
+}
+.icon-cell:hover svg {
+  transform: translateY(-2px);
 }
 .icon-cell .label {
   font-size: 11px;
@@ -483,10 +521,12 @@ body {
   width: 0;
   height: 0;
   transform-origin: 0 0;
-  will-change: transform;
+  /* 不用 will-change：整张 10000×10000 地图会被提升成超大 GPU 纹理，
+     放大后超过显卡贴图上限，快速移动鼠标重绘时会闪黑。 */
 }
+/* 平滑移动只做过渡；不加 will-change（否则整张巨图会被提升成超大 GPU 纹理而卡死/黑屏）。 */
 .atlas-world.smooth {
-  transition: transform 0.6s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition: transform 0.45s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 /* ---- roads / spokes / aura ---- */
@@ -526,24 +566,47 @@ body {
   opacity: 0.95;
 }
 
-/* faint territory blobs + labels per layer */
-.region-blob ellipse {
-  fill: rgba(var(--gold-rgb), 0.028);
-  stroke: rgba(var(--gold-rgb), 0.16);
-  stroke-width: 1.4;
-  stroke-dasharray: 3 10;
+/* ---- 大陆（每个板块一块洲）+ 分级显示 ---- */
+.continent-land {
+  fill: rgba(var(--gold-rgb), 0.06);
+  stroke: none;
+  transition: fill 0.3s ease;
 }
-.region-label {
-  fill: rgba(var(--gold-bright-rgb), 0.22);
-  font-size: 64px;
+.continent-label {
+  fill: rgba(var(--gold-bright-rgb), 0.5);
+  font-size: 270px;
+  font-weight: 800;
+  letter-spacing: 22px;
+  transition: opacity 0.35s ease;
+}
+.continent-sub {
+  fill: rgba(180, 162, 104, 0.55);
+  font-size: 96px;
+  font-weight: 600;
+  letter-spacing: 24px;
+  transition: opacity 0.35s ease;
+}
+.subregion-label {
+  fill: rgba(var(--gold-bright-rgb), 0.5);
+  font-size: 100px;
   font-weight: 700;
-  letter-spacing: 6px;
+  letter-spacing: 10px;
+  transition: opacity 0.35s ease;
 }
-.region-label-en {
-  fill: rgba(140, 126, 80, 0.4);
-  font-size: 22px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
+.atlas-world.detail .subregion-label { opacity: 0.14; }
+
+/* 缩小 = 洲视图：洲名醒目、陆地明显；城市隐去 */
+.atlas-world.overview .continent-land { fill: rgba(var(--gold-rgb), 0.09); }
+.atlas-world.overview .city {
+  opacity: 0;
+  pointer-events: none;
+}
+/* 放大 = 城市视图：洲名/陆地退到背景，城市浮现 */
+.atlas-world.detail .continent-label { opacity: 0.12; }
+.atlas-world.detail .continent-sub { opacity: 0.1; }
+.atlas-world.detail .continent-land { fill: rgba(var(--gold-rgb), 0.035); }
+.city {
+  transition: opacity 0.35s ease, filter 0.2s ease;
 }
 .city-aura {
   fill: rgba(var(--gold-rgb), 0.05);
@@ -566,7 +629,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 5px;
-  width: 176px;
+  width: 300px;
   padding: 6px;
   background: none;
   border: 0;
@@ -577,8 +640,8 @@ body {
 }
 .city-marker {
   position: relative;
-  width: 124px;
-  height: 124px;
+  width: 200px;
+  height: 200px;
   display: grid;
   place-items: center;
   border-radius: 50%;
@@ -587,19 +650,21 @@ body {
   transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 .city-marker svg {
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 150px;
   display: block;
 }
-.city:hover {
-  filter: brightness(1.3);
-}
+/* hover：只加亮圆圈与文字，不给含滤镜图标的整块套 CSS filter（否则会频闪） */
 .city:hover .city-marker {
   border-color: var(--gold-bright);
-  box-shadow: 0 0 18px rgba(var(--gold-rgb), 0.3);
+  box-shadow: 0 0 22px rgba(var(--gold-rgb), 0.4);
+  transform: scale(1.06);
+}
+.city:hover .city-name {
+  color: var(--gold-bright);
 }
 .city-name {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 600;
   color: var(--ink-strong);
   line-height: 1.2;
@@ -607,7 +672,7 @@ body {
   max-width: 11ch;
 }
 .city-en {
-  font-size: 11px;
+  font-size: 22px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-dim);

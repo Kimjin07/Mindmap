@@ -19,23 +19,11 @@ import { COMPANIES, KIND_LABEL, isDomesticCompany } from "../data/companies";
 import CompanyLogo from "./CompanyLogo";
 import CompanyDetail from "./CompanyDetail";
 import {
-  worldLayout, roadsFor, isCrossLayer, clusterRadius, CLUSTERS, LAYER_IDS, type Pt,
+  worldLayout, roadsFor, isCrossLayer, clusterRadius, continentLobes, CLUSTERS, LAYER_IDS, LAYER_GROUPS, type Pt,
 } from "../data/atlas";
-import {
-  ChatbotsIcon, DigitalBiologyIcon, RobotaxiIcon, EnterpriseIcon, ScienceIcon,
-  RoboticsIcon, ManufacturingIcon, AICoderIcon, GPUIcon, CPUIcon, DPUIcon,
-  NVLinkIcon, NetworkIcon, StorageIcon, CoolingIcon, PowerIcon, GridIcon, FiberIcon,
-} from "./icons";
+import { CITY_ICON } from "./icons";
 
-const ICONS: Record<string, () => JSX.Element> = {
-  chatbots: ChatbotsIcon, digital_biology: DigitalBiologyIcon, robotaxi: RobotaxiIcon,
-  enterprise: EnterpriseIcon, science: ScienceIcon, robotics: RoboticsIcon,
-  manufacturing: ManufacturingIcon, ai_coder: AICoderIcon, gpu: GPUIcon, cpu: CPUIcon,
-  dpu: DPUIcon, nvlink: NVLinkIcon, network: NetworkIcon, storage: StorageIcon,
-  cooling: CoolingIcon, power: PowerIcon, grid: GridIcon, fiber: FiberIcon,
-};
-
-const KMIN = 0.14, KMAX = 2.8, K_FOCUS = 1.5;
+const KMIN = 0.06, KMAX = 2.8, K_FOCUS = 1.5;
 const CARD_RESERVE = 250; // 底部信息卡占用的高度，进城/路线时为它让位
 const clamp = (v: number, a: number, b: number) => Math.min(b, Math.max(a, v));
 
@@ -102,9 +90,11 @@ function relKind(rel: string): string {
 /* ---- 价值链分组：按产业链「层级」把相关产品分到一列一列（环节）---- */
 /** 层级 → 中文「环节」名（列首标签，像价值链里的 Design / Foundry / Packaging…）。 */
 const BAND_LABEL: Record<number, string> = {
-  0: "应用", 1: "太空算力", 2: "火箭发射", 3: "模型", 5: "计算芯片",
-  6: "部件·网络·存储", 6.5: "光模块", 7: "先进封装", 7.5: "代工·光芯片",
-  8: "芯片架构·IP", 8.5: "设备·EDA", 9: "供电·散热", 9.5: "电网", 10: "发电·核电",
+  0: "应用", 1: "太空算力", 2: "火箭发射", 3: "模型", 4.8: "AI服务器·系统", 5: "计算芯片",
+  6: "部件·网络·存储", 6.2: "连接·铜缆", 6.5: "光模块", 6.8: "PCB·电路板",
+  7: "先进封装", 7.3: "机器人零部件", 7.5: "代工·光芯片",
+  8: "芯片架构·IP", 8.5: "设备·EDA", 9: "供电·散热", 9.5: "电网·输配电", 10: "发电·核电",
+  10.5: "核燃料", 11: "上游材料",
 };
 
 export interface ChainCol {
@@ -138,22 +128,11 @@ function valueChain(pid: string) {
     groupByRank(list)
       .sort((a, b) => b[0] - a[0]) // 高层级(更上游)在前 → 渲染时更靠左
       .map(([rank, items]) => ({ rank, label: BAND_LABEL[rank] ?? "其它", dir, items }));
-  let upCols = toCol(related.filter((r) => r.dir === "up"), "up");
-  let downCols = toCol(related.filter((r) => r.dir === "down"), "down");
-  let side = related.filter((r) => r.dir === "side");
-
-  // 没有天然上/下游的节点（最上游能源、最下游应用等）：把「同类·相关产品」
-  // 补到空着的那一侧，避免一边空白；两侧都有则同类照旧放底部一排。
-  if (side.length > 0) {
-    const peerCol: ChainCol = { rank: 0, label: "同类 · 相关", dir: "down", items: side };
-    if (downCols.length === 0) {
-      downCols = [{ ...peerCol, dir: "down" }];
-      side = [];
-    } else if (upCols.length === 0) {
-      upCols = [{ ...peerCol, dir: "up" }];
-      side = [];
-    }
-  }
+  // 语义固定：上游→左、下游→右、同类竞品→底部一排。
+  // 终端产品(没有下游)右侧留空、最上游材料(没有上游)左侧留空，都是正确的。
+  const upCols = toCol(related.filter((r) => r.dir === "up"), "up");
+  const downCols = toCol(related.filter((r) => r.dir === "down"), "down");
+  const side = related.filter((r) => r.dir === "side");
 
   return { origin, related, upCols, downCols, side };
 }
@@ -462,7 +441,9 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
       onPointerCancel={onPointerUp}
     >
       <div
-        className={`atlas-world${smooth ? " smooth" : ""}`}
+        className={`atlas-world${smooth ? " smooth" : ""} ${
+          active || view.k >= 0.26 ? "detail" : "overview"
+        }`}
         style={{ transform: `translate(${tx}px, ${ty}px) scale(${view.k})` }}
       >
         <svg
@@ -473,20 +454,34 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
           style={{ left: -5000, top: -5000 }}
           aria-hidden="true"
         >
-          {/* 价值链模式下隐去地理底图（区域水印 / 城市），只突出这条链 */}
+          {/* 每个板块 = 一块「大陆」：填充陆地 + 洲名。缩小看洲，放大看城市。 */}
           {!tour && LAYER_IDS.map((layer) => {
             const c = CLUSTERS[layer];
-            const r = clusterRadius(layer);
             const n = NODES[layer];
+            const lobes = continentLobes(layer);
             return (
-              <g key={layer} className="region-blob">
-                <ellipse cx={c.x} cy={c.y} rx={r} ry={r * 0.86} />
-                <text x={c.x} y={c.y - r * 0.86 - 26} textAnchor="middle" className="region-label">
-                  {n?.name}
-                </text>
-                <text x={c.x} y={c.y - r * 0.86 - 2} textAnchor="middle" className="region-label-en">
+              <g key={layer} className="continent">
+                {lobes.map((l, i) => (
+                  <circle key={i} cx={l.x} cy={l.y} r={l.r} className="continent-land" />
+                ))}
+                <text x={c.x} y={c.y - 8} textAnchor="middle" className="continent-label">
                   {n?.nameEn}
                 </text>
+                <text x={c.x} y={c.y + 78} textAnchor="middle" className="continent-sub">
+                  {n?.name}
+                </text>
+                {/* 小簇（「国家/地区」）名——缩小时也能看到每一块的名字 */}
+                {(LAYER_GROUPS[layer] ?? []).map((g) => (
+                  <text
+                    key={g.name}
+                    x={c.x + g.dx}
+                    y={c.y + g.dy}
+                    textAnchor="middle"
+                    className="subregion-label"
+                  >
+                    {g.name}
+                  </text>
+                ))}
               </g>
             );
           })}
@@ -523,11 +518,11 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
 
         </svg>
 
-        {/* 城市（价值链模式下整片隐去，避免和居中产品/连线重叠） */}
-        {!tour && ids.map((id) => {
+        {/* 城市：只在放大档(城市视图)渲染，缩小时只剩大陆——大幅减少 DOM，缩放不再卡 */}
+        {!tour && (active || view.k >= 0.26) && ids.map((id) => {
           const n = NODES[id];
           const p = pos[id];
-          const Icon = n.icon ? ICONS[n.icon] : null;
+          const Icon = CITY_ICON[id] ?? null;
           const count = getPlayers(id).length;
           const isActive = active === id;
           const dim = active && !isActive;

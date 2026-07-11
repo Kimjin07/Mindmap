@@ -34,6 +34,10 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "qianwen", name: "通义千问", by: "阿里云", note: "阿里的对话助手，背靠 Qwen 开源模型。" },
     { id: "character_chat", name: "Character.AI", by: "Character.AI", note: "AI 角色扮演聊天，用户黏性极高。" },
     { id: "inflection_pi", name: "Pi", by: "Inflection AI", note: "主打情感陪伴的个人 AI 助手。" },
+    { id: "hailuo_chat", name: "海螺 AI", by: "MiniMax", note: "MiniMax 的对话助手，出海表现亮眼。" },
+    { id: "spark_chat", name: "讯飞星火", by: "科大讯飞", note: "科大讯飞自研的对话大模型助手。" },
+    { id: "zhipu_chat", name: "智谱清言", by: "智谱 AI", note: "清华系智谱的对话助手，背靠 GLM。" },
+    { id: "poe_chat", name: "Poe", by: "Quora", note: "聚合各家大模型的对话平台。" },
   ],
   digital_biology: [
     { id: "alphafold", name: "AlphaFold", by: "DeepMind", note: "破解蛋白质折叠，拿下诺贝尔化学奖。" },
@@ -55,6 +59,9 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "aurora_driver", name: "Aurora Driver", by: "Aurora", note: "自动驾驶卡车领先者，已开无人商运。" },
     { id: "wayve_ad", name: "Wayve", by: "Wayve", note: "端到端学习、无高精地图的自动驾驶。" },
     { id: "nuro_driver", name: "Nuro Driver", by: "Nuro", note: "从无人配送转向授权 L4 方案。" },
+    { id: "momenta_ad", name: "Momenta", by: "Momenta", note: "中国头部高阶智能驾驶方案商。" },
+    { id: "waabi_ad", name: "Waabi", by: "Waabi", note: "仿真优先的自动驾驶卡车。" },
+    { id: "applied_sim", name: "Applied Intuition", by: "Applied Intuition", note: "自动驾驶仿真与工具链龙头。" },
   ],
   enterprise: [
     { id: "m365_copilot", name: "Copilot for M365", by: "Microsoft", note: "让 Office 里的每个人配上 AI 助手。" },
@@ -67,6 +74,22 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "decagon_agent", name: "Decagon", by: "Decagon", note: "自动化大规模客户支持的 AI 智能体。" },
     { id: "harvey_ai", name: "Harvey", by: "Harvey", note: "法律行业专用 AI 智能体。" },
     { id: "hebbia_ai", name: "Hebbia", by: "Hebbia", note: "面向金融/专业服务的知识智能体。" },
+    { id: "ibm_watson", name: "watsonx", by: "IBM", note: "IBM 企业级 AI 平台，主打自有数据与治理。" },
+    { id: "robin_legal", name: "Robin AI", by: "Robin AI", note: "合同审查与法律 AI 智能体。" },
+  ],
+  ai_agent: [
+    { id: "manus_agent", name: "Manus", by: "Manus", note: "爆红的通用自主智能体，能操作电脑办事。" },
+    { id: "operator", name: "OpenAI Operator", by: "OpenAI", note: "会自己操作浏览器的智能体。" },
+    { id: "genspark_agent", name: "Genspark Super Agent", by: "Genspark", note: "自动做任务、生成报告的智能体。" },
+    { id: "adept_agent", name: "Adept", by: "Adept", note: "操作企业软件界面的 Agent 模型。" },
+    { id: "lindy_agent", name: "Lindy", by: "Lindy", note: "无代码搭建自动化 AI 智能体。" },
+    { id: "multion_agent", name: "MultiOn", by: "MultiOn", note: "自主操作网页的 AI 智能体。" },
+  ],
+  robot_parts: [
+    { id: "leader_harmonic", name: "谐波减速器", by: "绿的谐波", note: "国产谐波减速器龙头，关节核心。" },
+    { id: "sanhua_actuator", name: "机电执行器", by: "三花智控", note: "机器人执行器/丝杠，特斯拉链。" },
+    { id: "topu_screw", name: "直线执行器 / 丝杠", by: "拓普集团", note: "人形机器人直线执行器与关节。" },
+    { id: "inovance_motor", name: "无框电机 / 伺服", by: "汇川技术", note: "机器人无框电机与伺服系统。" },
   ],
   science: [
     { id: "earth2", name: "Earth-2 / BioNeMo", by: "NVIDIA", note: "气候模拟与生物计算平台。" },
@@ -84,6 +107,14 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "unitree_g1", name: "Unitree G1", by: "Unitree", note: "【本体】高性价比人形机器人，出货量领先。" },
     { id: "phoenix_robot", name: "Phoenix", by: "Sanctuary AI", note: "【本体】主打类人灵巧手操作的人形机器人。" },
     { id: "fourier_gr", name: "Fourier GR", by: "傅利叶", note: "【本体】中国通用人形与康复机器人。" },
+    { id: "walker_robot", name: "Walker S", by: "优必选", note: "【本体】率先进厂实训的人形机器人。" },
+    { id: "agibot_robot", name: "远征 A2", by: "智元机器人", note: "【本体】量产落地快的人形机器人。" },
+    { id: "galbot_robot", name: "Galbot G1", by: "银河通用", note: "【本体】轮式人形 + 具身大模型。" },
+    { id: "robotera_star", name: "小星", by: "星动纪元", note: "【本体】清华系人形机器人。" },
+    { id: "engineai_robot", name: "众擎 SE", by: "众擎机器人", note: "【本体】主打自然步态与高动态运动。" },
+    { id: "skild_brain", name: "Skild 通用大脑", by: "Skild AI", note: "【大脑】可迁移到各种机器人的基础模型。" },
+    { id: "dexterity_robot", name: "Dexterity", by: "Dexterity", note: "【本体】仓储物流搬运/拣选机器人。" },
+    { id: "cobot_robot", name: "Cobot", by: "Collaborative Robotics", note: "【本体】协作型移动机器人。" },
     { id: "groot", name: "GR00T", by: "NVIDIA", note: "【大脑】人形机器人通用基础模型与仿真。" },
     { id: "harmonic_drive", name: "谐波减速器", by: "Harmonic Drive", note: "【零部件】关节核心，日本全球龙头。" },
     { id: "teradyne_arm", name: "协作机械臂", by: "Teradyne", note: "【零部件】Universal Robots 母公司。" },
@@ -104,6 +135,12 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "devin", name: "Devin", by: "Cognition", note: "首个「AI 软件工程师」，自主完成编程任务。" },
     { id: "tabnine_ai", name: "Tabnine", by: "Tabnine", note: "注重隐私与私有部署的代码助手。" },
     { id: "v0", name: "v0", by: "Vercel", note: "从提示词生成可用前端界面代码。" },
+    { id: "magic_code", name: "Magic", by: "Magic.dev", note: "超长上下文 AI 编程模型。" },
+    { id: "poolside_code", name: "Poolside", by: "Poolside", note: "自研代码基座模型，企业私有部署。" },
+    { id: "bolt", name: "Bolt.new", by: "StackBlitz", note: "浏览器里说话建全栈应用。" },
+    { id: "lovable_code", name: "Lovable", by: "Lovable", note: "自然语言生成可部署 Web 应用。" },
+    { id: "augment_code", name: "Augment", by: "Augment Code", note: "面向大型代码库的 AI 编程。" },
+    { id: "cody_code", name: "Cody", by: "Sourcegraph", note: "代码搜索起家的 AI 编程助手。" },
   ],
   genmedia: [
     { id: "elevenlabs_v", name: "ElevenLabs", by: "ElevenLabs", note: "最逼真的 AI 语音合成与配音。" },
@@ -114,12 +151,88 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "udio_m", name: "Udio", by: "Udio", note: "高音质 AI 音乐生成。" },
     { id: "heygen_v", name: "HeyGen", by: "HeyGen", note: "AI 数字人口播视频生成。" },
     { id: "synthesia_v", name: "Synthesia", by: "Synthesia", note: "企业级 AI 虚拟主播视频。" },
+    { id: "hailuo_video", name: "海螺视频 Hailuo", by: "MiniMax", note: "MiniMax 的 AI 视频生成，出海爆火。" },
+    { id: "kling_video", name: "可灵 Kling", by: "快手", note: "快手 AI 视频生成，效果对标 Sora。" },
+    { id: "cartesia_voice", name: "Cartesia 语音", by: "Cartesia", note: "超低延迟实时语音生成。" },
+    { id: "genmo_video", name: "Mochi", by: "Genmo", note: "开源文生视频模型。" },
+    { id: "higgsfield_video", name: "Higgsfield", by: "Higgsfield", note: "移动端 AI 视频，主打运镜特效。" },
+    { id: "playht_voice", name: "PlayAI", by: "PlayAI", note: "语音克隆与语音智能体平台。" },
   ],
   search_ai: [
     { id: "pplx_search", name: "Perplexity", by: "Perplexity", note: "对话式答案引擎，AI 搜索代表。" },
     { id: "searchgpt", name: "ChatGPT Search", by: "OpenAI", note: "把实时网页检索接入 ChatGPT。" },
     { id: "ai_overviews", name: "AI Overviews", by: "Google", note: "谷歌搜索里的 AI 摘要答案。" },
     { id: "grok_search", name: "Grok 搜索", by: "xAI", note: "结合 X 实时数据的 AI 搜索。" },
+  ],
+  health_ai: [
+    { id: "abridge_scribe", name: "Abridge", by: "Abridge", note: "把医患对话实时转成结构化病历。" },
+    { id: "openevidence_search", name: "OpenEvidence", by: "OpenEvidence", note: "医生用的循证医学 AI 搜索。" },
+    { id: "tempus_ai", name: "Tempus", by: "Tempus AI", note: "精准医疗数据与 AI 诊断。" },
+    { id: "hippocratic_agent", name: "Hippocratic", by: "Hippocratic AI", note: "医疗语音智能体（AI 护士）。" },
+    { id: "nabla_scribe", name: "Nabla", by: "Nabla", note: "医生用的 AI 环境问诊记录。" },
+    { id: "suki_voice", name: "Suki", by: "Suki", note: "临床医生的 AI 语音助手。" },
+  ],
+  design_ai: [
+    { id: "canva_ai", name: "Canva Magic Studio", by: "Canva", note: "在线设计 + 生成式 AI。" },
+    { id: "figma_ai", name: "Figma AI", by: "Figma", note: "协作 UI 设计 + AI 辅助。" },
+    { id: "firefly_design", name: "Adobe Firefly", by: "Adobe", note: "版权合规的商用生成式创作。" },
+  ],
+  edge_ai: [
+    { id: "apple_intelligence", name: "Apple Intelligence", by: "Apple", note: "装进 iPhone/Mac 的端侧 AI，接入 ChatGPT。" },
+    { id: "snapdragon_ai", name: "骁龙 AI", by: "Qualcomm", note: "手机与 AI PC 的端侧算力(NPU)。" },
+    { id: "dimensity_ai", name: "天玑 AI", by: "MediaTek", note: "联发科手机 SoC 的端侧 AI。" },
+    { id: "copilot_pc", name: "Copilot+ PC", by: "Microsoft", note: "内建 NPU 的 AI 电脑新品类。" },
+  ],
+  ai_ad: [
+    { id: "applovin_ax", name: "AXON 广告引擎", by: "AppLovin", note: "AI 推荐驱动的移动广告，业绩暴涨。" },
+    { id: "tradedesk_ad", name: "Kokai 程序化广告", by: "The Trade Desk", note: "最大独立程序化广告平台。" },
+    { id: "meta_ads", name: "Meta 广告 AI", by: "Meta", note: "Advantage+ 用 AI 自动优化投放。" },
+  ],
+  fin_ai: [
+    { id: "bloomberg_gpt", name: "BloombergGPT", by: "Bloomberg", note: "面向金融的专用大模型。" },
+    { id: "aladdin_ai", name: "Aladdin AI", by: "BlackRock", note: "贝莱德风控/投研平台接入 AI。" },
+  ],
+  edu_ai: [
+    { id: "duolingo_max", name: "Duolingo Max", by: "Duolingo", note: "AI 对话与讲解私教。" },
+    { id: "khanmigo", name: "Khanmigo", by: "可汗学院", note: "可汗学院的一对一 AI 辅导。" },
+    { id: "speak_tutor", name: "Speak", by: "Speak", note: "AI 口语陪练。" },
+  ],
+  voice_agent: [
+    { id: "cresta_cx", name: "Cresta", by: "Cresta", note: "呼叫中心实时 AI 辅助与智能体。" },
+    { id: "retell_voice", name: "Retell AI", by: "Retell AI", note: "快速搭建语音智能体的平台。" },
+    { id: "vapi_voice", name: "Vapi", by: "Vapi", note: "语音 AI 智能体开发平台。" },
+    { id: "deepgram_stt", name: "Deepgram", by: "Deepgram", note: "企业级语音识别(STT)龙头。" },
+    { id: "assemblyai_stt", name: "AssemblyAI", by: "AssemblyAI", note: "语音识别与理解 API。" },
+  ],
+  ai_security: [
+    { id: "crowdstrike_ai", name: "Charlotte AI", by: "CrowdStrike", note: "端点安全 + AI 威胁狩猎智能体。" },
+    { id: "paloalto_ai", name: "Cortex AI", by: "Palo Alto", note: "安全运营平台的 AI 检测响应。" },
+    { id: "sentinelone_ai", name: "SentinelOne", by: "SentinelOne", note: "AI 驱动的自主端点安全。" },
+    { id: "zscaler_ai", name: "Zscaler", by: "Zscaler", note: "零信任云安全 + AI 流量分析。" },
+    { id: "wiz_sec", name: "Wiz", by: "Wiz", note: "云安全新星，谷歌天价收购。" },
+  ],
+  defense_ai: [
+    { id: "anduril_lattice", name: "Anduril Lattice", by: "Anduril", note: "自主武器 + 战场 AI 操作系统。" },
+    { id: "palantir_gotham", name: "Palantir Gotham", by: "Palantir", note: "政府/国防情报分析平台。" },
+    { id: "helsing_ai", name: "Helsing", by: "Helsing", note: "欧洲最大 AI 国防独角兽。" },
+    { id: "shield_hivemind", name: "Hivemind", by: "Shield AI", note: "无人机自主飞行 AI 飞行员。" },
+    { id: "saronic_usv", name: "Saronic 无人舰", by: "Saronic", note: "AI 自主无人水面舰艇。" },
+  ],
+  bci: [
+    { id: "neuralink_bci", name: "Neuralink N1", by: "Neuralink", note: "高带宽植入式脑机接口，已入人体。" },
+    { id: "synchron_bci", name: "Synchron Stentrode", by: "Synchron", note: "经血管微创脑机接口。" },
+    { id: "precision_bci", name: "Precision 皮层电极", by: "Precision Neuroscience", note: "超薄柔性电极阵列。" },
+    { id: "paradromics_bci", name: "Paradromics", by: "Paradromics", note: "高通道数植入式脑机接口。" },
+  ],
+  productivity_ai: [
+    { id: "notion_ai", name: "Notion AI", by: "Notion", note: "文档/知识库里的写作与问答智能体。" },
+    { id: "grammarly_ai", name: "Grammarly", by: "Grammarly", note: "AI 写作语法与改写辅助。" },
+    { id: "deepl_tr", name: "DeepL", by: "DeepL", note: "以质量著称的 AI 翻译。" },
+    { id: "moveworks_ai", name: "Moveworks", by: "Moveworks", note: "企业 IT/HR 支持 AI 智能体。" },
+  ],
+  game_ai: [
+    { id: "inworld_npc", name: "Inworld", by: "Inworld AI", note: "游戏 NPC 的对话/行为 AI 引擎。" },
+    { id: "scenario_assets", name: "Scenario", by: "Scenario", note: "游戏美术 AI 生成平台。" },
   ],
 
   /* ---------- 模型层 ---------- */
@@ -139,6 +252,16 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "yi_model", name: "Yi", by: "零一万物", note: "李开复团队的开源中英双语大模型。" },
     { id: "nova_model", name: "Amazon Nova", by: "Amazon", note: "亚马逊自研大模型系列，主打性价比。" },
     { id: "phi_model", name: "Phi", by: "Microsoft", note: "微软小而强的开源模型系列。" },
+    { id: "glm", name: "GLM", by: "智谱 AI", note: "清华系开源/商用大模型系列。" },
+    { id: "step_model", name: "Step", by: "阶跃星辰", note: "万亿参数多模态大模型。" },
+    { id: "sensenova", name: "日日新 SenseNova", by: "商汤科技", note: "商汤自研大模型体系。" },
+    { id: "minimax_m", name: "MiniMax 大模型", by: "MiniMax", note: "自研大模型，支撑海螺与视频生成。" },
+    { id: "falcon", name: "Falcon", by: "TII", note: "阿联酋 TII 的开源大模型。" },
+    { id: "nemotron", name: "Nemotron", by: "NVIDIA", note: "英伟达开源大模型系列。" },
+    { id: "granite", name: "Granite", by: "IBM", note: "IBM 企业级开源模型。" },
+    { id: "aleph_model", name: "Aleph Alpha", by: "Aleph Alpha", note: "德国主权大模型，主打可解释合规。" },
+    { id: "ssi_model", name: "SSI（研发中）", by: "SSI", note: "Ilya 创立，只做安全超级智能。" },
+    { id: "tml_model", name: "Thinking Machines", by: "Thinking Machines Lab", note: "Mira Murati 领衔的前沿实验室。" },
   ],
   vlm: [
     { id: "gpt4v", name: "GPT-4V", by: "OpenAI", note: "把「看图说话」带入主流。" },
@@ -169,6 +292,9 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "firefly", name: "Firefly", by: "Adobe", note: "强调版权合规的商用生成。" },
     { id: "ideogram_img", name: "Ideogram", by: "Ideogram", note: "擅长在图中生成文字与海报。" },
     { id: "flux_img", name: "FLUX", by: "Black Forest Labs", note: "原 SD 核心团队的高质量开源图像模型。" },
+    { id: "recraft_img", name: "Recraft", by: "Recraft", note: "面向设计师的可控/矢量图像生成。" },
+    { id: "leonardo_img", name: "Leonardo.Ai", by: "Leonardo.Ai", note: "游戏/创意图像生成平台。" },
+    { id: "krea_img", name: "Krea", by: "Krea", note: "实时生成的创意工作台。" },
   ],
   gnn: [
     { id: "pyg_dgl", name: "PyG / DGL", by: "开源", note: "做图神经网络的主流工具库。" },
@@ -188,6 +314,11 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "pi_foundation", name: "Foundation Models", by: "Physical Intelligence", note: "面向机器人的通用动作模型。" },
     { id: "covariant", name: "Covariant", note: "仓储分拣的机器人基础模型。" },
   ],
+  world_model: [
+    { id: "worldlabs_wm", name: "Large World Model", by: "World Labs", note: "李飞飞：生成可交互 3D 世界。" },
+    { id: "genie_wm", name: "Genie", by: "Google", note: "从图像/文本生成可玩的 2D/3D 世界。" },
+    { id: "sakana_wm", name: "Sakana 进化模型", by: "Sakana AI", note: "进化式方法做高效模型。" },
+  ],
 
   /* ---------- 芯片层 ---------- */
   gpu: [
@@ -196,6 +327,8 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "tpu", name: "TPU", by: "Google", note: "谷歌自研，自家模型专用算力。" },
     { id: "gaudi", name: "Gaudi", by: "Intel", note: "英特尔的 AI 加速器尝试。" },
     { id: "trainium", name: "Trainium", by: "Amazon", note: "AWS 自研 AI 训练芯片。" },
+    { id: "mtt_gpu", name: "MTT GPU", by: "摩尔线程", note: "国产全功能 GPU。" },
+    { id: "biren_gpu", name: "壁砺 GPU", by: "壁仞科技", note: "国产高端 GPGPU。" },
   ],
   cpu: [
     { id: "xeon", name: "Xeon", by: "Intel", note: "数据中心通用计算的老牌主力。" },
@@ -215,11 +348,38 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "graphcore_ipu", name: "Graphcore IPU", by: "Graphcore", note: "智能处理单元，软银旗下。" },
     { id: "tenstorrent_chip", name: "Tenstorrent", by: "Tenstorrent", note: "RISC-V + AI 芯片，Jim Keller 掌舵。" },
     { id: "etched_sohu", name: "Etched Sohu", by: "Etched", note: "把 Transformer 刻进芯片的 ASIC。" },
+    { id: "cambricon_chip", name: "思元 MLU", by: "寒武纪", note: "国产 AI 训练/推理芯片龙头。" },
+    { id: "hygon_dcu", name: "海光 DCU", by: "海光信息", note: "国产深度计算加速卡。" },
+    { id: "ascend", name: "昇腾 Ascend", by: "华为", note: "华为自研 AI 芯片，国产算力核心。" },
+    { id: "dojo", name: "Dojo", by: "Tesla", note: "特斯拉自研 AI 训练超算芯片。" },
+    { id: "maia", name: "Maia 100", by: "Microsoft", note: "微软自研 AI 加速芯片。" },
+    { id: "mtia", name: "MTIA", by: "Meta", note: "Meta 自研推理加速芯片。" },
+    { id: "dmatrix_chip", name: "d-Matrix", by: "d-Matrix", note: "存算一体推理芯片。" },
+    { id: "positron_chip", name: "Positron", by: "Positron AI", note: "专攻 Transformer 推理的能效芯片。" },
+    { id: "rain_chip", name: "Rain AI", by: "Rain AI", note: "类脑神经形态低功耗芯片。" },
+  ],
+  quantum: [
+    { id: "willow_q", name: "Willow 量子芯片", by: "Google", note: "谷歌量子处理器，纠错里程碑。" },
+    { id: "ibm_q", name: "IBM Quantum", by: "IBM", note: "超导量子计算机与路线图领跑。" },
+    { id: "ionq_q", name: "IonQ 离子阱", by: "IonQ", note: "离子阱量子计算领跑上市公司。" },
+    { id: "rigetti_q", name: "Rigetti 超导", by: "Rigetti", note: "超导量子处理器与量子云。" },
+    { id: "dwave_q", name: "D-Wave 退火", by: "D-Wave", note: "量子退火，主攻优化问题。" },
+    { id: "quantinuum_q", name: "Quantinuum", by: "Quantinuum", note: "霍尼韦尔系离子阱，综合实力强。" },
+    { id: "psiquantum_q", name: "PsiQuantum 光子", by: "PsiQuantum", note: "硅光子容错量子，冲百万量子比特。" },
+  ],
+  av_chip: [
+    { id: "nvidia_drive", name: "NVIDIA DRIVE Thor", by: "NVIDIA", note: "车规智能驾驶 AI 芯片。" },
+    { id: "horizon_journey", name: "征程芯片", by: "地平线", note: "中国车规智驾芯片龙头。" },
+    { id: "mobileye_eyeq", name: "EyeQ 芯片", by: "Mobileye", note: "老牌自动驾驶视觉芯片。" },
+    { id: "hesai_lidar", name: "禾赛激光雷达", by: "禾赛科技", note: "全球车载激光雷达出货龙头。" },
+    { id: "luminar_lidar", name: "Luminar 激光雷达", by: "Luminar", note: "美国高性能车载激光雷达。" },
+    { id: "ouster_lidar", name: "Ouster 激光雷达", by: "Ouster", note: "数字激光雷达。" },
   ],
   foundry: [
     { id: "tsmc_foundry", name: "3nm / 2nm 制程", by: "TSMC", note: "最先进制程，英伟达/苹果都靠它代工。" },
     { id: "samsung_foundry", name: "三星代工", by: "Samsung", note: "先进制程的另一选择。" },
     { id: "intel_foundry", name: "Intel Foundry", by: "Intel", note: "力图重回先进制程第一梯队。" },
+    { id: "umc_foundry", name: "成熟制程代工", by: "联电", note: "全球第三大晶圆代工厂。" },
   ],
   packaging: [
     { id: "cowos", name: "CoWoS 先进封装", by: "TSMC", note: "把 GPU 与 HBM 集成，AI 芯片最紧的产能卡点。" },
@@ -236,6 +396,50 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "synopsys", name: "EDA 工具", by: "Synopsys", note: "芯片设计软件双雄之一。" },
     { id: "cadence", name: "EDA 工具", by: "Cadence", note: "芯片设计软件双雄之一。" },
   ],
+  asic_design: [
+    { id: "alchip_asic", name: "AI ASIC 设计", by: "世芯电子", note: "高端 AI ASIC 设计服务龙头。" },
+    { id: "guc_asic", name: "ASIC 设计服务", by: "创意电子", note: "台积电体系 ASIC 设计。" },
+    { id: "faraday_asic", name: "ASIC / IP", by: "智原科技", note: "联电体系设计服务与 IP。" },
+    { id: "andes_ip", name: "RISC-V CPU IP", by: "晶心科技", note: "全球领先 RISC-V 处理器 IP。" },
+    { id: "ememory_ip", name: "嵌入式存储 IP", by: "力旺电子", note: "嵌入式 NVM/安全 IP 龙头。" },
+  ],
+
+  /* ---------- 材料层（最上游原料） ---------- */
+  silicon_wafer: [
+    { id: "shinetsu_wafer", name: "半导体硅片", by: "信越化学", note: "全球最大硅片厂，芯片的地基。" },
+    { id: "sumco_wafer", name: "300mm 硅片", by: "SUMCO", note: "全球第二大硅片厂。" },
+    { id: "gwafers_wafer", name: "半导体硅片", by: "环球晶圆", note: "台湾硅片龙头，全球第三。" },
+  ],
+  photoresist: [
+    { id: "jsr_pr", name: "EUV 光刻胶", by: "JSR", note: "先进制程光刻胶龙头。" },
+    { id: "tok_pr", name: "光刻胶", by: "Tokyo Ohka", note: "EUV 光刻胶市占领先。" },
+    { id: "shinetsu_pr", name: "光刻胶材料", by: "信越化学", note: "光刻胶与掩膜材料。" },
+  ],
+  e_gases: [
+    { id: "linde_gas", name: "电子特气", by: "Linde", note: "全球最大电子特气供应商。" },
+    { id: "airliquide_gas", name: "电子特气", by: "Air Liquide", note: "法国工业气体巨头。" },
+  ],
+  substrate: [
+    { id: "ibiden_sub", name: "ABF 封装载板", by: "Ibiden", note: "高端载板龙头，供英伟达/英特尔。" },
+    { id: "unimicron_sub", name: "IC 载板", by: "Unimicron", note: "台湾封装载板与 PCB 龙头。" },
+  ],
+  cmp_mat: [
+    { id: "entegris_cmp", name: "CMP / 纯净材料", by: "Entegris", note: "抛光液、过滤与流体输送耗材。" },
+    { id: "cabot_cmp", name: "CMP 抛光材料", by: "Cabot", note: "抛光液与抛光垫龙头。" },
+  ],
+  rare_earth: [
+    { id: "mp_re", name: "稀土 + 永磁", by: "MP Materials", note: "美国唯一稀土矿，永磁国产化关键。" },
+    { id: "lynas_re", name: "稀土分离", by: "Lynas", note: "中国以外最大稀土生产商。" },
+    { id: "jlmag_magnet", name: "钕铁硼永磁", by: "金力永磁", note: "机器人伺服电机的磁芯。" },
+  ],
+  copper: [
+    { id: "fcx_cu", name: "铜矿", by: "Freeport-McMoRan", note: "全球最大上市铜矿商之一。" },
+    { id: "scco_cu", name: "铜矿冶炼", by: "Southern Copper", note: "储量最大的铜矿公司之一。" },
+  ],
+  sic_gan: [
+    { id: "wolfspeed_sic", name: "碳化硅 SiC", by: "Wolfspeed", note: "SiC 功率半导体龙头。" },
+    { id: "ifx_power", name: "功率器件 SiC/GaN", by: "Infineon", note: "全球功率半导体龙头。" },
+  ],
 
   /* ---------- 基础设施层 ---------- */
   nvlink: [
@@ -246,12 +450,38 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "tomahawk", name: "Tomahawk 交换芯片", by: "Broadcom", note: "数据中心交换的核心芯片。" },
     { id: "arista_sw", name: "数据中心交换机", by: "Arista", note: "AI 集群组网的领导者。" },
     { id: "infiniband", name: "InfiniBand / Spectrum-X", by: "NVIDIA", note: "高性能 AI 网络方案。" },
+    { id: "accton_switch", name: "白牌交换机", by: "智邦科技", note: "为云厂代工 800G 白牌交换机。" },
   ],
-  storage: [
-    { id: "hbm", name: "HBM 显存", by: "SK Hynix / 三星", note: "AI GPU 的关键瓶颈部件。" },
-    { id: "micron_hbm", name: "HBM / DRAM", by: "Micron", note: "美系唯一 HBM 供应商，AI 内存关键。" },
-    { id: "wd_storage", name: "企业存储", by: "Western Digital", note: "海量训练数据的仓库。" },
-    { id: "pure_flash", name: "全闪存", by: "Pure Storage", note: "高吞吐，喂饱 GPU 训练。" },
+  /* ---------- 存储层（独立大类，按类型细分） ---------- */
+  hbm_mem: [
+    { id: "hbm", name: "HBM（SK 海力士）", by: "SK Hynix", note: "HBM 份额领先，英伟达核心供应商。" },
+    { id: "samsung_hbm", name: "HBM（三星）", by: "三星电子", note: "三星的 HBM，全力追赶份额。" },
+    { id: "micron_hbm", name: "HBM（美光）", by: "Micron", note: "美系唯一 HBM 供应商，导入英伟达。" },
+  ],
+  dram_mem: [
+    { id: "server_dram", name: "服务器 DRAM / DDR5", by: "SK Hynix", note: "AI 服务器的大容量主内存。" },
+    { id: "samsung_dram", name: "DRAM（三星）", by: "三星电子", note: "全球 DRAM 龙头。" },
+    { id: "micron_dram", name: "DRAM（美光）", by: "Micron", note: "美系存储大厂的主内存。" },
+    { id: "nanya_dram", name: "DRAM（南亚科）", by: "南亚科技", note: "台湾 DRAM 内存厂。" },
+  ],
+  nand_ssd: [
+    { id: "ent_ssd", name: "企业级 SSD", by: "三星电子", note: "高吞吐固态盘，喂数据给 GPU。" },
+    { id: "kioxia_nand", name: "NAND 闪存", by: "铠侠", note: "NAND 闪存发明者，原东芝存储。" },
+    { id: "micron_nand", name: "NAND / SSD", by: "Micron", note: "美光的闪存与企业级 SSD。" },
+    { id: "pure_flash", name: "全闪存阵列", by: "Pure Storage", note: "高吞吐，喂饱 GPU 训练。" },
+  ],
+  hdd_stor: [
+    { id: "wd_storage", name: "机械硬盘 HDD", by: "Western Digital", note: "海量冷数据的低成本仓库。" },
+    { id: "seagate_hdd", name: "大容量 HDD", by: "Seagate", note: "HAMR 新技术，AI 数据湖底座。" },
+  ],
+  cxl_mem: [
+    { id: "cxl_module", name: "CXL 内存扩展", by: "Micron", note: "给服务器扩内存池，缓解内存墙。" },
+    { id: "samsung_cxl", name: "CXL 内存", by: "三星电子", note: "CXL 内存模组先行者。" },
+  ],
+  ent_storage: [
+    { id: "vast_data", name: "VAST Data 平台", by: "VAST Data", note: "为 AI 打造的高性能数据平台。" },
+    { id: "pure_sys", name: "全闪存存储系统", by: "Pure Storage", note: "面向 AI 的高吞吐存储系统。" },
+    { id: "wd_ent", name: "企业存储", by: "Western Digital", note: "海量训练数据的仓库。" },
   ],
   neocloud: [
     { id: "coreweave_cloud", name: "CoreWeave", by: "CoreWeave", note: "最大的 AI 专属 GPU 云。" },
@@ -260,6 +490,45 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "nebius_cloud", name: "Nebius", by: "Nebius", note: "源自 Yandex 的欧洲 AI 云。" },
     { id: "together_cloud", name: "Together AI", by: "Together AI", note: "开源模型推理/训练云。" },
     { id: "fireworks_cloud", name: "Fireworks", by: "Fireworks AI", note: "极速开源模型推理平台。" },
+    { id: "oracle_oci", name: "Oracle OCI", by: "Oracle", note: "甲骨文 AI 云，拿下 OpenAI 超大算力订单。" },
+  ],
+  depin: [
+    { id: "ionet_gpu", name: "io.net", by: "io.net", note: "去中心化 GPU 算力网络。" },
+    { id: "render_net", name: "Render Network", by: "Render Network", note: "去中心化 GPU 渲染/算力。" },
+    { id: "akash_net", name: "Akash", by: "Akash", note: "去中心化云算力市场。" },
+    { id: "bittensor_net", name: "Bittensor", by: "Bittensor", note: "去中心化机器学习网络。" },
+  ],
+  ai_datacenter: [
+    { id: "equinix_dc", name: "Equinix 数据中心", by: "Equinix", note: "全球最大互联数据中心 REIT。" },
+    { id: "dlr_dc", name: "Digital Realty", by: "Digital Realty", note: "全球最大数据中心 REIT 之一。" },
+    { id: "gds_dc", name: "万国数据中心", by: "万国数据", note: "中国头部第三方数据中心。" },
+    { id: "irm_dc", name: "Iron Mountain DC", by: "Iron Mountain", note: "信息管理巨头转型数据中心。" },
+    { id: "stargate_dc", name: "星际之门 Stargate", by: "Oracle", note: "OpenAI/甲骨文/软银的超级数据中心。" },
+  ],
+  ai_server: [
+    { id: "smci_server", name: "超微 AI 服务器", by: "Supermicro", note: "GPU 整机与液冷机柜，出货最激进。" },
+    { id: "dell_server", name: "戴尔 PowerEdge", by: "Dell", note: "为 xAI 等供大规模 AI 集群整机。" },
+    { id: "hpe_server", name: "HPE AI 服务器", by: "HPE", note: "企业 AI 整机与超算。" },
+    { id: "fii_server", name: "工业富联 GB200 机柜", by: "工业富联", note: "GB200 机柜主力组装方。" },
+    { id: "quanta_server", name: "广达 AI 服务器", by: "广达", note: "英伟达 AI 服务器核心组装厂。" },
+    { id: "wiwynn_server", name: "纬颖云服务器", by: "纬颖", note: "为超大规模云厂定制 AI 服务器。" },
+    { id: "wistron_server", name: "纬创 AI 服务器", by: "纬创", note: "GB200 供应链核心之一。" },
+    { id: "inventec_server", name: "英业达 AI 服务器", by: "英业达", note: "AI 服务器与笔电代工大厂。" },
+    { id: "gigabyte_server", name: "技嘉 GPU 服务器", by: "技嘉", note: "GPU 服务器与主板品牌厂。" },
+    { id: "pegatron_server", name: "和硕 AI 服务器", by: "和硕", note: "扩大 AI 服务器与网通布局。" },
+    { id: "asus_server", name: "华硕 AI 服务器", by: "华硕", note: "GB200 整机柜 + 自建 AI 云。" },
+  ],
+  connector: [
+    { id: "amphenol_conn", name: "高速连接器 / 铜缆", by: "Amphenol", note: "GB200 机柜铜缆互联最大受益者。" },
+    { id: "te_conn", name: "连接器 / 互连", by: "TE Connectivity", note: "全球连接器与传感器巨头。" },
+    { id: "astera_conn", name: "重定时器 / CXL", by: "Astera Labs", note: "GPU 集群高速互联芯片新贵。" },
+    { id: "credo_aec", name: "有源电缆 AEC", by: "Credo", note: "有源电缆与 SerDes 连接方案。" },
+  ],
+  pcb: [
+    { id: "wus_pcb", name: "高多层 PCB", by: "沪电股份", note: "英伟达链核心 PCB 供应商。" },
+    { id: "victory_pcb", name: "GPU 板卡 PCB", by: "胜宏科技", note: "深度绑定英伟达 GPU 板卡。" },
+    { id: "ttm_pcb", name: "高端 PCB", by: "TTM", note: "北美最大 PCB 制造商。" },
+    { id: "zhending_pcb", name: "高阶 PCB / 软板", by: "臻鼎科技", note: "全球最大 PCB 厂（鸿海系）。" },
   ],
   ai_infra_sw: [
     { id: "hf_hub", name: "Hugging Face", by: "Hugging Face", note: "开源模型社区，AI 界的 GitHub。" },
@@ -272,6 +541,15 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "llamaindex_fw", name: "LlamaIndex", by: "LlamaIndex", note: "面向 RAG 的数据编排框架。" },
     { id: "scale_data", name: "Scale AI", by: "Scale AI", note: "AI 训练数据标注与评测龙头。" },
     { id: "surge_data", name: "Surge AI", by: "Surge AI", note: "高质量 RLHF 数据标注。" },
+    { id: "mercor_data", name: "Mercor", by: "Mercor", note: "用 AI 匹配专家供高质量数据。" },
+    { id: "turing_data", name: "Turing", by: "Turing", note: "代码/推理训练数据与工程人才。" },
+    { id: "qdrant_vdb", name: "Qdrant", by: "Qdrant", note: "高性能开源向量数据库。" },
+    { id: "milvus_vdb", name: "Milvus / Zilliz", by: "Zilliz", note: "开源向量库 Milvus 的商业化。" },
+    { id: "modal_infra", name: "Modal", by: "Modal", note: "面向 AI 的无服务器计算平台。" },
+    { id: "baseten_deploy", name: "Baseten", by: "Baseten", note: "模型部署与推理平台。" },
+    { id: "replicate_host", name: "Replicate", by: "Replicate", note: "一行代码调用开源模型。" },
+    { id: "anyscale_ray", name: "Anyscale / Ray", by: "Anyscale", note: "大规模分布式训练/推理框架。" },
+    { id: "wandb_mlops", name: "Weights & Biases", by: "Weights & Biases", note: "AI 实验跟踪与 MLOps。" },
   ],
   /* ---------- 光通信层：上游·光芯片 ---------- */
   opt_chip: [
@@ -283,6 +561,9 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "semtech_cdr", name: "CDR / PMD 芯片", by: "Semtech", note: "【上游·信号】时钟恢复与信号调理芯片。" },
     { id: "yuanjie_laser", name: "DFB / EML 激光芯片", by: "源杰科技", note: "【上游】国产高速激光器芯片代表。" },
     { id: "tianfu_comp", name: "光器件配套", by: "天孚通信", note: "【上游】陶瓷套管/光引擎等配套，光模块卖铲人。" },
+    { id: "lightmatter_photonic", name: "Passage 光互联", by: "Lightmatter", note: "【上游】光子芯片间高带宽互联。" },
+    { id: "ayar_io", name: "光 I/O (CPO)", by: "Ayar Labs", note: "【上游】共封装光学，光 I/O 集成进封装。" },
+    { id: "celestial_fabric", name: "Photonic Fabric", by: "Celestial AI", note: "【上游】光互联扩展内存与算力带宽。" },
   ],
   /* ---------- 光通信层：中游·光模块 ---------- */
   opt_module: [
@@ -307,11 +588,20 @@ export const PLAYERS: Record<string, Player[]> = {
   cooling: [
     { id: "vertiv_cooling", name: "液冷 / 热管理", by: "Vertiv", note: "AI 散热龙头，液冷大趋势受益者。" },
     { id: "schneider_cooling", name: "数据中心制冷", by: "Schneider", note: "全套配电 + 制冷解决方案。" },
+    { id: "nvent_cool", name: "液冷 / 电气连接", by: "nVent", note: "数据中心液冷与电气连接方案。" },
+    { id: "avc_cool", name: "散热模组 / 液冷", by: "奇鋐科技", note: "GB200 液冷供应链核心。" },
+    { id: "auras_cool", name: "液冷冷板 / 歧管", by: "双鸿科技", note: "AI 服务器散热模组。" },
   ],
   power: [
     { id: "vertiv_power", name: "电源 / 供配电", by: "Vertiv", note: "数据中心供电的核心供应商。" },
     { id: "eaton_power", name: "电力管理", by: "Eaton", note: "AI 扩张的「卖水人」。" },
     { id: "schneider_power", name: "施耐德电气", by: "Schneider", note: "能源管理与配电巨头。" },
+  ],
+  power_supply: [
+    { id: "delta_psu", name: "服务器电源", by: "台达电子", note: "AI 服务器高功率电源龙头。" },
+    { id: "mpwr_pmic", name: "电源管理芯片", by: "Monolithic Power", note: "为 GPU 供电的 PMIC 关键芯片。" },
+    { id: "vicor_psu", name: "高密度电源模块", by: "Vicor", note: "靠近 GPU 的末端供电模块。" },
+    { id: "liteon_psu", name: "服务器电源", by: "光宝科技", note: "云端服务器电源大厂。" },
   ],
   grid: [
     { id: "eaton_grid", name: "电网设备", by: "Eaton", note: "承接 AI 用电激增的电网需求。" },
@@ -329,6 +619,30 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "vst_nuke", name: "核电 + 燃气", by: "Vistra", note: "【核电】综合电力生产商。" },
     { id: "oklo_smr", name: "先进核裂变", by: "Oklo", note: "【SMR】小型微堆新锐，Altman 押注。" },
     { id: "nuscale_smr", name: "SMR 反应堆", by: "NuScale", note: "【SMR】小型模块化反应堆先行者。" },
+    { id: "talen_nuke", name: "核电直供数据中心", by: "Talen Energy", note: "【核电】Susquehanna 核电直供亚马逊。" },
+    { id: "terrapower_smr", name: "Natrium 快堆", by: "TerraPower", note: "【SMR】盖茨押注的钠冷快堆。" },
+    { id: "xenergy_smr", name: "Xe-100 气冷堆", by: "X-energy", note: "【SMR】亚马逊押注的高温气冷小堆。" },
+    { id: "kairos_smr", name: "熔盐堆 KP-FHR", by: "Kairos Power", note: "【SMR】谷歌签约的氟盐冷却堆。" },
+  ],
+  fusion: [
+    { id: "helion_fusion", name: "Helion 聚变", by: "Helion", note: "微软已签全球首份聚变购电协议。" },
+    { id: "cfs_fusion", name: "SPARC 托卡马克", by: "Commonwealth Fusion", note: "MIT 分拆，高温超导磁体路线领跑。" },
+    { id: "tae_fusion", name: "TAE 场反位形", by: "TAE", note: "老牌聚变公司，融资规模居前。" },
+  ],
+  uranium: [
+    { id: "cameco_u", name: "铀矿 / 核燃料", by: "Cameco", note: "全球最大铀矿商之一。" },
+    { id: "centrus_leu", name: "HALEU 铀浓缩", by: "Centrus Energy", note: "美国唯一 HALEU 高丰度铀供应。" },
+    { id: "nano_u", name: "微堆 + 燃料运输", by: "Nano Nuclear", note: "微型反应堆与核燃料运输新锐。" },
+  ],
+  fuelcell: [
+    { id: "bloom_fc", name: "Bloom 燃料电池", by: "Bloom Energy", note: "就地发电直供数据中心，绕开电网。" },
+    { id: "plug_fc", name: "氢燃料电池", by: "Plug Power", note: "氢能燃料电池与绿氢。" },
+  ],
+  transformer: [
+    { id: "hitachi_transformer", name: "变压器 / HVDC", by: "Hitachi Energy", note: "全球变压器龙头，AI 用电下一柜难求。" },
+    { id: "siemens_grid", name: "电网 / 输配电设备", by: "Siemens Energy", note: "燃气轮机 + 输配电，订单大增。" },
+    { id: "powell_switchgear", name: "配电 / 开关柜", by: "Powell", note: "数据中心供配电直接受益股。" },
+    { id: "quanta_grid", name: "电网工程建设", by: "Quanta Services", note: "北美最大电网建设商。" },
   ],
 
   /* ---------- 太空算力层 ---------- */
@@ -344,6 +658,10 @@ export const PLAYERS: Record<string, Player[]> = {
   orbital_dc: [
     { id: "starcloud", name: "轨道数据中心", by: "SpaceX", note: "利用太空连续阳光与天然散热放 AI 算力。" },
     { id: "space_gpu", name: "太空 GPU", by: "NVIDIA", note: "为轨道算力提供芯片。" },
+  ],
+  sat_ai: [
+    { id: "planet_ai", name: "Planet 遥感 AI", by: "Planet Labs", note: "每日全球成像 + AI 影像解译。" },
+    { id: "blacksky_ai", name: "BlackSky", by: "BlackSky", note: "高频成像 + AI 地理情报。" },
   ],
 };
 
@@ -392,33 +710,77 @@ function rivalGroup(ids: string[], label = "竞品"): [string, string, string][]
 /** 各细分赛道里「同台竞争」的产品分组（同城/同环节 → 价值链里落在「同行」一侧）。 */
 const RIVALS: [string, string, string][] = [
   // 应用层
-  ...rivalGroup(["chatgpt", "claude_app", "gemini_app", "copilot", "grok", "perplexity", "meta_ai", "deepseek_app", "qianwen", "character_chat", "inflection_pi"]),
-  ...rivalGroup(["github_copilot", "cursor", "windsurf", "replit_agent", "amazon_q", "devin", "tabnine_ai", "v0"]),
-  ...rivalGroup(["m365_copilot", "agentforce", "now_assist", "aip", "glean", "writer_ai", "sierra_agent", "decagon_agent", "harvey_ai", "hebbia_ai"]),
-  ...rivalGroup(["waymo", "fsd", "zoox", "cruise", "ponyai", "weride", "apollo_go", "mobileye_adas", "aurora_driver", "wayve_ad", "nuro_driver"]),
-  ...rivalGroup(["optimus", "atlas_robot", "figure02", "neo", "agility_digit", "apptronik_apollo", "unitree_g1", "phoenix_robot", "fourier_gr"]),
+  ...rivalGroup(["chatgpt", "claude_app", "gemini_app", "copilot", "grok", "perplexity", "meta_ai", "deepseek_app", "qianwen", "character_chat", "inflection_pi", "hailuo_chat", "spark_chat", "zhipu_chat", "poe_chat"]),
+  ...rivalGroup(["github_copilot", "cursor", "windsurf", "replit_agent", "amazon_q", "devin", "tabnine_ai", "v0", "magic_code", "poolside_code", "bolt", "lovable_code", "augment_code", "cody_code"]),
+  ...rivalGroup(["anduril_lattice", "palantir_gotham", "helsing_ai", "shield_hivemind", "saronic_usv"]),
+  ...rivalGroup(["neuralink_bci", "synchron_bci", "precision_bci", "paradromics_bci"]),
+  ...rivalGroup(["inworld_npc", "scenario_assets"]),
+  ...rivalGroup(["notion_ai", "grammarly_ai", "deepl_tr", "moveworks_ai"]),
+  ...rivalGroup(["worldlabs_wm", "genie_wm", "sakana_wm"]),
+  ...rivalGroup(["lindy_agent", "multion_agent", "manus_agent", "operator", "genspark_agent", "adept_agent"]),
+  ...rivalGroup(["ionet_gpu", "render_net", "akash_net", "bittensor_net"]),
+  ...rivalGroup(["m365_copilot", "agentforce", "now_assist", "aip", "glean", "writer_ai", "sierra_agent", "decagon_agent", "harvey_ai", "hebbia_ai", "ibm_watson"]),
+  ...rivalGroup(["waymo", "fsd", "zoox", "cruise", "ponyai", "weride", "apollo_go", "mobileye_adas", "aurora_driver", "wayve_ad", "nuro_driver", "momenta_ad", "waabi_ad", "applied_sim"]),
+  ...rivalGroup(["optimus", "atlas_robot", "figure02", "neo", "agility_digit", "apptronik_apollo", "unitree_g1", "phoenix_robot", "fourier_gr", "walker_robot", "agibot_robot", "galbot_robot", "robotera_star", "engineai_robot", "dexterity_robot", "cobot_robot"]),
   ...rivalGroup(["alphafold", "isomorphic", "recursion", "insilico", "xaira_dd", "esm3"]),
+  ...rivalGroup(["abridge_scribe", "openevidence_search", "tempus_ai", "hippocratic_agent"]),
+  ...rivalGroup(["canva_ai", "figma_ai", "firefly_design"]),
+  ...rivalGroup(["apple_intelligence", "snapdragon_ai", "dimensity_ai", "copilot_pc"]),
+  ...rivalGroup(["applovin_ax", "tradedesk_ad", "meta_ads"]),
+  ...rivalGroup(["willow_q", "ibm_q", "ionq_q", "rigetti_q", "dwave_q", "quantinuum_q", "psiquantum_q"]),
+  ...rivalGroup(["bloomberg_gpt", "aladdin_ai"]),
+  ...rivalGroup(["duolingo_max", "khanmigo", "speak_tutor"]),
+  ...rivalGroup(["cresta_cx", "retell_voice", "vapi_voice"]),
+  ...rivalGroup(["deepgram_stt", "assemblyai_stt"]),
+  ...rivalGroup(["abridge_scribe", "nabla_scribe", "suki_voice"]),
+  ...rivalGroup(["crowdstrike_ai", "paloalto_ai", "sentinelone_ai", "zscaler_ai", "wiz_sec"]),
+  ...rivalGroup(["planet_ai", "blacksky_ai"]),
+  ...rivalGroup(["nvidia_drive", "horizon_journey", "mobileye_eyeq"]),
+  ...rivalGroup(["hesai_lidar", "luminar_lidar", "ouster_lidar"]),
+  ...rivalGroup(["equinix_dc", "dlr_dc", "gds_dc", "irm_dc"]),
+  ...rivalGroup(["smci_server", "dell_server", "hpe_server", "fii_server", "quanta_server", "wiwynn_server"]),
+  ...rivalGroup(["amphenol_conn", "te_conn", "astera_conn", "credo_aec"]),
+  ...rivalGroup(["wus_pcb", "victory_pcb", "ttm_pcb", "zhending_pcb"]),
+  ...rivalGroup(["delta_psu", "mpwr_pmic", "vicor_psu", "liteon_psu"]),
+  ...rivalGroup(["manus_agent", "operator", "genspark_agent", "adept_agent"]),
+  ...rivalGroup(["leader_harmonic", "sanhua_actuator", "topu_screw", "inovance_motor"]),
   // 生成式媒体 / AI 搜索
-  ...rivalGroup(["runway_gen", "pika_v", "luma_dream"]),
+  ...rivalGroup(["runway_gen", "pika_v", "luma_dream", "hailuo_video", "kling_video"]),
   ...rivalGroup(["suno_m", "udio_m"]),
   ...rivalGroup(["heygen_v", "synthesia_v"]),
   ...rivalGroup(["pplx_search", "searchgpt", "ai_overviews", "grok_search"]),
   // 模型层
-  ...rivalGroup(["gpt4", "claude35", "gemini_llm", "llama", "grok_llm", "mistral_large", "deepseek_v3", "qwen", "ernie", "command_r", "dbrx", "reka_core", "yi_model", "nova_model", "phi_model"]),
+  ...rivalGroup(["gpt4", "claude35", "gemini_llm", "llama", "grok_llm", "mistral_large", "deepseek_v3", "qwen", "ernie", "command_r", "dbrx", "reka_core", "yi_model", "nova_model", "phi_model", "glm", "step_model", "sensenova", "minimax_m", "falcon", "nemotron", "granite", "aleph_model", "ssi_model", "tml_model"]),
   ...rivalGroup(["gpt4v", "gemini_vlm", "claude_vlm", "llama_vlm", "llava"]),
-  ...rivalGroup(["sora", "midjourney", "stable_diffusion", "imagen", "firefly", "ideogram_img", "flux_img"]),
+  ...rivalGroup(["sora", "midjourney", "stable_diffusion", "imagen", "firefly", "ideogram_img", "flux_img", "recraft_img", "leonardo_img", "krea_img"]),
+  ...rivalGroup(["runway_gen", "genmo_video", "higgsfield_video"]),
+  ...rivalGroup(["elevenlabs_v", "playht_voice", "cartesia_voice"]),
   ...rivalGroup(["rt2", "openvla", "helix", "pi0"]),
-  // AI 加速芯片 / AI 云 / 开发框架
-  ...rivalGroup(["groq_lpu", "cerebras_wse", "sambanova_rdu", "graphcore_ipu", "tenstorrent_chip", "etched_sohu"]),
-  ...rivalGroup(["coreweave_cloud", "lambda_cloud", "crusoe_cloud", "nebius_cloud", "together_cloud", "fireworks_cloud"]),
-  ...rivalGroup(["pinecone_vdb", "weaviate_vdb", "chroma_vdb"]),
+  // AI 加速芯片 / GPU / AI 云 / 开发框架
+  ...rivalGroup(["groq_lpu", "cerebras_wse", "sambanova_rdu", "graphcore_ipu", "tenstorrent_chip", "etched_sohu", "cambricon_chip", "hygon_dcu", "ascend", "dojo", "maia", "mtia", "dmatrix_chip", "positron_chip", "rain_chip"]),
+  ...rivalGroup(["blackwell", "mi300", "tpu", "gaudi", "trainium", "mtt_gpu", "biren_gpu"]),
+  ...rivalGroup(["coreweave_cloud", "lambda_cloud", "crusoe_cloud", "nebius_cloud", "together_cloud", "fireworks_cloud", "oracle_oci"]),
+  ...rivalGroup(["pinecone_vdb", "weaviate_vdb", "chroma_vdb", "qdrant_vdb", "milvus_vdb"]),
+  ...rivalGroup(["scale_data", "surge_data", "mercor_data", "turing_data"]),
   ...rivalGroup(["langchain_fw", "llamaindex_fw"]),
   ...rivalGroup(["scale_data", "surge_data"]),
   ...rivalGroup(["hf_hub", "databricks_pl", "snowflake_ai"]),
+  ...rivalGroup(["modal_infra", "baseten_deploy", "replicate_host", "anyscale_ray"]),
+  ...rivalGroup(["lightmatter_photonic", "ayar_io", "celestial_fabric"]),
+  // 存储层
+  ...rivalGroup(["hbm", "samsung_hbm", "micron_hbm"]),
+  ...rivalGroup(["server_dram", "samsung_dram", "micron_dram", "nanya_dram"]),
+  ...rivalGroup(["ent_ssd", "kioxia_nand", "micron_nand", "pure_flash"]),
+  ...rivalGroup(["wd_storage", "seagate_hdd"]),
+  ...rivalGroup(["cxl_module", "samsung_cxl"]),
+  ...rivalGroup(["vast_data", "pure_sys", "wd_ent"]),
   // 芯片层
   ...rivalGroup(["blackwell", "mi300", "tpu", "gaudi", "trainium"]),
   ...rivalGroup(["xeon", "epyc", "grace"]),
-  ...rivalGroup(["tsmc_foundry", "samsung_foundry", "intel_foundry"]),
+  ...rivalGroup(["tsmc_foundry", "samsung_foundry", "intel_foundry", "umc_foundry"]),
+  ...rivalGroup(["alchip_asic", "guc_asic", "faraday_asic"]),
+  ...rivalGroup(["wistron_server", "inventec_server", "gigabyte_server", "pegatron_server", "asus_server"]),
+  ...rivalGroup(["avc_cool", "auras_cool"]),
   ...rivalGroup(["amat_eq", "lam_eq", "kla_eq"]),
   ...rivalGroup(["synopsys", "cadence"]),
   ...rivalGroup(["ase_pkg", "amkr_pkg"]),
@@ -429,13 +791,27 @@ const RIVALS: [string, string, string][] = [
   ...rivalGroup(["avgo_optical_dsp", "mrvl_optical"]),
   ...rivalGroup(["ciena_net", "nokia_net", "cisco_net", "juniper_net", "ericsson_net", "arista_opt"]),
   // 能源层
-  ...rivalGroup(["oklo_smr", "nuscale_smr"]),
-  ...rivalGroup(["ceg_nuke", "vst_nuke"]),
+  ...rivalGroup(["oklo_smr", "nuscale_smr", "terrapower_smr", "xenergy_smr", "kairos_smr"]),
+  ...rivalGroup(["ceg_nuke", "vst_nuke", "talen_nuke"]),
+  ...rivalGroup(["helion_fusion", "cfs_fusion", "tae_fusion"]),
+  ...rivalGroup(["cameco_u", "centrus_leu", "nano_u"]),
+  ...rivalGroup(["bloom_fc", "plug_fc"]),
+  ...rivalGroup(["hitachi_transformer", "siemens_grid", "powell_switchgear", "quanta_grid"]),
   ...rivalGroup(["vertiv_power", "eaton_power", "schneider_power"]),
+  ...rivalGroup(["vertiv_cooling", "schneider_cooling", "nvent_cool"]),
   ...rivalGroup(["gev_gas", "cat_genset", "cmi_power", "nee_renew"]),
   // 太空层
   ...rivalGroup(["starlink", "ast_sat", "kuiper"]),
   ...rivalGroup(["starship", "neutron"]),
+  // 材料层
+  ...rivalGroup(["shinetsu_wafer", "sumco_wafer", "gwafers_wafer"]),
+  ...rivalGroup(["jsr_pr", "tok_pr", "shinetsu_pr"]),
+  ...rivalGroup(["linde_gas", "airliquide_gas"]),
+  ...rivalGroup(["ibiden_sub", "unimicron_sub"]),
+  ...rivalGroup(["entegris_cmp", "cabot_cmp"]),
+  ...rivalGroup(["mp_re", "lynas_re", "jlmag_magnet"]),
+  ...rivalGroup(["fcx_cu", "scco_cu"]),
+  ...rivalGroup(["wolfspeed_sic", "ifx_power"]),
 ];
 
 /** [产品A, 产品B, 关系标签]，无向。 */
@@ -931,6 +1307,441 @@ export const LINKS: [string, string, string][] = [
   ["synthesia_v", "blackwell", "算力"],
   ["weaviate_vdb", "gpt4", "为RAG供检索"],
   ["chroma_vdb", "gpt4", "为RAG供检索"],
+
+  /* ============================================================
+   * 第二波：中国 / 医疗 / 设计 / 光子 / 部署 + 存储层 的上下游
+   * ============================================================ */
+  // 中国对话助手 → 大模型
+  ["hailuo_chat", "minimax_m", "同系模型"],
+  ["zhipu_chat", "glm", "同系模型"],
+  ["spark_chat", "blackwell", "算力"],
+  // 中国 / 自研大模型 → 算力（含国产算力）
+  ["glm", "blackwell", "算力"],
+  ["step_model", "blackwell", "算力"],
+  ["sensenova", "blackwell", "算力"],
+  ["minimax_m", "blackwell", "算力"],
+  ["ernie", "ascend", "国产算力"],
+  ["glm", "ascend", "国产算力"],
+  ["hailuo_video", "minimax_m", "自研模型"],
+  ["hailuo_video", "blackwell", "算力"],
+  // 国产 / 自研芯片 → 代工 / 显存
+  ["cambricon_chip", "tsmc_foundry", "代工制造"],
+  ["cambricon_chip", "hbm", "HBM显存"],
+  ["ascend", "hbm", "HBM显存"],
+  ["mtt_gpu", "tsmc_foundry", "代工制造"],
+  ["biren_gpu", "tsmc_foundry", "代工制造"],
+  ["hygon_dcu", "tsmc_foundry", "代工制造"],
+  ["dojo", "tsmc_foundry", "代工制造"],
+  ["maia", "tsmc_foundry", "代工制造"],
+  ["mtia", "tsmc_foundry", "代工制造"],
+  ["maia", "hbm", "HBM显存"],
+  ["mtia", "hbm", "HBM显存"],
+  ["dojo", "hbm", "HBM显存"],
+  // 编程新增 → 模型
+  ["magic_code", "blackwell", "自研模型算力"],
+  ["poolside_code", "blackwell", "自研模型算力"],
+  ["bolt", "claude35", "由Claude驱动"],
+  ["lovable_code", "claude35", "由Claude驱动"],
+  // 医疗 AI → 大模型 / 算力
+  ["abridge_scribe", "gpt4", "由大模型驱动"],
+  ["openevidence_search", "gpt4", "由大模型驱动"],
+  ["tempus_ai", "blackwell", "算力"],
+  ["hippocratic_agent", "llama", "医疗模型"],
+  // 设计 AI → 模型 / 生成
+  ["canva_ai", "blackwell", "算力"],
+  ["figma_ai", "gpt4", "AI辅助设计"],
+  ["firefly_design", "blackwell", "算力"],
+  ["canva_ai", "firefly_design", "集成生成"],
+  // 光子互联 → 服务算力 / 对标铜互联
+  ["lightmatter_photonic", "blackwell", "芯片间光互联"],
+  ["ayar_io", "blackwell", "光I/O"],
+  ["celestial_fabric", "hbm", "扩展显存带宽"],
+  ["lightmatter_photonic", "nvlink_p", "对标铜互联"],
+  ["ayar_io", "tsmc_foundry", "共封装光学"],
+  // AI 部署 / MLOps → 调用 GPU / 托管模型
+  ["modal_infra", "blackwell", "调GPU"],
+  ["baseten_deploy", "blackwell", "推理部署"],
+  ["replicate_host", "llama", "托管开源模型"],
+  ["anyscale_ray", "blackwell", "分布式算力"],
+  ["wandb_mlops", "llama", "实验跟踪"],
+
+  /* 存储层：HBM/DRAM/闪存/硬盘 → 上游封装/制程；下游服务 GPU/服务器 */
+  ["samsung_hbm", "cowos", "集成到GPU封装"],
+  ["hbm", "cowos", "集成HBM"],
+  ["samsung_hbm", "blackwell", "HBM显存"],
+  ["hbm", "asml_euv", "先进制程设备"],
+  ["samsung_hbm", "asml_euv", "先进制程设备"],
+  ["server_dram", "epyc", "服务器内存"],
+  ["samsung_dram", "xeon", "服务器内存"],
+  ["micron_dram", "blackwell", "系统内存"],
+  ["ent_ssd", "blackwell", "喂数据给GPU"],
+  ["kioxia_nand", "blackwell", "喂数据给GPU"],
+  ["micron_nand", "blackwell", "喂数据给GPU"],
+  ["seagate_hdd", "blackwell", "冷数据仓库"],
+  ["cxl_module", "epyc", "扩展内存"],
+  ["samsung_cxl", "blackwell", "扩显存池"],
+  ["vast_data", "blackwell", "AI数据平台"],
+  ["pure_sys", "blackwell", "高吞吐存储"],
+  ["wd_ent", "blackwell", "存训练数据"],
+  ["vast_data", "coreweave_cloud", "服务AI云"],
+  // 中国机器人新增 → 零部件 / 大脑
+  ["walker_robot", "harmonic_drive", "谐波减速器"],
+  ["walker_robot", "jetson_robot", "计算芯片"],
+  ["agibot_robot", "openvla", "具身大模型"],
+  ["agibot_robot", "harmonic_drive", "谐波减速器"],
+  ["galbot_robot", "openvla", "具身大模型"],
+  ["galbot_robot", "jetson_robot", "计算芯片"],
+
+  /* ============================================================
+   * 电力链加厚：核电/核聚变/铀/燃料电池/输配电 → AI 的尽头是电力
+   * ============================================================ */
+  // 反应堆 → 铀燃料（上游）
+  ["ceg_nuke", "cameco_u", "铀燃料"],
+  ["vst_nuke", "cameco_u", "铀燃料"],
+  ["nuscale_smr", "cameco_u", "核燃料"],
+  ["oklo_smr", "centrus_leu", "HALEU燃料"],
+  ["terrapower_smr", "centrus_leu", "HALEU燃料"],
+  ["xenergy_smr", "centrus_leu", "HALEU燃料"],
+  ["kairos_smr", "centrus_leu", "HALEU燃料"],
+  ["nano_u", "centrus_leu", "核燃料"],
+  // 核电 / 核聚变 / 燃料电池 → 供数据中心算力（下游）
+  ["talen_nuke", "blackwell", "核电供数据中心"],
+  ["talen_nuke", "vertiv_power", "核电上网"],
+  ["helion_fusion", "blackwell", "未来AI供电"],
+  ["cfs_fusion", "blackwell", "未来AI供电"],
+  ["tae_fusion", "blackwell", "未来AI供电"],
+  ["bloom_fc", "blackwell", "就地供电"],
+  ["plug_fc", "vertiv_power", "备用供电"],
+  ["bloom_fc", "gev_gas", "用天然气"],
+  // 输配电设备 → 数据中心供配电（下游）
+  ["hitachi_transformer", "vertiv_power", "变压供电"],
+  ["siemens_grid", "vertiv_power", "输配电设备"],
+  ["powell_switchgear", "vertiv_power", "配电开关"],
+  ["quanta_grid", "eaton_grid", "建电网"],
+  ["hitachi_transformer", "eaton_grid", "电网设备"],
+  // 散热新增
+  ["nvent_cool", "blackwell", "液冷散热"],
+  // 补：微堆供电 / 电网工程
+  ["nano_u", "vertiv_power", "微堆就地供电"],
+  ["quanta_grid", "vertiv_power", "数据中心电网工程"],
+
+  /* ============================================================
+   * 上游材料 → 下游制造/机器人/电力（整条链的源头）
+   * ============================================================ */
+  // 代工 / 制造 ← 硅片 / 光刻胶 / 特气 / CMP
+  ["tsmc_foundry", "shinetsu_wafer", "硅片"],
+  ["samsung_foundry", "sumco_wafer", "硅片"],
+  ["intel_foundry", "gwafers_wafer", "硅片"],
+  ["tsmc_foundry", "jsr_pr", "光刻胶"],
+  ["tsmc_foundry", "tok_pr", "EUV光刻胶"],
+  ["tsmc_foundry", "linde_gas", "电子特气"],
+  ["samsung_foundry", "airliquide_gas", "电子特气"],
+  ["tsmc_foundry", "entegris_cmp", "CMP耗材"],
+  ["tsmc_foundry", "cabot_cmp", "CMP抛光"],
+  ["asml_euv", "tok_pr", "EUV光刻胶配套"],
+  // 先进封装 ← 封装载板
+  ["cowos", "ibiden_sub", "ABF载板"],
+  ["cowos", "unimicron_sub", "IC载板"],
+  ["blackwell", "ibiden_sub", "封装载板"],
+  // 机器人 / 电机 ← 稀土永磁
+  ["harmonic_drive", "jlmag_magnet", "钕铁硼磁材"],
+  ["optimus", "mp_re", "永磁电机"],
+  ["figure02", "jlmag_magnet", "永磁电机"],
+  ["teradyne_arm", "jlmag_magnet", "伺服电机磁材"],
+  // 电力 / 输配电 ← 铜 / SiC 功率器件
+  ["hitachi_transformer", "fcx_cu", "铜材"],
+  ["siemens_grid", "scco_cu", "铜材"],
+  ["vertiv_power", "fcx_cu", "铜"],
+  ["nvlink_p", "fcx_cu", "铜互联"],
+  ["vertiv_power", "wolfspeed_sic", "SiC功率器件"],
+  ["eaton_power", "ifx_power", "功率半导体"],
+  ["bloom_fc", "ifx_power", "功率器件"],
+  ["shinetsu_pr", "tsmc_foundry", "光刻胶"],
+  ["lynas_re", "harmonic_drive", "稀土磁材"],
+
+  /* ============================================================
+   * 端侧 AI / AI 广告 / 量子计算
+   * ============================================================ */
+  // 端侧 AI → 模型 / 芯片
+  ["apple_intelligence", "gpt4", "集成ChatGPT"],
+  ["apple_intelligence", "tsmc_foundry", "自研芯片代工"],
+  ["copilot_pc", "gpt4", "由GPT驱动"],
+  ["snapdragon_ai", "tsmc_foundry", "代工制造"],
+  ["snapdragon_ai", "arm_arch", "基于ARM架构"],
+  ["dimensity_ai", "tsmc_foundry", "代工制造"],
+  ["dimensity_ai", "arm_arch", "基于ARM架构"],
+  // AI 广告 → 算力 / 模型
+  ["applovin_ax", "blackwell", "AI推荐算力"],
+  ["tradedesk_ad", "blackwell", "投放优化算力"],
+  ["meta_ads", "llama", "AI广告模型"],
+  // 量子计算 → 代工 / 与经典算力互补
+  ["willow_q", "tsmc_foundry", "芯片制造"],
+  ["ibm_q", "blackwell", "量子经典混合"],
+  ["ionq_q", "blackwell", "量子经典混合"],
+  ["willow_q", "ai4science", "量子模拟科研"],
+  ["ionq_q", "ai4science", "量子化学模拟"],
+  // Oracle 云 / IBM watsonx
+  ["oracle_oci", "blackwell", "GPU云"],
+  ["gpt4", "oracle_oci", "云算力"],
+  ["ibm_watson", "blackwell", "企业AI算力"],
+  // 量子计算补：科研模拟 / 芯片制造
+  ["ibm_q", "ai4science", "量子模拟"],
+  ["rigetti_q", "ai4science", "量子模拟"],
+  ["rigetti_q", "tsmc_foundry", "超导芯片制造"],
+  ["dwave_q", "ai4science", "优化问题"],
+  ["quantinuum_q", "ai4science", "量子化学"],
+  ["psiquantum_q", "tsmc_foundry", "硅光子制造"],
+
+  /* ============================================================
+   * 自驾芯片/激光雷达 · 数据中心 · 垂直 · 语音 · 安全 · 遥感
+   * ============================================================ */
+  // 自驾芯片 → 代工；激光雷达 / 芯片 → 服务自动驾驶
+  ["nvidia_drive", "tsmc_foundry", "代工制造"],
+  ["horizon_journey", "tsmc_foundry", "代工制造"],
+  ["mobileye_eyeq", "tsmc_foundry", "代工制造"],
+  ["nvidia_drive", "arm_arch", "含Arm核"],
+  ["waymo", "hesai_lidar", "激光雷达感知"],
+  ["zoox", "luminar_lidar", "激光雷达感知"],
+  ["ponyai", "hesai_lidar", "激光雷达"],
+  ["apollo_go", "hesai_lidar", "激光雷达"],
+  ["waymo", "nvidia_drive", "车端算力"],
+  ["fsd", "hesai_lidar", "纯视觉不用雷达"],
+  // AI 数据中心 → 承载 GPU（下游）/ 供电散热（上游）/ 云托管
+  ["equinix_dc", "blackwell", "承载GPU集群"],
+  ["dlr_dc", "blackwell", "承载GPU集群"],
+  ["gds_dc", "blackwell", "承载GPU集群"],
+  ["irm_dc", "blackwell", "承载算力"],
+  ["stargate_dc", "blackwell", "超级AI数据中心"],
+  ["equinix_dc", "vertiv_power", "供电散热"],
+  ["dlr_dc", "vertiv_cooling", "液冷散热"],
+  ["stargate_dc", "oklo_smr", "专属核电供电"],
+  ["stargate_dc", "oracle_oci", "OCI承载"],
+  ["coreweave_cloud", "dlr_dc", "托管机房"],
+  ["gds_dc", "ascend", "国产算力集群"],
+  // 金融 / 教育 / 语音 / 安全 / 遥感 → 大模型 / 算力
+  ["bloomberg_gpt", "blackwell", "金融模型算力"],
+  ["aladdin_ai", "gpt4", "接入大模型"],
+  ["duolingo_max", "gpt4", "由GPT驱动"],
+  ["khanmigo", "gpt4", "由GPT驱动"],
+  ["speak_tutor", "gpt4", "语音+大模型"],
+  ["cresta_cx", "gpt4", "由大模型驱动"],
+  ["retell_voice", "elevenlabs_v", "用语音合成"],
+  ["retell_voice", "gpt4", "对话大模型"],
+  ["vapi_voice", "elevenlabs_v", "用语音合成"],
+  ["crowdstrike_ai", "blackwell", "AI检测算力"],
+  ["paloalto_ai", "blackwell", "AI安全算力"],
+  ["wiz_sec", "gpt4", "云安全AI"],
+  ["planet_ai", "blackwell", "AI影像解译"],
+  ["blacksky_ai", "blackwell", "AI地理情报"],
+  ["planet_ai", "neutron", "小卫星发射"],
+  ["planet_ai", "aip", "情报分析平台"],
+  // 补：语音/安全/激光雷达的关联
+  ["vapi_voice", "gpt4", "对话大模型"],
+  ["sentinelone_ai", "blackwell", "AI检测算力"],
+  ["zscaler_ai", "blackwell", "AI流量分析"],
+  ["ouster_lidar", "tsmc_foundry", "芯片代工"],
+  ["cruise", "ouster_lidar", "激光雷达感知"],
+
+  /* ============================================================
+   * AI 服务器 · 连接铜缆 · PCB · 电源 · 智能体 · 机器人零部件
+   * ============================================================ */
+  // AI 服务器 ← GPU/连接/PCB/电源；服务器 → 云/数据中心
+  ["smci_server", "blackwell", "搭载GPU"],
+  ["dell_server", "blackwell", "搭载GPU"],
+  ["hpe_server", "blackwell", "搭载GPU"],
+  ["fii_server", "blackwell", "搭载GPU"],
+  ["quanta_server", "blackwell", "搭载GPU"],
+  ["wiwynn_server", "blackwell", "搭载GPU"],
+  ["smci_server", "amphenol_conn", "高速铜缆"],
+  ["smci_server", "wus_pcb", "PCB基板"],
+  ["smci_server", "delta_psu", "服务器电源"],
+  ["fii_server", "amphenol_conn", "高速铜缆"],
+  ["fii_server", "victory_pcb", "PCB基板"],
+  ["fii_server", "delta_psu", "服务器电源"],
+  ["smci_server", "vertiv_cooling", "液冷"],
+  ["coreweave_cloud", "smci_server", "整机采购"],
+  ["oracle_oci", "fii_server", "整机采购"],
+  ["stargate_dc", "fii_server", "GB200机柜"],
+  // 连接器 / PCB / 电源 ← 材料（铜/功率器件）；→ 服务AI集群
+  ["amphenol_conn", "fcx_cu", "铜材"],
+  ["amphenol_conn", "blackwell", "GB200铜缆互联"],
+  ["te_conn", "fcx_cu", "铜材"],
+  ["wus_pcb", "fcx_cu", "铜箔"],
+  ["victory_pcb", "blackwell", "承载GPU芯片"],
+  ["delta_psu", "ifx_power", "功率器件"],
+  ["delta_psu", "blackwell", "GPU供电"],
+  ["mpwr_pmic", "blackwell", "GPU供电"],
+  ["mpwr_pmic", "tsmc_foundry", "芯片代工"],
+  ["vicor_psu", "blackwell", "末端供电"],
+  // AI 智能体 → 大模型
+  ["manus_agent", "claude35", "由Claude驱动"],
+  ["operator", "gpt4", "运行于GPT"],
+  ["genspark_agent", "gpt4", "由大模型驱动"],
+  ["adept_agent", "gpt4", "操作软件Agent"],
+  // 机器人零部件 ← 材料；→ 装进机器人本体
+  ["inovance_motor", "jlmag_magnet", "永磁"],
+  ["optimus", "topu_screw", "直线执行器"],
+  ["optimus", "inovance_motor", "无框电机"],
+  ["figure02", "leader_harmonic", "谐波减速器"],
+  ["phoenix_robot", "leader_harmonic", "谐波减速器"],
+  ["unitree_g1", "inovance_motor", "关节电机"],
+  ["agibot_robot", "sanhua_actuator", "执行器"],
+  ["walker_robot", "topu_screw", "丝杠执行器"],
+  ["ttm_pcb", "blackwell", "承载芯片"],
+  ["ttm_pcb", "fcx_cu", "铜箔"],
+
+  /* ============================================================
+   * 第八波：国防 / 脑机 / DePIN / 游戏 + 更多玩家
+   * ============================================================ */
+  // 国防 AI → 大模型 / 算力 / 无人机
+  ["anduril_lattice", "blackwell", "AI算力"],
+  ["palantir_gotham", "gpt4", "接入大模型"],
+  ["helsing_ai", "blackwell", "AI算力"],
+  ["shield_hivemind", "nvidia_drive", "边缘算力"],
+  ["anduril_lattice", "planet_ai", "卫星情报"],
+  // 脑机接口 → 芯片 / 手术机器人
+  ["neuralink_bci", "tsmc_foundry", "植入芯片代工"],
+  ["synchron_bci", "blackwell", "神经信号AI"],
+  ["neuralink_bci", "blackwell", "神经解码AI"],
+  // DePIN → 聚合 GPU；服务模型/渲染
+  ["ionet_gpu", "blackwell", "聚合GPU算力"],
+  ["render_net", "blackwell", "聚合GPU"],
+  ["akash_net", "blackwell", "去中心化算力"],
+  ["bittensor_net", "blackwell", "去中心化训练"],
+  ["llama", "ionet_gpu", "低价算力"],
+  ["render_net", "runway_gen", "渲染/生成"],
+  // 游戏 AI → 大模型 / 生成
+  ["inworld_npc", "gpt4", "NPC对话模型"],
+  ["inworld_npc", "blackwell", "算力"],
+  ["scenario_assets", "stable_diffusion", "美术生成"],
+  // 新增大模型 → 算力
+  ["falcon", "blackwell", "算力"],
+  ["nemotron", "blackwell", "算力"],
+  ["granite", "blackwell", "算力"],
+  ["nemotron", "nvidia_drive", "英伟达生态"],
+  // 新增应用 → 模型
+  ["poe_chat", "gpt4", "聚合大模型"],
+  ["poe_chat", "claude35", "聚合大模型"],
+  ["augment_code", "claude35", "由Claude驱动"],
+  // 新增视频/语音 → 模型/算力
+  ["kling_video", "blackwell", "算力"],
+  ["cartesia_voice", "blackwell", "语音模型算力"],
+  ["retell_voice", "cartesia_voice", "实时语音"],
+  // 新增机器人本体 → 零部件
+  ["robotera_star", "leader_harmonic", "谐波减速器"],
+  ["robotera_star", "openvla", "具身大模型"],
+  ["engineai_robot", "inovance_motor", "关节电机"],
+  ["engineai_robot", "jetson_robot", "计算芯片"],
+  // 新增自动驾驶 → 芯片
+  ["momenta_ad", "nvidia_drive", "车端算力"],
+  ["momenta_ad", "hesai_lidar", "激光雷达"],
+  ["precision_bci", "tsmc_foundry", "电极芯片代工"],
+
+  /* ============================================================
+   * 第九波：海外高科技补充
+   * ============================================================ */
+  // 办公生产力 → 大模型
+  ["notion_ai", "gpt4", "由大模型驱动"],
+  ["grammarly_ai", "gpt4", "由大模型驱动"],
+  ["deepl_tr", "blackwell", "翻译模型算力"],
+  ["moveworks_ai", "gpt4", "企业智能体"],
+  // 世界模型 → 算力；服务机器人/自动驾驶/游戏
+  ["worldlabs_wm", "blackwell", "算力"],
+  ["genie_wm", "tpu", "算力"],
+  ["sakana_wm", "blackwell", "算力"],
+  ["optimus", "worldlabs_wm", "空间智能"],
+  ["inworld_npc", "genie_wm", "生成世界"],
+  // 图像/视频/语音新增 → 算力/上游
+  ["recraft_img", "blackwell", "算力"],
+  ["leonardo_img", "blackwell", "算力"],
+  ["krea_img", "flux_img", "聚合模型"],
+  ["genmo_video", "blackwell", "算力"],
+  ["higgsfield_video", "blackwell", "算力"],
+  ["playht_voice", "blackwell", "语音模型算力"],
+  ["retell_voice", "playht_voice", "语音接口"],
+  // 智能体新增 → 大模型
+  ["lindy_agent", "gpt4", "由大模型驱动"],
+  ["multion_agent", "gpt4", "操作网页Agent"],
+  // 编程新增 → 模型
+  ["cody_code", "claude35", "由Claude驱动"],
+  // 连接芯片新增 → 代工 / 服务集群
+  ["astera_conn", "tsmc_foundry", "代工制造"],
+  ["astera_conn", "blackwell", "GPU互联"],
+  ["credo_aec", "blackwell", "机柜互联"],
+  ["astera_conn", "cxl_module", "CXL控制"],
+  // 向量库 / 数据 → 服务大模型
+  ["qdrant_vdb", "gpt4", "为RAG供检索"],
+  ["milvus_vdb", "gpt4", "为RAG供检索"],
+  ["mercor_data", "gpt4", "训练数据"],
+  ["turing_data", "gpt4", "训练数据"],
+  // 机器人新增 → 大脑/零部件
+  ["skild_brain", "blackwell", "训练算力"],
+  ["dexterity_robot", "skild_brain", "机器人大脑"],
+  ["cobot_robot", "openvla", "具身大模型"],
+  ["figure02", "skild_brain", "通用大脑参考"],
+  // 自动驾驶新增 → 算力
+  ["waabi_ad", "blackwell", "仿真+车端算力"],
+  ["applied_sim", "blackwell", "仿真算力"],
+  ["applied_sim", "waymo", "仿真工具链"],
+  // 国防/脑机新增 → 算力/芯片
+  ["saronic_usv", "nvidia_drive", "边缘算力"],
+  ["paradromics_bci", "tsmc_foundry", "电极芯片代工"],
+  // 新增大模型 → 算力
+  ["aleph_model", "blackwell", "算力"],
+  // 补：机器人/图像的关联
+  ["dexterity_robot", "inovance_motor", "关节电机"],
+  ["krea_img", "blackwell", "算力"],
+
+  /* ============================================================
+   * 第十波：海外前沿实验室 / 语音 / 推理芯片 / 垂直
+   * ============================================================ */
+  ["ssi_model", "blackwell", "算力"],
+  ["tml_model", "blackwell", "算力"],
+  ["deepgram_stt", "blackwell", "语音识别算力"],
+  ["assemblyai_stt", "blackwell", "语音识别算力"],
+  ["retell_voice", "deepgram_stt", "语音识别"],
+  ["dmatrix_chip", "tsmc_foundry", "代工制造"],
+  ["positron_chip", "tsmc_foundry", "代工制造"],
+  ["rain_chip", "tsmc_foundry", "代工制造"],
+  ["dmatrix_chip", "hbm", "HBM显存"],
+  ["llama", "dmatrix_chip", "推理芯片"],
+  ["nabla_scribe", "gpt4", "由大模型驱动"],
+  ["suki_voice", "gpt4", "由大模型驱动"],
+  ["nabla_scribe", "deepgram_stt", "语音识别"],
+  ["robin_legal", "gpt4", "由大模型驱动"],
+
+  /* ============================================================
+   * 第十一波：台湾 AI 供应链 + IC 设计服务
+   * ============================================================ */
+  // IC 设计服务 → 代工；服务自研 AI 芯片
+  ["alchip_asic", "tsmc_foundry", "先进制程代工"],
+  ["guc_asic", "tsmc_foundry", "台积电体系"],
+  ["faraday_asic", "umc_foundry", "联电体系"],
+  ["trainium", "alchip_asic", "ASIC设计服务"],
+  ["maia", "guc_asic", "ASIC设计服务"],
+  ["andes_ip", "blackwell", "RISC-V IP"],
+  ["ememory_ip", "tsmc_foundry", "嵌入式存储IP"],
+  ["alchip_asic", "cowos", "先进封装"],
+  // 代工新增
+  ["mtt_gpu", "umc_foundry", "成熟制程"],
+  // AI 服务器代工 → GPU / 连接 / 电源
+  ["wistron_server", "blackwell", "搭载GPU"],
+  ["inventec_server", "blackwell", "搭载GPU"],
+  ["gigabyte_server", "blackwell", "搭载GPU"],
+  ["pegatron_server", "blackwell", "搭载GPU"],
+  ["asus_server", "blackwell", "搭载GPU"],
+  ["wistron_server", "avc_cool", "液冷散热"],
+  ["gigabyte_server", "liteon_psu", "服务器电源"],
+  // 交换机 → 交换芯片 / 服务集群
+  ["accton_switch", "tomahawk", "交换芯片"],
+  ["accton_switch", "blackwell", "AI组网"],
+  // 散热 / PCB / 电源 / 内存 → 服务 GPU 集群
+  ["avc_cool", "blackwell", "液冷散热"],
+  ["auras_cool", "blackwell", "液冷散热"],
+  ["zhending_pcb", "blackwell", "承载芯片"],
+  ["zhending_pcb", "fcx_cu", "铜箔"],
+  ["liteon_psu", "blackwell", "服务器供电"],
+  ["nanya_dram", "blackwell", "系统内存"],
 ];
 
 export interface Related extends ProductEntry {
@@ -978,7 +1789,15 @@ const CITY_RANK: Record<string, number> = {
   // 应用层（终端产品，最下游）
   chatbots: 0, digital_biology: 0, robotaxi: 0, enterprise: 0,
   science: 0, robotics: 0, manufacturing: 0, ai_coder: 0,
-  genmedia: 0, search_ai: 0, health_ai: 0, design_ai: 0,
+  genmedia: 0, search_ai: 0, health_ai: 0, design_ai: 0, edge_ai: 0, ai_ad: 0,
+  fin_ai: 0, edu_ai: 0, voice_agent: 0, ai_security: 0, sat_ai: 1, ai_agent: 0,
+  defense_ai: 0, bci: 0, game_ai: 0, depin: 4.5, productivity_ai: 0,
+  // 世界模型（模型层）
+  world_model: 3,
+  // 量子计算 / 自驾芯片（与芯片同层级）；AI 数据中心（基础设施）
+  quantum: 5, av_chip: 5, ai_datacenter: 6,
+  // AI 服务器/连接/PCB/电源 · 机器人零部件
+  ai_server: 4.8, connector: 6.2, pcb: 6.8, power_supply: 9, robot_parts: 7.3,
   // AI 开发框架（介于模型与芯片之间的软件底座）
   ai_infra_sw: 4,
   // AI 加速芯片 / AI 云算力（云在模型与芯片之间：向下服务模型，向上依赖 GPU）
@@ -989,14 +1808,21 @@ const CITY_RANK: Record<string, number> = {
   llm: 3, vlm: 3, vla: 3, mmllm: 3, gpt: 3, dm: 3, gnn: 3, moe: 3, ssm: 3, lbm: 3,
   // 计算芯片
   gpu: 5, cpu: 5, dpu: 5,
-  // 集群部件：互联 / 网络 / 显存存储
-  nvlink: 6, network: 6, storage: 6,
+  // 集群部件：互联 / 网络
+  nvlink: 6, network: 6,
+  // 存储层（HBM/DRAM/闪存/硬盘等，供应给算力集群）
+  hbm_mem: 6, dram_mem: 6, cxl_mem: 6, nand_ssd: 6, ent_storage: 6, hdd_stor: 6,
   // 光通信：下游设备(6) → 中游模块(6.5) → 上游光芯片(7.5)
   opt_network: 6, opt_module: 6.5, opt_chip: 7.5,
-  // 制造：封装 → 代工 → 设备 / EDA
-  packaging: 7, foundry: 7.5, equipment: 8.5, eda: 8.5,
+  // 制造：封装 → 代工 → 设备 / EDA / IC设计服务
+  packaging: 7, foundry: 7.5, equipment: 8.5, eda: 8.5, asic_design: 8,
+  // 材料层（最上游原料，位于设备/制造之上）
+  silicon_wafer: 11, photoresist: 11, e_gases: 11, substrate: 11,
+  cmp_mat: 11, rare_earth: 11, copper: 11, sic_gan: 11,
   // 能源（最上游）
   cooling: 9, power: 9, grid: 9.5, generation: 10, nuclear: 10,
+  // 电力链扩充：输配电设备 / 燃料电池 / 核聚变；铀燃料最上游
+  transformer: 9.5, fuelcell: 10, fusion: 10, uranium: 10.5,
 };
 /** 少数「混在应用城市里的部件/大脑」按真实层级修正。 */
 const PRODUCT_RANK: Record<string, number> = {
