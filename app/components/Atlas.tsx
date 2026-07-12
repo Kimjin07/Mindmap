@@ -267,7 +267,7 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
     const el = vpRef.current;
     if (!el) return;
     const onWheel = (e: WheelEvent) => {
-      if ((e.target as HTMLElement)?.closest(".atlas-card, .atlas-panel, .vchain")) return;
+      if ((e.target as HTMLElement)?.closest(".atlas-card, .atlas-panel, .atlas-news, .vchain")) return;
       e.preventDefault();
       const r = el.getBoundingClientRect();
       const mx = e.clientX - r.left, my = e.clientY - r.top;
