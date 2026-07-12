@@ -5760,6 +5760,14 @@
       "家用人形",
       "腱驱动",
       "OpenAI"
+    ],
+    "products": [
+      {
+        "name": "NEO",
+        "category": "人形机器人",
+        "description": "面向家用的人形机器人,主打安全、安静、做家务,OpenAI 投资。",
+        "status": "研发"
+      }
     ]
   },
   "anysphere": {
@@ -5868,6 +5876,14 @@
       "AI 代码编辑器",
       "Cascade",
       "行业整合"
+    ],
+    "products": [
+      {
+        "name": "Windsurf",
+        "category": "AI 代码编辑器",
+        "description": "以智能体式编程体验著称的 AI IDE。",
+        "status": "GA"
+      }
     ]
   },
   "replit": {
@@ -6464,6 +6480,20 @@
       "生成式药物",
       "靶点发现",
       "临床管线"
+    ],
+    "products": [
+      {
+        "name": "Pharma.AI 平台",
+        "category": "AI 制药",
+        "description": "从靶点发现到分子生成到临床预测的端到端生成式药物发现平台。",
+        "status": "GA"
+      },
+      {
+        "name": "IPF 候选药",
+        "category": "在研管线",
+        "description": "用 AI 加速的特发性肺纤维化候选新药,已进临床。",
+        "status": "临床试验"
+      }
     ]
   },
   "perplexity": {
@@ -7735,6 +7765,20 @@
       "开放架构",
       "Jim Keller",
       "IP 授权"
+    ],
+    "products": [
+      {
+        "name": "AI 加速芯片",
+        "category": "AI 芯片",
+        "description": "自研 AI 加速芯片,强调开放、可授权,避免 CUDA 式锁定。",
+        "status": "GA"
+      },
+      {
+        "name": "RISC-V IP",
+        "category": "芯片架构",
+        "description": "开放的 RISC-V 处理器 IP,可授权给客户做定制。",
+        "status": "GA"
+      }
     ]
   },
   "etched": {
@@ -8357,6 +8401,14 @@
       "RAG",
       "语义搜索",
       "AI 记忆"
+    ],
+    "products": [
+      {
+        "name": "Pinecone",
+        "category": "向量数据库",
+        "description": "最流行的托管向量数据库,RAG 应用的标配基础设施。",
+        "status": "GA"
+      }
     ]
   },
   "weaviate": {
@@ -8487,6 +8539,20 @@
       "LangGraph",
       "LangSmith",
       "开发框架"
+    ],
+    "products": [
+      {
+        "name": "LangChain",
+        "category": "开发框架",
+        "description": "最流行的大模型应用编排框架。",
+        "status": "GA"
+      },
+      {
+        "name": "LangSmith / LangGraph",
+        "category": "开发工具",
+        "description": "面向智能体的可观测、调试与编排工具。",
+        "status": "GA"
+      }
     ]
   },
   "llamaindex": {
@@ -8642,6 +8708,14 @@
       "数据标注",
       "数据燃料",
       "高质量"
+    ],
+    "products": [
+      {
+        "name": "高质量数据标注",
+        "category": "AI 数据",
+        "description": "为前沿实验室提供高质量 RLHF 与评测数据。",
+        "status": "GA"
+      }
     ]
   },
   "cohere": {
@@ -8756,6 +8830,14 @@
       "原生多模态",
       "Reka Core",
       "端侧"
+    ],
+    "products": [
+      {
+        "name": "Reka Core / Flash",
+        "category": "多模态大模型",
+        "description": "原生多模态大模型,同时理解文本/图像/音频/视频。",
+        "status": "GA"
+      }
     ]
   },
   "zeroone": {
@@ -10000,6 +10082,14 @@
       "蛋白质设计",
       "David Baker",
       "重金起步"
+    ],
+    "products": [
+      {
+        "name": "AI 药物发现平台",
+        "category": "AI 制药",
+        "description": "重金起步,汇聚顶尖 AI 与生物学人才(含蛋白设计)发现新药。",
+        "status": "研发"
+      }
     ]
   },
   "evoscale": {
@@ -10246,6 +10336,14 @@
       "Step 系列",
       "全模态",
       "视频生成"
+    ],
+    "products": [
+      {
+        "name": "Step 系列",
+        "category": "多模态大模型",
+        "description": "覆盖语言与图/声/视频的多模态大模型。",
+        "status": "GA"
+      }
     ]
   },
   "sensetime": {
@@ -10668,6 +10766,14 @@
       "工业人形",
       "港股",
       "工厂实训"
+    ],
+    "products": [
+      {
+        "name": "Walker",
+        "category": "人形机器人",
+        "description": "大型人形机器人,推动进汽车工厂实训与商用服务。",
+        "status": "研发"
+      }
     ]
   },
   "agibot": {
@@ -10833,6 +10939,14 @@
       "超长上下文",
       "代码大模型",
       "自研"
+    ],
+    "products": [
+      {
+        "name": "超长上下文代码模型",
+        "category": "AI 编程",
+        "description": "主攻超长上下文的自研代码大模型,能读进整个代码库。",
+        "status": "研发"
+      }
     ]
   },
   "poolside": {
@@ -10877,6 +10991,14 @@
       "代码基座",
       "私有部署",
       "RLCE"
+    ],
+    "products": [
+      {
+        "name": "代码大模型",
+        "category": "AI 编程",
+        "description": "从底层自研的代码基础模型,面向企业、可私有部署。",
+        "status": "研发"
+      }
     ]
   },
   "abridge": {
@@ -11246,6 +11368,14 @@
       "光互联",
       "内存扩展",
       "内存墙"
+    ],
+    "products": [
+      {
+        "name": "Photonic Fabric",
+        "category": "光子互联",
+        "description": "用光子技术连接芯片,提供高带宽低功耗的 AI 互连。",
+        "status": "研发"
+      }
     ]
   },
   "modal": {
@@ -11291,6 +11421,14 @@
       "GPU",
       "开发体验",
       "AI 算力"
+    ],
+    "products": [
+      {
+        "name": "Modal",
+        "category": "无服务器 AI 计算",
+        "description": "Python 加几行即把 GPU 任务部署上云、按秒计费。",
+        "status": "GA"
+      }
     ]
   },
   "baseten": {
@@ -11546,6 +11684,20 @@
       "UI/UX",
       "Figma AI",
       "Dev Mode"
+    ],
+    "products": [
+      {
+        "name": "Figma",
+        "category": "UI 设计协作",
+        "description": "浏览器里的协作式界面设计工具,设计团队事实标准。",
+        "status": "GA"
+      },
+      {
+        "name": "Figma AI",
+        "category": "设计 AI",
+        "description": "生成、编辑设计稿的 AI 能力。",
+        "status": "GA"
+      }
     ]
   },
   "stx": {
@@ -11664,6 +11816,14 @@
       "闪存",
       "企业级 SSD",
       "东芝存储"
+    ],
+    "products": [
+      {
+        "name": "NAND 闪存 / SSD",
+        "category": "存储芯片",
+        "description": "NAND 闪存的发明者,全球主要制造商之一。",
+        "status": "GA"
+      }
     ]
   },
   "vast": {
@@ -11774,6 +11934,14 @@
       "独立发电",
       "直连数据中心",
       "AI 电力"
+    ],
+    "products": [
+      {
+        "name": "核电 (Susquehanna)",
+        "category": "清洁电力",
+        "description": "把核电直接卖给 AI 数据中心(亚马逊),开创供电新范式。",
+        "status": "GA"
+      }
     ]
   },
   "cameco": {
@@ -11822,6 +11990,14 @@
       "核燃料",
       "西屋电气",
       "核电复兴"
+    ],
+    "products": [
+      {
+        "name": "铀矿 / 核燃料",
+        "category": "核燃料",
+        "description": "全球最大铀矿商之一,核电复兴与 AI 用电的上游燃料龙头。",
+        "status": "GA"
+      }
     ]
   },
   "centrus": {
@@ -11976,6 +12152,14 @@
       "钠冷快堆",
       "熔盐储能",
       "比尔·盖茨"
+    ],
+    "products": [
+      {
+        "name": "Natrium 反应堆",
+        "category": "先进核能",
+        "description": "比尔·盖茨创立,钠冷快堆+储能的先进核电方案。",
+        "status": "研发"
+      }
     ]
   },
   "xenergy": {
@@ -12122,6 +12306,14 @@
       "磁惯性",
       "直接发电",
       "微软 PPA"
+    ],
+    "products": [
+      {
+        "name": "聚变发电",
+        "category": "核聚变",
+        "description": "磁惯性聚变路线,微软已签署购电协议。",
+        "status": "研发"
+      }
     ]
   },
   "cfs": {
@@ -13127,6 +13319,14 @@
         "revenue": 3.24,
         "netIncome": 0.35
       }
+    ],
+    "products": [
+      {
+        "name": "污染控制材料",
+        "category": "半导体材料",
+        "description": "高纯化学品输送/过滤、晶圆容器与 CMP 材料,保障芯片洁净度。",
+        "status": "GA"
+      }
     ]
   },
   "cabot": {
@@ -13227,6 +13427,14 @@
       "钕铁硼永磁",
       "国防部",
       "供应链自主"
+    ],
+    "products": [
+      {
+        "name": "稀土矿 (Mountain Pass)",
+        "category": "稀土/磁材",
+        "description": "美国唯一规模稀土矿,并向下游做钕铁硼永磁国产化。",
+        "status": "GA"
+      }
     ]
   },
   "lynas": {
@@ -13702,6 +13910,14 @@
       "经血管",
       "Stentrode",
       "微创"
+    ],
+    "products": [
+      {
+        "name": "Stentrode",
+        "category": "脑机接口",
+        "description": "经血管植入的微创脑机接口,无需开颅。",
+        "status": "临床试验"
+      }
     ]
   },
   "precision_neuro": {
@@ -14412,6 +14628,14 @@
       "企业代码库",
       "上下文引擎",
       "团队"
+    ],
+    "products": [
+      {
+        "name": "Augment Code",
+        "category": "AI 编程",
+        "description": "面向大型企业代码库、以「全库上下文」著称的 AI 编程助手。",
+        "status": "GA"
+      }
     ]
   },
   "astera": {
@@ -14522,6 +14746,14 @@
       "SerDes",
       "机柜互联",
       "高速连接"
+    ],
+    "products": [
+      {
+        "name": "有源电缆 (AEC) / SerDes",
+        "category": "AI 服务器连接",
+        "description": "在数据中心里又快又省电地高速互联,深度绑定云厂 AI 网络。",
+        "status": "GA"
+      }
     ]
   },
   "sourcegraph": {
@@ -14684,6 +14916,20 @@
       "AI Scientist",
       "日本",
       "模型合并"
+    ],
+    "products": [
+      {
+        "name": "AI Scientist",
+        "category": "AI 研究",
+        "description": "能自主做研究、写论文的 AI 系统。",
+        "status": "研发"
+      },
+      {
+        "name": "进化式模型方法",
+        "category": "AI 方法",
+        "description": "用进化、模型合并等自然启发方法高效组合模型。",
+        "status": "研发"
+      }
     ]
   },
   "aleph": {
@@ -15320,6 +15566,14 @@
       "搬运码垛",
       "全栈自研",
       "物理 AI"
+    ],
+    "products": [
+      {
+        "name": "物流操作机器人",
+        "category": "机器人",
+        "description": "码垛/拆垛、货车装卸、拣选的工业级智能操作机器人。",
+        "status": "GA"
+      }
     ]
   },
   "cobot": {
@@ -15606,6 +15860,14 @@
       "AI 招聘",
       "数据燃料",
       "评测"
+    ],
+    "products": [
+      {
+        "name": "专家数据 / 招聘平台",
+        "category": "AI 数据",
+        "description": "为前沿实验室匹配专家、供应高质量专业训练数据。",
+        "status": "GA"
+      }
     ]
   },
   "turing": {
@@ -16040,6 +16302,14 @@
       "音频理解",
       "API",
       "说话人分离"
+    ],
+    "products": [
+      {
+        "name": "语音识别 API",
+        "category": "语音 AI",
+        "description": "高精度转录+说话人分离/摘要等语音理解 API。",
+        "status": "GA"
+      }
     ]
   },
   "dmatrix": {
@@ -16260,6 +16530,14 @@
       "临床文书",
       "环境记录",
       "欧洲"
+    ],
+    "products": [
+      {
+        "name": "Nabla Copilot",
+        "category": "医疗 AI",
+        "description": "问诊中实时聆听、自动生成结构化病历草稿。",
+        "status": "GA"
+      }
     ]
   },
   "suki": {
@@ -16304,6 +16582,14 @@
       "语音助手",
       "临床记录",
       "EHR"
+    ],
+    "products": [
+      {
+        "name": "Suki Assistant",
+        "category": "医疗 AI",
+        "description": "面向临床医生的 AI 语音助手,口述病历、查信息、开医嘱。",
+        "status": "GA"
+      }
     ]
   },
   "alchip": {
@@ -16422,6 +16708,14 @@
       "台积电体系",
       "先进封装",
       "定制"
+    ],
+    "products": [
+      {
+        "name": "ASIC 设计服务",
+        "category": "ASIC 设计服务",
+        "description": "台积电体系的旗舰设计服务,承接高端 AI ASIC 落地。",
+        "status": "GA"
+      }
     ]
   },
   "faraday": {
@@ -16693,6 +16987,14 @@
       "GB200",
       "纬颖母公司",
       "GPU 基板"
+    ],
+    "products": [
+      {
+        "name": "AI 服务器代工",
+        "category": "电子代工",
+        "description": "AI 服务器代工主力,纬颖母公司。",
+        "status": "GA"
+      }
     ]
   },
   "inventec": {
@@ -16903,6 +17205,14 @@
       "800G",
       "AI 组网",
       "ODM"
+    ],
+    "products": [
+      {
+        "name": "白牌交换机",
+        "category": "网络设备",
+        "description": "白牌数据中心交换机代工龙头,供云厂 AI 网络。",
+        "status": "GA"
+      }
     ]
   },
   "avc": {
@@ -16957,6 +17267,14 @@
       "液冷",
       "冷板",
       "GB200"
+    ],
+    "products": [
+      {
+        "name": "服务器散热",
+        "category": "散热",
+        "description": "风扇、热管、均温板与液冷,AI 服务器散热龙头。",
+        "status": "GA"
+      }
     ]
   },
   "auras": {
@@ -17550,6 +17868,20 @@
       "手机 SoC",
       "端侧 AI",
       "英伟达合作"
+    ],
+    "products": [
+      {
+        "name": "天玑 (Dimensity)",
+        "category": "手机 SoC",
+        "description": "全球出货最大的手机芯片之一,集成 NPU 支持端侧 AI。",
+        "status": "GA"
+      },
+      {
+        "name": "ASIC 设计",
+        "category": "AI 芯片",
+        "description": "为云厂商做定制 AI 芯片的合作方之一。",
+        "status": "GA"
+      }
     ]
   },
   "ibm": {
@@ -17618,6 +17950,20 @@
         "year": 2024,
         "revenue": 62.8,
         "netIncome": 6
+      }
+    ],
+    "products": [
+      {
+        "name": "watsonx",
+        "category": "企业 AI 平台",
+        "description": "面向企业的 AI 与数据平台,含自研 Granite 模型。",
+        "status": "GA"
+      },
+      {
+        "name": "IBM Quantum",
+        "category": "量子计算",
+        "description": "领先的超导量子计算硬件与云服务。",
+        "status": "GA"
       }
     ]
   },
@@ -17869,6 +18215,20 @@
         "revenue": 2.44,
         "netIncome": 0.39
       }
+    ],
+    "products": [
+      {
+        "name": "The Trade Desk 平台",
+        "category": "程序化广告",
+        "description": "最大的独立程序化广告购买平台。",
+        "status": "GA"
+      },
+      {
+        "name": "Kokai",
+        "category": "广告 AI",
+        "description": "用 AI 优化广告投放决策。",
+        "status": "GA"
+      }
     ]
   },
   "ionq": {
@@ -18110,6 +18470,14 @@
       "离子阱",
       "霍尼韦尔",
       "上市"
+    ],
+    "products": [
+      {
+        "name": "H 系列离子阱量子计算机",
+        "category": "量子计算",
+        "description": "霍尼韦尔系离子阱量子计算龙头,量子体积领先。",
+        "status": "GA"
+      }
     ]
   },
   "hesai": {
@@ -18398,6 +18766,14 @@
         "revenue": 8.75,
         "netIncome": 0.82
       }
+    ],
+    "products": [
+      {
+        "name": "Equinix 数据中心 / 互联",
+        "category": "数据中心",
+        "description": "全球最大数据中心互联平台,汇聚网络与云的中立枢纽。",
+        "status": "GA"
+      }
     ]
   },
   "dlr": {
@@ -18463,6 +18839,14 @@
         "year": 2024,
         "revenue": 5.55,
         "netIncome": 0.6
+      }
+    ],
+    "products": [
+      {
+        "name": "Digital Realty 数据中心",
+        "category": "数据中心",
+        "description": "全球最大数据中心 REIT 之一,出租机房空间/电力/制冷。",
+        "status": "GA"
       }
     ]
   },
@@ -18688,6 +19072,20 @@
         "revenue": 20.4,
         "netIncome": 6.4
       }
+    ],
+    "products": [
+      {
+        "name": "Aladdin",
+        "category": "风控平台",
+        "description": "全球广泛使用的投资与风险管理平台,正接入 AI。",
+        "status": "GA"
+      },
+      {
+        "name": "iShares / 资管",
+        "category": "资产管理",
+        "description": "全球最大资管,含 iShares ETF 系列。",
+        "status": "GA"
+      }
     ]
   },
   "duolingo": {
@@ -18757,6 +19155,20 @@
         "year": 2024,
         "revenue": 0.75,
         "netIncome": 0.089
+      }
+    ],
+    "products": [
+      {
+        "name": "Duolingo",
+        "category": "语言学习",
+        "description": "游戏化+免费的全球最大语言学习 App。",
+        "status": "GA"
+      },
+      {
+        "name": "Duolingo Max",
+        "category": "AI 私教",
+        "description": "用 GPT 做 AI 对话练习与逐题讲解。",
+        "status": "GA"
       }
     ]
   },
@@ -19214,6 +19626,14 @@
       "Singularity",
       "Purple AI",
       "自主响应"
+    ],
+    "products": [
+      {
+        "name": "Singularity 平台",
+        "category": "端点安全",
+        "description": "把 ML 模型部署到每个端点,自主检测/拦截/回滚。",
+        "status": "GA"
+      }
     ]
   },
   "zscaler": {
@@ -19262,6 +19682,14 @@
       "SASE",
       "云安全",
       "数据防泄漏"
+    ],
+    "products": [
+      {
+        "name": "Zero Trust Exchange",
+        "category": "云安全",
+        "description": "零信任云安全平台,每次访问先经其云平台验证检查。",
+        "status": "GA"
+      }
     ]
   },
   "wiz": {
