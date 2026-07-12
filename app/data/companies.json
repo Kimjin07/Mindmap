@@ -2280,6 +2280,11 @@
         "name": "Robert Willett",
         "title": "CEO"
       }
+    ],
+    "keyCustomers": [
+      "apple",
+      "tsla",
+      "amzn"
     ]
   },
   "arm": {
@@ -2799,6 +2804,9 @@
         "description": "从精密空调到 AI 机柜液冷的整套温控方案,中国龙头。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "nvda"
     ]
   },
   "innolight": {
@@ -3256,6 +3264,11 @@
         "name": "林清源 (Thompson Lin)",
         "title": "创始人、董事长兼 CEO"
       }
+    ],
+    "keyCustomers": [
+      "amzn",
+      "msft",
+      "nvda"
     ]
   },
   "cien": {
@@ -3741,6 +3754,10 @@
         "description": "插芯、透镜、光引擎等上游无源光器件,光模块「卖铲人」。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "innolight",
+      "eoptolink"
     ]
   },
   "yuanjie": {
@@ -3799,6 +3816,10 @@
         "description": "国产 DFB/EML 等高速激光器芯片,光模块最上游卡脖子环节。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "innolight",
+      "eoptolink"
     ]
   },
   "mtsi": {
@@ -3862,6 +3883,11 @@
         "name": "Stephen Daly",
         "title": "董事长、总裁兼 CEO"
       }
+    ],
+    "keyCustomers": [
+      "innolight",
+      "eoptolink",
+      "cohr"
     ]
   },
   "smtc": {
@@ -4603,6 +4629,12 @@
         "name": "Greg Smith",
         "title": "总裁兼 CEO"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "amd",
+      "qualcomm",
+      "apple"
     ]
   },
   "asml": {
@@ -8814,8 +8846,9 @@
       "amzn"
     ],
     "keyCustomers": [
+      "openai",
       "msft",
-      "openai"
+      "meta"
     ],
     "suppliers": [
       "nvda"
@@ -14444,6 +14477,10 @@
         "description": "电气机柜、配电与冷板、CDU 等数据中心液冷方案。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "msft"
     ]
   },
   "shinetsu": {
@@ -14637,6 +14674,11 @@
         "description": "台湾硅片龙头、全球第三,在美国得州建 12 吋硅片厂。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "tsm",
+      "samsung",
+      "intc"
     ]
   },
   "jsr": {
@@ -14751,6 +14793,11 @@
         "description": "EUV 光刻胶市占领先,高纯化学材料。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "tsm",
+      "samsung",
+      "intc"
     ]
   },
   "linde": {
@@ -15151,6 +15198,11 @@
         "description": "化学机械抛光材料龙头,每叠一层电路都要用,并入恩特格里斯。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "tsm",
+      "samsung",
+      "intc"
     ]
   },
   "mp": {
@@ -16693,7 +16745,10 @@
       "avgo"
     ],
     "keyCustomers": [
-      "nvda"
+      "nvda",
+      "amd",
+      "msft",
+      "amzn"
     ],
     "tags": [
       "连接芯片",
@@ -16777,6 +16832,11 @@
         "name": "Bill Brennan",
         "title": "总裁兼 CEO"
       }
+    ],
+    "keyCustomers": [
+      "msft",
+      "amzn",
+      "meta"
     ]
   },
   "sourcegraph": {
@@ -19074,6 +19134,10 @@
         "description": "台积电体系的旗舰设计服务,承接高端 AI ASIC 落地。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "amd"
     ]
   },
   "faraday": {
@@ -19132,6 +19196,10 @@
         "description": "老牌 ASIC 设计服务与半导体 IP,属联电集团。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "amd"
     ]
   },
   "andes": {
@@ -19190,6 +19258,10 @@
         "description": "全球领先的 RISC-V 处理器核 IP 供应商。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "amd"
     ]
   },
   "ememory": {
@@ -19248,6 +19320,10 @@
         "description": "嵌入式非挥发存储 IP 龙头,几乎每颗芯片都用得到(含安全密钥)。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "tsm",
+      "samsung"
     ]
   },
   "umc": {
@@ -19324,6 +19400,11 @@
         "description": "全球第三大代工厂,专注成熟制程与电源/显示/射频等特色工艺。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "qualcomm",
+      "mediatek",
+      "nvda"
     ]
   },
   "wistron": {
@@ -19781,6 +19862,9 @@
         "description": "热管、均温板、散热器与液冷,AI 服务器散热厂。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "nvda"
     ]
   },
   "zhending": {
@@ -20076,6 +20160,10 @@
         "description": "碳化硅衬底与器件龙头,用于电动车与电力电子。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "ifx",
+      "tsla"
     ]
   },
   "ifx": {
@@ -23132,7 +23220,9 @@
       "te"
     ],
     "keyCustomers": [
-      "nvda"
+      "nvda",
+      "dell",
+      "hpe"
     ],
     "tags": [
       "连接器",
@@ -23210,6 +23300,10 @@
         "description": "无处不在的连接件,AI 服务器高速连接与供电受益。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "tsla",
+      "nvda"
     ]
   },
   "wus": {
@@ -23268,6 +23362,10 @@
         "description": "AI 服务器与高速网络设备用的高多层、高速 PCB。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "csco"
     ]
   },
   "victory": {
@@ -23326,6 +23424,9 @@
         "description": "英伟达 AI 服务器/显卡相关高端 PCB,高增长中国黑马。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "nvda"
     ]
   },
   "ttm": {
@@ -23383,6 +23484,10 @@
         "description": "北美最大 PCB 制造商,服务国防、数据中心等高端市场。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "csco"
     ]
   },
   "delta": {
@@ -23582,6 +23687,9 @@
         "description": "把电高效紧凑送到芯片,主张电源尽量靠近 AI GPU。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "nvda"
     ]
   },
   "manus": {
