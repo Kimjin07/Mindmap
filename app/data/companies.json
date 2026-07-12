@@ -67,6 +67,26 @@
     "suppliers": [
       "nvda",
       "tsm"
+    ],
+    "products": [
+      {
+        "name": "Copilot",
+        "category": "AI 助手",
+        "description": "贯穿 Windows、Office(Microsoft 365)、GitHub 等全线产品的 AI 助手。",
+        "status": "GA"
+      },
+      {
+        "name": "Azure AI",
+        "category": "云与 AI 平台",
+        "description": "微软云,深度集成 OpenAI 模型,是企业用 AI 的主要平台之一。",
+        "status": "GA"
+      },
+      {
+        "name": "Maia / Cobalt",
+        "category": "自研芯片",
+        "description": "微软自研的 AI 加速芯片(Maia)与云服务器 CPU(Cobalt)。",
+        "status": "GA"
+      }
     ]
   },
   "googl": {
@@ -138,6 +158,32 @@
     ],
     "suppliers": [
       "tsm"
+    ],
+    "products": [
+      {
+        "name": "Gemini",
+        "category": "前沿大模型",
+        "description": "谷歌旗舰多模态大模型,对标 GPT,驱动搜索、Workspace 等全线产品。",
+        "status": "GA"
+      },
+      {
+        "name": "TPU",
+        "category": "AI 芯片",
+        "description": "谷歌自研的张量处理器,用于训练和推理,是自研 AI 算力的代表。",
+        "status": "GA"
+      },
+      {
+        "name": "Google Cloud / Vertex AI",
+        "category": "云与 AI 平台",
+        "description": "面向企业的云与 AI 开发平台。",
+        "status": "GA"
+      },
+      {
+        "name": "Veo / Imagen",
+        "category": "生成式媒体",
+        "description": "顶尖的视频生成(Veo)与图像生成(Imagen)模型。",
+        "status": "GA"
+      }
     ]
   },
   "nvda": {
@@ -194,35 +240,28 @@
     },
     "products": [
       {
-        "name": "Blackwell",
-        "category": "GPU",
-        "status": "GA",
-        "description": "新一代 AI 训练 / 推理 GPU 平台。"
+        "name": "Blackwell (B200/GB200)",
+        "category": "数据中心 GPU",
+        "description": "新一代 AI GPU 架构,GB200 整机柜系统为大模型训练与推理提供顶级算力。",
+        "status": "GA"
       },
       {
-        "name": "DGX",
-        "category": "系统",
-        "description": "开箱即用的 AI 超级计算机。"
+        "name": "Hopper (H100/H200)",
+        "category": "数据中心 GPU",
+        "description": "上一代主力 AI 训练/推理 GPU,几乎垄断大模型训练市场。",
+        "status": "GA"
       },
       {
         "name": "CUDA",
-        "category": "软件",
-        "description": "并行计算平台与编程模型，生态护城河。"
+        "category": "软件平台",
+        "description": "GPU 通用计算编程平台与生态,是英伟达最深的护城河。",
+        "status": "GA"
       },
       {
-        "name": "Spectrum-X",
-        "category": "网络",
-        "description": "面向 AI 的高性能以太网平台。"
-      },
-      {
-        "name": "NVLink",
-        "category": "互联",
-        "description": "GPU 之间的高速互联。"
-      },
-      {
-        "name": "Omniverse",
-        "category": "仿真",
-        "description": "工业数字孪生与仿真平台。"
+        "name": "NVLink / InfiniBand",
+        "category": "高速互联",
+        "description": "把成百上千张 GPU 高速连成一体的网络技术(源自收购 Mellanox)。",
+        "status": "GA"
       }
     ],
     "keyCustomers": [
@@ -364,6 +403,26 @@
       "Robotaxi",
       "Optimus",
       "Dojo"
+    ],
+    "products": [
+      {
+        "name": "FSD (完全自动驾驶)",
+        "category": "自动驾驶",
+        "description": "基于视觉与端到端神经网络的辅助/自动驾驶系统。",
+        "status": "Beta"
+      },
+      {
+        "name": "Optimus",
+        "category": "人形机器人",
+        "description": "特斯拉自研的通用人形机器人,复用其 AI 与制造能力。",
+        "status": "研发"
+      },
+      {
+        "name": "Dojo",
+        "category": "AI 训练芯片",
+        "description": "自研的 AI 训练超算与芯片,用于训练自动驾驶模型。",
+        "status": "研发"
+      }
     ]
   },
   "meta": {
@@ -433,6 +492,26 @@
       "开源",
       "社交广告",
       "超级智能"
+    ],
+    "products": [
+      {
+        "name": "Llama",
+        "category": "开源大模型",
+        "description": "全球影响力最大的开源大模型系列,奠定开源 AI 生态基础。",
+        "status": "GA"
+      },
+      {
+        "name": "Meta AI",
+        "category": "AI 助手",
+        "description": "内置于 Facebook/Instagram/WhatsApp 的 AI 助手,触达数十亿用户。",
+        "status": "GA"
+      },
+      {
+        "name": "Ray-Ban Meta 智能眼镜",
+        "category": "AI 硬件",
+        "description": "与雷朋合作的 AI 智能眼镜,承载「随身多模态 AI」愿景。",
+        "status": "GA"
+      }
     ]
   },
   "amd": {
@@ -502,6 +581,26 @@
       "EPYC",
       "ROCm",
       "GPU 挑战者"
+    ],
+    "products": [
+      {
+        "name": "Instinct MI300 / MI350",
+        "category": "数据中心 GPU",
+        "description": "对标英伟达的数据中心 AI 加速卡,是最主要的 GPU 挑战者。",
+        "status": "GA"
+      },
+      {
+        "name": "EPYC",
+        "category": "服务器 CPU",
+        "description": "数据中心服务器 CPU,持续从英特尔抢占份额。",
+        "status": "GA"
+      },
+      {
+        "name": "ROCm",
+        "category": "软件平台",
+        "description": "AMD 的 GPU 计算软件栈,对标 CUDA(生态仍是最大挑战)。",
+        "status": "GA"
+      }
     ]
   },
   "intc": {
@@ -559,6 +658,26 @@
       "IDM 2.0",
       "代工",
       "18A"
+    ],
+    "products": [
+      {
+        "name": "Xeon",
+        "category": "服务器 CPU",
+        "description": "数据中心 CPU,长期霸主,近年面临 AMD 与 Arm 阵营竞争。",
+        "status": "GA"
+      },
+      {
+        "name": "Gaudi",
+        "category": "AI 加速器",
+        "description": "面向 AI 训练/推理的加速芯片,试图挑战英伟达。",
+        "status": "GA"
+      },
+      {
+        "name": "Intel Foundry (18A)",
+        "category": "晶圆代工",
+        "description": "重振制造、承接先进制程代工,冲刺 18A 等新节点。",
+        "status": "Ramp"
+      }
     ]
   },
   "avgo": {
@@ -620,6 +739,26 @@
       "网络交换芯片",
       "VMware",
       "隐形冠军"
+    ],
+    "products": [
+      {
+        "name": "定制 AI 芯片 (ASIC)",
+        "category": "AI 芯片",
+        "description": "为谷歌 TPU、Meta 等大厂设计定制 AI 加速芯片,是英伟达外的关键力量。",
+        "status": "GA"
+      },
+      {
+        "name": "Tomahawk / Jericho 交换芯片",
+        "category": "网络芯片",
+        "description": "数据中心高速交换芯片,AI 网络互联的核心。",
+        "status": "GA"
+      },
+      {
+        "name": "VMware",
+        "category": "企业软件",
+        "description": "收购而来的企业虚拟化与云基础设施软件。",
+        "status": "GA"
+      }
     ]
   },
   "anet": {
@@ -749,6 +888,20 @@
       "3nm/2nm",
       "CoWoS",
       "AI 产能瓶颈"
+    ],
+    "products": [
+      {
+        "name": "3nm / 2nm 先进制程",
+        "category": "晶圆代工",
+        "description": "全球最先进的芯片制造工艺,几乎所有顶级 AI 芯片都在台积电流片。",
+        "status": "GA"
+      },
+      {
+        "name": "CoWoS 先进封装",
+        "category": "先进封装",
+        "description": "把 GPU 与 HBM 高密度集成的关键封装技术,AI 芯片产能瓶颈之一。",
+        "status": "GA"
+      }
     ]
   },
   "adbe": {
@@ -804,6 +957,20 @@
       "Firefly",
       "商业安全",
       "Photoshop"
+    ],
+    "products": [
+      {
+        "name": "Firefly",
+        "category": "生成式创意 AI",
+        "description": "Adobe 自研的生成式图像/视频模型,强调商用版权安全。",
+        "status": "GA"
+      },
+      {
+        "name": "Creative Cloud",
+        "category": "创意软件",
+        "description": "Photoshop、Premiere 等创意工具全家桶,深度集成 AI 功能。",
+        "status": "GA"
+      }
     ]
   },
   "crm": {
@@ -859,6 +1026,20 @@
       "Agentforce",
       "企业智能体",
       "SaaS"
+    ],
+    "products": [
+      {
+        "name": "Agentforce",
+        "category": "企业 AI 智能体",
+        "description": "Salesforce 的 AI 智能体平台,让企业在 CRM 里部署自主 AI 代理。",
+        "status": "GA"
+      },
+      {
+        "name": "Salesforce CRM",
+        "category": "企业软件",
+        "description": "全球第一的客户关系管理(CRM)云平台。",
+        "status": "GA"
+      }
     ]
   },
   "now": {
@@ -969,6 +1150,20 @@
       "Gotham",
       "Foundry",
       "决策平台"
+    ],
+    "products": [
+      {
+        "name": "AIP (AI 平台)",
+        "category": "企业 AI 平台",
+        "description": "把大模型接进企业真实运营数据与流程,是近年增长引擎。",
+        "status": "GA"
+      },
+      {
+        "name": "Foundry / Gotham",
+        "category": "数据与决策平台",
+        "description": "面向商业(Foundry)与政府国防(Gotham)的数据分析决策平台。",
+        "status": "GA"
+      }
     ]
   },
   "mrvl": {
@@ -1380,6 +1575,20 @@
       "Qwen",
       "开源",
       "电商"
+    ],
+    "products": [
+      {
+        "name": "通义千问 (Qwen)",
+        "category": "大模型",
+        "description": "阿里自研的大模型系列,开源版在全球社区影响力很大。",
+        "status": "GA"
+      },
+      {
+        "name": "阿里云",
+        "category": "云与 AI 平台",
+        "description": "中国最大的云厂商,为 AI 提供算力与模型服务。",
+        "status": "GA"
+      }
     ]
   },
   "bidu": {
@@ -1437,6 +1646,26 @@
       "萝卜快跑",
       "搜索",
       "自动驾驶"
+    ],
+    "products": [
+      {
+        "name": "文心一言 (ERNIE)",
+        "category": "大模型",
+        "description": "百度自研的大模型与生成式 AI 助手。",
+        "status": "GA"
+      },
+      {
+        "name": "Apollo",
+        "category": "自动驾驶",
+        "description": "百度的自动驾驶平台与萝卜快跑 Robotaxi 服务。",
+        "status": "GA"
+      },
+      {
+        "name": "百度智能云",
+        "category": "云与 AI 平台",
+        "description": "面向企业的云与 AI 平台。",
+        "status": "GA"
+      }
     ]
   },
   "amzn": {
@@ -1513,6 +1742,26 @@
       "Anthropic",
       "Project Rainier",
       "Zoox"
+    ],
+    "products": [
+      {
+        "name": "AWS Bedrock",
+        "category": "AI 平台",
+        "description": "AWS 上的托管大模型平台,提供多家模型(含 Anthropic Claude)。",
+        "status": "GA"
+      },
+      {
+        "name": "Trainium / Inferentia",
+        "category": "自研 AI 芯片",
+        "description": "亚马逊自研的 AI 训练/推理芯片,降低对英伟达的依赖。",
+        "status": "GA"
+      },
+      {
+        "name": "SageMaker",
+        "category": "机器学习平台",
+        "description": "面向开发者的端到端机器学习开发与部署平台。",
+        "status": "GA"
+      }
     ]
   },
   "pony": {
@@ -1789,6 +2038,20 @@
         "year": 2025,
         "revenue": 4.01,
         "netIncome": 0.79
+      }
+    ],
+    "products": [
+      {
+        "name": "Arm 架构 / IP",
+        "category": "芯片架构授权",
+        "description": "全球几乎所有手机、以及越来越多服务器/AI 芯片的底层架构。",
+        "status": "GA"
+      },
+      {
+        "name": "Neoverse",
+        "category": "服务器/数据中心 IP",
+        "description": "面向数据中心的高能效 CPU 核心 IP,被多家自研服务器芯片采用。",
+        "status": "GA"
       }
     ]
   },
@@ -3672,6 +3935,20 @@
       "光刻机",
       "先进制程",
       "垄断"
+    ],
+    "products": [
+      {
+        "name": "EUV 光刻机",
+        "category": "半导体设备",
+        "description": "全球唯一的极紫外光刻机,制造 7nm 及以下先进芯片的必备设备。",
+        "status": "GA"
+      },
+      {
+        "name": "High-NA EUV",
+        "category": "半导体设备",
+        "description": "下一代更高数值孔径的 EUV,推动 2nm 及以下制程。",
+        "status": "Ramp"
+      }
     ]
   },
   "amat": {
@@ -4380,37 +4657,27 @@
     "products": [
       {
         "name": "ChatGPT",
-        "category": "消费/企业应用",
-        "status": "GA",
-        "description": "对话助手，含免费版、Plus、Team 与 Enterprise。"
+        "category": "AI 助手",
+        "description": "引爆生成式 AI 浪潮的对话助手,全球用户数亿。",
+        "status": "GA"
       },
       {
-        "name": "GPT-5.6（Sol/Terra/Luna）",
-        "category": "大语言模型",
-        "status": "GA",
-        "description": "2026.7 发布的旗舰家族：前沿/均衡/高效三档。"
+        "name": "GPT-5 / o 系列",
+        "category": "前沿大模型",
+        "description": "旗舰通用与推理大模型,通过 API 与 ChatGPT 提供。",
+        "status": "GA"
       },
       {
-        "name": "o 系列",
-        "category": "推理模型",
-        "status": "GA",
-        "description": "面向数学/代码/科学的深度推理模型。"
-      },
-      {
-        "name": "视频生成（原 Sora）",
+        "name": "Sora",
         "category": "视频生成",
-        "description": "Sora 独立产品 2026 停用，能力并入 ChatGPT。"
-      },
-      {
-        "name": "DALL·E",
-        "category": "图像生成",
-        "description": "文生图模型。"
+        "description": "文本生成视频模型,代表 AI 视频前沿。",
+        "status": "GA"
       },
       {
         "name": "API 平台",
-        "category": "开发者",
-        "status": "GA",
-        "description": "模型、微调、Assistants 与实时语音 API。"
+        "category": "开发者平台",
+        "description": "把模型能力开放给开发者与企业构建应用。",
+        "status": "GA"
       }
     ],
     "leadership": [
@@ -4502,34 +4769,22 @@
     },
     "products": [
       {
-        "name": "Claude Fable 5 · Opus 4.8 · Sonnet 5 · Haiku 4.5",
-        "category": "大语言模型",
-        "status": "GA",
-        "description": "Fable 5 为 Opus 之上最强档；Sonnet 5 为默认均衡档。"
-      },
-      {
-        "name": "Claude.ai",
-        "category": "消费/企业应用",
-        "status": "GA",
-        "description": "对话助手网页与 App。"
+        "name": "Claude",
+        "category": "前沿大模型",
+        "description": "Opus/Sonnet/Haiku 系列,以安全、长上下文与编码能力著称。",
+        "status": "GA"
       },
       {
         "name": "Claude Code",
         "category": "AI 编程",
-        "status": "GA",
-        "description": "命令行/IDE 里的智能体式编程工具。"
+        "description": "面向终端的智能体式编程工具,自主完成多步开发任务。",
+        "status": "GA"
       },
       {
-        "name": "MCP",
-        "category": "开放协议",
-        "status": "GA",
-        "description": "模型上下文协议，接入外部工具与数据。"
-      },
-      {
-        "name": "API / 平台",
-        "category": "开发者",
-        "status": "GA",
-        "description": "模型 API、工具调用与智能体能力。"
+        "name": "API / 企业方案",
+        "category": "开发者平台",
+        "description": "面向开发者与企业的模型接入与安全部署。",
+        "status": "GA"
       }
     ],
     "leadership": [
@@ -4619,22 +4874,16 @@
     },
     "products": [
       {
-        "name": "Grok 4.5",
-        "category": "大语言模型",
-        "status": "GA",
-        "description": "旗舰模型，Opus 级推理 + 文档/表格/PPT 生成。"
-      },
-      {
-        "name": "Grok 应用",
-        "category": "消费应用",
-        "status": "GA",
-        "description": "内置于 X 的对话助手，实时信息问答。"
+        "name": "Grok",
+        "category": "前沿大模型",
+        "description": "xAI 的旗舰大模型与助手,深度集成进 X(推特)。",
+        "status": "GA"
       },
       {
         "name": "Colossus",
-        "category": "算力基础设施",
-        "status": "GA",
-        "description": "孟菲斯自建的数十万卡 GPU 超算。"
+        "category": "AI 超算",
+        "description": "以超大规模 GPU 集群著称的自建训练超算。",
+        "status": "GA"
       }
     ],
     "leadership": [
@@ -4715,6 +4964,20 @@
       "DeepSeek-V4",
       "R1",
       "高性价比"
+    ],
+    "products": [
+      {
+        "name": "DeepSeek-V3",
+        "category": "开源大模型",
+        "description": "高性能开源通用大模型,以极低训练成本震动业界。",
+        "status": "GA"
+      },
+      {
+        "name": "DeepSeek-R1",
+        "category": "推理模型",
+        "description": "开源推理大模型,性能对标顶级闭源推理模型。",
+        "status": "GA"
+      }
     ]
   },
   "huawei": {
@@ -5137,13 +5400,8 @@
       {
         "name": "Cursor",
         "category": "AI 代码编辑器",
-        "status": "GA",
-        "description": "整库理解 + Tab 补全 + Agent 模式。"
-      },
-      {
-        "name": "Composer",
-        "category": "代码模型",
-        "description": "自研的编程模型。"
+        "description": "深度集成 AI 的代码编辑器,理解整个代码库、自主编程,增长惊人。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -5454,6 +5712,26 @@
       "MoE",
       "Mistral Large 3",
       "欧洲 AI"
+    ],
+    "products": [
+      {
+        "name": "Mistral Large",
+        "category": "前沿大模型",
+        "description": "旗舰闭源大模型,面向企业。",
+        "status": "GA"
+      },
+      {
+        "name": "开源模型 (Mistral / Mixtral)",
+        "category": "开源大模型",
+        "description": "高性价比开源模型,欧洲开源 AI 代表。",
+        "status": "GA"
+      },
+      {
+        "name": "Le Chat",
+        "category": "AI 助手",
+        "description": "面向消费者与企业的对话助手。",
+        "status": "GA"
+      }
     ]
   },
   "stabilityai": {
@@ -5508,6 +5786,20 @@
       "开源生成",
       "SD 3.5",
       "Stable Audio"
+    ],
+    "products": [
+      {
+        "name": "Stable Diffusion",
+        "category": "开源图像生成",
+        "description": "开创开源文生图时代的模型,催生庞大生态。",
+        "status": "GA"
+      },
+      {
+        "name": "Stable Audio / Video",
+        "category": "生成式媒体",
+        "description": "开源的音频与视频生成模型。",
+        "status": "GA"
+      }
     ]
   },
   "midjourney": {
@@ -5558,6 +5850,14 @@
       "V8",
       "独立盈利",
       "图像质量"
+    ],
+    "products": [
+      {
+        "name": "Midjourney",
+        "category": "AI 图像生成",
+        "description": "以艺术审美与画质著称的文生图产品,支持 Discord 与网页。",
+        "status": "GA"
+      }
     ]
   },
   "physicalint": {
@@ -5793,27 +6093,16 @@
     },
     "products": [
       {
-        "name": "Perplexity 答案引擎",
+        "name": "Perplexity",
         "category": "AI 搜索",
-        "status": "GA",
-        "description": "带引用来源的对话式搜索。"
+        "description": "带引用出处的 AI 答案引擎,重新定义「搜索」。",
+        "status": "GA"
       },
       {
-        "name": "Comet 浏览器",
+        "name": "Comet",
         "category": "AI 浏览器",
-        "status": "GA",
-        "description": "内置 AI 的 Chromium 浏览器，可跨标签操作。"
-      },
-      {
-        "name": "Sonar API",
-        "category": "开发者",
-        "status": "GA",
-        "description": "把实时 AI 搜索接入第三方应用。"
-      },
-      {
-        "name": "Deep Research",
-        "category": "深研",
-        "description": "自动做多源深度研究报告。"
+        "description": "内置 AI 的浏览器,探索智能体式上网。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -6139,28 +6428,16 @@
     },
     "products": [
       {
-        "name": "文本转语音 (TTS)",
-        "category": "语音合成",
-        "status": "GA",
-        "description": "高自然度多语种语音生成。"
+        "name": "语音合成 / 克隆",
+        "category": "AI 语音",
+        "description": "业界领先的逼真语音生成与声音克隆。",
+        "status": "GA"
       },
       {
-        "name": "语音克隆",
-        "category": "语音",
-        "status": "GA",
-        "description": "少量样本复刻音色。"
-      },
-      {
-        "name": "配音 / Dubbing",
-        "category": "本地化",
-        "status": "GA",
-        "description": "跨语种配音，保留音色情感。"
-      },
-      {
-        "name": "Conversational AI",
-        "category": "语音智能体",
-        "status": "GA",
-        "description": "实时对话式语音接口。"
+        "name": "AI 配音 / Dubbing",
+        "category": "AI 语音",
+        "description": "多语言配音与内容本地化。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -6217,16 +6494,16 @@
     },
     "products": [
       {
-        "name": "Gen-4.5",
+        "name": "Gen 系列 (Gen-4)",
         "category": "视频生成",
-        "status": "GA",
-        "description": "文/图生视频，连贯运镜与角色一致性。"
+        "description": "影视级 AI 视频生成模型,不断刷新质量上限。",
+        "status": "GA"
       },
       {
-        "name": "创作工作台",
-        "category": "视频编辑",
-        "status": "GA",
-        "description": "关键帧、运动笔刷、视频到视频、镜头控制。"
+        "name": "创作工具套件",
+        "category": "创意工具",
+        "description": "抠像、动捕、特效等面向专业创作者的工具。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -6408,16 +6685,10 @@
     },
     "products": [
       {
-        "name": "Suno v5.5",
+        "name": "Suno",
         "category": "AI 音乐生成",
-        "status": "GA",
-        "description": "一句话生成带人声完整歌曲，48kHz 音质。"
-      },
-      {
-        "name": "Voices / Custom Models",
-        "category": "个性化",
-        "status": "GA",
-        "description": "用自己的嗓音与作品微调专属模型。"
+        "description": "输入一句描述即可生成有人声、编曲完整的原创歌曲。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -6820,6 +7091,20 @@
       "推理",
       "GroqCloud",
       "低延迟"
+    ],
+    "products": [
+      {
+        "name": "LPU",
+        "category": "推理芯片",
+        "description": "专为大模型推理设计的芯片,以超低延迟著称。",
+        "status": "GA"
+      },
+      {
+        "name": "GroqCloud",
+        "category": "推理云",
+        "description": "面向开发者的高速推理云服务。",
+        "status": "GA"
+      }
     ]
   },
   "cerebras": {
@@ -6869,6 +7154,20 @@
       "晶圆级",
       "训练",
       "高速推理"
+    ],
+    "products": [
+      {
+        "name": "Wafer-Scale Engine (WSE)",
+        "category": "AI 芯片",
+        "description": "用整片晶圆做成的巨型 AI 芯片,主打超快推理。",
+        "status": "GA"
+      },
+      {
+        "name": "Cerebras Inference",
+        "category": "推理云",
+        "description": "以极高速度提供开源大模型推理服务。",
+        "status": "GA"
+      }
     ]
   },
   "sambanova": {
@@ -7113,6 +7412,14 @@
       "neocloud",
       "AI 算力",
       "英伟达"
+    ],
+    "products": [
+      {
+        "name": "CoreWeave GPU 云",
+        "category": "AI 云算力",
+        "description": "专为 AI 打造的大规模 GPU 云,英伟达重点扶持的「新云」。",
+        "status": "GA"
+      }
     ]
   },
   "lambda": {
@@ -7306,6 +7613,14 @@
       "开源模型",
       "推理云",
       "FlashAttention"
+    ],
+    "products": [
+      {
+        "name": "Together 推理/训练云",
+        "category": "AI 云平台",
+        "description": "面向开源模型的推理、微调与训练云平台。",
+        "status": "GA"
+      }
     ]
   },
   "fireworks": {
@@ -7350,6 +7665,14 @@
       "开源模型",
       "PyTorch",
       "低延迟"
+    ],
+    "products": [
+      {
+        "name": "Fireworks 推理平台",
+        "category": "AI 推理",
+        "description": "极速、低成本的开源模型推理平台(自研 FireAttention)。",
+        "status": "GA"
+      }
     ]
   },
   "huggingface": {
@@ -7394,6 +7717,20 @@
       "模型托管",
       "Transformers",
       "AI 枢纽"
+    ],
+    "products": [
+      {
+        "name": "Hub",
+        "category": "模型/数据集社区",
+        "description": "全球最大的开源模型与数据集平台,AI 界的「GitHub」。",
+        "status": "GA"
+      },
+      {
+        "name": "Transformers",
+        "category": "开源库",
+        "description": "最流行的开源模型库,几乎是使用开源模型的事实标准。",
+        "status": "GA"
+      }
     ]
   },
   "databricks": {
@@ -7447,6 +7784,20 @@
       "DBRX",
       "MosaicML",
       "企业数据"
+    ],
+    "products": [
+      {
+        "name": "数据智能平台 (Lakehouse)",
+        "category": "数据与 AI 平台",
+        "description": "统一数据湖仓,让企业在自有数据上构建 AI。",
+        "status": "GA"
+      },
+      {
+        "name": "Mosaic AI",
+        "category": "模型训练/部署",
+        "description": "在平台内训练、微调、部署大模型的工具链。",
+        "status": "GA"
+      }
     ]
   },
   "snow": {
@@ -7495,6 +7846,20 @@
       "Cortex AI",
       "数据平台",
       "企业数据"
+    ],
+    "products": [
+      {
+        "name": "Snowflake 数据云",
+        "category": "云数据平台",
+        "description": "企业级云数据仓库/数据湖,海量数据是 AI 的燃料库。",
+        "status": "GA"
+      },
+      {
+        "name": "Cortex AI",
+        "category": "数据 AI",
+        "description": "在数据平台内直接调用大模型做分析、问答的 AI 能力。",
+        "status": "GA"
+      }
     ]
   },
   "pinecone": {
@@ -7766,6 +8131,20 @@
       "RLHF",
       "评测",
       "Meta"
+    ],
+    "products": [
+      {
+        "name": "数据标注平台",
+        "category": "AI 数据",
+        "description": "为前沿实验室与企业提供高质量训练与评测数据。",
+        "status": "GA"
+      },
+      {
+        "name": "GenAI / 评测",
+        "category": "模型评测",
+        "description": "大模型的数据、微调与评测(含安全红队)服务。",
+        "status": "GA"
+      }
     ]
   },
   "surge": {
@@ -7860,6 +8239,20 @@
       "私有部署",
       "RAG",
       "North"
+    ],
+    "products": [
+      {
+        "name": "Command",
+        "category": "企业大模型",
+        "description": "面向企业的大模型,强调可私有部署与检索增强。",
+        "status": "GA"
+      },
+      {
+        "name": "Embed / Rerank",
+        "category": "检索与嵌入",
+        "description": "行业领先的文本嵌入与重排序模型,RAG 关键组件。",
+        "status": "GA"
+      }
     ]
   },
   "reka": {
@@ -8015,6 +8408,14 @@
       "长上下文",
       "Kimi K2",
       "开源"
+    ],
+    "products": [
+      {
+        "name": "Kimi",
+        "category": "AI 助手",
+        "description": "以超长上下文著称的智能助手,能读进整本书级别的长文本。",
+        "status": "GA"
+      }
     ]
   },
   "cognition": {
@@ -8125,16 +8526,10 @@
     },
     "products": [
       {
-        "name": "Glean 企业搜索",
-        "category": "企业搜索",
-        "status": "GA",
-        "description": "跨系统统一搜索与带出处问答。"
-      },
-      {
-        "name": "Glean 智能体",
-        "category": "企业智能体",
-        "status": "GA",
-        "description": "自动化跨系统工作流。"
+        "name": "Glean",
+        "category": "企业 AI 搜索",
+        "description": "打通企业内部所有应用的 AI 搜索与工作助手。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -8370,10 +8765,10 @@
     },
     "products": [
       {
-        "name": "Sierra 智能体平台",
-        "category": "AI 客服/对话",
-        "status": "GA",
-        "description": "接入企业系统、真正解决问题的对话智能体。"
+        "name": "Sierra",
+        "category": "客服 AI 智能体",
+        "description": "面向企业的对话式 AI 客服平台,能真正办事并接管对话。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -8489,8 +8884,8 @@
       {
         "name": "Harvey",
         "category": "法律 AI",
-        "status": "GA",
-        "description": "合同/检索/尽调/案卷分析的法律智能体。"
+        "description": "为律所与法务打造的法律大模型:合同审查、判例检索、尽调。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -16141,6 +16536,20 @@
         "revenue": 391,
         "netIncome": 93.7
       }
+    ],
+    "products": [
+      {
+        "name": "Apple Intelligence",
+        "category": "端侧 AI",
+        "description": "深度集成进 iPhone/Mac 的个人 AI 系统,主打隐私与端侧运行。",
+        "status": "GA"
+      },
+      {
+        "name": "Apple 芯片 (M / A 系列)",
+        "category": "自研芯片",
+        "description": "自研的高能效芯片,内置强大 NPU 支撑端侧 AI。",
+        "status": "GA"
+      }
     ]
   },
   "qualcomm": {
@@ -16216,6 +16625,20 @@
         "year": 2024,
         "revenue": 38.9,
         "netIncome": 10.1
+      }
+    ],
+    "products": [
+      {
+        "name": "Snapdragon 移动平台",
+        "category": "手机 SoC",
+        "description": "安卓旗舰手机主力芯片,集成强 NPU 支持端侧生成式 AI。",
+        "status": "GA"
+      },
+      {
+        "name": "Snapdragon X (AI PC)",
+        "category": "PC 芯片",
+        "description": "把高能效 Arm 架构+强 NPU 带进 Windows 笔记本。",
+        "status": "GA"
       }
     ]
   },
@@ -16436,6 +16859,20 @@
         "year": 2025,
         "revenue": 57.4,
         "netIncome": 12.4
+      }
+    ],
+    "products": [
+      {
+        "name": "OCI (Oracle 云)",
+        "category": "云基础设施",
+        "description": "凭借高性价比 GPU 算力承接大量 AI 训练需求,深度参与 Stargate。",
+        "status": "GA"
+      },
+      {
+        "name": "Oracle 数据库",
+        "category": "企业数据库",
+        "description": "全球领先的企业级数据库,正深度融入 AI 能力。",
+        "status": "GA"
       }
     ]
   },
