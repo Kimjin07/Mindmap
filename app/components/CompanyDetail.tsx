@@ -10,10 +10,11 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Quote } from "../lib/quote";
 import {
-  COMPANIES, KIND_LABEL,
+  KIND_LABEL,
   companyTagline, companyDescription, companyAiScore,
   type Company, type Lang,
-} from "../data/companies";
+} from "../data/companyTypes";
+import { SLIM } from "../data/companiesClient";
 import { NODES } from "../data/nodes";
 import { productsOfCompany } from "../data/players";
 import CompanyLogo from "./CompanyLogo";
@@ -231,20 +232,20 @@ export default function CompanyDetail({ c, initialQuote, onOpenCompany, onGotoNo
 
   /** 公司引用 chip：抽屉模式内切换，页面模式跳转。 */
   const CompanyRef = ({ refId }: { refId: string }) => {
-    const rc = COMPANIES[refId];
+    const rc = SLIM[refId];
     if (rc) {
       const inner = (
         <>
-          <CompanyLogo companyId={rc.id} size={26} />
+          <CompanyLogo companyId={refId} size={26} />
           <span>{rc.name}</span>
         </>
       );
       return onOpenCompany ? (
-        <button type="button" className="cp-ref" onClick={() => onOpenCompany(rc.id)}>
+        <button type="button" className="cp-ref" onClick={() => onOpenCompany(refId)}>
           {inner}
         </button>
       ) : (
-        <Link href={`/company/${rc.id}`} className="cp-ref">
+        <Link href={`/company/${refId}`} className="cp-ref">
           {inner}
         </Link>
       );

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { COMPANIES } from "../data/companies";
+import { SLIM } from "../data/companiesClient";
 
 /** 从官网字段取主域名，用于拼 logo 服务地址。 */
 function domainOf(website?: string): string | undefined {
@@ -23,13 +23,13 @@ export default function CompanyLogo({
   companyId?: string;
   size?: number;
 }) {
-  const c = companyId ? COMPANIES[companyId] : undefined;
+  const c = companyId ? SLIM[companyId] : undefined;
   const [failed, setFailed] = useState(false);
 
   const domain = domainOf(c?.website);
   const src = c
     ? c.logo === true
-      ? `/logos/${c.id}.svg`
+      ? `/logos/${companyId}.svg`
       : typeof c.logo === "string"
       ? c.logo
       : domain

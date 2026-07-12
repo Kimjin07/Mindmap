@@ -15,7 +15,8 @@ import {
 } from "react";
 import { NODES } from "../data/nodes";
 import { getPlayers, companyOfPlayer, PRODUCTS, relatedTree, type TreeRelated } from "../data/players";
-import { COMPANIES, KIND_LABEL, isDomesticCompany } from "../data/companies";
+import { KIND_LABEL, type Company } from "../data/companyTypes";
+import { SLIM, isDomesticCompany } from "../data/companiesClient";
 import CompanyLogo from "./CompanyLogo";
 import CompanyDetail from "./CompanyDetail";
 import {
@@ -162,6 +163,22 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
   const [tour, setTour] = useState<Tour | null>(null);
   const [tourPath, setTourPath] = useState<string[]>([]); // 无限钻取的面包屑历史
   const [panelCo, setPanelCo] = useState<string | null>(null);
+  // 抽屉公司完整数据:客户端只带瘦版,点开时才从 /api/company/[id] 拉全量
+  const [panelData, setPanelData] = useState<Company | null>(null);
+  useEffect(() => {
+    setPanelData(null);
+    if (!panelCo) return;
+    let stopped = false;
+    (async () => {
+      try {
+        const r = await fetch(`/api/company/${encodeURIComponent(panelCo)}`);
+        if (!r.ok) return;
+        const j = await r.json();
+        if (!stopped) setPanelData(j as Company);
+      } catch {}
+    })();
+    return () => { stopped = true; };
+  }, [panelCo]);
   const [arrived, setArrived] = useState<string | null>(null);
   const [smooth, setSmooth] = useState(false);
   // 右侧 AI 快讯面板(Google News 聚合,提及的公司可点击跳转)
@@ -411,7 +428,7 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
 
   /** 在左侧抽屉里打开公司详情（不跳页）。 */
   const openCompanyPanel = (id?: string) => {
-    if (!id || !COMPANIES[id]) return;
+    if (!id || !SLIM[id]) return;
     setPanelCo(id);
   };
   /** 抽屉里点「地图环节」→ 让地图飞过去定位（城市则进城）。 */
@@ -435,7 +452,7 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
   const activePlayers = activeNode ? getPlayers(active!) : [];
   // 进城后产品排在一圈上，半径随产品数量放大（避免重叠），但保持紧凑
   const ringR = Math.max(135, activePlayers.length * 10);
-  const tourCo = tourData ? COMPANIES[tourData.origin.companyId ?? ""] : null;
+  const tourCo = tourData ? SLIM[tourData.origin.companyId ?? ""] : null;
 
   /** 价值链里的一个产品/公司小卡——点它即以它为新根继续钻取（无限循环）。 */
   const renderChip = (it: TreeRelated) => (
@@ -744,7 +761,7 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
       )}
 
       {/* 左侧公司详情抽屉（Google-Maps 式，不跳页） */}
-      {panelCo && COMPANIES[panelCo] && (
+      {panelCo && SLIM[panelCo] && (
         <aside
           className="atlas-panel"
           onPointerDown={(e) => e.stopPropagation()}
@@ -754,11 +771,15 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
             <Link href={`/company/${panelCo}`} className="atlas-panel-full">整页查看 ↗</Link>
           </div>
           <div className="atlas-panel-body">
-            <CompanyDetail
-              c={COMPANIES[panelCo]}
-              onOpenCompany={openCompanyPanel}
-              onGotoNode={gotoNode}
-            />
+            {panelData && panelData.id === panelCo ? (
+              <CompanyDetail
+                c={panelData}
+                onOpenCompany={openCompanyPanel}
+                onGotoNode={gotoNode}
+              />
+            ) : (
+              <p className="atlas-panel-loading">加载 {SLIM[panelCo].name} …</p>
+            )}
           </div>
         </aside>
       )}

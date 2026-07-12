@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "gen:slim": "node scripts/gen-slim.mjs",
+    "predev": "node scripts/gen-slim.mjs",
+    "prebuild": "node scripts/gen-slim.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

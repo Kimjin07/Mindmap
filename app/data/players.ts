@@ -10,7 +10,7 @@
  *      大模型靠 GPU 提供算力、GPU 靠光模块组网…）。
  */
 
-import { companyIdByName } from "./companies";
+import { companyIdByName } from "./companiesClient";
 
 export interface Player {
   id: string;

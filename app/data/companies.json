@@ -8756,7 +8756,10 @@
         "summary": "华为董事长梁华透露 2025 年公司销售收入超 8800 亿元人民币,较 2024 年的 8621 亿元稳步增长,持续加码 AI 与鸿蒙生态建设。",
         "url": "https://www.esmchina.com/news/13943.html"
       }
-    ]
+    ],
+    "links": {
+      "x": "https://x.com/Huawei"
+    }
   },
   "bostondynamics": {
     "id": "bostondynamics",
@@ -10071,7 +10074,8 @@
     ],
     "links": {
       "github": "https://github.com/Stability-AI",
-      "huggingface": "https://huggingface.co/stabilityai"
+      "huggingface": "https://huggingface.co/stabilityai",
+      "x": "https://x.com/StabilityAI"
     },
     "scores": {
       "ai": 78,
@@ -10087,6 +10091,12 @@
         "category": "产品",
         "summary": "Stability AI 于 2026 年 5 月发布 Stable Audio 3.0,与旗舰 Stable Diffusion 3.5 共同构成业界最强开源生成生态之一;在 Prem Akkaraju、James Cameron 等影视化领导层带领下,公司转向企业授权与好莱坞合作,估值约 28 亿美元。"
       }
+    ],
+    "investors": [
+      "Coatue",
+      "Lightspeed Venture Partners",
+      "Greycroft",
+      "Sound Ventures"
     ]
   },
   "midjourney": {
@@ -10357,6 +10367,13 @@
         "name": "Ted Stinson",
         "title": "CEO（原 COO，创始团队加入 Amazon 后接任）"
       }
+    ],
+    "investors": [
+      "Index Ventures",
+      "Radical Ventures",
+      "Amplify Partners",
+      "CPP Investments",
+      "Temasek"
     ]
   },
   "ai21": {
@@ -12501,7 +12518,17 @@
         "name": "Nigel Toon",
         "title": "联合创始人兼 CEO、董事长"
       }
-    ]
+    ],
+    "investors": [
+      "SoftBank",
+      "Sequoia Capital",
+      "Microsoft",
+      "Atomico",
+      "Dell Technologies"
+    ],
+    "links": {
+      "github": "https://github.com/graphcore"
+    }
   },
   "tenstorrent": {
     "id": "tenstorrent",
@@ -13798,7 +13825,8 @@
       }
     ],
     "links": {
-      "github": "https://github.com/weaviate"
+      "github": "https://github.com/weaviate",
+      "x": "https://x.com/weaviate_io"
     },
     "scores": {
       "ai": 78,
@@ -13820,6 +13848,13 @@
         "category": "产品",
         "summary": "Weaviate 提供高性能、可扩展且开发者友好的向量存储与检索，支持混合搜索与过滤，被广泛用于企业知识问答、语义搜索及 AI 智能体记忆，与 Pinecone、Qdrant 正面竞争。"
       }
+    ],
+    "investors": [
+      "Index Ventures",
+      "Battery Ventures",
+      "NEA",
+      "Zetta Venture Partners",
+      "ING Ventures"
     ]
   },
   "chroma": {
@@ -13874,7 +13909,8 @@
       }
     ],
     "links": {
-      "github": "https://github.com/chroma-core"
+      "github": "https://github.com/chroma-core",
+      "x": "https://x.com/trychroma"
     },
     "scores": {
       "ai": 77,
@@ -13896,6 +13932,12 @@
         "category": "产品",
         "summary": "以「几行代码就能上手」著称的 Chroma 是众多开发者搭建 RAG 原型的第一站，在社区与教程中被广泛使用，目前正从轻量易用向可扩展的生产级方案演进。"
       }
+    ],
+    "investors": [
+      "Quiet Capital",
+      "AIX Ventures",
+      "Bloomberg Beta",
+      "Nat Friedman"
     ]
   },
   "langchain": {
@@ -14033,7 +14075,8 @@
       }
     ],
     "links": {
-      "github": "https://github.com/run-llama"
+      "github": "https://github.com/run-llama",
+      "x": "https://x.com/llama_index"
     },
     "scores": {
       "ai": 78,
@@ -14055,6 +14098,10 @@
         "category": "产品",
         "summary": "专注「把数据接进大模型」的 LlamaIndex 主攻数据摄取、切分与建索引这一 RAG 最难环节，并推出云服务 LlamaCloud 与文档解析等商业产品，在复杂企业知识库场景口碑领先。"
       }
+    ],
+    "investors": [
+      "Greylock",
+      "Norwest Venture Partners"
     ]
   },
   "scaleai": {
@@ -14893,6 +14940,13 @@
         "category": "业务",
         "summary": "Tabnine 以「代码不出企业环境」为核心卖点，支持完全私有化部署、不拿客户代码训练并可用自有代码库定制模型，满足金融、国防等对代码保密极敏感企业的刚需。"
       }
+    ],
+    "investors": [
+      "Telstra Ventures",
+      "Khosla Ventures",
+      "Insight Partners",
+      "Atlassian Ventures",
+      "Elaia"
     ]
   },
   "vercel": {
@@ -15969,6 +16023,13 @@
         "category": "研发",
         "summary": "Sanctuary AI 的人形机器人 Phoenix 配备业界领先的灵巧双手，通过「先遥操作采集高质量数据、再训练 AI」的路径，让机器人从人遥控逐步走向自主完成精细手部任务。"
       }
+    ],
+    "investors": [
+      "Bell",
+      "Verizon Ventures",
+      "Workday Ventures",
+      "Magna",
+      "BDC Capital"
     ]
   },
   "fourier": {
@@ -20390,6 +20451,13 @@
         "category": "研发",
         "summary": "老牌聚变公司 TAE 与谷歌合作用机器学习优化场反位形（FRC）等离子体控制，获雪佛龙等能源巨头投资，其技术还外溢至电池、医疗领域，持续冲刺氢硼「无中子」聚变终极路线。"
       }
+    ],
+    "investors": [
+      "Google",
+      "Chevron Technology Ventures",
+      "NEA",
+      "Sumitomo Corporation of Americas",
+      "Wellcome Trust"
     ]
   },
   "bloom": {
@@ -20667,7 +20735,10 @@
         "category": "业务",
         "summary": "AI 用电暴增须经变压器与输电网送达，而全球大型变压器产能紧张、交货周期拉长至数年。作为变压器与 HVDC 龙头，日立能源订单饱满，是这轮电网扩容最卡脖子的受益者之一。"
       }
-    ]
+    ],
+    "links": {
+      "x": "https://x.com/HitachiEnergy"
+    }
   },
   "siemensenergy": {
     "id": "siemensenergy",
@@ -21470,6 +21541,9 @@
         "name": "堀哲朗（Tetsuro Hori）",
         "title": "代表董事、社长兼 CEO"
       }
+    ],
+    "investors": [
+      "Japan Investment Corporation (JIC)"
     ]
   },
   "tok": {
@@ -22173,6 +22247,9 @@
         "name": "David Reeder",
         "title": "总裁兼 CEO（母公司 Entegris，CMC Materials 已于 2022 年被其收购）"
       }
+    ],
+    "investors": [
+      "Entegris"
     ]
   },
   "mp": {
@@ -23330,7 +23407,17 @@
         "name": "Tory Green",
         "title": "联合创始人兼 io.net 基金会主席"
       }
-    ]
+    ],
+    "investors": [
+      "Hack VC",
+      "Multicoin Capital",
+      "Solana Labs",
+      "OKX Ventures",
+      "6th Man Ventures"
+    ],
+    "links": {
+      "x": "https://x.com/ionet"
+    }
   },
   "render": {
     "id": "render",
@@ -23404,6 +23491,12 @@
         "name": "Jules Urbach",
         "title": "创始人（OTOY 创始人兼 CEO）"
       }
+    ],
+    "investors": [
+      "Multicoin Capital",
+      "Alameda Research",
+      "Solana Foundation",
+      "Sfermion"
     ]
   },
   "akash": {
@@ -23477,7 +23570,16 @@
         "name": "Greg Osuri",
         "title": "创始人兼 CEO（Overclock Labs）"
       }
-    ]
+    ],
+    "investors": [
+      "Tuesday Capital",
+      "Nexus Venture Partners",
+      "Bonfire Ventures",
+      "Clocktower Technology Ventures"
+    ],
+    "links": {
+      "github": "https://github.com/akash-network"
+    }
   },
   "bittensor": {
     "id": "bittensor",
@@ -23695,6 +23797,13 @@
         "name": "Emmanuel de Maistre",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Play Ventures",
+      "Anorak Ventures",
+      "Founders Inc",
+      "Justin Kan",
+      "Brendan Iribe"
     ]
   },
   "tii": {
@@ -23845,6 +23954,13 @@
         "category": "产品",
         "summary": "Poe 让用户一个会员即可使用多家顶级大模型及社区自定义 bot,并为开发者提供分发与变现渠道,成为 Quora 在生成式 AI 时代的第二增长曲线。"
       }
+    ],
+    "investors": [
+      "a16z",
+      "Benchmark",
+      "Tiger Global",
+      "Matrix Partners",
+      "Y Combinator Continuity"
     ]
   },
   "kuaishou": {
@@ -24217,6 +24333,13 @@
         "category": "进展",
         "summary": "深圳众擎的双足机器人以接近人类的流畅步态和前空翻等动作在社交媒体频频出圈,公司自研电机、关节与控制算法,力求兼顾性能与成本走向量产。"
       }
+    ],
+    "investors": [
+      "京东",
+      "星航资本",
+      "黄浦江资本",
+      "华控基金",
+      "达晨财智"
     ]
   },
   "momenta": {
@@ -24994,7 +25117,17 @@
         "category": "重大",
         "summary": "2026 年这家德国「主权 AI」代表与加拿大企业大模型公司 Cohere 合并,此前它已从自研前沿模型转向 PhariaAI 企业 AI 操作系统,服务欧洲政企的私有部署与合规需求。"
       }
-    ]
+    ],
+    "investors": [
+      "Schwarz Group",
+      "Bosch Ventures",
+      "Ipai",
+      "SAP",
+      "Hewlett Packard Enterprise"
+    ],
+    "links": {
+      "github": "https://github.com/Aleph-Alpha"
+    }
   },
   "moveworks": {
     "id": "moveworks",
@@ -25537,6 +25670,11 @@
         "category": "产品",
         "summary": "由前 Snap AI 负责人创立的 Higgsfield 让创作者选择 crash zoom、bullet time 等专业运镜快速产出大片质感竖屏视频,以「镜头语言」在短视频与广告创意圈差异化立足。"
       }
+    ],
+    "investors": [
+      "Accel",
+      "GFT Ventures",
+      "Menlo Ventures"
     ]
   },
   "playht": {
@@ -25690,6 +25828,12 @@
         "category": "产品",
         "summary": "Lindy 让用户用自然语言描述工作流即可生成自动化智能体,可连接邮箱、日历、CRM 等工具,自动处理邮件日程、跟进销售线索与客户支持,成为「人人可搭 AI 智能体」趋势的代表落地。"
       }
+    ],
+    "investors": [
+      "Battery Ventures",
+      "Menlo Ventures",
+      "Coatue",
+      "Tiger Global"
     ]
   },
   "multion": {
@@ -25763,6 +25907,13 @@
         "category": "业务",
         "summary": "MultiOn 的 AI 智能体可像人一样打开浏览器、点按钮、填表单,自主完成订票、购物、填申请等跨网站任务,并将这套网页操作能力做成 API,与 OpenAI Operator、Manus 等同台竞争。"
       }
+    ],
+    "investors": [
+      "General Catalyst",
+      "Lightspeed Venture Partners",
+      "Samsung Next",
+      "Amazon Alexa Fund",
+      "Nat Friedman"
     ]
   },
   "skild": {
@@ -26288,6 +26439,13 @@
         "category": "产品",
         "summary": "Qdrant 以高性能与可扩展性著称,支持过滤与混合搜索,能高效处理海量向量的存储与相似度检索,在与 Pinecone、Weaviate、Chroma 的竞争中凭性能和开源赢得大量开发者。"
       }
+    ],
+    "investors": [
+      "AVP",
+      "Spark Capital",
+      "Unusual Ventures",
+      "42CAP",
+      "Bosch Ventures"
     ]
   },
   "zilliz": {
@@ -26343,7 +26501,7 @@
       }
     ],
     "links": {
-      "github": "https://github.com/milvus-io"
+      "github": "https://github.com/zilliztech"
     },
     "scores": {
       "ai": 77,
@@ -26365,6 +26523,13 @@
         "category": "业务",
         "summary": "随着 RAG 成为企业 AI 应用标配,Zilliz 在最流行的开源向量数据库之一 Milvus 之上提供全托管云服务,让企业免运维用上面向超大规模场景的高性能向量检索。"
       }
+    ],
+    "investors": [
+      "Prosperity7 Ventures",
+      "Hillhouse Capital",
+      "5Y Capital",
+      "Pavilion Capital",
+      "Yunqi Capital"
     ]
   },
   "mercor": {
@@ -26603,6 +26768,12 @@
         "category": "研发",
         "summary": "作为 Neuralink 的主要竞争对手之一,Paradromics 主打一次读取大量神经元信号的高带宽方案,首要目标是把严重瘫痪、失语患者想说的话和动作直接从大脑解码出来。"
       }
+    ],
+    "investors": [
+      "Prime Movers Lab",
+      "Westcott Investment Group",
+      "Dolby Family Ventures",
+      "Green Sands Equity"
     ]
   },
   "saronic": {
@@ -26675,6 +26846,13 @@
         "category": "融资",
         "summary": "Saronic 自研自造低成本、可消耗的自主无人水面舰艇,用 AI 实现海上自主导航、协同与任务执行,契合美军分布式无人化海军思路,借国防科技资本热潮估值快速攀升。"
       }
+    ],
+    "investors": [
+      "Kleiner Perkins",
+      "a16z",
+      "8VC",
+      "Elad Gil",
+      "General Catalyst"
     ]
   },
   "ssi": {
@@ -27235,6 +27413,13 @@
         "category": "产品",
         "summary": "d-Matrix 用数字存算一体(DIMC)架构把计算直接放进存储单元,大幅减少数据搬运,令旗舰 Corsair 在大模型推理上实现远超传统 GPU 的每瓦性能与更低延迟,挑战推理成本瓶颈。"
       }
+    ],
+    "investors": [
+      "Temasek",
+      "BullhoundCapital",
+      "Triatomic Capital",
+      "M12 (Microsoft)",
+      "Qatar Investment Authority"
     ]
   },
   "positron": {
@@ -27316,6 +27501,13 @@
         "name": "Thomas Sohmers",
         "title": "联合创始人兼 CTO"
       }
+    ],
+    "investors": [
+      "Valor Equity Partners",
+      "Atreides Management",
+      "DFJ Growth",
+      "Jump Trading",
+      "Arm Holdings"
     ]
   },
   "rainai": {
@@ -27389,6 +27581,12 @@
         "name": "William Passo",
         "title": "CEO"
       }
+    ],
+    "investors": [
+      "Prosperity 7 Ventures",
+      "Sam Altman",
+      "Buckley Ventures",
+      "Metaplanet"
     ]
   },
   "robin_ai": {
@@ -27464,6 +27662,12 @@
         "category": "落地",
         "summary": "这家 2019 年成立于伦敦的法律 AI 公司将大模型调校至读懂法律合同,自动标出风险条款、对照公司标准给修改建议并加速谈判,与 Harvey、Hebbia 同处「专业服务+AI」赛道。"
       }
+    ],
+    "investors": [
+      "Temasek",
+      "Plural",
+      "QuantumLight",
+      "PayPal Ventures"
     ]
   },
   "nabla": {
@@ -30842,7 +31046,17 @@
         "category": "进展",
         "summary": "这家光子量子独角兽跳过小规模阶段，直攻百万量子比特级可容错通用量子计算机，与 GlobalFoundries 合作用成熟半导体工艺量产量子芯片，并已获巨额融资在美国、澳大利亚建造大型量子机。"
       }
-    ]
+    ],
+    "investors": [
+      "BlackRock",
+      "Temasek",
+      "Baillie Gifford",
+      "NVentures (NVIDIA)",
+      "Blackbird Ventures"
+    ],
+    "links": {
+      "x": "https://x.com/PsiQuantum"
+    }
   },
   "quantinuum": {
     "id": "quantinuum",
@@ -31868,7 +32082,10 @@
         "category": "产品",
         "summary": "彭博基于金融语料自研 BloombergGPT,将新闻摘要、财报问答、数据查询等生成式 AI 能力嵌进彭博终端,以「独家数据+场景+分发」护城河做金融专用 AI。"
       }
-    ]
+    ],
+    "links": {
+      "x": "https://x.com/business"
+    }
   },
   "blackrock": {
     "id": "blackrock",
@@ -32324,6 +32541,13 @@
         "category": "重大",
         "summary": "2024 年微软将 Inflection 核心团队(含创始人 Suleyman)整体收编并支付授权费,Suleyman 出任微软 AI 负责人;此后公司从消费级助手 Pi 转向可授权、可私有部署的企业 AI 模型服务。"
       }
+    ],
+    "investors": [
+      "Microsoft",
+      "NVIDIA",
+      "Greylock",
+      "Reid Hoffman",
+      "Bill Gates"
     ]
   },
   "retell": {
@@ -32401,7 +32625,15 @@
         "category": "产品",
         "summary": "Retell 将语音识别、大模型、语音合成、电话通信与低延迟处理封装成易用 API,开发者可快速上线客服、预约、外呼提醒等语音 Agent,并处理好实时打断与转人工等关键体验。"
       }
-    ]
+    ],
+    "investors": [
+      "Alt Capital",
+      "Y Combinator",
+      "Carya Venture Partners"
+    ],
+    "links": {
+      "github": "https://github.com/RetellAI"
+    }
   },
   "vapi": {
     "id": "vapi",
@@ -32477,7 +32709,16 @@
         "category": "产品",
         "summary": "Vapi 把语音识别、大模型、语音合成、电话通信与低延迟处理封装为简单 API 与平台,开发者只需配置编排即可做出客服、预约、外呼等语音应用,成为语音 Agent 开发基础设施代表。"
       }
-    ]
+    ],
+    "investors": [
+      "Bessemer Venture Partners",
+      "Peak XV Partners",
+      "Y Combinator",
+      "Abstract Ventures"
+    ],
+    "links": {
+      "github": "https://github.com/VapiAI"
+    }
   },
   "crowdstrike": {
     "id": "crowdstrike",
@@ -34921,6 +35162,13 @@
         "summary": "Genspark宣布与微软全球战略合作，将其AI智能体原生嵌入PowerPoint、Excel、Word及Microsoft Agent 365，借微软生态加速企业级市场扩张。",
         "url": "https://sacra.com/c/genspark/"
       }
+    ],
+    "investors": [
+      "蓝驰创投 (Lanchi Ventures)",
+      "Emergence Capital",
+      "SBI Investment",
+      "LG Technology Ventures",
+      "Pavilion Capital"
     ]
   },
   "adept": {
@@ -34988,6 +35236,13 @@
         "category": "重大",
         "summary": "由 Transformer 论文作者创立的 Adept 以 ACT-1 探索 AI 操作真实软件界面,但因技术极难、商业化慢,2024 年多位创始人与核心团队以「许可+人才」方式被亚马逊招揽,公司战略转向。"
       }
+    ],
+    "investors": [
+      "General Catalyst",
+      "Spark Capital",
+      "Greylock",
+      "Addition",
+      "Microsoft"
     ]
   },
   "sanhua": {

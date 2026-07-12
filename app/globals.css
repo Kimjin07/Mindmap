@@ -2045,6 +2045,12 @@ body {
   color: var(--ink-strong);
 }
 
+.atlas-panel-loading {
+  padding: 24px 18px;
+  font-size: 13px;
+  color: var(--ink-dim);
+}
+
 /* ---- 地图右侧 AI 快讯面板 ---- */
 .atlas-news-tab {
   position: absolute;
