@@ -5143,8 +5143,10 @@
       "mistral"
     ],
     "investors": [
-      "msft",
-      "nvda"
+      "微软",
+      "软银 SoftBank",
+      "Thrive Capital",
+      "MGX"
     ],
     "partners": [
       "msft",
@@ -5250,8 +5252,10 @@
       "mistral"
     ],
     "investors": [
-      "amzn",
-      "googl"
+      "亚马逊",
+      "谷歌",
+      "Lightspeed",
+      "Menlo Ventures"
     ],
     "partners": [
       "amzn",
@@ -5359,7 +5363,13 @@
     ],
     "links": {
       "x": "https://x.com/xai"
-    }
+    },
+    "investors": [
+      "英伟达",
+      "a16z",
+      "Sequoia",
+      "Kingdom Holding"
+    ]
   },
   "deepseek": {
     "id": "deepseek",
@@ -5616,9 +5626,11 @@
       "agility"
     ],
     "investors": [
-      "msft",
-      "nvda",
-      "openai"
+      "微软",
+      "OpenAI",
+      "英伟达",
+      "Jeff Bezos",
+      "Intel Capital"
     ],
     "partners": [
       "nvda"
@@ -5880,7 +5892,9 @@
       "apptronik"
     ],
     "investors": [
-      "openai"
+      "OpenAI",
+      "EQT Ventures",
+      "Tiger Global"
     ],
     "suppliers": [
       "nvda"
@@ -5968,6 +5982,11 @@
         "name": "Michael Truell",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Thrive Capital",
+      "a16z",
+      "Accel"
     ]
   },
   "codeium": {
@@ -6275,7 +6294,10 @@
       "openai"
     ],
     "investors": [
-      "asml"
+      "General Catalyst",
+      "a16z",
+      "英伟达",
+      "Lightspeed"
     ],
     "tags": [
       "开源权重",
@@ -6476,7 +6498,10 @@
       "figure"
     ],
     "investors": [
-      "openai"
+      "Thrive Capital",
+      "Jeff Bezos",
+      "Sequoia",
+      "Lux Capital"
     ],
     "suppliers": [
       "nvda"
@@ -6722,6 +6747,12 @@
         "name": "Aravind Srinivas",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "英伟达",
+      "Jeff Bezos",
+      "IVP",
+      "NEA"
     ]
   },
   "gm": {
@@ -7324,6 +7355,11 @@
         "name": "Mikey Shulman",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Lightspeed",
+      "Nat Friedman",
+      "Founder Collective"
     ]
   },
   "udio": {
@@ -7745,6 +7781,12 @@
         "description": "面向开发者的高速推理云服务。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "BlackRock",
+      "Cisco",
+      "三星",
+      "D1 Capital"
     ]
   },
   "cerebras": {
@@ -7814,6 +7856,11 @@
         "name": "Andrew Feldman",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "G42",
+      "Benchmark",
+      "Foundation Capital"
     ]
   },
   "sambanova": {
@@ -8154,6 +8201,11 @@
         "description": "面向研究者的多 GPU 工作站与服务器。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "英伟达",
+      "ARK Invest",
+      "USIT"
     ]
   },
   "crusoe": {
@@ -8208,6 +8260,11 @@
         "description": "围绕能源建算力,参与超大规模 Stargate 数据中心项目。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "Founders Fund",
+      "英伟达",
+      "Fidelity"
     ]
   },
   "nbis": {
@@ -8331,6 +8388,11 @@
         "name": "Vipul Ved Prakash",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "General Catalyst",
+      "英伟达",
+      "Salesforce Ventures"
     ]
   },
   "fireworks": {
@@ -8389,6 +8451,12 @@
         "name": "Lin Qiao (乔琳)",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Sequoia",
+      "英伟达",
+      "AMD",
+      "MongoDB"
     ]
   },
   "huggingface": {
@@ -8520,6 +8588,12 @@
         "description": "在平台内训练、微调、部署大模型的工具链。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "Thrive Capital",
+      "a16z",
+      "英伟达",
+      "DST Global"
     ]
   },
   "snow": {
@@ -8874,7 +8948,10 @@
       "surge"
     ],
     "investors": [
-      "meta"
+      "Meta",
+      "Accel",
+      "Founders Fund",
+      "Index Ventures"
     ],
     "keyCustomers": [
       "openai",
@@ -9015,6 +9092,12 @@
         "description": "行业领先的文本嵌入与重排序模型,RAG 关键组件。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "英伟达",
+      "Salesforce Ventures",
+      "Cisco",
+      "AMD"
     ]
   },
   "reka": {
@@ -9072,6 +9155,11 @@
         "description": "原生多模态大模型,同时理解文本/图像/音频/视频。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "Snowflake",
+      "Nvidia",
+      "DST Global"
     ]
   },
   "zeroone": {
@@ -9171,7 +9259,10 @@
       "baba"
     ],
     "investors": [
-      "baba"
+      "阿里巴巴",
+      "腾讯",
+      "红杉中国",
+      "小红书"
     ],
     "tags": [
       "Kimi",
@@ -9317,6 +9408,11 @@
         "name": "Arvind Jain",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Kleiner Perkins",
+      "Sequoia",
+      "Lightspeed"
     ]
   },
   "tabnine": {
@@ -9504,6 +9600,11 @@
         "name": "May Habib",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "ICONIQ",
+      "Premji Invest",
+      "Salesforce Ventures"
     ]
   },
   "sierra": {
@@ -9572,6 +9673,11 @@
         "name": "Clay Bavor",
         "title": "联合创始人"
       }
+    ],
+    "investors": [
+      "Sequoia",
+      "Benchmark",
+      "Greenoaks"
     ]
   },
   "decagon": {
@@ -9636,6 +9742,11 @@
         "name": "Jesse Zhang",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "a16z",
+      "Accel",
+      "Bain Capital Ventures"
     ]
   },
   "harvey": {
@@ -9700,6 +9811,12 @@
         "name": "Winston Weinberg",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Sequoia",
+      "OpenAI",
+      "Kleiner Perkins",
+      "GV"
     ]
   },
   "hebbia": {
@@ -9763,6 +9880,11 @@
         "name": "George Sivulka",
         "title": "创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "a16z",
+      "Index Ventures",
+      "Peter Thiel"
     ]
   },
   "characterai": {
@@ -10259,7 +10381,9 @@
       "mbly"
     ],
     "investors": [
-      "nvda"
+      "软银 SoftBank",
+      "英伟达",
+      "微软"
     ],
     "tags": [
       "端到端",
@@ -10477,7 +10601,9 @@
       "zhipu"
     ],
     "investors": [
-      "baba"
+      "阿里巴巴",
+      "腾讯",
+      "高瓴"
     ],
     "tags": [
       "海螺 AI",
@@ -10571,6 +10697,12 @@
         "description": "面向消费者与企业的对话助手。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "阿里巴巴",
+      "腾讯",
+      "美团",
+      "蚂蚁集团"
     ]
   },
   "stepfun": {
@@ -10630,6 +10762,10 @@
         "description": "覆盖语言与图/声/视频的多模态大模型。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "腾讯",
+      "上海国资"
     ]
   },
   "sensetime": {
@@ -11139,6 +11275,12 @@
         "description": "通用人形与具身智能机器人,主打快速量产落地。",
         "status": "研发"
       }
+    ],
+    "investors": [
+      "百度",
+      "腾讯",
+      "比亚迪",
+      "北汽"
     ]
   },
   "galbot": {
@@ -11198,6 +11340,11 @@
         "description": "面向真实场景的具身智能机器人,估值最高的国产未上市人形公司之一。",
         "status": "研发"
       }
+    ],
+    "investors": [
+      "美团",
+      "科大讯飞",
+      "IDG 资本"
     ]
   },
   "magicdev": {
@@ -11309,6 +11456,11 @@
         "name": "Jason Warner",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "英伟达",
+      "eBay",
+      "Felicis"
     ]
   },
   "abridge": {
@@ -11360,6 +11512,12 @@
         "description": "问诊中实时聆听、自动生成结构化临床记录,深度集成 Epic 等 EHR。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "a16z",
+      "Lightspeed",
+      "红杉 Sequoia",
+      "NEA"
     ]
   },
   "openevidence": {
@@ -11411,6 +11569,11 @@
         "description": "基于权威最新医学文献给循证、可溯源答案的「医生版 ChatGPT」。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "Sequoia",
+      "Kleiner Perkins",
+      "Google Ventures"
     ]
   },
   "tempus": {
@@ -11526,6 +11689,11 @@
         "description": "打电话做随访、用药提醒等非诊断性医患沟通,主打安全。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "General Catalyst",
+      "a16z",
+      "英伟达"
     ]
   },
   "lightmatter": {
@@ -11584,6 +11752,11 @@
         "name": "Nicholas Harris",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "GV",
+      "T. Rowe Price",
+      "Fidelity"
     ]
   },
   "ayarlabs": {
@@ -11797,6 +11970,11 @@
         "description": "帮企业把模型快速、可靠、经济地部署上线服务。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "IVP",
+      "Spark Capital",
+      "Greylock"
     ]
   },
   "replicate": {
@@ -12189,7 +12367,9 @@
       "crwv"
     ],
     "investors": [
-      "nvda"
+      "NEA",
+      "Fidelity",
+      "BOND"
     ],
     "tags": [
       "AI 数据平台",
@@ -14022,6 +14202,12 @@
         "description": "Ghost、Anvil、Roadrunner 等自主无人机与反无人机系统。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "Founders Fund",
+      "a16z",
+      "General Catalyst",
+      "8VC"
     ]
   },
   "helsing": {
@@ -14089,6 +14275,12 @@
         "name": "Torsten Reil",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "General Catalyst",
+      "Accel",
+      "Prima Materia",
+      "Lightspeed"
     ]
   },
   "shield_ai": {
@@ -14779,6 +14971,10 @@
         "description": "超低延迟的实时语音生成模型,基于高效状态空间架构。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "Index Ventures",
+      "Lightspeed"
     ]
   },
   "robotera": {
@@ -15236,6 +15432,11 @@
         "name": "李飞飞 (Fei-Fei Li)",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "a16z",
+      "NEA",
+      "Radical Ventures"
     ]
   },
   "sakana": {
@@ -15903,6 +16104,12 @@
         "name": "Deepak Pathak",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "软银 SoftBank",
+      "Lightspeed",
+      "Coatue",
+      "英伟达"
     ]
   },
   "dexterity": {
@@ -16062,6 +16269,12 @@
         "name": "Raquel Urtasun",
         "title": "创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Uber",
+      "Khosla Ventures",
+      "英伟达",
+      "Volvo"
     ]
   },
   "appliedintuition": {
@@ -16443,6 +16656,13 @@
         "description": "唯一目标是直接构建安全的超级智能,期间不推出中间商业产品。",
         "status": "研发"
       }
+    ],
+    "investors": [
+      "Sequoia",
+      "a16z",
+      "DST Global",
+      "Greenoaks",
+      "英伟达"
     ]
   },
   "thinkingmachines": {
@@ -16508,6 +16728,12 @@
         "description": "Mira Murati 领衔的实验室,专注可定制、可理解的前沿 AI。",
         "status": "研发"
       }
+    ],
+    "investors": [
+      "a16z",
+      "英伟达",
+      "AMD",
+      "Accel"
     ]
   },
   "deepgram": {
