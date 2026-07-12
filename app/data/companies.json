@@ -1990,7 +1990,11 @@
       "growth": 68,
       "innovation": 84,
       "community": 51
-    }
+    },
+    "suppliers": [
+      "mtsi",
+      "yuanjie"
+    ]
   },
   "baba": {
     "id": "baba",
@@ -2385,7 +2389,11 @@
       "growth": 66,
       "innovation": 82,
       "community": 58
-    }
+    },
+    "suppliers": [
+      "nvda",
+      "hesai"
+    ]
   },
   "wrd": {
     "id": "wrd",
@@ -2473,7 +2481,11 @@
       "growth": 65,
       "innovation": 80,
       "community": 58
-    }
+    },
+    "suppliers": [
+      "nvda",
+      "hesai"
+    ]
   },
   "rxrx": {
     "id": "rxrx",
@@ -3829,7 +3841,10 @@
       "growth": 68,
       "innovation": 84,
       "community": 51
-    }
+    },
+    "suppliers": [
+      "mtsi"
+    ]
   },
   "aaoi": {
     "id": "aaoi",
@@ -4824,7 +4839,11 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "keyCustomers": [
+      "innolight",
+      "eoptolink"
+    ]
   },
   "jnpr": {
     "id": "jnpr",
@@ -5589,7 +5608,13 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "keyCustomers": [
+      "figure",
+      "unitree",
+      "apptronik",
+      "tsla"
+    ]
   },
   "teradyne": {
     "id": "teradyne",
@@ -9947,7 +9972,10 @@
       "growth": 85,
       "innovation": 84,
       "community": 51
-    }
+    },
+    "suppliers": [
+      "samsung"
+    ]
   },
   "cerebras": {
     "id": "cerebras",
@@ -10042,7 +10070,10 @@
       "growth": 67,
       "innovation": 83,
       "community": 51
-    }
+    },
+    "suppliers": [
+      "tsm"
+    ]
   },
   "sambanova": {
     "id": "sambanova",
@@ -10318,6 +10349,9 @@
       "Primary Venture Partners",
       "Peter Thiel",
       "Positive Sum"
+    ],
+    "suppliers": [
+      "tsm"
     ]
   },
   "crwv": {
@@ -12977,6 +13011,9 @@
       "软银愿景基金",
       "淡马锡",
       "前海母基金"
+    ],
+    "suppliers": [
+      "harmonic"
     ]
   },
   "mbly": {
@@ -13155,7 +13192,10 @@
       "growth": 66,
       "innovation": 82,
       "community": 58
-    }
+    },
+    "suppliers": [
+      "nvda"
+    ]
   },
   "wayve": {
     "id": "wayve",
@@ -13229,7 +13269,10 @@
       "growth": 86,
       "innovation": 85,
       "community": 59
-    }
+    },
+    "suppliers": [
+      "nvda"
+    ]
   },
   "nuro": {
     "id": "nuro",
@@ -14326,7 +14369,10 @@
       "growth": 65,
       "innovation": 80,
       "community": 58
-    }
+    },
+    "suppliers": [
+      "harmonic"
+    ]
   },
   "agibot": {
     "id": "agibot",
@@ -17016,7 +17062,11 @@
       "growth": 61,
       "innovation": 74,
       "community": 48
-    }
+    },
+    "keyCustomers": [
+      "msft",
+      "amzn"
+    ]
   },
   "pwr": {
     "id": "pwr",
@@ -19753,6 +19803,10 @@
       "联想创投",
       "世纪金源",
       "清华系"
+    ],
+    "suppliers": [
+      "harmonic",
+      "leaderdrive"
     ]
   },
   "engineai": {
@@ -19897,7 +19951,11 @@
       "growth": 66,
       "innovation": 82,
       "community": 58
-    }
+    },
+    "suppliers": [
+      "nvda",
+      "hesai"
+    ]
   },
   "augment": {
     "id": "augment",
@@ -21332,7 +21390,10 @@
       "growth": 85,
       "innovation": 83,
       "community": 72
-    }
+    },
+    "suppliers": [
+      "nvda"
+    ]
   },
   "appliedintuition": {
     "id": "appliedintuition",
@@ -22307,7 +22368,10 @@
       "growth": 83,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "suppliers": [
+      "tsm"
+    ]
   },
   "rainai": {
     "id": "rainai",
@@ -23590,7 +23654,10 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "suppliers": [
+      "avgo"
+    ]
   },
   "avc": {
     "id": "avc",
@@ -24553,8 +24620,7 @@
       "apple"
     ],
     "suppliers": [
-      "tsm",
-      "arm"
+      "tsm"
     ],
     "partners": [
       "nvda"
@@ -25762,7 +25828,10 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "suppliers": [
+      "tsm"
+    ]
   },
   "eqix": {
     "id": "eqix",
@@ -29175,7 +29244,9 @@
       "inovance"
     ],
     "keyCustomers": [
-      "tsla"
+      "figure",
+      "unitree",
+      "agibot"
     ],
     "tags": [
       "谐波减速器",
