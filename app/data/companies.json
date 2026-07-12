@@ -1647,6 +1647,12 @@
         "description": "全球最大的风能与太阳能发电商。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "John Ketchum",
+        "title": "董事长、总裁兼 CEO"
+      }
     ]
   },
   "cohr": {
@@ -2480,6 +2486,12 @@
         "description": "变压器、开关等输配电装备,支撑电网升级扩建。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Scott Strazik",
+        "title": "CEO"
+      }
     ]
   },
   "sie": {
@@ -2675,6 +2687,12 @@
         "category": "数据中心基础设施",
         "description": "为数据中心提供配电、UPS 与制冷方案。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Olivier Blum",
+        "title": "CEO"
       }
     ]
   },
@@ -3213,6 +3231,12 @@
         "category": "网络设备",
         "description": "高容量 IP 路由与传输设备。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Gary Smith",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -4047,6 +4071,12 @@
         "category": "电力",
         "description": "多元发电组合,为 AI 用电激增提供稳定与灵活电力。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Jim Burke",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -8693,6 +8723,12 @@
       "Founders Fund",
       "英伟达",
       "Fidelity"
+    ],
+    "leadership": [
+      {
+        "name": "Chase Lochmiller",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "nbis": {
@@ -9147,6 +9183,12 @@
         "description": "最流行的托管向量数据库,RAG 应用的标配基础设施。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Edo Liberty",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "weaviate": {
@@ -9306,6 +9348,12 @@
         "category": "开发工具",
         "description": "面向智能体的可观测、调试与编排工具。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Harrison Chase",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -9484,6 +9532,12 @@
         "category": "AI 数据",
         "description": "为前沿实验室提供高质量 RLHF 与评测数据。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Edwin Chen",
+        "title": "创始人兼 CEO"
       }
     ]
   },
@@ -10635,6 +10689,12 @@
       "AI 写作",
       "生产力",
       "沟通"
+    ],
+    "leadership": [
+      {
+        "name": "Shishir Mehrotra",
+        "title": "CEO"
+      }
     ]
   },
   "sanctuary": {
@@ -11036,6 +11096,12 @@
         "description": "重金起步,汇聚顶尖 AI 与生物学人才(含蛋白设计)发现新药。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Marc Tessier-Lavigne",
+        "title": "CEO"
+      }
     ]
   },
   "evoscale": {
@@ -11088,6 +11154,12 @@
         "category": "蛋白质大模型",
         "description": "能理解并生成全新蛋白质的大语言模型,用于药物/酶/材料设计。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Alexander Rives",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -11950,6 +12022,12 @@
         "description": "主攻超长上下文的自研代码大模型,能读进整个代码库。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Eric Steinberger",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "poolside": {
@@ -12435,6 +12513,12 @@
         "description": "用光子技术连接芯片,提供高带宽低功耗的 AI 互连。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Dave Lazovsky",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "modal": {
@@ -12487,6 +12571,12 @@
         "category": "无服务器 AI 计算",
         "description": "Python 加几行即把 GPU 任务部署上云、按秒计费。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Erik Bernhardsson",
+        "title": "创始人兼 CEO"
       }
     ]
   },
@@ -12545,6 +12635,12 @@
       "IVP",
       "Spark Capital",
       "Greylock"
+    ],
+    "leadership": [
+      {
+        "name": "Tuhin Srivastava",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "replicate": {
@@ -12655,6 +12751,16 @@
         "description": "基于 Ray 的托管平台与企业服务。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Ion Stoica",
+        "title": "联合创始人、执行主席"
+      },
+      {
+        "name": "Robert Nishihara",
+        "title": "联合创始人"
+      }
     ]
   },
   "wandb": {
@@ -12707,6 +12813,12 @@
         "category": "MLOps",
         "description": "AI 实验跟踪与协作平台,被 CoreWeave 收购。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Lukas Biewald",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -13036,6 +13148,12 @@
         "description": "把核电直接卖给 AI 数据中心(亚马逊),开创供电新范式。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Mac McFarland",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "cameco": {
@@ -13091,6 +13209,12 @@
         "category": "核燃料",
         "description": "全球最大铀矿商之一,核电复兴与 AI 用电的上游燃料龙头。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Tim Gitzel",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -13440,6 +13564,12 @@
         "description": "磁惯性聚变路线,微软已签署购电协议。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "David Kirtley",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "cfs": {
@@ -13496,6 +13626,12 @@
         "category": "核聚变",
         "description": "用高温超导磁体的紧凑托卡马克,冲刺商业聚变发电。",
         "status": "研发"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Bob Mumgaard",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -14573,6 +14709,12 @@
         "description": "高纯化学品输送/过滤、晶圆容器与 CMP 材料,保障芯片洁净度。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Bertrand Loy",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "cabot": {
@@ -14688,6 +14830,12 @@
         "category": "稀土/磁材",
         "description": "美国唯一规模稀土矿,并向下游做钕铁硼永磁国产化。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "James Litinsky",
+        "title": "创始人、董事长兼 CEO"
       }
     ]
   },
@@ -15239,6 +15387,12 @@
         "category": "脑机接口",
         "description": "经血管植入的微创脑机接口,无需开颅。",
         "status": "临床试验"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Tom Oxley",
+        "title": "创始人兼 CEO"
       }
     ]
   },
@@ -15837,6 +15991,16 @@
     "investors": [
       "Index Ventures",
       "Lightspeed"
+    ],
+    "leadership": [
+      {
+        "name": "Karan Goel",
+        "title": "联合创始人兼 CEO"
+      },
+      {
+        "name": "Albert Gu",
+        "title": "联合创始人"
+      }
     ]
   },
   "robotera": {
@@ -16007,6 +16171,12 @@
         "description": "以「飞轮」数据驱动的量产智驾方案,中国头部智驾方案商。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "曹旭东",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "augment": {
@@ -16059,6 +16229,12 @@
         "category": "AI 编程",
         "description": "面向大型企业代码库、以「全库上下文」著称的 AI 编程助手。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Scott Dietzen",
+        "title": "CEO"
       }
     ]
   },
@@ -16121,6 +16297,12 @@
         "description": "PCIe/CXL 重定时器等连接芯片,解决 AI 服务器高速互联瓶颈。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Jitendra Mohan",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "credo": {
@@ -16177,6 +16359,12 @@
         "category": "AI 服务器连接",
         "description": "在数据中心里又快又省电地高速互联,深度绑定云厂 AI 网络。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Bill Brennan",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -16491,6 +16679,12 @@
       "企业智能体",
       "IT/HR",
       "内部支持"
+    ],
+    "leadership": [
+      {
+        "name": "Bhavin Shah",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "recraft": {
@@ -16615,6 +16809,12 @@
       "AI 图像",
       "游戏美术",
       "Canva"
+    ],
+    "leadership": [
+      {
+        "name": "JJ Fiasson",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "krea": {
@@ -16674,6 +16874,12 @@
       "AI 图像",
       "实时生成",
       "多模型聚合"
+    ],
+    "leadership": [
+      {
+        "name": "Victor Perez",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "genmo": {
@@ -17239,6 +17445,12 @@
         "category": "自动驾驶工具",
         "description": "为车企和自动驾驶公司提供仿真、开发与验证工具链。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Qasar Younis",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -19873,6 +20085,12 @@
         "description": "用 AI 精准投放广告、找高价值用户,驱动惊人增长。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Adam Foroughi",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "ttd": {
@@ -20297,6 +20515,12 @@
         "description": "全球车载激光雷达出货龙头,用于智能驾驶与机器人。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "李一帆",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "luminar": {
@@ -20473,6 +20697,12 @@
         "category": "智能驾驶",
         "description": "面向车企的软硬一体智能驾驶方案。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "余凯",
+        "title": "创始人兼 CEO"
       }
     ]
   },
@@ -20795,6 +21025,12 @@
         "description": "自研的金融领域大模型。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Michael Bloomberg",
+        "title": "创始人"
+      }
     ]
   },
   "blackrock": {
@@ -21025,6 +21261,12 @@
       "教育 AI",
       "口语",
       "语言学习"
+    ],
+    "leadership": [
+      {
+        "name": "Connor Zwick",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "khanacademy": {
