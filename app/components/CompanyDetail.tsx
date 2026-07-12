@@ -41,6 +41,8 @@ const fmtB = (v: number) => {
   return `${sign}$${Math.round(a)}B`;
 };
 const fmtPrice = (p?: number) => (p == null ? "—" : `$${p.toFixed(2)}`);
+// 价格数字：≥1000 用千分位整数(如 ₩285,000),否则两位小数(如 43.04)
+const fmtNum = (v: number) => (v >= 1000 ? Math.round(v).toLocaleString("en-US") : v.toFixed(2));
 
 function Stars({ score }: { score: number }) {
   const full = Math.max(0, Math.min(5, Math.round(score / 20)));
@@ -360,7 +362,7 @@ export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyD
                 </div>
                 <div className="cp-stat">
                   <span className="stat-k">股价</span>
-                  <span className="stat-v">{price == null ? "—" : `${curSym}${price.toFixed(2)}`}</span>
+                  <span className="stat-v">{price == null ? "—" : `${curSym}${fmtNum(price)}`}</span>
                 </div>
                 {dayChangePct && (
                   <div className="cp-stat">
@@ -392,7 +394,7 @@ export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyD
                   <div className="cp-stat">
                     <span className="stat-k">52 周区间</span>
                     <span className="stat-v">
-                      {curSym}{week52Low} – {curSym}{week52High}
+                      {curSym}{fmtNum(week52Low)} – {curSym}{fmtNum(week52High)}
                     </span>
                   </div>
                 )}
