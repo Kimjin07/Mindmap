@@ -109,6 +109,33 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
   };
   const en = lang === "en";
 
+  // 实时股价：初始用服务端 live，之后每 60 秒轮询 /api/quote 刷新（仅美股、仅标签页可见时）。
+  type LiveQuote = { price?: number; changePct?: number; marketCapB?: number; week52Low?: number; week52High?: number; ts?: number };
+  const [liveQuote, setLiveQuote] = useState<LiveQuote | null>(null);
+  const [updatedAt, setUpdatedAt] = useState<number | null>(null);
+  useEffect(() => {
+    setLiveQuote(null);
+    setUpdatedAt(null);
+    const ticker = c.stock?.ticker;
+    if (!ticker || !live?.live) return; // 只有服务端已取到实时行情（美股）才轮询
+    let stopped = false;
+    const load = async () => {
+      try {
+        const r = await fetch(`/api/quote/${encodeURIComponent(ticker)}`, { cache: "no-store" });
+        const j = await r.json();
+        if (!stopped && j?.live) {
+          setLiveQuote(j as LiveQuote);
+          setUpdatedAt(Date.now());
+        }
+      } catch {}
+    };
+    load();
+    const id = setInterval(() => {
+      if (typeof document === "undefined" || document.visibilityState === "visible") load();
+    }, 60_000);
+    return () => { stopped = true; clearInterval(id); };
+  }, [c.id, c.stock?.ticker, live?.live]);
+
   const chainIds = new Set<string>();
   Object.values(NODES).forEach((n) => {
     if (n.companyIds.includes(c.id)) chainIds.add(n.id);
@@ -116,17 +143,18 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
   productsOfCompany(c.id).forEach((s) => chainIds.add(s.cityId));
   const chainNodes = [...chainIds].map((nid) => NODES[nid]).filter(Boolean);
 
-  const marketCapB = live?.marketCapB ?? c.stock?.marketCapB;
+  const marketCapB = liveQuote?.marketCapB ?? live?.marketCapB ?? c.stock?.marketCapB;
   const financials = live?.financials && live.financials.length ? live.financials : c.financials;
   const finLive = !!(live?.financials && live.financials.length);
-  const price = live?.price ?? c.stock?.sharePrice;
+  const price = liveQuote?.price ?? live?.price ?? c.stock?.sharePrice;
   const peRatio = live?.peRatio ?? c.stock?.peRatio;
+  const changePctNum = liveQuote?.changePct ?? live?.changePct;
   const dayChangePct =
-    live?.changePct != null
-      ? `${live.changePct > 0 ? "+" : ""}${live.changePct.toFixed(2)}%`
+    changePctNum != null
+      ? `${changePctNum > 0 ? "+" : ""}${changePctNum.toFixed(2)}%`
       : c.stock?.dayChangePct;
-  const week52Low = live?.week52Low ?? c.stock?.week52Low;
-  const week52High = live?.week52High ?? c.stock?.week52High;
+  const week52Low = liveQuote?.week52Low ?? live?.week52Low ?? c.stock?.week52Low;
+  const week52High = liveQuote?.week52High ?? live?.week52High ?? c.stock?.week52High;
   const employees = live?.employees ?? c.employees;
   const leadership = (() => {
     const base = c.leadership ?? [];
@@ -314,8 +342,18 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
           {showMarket && (
             <section className="company-card">
               <h2>
-                股票表现
-                {live?.live && <span className="live-badge">● 实时</span>}
+                {en ? "Stock" : "股票表现"}
+                {live?.live && (
+                  <span className={`live-badge${liveQuote ? " pulse" : ""}`}>
+                    ● {en ? "live" : "实时"}
+                  </span>
+                )}
+                {updatedAt && (
+                  <span className="live-time">
+                    {en ? "updated " : "更新于 "}
+                    {new Date(updatedAt).toLocaleTimeString(en ? "en-US" : "zh-CN")}
+                  </span>
+                )}
               </h2>
               <div className="cp-stat-grid">
                 <div className="cp-stat">

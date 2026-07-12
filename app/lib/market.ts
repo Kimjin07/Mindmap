@@ -56,7 +56,7 @@ export async function getLiveData(c: Company): Promise<LiveData> {
 
   try {
     const [quoteRes, incomeRes, profileRes, ratioRes, histRes] = await Promise.allSettled([
-      fetch(`${BASE}/quote?symbol=${sym}&apikey=${key}`, { next: { revalidate: 3600 } }),
+      fetch(`${BASE}/quote?symbol=${sym}&apikey=${key}`, { next: { revalidate: 60 } }),
       fetch(`${BASE}/income-statement?symbol=${sym}&limit=2&apikey=${key}`, { next: { revalidate: 86400 } }),
       fetch(`${BASE}/profile?symbol=${sym}&apikey=${key}`, { next: { revalidate: 86400 } }),
       fetch(`${BASE}/ratios-ttm?symbol=${sym}&apikey=${key}`, { next: { revalidate: 86400 } }),
