@@ -3263,6 +3263,14 @@
       "光网络",
       "DCI",
       "Infinera"
+    ],
+    "products": [
+      {
+        "name": "5G / 光网络设备",
+        "category": "网络设备",
+        "description": "电信级网络基建,光网络受益 AI 数据中心互联,收购 Infinera。",
+        "status": "GA"
+      }
     ]
   },
   "mu": {
@@ -3653,6 +3661,14 @@
       "激光器",
       "DFB/EML",
       "国产替代"
+    ],
+    "products": [
+      {
+        "name": "高速光芯片 (激光器)",
+        "category": "光芯片",
+        "description": "国产 DFB/EML 等高速激光器芯片,光模块最上游卡脖子环节。",
+        "status": "GA"
+      }
     ]
   },
   "mtsi": {
@@ -3874,6 +3890,14 @@
       "RAN",
       "电信设备",
       "传输网络"
+    ],
+    "products": [
+      {
+        "name": "5G / 电信网络设备",
+        "category": "网络设备",
+        "description": "全球电信网络设备巨头,与诺基亚、华为竞争。",
+        "status": "GA"
+      }
     ]
   },
   "ceg": {
@@ -4129,6 +4153,14 @@
       "模块化反应堆",
       "NRC 认证",
       "数据中心供电"
+    ],
+    "products": [
+      {
+        "name": "NuScale Power Module",
+        "category": "先进核能",
+        "description": "首个获 NRC 设计认证的小型模块化反应堆(SMR)。",
+        "status": "研发"
+      }
     ]
   },
   "cat": {
@@ -4196,6 +4228,14 @@
         "revenue": 64.8,
         "netIncome": 10.8
       }
+    ],
+    "products": [
+      {
+        "name": "工程机械 / 发电机组",
+        "category": "机械与发电",
+        "description": "黄色工程机械龙头,柴油/燃气发电机组+Solar Turbines 供数据中心。",
+        "status": "GA"
+      }
     ]
   },
   "cmi": {
@@ -4262,6 +4302,14 @@
         "year": 2024,
         "revenue": 34.1,
         "netIncome": 3.95
+      }
+    ],
+    "products": [
+      {
+        "name": "发动机 / 发电机组",
+        "category": "动力与发电",
+        "description": "全球发动机与发电机组龙头,数据中心备用/就地发电。",
+        "status": "GA"
       }
     ]
   },
@@ -5147,6 +5195,14 @@
       "Electron",
       "Neutron",
       "商业航天"
+    ],
+    "products": [
+      {
+        "name": "电子号 / 中子号火箭",
+        "category": "火箭",
+        "description": "小型可回收火箭,并做卫星平台与制造,仅次于 SpaceX。",
+        "status": "GA"
+      }
     ]
   },
   "asts": {
@@ -5195,6 +5251,14 @@
       "低轨卫星",
       "补盲",
       "天基通信"
+    ],
+    "products": [
+      {
+        "name": "卫星直连手机",
+        "category": "卫星通信",
+        "description": "让普通手机直接连卫星,无需地面基站。",
+        "status": "研发"
+      }
     ]
   },
   "spacex": {
@@ -7080,6 +7144,14 @@
         "revenue": 187.4,
         "netIncome": 6
       }
+    ],
+    "products": [
+      {
+        "name": "Super Cruise / 电动车",
+        "category": "汽车与自动驾驶",
+        "description": "把自动驾驶聚焦到个人辅助驾驶(Super Cruise),大举转型电动车。",
+        "status": "GA"
+      }
     ]
   },
   "oss_graph": {
@@ -7119,6 +7191,14 @@
       "PyG",
       "DGL",
       "开源框架"
+    ],
+    "products": [
+      {
+        "name": "PyG / DGL",
+        "category": "开源框架",
+        "description": "图神经网络(GNN)两大主流开源框架。",
+        "status": "开源"
+      }
     ]
   },
   "mamba": {
@@ -7301,6 +7381,14 @@
       "NVLink 替代",
       "开放标准",
       "互联"
+    ],
+    "products": [
+      {
+        "name": "UALink 互联标准",
+        "category": "开放标准",
+        "description": "对标 NVLink 的开放加速器互联标准,多家巨头联合发起。",
+        "status": "标准制定"
+      }
     ]
   },
   "elevenlabs": {
@@ -8280,6 +8368,14 @@
       "IPU",
       "软银",
       "AI 芯片"
+    ],
+    "products": [
+      {
+        "name": "IPU",
+        "category": "AI 芯片",
+        "description": "为机器学习设计的智能处理器,已被软银收购。",
+        "status": "GA"
+      }
     ]
   },
   "tenstorrent": {
@@ -13105,6 +13201,14 @@
       "便携核能",
       "先进核电",
       "早期"
+    ],
+    "products": [
+      {
+        "name": "Zeus / Odin 微堆",
+        "category": "先进核能",
+        "description": "可运输、部署到偏远地区/数据中心的便携式微型反应堆。",
+        "status": "研发"
+      }
     ]
   },
   "terrapower": {
@@ -13553,6 +13657,14 @@
       "燃料电池",
       "绿氢",
       "电解槽"
+    ],
+    "products": [
+      {
+        "name": "燃料电池 / 电解槽",
+        "category": "氢能",
+        "description": "氢燃料电池系统与电解槽(制绿氢),仓储叉车是成熟应用。",
+        "status": "GA"
+      }
     ]
   },
   "hitachienergy": {
@@ -13713,6 +13825,14 @@
       "开关柜",
       "数据中心供电",
       "中小盘"
+    ],
+    "products": [
+      {
+        "name": "配电 / 开关设备",
+        "category": "电气设备",
+        "description": "中高压开关柜与配电系统,把海量电力安全送进数据中心。",
+        "status": "GA"
+      }
     ]
   },
   "pwr": {
@@ -14194,6 +14314,14 @@
         "revenue": 33,
         "netIncome": 6.5
       }
+    ],
+    "products": [
+      {
+        "name": "工业气体 / 电子特气",
+        "category": "工业气体",
+        "description": "全球最大工业气体公司,半导体电子特气主力供应。",
+        "status": "GA"
+      }
     ]
   },
   "airliquide": {
@@ -14242,6 +14370,14 @@
       "电子特气",
       "晶圆厂配套",
       "法国"
+    ],
+    "products": [
+      {
+        "name": "工业气体 / 电子特气",
+        "category": "工业气体",
+        "description": "法国工业气体巨头,为全球晶圆厂供电子特气与材料。",
+        "status": "GA"
+      }
     ]
   },
   "ibiden": {
@@ -14481,6 +14617,14 @@
       "抛光液/垫",
       "半导体耗材",
       "Entegris"
+    ],
+    "products": [
+      {
+        "name": "CMP 抛光液 / 垫",
+        "category": "半导体材料",
+        "description": "化学机械抛光材料龙头,每叠一层电路都要用,并入恩特格里斯。",
+        "status": "GA"
+      }
     ]
   },
   "mp": {
@@ -14710,6 +14854,14 @@
       "电气化",
       "AI 用电",
       "大宗商品"
+    ],
+    "products": [
+      {
+        "name": "铜矿 / 金矿",
+        "category": "矿业",
+        "description": "全球最大上市铜矿商之一,AI 用电与电气化推升铜需求。",
+        "status": "GA"
+      }
     ]
   },
   "scco": {
@@ -14758,6 +14910,14 @@
       "低成本",
       "电气化",
       "储量大"
+    ],
+    "products": [
+      {
+        "name": "铜矿",
+        "category": "矿业",
+        "description": "储量最大的铜矿公司之一,低成本,押注铜价的经典标的。",
+        "status": "GA"
+      }
     ]
   },
   "anduril": {
@@ -15176,6 +15336,14 @@
       "去中心 GPU",
       "Solana",
       "算力市场"
+    ],
+    "products": [
+      {
+        "name": "io.net",
+        "category": "去中心化算力",
+        "description": "聚合全球闲置 GPU 的去中心化算力网络(DePIN)。",
+        "status": "GA"
+      }
     ]
   },
   "render": {
@@ -15221,6 +15389,14 @@
       "GPU 渲染",
       "OTOY",
       "RENDER"
+    ],
+    "products": [
+      {
+        "name": "Render Network",
+        "category": "去中心化算力",
+        "description": "去中心化 GPU 渲染与算力网络,聚合闲置 GPU(DePIN)。",
+        "status": "GA"
+      }
     ]
   },
   "akash": {
@@ -15265,6 +15441,14 @@
       "去中心云",
       "反向竞价",
       "AKT"
+    ],
+    "products": [
+      {
+        "name": "Akash",
+        "category": "去中心化云",
+        "description": "去中心化云算力市场,「云计算的 Airbnb」(DePIN)。",
+        "status": "GA"
+      }
     ]
   },
   "bittensor": {
@@ -15306,6 +15490,14 @@
       "去中心 AI",
       "TAO",
       "子网"
+    ],
+    "products": [
+      {
+        "name": "Bittensor (TAO)",
+        "category": "去中心化 AI",
+        "description": "用区块链激励协作训练模型的去中心化机器学习网络。",
+        "status": "GA"
+      }
     ]
   },
   "inworld": {
@@ -17846,6 +18038,14 @@
       "类脑",
       "超低功耗",
       "端侧"
+    ],
+    "products": [
+      {
+        "name": "类脑 AI 芯片",
+        "category": "AI 芯片",
+        "description": "模仿人脑的神经形态芯片,追求极致能效,获 Sam Altman 投资。",
+        "status": "研发"
+      }
     ]
   },
   "robin_ai": {
@@ -18176,6 +18376,14 @@
       "IP 授权",
       "联电体系",
       "AIoT"
+    ],
+    "products": [
+      {
+        "name": "ASIC 设计服务 / IP",
+        "category": "ASIC 设计服务",
+        "description": "老牌 ASIC 设计服务与半导体 IP,属联电集团。",
+        "status": "GA"
+      }
     ]
   },
   "andes": {
@@ -18602,6 +18810,14 @@
       "AI 服务器",
       "网通",
       "苹果"
+    ],
+    "products": [
+      {
+        "name": "电子代工 / AI 服务器",
+        "category": "电子代工",
+        "description": "苹果 iPhone 主要代工厂之一,切入 AI 服务器代工。",
+        "status": "GA"
+      }
     ]
   },
   "accton": {
@@ -18833,6 +19049,14 @@
       "软板 FPC",
       "载板",
       "鸿海"
+    ],
+    "products": [
+      {
+        "name": "PCB / 软板 / 载板",
+        "category": "PCB",
+        "description": "全球最大 PCB 厂,软板(FPC)、IC 载板等高端实力强,鸿海集团。",
+        "status": "GA"
+      }
     ]
   },
   "liteon": {
@@ -18945,6 +19169,14 @@
       "内存",
       "台塑",
       "存储周期"
+    ],
+    "products": [
+      {
+        "name": "DRAM",
+        "category": "存储芯片",
+        "description": "台湾 DRAM 内存厂,随 AI 拉动内存周期上行受益,台塑集团。",
+        "status": "GA"
+      }
     ]
   },
   "asus": {
@@ -18998,6 +19230,14 @@
       "PC 品牌",
       "GB200",
       "AI 云"
+    ],
+    "products": [
+      {
+        "name": "AI 服务器 / 主板 / ROG",
+        "category": "硬件",
+        "description": "PC 主板/显卡/电竞品牌,切入 NVIDIA GPU AI 服务器。",
+        "status": "GA"
+      }
     ]
   },
   "wolfspeed": {
@@ -19046,6 +19286,14 @@
       "SiC",
       "功率半导体",
       "破产重组"
+    ],
+    "products": [
+      {
+        "name": "碳化硅 (SiC)",
+        "category": "功率半导体",
+        "description": "碳化硅衬底与器件龙头,用于电动车与电力电子。",
+        "status": "GA"
+      }
     ]
   },
   "ifx": {
@@ -19814,6 +20062,14 @@
       "超导量子",
       "全栈",
       "Fab-1"
+    ],
+    "products": [
+      {
+        "name": "超导量子计算机",
+        "category": "量子计算",
+        "description": "全栈自研超导量子芯片与量子云服务(RGTI)。",
+        "status": "GA"
+      }
     ]
   },
   "dwave": {
@@ -19863,6 +20119,14 @@
       "量子退火",
       "优化",
       "商业落地"
+    ],
+    "products": [
+      {
+        "name": "量子退火计算机",
+        "category": "量子计算",
+        "description": "走量子退火路线,面向优化问题的上市量子计算公司。",
+        "status": "GA"
+      }
     ]
   },
   "psiquantum": {
@@ -20081,6 +20345,14 @@
       "1550nm",
       "感知",
       "沃尔沃"
+    ],
+    "products": [
+      {
+        "name": "Iris 激光雷达",
+        "category": "激光雷达",
+        "description": "面向量产车的高性能激光雷达,与沃尔沃等合作。",
+        "status": "GA"
+      }
     ]
   },
   "ouster": {
@@ -20129,6 +20401,14 @@
       "Velodyne",
       "多市场",
       "感知"
+    ],
+    "products": [
+      {
+        "name": "数字激光雷达",
+        "category": "激光雷达",
+        "description": "芯片化的数字激光雷达,更简洁可量产,已与 Velodyne 合并。",
+        "status": "GA"
+      }
     ]
   },
   "horizon": {
@@ -20448,6 +20728,14 @@
       "数据中心",
       "档案存储",
       "转型"
+    ],
+    "products": [
+      {
+        "name": "信息管理 / 数据中心",
+        "category": "数据中心",
+        "description": "百年档案托管巨头,大举转型数据中心业务。",
+        "status": "GA"
+      }
     ]
   },
   "bloomberg": {
@@ -21341,6 +21629,14 @@
       "卫星影像",
       "地理情报",
       "AI 分析"
+    ],
+    "products": [
+      {
+        "name": "对地观测卫星",
+        "category": "卫星",
+        "description": "小卫星星座每天给整个地球拍照,并用 AI 解译成情报。",
+        "status": "GA"
+      }
     ]
   },
   "blacksky": {
@@ -21389,6 +21685,14 @@
       "高重访",
       "地理情报",
       "近实时"
+    ],
+    "products": [
+      {
+        "name": "实时卫星影像 / 情报",
+        "category": "卫星情报",
+        "description": "低轨星座高频重访,近实时提供地理空间情报。",
+        "status": "GA"
+      }
     ]
   },
   "smci": {
@@ -21930,6 +22234,14 @@
       "传感器",
       "汽车",
       "数据中心"
+    ],
+    "products": [
+      {
+        "name": "连接器 / 传感器",
+        "category": "连接器",
+        "description": "无处不在的连接件,AI 服务器高速连接与供电受益。",
+        "status": "GA"
+      }
     ]
   },
   "wus": {
@@ -22095,6 +22407,14 @@
       "射频/微波",
       "国防",
       "数据中心"
+    ],
+    "products": [
+      {
+        "name": "PCB (高多层 / HDI)",
+        "category": "PCB",
+        "description": "北美最大 PCB 制造商,服务国防、数据中心等高端市场。",
+        "status": "GA"
+      }
     ]
   },
   "delta": {
@@ -22273,6 +22593,14 @@
       "Factorized Power",
       "末端供电",
       "GPU"
+    ],
+    "products": [
+      {
+        "name": "高密度电源模块",
+        "category": "电源",
+        "description": "把电高效紧凑送到芯片,主张电源尽量靠近 AI GPU。",
+        "status": "GA"
+      }
     ]
   },
   "manus": {
@@ -22464,6 +22792,14 @@
       "computer use",
       "ACT-1",
       "智能体"
+    ],
+    "products": [
+      {
+        "name": "ACT-1",
+        "category": "AI 智能体",
+        "description": "能自主操作软件的 AI 智能体先驱(核心团队多入亚马逊)。",
+        "status": "研发"
+      }
     ]
   },
   "sanhua": {
@@ -22577,6 +22913,14 @@
       "汽车零部件",
       "特斯拉",
       "Optimus"
+    ],
+    "products": [
+      {
+        "name": "汽车零部件 / 机器人执行器",
+        "category": "零部件",
+        "description": "汽车零部件龙头(特斯拉供应商),布局机器人直线/旋转执行器。",
+        "status": "GA"
+      }
     ]
   },
   "inovance": {
