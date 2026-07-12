@@ -2376,6 +2376,14 @@
       "企业存储",
       "AI 数据",
       "存储即服务"
+    ],
+    "products": [
+      {
+        "name": "FlashArray / FlashBlade",
+        "category": "企业存储",
+        "description": "全闪存企业存储,为 AI 提供高性能数据访问。",
+        "status": "GA"
+      }
     ]
   },
   "gev": {
@@ -2504,6 +2512,20 @@
       "数字孪生",
       "Xcelerator",
       "工业 AI"
+    ],
+    "products": [
+      {
+        "name": "工业自动化 (PLC/驱动)",
+        "category": "工业自动化",
+        "description": "工厂自动化硬件,全球工业支柱。",
+        "status": "GA"
+      },
+      {
+        "name": "数字孪生软件",
+        "category": "工业软件",
+        "description": "在虚拟世界 1:1 建出工厂与产品来仿真优化。",
+        "status": "GA"
+      }
     ]
   },
   "foxconn": {
@@ -3098,6 +3120,14 @@
       "800G",
       "1.6T",
       "高弹性"
+    ],
+    "products": [
+      {
+        "name": "800G / 1.6T 光模块",
+        "category": "光通信",
+        "description": "高速光收发模块,2026 涨幅最猛光模块股之一。",
+        "status": "GA"
+      }
     ]
   },
   "cien": {
@@ -3349,6 +3379,14 @@
       "精密光电",
       "800G/1.6T",
       "泰国"
+    ],
+    "products": [
+      {
+        "name": "光模块 / 光器件代工",
+        "category": "光通信制造",
+        "description": "为各大光通信厂商代工高精度光模块与光器件。",
+        "status": "GA"
+      }
     ]
   },
   "csco": {
@@ -3616,6 +3654,14 @@
       "TIA",
       "高速模拟",
       "光通信上游"
+    ],
+    "products": [
+      {
+        "name": "激光驱动器 / TIA",
+        "category": "光电芯片",
+        "description": "光模块内驱动激光、放大光信号的高速模拟/光电芯片。",
+        "status": "GA"
+      }
     ]
   },
   "smtc": {
@@ -3962,6 +4008,14 @@
       "微堆",
       "Aurora",
       "AI 专属核电"
+    ],
+    "products": [
+      {
+        "name": "Aurora",
+        "category": "先进核能",
+        "description": "小型先进裂变微堆,Sam Altman 押注,面向数据中心供电。",
+        "status": "研发"
+      }
     ]
   },
   "smr": {
@@ -4194,6 +4248,14 @@
       "机器人关节",
       "精密传动",
       "上游"
+    ],
+    "products": [
+      {
+        "name": "谐波减速器",
+        "category": "机器人零部件",
+        "description": "机器人关节核心精密减速器,全球龙头,近乎垄断高端市场。",
+        "status": "GA"
+      }
     ]
   },
   "teradyne": {
@@ -4260,6 +4322,20 @@
         "year": 2024,
         "revenue": 2.82,
         "netIncome": 0.55
+      }
+    ],
+    "products": [
+      {
+        "name": "半导体测试设备",
+        "category": "测试设备",
+        "description": "AI 芯片、存储、SoC 的自动测试设备(ATE)。",
+        "status": "GA"
+      },
+      {
+        "name": "Universal Robots",
+        "category": "协作机器人",
+        "description": "协作机器人(cobot)开创者。",
+        "status": "GA"
       }
     ]
   },
@@ -6657,6 +6733,14 @@
       "仓储拣选",
       "RFM",
       "亚马逊"
+    ],
+    "products": [
+      {
+        "name": "RFM 机器人基础模型",
+        "category": "机器人 AI",
+        "description": "面向仓储拣选的机器人基础模型,让机械臂识别抓取各种货物。",
+        "status": "GA"
+      }
     ]
   },
   "ai21": {
@@ -6706,6 +6790,20 @@
       "SSM",
       "混合架构",
       "企业"
+    ],
+    "products": [
+      {
+        "name": "Jamba",
+        "category": "大模型",
+        "description": "融合状态空间模型(SSM)与 Transformer 的高效大模型。",
+        "status": "GA"
+      },
+      {
+        "name": "AI21 Studio",
+        "category": "开发者平台",
+        "description": "面向企业的大模型 API 与应用平台。",
+        "status": "GA"
+      }
     ]
   },
   "insilico": {
@@ -6997,6 +7095,14 @@
       "Mamba",
       "长序列",
       "架构"
+    ],
+    "products": [
+      {
+        "name": "Mamba 架构",
+        "category": "模型架构",
+        "description": "状态空间模型(SSM),接近线性复杂度,高效处理超长序列。",
+        "status": "开源"
+      }
     ]
   },
   "llava": {
@@ -8202,6 +8308,14 @@
       "Transformer ASIC",
       "推理",
       "架构豪赌"
+    ],
+    "products": [
+      {
+        "name": "Sohu",
+        "category": "AI 芯片",
+        "description": "把 Transformer 直接刻进硅片的专用推理 ASIC,赌极致速度。",
+        "status": "研发"
+      }
     ]
   },
   "crwv": {
@@ -8900,6 +9014,14 @@
       "开源",
       "混合检索",
       "RAG"
+    ],
+    "products": [
+      {
+        "name": "Weaviate",
+        "category": "向量数据库",
+        "description": "知名开源向量数据库,RAG 与语义搜索的重要基础设施。",
+        "status": "GA"
+      }
     ]
   },
   "chroma": {
@@ -9043,6 +9165,14 @@
       "数据框架",
       "LlamaCloud",
       "知识库"
+    ],
+    "products": [
+      {
+        "name": "LlamaIndex",
+        "category": "开发框架",
+        "description": "面向 RAG 的数据编排框架,把私有数据接进大模型。",
+        "status": "GA"
+      }
     ]
   },
   "scaleai": {
@@ -9355,6 +9485,14 @@
       "Yi 开源",
       "中英双语",
       "李开复"
+    ],
+    "products": [
+      {
+        "name": "Yi 系列",
+        "category": "大模型",
+        "description": "中英双语能力强的大模型,开源版曾登全球榜单前列。",
+        "status": "GA"
+      }
     ]
   },
   "moonshot2": {
@@ -9607,6 +9745,14 @@
       "隐私",
       "私有部署",
       "合规"
+    ],
+    "products": [
+      {
+        "name": "Tabnine",
+        "category": "AI 编程",
+        "description": "注重隐私与私有部署的 AI 代码助手,代码不出企业环境。",
+        "status": "GA"
+      }
     ]
   },
   "vercel": {
@@ -10396,6 +10542,20 @@
       "康复机器人",
       "运动控制",
       "产学结合"
+    ],
+    "products": [
+      {
+        "name": "GR 系列人形机器人",
+        "category": "人形机器人",
+        "description": "全尺寸通用人形机器人,带康复医疗落地经验。",
+        "status": "研发"
+      },
+      {
+        "name": "康复机器人",
+        "category": "医疗机器人",
+        "description": "帮助中风、术后患者康复训练的智能设备。",
+        "status": "GA"
+      }
     ]
   },
   "mbly": {
@@ -10445,6 +10605,14 @@
       "ADAS",
       "视觉",
       "英特尔"
+    ],
+    "products": [
+      {
+        "name": "EyeQ",
+        "category": "自动驾驶芯片",
+        "description": "自研视觉芯片+算法,几乎定义主流辅助驾驶(ADAS)。",
+        "status": "GA"
+      }
     ]
   },
   "aurora": {
@@ -10615,6 +10783,14 @@
       "L4 授权",
       "自动驾驶",
       "配送"
+    ],
+    "products": [
+      {
+        "name": "Nuro Driver",
+        "category": "自动驾驶",
+        "description": "把多年积累的自动驾驶系统对外授权给车企与出行公司。",
+        "status": "GA"
+      }
     ]
   },
   "xaira": {
@@ -11200,6 +11376,14 @@
       "全功能 GPU",
       "国产替代",
       "科创板"
+    ],
+    "products": [
+      {
+        "name": "MTT 全功能 GPU",
+        "category": "GPU",
+        "description": "国产全功能 GPU,兼做 AI 计算、图形渲染、视频编解码。",
+        "status": "GA"
+      }
     ]
   },
   "biren": {
@@ -12205,6 +12389,14 @@
       "开源模型",
       "Cog",
       "社区"
+    ],
+    "products": [
+      {
+        "name": "Replicate",
+        "category": "AI 平台",
+        "description": "一行代码调用开源模型的托管平台(开源 Cog 工具)。",
+        "status": "GA"
+      }
     ]
   },
   "anyscale": {
@@ -12744,6 +12936,14 @@
       "铀浓缩",
       "先进核电燃料",
       "去俄化"
+    ],
+    "products": [
+      {
+        "name": "HALEU 铀浓缩",
+        "category": "核燃料",
+        "description": "美国唯一的高丰度低浓铀(HALEU)浓缩商,先进核能燃料关键。",
+        "status": "Ramp"
+      }
     ]
   },
   "nanonuclear": {
@@ -13109,6 +13309,14 @@
       "场反位形",
       "氢硼",
       "无中子"
+    ],
+    "products": [
+      {
+        "name": "场反位形聚变",
+        "category": "核聚变",
+        "description": "FRC 路线,终极目标氢硼「无中子」聚变,与谷歌合作。",
+        "status": "研发"
+      }
     ]
   },
   "bloom": {
@@ -13161,6 +13369,14 @@
       "SOFC",
       "就地发电",
       "绕开电网"
+    ],
+    "products": [
+      {
+        "name": "Bloom Energy Server",
+        "category": "燃料电池",
+        "description": "固体氧化物燃料电池,为数据中心就地持续发电。",
+        "status": "GA"
+      }
     ]
   },
   "plugpower": {
@@ -13255,6 +13471,14 @@
       "HVDC",
       "电网设备",
       "瓶颈"
+    ],
+    "products": [
+      {
+        "name": "变压器 / 电网设备",
+        "category": "电网",
+        "description": "全球变压器与电网设备龙头,数据中心接入与电网升级关键。",
+        "status": "GA"
+      }
     ]
   },
   "siemensenergy": {
@@ -13304,6 +13528,14 @@
       "电网设备",
       "输配电",
       "AI 电力"
+    ],
+    "products": [
+      {
+        "name": "燃气轮机 / 电网设备",
+        "category": "能源装备",
+        "description": "燃气轮机与输配电设备巨头,受益 AI 用电与电网升级。",
+        "status": "GA"
+      }
     ]
   },
   "powell": {
@@ -13402,6 +13634,14 @@
       "输配电",
       "工程",
       "在手订单"
+    ],
+    "products": [
+      {
+        "name": "电网工程建设",
+        "category": "电力工程",
+        "description": "北美最大电网建设商,承接输电、变电站等基础设施施工。",
+        "status": "GA"
+      }
     ]
   },
   "nvent": {
@@ -13943,6 +14183,14 @@
       "ABF",
       "PCB",
       "封装"
+    ],
+    "products": [
+      {
+        "name": "ABF 封装载板 / PCB",
+        "category": "先进封装",
+        "description": "高端 IC 封装载板与 PCB,连接高端 GPU 引脚的关键。",
+        "status": "GA"
+      }
     ]
   },
   "entegris": {
@@ -14177,6 +14425,14 @@
       "分离提纯",
       "西方供应",
       "Mount Weld"
+    ],
+    "products": [
+      {
+        "name": "稀土 (镨钕等)",
+        "category": "稀土/磁材",
+        "description": "中国以外最大稀土生产商,永磁与国防关键原料。",
+        "status": "GA"
+      }
     ]
   },
   "jlmag": {
@@ -14692,6 +14948,14 @@
       "薄膜电极",
       "微创",
       "可逆"
+    ],
+    "products": [
+      {
+        "name": "Layer 7 电极阵列",
+        "category": "脑机接口",
+        "description": "贴在大脑表面的超薄薄膜电极,微创脑机接口。",
+        "status": "临床试验"
+      }
     ]
   },
   "ionet": {
@@ -14910,6 +15174,14 @@
       "AI 角色",
       "NPC",
       "虚拟世界"
+    ],
+    "products": [
+      {
+        "name": "AI 角色引擎",
+        "category": "游戏 AI",
+        "description": "让游戏 NPC 能自由对话、有性格记忆的 AI 角色引擎。",
+        "status": "GA"
+      }
     ]
   },
   "scenario": {
@@ -14996,6 +15268,14 @@
       "开源大模型",
       "主权 AI",
       "中东"
+    ],
+    "products": [
+      {
+        "name": "Falcon",
+        "category": "开源大模型",
+        "description": "阿联酋研究院的开源大模型系列,曾是最强开源模型之一。",
+        "status": "GA"
+      }
     ]
   },
   "quora": {
@@ -15040,6 +15320,20 @@
       "模型聚合",
       "问答社区",
       "bot"
+    ],
+    "products": [
+      {
+        "name": "Poe",
+        "category": "AI 聚合平台",
+        "description": "一站式聚合 GPT、Claude 等各家大模型的对话平台。",
+        "status": "GA"
+      },
+      {
+        "name": "Quora",
+        "category": "问答社区",
+        "description": "全球知名的问答社区。",
+        "status": "GA"
+      }
     ]
   },
   "kuaishou": {
@@ -16409,6 +16703,14 @@
       "协作",
       "Amazon Robotics",
       "实用主义"
+    ],
+    "products": [
+      {
+        "name": "协作移动机器人",
+        "category": "机器人",
+        "description": "能在人类环境自主移动、操作搬运物品的协作机器人。",
+        "status": "研发"
+      }
     ]
   },
   "waabi": {
@@ -16714,6 +17016,14 @@
       "工程人才",
       "代码数据",
       "评测"
+    ],
+    "products": [
+      {
+        "name": "AGI 训练数据 / 人才",
+        "category": "AI 数据",
+        "description": "为前沿实验室供高质量代码/推理数据与工程专家。",
+        "status": "GA"
+      }
     ]
   },
   "paradromics": {
@@ -16801,6 +17111,14 @@
       "无人船",
       "海防",
       "国防科技"
+    ],
+    "products": [
+      {
+        "name": "自主无人水面舰艇",
+        "category": "国防",
+        "description": "大量、低成本、可消耗的自主无人船,「海上的 Anduril」。",
+        "status": "研发"
+      }
     ]
   },
   "ssi": {
@@ -17183,6 +17501,14 @@
       "DIMC",
       "推理",
       "Corsair"
+    ],
+    "products": [
+      {
+        "name": "Corsair",
+        "category": "AI 芯片",
+        "description": "存算一体推理加速卡,大模型推理能效远超 GPU。",
+        "status": "GA"
+      }
     ]
   },
   "positron": {
@@ -17315,6 +17641,14 @@
       "合同审查",
       "企业法务",
       "垂直"
+    ],
+    "products": [
+      {
+        "name": "Robin AI",
+        "category": "法律 AI",
+        "description": "AI 起草、审查、谈判合同,与 Anthropic Claude 关系密切。",
+        "status": "GA"
+      }
     ]
   },
   "nabla": {
@@ -20233,6 +20567,14 @@
       "电话 AI",
       "平台",
       "外呼"
+    ],
+    "products": [
+      {
+        "name": "Retell AI",
+        "category": "语音 Agent",
+        "description": "让开发者快速搭建能打电话对话的语音智能体。",
+        "status": "GA"
+      }
     ]
   },
   "vapi": {
@@ -20276,6 +20618,14 @@
       "电话 AI",
       "可编排",
       "开发者"
+    ],
+    "products": [
+      {
+        "name": "Vapi",
+        "category": "语音 Agent",
+        "description": "语音 AI 智能体开发平台,封装语音识别/大模型/合成/电话。",
+        "status": "GA"
+      }
     ]
   },
   "crowdstrike": {
@@ -20778,6 +21128,14 @@
         "revenue": 22.1,
         "netIncome": 1.05
       }
+    ],
+    "products": [
+      {
+        "name": "AI 服务器 / 液冷机柜",
+        "category": "服务器",
+        "description": "英伟达 GPU AI 服务器整机与液冷机柜龙头,以快速上市著称。",
+        "status": "GA"
+      }
     ]
   },
   "dell": {
@@ -20851,6 +21209,20 @@
         "year": 2025,
         "revenue": 95.6,
         "netIncome": 4.6
+      }
+    ],
+    "products": [
+      {
+        "name": "PowerEdge AI 服务器",
+        "category": "服务器",
+        "description": "面向企业与云厂的 GPU AI 服务器,订单积压屡创新高。",
+        "status": "GA"
+      },
+      {
+        "name": "AI PC",
+        "category": "PC",
+        "description": "内置 NPU 的新一代商用电脑。",
+        "status": "GA"
       }
     ]
   },
@@ -21038,6 +21410,14 @@
       "笔电代工",
       "DGX/HGX",
       "台股"
+    ],
+    "products": [
+      {
+        "name": "AI 服务器代工",
+        "category": "电子代工",
+        "description": "为英伟达与各大云厂组装 HGX/GB200 整机柜 AI 服务器。",
+        "status": "GA"
+      }
     ]
   },
   "wiwynn": {
@@ -21090,6 +21470,14 @@
       "白牌",
       "OCP",
       "液冷"
+    ],
+    "products": [
+      {
+        "name": "云服务器 ODM",
+        "category": "电子代工",
+        "description": "为微软/Meta 等超大规模云厂量身定制数据中心服务器。",
+        "status": "GA"
+      }
     ]
   },
   "amphenol": {
@@ -21141,6 +21529,14 @@
       "高速铜缆",
       "机柜互联",
       "GB200"
+    ],
+    "products": [
+      {
+        "name": "高速连接器 / 铜缆",
+        "category": "连接器",
+        "description": "AI 机柜内高速信号连接与铜缆互联,受益 GB200 等整机柜。",
+        "status": "GA"
+      }
     ]
   },
   "te": {
@@ -21461,6 +21857,14 @@
       "PMIC",
       "GPU 供电",
       "英伟达"
+    ],
+    "products": [
+      {
+        "name": "电源管理芯片",
+        "category": "电源芯片",
+        "description": "高效多相电源方案,深度绑定英伟达 GPU 供电。",
+        "status": "GA"
+      }
     ]
   },
   "vicor": {
