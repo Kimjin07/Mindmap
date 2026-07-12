@@ -2005,6 +2005,45 @@ body {
   color: var(--gold-line);
   opacity: 0.7;
 }
+
+/* 实时报道(Google News) */
+.cp-livenews {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 14px;
+}
+.cp-livenews-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+  border-radius: 9px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+.cp-livenews-item:hover {
+  background: rgba(var(--gold-rgb), 0.08);
+}
+.cp-livenews-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.cp-livenews-date {
+  font-size: 11px;
+  color: var(--gold-line);
+  font-variant-numeric: tabular-nums;
+}
+.cp-livenews-src {
+  font-size: 11px;
+  color: var(--ink-dim);
+}
+.cp-livenews-title {
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink-strong);
+}
 .cp-news-sum {
   font-size: 12px;
   line-height: 1.5;

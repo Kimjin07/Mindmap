@@ -159,6 +159,22 @@ export default function CompanyDetail({ c, initialQuote, onOpenCompany, onGotoNo
     return () => { stopped = true; clearInterval(id); };
   }, [c.id, c.stock?.ticker, c.stock?.exchange]);
 
+  // 实时报道：Google News RSS(经 /api/news 代理,服务端缓存 30 分钟),打开页面时拉取一次。
+  type LiveNews = { title: string; link: string; source?: string; date?: string };
+  const [liveNews, setLiveNews] = useState<LiveNews[] | null>(null);
+  useEffect(() => {
+    setLiveNews(null);
+    let stopped = false;
+    (async () => {
+      try {
+        const r = await fetch(`/api/news/${encodeURIComponent(c.id)}`);
+        const j = await r.json();
+        if (!stopped && Array.isArray(j?.items)) setLiveNews(j.items);
+      } catch {}
+    })();
+    return () => { stopped = true; };
+  }, [c.id]);
+
   // 货币符号（Yahoo 返回本地货币；美股为 USD）。
   const CUR_SYM: Record<string, string> = {
     USD: "$", HKD: "HK$", CNY: "¥", TWD: "NT$", JPY: "¥", KRW: "₩", EUR: "€", GBP: "£", AUD: "A$",
@@ -350,7 +366,25 @@ export default function CompanyDetail({ c, initialQuote, onOpenCompany, onGotoNo
 
           {c.news && c.news.length > 0 && (
             <section className="company-card">
-              <h2>最新动态</h2>
+              <h2>
+                最新动态
+                {liveNews && liveNews.length > 0 && (
+                  <span className="live-badge pulse">● {en ? "live" : "实时"}</span>
+                )}
+              </h2>
+              {liveNews && liveNews.length > 0 && (
+                <div className="cp-livenews">
+                  {liveNews.map((n, i) => (
+                    <a key={i} className="cp-livenews-item" href={n.link} target="_blank" rel="noreferrer">
+                      <span className="cp-livenews-meta">
+                        {n.date && <span className="cp-livenews-date">{n.date}</span>}
+                        {n.source && <span className="cp-livenews-src">{n.source}</span>}
+                      </span>
+                      <span className="cp-livenews-title">{n.title}</span>
+                    </a>
+                  ))}
+                </div>
+              )}
               <div className="cp-news">
                 {[...c.news].sort((a, b) => (b.date || "").localeCompare(a.date || "")).map((n, i) => {
                   const inner = (
