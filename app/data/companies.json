@@ -2412,6 +2412,12 @@
         "description": "全闪存企业存储,为 AI 提供高性能数据访问。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Charles Giancarlo",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "gev": {
@@ -2559,6 +2565,12 @@
         "category": "工业软件",
         "description": "在虚拟世界 1:1 建出工厂与产品来仿真优化。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Roland Busch",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -3476,6 +3488,12 @@
         "category": "光通信制造",
         "description": "为各大光通信厂商代工高精度光模块与光器件。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Seamus Grady",
+        "title": "CEO"
       }
     ]
   },
@@ -10994,6 +11012,12 @@
         "description": "帮助中风、术后患者康复训练的智能设备。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "顾捷 (Alex Gu)",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "mbly": {
@@ -11228,6 +11252,12 @@
         "category": "自动驾驶",
         "description": "把多年积累的自动驾驶系统对外授权给车企与出行公司。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "朱佳俊 (Jiajun Zhu)",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -12885,6 +12915,12 @@
         "description": "一行代码调用开源模型的托管平台(开源 Cog 工具)。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Ben Firshman",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "anyscale": {
@@ -13479,6 +13515,12 @@
         "description": "美国唯一的高丰度低浓铀(HALEU)浓缩商,先进核能燃料关键。",
         "status": "Ramp"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Amir Vexler",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "nanonuclear": {
@@ -13947,6 +13989,12 @@
         "category": "燃料电池",
         "description": "固体氧化物燃料电池,为数据中心就地持续发电。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "KR Sridhar",
+        "title": "创始人、董事长兼 CEO"
       }
     ]
   },
@@ -15670,6 +15718,12 @@
         "description": "贴在大脑表面的超薄薄膜电极,微创脑机接口。",
         "status": "临床试验"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Michael Mager",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "ionet": {
@@ -15927,6 +15981,12 @@
         "category": "游戏 AI",
         "description": "让游戏 NPC 能自由对话、有性格记忆的 AI 角色引擎。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Ilya Gelfenbeyn",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -17186,6 +17246,12 @@
       "AI 视频",
       "开源",
       "Mochi"
+    ],
+    "leadership": [
+      {
+        "name": "Paras Jain",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "higgsfield": {
@@ -17584,6 +17650,12 @@
         "description": "能在人类环境自主移动、操作搬运物品的协作机器人。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Brad Porter",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "waabi": {
@@ -17930,6 +18002,12 @@
         "description": "为前沿实验室供高质量代码/推理数据与工程专家。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Jonathan Siddharth",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "paradromics": {
@@ -18032,6 +18110,12 @@
         "category": "国防",
         "description": "大量、低成本、可消耗的自主无人船,「海上的 Anduril」。",
         "status": "研发"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Dino Mavrookas",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -18439,6 +18523,12 @@
         "description": "存算一体推理加速卡,大模型推理能效远超 GPU。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Sid Sheth",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "positron": {
@@ -18594,6 +18684,12 @@
         "category": "法律 AI",
         "description": "AI 起草、审查、谈判合同,与 Anthropic Claude 关系密切。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Richard Robinson",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -21122,6 +21218,12 @@
         "description": "全球最大数据中心互联平台,汇聚网络与云的中立枢纽。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Adaire Fox-Martin",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "dlr": {
@@ -21797,6 +21899,12 @@
         "description": "让开发者快速搭建能打电话对话的语音智能体。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Bing Wu",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "vapi": {
@@ -21847,6 +21955,12 @@
         "category": "语音 Agent",
         "description": "语音 AI 智能体开发平台,封装语音识别/大模型/合成/电话。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Jordan Dearsley",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
