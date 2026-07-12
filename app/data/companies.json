@@ -7851,7 +7851,12 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "investors": [
+      "Kleiner Perkins",
+      "Greenoaks",
+      "General Catalyst"
+    ]
   },
   "replit": {
     "id": "replit",
@@ -8526,7 +8531,13 @@
       "growth": 84,
       "innovation": 80,
       "community": 70
-    }
+    },
+    "investors": [
+      "谷歌",
+      "英伟达",
+      "Intel Capital",
+      "Pitango"
+    ]
   },
   "insilico": {
     "id": "insilico",
@@ -8596,7 +8607,12 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "investors": [
+      "华平投资 Warburg Pincus",
+      "启明创投",
+      "红杉中国"
+    ]
   },
   "perplexity": {
     "id": "perplexity",
@@ -10082,7 +10098,13 @@
       "growth": 84,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "investors": [
+      "软银 SoftBank",
+      "BlackRock",
+      "Intel Capital",
+      "GV"
+    ]
   },
   "graphcore": {
     "id": "graphcore",
@@ -10211,7 +10233,13 @@
       "growth": 84,
       "innovation": 81,
       "community": 50
-    }
+    },
+    "investors": [
+      "三星",
+      "现代汽车",
+      "Fidelity",
+      "Jeff Bezos"
+    ]
   },
   "etched": {
     "id": "etched",
@@ -10276,7 +10304,12 @@
       "growth": 84,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "investors": [
+      "Primary Venture Partners",
+      "Peter Thiel",
+      "Positive Sum"
+    ]
   },
   "crwv": {
     "id": "crwv",
@@ -11114,7 +11147,12 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "investors": [
+      "a16z",
+      "Menlo Ventures",
+      "ICONIQ"
+    ]
   },
   "weaviate": {
     "id": "weaviate",
@@ -11310,7 +11348,11 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "investors": [
+      "Sequoia",
+      "Benchmark"
+    ]
   },
   "llamaindex": {
     "id": "llamaindex",
@@ -11745,7 +11787,10 @@
       "growth": 84,
       "innovation": 82,
       "community": 92
-    }
+    },
+    "investors": [
+      "阿里巴巴"
+    ]
   },
   "moonshot2": {
     "id": "moonshot2",
@@ -12109,6 +12154,7 @@
     "investors": [
       "Accel",
       "GV",
+      "Bedrock",
       "a16z"
     ],
     "links": {
@@ -12893,7 +12939,12 @@
       "growth": 84,
       "innovation": 80,
       "community": 58
-    }
+    },
+    "investors": [
+      "软银愿景基金",
+      "淡马锡",
+      "前海母基金"
+    ]
   },
   "mbly": {
     "id": "mbly",
@@ -13209,7 +13260,13 @@
       "growth": 84,
       "innovation": 80,
       "community": 58
-    }
+    },
+    "investors": [
+      "软银 SoftBank",
+      "Tiger Global",
+      "T. Rowe Price",
+      "Fidelity"
+    ]
   },
   "xaira": {
     "id": "xaira",
@@ -13275,7 +13332,13 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "investors": [
+      "ARCH Venture",
+      "Foresite Capital",
+      "Sequoia",
+      "NEA"
+    ]
   },
   "evoscale": {
     "id": "evoscale",
@@ -13341,7 +13404,13 @@
       "growth": 84,
       "innovation": 82,
       "community": 72
-    }
+    },
+    "investors": [
+      "Lux Capital",
+      "a16z",
+      "英伟达",
+      "Nat Friedman"
+    ]
   },
   "minimax": {
     "id": "minimax",
@@ -14439,7 +14508,12 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "investors": [
+      "a16z",
+      "Nat Friedman",
+      "Eric Schmidt"
+    ]
   },
   "poolside": {
     "id": "poolside",
@@ -15014,7 +15088,13 @@
       "growth": 84,
       "innovation": 81,
       "community": 58
-    }
+    },
+    "investors": [
+      "Porsche",
+      "Temasek",
+      "Maverick",
+      "Koch"
+    ]
   },
   "modal": {
     "id": "modal",
@@ -15080,7 +15160,12 @@
       "growth": 84,
       "innovation": 81,
       "community": 50
-    }
+    },
+    "investors": [
+      "Redpoint",
+      "Amplify Partners",
+      "Lux Capital"
+    ]
   },
   "baseten": {
     "id": "baseten",
@@ -15218,7 +15303,11 @@
       "growth": 84,
       "innovation": 82,
       "community": 92
-    }
+    },
+    "investors": [
+      "a16z",
+      "Sequoia"
+    ]
   },
   "anyscale": {
     "id": "anyscale",
@@ -15296,7 +15385,12 @@
       "growth": 84,
       "innovation": 84,
       "community": 92
-    }
+    },
+    "investors": [
+      "a16z",
+      "NEA",
+      "Addition"
+    ]
   },
   "wandb": {
     "id": "wandb",
@@ -18805,7 +18899,13 @@
       "growth": 84,
       "innovation": 81,
       "community": 58
-    }
+    },
+    "investors": [
+      "ARCH Venture",
+      "Khosla Ventures",
+      "Jeff Bezos",
+      "Bill Gates"
+    ]
   },
   "precision_neuro": {
     "id": "precision_neuro",
@@ -18870,7 +18970,11 @@
       "growth": 84,
       "innovation": 80,
       "community": 58
-    }
+    },
+    "investors": [
+      "Forbion",
+      "B Capital"
+    ]
   },
   "ionet": {
     "id": "ionet",
@@ -19169,7 +19273,13 @@
       "growth": 84,
       "innovation": 80,
       "community": 70
-    }
+    },
+    "investors": [
+      "Lightspeed",
+      "Kleiner Perkins",
+      "Section 32",
+      "Intel Capital"
+    ]
   },
   "scenario": {
     "id": "scenario",
@@ -19587,7 +19697,12 @@
       "growth": 84,
       "innovation": 82,
       "community": 72
-    }
+    },
+    "investors": [
+      "联想创投",
+      "世纪金源",
+      "清华系"
+    ]
   },
   "engineai": {
     "id": "engineai",
@@ -19797,7 +19912,12 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "investors": [
+      "Sutter Hill Ventures",
+      "Index Ventures",
+      "Lightspeed"
+    ]
   },
   "astera": {
     "id": "astera",
@@ -20210,7 +20330,13 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "investors": [
+      "NEA",
+      "Khosla Ventures",
+      "英伟达",
+      "Lux Capital"
+    ]
   },
   "aleph": {
     "id": "aleph",
@@ -20615,7 +20741,10 @@
     "links": {
       "github": "https://github.com/genmoai",
       "huggingface": "https://huggingface.co/genmo"
-    }
+    },
+    "investors": [
+      "NEA"
+    ]
   },
   "higgsfield": {
     "id": "higgsfield",
@@ -20736,6 +20865,11 @@
       "AI 语音",
       "语音克隆",
       "语音智能体"
+    ],
+    "investors": [
+      "Y Combinator",
+      "Race Capital",
+      "500 Global"
     ]
   },
   "lindy": {
@@ -20989,7 +21123,12 @@
       "growth": 84,
       "innovation": 81,
       "community": 58
-    }
+    },
+    "investors": [
+      "Kleiner Perkins",
+      "Lightspeed",
+      "Tiger Global"
+    ]
   },
   "cobot": {
     "id": "cobot",
@@ -21054,7 +21193,12 @@
       "growth": 84,
       "innovation": 80,
       "community": 58
-    }
+    },
+    "investors": [
+      "Sequoia",
+      "General Catalyst",
+      "Lux Capital"
+    ]
   },
   "waabi": {
     "id": "waabi",
@@ -21395,7 +21539,13 @@
       "growth": 84,
       "innovation": 81,
       "community": 58
-    }
+    },
+    "investors": [
+      "Benchmark",
+      "General Catalyst",
+      "Peter Thiel",
+      "DST Global"
+    ]
   },
   "turing": {
     "id": "turing",
@@ -21463,7 +21613,12 @@
       "growth": 84,
       "innovation": 80,
       "community": 58
-    }
+    },
+    "investors": [
+      "WestBridge Capital",
+      "Foundation Capital",
+      "AltaIR"
+    ]
   },
   "paradromics": {
     "id": "paradromics",
@@ -21960,7 +22115,12 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "investors": [
+      "Accel",
+      "Insight Partners",
+      "Y Combinator"
+    ]
   },
   "dmatrix": {
     "id": "dmatrix",
@@ -22273,7 +22433,11 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "investors": [
+      "Cathay Innovation",
+      "DST Global"
+    ]
   },
   "suki": {
     "id": "suki",
@@ -22338,7 +22502,12 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "investors": [
+      "Venrock",
+      "March Capital",
+      "Flare Capital"
+    ]
   },
   "alchip": {
     "id": "alchip",
