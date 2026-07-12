@@ -1427,6 +1427,12 @@
         "description": "海量数据存储主力,AI 冷数据用 HDD、企业 SSD 用 NAND。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Irving Tan",
+        "title": "CEO"
+      }
     ]
   },
   "vrt": {
@@ -2253,6 +2259,12 @@
         "category": "机器视觉",
         "description": "智能相机+视觉软件,检测缺陷、定位抓取、读码,已引入深度学习。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Robert Willett",
+        "title": "CEO"
       }
     ]
   },
@@ -3571,6 +3583,12 @@
         "description": "企业与数据中心交换/路由,自研 Silicon One 网络芯片。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Chuck Robbins",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "accelink": {
@@ -3801,6 +3819,12 @@
         "category": "光电芯片",
         "description": "光模块内驱动激光、放大光信号的高速模拟/光电芯片。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Stephen Daly",
+        "title": "董事长、总裁兼 CEO"
       }
     ]
   },
@@ -4186,6 +4210,12 @@
         "description": "小型先进裂变微堆,Sam Altman 押注,面向数据中心供电。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Jacob DeWitte",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "smr": {
@@ -4530,6 +4560,12 @@
         "category": "协作机器人",
         "description": "协作机器人(cobot)开创者。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Greg Smith",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -11075,6 +11111,12 @@
         "description": "自研视觉芯片+算法,几乎定义主流辅助驾驶(ADAS)。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Amnon Shashua",
+        "title": "创始人、总裁兼 CEO"
+      }
     ]
   },
   "aurora": {
@@ -11988,6 +12030,12 @@
         "category": "AI 加速卡",
         "description": "类 GPU 的通用计算加速卡,用于 AI 训练/推理与高性能计算。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "沙超群",
+        "title": "董事、总经理"
       }
     ]
   },
@@ -14163,6 +14211,12 @@
         "description": "燃气轮机与输配电设备巨头,受益 AI 用电与电网升级。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Christian Bruch",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "powell": {
@@ -14276,6 +14330,12 @@
         "category": "电力工程",
         "description": "北美最大电网建设商,承接输电、变电站等基础设施施工。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Earl (Duke) Austin Jr.",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -15155,6 +15215,12 @@
         "category": "稀土/磁材",
         "description": "中国以外最大稀土生产商,永磁与国防关键原料。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Amanda Lacaze",
+        "title": "董事总经理兼 CEO"
       }
     ]
   },
@@ -19376,6 +19442,12 @@
         "description": "NVIDIA HGX 等 GPU 服务器,主板/显卡品牌起家。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "叶培城 (Yeh Pei-cheng)",
+        "title": "共同创办人兼董事长"
+      }
     ]
   },
   "pegatron": {
@@ -19974,6 +20046,12 @@
         "category": "功率芯片",
         "description": "IGBT/MOSFET/SiC/GaN 等,高效控制转换电力,数据中心供电关键。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Jochen Hanebeck",
+        "title": "CEO"
       }
     ]
   },
@@ -20664,6 +20742,16 @@
         "category": "量子计算",
         "description": "领跑的离子阱量子计算上市公司,通过云提供量子算力。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Niccolo de Masi",
+        "title": "总裁兼 CEO"
+      },
+      {
+        "name": "Peter Chapman",
+        "title": "执行主席"
       }
     ]
   },
@@ -21361,6 +21449,12 @@
         "category": "数据中心",
         "description": "中国头部第三方数据中心,并拓展东南亚等海外(DayOne)。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "黄伟 (William Huang)",
+        "title": "创始人、董事长兼 CEO"
       }
     ]
   },
@@ -22679,6 +22773,12 @@
         "description": "企业 AI 服务器与顶级超级计算机,收购瞻博强化网络。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Antonio Neri",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "fii": {
@@ -23637,6 +23737,12 @@
         "description": "精密阀件/泵热管理龙头,切入人形机器人机电执行器。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "张亚波",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "topu": {
@@ -23754,6 +23860,12 @@
         "category": "工业自动化",
         "description": "变频器、伺服、PLC,核心运动控制技术可迁移到机器人执行器。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "朱兴明",
+        "title": "创始人、董事长"
       }
     ]
   },
