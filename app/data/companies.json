@@ -702,6 +702,13 @@
     },
     "news": [
       {
+        "title": "Meta 自研 Iris AI 芯片 9 月量产，2027 年算力目标翻倍至 14GW",
+        "date": "2026-07-09",
+        "category": "产品",
+        "summary": "据路透社内部备忘录，Meta 将于 9 月启动 Iris AI 芯片量产，计划 2026 年部署 7GW、2027 年翻倍至 14GW，以降低对英伟达和 AMD 的依赖。",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-start-production-iris-ai-122141801.html"
+      },
+      {
         "title": "Meta 在加拿大阿尔伯塔投资 100 亿美元建 1GW 数据中心",
         "date": "2026-07-08",
         "category": "业务",
@@ -721,13 +728,6 @@
         "category": "财报",
         "summary": "Meta 一季度营收 563.1 亿美元,同比增长 33%,EPS 10.44 美元远超市场预期,净利润 267.7 亿美元;Llama 4 在广告排序中的应用成为增长亮点。",
         "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx"
-      },
-      {
-        "title": "进军算力出售业务,与 AWS、Azure、谷歌云正面竞争",
-        "date": "2026",
-        "category": "业务",
-        "summary": "据报道 Meta 计划对外出售其 AI 算力资源,将自建的大规模数据中心能力商业化,直接切入 AWS、Azure 与谷歌云所在的云计算市场。",
-        "url": "https://finance.yahoo.com/technology/ai/articles/meta-wants-sell-ai-compute-171055420.html"
       }
     ]
   },
@@ -5082,6 +5082,13 @@
     ],
     "news": [
       {
+        "title": "美光上调美国本土投资计划至 2500 亿美元，纽约晶圆厂提前破土",
+        "date": "2026-07-09",
+        "category": "业务",
+        "summary": "美光将美国本土投资计划上调至 2035 年超 2500 亿美元，纽约晶圆厂提前破土；另拨 30 亿美元强化国内供应链，长期目标实现 40% DRAM 在美生产。",
+        "url": "https://finance.yahoo.com/technology/ai/articles/micron-raises-u-investment-250-131434295.html"
+      },
+      {
         "title": "Q3 FY2026 营收创纪录达 415 亿美元,同比增 346%",
         "date": "2026-06",
         "category": "财报",
@@ -5101,13 +5108,6 @@
         "category": "业务",
         "summary": "HBM、高容量 DIMM 与 LP 服务器 DRAM 合计收入达 100 亿美元,较上一财年增长逾五倍;多年期固定价格协议锁定 AI 需求红利。",
         "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter"
-      },
-      {
-        "title": "2026 年 HBM 产能全数售罄,营收同比大增 196%",
-        "date": "2026",
-        "category": "财报",
-        "summary": "美光成为三大存储巨头中率先宣布 2026 年 HBM 全部售罄的厂商(固定价格合约),并送样 36GB 12-Hi HBM4、获英伟达认证供 Vera Rubin 平台;二财季营收 239 亿美元、同比增 196%,连续第四季创纪录。",
-        "url": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html"
       }
     ]
   },
@@ -29957,6 +29957,13 @@
     },
     "news": [
       {
+        "title": "苹果与博通签署超 300 亿美元多年芯片协议，在美生产 150 亿颗定制芯片",
+        "date": "2026-07-08",
+        "category": "合同",
+        "summary": "苹果宣布与博通达成超 300 亿美元多年合作协议，在美国境内设计并生产定制硅片及无线连接芯片，博通将投资 15 亿美元扩建科罗拉多工厂，协议延续至 2031 年。",
+        "url": "https://www.cnbc.com/2026/07/08/apple-commits-30-billion-to-broadcom-for-us-chipmaking-push.html"
+      },
+      {
         "title": "苹果起诉 OpenAI 窃取芯片与 AI 机密，点名首席硬件官 Tang Tan",
         "date": "2026-07",
         "category": "重大",
@@ -29975,13 +29982,6 @@
         "date": "2026-06",
         "category": "研发",
         "summary": "苹果宣布与 Google 合作打造 Apple Foundation Models on Cloud,其中 AFM Cloud Pro 面向高难度任务、质量对标 Gemini 前沿模型,运行在 Google 云的 Nvidia GPU 上,为新 Siri 及各类 AI 功能提供支撑。",
-        "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
-      },
-      {
-        "title": "库克宣布卸任 CEO,硬件负责人 John Ternus 9 月接任",
-        "date": "2026-06",
-        "category": "重大",
-        "summary": "蒂姆·库克宣布将于 2026 年 9 月 1 日把 CEO 职位交给高级副总裁(硬件工程)John Ternus,WWDC 2026 成为库克任内最后一届开发者大会,标志苹果领导层重大交接。",
         "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
       }
     ]
