@@ -2122,7 +2122,8 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "PONY",
-      "marketCapB": 5
+      "marketCapB": 5,
+      "revenueTTM": "$0.08B"
     },
     "business": "L4 级自动驾驶与 Robotaxi 运营，覆盖北上广深等核心城市。",
     "competitors": [
@@ -2178,6 +2179,23 @@
         "name": "楼天城",
         "title": "联合创始人兼 CTO"
       }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.068,
+        "netIncome": -0.15
+      },
+      {
+        "year": 2023,
+        "revenue": 0.072,
+        "netIncome": -0.12
+      },
+      {
+        "year": 2024,
+        "revenue": 0.075,
+        "netIncome": -0.2
+      }
     ]
   },
   "wrd": {
@@ -2195,7 +2213,8 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "WRD",
-      "marketCapB": 4
+      "marketCapB": 4,
+      "revenueTTM": "$0.05B"
     },
     "business": "L4 通用自动驾驶平台，多车型量产落地。",
     "competitors": [
@@ -2240,6 +2259,23 @@
       {
         "name": "韩旭",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.075,
+        "netIncome": -0.5
+      },
+      {
+        "year": 2023,
+        "revenue": 0.055,
+        "netIncome": -0.6
+      },
+      {
+        "year": 2024,
+        "revenue": 0.05,
+        "netIncome": -0.3
       }
     ]
   },
@@ -3700,7 +3736,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "NOK",
-      "marketCapB": 28
+      "marketCapB": 28,
+      "grossMargin": "40%",
+      "revenueTTM": "$21B",
+      "peRatio": 20
     },
     "business": "移动 / 固定网络基础设施、IP 路由与光网络，正向 AI 数据中心互联延伸。",
     "competitors": [
@@ -3739,6 +3778,23 @@
         "category": "网络设备",
         "description": "电信级网络基建,光网络受益 AI 数据中心互联,收购 Infinera。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 26,
+        "netIncome": 4.3
+      },
+      {
+        "year": 2023,
+        "revenue": 24,
+        "netIncome": 0.7
+      },
+      {
+        "year": 2024,
+        "revenue": 21,
+        "netIncome": 1.4
       }
     ]
   },
@@ -4105,7 +4161,10 @@
     "stock": {
       "exchange": "SZSE",
       "ticker": "300394",
-      "marketCapB": 15
+      "marketCapB": 15,
+      "grossMargin": "50%",
+      "revenueTTM": "$0.5B",
+      "peRatio": 40
     },
     "business": "光器件、陶瓷套管、光引擎等配套，深度绑定头部光模块厂。",
     "competitors": [
@@ -4148,6 +4207,23 @@
     "keyCustomers": [
       "innolight",
       "eoptolink"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.2,
+        "netIncome": 0.06
+      },
+      {
+        "year": 2023,
+        "revenue": 0.25,
+        "netIncome": 0.08
+      },
+      {
+        "year": 2024,
+        "revenue": 0.5,
+        "netIncome": 0.15
+      }
     ]
   },
   "yuanjie": {
@@ -4166,7 +4242,9 @@
     "stock": {
       "exchange": "SSE",
       "ticker": "688498",
-      "marketCapB": 6
+      "marketCapB": 6,
+      "grossMargin": "50%",
+      "revenueTTM": "$0.05B"
     },
     "business": "DFB/EML 激光器芯片，国产替代上游光芯片的关键力量。",
     "competitors": [
@@ -4210,6 +4288,23 @@
     "keyCustomers": [
       "innolight",
       "eoptolink"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.04,
+        "netIncome": 0.015
+      },
+      {
+        "year": 2023,
+        "revenue": 0.03,
+        "netIncome": 0.005
+      },
+      {
+        "year": 2024,
+        "revenue": 0.05,
+        "netIncome": 0.01
+      }
     ]
   },
   "mtsi": {
@@ -4324,7 +4419,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "SMTC",
-      "marketCapB": 5
+      "marketCapB": 5,
+      "grossMargin": "50%",
+      "revenueTTM": "$0.95B"
     },
     "business": "光通信 CDR/PMD 信号芯片、模拟混合信号 IC 与 LoRa 物联网，受益 AI 数据中心光互联。",
     "businessEn": "Optical CDR/PMD signal chips, analog/mixed-signal ICs and LoRa IoT — benefiting from AI-data-center optical interconnect.",
@@ -4354,6 +4451,23 @@
         "description": "光模块用信号芯片(CDR/DSP)与 LoRa 物联网芯片。",
         "status": "GA"
       }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.74,
+        "netIncome": 0.09
+      },
+      {
+        "year": 2024,
+        "revenue": 0.87,
+        "netIncome": -0.16
+      },
+      {
+        "year": 2025,
+        "revenue": 0.95,
+        "netIncome": 0.02
+      }
     ]
   },
   "jnpr": {
@@ -4382,7 +4496,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "JNPR",
-      "marketCapB": 12
+      "marketCapB": 12,
+      "grossMargin": "58%",
+      "revenueTTM": "$5.1B",
+      "peRatio": 25
     },
     "business": "路由器、交换机与 AI 驱动的网络运维(Mist)，光模块的下游买家。",
     "businessEn": "Routers, switches and AI-driven network operations (Mist); a downstream buyer of optical modules.",
@@ -4413,6 +4530,23 @@
         "description": "数据中心与电信网络设备,AI 驱动的 Mist 网络,已并入 HPE。",
         "status": "GA"
       }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 5.3,
+        "netIncome": 0.47
+      },
+      {
+        "year": 2023,
+        "revenue": 5.6,
+        "netIncome": 0.31
+      },
+      {
+        "year": 2024,
+        "revenue": 5.1,
+        "netIncome": 0.29
+      }
     ]
   },
   "eric": {
@@ -4440,7 +4574,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "ERIC",
-      "marketCapB": 28
+      "marketCapB": 28,
+      "grossMargin": "40%",
+      "revenueTTM": "$25B"
     },
     "business": "5G/电信无线与传输网络设备，光传输是其重要一环。",
     "businessEn": "5G/telecom radio and transport networking equipment, with optical transport as an important piece.",
@@ -4469,6 +4605,23 @@
         "category": "网络设备",
         "description": "全球电信网络设备巨头,与诺基亚、华为竞争。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 28,
+        "netIncome": 1.9
+      },
+      {
+        "year": 2023,
+        "revenue": 25,
+        "netIncome": -2.7
+      },
+      {
+        "year": 2024,
+        "revenue": 25,
+        "netIncome": 0.3
       }
     ]
   },
@@ -4655,7 +4808,8 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "OKLO",
-      "marketCapB": 15
+      "marketCapB": 15,
+      "revenueTTM": "$0"
     },
     "business": "小型模块化反应堆(微堆)，瞄准数据中心专属供电。",
     "businessEn": "Small modular (micro) reactors aimed at dedicated power for data centers.",
@@ -4694,6 +4848,18 @@
     ],
     "partners": [
       "openai"
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0,
+        "netIncome": -0.09
+      },
+      {
+        "year": 2024,
+        "revenue": 0,
+        "netIncome": -0.07
+      }
     ]
   },
   "smr": {
@@ -4711,7 +4877,8 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "SMR",
-      "marketCapB": 10
+      "marketCapB": 10,
+      "revenueTTM": "$0.04B"
     },
     "business": "首个获 NRC 认证的 SMR 设计，面向数据中心等专属电力需求。",
     "competitors": [
@@ -4750,6 +4917,23 @@
         "category": "先进核能",
         "description": "首个获 NRC 设计认证的小型模块化反应堆(SMR)。",
         "status": "研发"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.02,
+        "netIncome": -0.1
+      },
+      {
+        "year": 2023,
+        "revenue": 0.023,
+        "netIncome": -0.18
+      },
+      {
+        "year": 2024,
+        "revenue": 0.037,
+        "netIncome": -0.2
       }
     ]
   },
@@ -5854,7 +6038,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "RKLB",
-      "marketCapB": 30
+      "marketCapB": 30,
+      "grossMargin": "26%",
+      "revenueTTM": "$0.44B"
     },
     "business": "Electron 小型火箭、在研的中型可回收火箭 Neutron，以及卫星与航天系统，2026 订单饱满。",
     "businessEn": "The Electron small rocket, the in-development medium reusable Neutron, plus satellites and space systems, with a full 2026 order book.",
@@ -5884,6 +6070,23 @@
         "description": "小型可回收火箭,并做卫星平台与制造,仅次于 SpaceX。",
         "status": "GA"
       }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.21,
+        "netIncome": -0.14
+      },
+      {
+        "year": 2023,
+        "revenue": 0.24,
+        "netIncome": -0.18
+      },
+      {
+        "year": 2024,
+        "revenue": 0.44,
+        "netIncome": -0.19
+      }
     ]
   },
   "asts": {
@@ -5911,7 +6114,8 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "ASTS",
-      "marketCapB": 20
+      "marketCapB": 20,
+      "revenueTTM": "$0.005B"
     },
     "business": "建设可与普通手机直连的低轨卫星星座，瞄准全球移动覆盖盲区。",
     "businessEn": "Building a low-Earth-orbit constellation that connects directly to ordinary phones, targeting the world's mobile coverage gaps.",
@@ -5939,6 +6143,23 @@
         "category": "卫星通信",
         "description": "让普通手机直接连卫星,无需地面基站。",
         "status": "研发"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.012,
+        "netIncome": -0.06
+      },
+      {
+        "year": 2023,
+        "revenue": 0.0014,
+        "netIncome": -0.09
+      },
+      {
+        "year": 2024,
+        "revenue": 0.005,
+        "netIncome": -0.06
       }
     ]
   },
@@ -9040,7 +9261,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "CBRS",
-      "marketCapB": 60
+      "marketCapB": 60,
+      "grossMargin": "40%",
+      "revenueTTM": "$0.14B"
     },
     "business": "把整块晶圆做成一颗巨型芯片(WSE-3)，主打超大模型训练与高速推理。",
     "businessEn": "Turns an entire wafer into one giant chip (WSE-3), aimed at very large model training and high-speed inference.",
@@ -9088,6 +9311,18 @@
       "G42",
       "Benchmark",
       "Foundation Capital"
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.078,
+        "netIncome": -0.13
+      },
+      {
+        "year": 2024,
+        "revenue": 0.14,
+        "netIncome": -0.06
+      }
     ]
   },
   "sambanova": {
@@ -9584,7 +9819,8 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "NBIS",
-      "marketCapB": 60
+      "marketCapB": 60,
+      "revenueTTM": "$0.9B"
     },
     "business": "全栈 AI 云与 GPU 算力，自建数据中心，英伟达为战略投资方之一。",
     "businessEn": "A full-stack AI cloud with GPU compute and self-built data centers; NVIDIA is a strategic investor.",
@@ -9631,6 +9867,23 @@
     "partners": [
       "nvda",
       "msft"
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.12,
+        "netIncome": -0.1
+      },
+      {
+        "year": 2024,
+        "revenue": 0.12,
+        "netIncome": -0.4
+      },
+      {
+        "year": 2025,
+        "revenue": 0.9,
+        "netIncome": -0.3
+      }
     ]
   },
   "together": {
@@ -11866,7 +12119,8 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "AUR",
-      "marketCapB": 12
+      "marketCapB": 12,
+      "revenueTTM": "$0"
     },
     "business": "Aurora Driver 自动驾驶系统，率先在美国德州开展无人重卡货运。",
     "businessEn": "The Aurora Driver autonomous system, first to run driverless heavy-truck freight on U.S. public roads in Texas.",
@@ -11902,6 +12156,23 @@
       {
         "name": "Chris Urmson",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0,
+        "netIncome": -0.75
+      },
+      {
+        "year": 2023,
+        "revenue": 0,
+        "netIncome": -0.75
+      },
+      {
+        "year": 2024,
+        "revenue": 0,
+        "netIncome": -0.7
       }
     ]
   },
@@ -12246,7 +12517,9 @@
     "stock": {
       "exchange": "HKEX",
       "ticker": "2513",
-      "marketCapB": 100
+      "marketCapB": 100,
+      "grossMargin": "60%",
+      "revenueTTM": "$0.4B"
     },
     "business": "GLM 系列大模型与企业应用，中国「AI 六小龙」之一。",
     "businessEn": "The GLM family of large models and enterprise applications — one of China's \"six AI tigers.\"",
@@ -12295,6 +12568,18 @@
       "腾讯",
       "美团",
       "蚂蚁集团"
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.3,
+        "netIncome": -0.3
+      },
+      {
+        "year": 2024,
+        "revenue": 0.4,
+        "netIncome": -0.4
+      }
     ]
   },
   "stepfun": {
@@ -12387,7 +12672,9 @@
     "stock": {
       "exchange": "HKEX",
       "ticker": "0020",
-      "marketCapB": 12
+      "marketCapB": 12,
+      "grossMargin": "40%",
+      "revenueTTM": "$0.53B"
     },
     "business": "计算机视觉起家，日日新(SenseNova)大模型与 AI 算力基础设施。",
     "businessEn": "Rooted in computer vision, now offering the SenseNova large-model family and AI compute infrastructure.",
@@ -12429,6 +12716,23 @@
       {
         "name": "徐立",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.55,
+        "netIncome": -0.85
+      },
+      {
+        "year": 2023,
+        "revenue": 0.48,
+        "netIncome": -0.9
+      },
+      {
+        "year": 2024,
+        "revenue": 0.53,
+        "netIncome": -0.6
       }
     ]
   },
@@ -12634,7 +12938,8 @@
     "stock": {
       "exchange": "SSE",
       "ticker": "688795",
-      "marketCapB": 40
+      "marketCapB": 40,
+      "revenueTTM": "$0.06B"
     },
     "business": "自研全功能 GPU(MTT 系列)，覆盖 AI 计算与图形，冲刺国产替代。",
     "businessEn": "In-house full-function GPUs (the MTT series) spanning AI compute and graphics, racing to become a domestic alternative.",
@@ -12670,6 +12975,18 @@
         "category": "GPU",
         "description": "国产全功能 GPU,兼做 AI 计算、图形渲染、视频编解码。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.017,
+        "netIncome": -0.2
+      },
+      {
+        "year": 2024,
+        "revenue": 0.06,
+        "netIncome": -0.2
       }
     ]
   },
@@ -14521,7 +14838,8 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "NNE",
-      "marketCapB": 5
+      "marketCapB": 5,
+      "revenueTTM": "$0"
     },
     "business": "开发便携式微型核反应堆与核燃料运输，瞄准偏远与数据中心供电。",
     "competitors": [
@@ -14560,6 +14878,18 @@
         "category": "先进核能",
         "description": "可运输、部署到偏远地区/数据中心的便携式微型反应堆。",
         "status": "研发"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0,
+        "netIncome": -0.02
+      },
+      {
+        "year": 2024,
+        "revenue": 0,
+        "netIncome": -0.04
       }
     ]
   },
@@ -15027,7 +15357,8 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "PLUG",
-      "marketCapB": 3
+      "marketCapB": 3,
+      "revenueTTM": "$0.7B"
     },
     "business": "氢燃料电池系统与绿氢产供，面向物流与备用电源。",
     "competitors": [
@@ -15065,6 +15396,23 @@
         "category": "氢能",
         "description": "氢燃料电池系统与电解槽(制绿氢),仓储叉车是成熟应用。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.7,
+        "netIncome": -0.72
+      },
+      {
+        "year": 2023,
+        "revenue": 0.89,
+        "netIncome": -1.4
+      },
+      {
+        "year": 2024,
+        "revenue": 0.63,
+        "netIncome": -2.1
       }
     ]
   },
@@ -15229,7 +15577,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "POWL",
-      "marketCapB": 5
+      "marketCapB": 5,
+      "grossMargin": "25%",
+      "revenueTTM": "$1.0B",
+      "peRatio": 18
     },
     "business": "中高压配电设备、开关柜与电气系统，直接受益数据中心供配电扩张。",
     "businessEn": "Medium/high-voltage distribution gear, switchgear and electrical systems, directly benefiting from data-center power-distribution expansion.",
@@ -15258,6 +15609,23 @@
         "category": "电气设备",
         "description": "中高压开关柜与配电系统,把海量电力安全送进数据中心。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.6,
+        "netIncome": 0.02
+      },
+      {
+        "year": 2023,
+        "revenue": 0.7,
+        "netIncome": 0.05
+      },
+      {
+        "year": 2024,
+        "revenue": 1,
+        "netIncome": 0.15
       }
     ]
   },
@@ -15369,7 +15737,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "NVT",
-      "marketCapB": 15
+      "marketCapB": 15,
+      "grossMargin": "35%",
+      "revenueTTM": "$3.3B",
+      "peRatio": 25
     },
     "business": "电气外壳、连接与数据中心液冷解决方案，散热与供电双受益。",
     "businessEn": "Electrical enclosures, connections and data-center liquid-cooling solutions — benefiting on both cooling and power.",
@@ -15403,6 +15774,23 @@
     "keyCustomers": [
       "nvda",
       "msft"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 2.9,
+        "netIncome": 0.35
+      },
+      {
+        "year": 2023,
+        "revenue": 3.3,
+        "netIncome": 0.45
+      },
+      {
+        "year": 2024,
+        "revenue": 3.3,
+        "netIncome": 0.5
+      }
     ]
   },
   "shinetsu": {
@@ -15514,7 +15902,9 @@
     "stock": {
       "exchange": "TSE",
       "ticker": "3436",
-      "marketCapB": 8
+      "marketCapB": 8,
+      "grossMargin": "25%",
+      "revenueTTM": "$3.0B"
     },
     "business": "300mm 半导体硅片，与信越合计主导全球硅片供应。",
     "competitors": [
@@ -15559,6 +15949,23 @@
         "description": "全球第二大硅片厂,300mm 硅片是芯片制造「地基」。",
         "status": "GA"
       }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 4.3,
+        "netIncome": 0.9
+      },
+      {
+        "year": 2023,
+        "revenue": 3.5,
+        "netIncome": 0.6
+      },
+      {
+        "year": 2024,
+        "revenue": 3,
+        "netIncome": 0.3
+      }
     ]
   },
   "gwafers": {
@@ -15576,7 +15983,9 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "6488",
-      "marketCapB": 20
+      "marketCapB": 20,
+      "grossMargin": "35%",
+      "revenueTTM": "$2.0B"
     },
     "business": "半导体硅片制造，收购世创后跻身全球前三。",
     "competitors": [
@@ -15621,6 +16030,23 @@
       "tsm",
       "samsung",
       "intc"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 2.2,
+        "netIncome": 0.5
+      },
+      {
+        "year": 2023,
+        "revenue": 2.2,
+        "netIncome": 0.5
+      },
+      {
+        "year": 2024,
+        "revenue": 2,
+        "netIncome": 0.4
+      }
     ]
   },
   "jsr": {
@@ -15695,7 +16121,9 @@
     "stock": {
       "exchange": "TSE",
       "ticker": "4186",
-      "marketCapB": 8
+      "marketCapB": 8,
+      "grossMargin": "38%",
+      "revenueTTM": "$1.6B"
     },
     "business": "光刻胶与高纯化学品，EUV 光刻胶市占领先。",
     "competitors": [
@@ -15740,6 +16168,23 @@
       "tsm",
       "samsung",
       "intc"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 1.4,
+        "netIncome": 0.15
+      },
+      {
+        "year": 2023,
+        "revenue": 1.5,
+        "netIncome": 0.16
+      },
+      {
+        "year": 2024,
+        "revenue": 1.6,
+        "netIncome": 0.18
+      }
     ]
   },
   "linde": {
@@ -15835,7 +16280,10 @@
     "stock": {
       "exchange": "EPA",
       "ticker": "AI",
-      "marketCapB": 110
+      "marketCapB": 110,
+      "grossMargin": "55%",
+      "revenueTTM": "$29B",
+      "peRatio": 30
     },
     "business": "工业与电子特种气体、先进材料，服务全球晶圆厂。",
     "competitors": [
@@ -15873,6 +16321,23 @@
         "category": "工业气体",
         "description": "法国工业气体巨头,为全球晶圆厂供电子特气与材料。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 30,
+        "netIncome": 2.8
+      },
+      {
+        "year": 2023,
+        "revenue": 29,
+        "netIncome": 3.1
+      },
+      {
+        "year": 2024,
+        "revenue": 29,
+        "netIncome": 3.3
       }
     ]
   },
@@ -16371,7 +16836,9 @@
     "stock": {
       "exchange": "SZSE",
       "ticker": "300748",
-      "marketCapB": 12
+      "marketCapB": 12,
+      "grossMargin": "18%",
+      "revenueTTM": "$0.9B"
     },
     "business": "高性能钕铁硼永磁材料，供货新能源车、风电、机器人伺服电机。",
     "competitors": [
@@ -16414,6 +16881,23 @@
         "description": "中国高性能钕铁硼永磁龙头,EV/风电/机器人关节电机核心。",
         "status": "GA"
       }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.9,
+        "netIncome": 0.1
+      },
+      {
+        "year": 2023,
+        "revenue": 0.95,
+        "netIncome": 0.08
+      },
+      {
+        "year": 2024,
+        "revenue": 0.9,
+        "netIncome": 0.06
+      }
     ]
   },
   "fcx": {
@@ -16432,7 +16916,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "FCX",
-      "marketCapB": 60
+      "marketCapB": 60,
+      "grossMargin": "25%",
+      "revenueTTM": "$25.5B",
+      "peRatio": 30
     },
     "business": "铜、金与钼开采，AI/电气化推升铜需求的核心受益者。",
     "competitors": [
@@ -16471,6 +16958,23 @@
         "description": "全球最大上市铜矿商之一,AI 用电与电气化推升铜需求。",
         "status": "GA"
       }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 22.8,
+        "netIncome": 3.5
+      },
+      {
+        "year": 2023,
+        "revenue": 22.9,
+        "netIncome": 1.85
+      },
+      {
+        "year": 2024,
+        "revenue": 25.5,
+        "netIncome": 1.9
+      }
     ]
   },
   "scco": {
@@ -16488,7 +16992,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "SCCO",
-      "marketCapB": 80
+      "marketCapB": 80,
+      "grossMargin": "45%",
+      "revenueTTM": "$11.4B",
+      "peRatio": 25
     },
     "business": "铜矿开采与冶炼，拥有全球最大铜储量之一。",
     "competitors": [
@@ -16526,6 +17033,23 @@
         "category": "矿业",
         "description": "储量最大的铜矿公司之一,低成本,押注铜价的经典标的。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 10,
+        "netIncome": 2.6
+      },
+      {
+        "year": 2023,
+        "revenue": 10,
+        "netIncome": 2.4
+      },
+      {
+        "year": 2024,
+        "revenue": 11.4,
+        "netIncome": 3.4
       }
     ]
   },
@@ -17642,7 +18166,8 @@
     "stock": {
       "exchange": "HKEX",
       "ticker": "6880",
-      "marketCapB": 9
+      "marketCapB": 9,
+      "revenueTTM": "$0.15B"
     },
     "business": "量产高阶智能驾驶(城市 NOA)与 L4 双飞轮，供货多家车企。",
     "businessEn": "A \"two-flywheel\" strategy pairing mass-production advanced driving (urban NOA) with L4, supplying many automakers.",
@@ -17678,6 +18203,18 @@
       {
         "name": "曹旭东",
         "title": "创始人兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.1,
+        "netIncome": -0.2
+      },
+      {
+        "year": 2024,
+        "revenue": 0.15,
+        "netIncome": -0.2
       }
     ]
   },
@@ -20294,7 +20831,9 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "3035",
-      "marketCapB": 3
+      "marketCapB": 3,
+      "grossMargin": "40%",
+      "revenueTTM": "$0.4B"
     },
     "business": "联电体系的 ASIC 设计服务与 IP 授权，覆盖 AIoT 与数据中心。",
     "businessEn": "A UMC-affiliated ASIC design-service and IP-licensing firm, spanning AIoT and data centers.",
@@ -20328,6 +20867,23 @@
     "keyCustomers": [
       "nvda",
       "amd"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.3,
+        "netIncome": 0.05
+      },
+      {
+        "year": 2023,
+        "revenue": 0.35,
+        "netIncome": 0.04
+      },
+      {
+        "year": 2024,
+        "revenue": 0.4,
+        "netIncome": 0.05
+      }
     ]
   },
   "andes": {
@@ -20356,7 +20912,9 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "6533",
-      "marketCapB": 2
+      "marketCapB": 2,
+      "grossMargin": "90%",
+      "revenueTTM": "$0.1B"
     },
     "business": "RISC-V CPU 核心 IP，广泛用于 AI 加速器与 SoC，开放架构受益者。",
     "businessEn": "RISC-V CPU core IP, widely used in AI accelerators and SoCs — a beneficiary of open architecture.",
@@ -20390,6 +20948,23 @@
     "keyCustomers": [
       "nvda",
       "amd"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.08,
+        "netIncome": 0.02
+      },
+      {
+        "year": 2023,
+        "revenue": 0.09,
+        "netIncome": 0.02
+      },
+      {
+        "year": 2024,
+        "revenue": 0.1,
+        "netIncome": 0.02
+      }
     ]
   },
   "ememory": {
@@ -20418,7 +20993,10 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "3529",
-      "marketCapB": 9
+      "marketCapB": 9,
+      "grossMargin": "90%",
+      "revenueTTM": "$0.2B",
+      "peRatio": 40
     },
     "business": "嵌入式 NVM(OTP/MTP)与安全 IP，几乎所有先进芯片都要用到，隐形高毛利。",
     "businessEn": "Embedded NVM (OTP/MTP) and security IP used by nearly every advanced chip — a high-margin hidden champion.",
@@ -20452,6 +21030,23 @@
     "keyCustomers": [
       "tsm",
       "samsung"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.15,
+        "netIncome": 0.06
+      },
+      {
+        "year": 2023,
+        "revenue": 0.16,
+        "netIncome": 0.07
+      },
+      {
+        "year": 2024,
+        "revenue": 0.2,
+        "netIncome": 0.09
+      }
     ]
   },
   "umc": {
@@ -20814,7 +21409,9 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "4938",
-      "marketCapB": 8
+      "marketCapB": 8,
+      "grossMargin": "4%",
+      "revenueTTM": "$40B"
     },
     "business": "消费电子与服务器代工，扩大 AI 服务器与网通产品布局。",
     "competitors": [
@@ -20861,6 +21458,23 @@
     "keyCustomers": [
       "apple",
       "nvda"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 45,
+        "netIncome": 0.7
+      },
+      {
+        "year": 2023,
+        "revenue": 42,
+        "netIncome": 0.9
+      },
+      {
+        "year": 2024,
+        "revenue": 40,
+        "netIncome": 0.8
+      }
     ]
   },
   "accton": {
@@ -21129,7 +21743,9 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "4958",
-      "marketCapB": 12
+      "marketCapB": 12,
+      "grossMargin": "18%",
+      "revenueTTM": "$4.2B"
     },
     "business": "软板/硬板与高阶 PCB，AI 服务器与高速载板需求受益。",
     "competitors": [
@@ -21168,6 +21784,23 @@
         "category": "PCB",
         "description": "全球最大 PCB 厂,软板(FPC)、IC 载板等高端实力强,鸿海集团。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 4.3,
+        "netIncome": 0.4
+      },
+      {
+        "year": 2023,
+        "revenue": 3.8,
+        "netIncome": 0.3
+      },
+      {
+        "year": 2024,
+        "revenue": 4.2,
+        "netIncome": 0.35
       }
     ]
   },
@@ -21277,7 +21910,9 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "2408",
-      "marketCapB": 6
+      "marketCapB": 6,
+      "grossMargin": "15%",
+      "revenueTTM": "$1.5B"
     },
     "business": "DRAM 内存设计与制造，受益 AI 带动的存储需求回升。",
     "businessEn": "DRAM design and manufacturing, benefiting from AI-driven recovery in memory demand.",
@@ -21308,6 +21943,23 @@
         "description": "台湾 DRAM 内存厂,随 AI 拉动内存周期上行受益,台塑集团。",
         "status": "GA"
       }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 2.3,
+        "netIncome": 0.6
+      },
+      {
+        "year": 2023,
+        "revenue": 1.4,
+        "netIncome": -0.1
+      },
+      {
+        "year": 2024,
+        "revenue": 1.5,
+        "netIncome": -0.1
+      }
     ]
   },
   "asus": {
@@ -21325,7 +21977,10 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "2357",
-      "marketCapB": 12
+      "marketCapB": 12,
+      "grossMargin": "16%",
+      "revenueTTM": "$19B",
+      "peRatio": 15
     },
     "business": "笔电、主板显卡与 AI 服务器(含 GB200 整机柜)，自建 AI 云。",
     "competitors": [
@@ -21369,6 +22024,23 @@
         "description": "PC 主板/显卡/电竞品牌,切入 NVIDIA GPU AI 服务器。",
         "status": "GA"
       }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 17,
+        "netIncome": 1
+      },
+      {
+        "year": 2023,
+        "revenue": 15,
+        "netIncome": 0.5
+      },
+      {
+        "year": 2024,
+        "revenue": 19,
+        "netIncome": 0.9
+      }
     ]
   },
   "wolfspeed": {
@@ -21395,7 +22067,9 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "WOLF",
-      "marketCapB": 3
+      "marketCapB": 3,
+      "grossMargin": "5%",
+      "revenueTTM": "$0.76B"
     },
     "business": "SiC 衬底与功率器件，用于电动车与数据中心高效供电。",
     "businessEn": "SiC substrates and power devices used for efficient power delivery in EVs and data centers.",
@@ -21429,6 +22103,23 @@
     "keyCustomers": [
       "ifx",
       "tsla"
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.92,
+        "netIncome": -0.32
+      },
+      {
+        "year": 2024,
+        "revenue": 0.81,
+        "netIncome": -0.86
+      },
+      {
+        "year": 2025,
+        "revenue": 0.76,
+        "netIncome": -1
+      }
     ]
   },
   "ifx": {
@@ -22289,7 +22980,8 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "RGTI",
-      "marketCapB": 8
+      "marketCapB": 8,
+      "revenueTTM": "$0.01B"
     },
     "business": "超导量子处理器与全栈量子云平台。",
     "businessEn": "Superconducting quantum processors and a full-stack quantum cloud platform.",
@@ -22320,6 +23012,23 @@
         "description": "全栈自研超导量子芯片与量子云服务(RGTI)。",
         "status": "GA"
       }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.013,
+        "netIncome": -0.07
+      },
+      {
+        "year": 2023,
+        "revenue": 0.012,
+        "netIncome": -0.07
+      },
+      {
+        "year": 2024,
+        "revenue": 0.011,
+        "netIncome": -0.2
+      }
     ]
   },
   "dwave": {
@@ -22347,7 +23056,9 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "QBTS",
-      "marketCapB": 6
+      "marketCapB": 6,
+      "grossMargin": "60%",
+      "revenueTTM": "$0.01B"
     },
     "business": "量子退火与门模型量子计算，主攻优化问题的商业应用。",
     "businessEn": "Quantum annealing plus gate-model quantum computing, targeting commercial optimization problems.",
@@ -22376,6 +23087,23 @@
         "category": "量子计算",
         "description": "走量子退火路线,面向优化问题的上市量子计算公司。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.007,
+        "netIncome": -0.05
+      },
+      {
+        "year": 2023,
+        "revenue": 0.009,
+        "netIncome": -0.08
+      },
+      {
+        "year": 2024,
+        "revenue": 0.009,
+        "netIncome": -0.14
       }
     ]
   },
@@ -22455,7 +23183,8 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "QNT",
-      "marketCapB": 16
+      "marketCapB": 16,
+      "revenueTTM": "$0.03B"
     },
     "business": "离子阱量子硬件与量子软件，被视为综合实力最强的量子公司之一。",
     "businessEn": "Trapped-ion quantum hardware plus quantum software — seen as one of the strongest all-around quantum companies.",
@@ -22491,6 +23220,18 @@
       {
         "name": "Rajeeb (Raj) Hazra",
         "title": "CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.02,
+        "netIncome": -0.3
+      },
+      {
+        "year": 2024,
+        "revenue": 0.026,
+        "netIncome": -0.3
       }
     ]
   },
@@ -22604,7 +23345,8 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "LAZR",
-      "marketCapB": 1
+      "marketCapB": 1,
+      "revenueTTM": "$0.08B"
     },
     "business": "高性能车载激光雷达与感知软件，绑定沃尔沃等车企量产。",
     "businessEn": "High-performance automotive lidar and perception software, with production deals at automakers like Volvo.",
@@ -22634,6 +23376,23 @@
         "description": "面向量产车的高性能激光雷达,与沃尔沃等合作。",
         "status": "GA"
       }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.041,
+        "netIncome": -0.4
+      },
+      {
+        "year": 2023,
+        "revenue": 0.07,
+        "netIncome": -0.57
+      },
+      {
+        "year": 2024,
+        "revenue": 0.076,
+        "netIncome": -0.35
+      }
     ]
   },
   "ouster": {
@@ -22660,7 +23419,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "OUST",
-      "marketCapB": 1
+      "marketCapB": 1,
+      "grossMargin": "40%",
+      "revenueTTM": "$0.11B"
     },
     "business": "数字激光雷达，覆盖汽车、机器人、工业与智慧城市。",
     "businessEn": "Digital lidar spanning automotive, robotics, industrial and smart-city applications.",
@@ -22689,6 +23450,23 @@
         "category": "激光雷达",
         "description": "芯片化的数字激光雷达,更简洁可量产,已与 Velodyne 合并。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.04,
+        "netIncome": -0.42
+      },
+      {
+        "year": 2023,
+        "revenue": 0.083,
+        "netIncome": -0.14
+      },
+      {
+        "year": 2024,
+        "revenue": 0.11,
+        "netIncome": -0.1
       }
     ]
   },
@@ -23049,7 +23827,9 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "IRM",
-      "marketCapB": 30
+      "marketCapB": 30,
+      "revenueTTM": "$6.1B",
+      "peRatio": 100
     },
     "business": "从档案存储转向数据中心与资产管理，受益 AI 数据存储需求。",
     "businessEn": "Pivoting from records storage into data centers and asset management, benefiting from AI data-storage demand.",
@@ -23078,6 +23858,23 @@
         "category": "数据中心",
         "description": "百年档案托管巨头,大举转型数据中心业务。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 5.1,
+        "netIncome": 0.48
+      },
+      {
+        "year": 2023,
+        "revenue": 5.5,
+        "netIncome": 0.16
+      },
+      {
+        "year": 2024,
+        "revenue": 6.1,
+        "netIncome": 0.18
       }
     ]
   },
@@ -24052,7 +24849,9 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "PL",
-      "marketCapB": 3
+      "marketCapB": 3,
+      "grossMargin": "55%",
+      "revenueTTM": "$0.24B"
     },
     "business": "运营最大规模对地观测卫星群，用 AI 解译影像做地理情报与分析。",
     "businessEn": "Operates the largest Earth-observation satellite fleet, using AI to interpret imagery for geospatial intelligence and analytics.",
@@ -24082,6 +24881,23 @@
         "description": "小卫星星座每天给整个地球拍照,并用 AI 解译成情报。",
         "status": "GA"
       }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.19,
+        "netIncome": -0.16
+      },
+      {
+        "year": 2024,
+        "revenue": 0.22,
+        "netIncome": -0.14
+      },
+      {
+        "year": 2025,
+        "revenue": 0.24,
+        "netIncome": -0.12
+      }
     ]
   },
   "blacksky": {
@@ -24108,7 +24924,9 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "BKSY",
-      "marketCapB": 2
+      "marketCapB": 2,
+      "grossMargin": "50%",
+      "revenueTTM": "$0.1B"
     },
     "business": "高频成像卫星与 AI 分析平台，提供近实时地理情报。",
     "businessEn": "High-revisit imaging satellites and an AI analytics platform delivering near-real-time geospatial intelligence.",
@@ -24137,6 +24955,23 @@
         "category": "卫星情报",
         "description": "低轨星座高频重访,近实时提供地理空间情报。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.06,
+        "netIncome": -0.15
+      },
+      {
+        "year": 2023,
+        "revenue": 0.09,
+        "netIncome": -0.14
+      },
+      {
+        "year": 2024,
+        "revenue": 0.1,
+        "netIncome": -0.12
       }
     ]
   },
@@ -24812,7 +25647,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "TEL",
-      "marketCapB": 55
+      "marketCapB": 55,
+      "grossMargin": "34%",
+      "revenueTTM": "$16B",
+      "peRatio": 20
     },
     "business": "连接器、传感器与互连，覆盖数据中心、汽车与工业。",
     "businessEn": "Connectors, sensors and interconnect spanning data centers, automotive and industrial.",
@@ -24845,6 +25683,23 @@
     "keyCustomers": [
       "tsla",
       "nvda"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 16.3,
+        "netIncome": 2.4
+      },
+      {
+        "year": 2023,
+        "revenue": 16,
+        "netIncome": 1.9
+      },
+      {
+        "year": 2024,
+        "revenue": 15.8,
+        "netIncome": 2.5
+      }
     ]
   },
   "wus": {
@@ -25024,7 +25879,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "TTMI",
-      "marketCapB": 5
+      "marketCapB": 5,
+      "grossMargin": "18%",
+      "revenueTTM": "$2.4B"
     },
     "business": "高端 PCB 与射频组件，服务数据中心、航空与国防。",
     "competitors": [
@@ -25068,6 +25925,23 @@
     "keyCustomers": [
       "nvda",
       "csco"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 2.5,
+        "netIncome": 0.14
+      },
+      {
+        "year": 2023,
+        "revenue": 2.2,
+        "netIncome": 0.06
+      },
+      {
+        "year": 2024,
+        "revenue": 2.4,
+        "netIncome": 0.1
+      }
     ]
   },
   "delta": {
@@ -25270,7 +26144,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "VICR",
-      "marketCapB": 4
+      "marketCapB": 4,
+      "grossMargin": "48%",
+      "revenueTTM": "$0.36B"
     },
     "business": "高密度直流电源转换模块，靠近 GPU 的末端供电方案。",
     "competitors": [
@@ -25313,6 +26189,23 @@
     ],
     "keyCustomers": [
       "nvda"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.4,
+        "netIncome": 0.05
+      },
+      {
+        "year": 2023,
+        "revenue": 0.36,
+        "netIncome": 0.03
+      },
+      {
+        "year": 2024,
+        "revenue": 0.36,
+        "netIncome": 0.02
+      }
     ]
   },
   "manus": {
@@ -25627,7 +26520,10 @@
     "stock": {
       "exchange": "SSE",
       "ticker": "601689",
-      "marketCapB": 15
+      "marketCapB": 15,
+      "grossMargin": "22%",
+      "revenueTTM": "$3.4B",
+      "peRatio": 30
     },
     "business": "汽车 NVH/底盘部件，布局人形机器人直线执行器与关节，绑定特斯拉。",
     "businessEn": "Automotive NVH/chassis parts, building into humanoid linear actuators and joints; tied to Tesla.",
@@ -25658,6 +26554,23 @@
         "category": "零部件",
         "description": "汽车零部件龙头(特斯拉供应商),布局机器人直线/旋转执行器。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 2.3,
+        "netIncome": 0.24
+      },
+      {
+        "year": 2023,
+        "revenue": 2.7,
+        "netIncome": 0.3
+      },
+      {
+        "year": 2024,
+        "revenue": 3.4,
+        "netIncome": 0.4
       }
     ]
   },
@@ -25771,7 +26684,9 @@
     "stock": {
       "exchange": "SSE",
       "ticker": "688017",
-      "marketCapB": 8
+      "marketCapB": 8,
+      "grossMargin": "40%",
+      "revenueTTM": "$0.07B"
     },
     "business": "谐波减速器国产替代龙头，人形机器人关节核心零部件。",
     "businessEn": "China's leader in harmonic-reducer import substitution — a core part of humanoid-robot joints.",
@@ -25803,6 +26718,23 @@
         "category": "机器人零部件",
         "description": "国产谐波减速器龙头,打破日本哈默纳科垄断。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.07,
+        "netIncome": 0.02
+      },
+      {
+        "year": 2023,
+        "revenue": 0.06,
+        "netIncome": 0.015
+      },
+      {
+        "year": 2024,
+        "revenue": 0.07,
+        "netIncome": 0.015
       }
     ]
   }
