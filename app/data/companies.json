@@ -281,7 +281,9 @@
       "meta",
       "amzn",
       "googl",
-      "tsla"
+      "oracle",
+      "tsla",
+      "xai"
     ],
     "partners": [
       "tsm",
@@ -768,7 +770,8 @@
     ],
     "keyCustomers": [
       "googl",
-      "meta"
+      "meta",
+      "apple"
     ],
     "tags": [
       "定制 ASIC",
@@ -932,9 +935,12 @@
       "samsung"
     ],
     "keyCustomers": [
+      "apple",
       "nvda",
       "amd",
-      "avgo"
+      "qualcomm",
+      "avgo",
+      "mediatek"
     ],
     "partners": [
       "asml"
@@ -1326,6 +1332,7 @@
     ],
     "keyCustomers": [
       "amzn",
+      "googl",
       "msft"
     ],
     "tags": [
@@ -1485,8 +1492,10 @@
       "schneider"
     ],
     "keyCustomers": [
-      "nvda",
-      "msft"
+      "msft",
+      "googl",
+      "amzn",
+      "nvda"
     ],
     "tags": [
       "液冷",
@@ -1589,6 +1598,11 @@
         "name": "Paulo Ruiz",
         "title": "总裁兼 CEO"
       }
+    ],
+    "keyCustomers": [
+      "msft",
+      "amzn",
+      "googl"
     ]
   },
   "nee": {
@@ -1713,8 +1727,8 @@
       "nvda"
     ],
     "keyCustomers": [
-      "nvda",
-      "csco"
+      "innolight",
+      "nvda"
     ],
     "tags": [
       "光模块",
@@ -2310,10 +2324,11 @@
       "amd"
     ],
     "keyCustomers": [
+      "apple",
+      "qualcomm",
       "nvda",
-      "amzn",
-      "avgo",
-      "mrvl"
+      "mediatek",
+      "amzn"
     ],
     "partners": [
       "tsm",
@@ -2654,6 +2669,10 @@
         "name": "刘扬伟 (Young Liu)",
         "title": "董事长"
       }
+    ],
+    "keyCustomers": [
+      "apple",
+      "nvda"
     ]
   },
   "schneider": {
@@ -2827,7 +2846,10 @@
       "eoptolink"
     ],
     "keyCustomers": [
-      "nvda"
+      "nvda",
+      "googl",
+      "amzn",
+      "meta"
     ],
     "suppliers": [
       "lite",
@@ -2897,7 +2919,9 @@
       "cohr"
     ],
     "keyCustomers": [
-      "nvda"
+      "nvda",
+      "amzn",
+      "googl"
     ],
     "suppliers": [
       "lite",
@@ -2990,7 +3014,8 @@
     ],
     "keyCustomers": [
       "nvda",
-      "amd"
+      "dell",
+      "apple"
     ],
     "suppliers": [
       "asml",
@@ -3070,7 +3095,9 @@
       "tsm"
     ],
     "keyCustomers": [
-      "nvda"
+      "nvda",
+      "apple",
+      "dell"
     ],
     "suppliers": [
       "asml",
@@ -3137,7 +3164,8 @@
     ],
     "keyCustomers": [
       "innolight",
-      "eoptolink"
+      "eoptolink",
+      "nvda"
     ],
     "tags": [
       "EML 激光",
@@ -3427,7 +3455,10 @@
       "wdc"
     ],
     "keyCustomers": [
-      "nvda"
+      "nvda",
+      "dell",
+      "hpe",
+      "apple"
     ],
     "suppliers": [
       "asml",
@@ -3507,6 +3538,11 @@
         "name": "Seamus Grady",
         "title": "CEO"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "csco",
+      "cohr"
     ]
   },
   "csco": {
@@ -4706,7 +4742,9 @@
     "keyCustomers": [
       "tsm",
       "samsung",
-      "intc"
+      "intc",
+      "mu",
+      "skhynix"
     ],
     "tags": [
       "半导体设备",
@@ -4786,9 +4824,10 @@
       "klac"
     ],
     "keyCustomers": [
-      "skhynix",
+      "tsm",
       "samsung",
-      "mu"
+      "mu",
+      "skhynix"
     ],
     "tags": [
       "刻蚀",
@@ -4972,7 +5011,8 @@
     "keyCustomers": [
       "nvda",
       "amd",
-      "tsm"
+      "apple",
+      "qualcomm"
     ],
     "tags": [
       "EDA",
@@ -5069,7 +5109,8 @@
     "keyCustomers": [
       "nvda",
       "amd",
-      "tsm"
+      "apple",
+      "qualcomm"
     ],
     "tags": [
       "EDA",
@@ -5165,7 +5206,9 @@
     ],
     "keyCustomers": [
       "nvda",
-      "amd"
+      "amd",
+      "qualcomm",
+      "avgo"
     ],
     "tags": [
       "OSAT",
@@ -5242,7 +5285,8 @@
     ],
     "keyCustomers": [
       "nvda",
-      "tsm"
+      "amd",
+      "qualcomm"
     ],
     "tags": [
       "OSAT",
@@ -9670,7 +9714,8 @@
     ],
     "keyCustomers": [
       "openai",
-      "meta"
+      "meta",
+      "msft"
     ],
     "tags": [
       "数据标注",
@@ -9748,6 +9793,11 @@
         "name": "Edwin Chen",
         "title": "创始人兼 CEO"
       }
+    ],
+    "keyCustomers": [
+      "openai",
+      "anthropic",
+      "googl"
     ]
   },
   "cohere": {
@@ -14441,7 +14491,8 @@
     ],
     "keyCustomers": [
       "tsm",
-      "samsung"
+      "samsung",
+      "intc"
     ],
     "tags": [
       "硅片",
@@ -14492,7 +14543,9 @@
       "gwafers"
     ],
     "keyCustomers": [
-      "tsm"
+      "tsm",
+      "samsung",
+      "intc"
     ],
     "oneLinerEn": "The world's second-largest silicon-wafer maker.",
     "tagline": "以硅片支撑芯片世界",
@@ -14604,6 +14657,7 @@
     ],
     "keyCustomers": [
       "tsm",
+      "samsung",
       "intc"
     ],
     "oneLinerEn": "One of the world's leading photoresist makers (acquired by JIC).",
@@ -14875,8 +14929,9 @@
       "unimicron"
     ],
     "keyCustomers": [
+      "intc",
       "nvda",
-      "intc"
+      "amd"
     ],
     "tags": [
       "ABF 载板",
@@ -14954,6 +15009,10 @@
         "description": "高端 IC 封装载板与 PCB,连接高端 GPU 引脚的关键。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "amd"
     ]
   },
   "entegris": {
@@ -15000,7 +15059,9 @@
       "amat"
     ],
     "keyCustomers": [
-      "tsm"
+      "tsm",
+      "samsung",
+      "intc"
     ],
     "tags": [
       "CMP",
@@ -18017,6 +18078,11 @@
         "name": "Brendan Foody",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "keyCustomers": [
+      "openai",
+      "anthropic",
+      "meta"
     ]
   },
   "turing": {
@@ -18074,6 +18140,10 @@
         "name": "Jonathan Siddharth",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "keyCustomers": [
+      "openai",
+      "googl"
     ]
   },
   "paradromics": {
@@ -19321,6 +19391,11 @@
         "name": "林宪铭 (Simon Lin)",
         "title": "董事长"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "msft",
+      "amzn"
     ]
   },
   "inventec": {
@@ -19381,6 +19456,11 @@
         "description": "AI 服务器与笔电代工大厂,承接大量 GPU 服务器订单。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "msft",
+      "googl"
     ]
   },
   "gigabyte": {
@@ -19508,6 +19588,10 @@
         "description": "苹果 iPhone 主要代工厂之一,切入 AI 服务器代工。",
         "status": "GA"
       }
+    ],
+    "keyCustomers": [
+      "apple",
+      "nvda"
     ]
   },
   "accton": {
@@ -19534,7 +19618,9 @@
       "csco"
     ],
     "keyCustomers": [
-      "meta"
+      "msft",
+      "meta",
+      "googl"
     ],
     "oneLinerEn": "The leader in white-box data-center switch ODM.",
     "tagline": "为云打造开放网络",
@@ -22559,7 +22645,9 @@
       "fii"
     ],
     "keyCustomers": [
-      "crwv"
+      "nvda",
+      "meta",
+      "xai"
     ],
     "suppliers": [
       "nvda"
@@ -22847,6 +22935,12 @@
         "name": "郑弘孟",
         "title": "董事长兼 CEO"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "msft",
+      "amzn",
+      "googl"
     ]
   },
   "quantacomputer": {
@@ -22914,6 +23008,12 @@
         "name": "林百里 (Barry Lam)",
         "title": "创办人兼董事长"
       }
+    ],
+    "keyCustomers": [
+      "nvda",
+      "msft",
+      "meta",
+      "googl"
     ]
   },
   "wiwynn": {
@@ -22984,6 +23084,10 @@
         "name": "林伟能 (William Lin)",
         "title": "总裁兼 CEO"
       }
+    ],
+    "keyCustomers": [
+      "msft",
+      "meta"
     ]
   },
   "amphenol": {
@@ -23326,7 +23430,8 @@
       "vrt"
     ],
     "keyCustomers": [
-      "nvda"
+      "nvda",
+      "foxconn"
     ],
     "tags": [
       "电源",
