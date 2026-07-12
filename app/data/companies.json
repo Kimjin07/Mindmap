@@ -7555,7 +7555,16 @@
       "growth": 87,
       "innovation": 89,
       "community": 76
-    }
+    },
+    "news": [
+      {
+        "title": "Figure 03 在宝马工厂商业化部署;估值 390 亿美元",
+        "date": "2026",
+        "category": "落地",
+        "summary": "继 Figure 02 在宝马 Spartanburg 工厂协助生产 3 万多辆 X3 后,双方签商业合同,首批 40 台 Figure 03 上线做物流分拣;公司累计融资超 19 亿美元(英伟达、贝索斯、OpenAI、微软),估值 390 亿美元。",
+        "url": "https://www.press.bmwgroup.com/global/article/detail/T0458778EN/"
+      }
+    ]
   },
   "agility": {
     "id": "agility",
@@ -7786,6 +7795,15 @@
     },
     "suppliers": [
       "harmonic"
+    ],
+    "news": [
+      {
+        "title": "科创板 IPO 获批,成「中国人形机器人第一股」;英伟达选用其平台",
+        "date": "2026-07",
+        "category": "重大",
+        "summary": "2026 年 7 月 3 日证监会核准宇树科创板上市(拟募资约 42 亿元、目标估值约 62 亿美元);英伟达选用宇树 H2 作为其面向全球科研的机器人参考平台(H2 + Jetson Thor + Isaac GR00T)。",
+        "url": "https://www.caixinglobal.com/2026-06-02/humanoid-robot-maker-unitree-advances-toward-618-million-shanghai-ipo-102449940.html"
+      }
     ]
   },
   "onex": {
@@ -10593,7 +10611,16 @@
       "growth": 68,
       "innovation": 84,
       "community": 51
-    }
+    },
+    "news": [
+      {
+        "title": "Q1 2026 营收 21 亿美元(+112%),订单积压 994 亿美元",
+        "date": "2026",
+        "category": "财报",
+        "summary": "已签下 Meta、Anthropic、OpenAI、谷歌四大 AI 实验室,OpenAI 合同扩至约 224 亿美元;预计 2026 年底年化营收 180–190 亿美元,活跃电力超 1GW、签约超 3.5GW。",
+        "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/"
+      }
+    ]
   },
   "lambda": {
     "id": "lambda",
@@ -12069,6 +12096,15 @@
     },
     "partners": [
       "baba"
+    ],
+    "news": [
+      {
+        "title": "完成 20 亿美元 D 轮、估值超 200 亿美元,创中国大模型融资纪录",
+        "date": "2026-05",
+        "category": "融资",
+        "summary": "由美团龙珠领投,清华资本、中国移动等参投,成为中国融资额最高的大模型创业公司;旗舰 Kimi K2.6(万亿参数 MoE、26 万 token 上下文)4 月发布,ARR 突破 2 亿美元。",
+        "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/"
+      }
     ]
   },
   "cognition": {
@@ -13845,6 +13881,15 @@
     },
     "partners": [
       "huawei"
+    ],
+    "news": [
+      {
+        "title": "港股上市,市值约 560 亿美元",
+        "date": "2026",
+        "category": "重大",
+        "summary": "智谱 AI 以「Knowledge Atlas Technology」在港交所交易,市值约 4347 亿港元(约 560 亿美元),是中国大模型第一梯队的上市代表之一。",
+        "url": "https://www.forbes.com/sites/ywang/2026/05/07/chinese-ai-model-developer-kimi-raising-funds-valuing-it-at-20-billion/"
+      }
     ]
   },
   "stepfun": {
