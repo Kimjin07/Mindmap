@@ -1517,6 +1517,12 @@ body {
 .fin-table td.neg {
   color: var(--ink-dim);
 }
+.fin-table td.up {
+  color: var(--gold-line);
+}
+.fin-table td.down {
+  color: var(--ink-dim);
+}
 
 .company-disclaimer {
   margin-top: 28px;

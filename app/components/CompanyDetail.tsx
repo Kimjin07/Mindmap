@@ -466,15 +466,22 @@ export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyD
                   <tr>
                     <th>年度</th>
                     <th>营收</th>
+                    <th>同比</th>
                     <th>净利润</th>
                     <th>净利率</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {financials.map((f) => (
+                  {financials.map((f, i) => {
+                    const prev = i > 0 ? financials[i - 1] : null;
+                    const yoy = prev && prev.revenue > 0 ? (f.revenue / prev.revenue - 1) * 100 : null;
+                    return (
                     <tr key={f.year}>
                       <td>{f.year}</td>
                       <td>{fmtB(f.revenue)}</td>
+                      <td className={yoy == null ? "" : yoy >= 0 ? "up" : "down"}>
+                        {yoy == null ? "—" : `${yoy > 0 ? "+" : ""}${yoy.toFixed(0)}%`}
+                      </td>
                       <td className={f.netIncome < 0 ? "neg" : ""}>{fmtB(f.netIncome)}</td>
                       <td>
                         {f.revenue && Math.abs(f.netIncome / f.revenue) < 5
@@ -482,7 +489,8 @@ export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyD
                           : "—"}
                       </td>
                     </tr>
-                  ))}
+                    );
+                  })}
                 </tbody>
               </table>
             </section>
