@@ -8276,6 +8276,13 @@
     },
     "news": [
       {
+        "title": "推出 ChatGPT Work 自主智能体，Codex 合并入 ChatGPT 桌面端",
+        "date": "2026-07",
+        "category": "产品",
+        "summary": "OpenAI 于 7 月 9 日发布 ChatGPT Work，由 GPT-5.6 驱动的自主智能体，可跨应用与文件持续执行多步任务数小时，产出成品文档、表格与演示文稿；Codex 同步并入 ChatGPT 桌面客户端。",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-09/openai-unveils-chatgpt-work-agent-to-field-tasks-for-hours"
+      },
+      {
         "title": "苹果起诉 OpenAI 窃取芯片设计机密,涉 400 余名前苹果员工",
         "date": "2026-07",
         "category": "重大",
@@ -8295,13 +8302,6 @@
         "category": "研发",
         "summary": "OpenAI 与博通公布定制芯片合作的首个成果 Jalapeño,目标 2026 年底前完成首批部署并在后续数年扩大规模,标志其「构建全栈」战略落地。",
         "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"
-      },
-      {
-        "title": "与微软重构合作协议,收入分成设上限并解除云独占",
-        "date": "2026-04",
-        "category": "重大",
-        "summary": "OpenAI 与微软宣布修订合作协议,OpenAI 将封顶向微软支付的收入分成,并可在任意云服务商(包括亚马逊、谷歌)上向客户提供全部产品,此前其已承诺采购 2500 亿美元 Azure 云服务。",
-        "url": "https://www.cnbc.com/2026/04/27/openai-microsoft-partnership-revenue-cap.html"
       }
     ]
   },
@@ -8412,6 +8412,13 @@
     },
     "news": [
       {
+        "title": "Claude Cowork 扩展至 Web 与移动端，云端会话跨设备续接",
+        "date": "2026-07",
+        "category": "产品",
+        "summary": "Anthropic 于 7 月 9 日将 Claude Cowork 推广至 Web 与移动端，任务在云端持久保存可从任意设备续接，后台无人值守运行；Max 订阅用户优先体验，使用限额至 8 月 5 日翻倍。",
+        "url": "https://9to5mac.com/2026/07/07/anthropic-expanding-claude-cowork-to-mobile-and-web-details-here/"
+      },
+      {
         "title": "发布 Claude Science,IPO 前拓展医药科研企业业务",
         "date": "2026-06",
         "category": "产品",
@@ -8431,13 +8438,6 @@
         "category": "合同",
         "summary": "Anthropic 与 PwC 宣布扩大战略合作,PwC 将利用 Claude 构建技术、执行交易并重塑企业职能,Claude Code 与 Cowork 将从美国团队起步推广至其全球数十万专业人员。",
         "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
-      },
-      {
-        "title": "年化营收达 300 亿美元,大客户数一年增近 7 倍",
-        "date": "2026-04",
-        "category": "进展",
-        "summary": "Anthropic 宣布年化收入运行率达 300 亿美元,实现约 80 倍的爆发式增长;企业客户超 30 万家,年消费超 100 万美元的客户逾 500 家,财富前 10 强中 8 家使用 Claude。",
-        "url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth"
       }
     ]
   },
@@ -29956,6 +29956,13 @@
     },
     "news": [
       {
+        "title": "苹果起诉 OpenAI 窃取芯片与 AI 机密，点名首席硬件官 Tang Tan",
+        "date": "2026-07",
+        "category": "重大",
+        "summary": "苹果 7 月 11 日在加州北区联邦法院起诉 OpenAI 及其硬件子公司 io Products，指控其系统性招募逾 400 名苹果前员工带走芯片架构与端侧 AI 机密；点名 OpenAI 首席硬件官 Tang Tan 要求候选人面试时携带苹果内部零件。",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-10/apple-sues-openai-for-trade-secret-theft-in-blockbuster-case"
+      },
+      {
         "title": "WWDC 2026 发布全新 Siri AI,支持跨设备对话式交互",
         "date": "2026-06",
         "category": "产品",
@@ -29975,12 +29982,6 @@
         "category": "重大",
         "summary": "蒂姆·库克宣布将于 2026 年 9 月 1 日把 CEO 职位交给高级副总裁(硬件工程)John Ternus,WWDC 2026 成为库克任内最后一届开发者大会,标志苹果领导层重大交接。",
         "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
-      },
-      {
-        "title": "Apple Intelligence 持续铺开,自研芯片强化端侧 AI",
-        "date": "2026",
-        "category": "产品",
-        "summary": "个人 AI 系统深度集成进 iPhone/Mac,主打隐私与本地运行;M 系列/A 系列芯片 NPU 持续升级,是端侧 AI 的标杆。"
       }
     ]
   },
