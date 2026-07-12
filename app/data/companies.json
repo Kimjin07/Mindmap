@@ -7856,6 +7856,9 @@
       "Kleiner Perkins",
       "Greenoaks",
       "General Catalyst"
+    ],
+    "suppliers": [
+      "anthropic"
     ]
   },
   "replit": {
@@ -7918,7 +7921,8 @@
       "anysphere"
     ],
     "suppliers": [
-      "anthropic"
+      "anthropic",
+      "openai"
     ],
     "tags": [
       "AI 编程",
@@ -8694,6 +8698,11 @@
       "NEA"
     ],
     "partners": [
+      "nvda"
+    ],
+    "suppliers": [
+      "openai",
+      "anthropic",
       "nvda"
     ]
   },
@@ -12013,6 +12022,10 @@
     ],
     "partners": [
       "nvda"
+    ],
+    "suppliers": [
+      "openai",
+      "anthropic"
     ]
   },
   "tabnine": {
@@ -12308,6 +12321,10 @@
       "Sequoia",
       "Benchmark",
       "Greenoaks"
+    ],
+    "suppliers": [
+      "openai",
+      "anthropic"
     ]
   },
   "decagon": {
@@ -12377,6 +12394,10 @@
       "a16z",
       "Accel",
       "Bain Capital Ventures"
+    ],
+    "suppliers": [
+      "openai",
+      "anthropic"
     ]
   },
   "harvey": {
@@ -12447,6 +12468,10 @@
       "OpenAI",
       "Kleiner Perkins",
       "GV"
+    ],
+    "suppliers": [
+      "openai",
+      "anthropic"
     ]
   },
   "hebbia": {
@@ -12515,6 +12540,10 @@
       "a16z",
       "Index Ventures",
       "Peter Thiel"
+    ],
+    "suppliers": [
+      "openai",
+      "anthropic"
     ]
   },
   "characterai": {
@@ -12732,6 +12761,10 @@
       "Index Ventures",
       "Sequoia",
       "Coatue"
+    ],
+    "suppliers": [
+      "openai",
+      "anthropic"
     ]
   },
   "grammarly": {
@@ -14653,7 +14686,10 @@
       "growth": 86,
       "innovation": 85,
       "community": 73
-    }
+    },
+    "suppliers": [
+      "openai"
+    ]
   },
   "openevidence": {
     "id": "openevidence",
@@ -14722,7 +14758,11 @@
       "growth": 86,
       "innovation": 85,
       "community": 73
-    }
+    },
+    "suppliers": [
+      "openai",
+      "anthropic"
+    ]
   },
   "tempus": {
     "id": "tempus",
@@ -14884,7 +14924,10 @@
       "growth": 85,
       "innovation": 83,
       "community": 72
-    }
+    },
+    "suppliers": [
+      "nvda"
+    ]
   },
   "lightmatter": {
     "id": "lightmatter",
@@ -19337,7 +19380,10 @@
       "growth": 83,
       "innovation": 78,
       "community": 69
-    }
+    },
+    "suppliers": [
+      "blackforest"
+    ]
   },
   "tii": {
     "id": "tii",
@@ -19460,7 +19506,12 @@
       "growth": 83,
       "innovation": 79,
       "community": 70
-    }
+    },
+    "suppliers": [
+      "openai",
+      "anthropic",
+      "googl"
+    ]
   },
   "kuaishou": {
     "id": "kuaishou",
@@ -20672,6 +20723,9 @@
     "investors": [
       "a16z",
       "Abstract Ventures"
+    ],
+    "suppliers": [
+      "blackforest"
     ]
   },
   "genmo": {
@@ -20807,6 +20861,9 @@
         "name": "Alex Mashrabov",
         "title": "创始人兼 CEO"
       }
+    ],
+    "suppliers": [
+      "nvda"
     ]
   },
   "playht": {
@@ -22051,6 +22108,10 @@
       "Sequoia",
       "Greylock",
       "a16z"
+    ],
+    "suppliers": [
+      "openai",
+      "anthropic"
     ]
   },
   "assemblyai": {
@@ -22369,7 +22430,10 @@
       "growth": 84,
       "innovation": 80,
       "community": 70
-    }
+    },
+    "suppliers": [
+      "anthropic"
+    ]
   },
   "nabla": {
     "id": "nabla",
@@ -26568,7 +26632,11 @@
       "growth": 84,
       "innovation": 80,
       "community": 70
-    }
+    },
+    "suppliers": [
+      "openai",
+      "deepgram"
+    ]
   },
   "vapi": {
     "id": "vapi",
@@ -26632,7 +26700,11 @@
       "growth": 84,
       "innovation": 80,
       "community": 70
-    }
+    },
+    "suppliers": [
+      "openai",
+      "deepgram"
+    ]
   },
   "crowdstrike": {
     "id": "crowdstrike",
@@ -28647,6 +28719,9 @@
         "name": "肖弘",
         "title": "创始人兼 CEO"
       }
+    ],
+    "suppliers": [
+      "anthropic"
     ]
   },
   "genspark": {
@@ -28717,6 +28792,10 @@
         "name": "景鲲 (Eric Jing)",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "suppliers": [
+      "openai",
+      "anthropic"
     ]
   },
   "adept": {
