@@ -5409,7 +5409,16 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "Groves 试验堆获 DOE 最终安全批准,目标 2026 年 7 月首次临界",
+        "date": "2026",
+        "category": "进展",
+        "summary": "首个在私有土地、全商业化燃料/设备的先进反应堆获 DOE 文件化安全分析批准;Aurora 电站在爱达荷国家实验室亦获初步批准;并与英伟达、洛斯阿拉莫斯合作推进核燃料验证与「核能 AI 工厂」。",
+        "url": "https://oklo.com/newsroom/news-details/2026/U-S--Department-of-Energy-Approves-Final-Safety-Analysis-for-Oklos-Groves-Isotope-Test-Reactor-Advancing-the-Project-Toward-Operational-Authorization/default.aspx"
+      }
+    ]
   },
   "smr": {
     "id": "smr",
@@ -8672,7 +8681,16 @@
       "growth": 87,
       "innovation": 88,
       "community": 75
-    }
+    },
+    "news": [
+      {
+        "title": "洽谈约 10 亿美元融资、估值超 110 亿美元;发布 π0.7 机器人基础模型",
+        "date": "2026",
+        "category": "融资",
+        "summary": "较四个月前 56 亿美元 B 轮估值近乎翻倍(Founders Fund、Lightspeed 等参投);发布可操控、泛化能力跃升的视觉-语言-动作基础模型 π0.7;仍处资本密集的无营收阶段。",
+        "url": "https://techcrunch.com/2026/03/27/physical-intelligence-is-reportedly-in-talks-to-raise-1-billion-again/"
+      }
+    ]
   },
   "covariant": {
     "id": "covariant",
@@ -10236,6 +10254,15 @@
     "partners": [
       "三星",
       "沙特 HUMAIN"
+    ],
+    "news": [
+      {
+        "title": "完成 6.5 亿美元融资、估值 69 亿美元;与英伟达达成 170 亿美元推理技术授权",
+        "date": "2026-06",
+        "category": "重大",
+        "summary": "累计融资约 30 亿美元,专注 AI 推理云,GroqCloud 开发者超 200 万;沙特 PIF 承诺 15 亿美元、成为 HUMAIN 关键技术供应商;与英伟达签非独家推理技术授权(结构化现金 170 亿美元)。",
+        "url": "https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business"
+      }
     ]
   },
   "cerebras": {
@@ -27369,7 +27396,16 @@
       "growth": 68,
       "innovation": 84,
       "community": 51
-    }
+    },
+    "news": [
+      {
+        "title": "FY26 净新增 ARR 破 10 亿美元,总 ARR 达 52.5 亿(+24%);Charlotte AI 使用量增 6 倍",
+        "date": "2026",
+        "category": "财报",
+        "summary": "Charlotte AI 相关 ARR 翻三倍、获 FedRAMP High 认证;推出与 AWS/英伟达/OpenAI 共建的无代码安全智能体平台 AgentWorks;并发起含 OpenAI、Anthropic 的前沿 AI 风险治理联盟 QuiltWorks。",
+        "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-first-quarter-fiscal-year-2027-financial"
+      }
+    ]
   },
   "paloalto": {
     "id": "paloalto",

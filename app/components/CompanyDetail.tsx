@@ -350,7 +350,10 @@ export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyD
                         {n.category && <span className="cp-news-cat">{n.category}</span>}
                         {n.date && <span className="cp-news-date">{n.date}</span>}
                       </div>
-                      <span className="cp-news-title">{n.title}</span>
+                      <span className="cp-news-title">
+                        {n.title}
+                        {n.url && <span className="cp-news-ext"> ↗</span>}
+                      </span>
                       {n.summary && <p className="cp-news-sum">{n.summary}</p>}
                     </>
                   );
