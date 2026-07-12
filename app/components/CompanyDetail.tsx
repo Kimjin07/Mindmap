@@ -7,7 +7,8 @@
  */
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import type { Quote } from "../lib/quote";
 import {
   COMPANIES, KIND_LABEL,
   companyTagline, companyDescription, companyAiScore,
@@ -98,13 +99,15 @@ function MiniChart({ data }: { data: { date: string; price: number }[] }) {
 
 export interface CompanyDetailProps {
   c: Company;
+  /** 服务端预取的初始行情，用于首屏直接显示股价(仅独立页传入)。 */
+  initialQuote?: Quote | null;
   /** 抽屉模式下：点关联公司 → 在抽屉内切换，而不是跳转。 */
   onOpenCompany?: (id: string) => void;
   /** 抽屉模式下：点地图环节 → 让地图飞过去，而不是跳转。 */
   onGotoNode?: (nodeId: string) => void;
 }
 
-export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyDetailProps) {
+export default function CompanyDetail({ c, initialQuote, onOpenCompany, onGotoNode }: CompanyDetailProps) {
   // 中/EN 语言切换（记忆在 localStorage，跨公司/跨页保持）。
   const [lang, setLang] = useState<Lang>("zh");
   useEffect(() => {
@@ -121,11 +124,17 @@ export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyD
 
   // 实时股价：任何有股票代码的公司都轮询 Yahoo（全球市场），每 60 秒刷新一次（仅标签页可见时）。
   type LiveQuote = { price?: number; changePct?: number; marketCapB?: number; week52Low?: number; week52High?: number; history?: { date: string; price: number }[]; currency?: string; ts?: number };
-  const [liveQuote, setLiveQuote] = useState<LiveQuote | null>(null);
+  const seedQuote = initialQuote?.live ? (initialQuote as LiveQuote) : null;
+  const [liveQuote, setLiveQuote] = useState<LiveQuote | null>(seedQuote);
   const [updatedAt, setUpdatedAt] = useState<number | null>(null);
+  const quoteInited = useRef(false);
   useEffect(() => {
-    setLiveQuote(null);
-    setUpdatedAt(null);
+    // 首次挂载若已有服务端初始行情则不清空(避免闪烁);切换公司时才清空
+    if (quoteInited.current) {
+      setLiveQuote(null);
+      setUpdatedAt(null);
+    }
+    quoteInited.current = true;
     const ticker = c.stock?.ticker;
     if (!ticker) return;
     const ex = c.stock?.exchange ?? "";
