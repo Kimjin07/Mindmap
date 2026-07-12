@@ -1762,6 +1762,13 @@
     ],
     "news": [
       {
+        "title": "Palantir 与英伟达联推主权 AI 方案,安全环境部署 Nemotron 开放模型",
+        "date": "2026-07",
+        "category": "合同",
+        "summary": "Palantir 与英伟达联合发布面向美国政府机构及关键基础设施的主权 AI 方案,在安全隔离环境中部署 Nemotron 系列开放模型,构建「智能引擎」。此次合作叠加陆军 NGC2 大单落地,推动 Palantir 股价单周涨逾 6%。",
+        "url": "https://stockstotrade.com/news/palantir-technologies-inc-pltr-news-2026_07_01/"
+      },
+      {
         "title": "获美国农业部最高 3 亿美元合同,聚焦农田安全与反欺诈",
         "date": "2026-05",
         "category": "合同",
@@ -4402,6 +4409,13 @@
     ],
     "news": [
       {
+        "title": "SK 海力士登陆纳斯达克首日涨 13%,募资 265 亿美元创外国企业赴美上市纪录",
+        "date": "2026-07",
+        "category": "重大",
+        "summary": "SK 海力士(SKHY)7 月 10 日以 149 美元/ADS 定价登陆纳斯达克,开盘即涨 14%,收涨约 13%,募资约 265 亿美元,为史上最大规模外国企业美股上市,认购超额 7 倍,为全球投资者提供 AI 存储芯片核心供应链的直接入口。",
+        "url": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html"
+      },
+      {
         "title": "调整 HBM4 爬坡节奏,转向利润优先策略",
         "date": "2026-06",
         "category": "业务",
@@ -4421,13 +4435,6 @@
         "category": "合同",
         "summary": "SK 海力士承诺在 2027 年底前向 ASML 采购约 79.7 亿美元 EUV 光刻设备,为公开披露的最大单笔 EUV 订单,支撑 AI 存储扩产。",
         "url": "https://www.techtimes.com/articles/320137/20260710/asml-earnings-wednesday-euv-bookings-will-show-whether-ai-chip-boom-sustainable.htm"
-      },
-      {
-        "title": "Q1 创历史最佳:营收 +198%、HBM4 率先量产",
-        "date": "2026",
-        "category": "财报",
-        "summary": "AI 对 HBM 需求爆发,单季营收首破 50 万亿韩元;2 月率先量产 HBM4(领先对手),6 月送样 12 层 HBM4E;HBM 市占约 57%,产能已售罄至 2026 年;并启动约 280 亿美元纳斯达克上市。",
-        "url": "https://news.skhynix.com/q1-2026-business-results/"
       }
     ]
   },
@@ -4518,6 +4525,13 @@
     ],
     "news": [
       {
+        "title": "三星加入韩国 392 万亿韩元半导体计划,承诺 140 万亿韩元建 HBM 封装厂",
+        "date": "2026-07",
+        "category": "重大",
+        "summary": "韩国政府 7 月 2 日公布总规模 392 万亿韩元半导体振兴计划,三星集团承诺独力投入 140 万亿韩元,包括在忠清道新建 HBM 专属晶圆及先进封装产线,以加速缩小与 SK 海力士在 AI 存储领域的竞争差距。",
+        "url": "https://letsdatascience.com/news/samsung-and-sk-hynix-build-hbm-packaging-fabs-f9069af3"
+      },
+      {
         "title": "HBM4 量产 4 个月销售额破 10 亿美元,2026 年产能售罄",
         "date": "2026-06",
         "category": "业务",
@@ -4536,13 +4550,6 @@
         "date": "2026",
         "category": "进展",
         "summary": "三星在最先进 HBM 上一度落后于抢先拿下英伟达主力订单的 SK 海力士，正全力追赶并争取通过英伟达认证；同时其代工业务也在追赶台积电、争取先进制程与 AI 芯片订单。"
-      },
-      {
-        "title": "下半年量产第二代 2nm 移动工艺,先进制程产线满载",
-        "date": "2026",
-        "category": "进展",
-        "summary": "晶圆代工业务计划 2026 年 Q2 实现先进制程产线满产,下半年开始量产面向移动产品的第二代 2nm 工艺,并为 AI/HPC 客户量产 LPU 等芯片。",
-        "url": "https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2026-results"
       }
     ]
   },
@@ -8269,6 +8276,13 @@
     },
     "news": [
       {
+        "title": "苹果起诉 OpenAI 窃取芯片设计机密,涉 400 余名前苹果员工",
+        "date": "2026-07",
+        "category": "重大",
+        "summary": "苹果在加州联邦法院指控 OpenAI 系统性盗取芯片工程与片上 AI 设计机密,称 OpenAI 首席硬件官 Tang Tan 主导招募逾 400 名前苹果员工并获取未发布产品机密。OpenAI 否认全部指控,双方关系因 OpenAI 收购 Jony Ive 公司进军硬件领域而急剧恶化。",
+        "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html"
+      },
+      {
         "title": "GPT-5.6 系列公开发布,推出 GPT-Live 语音模型",
         "date": "2026-07",
         "category": "产品",
@@ -8288,13 +8302,6 @@
         "category": "重大",
         "summary": "OpenAI 与微软宣布修订合作协议,OpenAI 将封顶向微软支付的收入分成,并可在任意云服务商(包括亚马逊、谷歌)上向客户提供全部产品,此前其已承诺采购 2500 亿美元 Azure 云服务。",
         "url": "https://www.cnbc.com/2026/04/27/openai-microsoft-partnership-revenue-cap.html"
-      },
-      {
-        "title": "完成 1220 亿美元融资,估值 8520 亿美元",
-        "date": "2026",
-        "category": "融资",
-        "summary": "由亚马逊、英伟达、软银领投,微软继续参与,a16z 等联合领投。企业收入已占总营收 40% 以上。",
-        "url": "https://openai.com/index/accelerating-the-next-phase-ai/"
       }
     ]
   },
@@ -8630,6 +8637,13 @@
     },
     "news": [
       {
+        "title": "彭博:深度求索已启动自研 AI 推理芯片项目,专注推理侧算力自主可控",
+        "date": "2026-07",
+        "category": "研发",
+        "summary": "据彭博社援引知情人士报道,深度求索已启动专用 AI 推理芯片研发。该芯片专注推理而非训练,旨在降低对英伟达 GPU 的依赖并强化算力自主能力,是中国头部 AI 模型公司布局自主硅片的最新进展。",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-07/chinese-ai-startup-deepseek-developing-own-ai-chip-reuters-says"
+      },
+      {
         "title": "DeepSeek-V4 正式版「原厂直供」7 月中上线腾讯云",
         "date": "2026-07",
         "category": "落地",
@@ -8962,6 +8976,13 @@
     },
     "news": [
       {
+        "title": "Figure 03 产能 120 天内提升 24 倍,日产 1 台跃升至时产 1 台",
+        "date": "2026-07",
+        "category": "进展",
+        "summary": "Figure AI 披露 Figure 03 生产速率在不足 120 天内从每天 1 台提升至每小时 1 台,产能实现 24 倍跃升;宝马斯巴达堡工厂商业化部署持续扩展,公司向规模化量产阶段加速过渡。",
+        "url": "https://www.figure.ai/news/ramping-figure-03-production"
+      },
+      {
         "title": "机器人连续近一周不间断分拣包裹,效率达人类 98.5%",
         "date": "2026-05",
         "category": "进展",
@@ -8981,13 +9002,6 @@
         "category": "落地",
         "summary": "继 Figure 02 在宝马 Spartanburg 工厂协助生产 3 万多辆 X3 后,双方签商业合同,首批 40 台 Figure 03 上线做物流分拣;公司累计融资超 19 亿美元(英伟达、贝索斯、OpenAI、微软),估值 390 亿美元。",
         "url": "https://www.press.bmwgroup.com/global/article/detail/T0458778EN/"
-      },
-      {
-        "title": "发布家用人形机器人 Figure 03,Helix AI 可观察人类学习家务",
-        "date": "2025-10",
-        "category": "产品",
-        "summary": "Figure 发布面向家庭场景的新一代人形机器人 Figure 03,搭载自研 Helix AI,可通过观察人类学习家务任务;消费者版本最早 2026 年底上市,初期部署限定合作伙伴。",
-        "url": "https://blog.robozaps.com/b/figure-03-review"
       }
     ]
   },
@@ -9976,6 +9990,13 @@
     },
     "news": [
       {
+        "title": "Mistral 发布 8B 机器人导航模型,单目摄像头成功率超最优多摄方案",
+        "date": "2026-07",
+        "category": "产品",
+        "summary": "Mistral AI 首款机器人产品 Robostral Navigate 正式发布,8B 参数,仅需单 RGB 摄像头即可驱动机器人按自然语言指令在复杂环境导航;R2R-CE 基准成功率 76.6%,优于现有最佳多摄方案 4.5 个百分点,支持轮式、腿式及飞行机器人,标志 Mistral 正式进军具身智能。",
+        "url": "https://mistral.ai/news/robostral-navigate/"
+      },
+      {
         "title": "洽谈约 30 亿欧元融资、估值约 200 亿欧元;ASML 为最大股东",
         "date": "2026-06",
         "category": "融资",
@@ -9995,13 +10016,6 @@
         "category": "业务",
         "summary": "Mistral 于 4 月发布 1280 亿参数的 Medium 3.5,部分编码基准超越三倍于自身规模的模型;公司将 2026 年营收目标定为 10 亿欧元,较 2025 年约 2 亿欧元大幅提升。",
         "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
-      },
-      {
-        "title": "获 8.3 亿美元债务融资,建设巴黎数据中心集群",
-        "date": "2026-03",
-        "category": "融资",
-        "summary": "Mistral 获得 8.3 亿美元债务融资用于巴黎附近自建 AI 数据中心,规划 2027 年达到最高 200 兆瓦、2030 年达 1 吉瓦算力的 Mistral Compute 计划,减少对外部云的依赖。",
-        "url": "https://www.cnbc.com/2026/03/30/mistral-ai-paris-data-center-cluster-debt-financing.html"
       }
     ]
   },
