@@ -874,6 +874,12 @@
         "description": "可编程的网络操作系统,是其软件护城河。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Jayshree Ullal",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "tsm": {
@@ -1183,6 +1189,12 @@
         "description": "嵌入工作流的生成式 AI 助手与智能体。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Bill McDermott",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "pltr": {
@@ -1335,6 +1347,12 @@
         "description": "数据中心高速光互联与连接芯片。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Matt Murphy",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "wdc": {
@@ -1474,6 +1492,12 @@
         "category": "散热",
         "description": "为高功率 AI 机柜提供液冷方案,与英伟达紧密合作。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Giordano Albertazzi",
+        "title": "CEO"
       }
     ]
   },
@@ -1684,6 +1708,12 @@
         "category": "化合物半导体",
         "description": "用于电动车与电力电子的碳化硅材料。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Jim Anderson",
+        "title": "CEO"
       }
     ]
   },
@@ -2538,6 +2568,12 @@
         "description": "全球最大电子代工厂,苹果 iPhone 主力制造。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "刘扬伟 (Young Liu)",
+        "title": "董事长"
+      }
     ]
   },
   "schneider": {
@@ -2860,6 +2896,12 @@
       "DRAM",
       "AI 内存",
       "纳斯达克新股"
+    ],
+    "leadership": [
+      {
+        "name": "郭鲁正 (Kwak Noh-Jung)",
+        "title": "CEO"
+      }
     ]
   },
   "samsung": {
@@ -2999,6 +3041,12 @@
         "category": "光通信",
         "description": "高速光模块所需的核心光学器件。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Alan Lowe",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -3247,6 +3295,12 @@
       "DRAM",
       "AI 内存",
       "美系存储"
+    ],
+    "leadership": [
+      {
+        "name": "Sanjay Mehrotra",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "fn": {
@@ -3776,6 +3830,12 @@
         "category": "清洁电力",
         "description": "美国最大核电运营商,直接为 AI 数据中心提供无碳基荷电力。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Joe Dominguez",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -4367,6 +4427,12 @@
         "description": "制造过程中的量测与缺陷检测设备。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Gary Dickerson",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "lrcx": {
@@ -4454,6 +4520,12 @@
         "description": "一层层铺上材料薄膜,与刻蚀并列泛林两大龙头业务。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Tim Archer",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "klac": {
@@ -4539,6 +4611,12 @@
         "category": "过程控制",
         "description": "量测线宽、薄膜厚度等,帮芯片厂提升良率。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Rick Wallace",
+        "title": "CEO"
       }
     ]
   },
@@ -4632,6 +4710,12 @@
         "description": "用 AI 自动优化芯片设计流程。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Sassine Ghazi",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "cdns": {
@@ -4722,6 +4806,12 @@
         "category": "AI 设计",
         "description": "用 AI 自动优化芯片设计。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Anirudh Devgan",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -6182,6 +6272,12 @@
       "AI 编程",
       "全栈生成",
       "WebContainers"
+    ],
+    "leadership": [
+      {
+        "name": "Eric Simons",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "lovable": {
@@ -7227,6 +7323,12 @@
       "AI 视频",
       "创意特效",
       "社媒"
+    ],
+    "leadership": [
+      {
+        "name": "Demi Guo (郭文景)",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "luma": {
@@ -7293,6 +7395,12 @@
       "AI 视频",
       "3D 重建",
       "神经渲染"
+    ],
+    "leadership": [
+      {
+        "name": "Amit Jain",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "suno": {
@@ -7415,6 +7523,12 @@
     "tags": [
       "AI 音乐",
       "生成式媒体"
+    ],
+    "leadership": [
+      {
+        "name": "David Ding",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "heygen": {
@@ -7603,6 +7717,12 @@
       "AI 翻译",
       "生产力",
       "欧洲 AI"
+    ],
+    "leadership": [
+      {
+        "name": "Jaroslaw Kutylowski",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "ideogram": {
@@ -7662,6 +7782,12 @@
       "AI 图像",
       "文字渲染",
       "海报"
+    ],
+    "leadership": [
+      {
+        "name": "Mohammad Norouzi",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "blackforest": {
@@ -7715,6 +7841,12 @@
         "category": "开源图像生成",
         "description": "质量领先的开源文生图模型,被 xAI Grok 用作图像引擎。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Robin Rombach",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -8206,6 +8338,12 @@
       "英伟达",
       "ARK Invest",
       "USIT"
+    ],
+    "leadership": [
+      {
+        "name": "Stephen Balaban",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "crusoe": {
@@ -8327,6 +8465,12 @@
         "category": "AI 云算力",
         "description": "源自 Yandex 的欧洲 GPU 云,英伟达重点扶持的「新云」。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Arkady Volozh",
+        "title": "创始人兼 CEO"
       }
     ]
   },
@@ -9345,6 +9489,12 @@
       "AI 编程",
       "自主智能体",
       "Devin"
+    ],
+    "leadership": [
+      {
+        "name": "Scott Wu",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "glean": {
@@ -9529,6 +9679,12 @@
       "前端云",
       "v0",
       "Next.js"
+    ],
+    "leadership": [
+      {
+        "name": "Guillermo Rauch",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "writer": {
@@ -10011,6 +10167,12 @@
       "AI 设计",
       "创意工具",
       "Magic Studio"
+    ],
+    "leadership": [
+      {
+        "name": "Melanie Perkins",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "notion": {
@@ -10074,6 +10236,12 @@
       "AI 办公",
       "知识库",
       "协作"
+    ],
+    "leadership": [
+      {
+        "name": "Ivan Zhao",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "grammarly": {
@@ -11518,6 +11686,12 @@
       "Lightspeed",
       "红杉 Sequoia",
       "NEA"
+    ],
+    "leadership": [
+      {
+        "name": "Shiv Rao",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "openevidence": {
@@ -11574,6 +11748,12 @@
       "Sequoia",
       "Kleiner Perkins",
       "Google Ventures"
+    ],
+    "leadership": [
+      {
+        "name": "Daniel Nadler",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "tempus": {
@@ -11694,6 +11874,12 @@
       "General Catalyst",
       "a16z",
       "英伟达"
+    ],
+    "leadership": [
+      {
+        "name": "Munjal Shah",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "lightmatter": {
@@ -12383,6 +12569,12 @@
         "category": "AI 数据平台",
         "description": "为 AI 打造的高性能统一数据平台,喂养大规模训练与推理。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Renen Hallak",
+        "title": "创始人兼 CEO"
       }
     ]
   },
@@ -15374,6 +15566,12 @@
       "AI 编程",
       "代码搜索",
       "企业级"
+    ],
+    "leadership": [
+      {
+        "name": "Quinn Slack",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "worldlabs": {
@@ -15666,6 +15864,12 @@
       "AI 图像",
       "矢量",
       "品牌设计"
+    ],
+    "leadership": [
+      {
+        "name": "Anna Veronika Dorogush",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "leonardo": {
@@ -16807,6 +17011,12 @@
       "语音识别",
       "STT",
       "语音智能体"
+    ],
+    "leadership": [
+      {
+        "name": "Scott Stephenson",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "cresta": {
@@ -16871,6 +17081,12 @@
       "联络中心",
       "AI 客服",
       "坐席辅助"
+    ],
+    "leadership": [
+      {
+        "name": "Zayd Enam",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "assemblyai": {
@@ -19908,6 +20124,12 @@
       "教育 AI",
       "AI 私教",
       "非营利"
+    ],
+    "leadership": [
+      {
+        "name": "Salman Khan (萨尔曼·可汗)",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "inflection": {
@@ -20206,6 +20428,12 @@
         "description": "AI 驱动的安全运营(SOC)自动化平台。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Nikesh Arora",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "sentinelone": {
@@ -20371,6 +20599,12 @@
         "category": "云安全",
         "description": "扫描整个云环境、按优先级揪出最危险风险,被谷歌约 320 亿美元收购。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Assaf Rappaport",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -21346,6 +21580,12 @@
       "通用智能体",
       "自主 Agent",
       "Monica"
+    ],
+    "leadership": [
+      {
+        "name": "肖弘",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "genspark": {
@@ -21410,6 +21650,12 @@
       "通用智能体",
       "Super Agent",
       "AgentBase"
+    ],
+    "leadership": [
+      {
+        "name": "景鲲 (Eric Jing)",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "adept": {
