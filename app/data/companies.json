@@ -1223,6 +1223,20 @@
       "光 DSP",
       "DPU",
       "数据中心互联"
+    ],
+    "products": [
+      {
+        "name": "定制 AI 芯片 (ASIC)",
+        "category": "AI 芯片",
+        "description": "为云厂商设计定制 AI 加速芯片(如亚马逊 Trainium 相关)。",
+        "status": "GA"
+      },
+      {
+        "name": "光互联 DSP / SerDes",
+        "category": "互联芯片",
+        "description": "数据中心高速光互联与连接芯片。",
+        "status": "GA"
+      }
     ]
   },
   "wdc": {
@@ -2526,22 +2540,16 @@
     },
     "products": [
       {
-        "name": "HBM3E / HBM4",
-        "category": "高带宽显存",
-        "status": "GA",
-        "description": "AI GPU 的关键瓶颈部件，份额第一。"
+        "name": "HBM",
+        "category": "高带宽内存",
+        "description": "HBM 市场领跑者,率先拿下英伟达主力订单。",
+        "status": "GA"
       },
       {
-        "name": "服务器 DRAM (DDR5)",
-        "category": "内存",
-        "status": "GA",
-        "description": "AI 服务器大容量主内存。"
-      },
-      {
-        "name": "企业级 NAND / SSD",
-        "category": "闪存",
-        "status": "GA",
-        "description": "高吞吐固态存储。"
+        "name": "DRAM / NAND",
+        "category": "存储芯片",
+        "description": "全球领先的存储芯片制造商。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -2606,22 +2614,16 @@
     },
     "products": [
       {
-        "name": "HBM3E / HBM4",
-        "category": "高带宽显存",
-        "status": "GA/爬坡",
-        "description": "追赶海力士，力争导入英伟达。"
+        "name": "HBM / DRAM / NAND",
+        "category": "存储芯片",
+        "description": "全球最大存储芯片厂,全力追赶最先进 HBM。",
+        "status": "GA"
       },
       {
-        "name": "DRAM / NAND",
-        "category": "存储",
-        "status": "GA",
-        "description": "全球份额第一的主存与闪存。"
-      },
-      {
-        "name": "晶圆代工",
-        "category": "代工",
-        "status": "GA",
-        "description": "2nm/GAA 先进制程争 AI 芯片订单。"
+        "name": "晶圆代工 (Foundry)",
+        "category": "晶圆代工",
+        "description": "全球第二大代工厂,追赶台积电先进制程。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -2890,22 +2892,16 @@
     },
     "products": [
       {
-        "name": "HBM3E / HBM4",
-        "category": "高带宽显存",
-        "status": "GA",
-        "description": "已导入英伟达，产能售罄。"
+        "name": "HBM3E",
+        "category": "高带宽内存",
+        "description": "供不应求的 AI 关键内存,紧贴 GPU 供数据,产能被提前锁定。",
+        "status": "GA"
       },
       {
-        "name": "服务器 DRAM (DDR5)",
-        "category": "内存",
-        "status": "GA",
-        "description": "AI 服务器主内存。"
-      },
-      {
-        "name": "企业级 NAND / SSD",
-        "category": "闪存",
-        "status": "GA",
-        "description": "数据中心固态存储。"
+        "name": "DRAM / NAND",
+        "category": "存储芯片",
+        "description": "全球三大存储厂之一,美国唯一本土存储大厂。",
+        "status": "GA"
       }
     ],
     "financials": [
@@ -5082,6 +5078,26 @@
       "Spot",
       "现代",
       "Gemini Robotics"
+    ],
+    "products": [
+      {
+        "name": "Atlas",
+        "category": "人形机器人",
+        "description": "全电动新一代人形机器人,以极致运动能力著称。",
+        "status": "研发"
+      },
+      {
+        "name": "Spot",
+        "category": "四足机器人",
+        "description": "已商业化的四足机器人,用于巡检等场景。",
+        "status": "GA"
+      },
+      {
+        "name": "Stretch",
+        "category": "物流机器人",
+        "description": "面向仓储的搬箱机器人。",
+        "status": "GA"
+      }
     ]
   },
   "figure": {
@@ -5146,6 +5162,20 @@
       "Helix VLA",
       "Figure 03",
       "具身智能"
+    ],
+    "products": [
+      {
+        "name": "Figure 02 / 03",
+        "category": "人形机器人",
+        "description": "面向工厂与家庭的通用人形机器人。",
+        "status": "研发"
+      },
+      {
+        "name": "Helix",
+        "category": "VLA 模型",
+        "description": "自研的视觉-语言-动作模型,驱动机器人自主操作。",
+        "status": "研发"
+      }
     ]
   },
   "agility": {
@@ -5297,6 +5327,20 @@
       "四足机器人",
       "高性价比",
       "科创板"
+    ],
+    "products": [
+      {
+        "name": "四足机器人 (Go / B 系列)",
+        "category": "机器人",
+        "description": "以高性价比著称的四足机器人,全球出货领先。",
+        "status": "GA"
+      },
+      {
+        "name": "人形机器人 (H1 / G1)",
+        "category": "人形机器人",
+        "description": "高动态、可量产的人形机器人,频频在社媒出圈。",
+        "status": "GA"
+      }
     ]
   },
   "onex": {
@@ -5505,16 +5549,16 @@
     },
     "products": [
       {
-        "name": "Replit Agent",
-        "category": "应用生成",
-        "status": "GA",
-        "description": "自然语言生成并部署完整应用。"
+        "name": "Replit",
+        "category": "云端 IDE",
+        "description": "浏览器里的云端开发环境,打开网页即可写代码运行部署。",
+        "status": "GA"
       },
       {
-        "name": "Replit 云 IDE",
-        "category": "云开发环境",
-        "status": "GA",
-        "description": "浏览器内写码/运行/部署一站式。"
+        "name": "Replit Agent",
+        "category": "AI 编程",
+        "description": "用自然语言描述即自动建应用并部署,不会编程也能造软件。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -5643,9 +5687,9 @@
     "products": [
       {
         "name": "Lovable",
-        "category": "应用生成",
-        "status": "GA",
-        "description": "对话式生成可部署 Web 应用/网站。"
+        "category": "AI 应用生成",
+        "description": "用大白话描述即生成前后端+数据库并一键上线,vibe coding 明星。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -5916,6 +5960,14 @@
       "VLA",
       "跨本体",
       "机器人基础模型"
+    ],
+    "products": [
+      {
+        "name": "π0 (pi-zero)",
+        "category": "VLA 基础模型",
+        "description": "面向机器人的通用视觉-语言-动作基础模型,机器人的「通用大脑」。",
+        "status": "研发"
+      }
     ]
   },
   "covariant": {
@@ -6796,16 +6848,10 @@
     },
     "products": [
       {
-        "name": "HeyGen 数字人视频",
-        "category": "AI 数字人",
-        "status": "GA",
-        "description": "AI 头像 + 语音克隆生成口播视频。"
-      },
-      {
-        "name": "视频翻译",
-        "category": "本地化",
-        "status": "GA",
-        "description": "一键多语种翻译并对口型。"
+        "name": "HeyGen",
+        "category": "AI 数字人视频",
+        "description": "数字化身+口型同步+多语言配音,低成本大规模做视频。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -6859,10 +6905,10 @@
     },
     "products": [
       {
-        "name": "Synthesia 平台",
-        "category": "AI 数字人",
-        "status": "GA",
-        "description": "企业级 AI 主播视频，百种语言。"
+        "name": "Synthesia",
+        "category": "AI 数字人视频",
+        "description": "输入脚本即生成 AI 虚拟主播讲解视频,支持百余种语言,企业级。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -7218,6 +7264,14 @@
       "数据流",
       "企业推理",
       "一体机"
+    ],
+    "products": [
+      {
+        "name": "SN 系列芯片 / DataScale",
+        "category": "AI 芯片与系统",
+        "description": "自研 AI 芯片与整机系统,主打高速大模型推理。",
+        "status": "GA"
+      }
     ]
   },
   "graphcore": {
@@ -8999,9 +9053,9 @@
     "products": [
       {
         "name": "Character.AI",
-        "category": "角色扮演对话",
-        "status": "GA",
-        "description": "与海量虚拟角色聊天，可自建角色。"
+        "category": "AI 角色对话",
+        "description": "可与各种 AI 角色自由对话的消费级应用,用户粘性极高。",
+        "status": "GA"
       }
     ],
     "competitors": [
@@ -9630,6 +9684,20 @@
       "Hailuo 视频",
       "多模态",
       "港股"
+    ],
+    "products": [
+      {
+        "name": "海螺 (Hailuo)",
+        "category": "生成式媒体",
+        "description": "以视频与语音生成出圈的 AI 产品。",
+        "status": "GA"
+      },
+      {
+        "name": "abab 大模型",
+        "category": "大模型",
+        "description": "自研的多模态大模型系列。",
+        "status": "GA"
+      }
     ]
   },
   "zhipu": {
@@ -9689,6 +9757,20 @@
       "Z.ai",
       "清华",
       "港股首家"
+    ],
+    "products": [
+      {
+        "name": "GLM 系列",
+        "category": "大模型",
+        "description": "自研的通用与多模态大模型,含开源版本。",
+        "status": "GA"
+      },
+      {
+        "name": "智谱清言",
+        "category": "AI 助手",
+        "description": "面向消费者与企业的对话助手。",
+        "status": "GA"
+      }
     ]
   },
   "stepfun": {
@@ -9792,6 +9874,20 @@
       "AI 视觉",
       "SenseCore",
       "港股"
+    ],
+    "products": [
+      {
+        "name": "日日新 (SenseNova)",
+        "category": "大模型",
+        "description": "商汤的大模型体系,覆盖语言与多模态。",
+        "status": "GA"
+      },
+      {
+        "name": "大装置 (AIDC)",
+        "category": "AI 算力基础设施",
+        "description": "自建的大规模 AI 算力基础设施,对外提供算力服务。",
+        "status": "GA"
+      }
     ]
   },
   "iflytek": {
@@ -9844,6 +9940,20 @@
       "智能语音",
       "教育硬件",
       "自主可控"
+    ],
+    "products": [
+      {
+        "name": "讯飞星火 (Spark)",
+        "category": "大模型",
+        "description": "科大讯飞的认知大模型,强调国产算力训练。",
+        "status": "GA"
+      },
+      {
+        "name": "翻译机 / 听见",
+        "category": "语音 AI 产品",
+        "description": "翻译机、会议转写等语音 AI 硬件与应用。",
+        "status": "GA"
+      }
     ]
   },
   "cambricon": {
@@ -9901,6 +10011,14 @@
       "国产算力",
       "科创板",
       "AI 芯片第一股"
+    ],
+    "products": [
+      {
+        "name": "思元 (MLU) 系列",
+        "category": "AI 加速卡",
+        "description": "面向数据中心 AI 训练/推理的国产加速卡,替代英伟达 GPU。",
+        "status": "GA"
+      }
     ]
   },
   "moorethreads": {
@@ -10061,6 +10179,20 @@
       "x86 CPU",
       "国产算力",
       "科创板"
+    ],
+    "products": [
+      {
+        "name": "海光 CPU",
+        "category": "服务器 CPU",
+        "description": "源于 AMD x86 授权的国产服务器 CPU,兼容主流生态。",
+        "status": "GA"
+      },
+      {
+        "name": "深算 DCU",
+        "category": "AI 加速卡",
+        "description": "类 GPU 的通用计算加速卡,用于 AI 训练/推理与高性能计算。",
+        "status": "GA"
+      }
     ]
   },
   "ubtech": {
@@ -13408,6 +13540,20 @@
       "可灵 Kling",
       "AI 视频",
       "港股"
+    ],
+    "products": [
+      {
+        "name": "可灵 (Kling)",
+        "category": "视频生成",
+        "description": "全球出圈的 AI 视频生成大模型,对标 Sora/Veo。",
+        "status": "GA"
+      },
+      {
+        "name": "快手 App",
+        "category": "短视频平台",
+        "description": "中国头部短视频与直播电商平台。",
+        "status": "GA"
+      }
     ]
   },
   "cartesia": {
