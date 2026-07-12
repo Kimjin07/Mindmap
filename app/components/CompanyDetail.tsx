@@ -476,7 +476,11 @@ export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyD
                       <td>{f.year}</td>
                       <td>{fmtB(f.revenue)}</td>
                       <td className={f.netIncome < 0 ? "neg" : ""}>{fmtB(f.netIncome)}</td>
-                      <td>{f.revenue ? ((f.netIncome / f.revenue) * 100).toFixed(0) : "—"}%</td>
+                      <td>
+                        {f.revenue && Math.abs(f.netIncome / f.revenue) < 5
+                          ? `${((f.netIncome / f.revenue) * 100).toFixed(0)}%`
+                          : "—"}
+                      </td>
                     </tr>
                   ))}
                 </tbody>
