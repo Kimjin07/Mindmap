@@ -1715,7 +1715,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "COHR",
-      "marketCapB": 12
+      "marketCapB": 12,
+      "grossMargin": "35%",
+      "revenueTTM": "$5.7B",
+      "peRatio": 45
     },
     "business": "光模块、激光与光电子器件，为 AI 数据中心高速光互联提供核心元件。",
     "businessEn": "Optical modules, lasers and photonic components, supplying core parts for high-speed optical interconnect in AI data centers.",
@@ -1764,6 +1767,23 @@
       {
         "name": "Jim Anderson",
         "title": "CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 5.16,
+        "netIncome": -0.26
+      },
+      {
+        "year": 2024,
+        "revenue": 4.71,
+        "netIncome": -0.16
+      },
+      {
+        "year": 2025,
+        "revenue": 5.7,
+        "netIncome": 0.1
       }
     ]
   },
@@ -2648,7 +2668,10 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "2317",
-      "marketCapB": 90
+      "marketCapB": 90,
+      "grossMargin": "6%",
+      "revenueTTM": "$215B",
+      "peRatio": 15
     },
     "business": "消费电子与服务器代工(含英伟达 AI 服务器)，推进「灯塔工厂」智能制造。",
     "businessEn": "Consumer-electronics and server contract manufacturing (including NVIDIA AI servers), advancing \"lighthouse factory\" smart manufacturing.",
@@ -2694,6 +2717,23 @@
     "keyCustomers": [
       "apple",
       "nvda"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 222,
+        "netIncome": 4.7
+      },
+      {
+        "year": 2023,
+        "revenue": 210,
+        "netIncome": 4.5
+      },
+      {
+        "year": 2024,
+        "revenue": 210,
+        "netIncome": 4.6
+      }
     ]
   },
   "schneider": {
@@ -2722,7 +2762,10 @@
     "stock": {
       "exchange": "EPA",
       "ticker": "SU",
-      "marketCapB": 140
+      "marketCapB": 140,
+      "grossMargin": "42%",
+      "revenueTTM": "$41B",
+      "peRatio": 28
     },
     "business": "数据中心供配电与制冷(EcoStruxure)、工业自动化，AI 数据中心基建核心供应商。",
     "businessEn": "Data-center power distribution and cooling (EcoStruxure) and industrial automation — a core supplier of AI-data-center infrastructure.",
@@ -2767,6 +2810,23 @@
     ],
     "partners": [
       "nvda"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 36,
+        "netIncome": 3.5
+      },
+      {
+        "year": 2023,
+        "revenue": 38,
+        "netIncome": 4
+      },
+      {
+        "year": 2024,
+        "revenue": 41,
+        "netIncome": 4.5
+      }
     ]
   },
   "envicool": {
@@ -2855,7 +2915,10 @@
     "stock": {
       "exchange": "SZSE",
       "ticker": "300308",
-      "marketCapB": 30
+      "marketCapB": 30,
+      "grossMargin": "33%",
+      "revenueTTM": "$4.5B",
+      "peRatio": 25
     },
     "business": "800G/1.6T 高速光模块，AI 数据中心光互联核心供应商。",
     "businessEn": "800G/1.6T high-speed optical modules — a core supplier of optical interconnect for AI data centers.",
@@ -2901,6 +2964,23 @@
         "name": "刘圣",
         "title": "董事长兼总裁"
       }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 1.5,
+        "netIncome": 0.18
+      },
+      {
+        "year": 2023,
+        "revenue": 1.6,
+        "netIncome": 0.3
+      },
+      {
+        "year": 2024,
+        "revenue": 3.3,
+        "netIncome": 0.85
+      }
     ]
   },
   "eoptolink": {
@@ -2928,7 +3008,9 @@
     "stock": {
       "exchange": "SZSE",
       "ticker": "300502",
-      "marketCapB": 20
+      "marketCapB": 20,
+      "grossMargin": "35%",
+      "revenueTTM": "$2.0B"
     },
     "business": "高速光模块研发与制造，AI 算力网络受益标的。",
     "businessEn": "R&D and manufacturing of high-speed optical modules — a beneficiary of AI compute networks.",
@@ -2973,6 +3055,23 @@
         "name": "高光荣",
         "title": "董事长"
       }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.4,
+        "netIncome": 0.07
+      },
+      {
+        "year": 2023,
+        "revenue": 0.45,
+        "netIncome": 0.09
+      },
+      {
+        "year": 2024,
+        "revenue": 1.2,
+        "netIncome": 0.4
+      }
     ]
   },
   "skhynix": {
@@ -3001,7 +3100,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "SKHY",
-      "marketCapB": 200
+      "marketCapB": 200,
+      "grossMargin": "50%",
+      "revenueTTM": "$56B",
+      "peRatio": 9
     },
     "business": "DRAM、NAND 闪存与 HBM 高带宽显存三大主业。**HBM 是 AI GPU 最紧的瓶颈部件**，SK 海力士份额长期第一、率先量产 HBM3E 并主供英伟达，是这轮 AI 内存超级周期最大赢家。2026 年 7 月以 ADR 形式登陆纳斯达克(SKHY)，募资 265 亿美元创外国公司美股 IPO 纪录。",
     "businessEn": "Three core businesses: DRAM, NAND flash and HBM high-bandwidth memory. **HBM is the tightest bottleneck part for AI GPUs**, and SK Hynix has long held the No.1 HBM share, was first to mass-produce HBM3E and is NVIDIA's primary supplier — the biggest winner of this AI memory super-cycle. In July 2026 it listed on Nasdaq as an ADR (SKHY), raising $26.5 billion in a record IPO for a foreign company on U.S. markets.",
@@ -3059,6 +3161,23 @@
       {
         "name": "郭鲁正 (Kwak Noh-Jung)",
         "title": "CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 24,
+        "netIncome": -6.2
+      },
+      {
+        "year": 2024,
+        "revenue": 48,
+        "netIncome": 14
+      },
+      {
+        "year": 2025,
+        "revenue": 56,
+        "netIncome": 20
       }
     ]
   },
@@ -3172,7 +3291,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "LITE",
-      "marketCapB": 18
+      "marketCapB": 18,
+      "grossMargin": "35%",
+      "revenueTTM": "$1.8B"
     },
     "business": "激光器、EML/光芯片与光器件。目前少数能量产 200G/lane EML（1.6T 光模块核心元件）的厂商，另有大额光交换(OCS)订单。2026 营收高速增长。",
     "businessEn": "Lasers, EML/photonic chips and optical components. One of the few able to volume-produce 200G/lane EML (the core part of 1.6T optical modules), plus large optical-circuit-switch (OCS) orders. Revenue is growing fast in 2026.",
@@ -3218,6 +3339,23 @@
       {
         "name": "Alan Lowe",
         "title": "总裁兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 1.77,
+        "netIncome": -0.13
+      },
+      {
+        "year": 2024,
+        "revenue": 1.36,
+        "netIncome": -0.9
+      },
+      {
+        "year": 2025,
+        "revenue": 1.8,
+        "netIncome": 0.05
       }
     ]
   },
@@ -3314,7 +3452,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "CIEN",
-      "marketCapB": 16
+      "marketCapB": 16,
+      "grossMargin": "43%",
+      "revenueTTM": "$4.0B",
+      "peRatio": 40
     },
     "business": "相干光传输、路由与网络自动化软件，连接 AI 数据中心之间的长途 / 城域网络。",
     "businessEn": "Coherent optical transport, routing and network-automation software connecting AI data centers over long-haul and metro networks.",
@@ -3355,6 +3496,23 @@
       {
         "name": "Gary Smith",
         "title": "总裁兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 3.6,
+        "netIncome": 0.15
+      },
+      {
+        "year": 2023,
+        "revenue": 4.4,
+        "netIncome": 0.23
+      },
+      {
+        "year": 2024,
+        "revenue": 4,
+        "netIncome": 0.09
       }
     ]
   },
@@ -5244,7 +5402,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "ASX",
-      "marketCapB": 25
+      "marketCapB": 25,
+      "grossMargin": "16%",
+      "revenueTTM": "$19B",
+      "peRatio": 18
     },
     "business": "芯片封装与测试，承接先进封装外包需求。",
     "businessEn": "Chip packaging and testing, absorbing the outsourced demand for advanced packaging.",
@@ -5295,6 +5456,23 @@
       {
         "name": "吴田玉 (Tien Wu)",
         "title": "营运长"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 20,
+        "netIncome": 2.4
+      },
+      {
+        "year": 2023,
+        "revenue": 19,
+        "netIncome": 1.7
+      },
+      {
+        "year": 2024,
+        "revenue": 19,
+        "netIncome": 1.6
       }
     ]
   },
@@ -8899,7 +9077,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "CRWV",
-      "marketCapB": 70
+      "marketCapB": 70,
+      "grossMargin": "60%",
+      "revenueTTM": "$5.0B"
     },
     "business": "以英伟达 GPU 为核心的 AI 云算力租赁，微软、OpenAI 等为大客户。",
     "businessEn": "AI cloud compute rental centered on NVIDIA GPUs, with Microsoft, OpenAI and others as major customers.",
@@ -8950,6 +9130,23 @@
       "nvda",
       "openai",
       "msft"
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.23,
+        "netIncome": -0.59
+      },
+      {
+        "year": 2024,
+        "revenue": 1.92,
+        "netIncome": -0.86
+      },
+      {
+        "year": 2025,
+        "revenue": 5,
+        "netIncome": -0.5
+      }
     ]
   },
   "lambda": {
@@ -9483,7 +9680,9 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "SNOW",
-      "marketCapB": 60
+      "marketCapB": 60,
+      "grossMargin": "67%",
+      "revenueTTM": "$4.0B"
     },
     "business": "云数据云与 Cortex AI，帮企业在数据上直接跑 AI。",
     "businessEn": "A cloud data platform plus Cortex AI, letting enterprises run AI directly on their data.",
@@ -9524,6 +9723,23 @@
       {
         "name": "Sridhar Ramaswamy",
         "title": "CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 2.07,
+        "netIncome": -0.8
+      },
+      {
+        "year": 2024,
+        "revenue": 2.81,
+        "netIncome": -0.84
+      },
+      {
+        "year": 2025,
+        "revenue": 3.63,
+        "netIncome": -1.29
       }
     ]
   },
@@ -12027,7 +12243,9 @@
     "stock": {
       "exchange": "SSE",
       "ticker": "688256",
-      "marketCapB": 80
+      "marketCapB": 80,
+      "grossMargin": "60%",
+      "revenueTTM": "$1B"
     },
     "business": "思元(MLU)系列 AI 训练/推理芯片，国产算力替代核心标的。",
     "businessEn": "The Siyuan (MLU) series of AI training/inference chips — a core beneficiary of China's push for domestic compute.",
@@ -12063,6 +12281,23 @@
         "category": "AI 加速卡",
         "description": "面向数据中心 AI 训练/推理的国产加速卡,替代英伟达 GPU。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.1,
+        "netIncome": -0.12
+      },
+      {
+        "year": 2024,
+        "revenue": 0.16,
+        "netIncome": -0.11
+      },
+      {
+        "year": 2025,
+        "revenue": 1,
+        "netIncome": 0.15
       }
     ]
   },
@@ -12730,7 +12965,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "TEM",
-      "marketCapB": 12
+      "marketCapB": 12,
+      "grossMargin": "60%",
+      "revenueTTM": "$0.7B"
     },
     "business": "汇聚基因组与临床数据，用 AI 做精准医疗与药物研发辅助。",
     "businessEn": "Aggregates genomic and clinical data, using AI for precision medicine and drug-development support.",
@@ -12765,6 +13002,23 @@
         "category": "医疗 AI",
         "description": "汇聚基因组与临床数据,用 AI 辅助肿瘤等疾病的精准诊疗。",
         "status": "GA"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.32,
+        "netIncome": -0.29
+      },
+      {
+        "year": 2023,
+        "revenue": 0.53,
+        "netIncome": -0.21
+      },
+      {
+        "year": 2024,
+        "revenue": 0.69,
+        "netIncome": -0.7
       }
     ]
   },
@@ -13362,7 +13616,9 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "FIG",
-      "marketCapB": 40
+      "marketCapB": 40,
+      "grossMargin": "90%",
+      "revenueTTM": "$1.0B"
     },
     "business": "云端协作设计平台，Figma AI 辅助生成与自动化设计。",
     "businessEn": "A cloud collaborative-design platform with Figma AI for generation and design automation.",
@@ -13403,6 +13659,23 @@
       {
         "name": "Dylan Field",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.5,
+        "netIncome": 0.74
+      },
+      {
+        "year": 2024,
+        "revenue": 0.75,
+        "netIncome": -0.73
+      },
+      {
+        "year": 2025,
+        "revenue": 1,
+        "netIncome": 0.1
       }
     ]
   },
@@ -13506,7 +13779,10 @@
     "stock": {
       "exchange": "TSE",
       "ticker": "285A",
-      "marketCapB": 15
+      "marketCapB": 15,
+      "grossMargin": "30%",
+      "revenueTTM": "$12B",
+      "peRatio": 15
     },
     "business": "NAND 闪存与企业级 SSD 主要厂商，闪存技术的开创者。",
     "businessEn": "A major maker of NAND flash and enterprise SSDs — the originator of flash memory.",
@@ -13543,6 +13819,23 @@
       {
         "name": "太田博朗 (Hiroo Ota)",
         "title": "总裁兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 8,
+        "netIncome": -1.4
+      },
+      {
+        "year": 2024,
+        "revenue": 8.8,
+        "netIncome": -0.16
+      },
+      {
+        "year": 2025,
+        "revenue": 12,
+        "netIncome": 0.9
       }
     ]
   },
@@ -13706,7 +13999,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "CCJ",
-      "marketCapB": 45
+      "marketCapB": 45,
+      "grossMargin": "25%",
+      "revenueTTM": "$2.2B",
+      "peRatio": 100
     },
     "business": "铀矿开采与核燃料服务，并持有西屋电气股权，核电复兴的最上游受益者。",
     "businessEn": "Uranium mining and nuclear-fuel services, plus a stake in Westinghouse — an upstream beneficiary of the nuclear renaissance.",
@@ -13740,6 +14036,23 @@
       {
         "name": "Tim Gitzel",
         "title": "总裁兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 1.5,
+        "netIncome": 0.09
+      },
+      {
+        "year": 2023,
+        "revenue": 2,
+        "netIncome": 0.26
+      },
+      {
+        "year": 2024,
+        "revenue": 2.2,
+        "netIncome": 0.13
       }
     ]
   },
@@ -14676,7 +14989,10 @@
     "stock": {
       "exchange": "TSE",
       "ticker": "4063",
-      "marketCapB": 90
+      "marketCapB": 90,
+      "grossMargin": "38%",
+      "revenueTTM": "$18B",
+      "peRatio": 20
     },
     "business": "半导体硅片、光刻胶、PVC 与有机硅，多项材料全球份额第一。",
     "businessEn": "Semiconductor silicon wafers, photoresist, PVC and silicones — No.1 in the world in several materials.",
@@ -14722,6 +15038,23 @@
       {
         "name": "斉藤恭彦 (Yasuhiko Saitoh)",
         "title": "总裁"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 17,
+        "netIncome": 4.2
+      },
+      {
+        "year": 2024,
+        "revenue": 16,
+        "netIncome": 3.9
+      },
+      {
+        "year": 2025,
+        "revenue": 18,
+        "netIncome": 4.3
       }
     ]
   },
@@ -15126,7 +15459,10 @@
     "stock": {
       "exchange": "TSE",
       "ticker": "4062",
-      "marketCapB": 8
+      "marketCapB": 8,
+      "grossMargin": "25%",
+      "revenueTTM": "$2.5B",
+      "peRatio": 40
     },
     "business": "IC 封装载板(ABF 基板)，英伟达/英特尔高端芯片的关键载板供应商。",
     "businessEn": "IC packaging substrates (ABF substrates), a key supplier for high-end NVIDIA/Intel chips.",
@@ -15165,6 +15501,23 @@
       {
         "name": "川岛宏司 (Koji Kawashima)",
         "title": "总裁兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 2.6,
+        "netIncome": 0.34
+      },
+      {
+        "year": 2024,
+        "revenue": 2.4,
+        "netIncome": 0.2
+      },
+      {
+        "year": 2025,
+        "revenue": 2.5,
+        "netIncome": 0.25
       }
     ]
   },
@@ -15397,7 +15750,9 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "MP",
-      "marketCapB": 15
+      "marketCapB": 15,
+      "grossMargin": "10%",
+      "revenueTTM": "$0.2B"
     },
     "business": "稀土开采(芒廷帕斯矿)与钕铁硼永磁制造，美国国防部入股，机器人/电动车受益。",
     "businessEn": "Rare-earth mining (Mountain Pass) and NdFeB permanent-magnet manufacturing; the U.S. DoD took a stake; a beneficiary of robotics/EV demand.",
@@ -15439,6 +15794,23 @@
       {
         "name": "James Litinsky",
         "title": "创始人、董事长兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.53,
+        "netIncome": 0.29
+      },
+      {
+        "year": 2023,
+        "revenue": 0.25,
+        "netIncome": 0.02
+      },
+      {
+        "year": 2024,
+        "revenue": 0.2,
+        "netIncome": -0.06
       }
     ]
   },
@@ -16523,7 +16895,10 @@
     "stock": {
       "exchange": "HKEX",
       "ticker": "1024",
-      "marketCapB": 30
+      "marketCapB": 30,
+      "grossMargin": "50%",
+      "revenueTTM": "$18B",
+      "peRatio": 12
     },
     "business": "短视频与直播平台，自研可灵(Kling)AI 视频生成，效果对标 Sora。",
     "businessEn": "A short-video and livestreaming platform whose in-house Kling AI video generator rivals Sora.",
@@ -16565,6 +16940,23 @@
       {
         "name": "程一笑",
         "title": "创始人兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 13,
+        "netIncome": -1.4
+      },
+      {
+        "year": 2023,
+        "revenue": 16,
+        "netIncome": 0.85
+      },
+      {
+        "year": 2024,
+        "revenue": 18,
+        "netIncome": 2.6
       }
     ]
   },
@@ -16893,7 +17285,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "ALAB",
-      "marketCapB": 20
+      "marketCapB": 20,
+      "grossMargin": "75%",
+      "revenueTTM": "$0.9B"
     },
     "business": "重定时器、CXL 内存控制器与连接方案，解决 GPU 集群内高速互联瓶颈。",
     "businessEn": "Retimers, CXL memory controllers and connectivity solutions that solve high-speed interconnect bottlenecks inside GPU clusters.",
@@ -16936,6 +17330,23 @@
         "name": "Jitendra Mohan",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.12,
+        "netIncome": -0.02
+      },
+      {
+        "year": 2024,
+        "revenue": 0.4,
+        "netIncome": 0.08
+      },
+      {
+        "year": 2025,
+        "revenue": 0.9,
+        "netIncome": 0.2
+      }
     ]
   },
   "credo": {
@@ -16963,7 +17374,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "CRDO",
-      "marketCapB": 12
+      "marketCapB": 12,
+      "grossMargin": "63%",
+      "revenueTTM": "$0.44B",
+      "peRatio": 90
     },
     "business": "有源电缆(AEC)、光/电 SerDes 与连接芯片，AI 机柜高速互联受益者。",
     "businessEn": "Active electrical cables (AEC), optical/electrical SerDes and connectivity chips — a beneficiary of AI-rack high-speed interconnect.",
@@ -17004,6 +17418,23 @@
       "msft",
       "amzn",
       "meta"
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.18,
+        "netIncome": -0.02
+      },
+      {
+        "year": 2024,
+        "revenue": 0.19,
+        "netIncome": 0.01
+      },
+      {
+        "year": 2025,
+        "revenue": 0.44,
+        "netIncome": 0.05
+      }
     ]
   },
   "sourcegraph": {
@@ -19207,7 +19638,10 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "3661",
-      "marketCapB": 12
+      "marketCapB": 12,
+      "grossMargin": "20%",
+      "revenueTTM": "$1.3B",
+      "peRatio": 40
     },
     "business": "为云厂/大客户做先进制程 AI ASIC 的设计与量产落地，深度绑定台积电 CoWoS。",
     "businessEn": "Designs and brings to volume advanced-node AI ASICs for cloud/large customers, deeply tied to TSMC CoWoS.",
@@ -19249,6 +19683,23 @@
       {
         "name": "沈翔霖 (Johnny Shen)",
         "title": "董事长兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 0.9,
+        "netIncome": 0.14
+      },
+      {
+        "year": 2023,
+        "revenue": 1.15,
+        "netIncome": 0.16
+      },
+      {
+        "year": 2024,
+        "revenue": 1.3,
+        "netIncome": 0.2
       }
     ]
   },
@@ -20626,7 +21077,10 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "2454",
-      "marketCapB": 70
+      "marketCapB": 70,
+      "grossMargin": "48%",
+      "revenueTTM": "$16.5B",
+      "peRatio": 20
     },
     "business": "天玑(Dimensity)手机 SoC 与各类芯片，端侧 AI 算力持续升级，并与英伟达合作。",
     "businessEn": "Dimensity smartphone SoCs and a broad chip lineup, with steadily upgraded on-device AI, and a partnership with NVIDIA.",
@@ -20678,6 +21132,23 @@
       {
         "name": "蔡力行 (Rick Tsai)",
         "title": "副董事长兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 18.5,
+        "netIncome": 4
+      },
+      {
+        "year": 2023,
+        "revenue": 14,
+        "netIncome": 2.4
+      },
+      {
+        "year": 2024,
+        "revenue": 16.5,
+        "netIncome": 3.5
       }
     ]
   },
@@ -22434,7 +22905,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "CRWD",
-      "marketCapB": 110
+      "marketCapB": 110,
+      "grossMargin": "75%",
+      "revenueTTM": "$4.5B",
+      "peRatio": 90
     },
     "business": "云原生端点检测与响应(EDR)，Charlotte AI 用大模型自动化威胁狩猎与响应。",
     "businessEn": "Cloud-native endpoint detection and response (EDR); Charlotte AI uses large models to automate threat hunting and response.",
@@ -22476,6 +22950,23 @@
       {
         "name": "George Kurtz",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 2.24,
+        "netIncome": -0.18
+      },
+      {
+        "year": 2024,
+        "revenue": 3.06,
+        "netIncome": 0.09
+      },
+      {
+        "year": 2025,
+        "revenue": 3.95,
+        "netIncome": -0.02
       }
     ]
   },
@@ -22591,7 +23082,9 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "S",
-      "marketCapB": 8
+      "marketCapB": 8,
+      "grossMargin": "74%",
+      "revenueTTM": "$0.85B"
     },
     "business": "以 AI 为核心的端点/云安全平台，主打自主检测与响应。",
     "businessEn": "An AI-centric endpoint/cloud security platform focused on autonomous detection and response.",
@@ -22627,6 +23120,23 @@
         "name": "Tomer Weingarten",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 0.42,
+        "netIncome": -0.37
+      },
+      {
+        "year": 2024,
+        "revenue": 0.62,
+        "netIncome": -0.35
+      },
+      {
+        "year": 2025,
+        "revenue": 0.82,
+        "netIncome": -0.29
+      }
     ]
   },
   "zscaler": {
@@ -22653,7 +23163,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "ZS",
-      "marketCapB": 45
+      "marketCapB": 45,
+      "grossMargin": "78%",
+      "revenueTTM": "$2.7B"
     },
     "business": "零信任网络访问(SASE)云平台，用 AI 分析海量流量做威胁防护。",
     "businessEn": "A zero-trust network-access (SASE) cloud platform that uses AI to analyze massive traffic for threat protection.",
@@ -22688,6 +23200,23 @@
       {
         "name": "Jay Chaudhry",
         "title": "创始人、董事长兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2023,
+        "revenue": 1.62,
+        "netIncome": -0.2
+      },
+      {
+        "year": 2024,
+        "revenue": 2.17,
+        "netIncome": -0.06
+      },
+      {
+        "year": 2025,
+        "revenue": 2.66,
+        "netIncome": 0.1
       }
     ]
   },
@@ -23160,7 +23689,10 @@
     "stock": {
       "exchange": "SSE",
       "ticker": "601138",
-      "marketCapB": 60
+      "marketCapB": 60,
+      "grossMargin": "8%",
+      "revenueTTM": "$85B",
+      "peRatio": 40
     },
     "business": "富士康旗下，AI 服务器与云设备代工，英伟达 GB200 机柜主力组装方。",
     "businessEn": "A Foxconn subsidiary; contract-manufactures AI servers and cloud gear, a primary assembler of NVIDIA GB200 racks.",
@@ -23209,6 +23741,23 @@
     ],
     "partners": [
       "nvda"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 72,
+        "netIncome": 3
+      },
+      {
+        "year": 2023,
+        "revenue": 68,
+        "netIncome": 3
+      },
+      {
+        "year": 2024,
+        "revenue": 85,
+        "netIncome": 3.3
+      }
     ]
   },
   "quantacomputer": {
@@ -23237,7 +23786,10 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "2382",
-      "marketCapB": 40
+      "marketCapB": 40,
+      "grossMargin": "8%",
+      "revenueTTM": "$45B",
+      "peRatio": 20
     },
     "business": "笔电与 AI 服务器代工，英伟达 AI 服务器核心组装厂之一。",
     "businessEn": "Contract-manufactures laptops and AI servers; one of the core assemblers of NVIDIA AI servers.",
@@ -23282,6 +23834,23 @@
       "msft",
       "meta",
       "googl"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 37,
+        "netIncome": 1
+      },
+      {
+        "year": 2023,
+        "revenue": 33,
+        "netIncome": 1.1
+      },
+      {
+        "year": 2024,
+        "revenue": 45,
+        "netIncome": 1.3
+      }
     ]
   },
   "wiwynn": {
@@ -23383,7 +23952,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "APH",
-      "marketCapB": 110
+      "marketCapB": 110,
+      "grossMargin": "33%",
+      "revenueTTM": "$15B",
+      "peRatio": 30
     },
     "business": "连接器、高速铜缆与互连方案，GB200 机柜内铜缆互联的最大受益者之一。",
     "businessEn": "Connectors, high-speed copper cabling and interconnect solutions — one of the biggest beneficiaries of in-rack copper interconnect in GB200 systems.",
@@ -23422,6 +23994,23 @@
       {
         "name": "Adam Norwitt",
         "title": "总裁兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 12.6,
+        "netIncome": 2
+      },
+      {
+        "year": 2023,
+        "revenue": 12.6,
+        "netIncome": 1.9
+      },
+      {
+        "year": 2024,
+        "revenue": 15.2,
+        "netIncome": 2.3
       }
     ]
   },
@@ -23696,7 +24285,10 @@
     "stock": {
       "exchange": "TWSE",
       "ticker": "2308",
-      "marketCapB": 100
+      "marketCapB": 100,
+      "grossMargin": "30%",
+      "revenueTTM": "$13.5B",
+      "peRatio": 30
     },
     "business": "开关电源、电源管理与散热，AI 服务器高功率电源与液冷的核心供应商。",
     "businessEn": "Switching power supplies, power management and cooling — a core supplier of AI-server high-power delivery and liquid cooling.",
@@ -23746,6 +24338,23 @@
     ],
     "partners": [
       "nvda"
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 12,
+        "netIncome": 1.1
+      },
+      {
+        "year": 2023,
+        "revenue": 13.2,
+        "netIncome": 1.3
+      },
+      {
+        "year": 2024,
+        "revenue": 13.5,
+        "netIncome": 1.4
+      }
     ]
   },
   "mpwr": {
@@ -23764,7 +24373,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "MPWR",
-      "marketCapB": 35
+      "marketCapB": 35,
+      "grossMargin": "55%",
+      "revenueTTM": "$2.2B",
+      "peRatio": 60
     },
     "business": "电源管理集成电路(PMIC)与电源模块，为 GPU 供电的关键芯片供应商。",
     "competitors": [
@@ -23813,6 +24425,23 @@
       {
         "name": "邢正人 (Michael Hsing)",
         "title": "创始人、总裁兼 CEO"
+      }
+    ],
+    "financials": [
+      {
+        "year": 2022,
+        "revenue": 1.8,
+        "netIncome": 0.44
+      },
+      {
+        "year": 2023,
+        "revenue": 1.82,
+        "netIncome": 0.43
+      },
+      {
+        "year": 2024,
+        "revenue": 2.2,
+        "netIncome": 0.62
       }
     ]
   },
