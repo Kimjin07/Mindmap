@@ -3198,6 +3198,12 @@
         "description": "高速光收发模块,2026 涨幅最猛光模块股之一。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "林清源 (Thompson Lin)",
+        "title": "创始人、董事长兼 CEO"
+      }
     ]
   },
   "cien": {
@@ -8657,6 +8663,12 @@
         "category": "AI 芯片",
         "description": "把 Transformer 直接刻进硅片的专用推理 ASIC,赌极致速度。",
         "status": "研发"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Gavin Uberti",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -17231,6 +17243,12 @@
       "AI 视频",
       "运镜",
       "社媒"
+    ],
+    "leadership": [
+      {
+        "name": "Alex Mashrabov",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "playht": {
@@ -18362,6 +18380,12 @@
         "description": "高精度转录+说话人分离/摘要等语音理解 API。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Dylan Fox",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "dmatrix": {
@@ -18622,6 +18646,12 @@
         "description": "问诊中实时聆听、自动生成结构化病历草稿。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Alexandre Lebrun",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "suki": {
@@ -18673,6 +18703,12 @@
         "category": "医疗 AI",
         "description": "面向临床医生的 AI 语音助手,口述病历、查信息、开医嘱。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Punit Soni",
+        "title": "创始人兼 CEO"
       }
     ]
   },
@@ -19117,6 +19153,12 @@
         "description": "AI 服务器代工主力,纬颖母公司。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "林宪铭 (Simon Lin)",
+        "title": "董事长"
+      }
     ]
   },
   "inventec": {
@@ -19420,6 +19462,12 @@
         "category": "散热",
         "description": "风扇、热管、均温板与液冷,AI 服务器散热龙头。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "沈庆行",
+        "title": "董事长"
       }
     ]
   },
@@ -20096,6 +20144,16 @@
         "description": "为云厂商做定制 AI 芯片的合作方之一。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "蔡明介 (Ming-Kai Tsai)",
+        "title": "董事长"
+      },
+      {
+        "name": "蔡力行 (Rick Tsai)",
+        "title": "副董事长兼 CEO"
+      }
     ]
   },
   "ibm": {
@@ -20178,6 +20236,12 @@
         "category": "量子计算",
         "description": "领先的超导量子计算硬件与云服务。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Arvind Krishna",
+        "title": "董事长兼 CEO"
       }
     ]
   },
@@ -20440,6 +20504,12 @@
         "category": "广告 AI",
         "description": "用 AI 优化广告投放决策。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Jeff Green",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -20721,6 +20791,12 @@
         "category": "量子计算",
         "description": "霍尼韦尔系离子阱量子计算龙头,量子体积领先。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Rajeeb (Raj) Hazra",
+        "title": "CEO"
       }
     ]
   },
@@ -21120,6 +21196,12 @@
         "description": "全球最大数据中心 REIT 之一,出租机房空间/电力/制冷。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Andy Power",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "gds": {
@@ -21379,6 +21461,12 @@
         "category": "资产管理",
         "description": "全球最大资管,含 iShares ETF 系列。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Larry Fink",
+        "title": "创始人、董事长兼 CEO"
       }
     ]
   },
@@ -21974,6 +22062,12 @@
         "description": "把 ML 模型部署到每个端点,自主检测/拦截/回滚。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Tomer Weingarten",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "zscaler": {
@@ -22029,6 +22123,12 @@
         "category": "云安全",
         "description": "零信任云安全平台,每次访问先经其云平台验证检查。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Jay Chaudhry",
+        "title": "创始人、董事长兼 CEO"
       }
     ]
   },
@@ -22286,6 +22386,12 @@
         "description": "英伟达 GPU AI 服务器整机与液冷机柜龙头,以快速上市著称。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "梁见后 (Charles Liang)",
+        "title": "创始人、董事长兼 CEO"
+      }
     ]
   },
   "dell": {
@@ -22373,6 +22479,12 @@
         "category": "PC",
         "description": "内置 NPU 的新一代商用电脑。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Michael Dell",
+        "title": "创始人、董事长兼 CEO"
       }
     ]
   },
@@ -22582,6 +22694,12 @@
         "description": "为英伟达与各大云厂组装 HGX/GB200 整机柜 AI 服务器。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "林百里 (Barry Lam)",
+        "title": "创办人兼董事长"
+      }
     ]
   },
   "wiwynn": {
@@ -22642,6 +22760,16 @@
         "description": "为微软/Meta 等超大规模云厂量身定制数据中心服务器。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "洪丽甯 (Emily Hong)",
+        "title": "董事长兼首席战略官"
+      },
+      {
+        "name": "林伟能 (William Lin)",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "amphenol": {
@@ -22700,6 +22828,12 @@
         "category": "连接器",
         "description": "AI 机柜内高速信号连接与铜缆互联,受益 GB200 等整机柜。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Adam Norwitt",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -23066,6 +23200,12 @@
         "category": "电源芯片",
         "description": "高效多相电源方案,深度绑定英伟达 GPU 供电。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "邢正人 (Michael Hsing)",
+        "title": "创始人、总裁兼 CEO"
       }
     ]
   },
