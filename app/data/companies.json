@@ -1577,6 +1577,12 @@
         "description": "不间断电源等数据中心供电设备。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Paulo Ruiz",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "nee": {
@@ -2816,6 +2822,12 @@
         "description": "全球高速光模块出货龙头,AI 数据中心 GPU 互联主力供应。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "刘圣",
+        "title": "董事长兼总裁"
+      }
     ]
   },
   "eoptolink": {
@@ -3039,6 +3051,16 @@
       "DRAM",
       "代工",
       "存储龙头"
+    ],
+    "leadership": [
+      {
+        "name": "全永铉 (Jun Young-hyun)",
+        "title": "副会长、联席 CEO(半导体 DS)"
+      },
+      {
+        "name": "卢泰文 (Roh Tae-moon)",
+        "title": "联席 CEO(设备体验 DX)"
+      }
     ]
   },
   "lite": {
@@ -5098,6 +5120,16 @@
         "description": "2.5D/3D 集成芯粒与 HBM,决定 AI 芯片性能与良率。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "张虔生 (Jason Chang)",
+        "title": "创办人、董事长兼 CEO"
+      },
+      {
+        "name": "吴田玉 (Tien Wu)",
+        "title": "营运长"
+      }
     ]
   },
   "amkr": {
@@ -5175,6 +5207,12 @@
         "category": "封装测试",
         "description": "全球第二大封装测试厂,在美国亚利桑那建先进封装厂。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Kevin Engel",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -6052,6 +6090,12 @@
       "亚马逊",
       "DCVC",
       "Playground Global"
+    ],
+    "leadership": [
+      {
+        "name": "Peggy Johnson",
+        "title": "CEO"
+      }
     ]
   },
   "apptronik": {
@@ -10591,6 +10635,12 @@
       "AI 陪伴",
       "角色扮演",
       "对话娱乐"
+    ],
+    "leadership": [
+      {
+        "name": "Karandeep Anand",
+        "title": "CEO"
+      }
     ]
   },
   "canva": {
@@ -12579,6 +12629,12 @@
         "description": "把光互连直接集成进芯片,突破电互联的带宽与功耗瓶颈。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Mark Wade",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "celestial": {
@@ -13144,6 +13200,12 @@
         "category": "存储芯片",
         "description": "NAND 闪存的发明者,全球主要制造商之一。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "太田博朗 (Hiroo Ota)",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -14274,6 +14336,12 @@
         "description": "先进制程关键感光材料,EUV 光刻胶领先供应商。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "斉藤恭彦 (Yasuhiko Saitoh)",
+        "title": "总裁"
+      }
     ]
   },
   "sumco": {
@@ -14696,6 +14764,12 @@
         "category": "先进封装",
         "description": "最高端的 IC 封装载板,连接高端 GPU 上万引脚的「桥」。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "川岛宏司 (Koji Kawashima)",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -17428,6 +17502,12 @@
         "description": "码垛/拆垛、货车装卸、拣选的工业级智能操作机器人。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Samir Menon",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "cobot": {
@@ -17768,6 +17848,12 @@
         "category": "AI 数据",
         "description": "为前沿实验室匹配专家、供应高质量专业训练数据。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Brendan Foody",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -22894,6 +22980,12 @@
         "category": "散热",
         "description": "含液冷的数据中心供配电与散热方案。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "郑平",
+        "title": "董事长兼 CEO"
       }
     ]
   },
