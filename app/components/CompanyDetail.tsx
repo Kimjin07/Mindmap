@@ -109,19 +109,23 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
   };
   const en = lang === "en";
 
-  // 实时股价：初始用服务端 live，之后每 60 秒轮询 /api/quote 刷新（仅美股、仅标签页可见时）。
-  type LiveQuote = { price?: number; changePct?: number; marketCapB?: number; week52Low?: number; week52High?: number; ts?: number };
+  // 实时股价：任何有股票代码的公司都轮询 Yahoo（全球市场），每 60 秒刷新一次（仅标签页可见时）。
+  type LiveQuote = { price?: number; changePct?: number; marketCapB?: number; week52Low?: number; week52High?: number; history?: { date: string; price: number }[]; currency?: string; ts?: number };
   const [liveQuote, setLiveQuote] = useState<LiveQuote | null>(null);
   const [updatedAt, setUpdatedAt] = useState<number | null>(null);
   useEffect(() => {
     setLiveQuote(null);
     setUpdatedAt(null);
     const ticker = c.stock?.ticker;
-    if (!ticker || !live?.live) return; // 只有服务端已取到实时行情（美股）才轮询
+    if (!ticker) return;
+    const ex = c.stock?.exchange ?? "";
     let stopped = false;
     const load = async () => {
       try {
-        const r = await fetch(`/api/quote/${encodeURIComponent(ticker)}`, { cache: "no-store" });
+        const r = await fetch(
+          `/api/quote/${encodeURIComponent(ticker)}?ex=${encodeURIComponent(ex)}`,
+          { cache: "no-store" }
+        );
         const j = await r.json();
         if (!stopped && j?.live) {
           setLiveQuote(j as LiveQuote);
@@ -134,7 +138,14 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
       if (typeof document === "undefined" || document.visibilityState === "visible") load();
     }, 60_000);
     return () => { stopped = true; clearInterval(id); };
-  }, [c.id, c.stock?.ticker, live?.live]);
+  }, [c.id, c.stock?.ticker, c.stock?.exchange]);
+
+  // 货币符号（Yahoo 返回本地货币；美股为 USD）。
+  const CUR_SYM: Record<string, string> = {
+    USD: "$", HKD: "HK$", CNY: "¥", TWD: "NT$", JPY: "¥", KRW: "₩", EUR: "€", GBP: "£", AUD: "A$",
+  };
+  const curSym = CUR_SYM[liveQuote?.currency ?? "USD"] ?? "$";
+  const isLive = !!(liveQuote || live?.live);
 
   const chainIds = new Set<string>();
   Object.values(NODES).forEach((n) => {
@@ -343,7 +354,7 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
             <section className="company-card">
               <h2>
                 {en ? "Stock" : "股票表现"}
-                {live?.live && (
+                {isLive && (
                   <span className={`live-badge${liveQuote ? " pulse" : ""}`}>
                     ● {en ? "live" : "实时"}
                   </span>
@@ -362,7 +373,7 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
                 </div>
                 <div className="cp-stat">
                   <span className="stat-k">股价</span>
-                  <span className="stat-v">{fmtPrice(price)}</span>
+                  <span className="stat-v">{price == null ? "—" : `${curSym}${price.toFixed(2)}`}</span>
                 </div>
                 {dayChangePct && (
                   <div className="cp-stat">
@@ -394,7 +405,7 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
                   <div className="cp-stat">
                     <span className="stat-k">52 周区间</span>
                     <span className="stat-v">
-                      ${week52Low} – ${week52High}
+                      {curSym}{week52Low} – {curSym}{week52High}
                     </span>
                   </div>
                 )}
@@ -405,7 +416,10 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
                   </span>
                 </div>
               </div>
-              {live?.history && live.history.length >= 2 && <MiniChart data={live.history} />}
+              {(() => {
+                const hist = liveQuote?.history ?? live?.history;
+                return hist && hist.length >= 2 ? <MiniChart data={hist} /> : null;
+              })()}
             </section>
           )}
 
