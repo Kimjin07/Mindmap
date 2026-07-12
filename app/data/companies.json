@@ -540,7 +540,11 @@
         "name": "Mark Zuckerberg",
         "title": "创始人、董事长兼 CEO"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/meta-llama",
+      "huggingface": "https://huggingface.co/meta-llama"
+    }
   },
   "amd": {
     "id": "amd",
@@ -1843,7 +1847,11 @@
         "name": "吴泳铭 (Eddie Wu)",
         "title": "CEO"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/QwenLM",
+      "huggingface": "https://huggingface.co/Qwen"
+    }
   },
   "bidu": {
     "id": "bidu",
@@ -5963,7 +5971,11 @@
     ],
     "investors": [
       "幻方量化 High-Flyer"
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/deepseek-ai",
+      "huggingface": "https://huggingface.co/deepseek-ai"
+    }
   },
   "huawei": {
     "id": "huawei",
@@ -6902,7 +6914,12 @@
     "partners": [
       "nvda",
       "msft"
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/mistralai",
+      "x": "https://x.com/MistralAI",
+      "huggingface": "https://huggingface.co/mistralai"
+    }
   },
   "stabilityai": {
     "id": "stabilityai",
@@ -6970,7 +6987,11 @@
         "description": "开源的音频与视频生成模型。",
         "status": "GA"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/Stability-AI",
+      "huggingface": "https://huggingface.co/stabilityai"
+    }
   },
   "midjourney": {
     "id": "midjourney",
@@ -7028,7 +7049,10 @@
         "description": "以艺术审美与画质著称的文生图产品,支持 Discord 与网页。",
         "status": "GA"
       }
-    ]
+    ],
+    "links": {
+      "x": "https://x.com/midjourney"
+    }
   },
   "physicalint": {
     "id": "physicalint",
@@ -7483,7 +7507,10 @@
         "description": "图神经网络(GNN)两大主流开源框架。",
         "status": "开源"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/pyg-team/pytorch_geometric"
+    }
   },
   "mamba": {
     "id": "mamba",
@@ -7531,7 +7558,10 @@
         "description": "状态空间模型(SSM),接近线性复杂度,高效处理超长序列。",
         "status": "开源"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/state-spaces/mamba"
+    }
   },
   "llava": {
     "id": "llava",
@@ -7576,7 +7606,10 @@
         "description": "开源视觉语言模型代表作,让大模型「长出眼睛」。",
         "status": "开源"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/haotian-liu/LLaVA"
+    }
   },
   "openvla": {
     "id": "openvla",
@@ -7624,7 +7657,10 @@
         "description": "开源的视觉-语言-动作模型,输入画面+指令输出机器人动作。",
         "status": "开源"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/openvla/openvla"
+    }
   },
   "ualink": {
     "id": "ualink",
@@ -7832,7 +7868,10 @@
       "英伟达",
       "a16z",
       "Salesforce Ventures"
-    ]
+    ],
+    "links": {
+      "x": "https://x.com/runwayml"
+    }
   },
   "pika": {
     "id": "pika",
@@ -8454,7 +8493,11 @@
     "investors": [
       "a16z",
       "General Catalyst"
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/black-forest-labs",
+      "huggingface": "https://huggingface.co/black-forest-labs"
+    }
   },
   "groq": {
     "id": "groq",
@@ -9191,7 +9234,10 @@
     ],
     "partners": [
       "nvda"
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/togethercomputer"
+    }
   },
   "fireworks": {
     "id": "fireworks",
@@ -9329,7 +9375,12 @@
       "英伟达",
       "谷歌",
       "亚马逊"
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/huggingface",
+      "x": "https://x.com/huggingface",
+      "huggingface": "https://huggingface.co/huggingface"
+    }
   },
   "databricks": {
     "id": "databricks",
@@ -9531,7 +9582,10 @@
         "name": "Edo Liberty",
         "title": "创始人兼 CEO"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/pinecone-io"
+    }
   },
   "weaviate": {
     "id": "weaviate",
@@ -9582,7 +9636,10 @@
         "description": "知名开源向量数据库,RAG 与语义搜索的重要基础设施。",
         "status": "GA"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/weaviate"
+    }
   },
   "chroma": {
     "id": "chroma",
@@ -9634,7 +9691,10 @@
         "description": "对开发者友好、轻量易用的开源向量库,搭 RAG 入门首选。",
         "status": "GA"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/chroma-core"
+    }
   },
   "langchain": {
     "id": "langchain",
@@ -9697,7 +9757,10 @@
         "name": "Harrison Chase",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/langchain-ai"
+    }
   },
   "llamaindex": {
     "id": "llamaindex",
@@ -9747,7 +9810,10 @@
         "description": "面向 RAG 的数据编排框架,把私有数据接进大模型。",
         "status": "GA"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/run-llama"
+    }
   },
   "scaleai": {
     "id": "scaleai",
@@ -10438,7 +10504,10 @@
       "Accel",
       "GV",
       "a16z"
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/vercel"
+    }
   },
   "writer": {
     "id": "writer",
@@ -13126,7 +13195,10 @@
         "name": "Ben Firshman",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/replicate"
+    }
   },
   "anyscale": {
     "id": "anyscale",
@@ -13194,7 +13266,10 @@
         "name": "Robert Nishihara",
         "title": "联合创始人"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/ray-project"
+    }
   },
   "wandb": {
     "id": "wandb",
@@ -13258,7 +13333,10 @@
       "Coatue",
       "Insight Partners",
       "Felicis"
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/wandb"
+    }
   },
   "figma": {
     "id": "figma",
@@ -17528,7 +17606,11 @@
         "name": "Paras Jain",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/genmoai",
+      "huggingface": "https://huggingface.co/genmo"
+    }
   },
   "higgsfield": {
     "id": "higgsfield",
@@ -18116,7 +18198,10 @@
         "description": "Rust 编写的高性能开源向量数据库,适合生产环境。",
         "status": "GA"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/qdrant"
+    }
   },
   "zilliz": {
     "id": "zilliz",
@@ -18169,7 +18254,10 @@
         "description": "最流行的开源向量数据库 Milvus 及其托管云服务。",
         "status": "GA"
       }
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/milvus-io"
+    }
   },
   "mercor": {
     "id": "mercor",
