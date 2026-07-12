@@ -287,7 +287,9 @@
     ],
     "partners": [
       "tsm",
-      "skhynix"
+      "foxconn",
+      "msft",
+      "dell"
     ],
     "suppliers": [
       "tsm",
@@ -596,7 +598,7 @@
     ],
     "partners": [
       "tsm",
-      "ualink"
+      "msft"
     ],
     "suppliers": [
       "tsm",
@@ -943,7 +945,8 @@
       "mediatek"
     ],
     "partners": [
-      "asml"
+      "asml",
+      "nvda"
     ],
     "suppliers": [
       "asml",
@@ -1522,6 +1525,9 @@
         "name": "Giordano Albertazzi",
         "title": "CEO"
       }
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "etn": {
@@ -2218,6 +2224,9 @@
         "name": "Chris Gibson",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "cgnx": {
@@ -2336,9 +2345,8 @@
       "amzn"
     ],
     "partners": [
-      "tsm",
-      "snps",
-      "cdns"
+      "nvda",
+      "amzn"
     ],
     "relatedCompanies": [
       "nvda",
@@ -2748,6 +2756,9 @@
         "name": "Olivier Blum",
         "title": "CEO"
       }
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "envicool": {
@@ -4133,6 +4144,9 @@
         "name": "Joe Dominguez",
         "title": "总裁兼 CEO"
       }
+    ],
+    "partners": [
+      "msft"
     ]
   },
   "vst": {
@@ -4278,6 +4292,9 @@
         "name": "Jacob DeWitte",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "partners": [
+      "openai"
     ]
   },
   "smr": {
@@ -5660,8 +5677,8 @@
     ],
     "partners": [
       "msft",
-      "nvda",
-      "onex"
+      "oracle",
+      "nvda"
     ],
     "keyCustomers": [
       "msft",
@@ -5769,8 +5786,7 @@
     ],
     "partners": [
       "amzn",
-      "googl",
-      "nvda"
+      "googl"
     ],
     "keyCustomers": [
       "anysphere",
@@ -6149,7 +6165,7 @@
       "Intel Capital"
     ],
     "partners": [
-      "nvda"
+      "openai"
     ],
     "suppliers": [
       "nvda",
@@ -6520,6 +6536,10 @@
       "Thrive Capital",
       "a16z",
       "Accel"
+    ],
+    "partners": [
+      "anthropic",
+      "openai"
     ]
   },
   "codeium": {
@@ -6878,6 +6898,10 @@
         "description": "面向消费者与企业的对话助手。",
         "status": "GA"
       }
+    ],
+    "partners": [
+      "nvda",
+      "msft"
     ]
   },
   "stabilityai": {
@@ -7073,6 +7097,9 @@
         "description": "面向机器人的通用视觉-语言-动作基础模型,机器人的「通用大脑」。",
         "status": "研发"
       }
+    ],
+    "partners": [
+      "googl"
     ]
   },
   "covariant": {
@@ -7329,6 +7356,9 @@
       "Jeff Bezos",
       "IVP",
       "NEA"
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "gm": {
@@ -8872,6 +8902,11 @@
         "name": "Michael Intrator",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "partners": [
+      "nvda",
+      "openai",
+      "msft"
     ]
   },
   "lambda": {
@@ -8943,6 +8978,9 @@
         "name": "Stephen Balaban",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "crusoe": {
@@ -9008,6 +9046,10 @@
         "name": "Chase Lochmiller",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "partners": [
+      "openai",
+      "nvda"
     ]
   },
   "nbis": {
@@ -9077,6 +9119,10 @@
         "name": "Arkady Volozh",
         "title": "创始人兼 CEO"
       }
+    ],
+    "partners": [
+      "nvda",
+      "msft"
     ]
   },
   "together": {
@@ -9142,6 +9188,9 @@
       "General Catalyst",
       "英伟达",
       "Salesforce Ventures"
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "fireworks": {
@@ -9206,6 +9255,9 @@
       "英伟达",
       "AMD",
       "MongoDB"
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "huggingface": {
@@ -9350,6 +9402,10 @@
       "a16z",
       "英伟达",
       "DST Global"
+    ],
+    "partners": [
+      "nvda",
+      "msft"
     ]
   },
   "snow": {
@@ -9769,6 +9825,10 @@
         "description": "大模型的数据、微调与评测(含安全红队)服务。",
         "status": "GA"
       }
+    ],
+    "partners": [
+      "meta",
+      "msft"
     ]
   },
   "surge": {
@@ -9902,6 +9962,10 @@
       "Salesforce Ventures",
       "Cisco",
       "AMD"
+    ],
+    "partners": [
+      "nvda",
+      "oracle"
     ]
   },
   "reka": {
@@ -10236,6 +10300,9 @@
       "Kleiner Perkins",
       "Sequoia",
       "Lightspeed"
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "tabnine": {
@@ -11327,6 +11394,10 @@
         "name": "Alex Kendall",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "partners": [
+      "nvda",
+      "msft"
     ]
   },
   "nuro": {
@@ -12689,6 +12760,9 @@
         "name": "Munjal Shah",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "lightmatter": {
@@ -13524,6 +13598,9 @@
         "name": "Mac McFarland",
         "title": "总裁兼 CEO"
       }
+    ],
+    "partners": [
+      "amzn"
     ]
   },
   "cameco": {
@@ -13826,6 +13903,9 @@
         "description": "高温气冷堆 SMR 与本质安全 TRISO 燃料,亚马逊押注。",
         "status": "研发"
       }
+    ],
+    "partners": [
+      "amzn"
     ]
   },
   "kairos": {
@@ -13882,6 +13962,9 @@
         "description": "氟盐冷却高温反应堆,与谷歌签约供最高约 500MW 无碳核电。",
         "status": "研发"
       }
+    ],
+    "partners": [
+      "googl"
     ]
   },
   "helion": {
@@ -13946,6 +14029,9 @@
         "name": "David Kirtley",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "partners": [
+      "msft"
     ]
   },
   "cfs": {
@@ -14061,6 +14147,9 @@
         "description": "FRC 路线,终极目标氢硼「无中子」聚变,与谷歌合作。",
         "status": "研发"
       }
+    ],
+    "partners": [
+      "googl"
     ]
   },
   "bloom": {
@@ -20651,8 +20740,8 @@
       "nvda"
     ],
     "partners": [
-      "nvda",
-      "openai"
+      "openai",
+      "nvda"
     ],
     "tags": [
       "OCI",
@@ -23029,6 +23118,9 @@
       "msft",
       "amzn",
       "googl"
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "quantacomputer": {
@@ -23563,6 +23655,9 @@
         "name": "郑平",
         "title": "董事长兼 CEO"
       }
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "mpwr": {
