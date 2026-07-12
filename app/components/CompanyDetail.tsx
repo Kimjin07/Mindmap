@@ -7,9 +7,11 @@
  */
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import {
   COMPANIES, KIND_LABEL,
-  companyTagline, companyDescription, companyAiScore, type Company,
+  companyTagline, companyDescription, companyAiScore, hasEnglishDescription,
+  type Company, type Lang,
 } from "../data/companies";
 import { NODES } from "../data/nodes";
 import { productsOfCompany } from "../data/players";
@@ -50,6 +52,39 @@ const SCORE_LABELS: { key: keyof NonNullable<Company["scores"]>; label: string }
   { key: "community", label: "社区" },
 ];
 
+/** 近一周股价走势的简易折线图。 */
+function MiniChart({ data }: { data: { date: string; price: number }[] }) {
+  const W = 280, H = 70, pad = 7;
+  const prices = data.map((d) => d.price);
+  const n = prices.length;
+  const min = Math.min(...prices), max = Math.max(...prices);
+  const span = max - min || 1;
+  const x = (i: number) => pad + (i / (n - 1)) * (W - 2 * pad);
+  const y = (p: number) => pad + (1 - (p - min) / span) * (H - 2 * pad);
+  const line = prices.map((p, i) => `${i === 0 ? "M" : "L"} ${x(i).toFixed(1)} ${y(p).toFixed(1)}`).join(" ");
+  const up = prices[n - 1] >= prices[0];
+  const pct = prices[0] ? ((prices[n - 1] - prices[0]) / prices[0]) * 100 : 0;
+  const color = up ? "#3ecf8e" : "#e06b6b";
+  return (
+    <div className="cp-chart">
+      <div className="cp-chart-head">
+        <span>近一周走势</span>
+        <span className={up ? "up" : "down"}>
+          {up ? "+" : ""}{pct.toFixed(2)}%
+        </span>
+      </div>
+      <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" className="cp-chart-svg">
+        <path d={`${line} L ${x(n - 1)} ${H - pad} L ${x(0)} ${H - pad} Z`} fill={color} opacity="0.12" />
+        <path d={line} fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+      <div className="cp-chart-foot">
+        <span>{data[0].date}</span>
+        <span>{data[n - 1].date}</span>
+      </div>
+    </div>
+  );
+}
+
 export interface CompanyDetailProps {
   c: Company;
   live?: LiveData;
@@ -60,6 +95,20 @@ export interface CompanyDetailProps {
 }
 
 export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: CompanyDetailProps) {
+  // 中/EN 语言切换（记忆在 localStorage，跨公司/跨页保持）。
+  const [lang, setLang] = useState<Lang>("zh");
+  useEffect(() => {
+    try {
+      const saved = window.localStorage.getItem("cp-lang");
+      if (saved === "en" || saved === "zh") setLang(saved);
+    } catch {}
+  }, []);
+  const changeLang = (l: Lang) => {
+    setLang(l);
+    try { window.localStorage.setItem("cp-lang", l); } catch {}
+  };
+  const en = lang === "en";
+
   const chainIds = new Set<string>();
   Object.values(NODES).forEach((n) => {
     if (n.companyIds.includes(c.id)) chainIds.add(n.id);
@@ -71,9 +120,27 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
   const financials = live?.financials && live.financials.length ? live.financials : c.financials;
   const finLive = !!(live?.financials && live.financials.length);
   const price = live?.price ?? c.stock?.sharePrice;
+  const peRatio = live?.peRatio ?? c.stock?.peRatio;
+  const dayChangePct =
+    live?.changePct != null
+      ? `${live.changePct > 0 ? "+" : ""}${live.changePct.toFixed(2)}%`
+      : c.stock?.dayChangePct;
+  const week52Low = live?.week52Low ?? c.stock?.week52Low;
+  const week52High = live?.week52High ?? c.stock?.week52High;
+  const employees = live?.employees ?? c.employees;
+  const leadership = (() => {
+    const base = c.leadership ?? [];
+    if (live?.ceo && !base.some((e) => e.name === live.ceo)) {
+      return [{ name: live.ceo, title: "CEO" }, ...base];
+    }
+    return base;
+  })();
 
-  const tagline = companyTagline(c);
-  const description = companyDescription(c);
+  const tagline = companyTagline(c, lang);
+  const description = companyDescription(c, lang);
+  // EN 模式下若无人工英文简介，则回退到 FMP 实时英文资料（多为英文），再退到中文。
+  const aboutText =
+    en && !hasEnglishDescription(c) && live?.description ? live.description : description;
   const aiScore = companyAiScore(c);
 
   const fallbackProducts = productsOfCompany(c.id);
@@ -165,6 +232,24 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
           </div>
 
           <div className="cp-hero-actions">
+            <div className="cp-lang" role="group" aria-label="语言 / language">
+              <button
+                type="button"
+                className={!en ? "on" : ""}
+                onClick={() => changeLang("zh")}
+                aria-pressed={!en}
+              >
+                中
+              </button>
+              <button
+                type="button"
+                className={en ? "on" : ""}
+                onClick={() => changeLang("en")}
+                aria-pressed={en}
+              >
+                EN
+              </button>
+            </div>
             {c.stock && (
               <div className="ticker">
                 <span className="ticker-ex">{c.stock.exchange}</span>
@@ -192,7 +277,8 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
         <div className="company-meta cp-meta">
           {c.hq && <span>🏛 {c.hq}</span>}
           {c.foundedYear && <span>📅 成立于 {c.foundedYear}</span>}
-          {c.employees && <span>👥 {c.employees} 员工</span>}
+          {employees && <span>👥 {employees} 员工</span>}
+          {(live?.sector || live?.industry) && <span>🏷 {live.industry || live.sector}</span>}
         </div>
 
         {linkNav.length > 0 && (
@@ -210,9 +296,20 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
       <div className="cp-grid">
         <div className="cp-col-main">
           <section className="company-card">
-            <h2>关于{c.name}</h2>
-            <p className="company-business">{description}</p>
+            <h2>{en ? `About ${c.nameEn}` : `关于${c.name}`}</h2>
+            <p className="company-business">{aboutText}</p>
           </section>
+
+          {/* FMP 实时英文公司简介：作为补充资料常驻。仅当英文模式已经把它当作主简介时才隐藏，避免重复。 */}
+          {live?.description && !(en && !hasEnglishDescription(c)) && (
+            <section className="company-card">
+              <h2>
+                {en ? "Company profile" : "公司简介"}
+                <span className="live-badge">● {en ? "live data" : "实时资料"}</span>
+              </h2>
+              <p className="company-business">{live.description}</p>
+            </section>
+          )}
 
           {showMarket && (
             <section className="company-card">
@@ -229,18 +326,18 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
                   <span className="stat-k">股价</span>
                   <span className="stat-v">{fmtPrice(price)}</span>
                 </div>
-                {c.stock?.dayChangePct && (
+                {dayChangePct && (
                   <div className="cp-stat">
                     <span className="stat-k">当日</span>
-                    <span className={`stat-v ${c.stock.dayChangePct.startsWith("-") ? "down" : "up"}`}>
-                      {c.stock.dayChangePct}
+                    <span className={`stat-v ${dayChangePct.startsWith("-") ? "down" : "up"}`}>
+                      {dayChangePct}
                     </span>
                   </div>
                 )}
-                {c.stock?.peRatio != null && (
+                {peRatio != null && (
                   <div className="cp-stat">
                     <span className="stat-k">市盈率 P/E</span>
-                    <span className="stat-v">{c.stock.peRatio}</span>
+                    <span className="stat-v">{peRatio}</span>
                   </div>
                 )}
                 {c.stock?.grossMargin && (
@@ -255,11 +352,11 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
                     <span className="stat-v">{c.stock.revenueTTM}</span>
                   </div>
                 )}
-                {c.stock?.week52Low != null && c.stock?.week52High != null && (
+                {week52Low != null && week52High != null && (
                   <div className="cp-stat">
                     <span className="stat-k">52 周区间</span>
                     <span className="stat-v">
-                      ${c.stock.week52Low} – ${c.stock.week52High}
+                      ${week52Low} – ${week52High}
                     </span>
                   </div>
                 )}
@@ -270,6 +367,7 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
                   </span>
                 </div>
               </div>
+              {live?.history && live.history.length >= 2 && <MiniChart data={live.history} />}
             </section>
           )}
 
@@ -442,11 +540,11 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
             </section>
           ) : null}
 
-          {c.leadership && c.leadership.length > 0 && (
+          {leadership.length > 0 && (
             <section className="company-card">
               <h2>领导团队</h2>
               <div className="cp-leaders">
-                {c.leadership.map((e) => (
+                {leadership.map((e) => (
                   <div key={e.name} className="cp-leader">
                     <b>{e.name}</b>
                     <span>{e.title}</span>

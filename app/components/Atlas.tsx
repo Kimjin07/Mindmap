@@ -312,11 +312,16 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
 
   const enterCity = (id: string) => {
     if (gestureMoved.current) return;
+    // 进城缩放随产品数量自适应：产品多→稍微缩远，保证整圈落在屏幕内、不超出
+    const m = getPlayers(id).length;
+    const rr = Math.max(135, m * 10);
+    const avail = Math.min(size.w || 1200, (size.h || 800) - CARD_RESERVE);
+    const k = clamp(avail / (2.2 * rr), 0.5, K_FOCUS);
     setSmooth(true);
     setTour(null);
     setActive(id);
     setArrived(null);
-    setView({ cx: pos[id].x, cy: pos[id].y, k: K_FOCUS });
+    setView({ cx: pos[id].x, cy: pos[id].y, k });
   };
   const exitCity = () => {
     setSmooth(true);
@@ -412,6 +417,8 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
 
   const activeNode = active && !tour ? NODES[active] : null;
   const activePlayers = activeNode ? getPlayers(active!) : [];
+  // 进城后产品排在一圈上，半径随产品数量放大（避免重叠），但保持紧凑
+  const ringR = Math.max(135, activePlayers.length * 10);
   const tourCo = tourData ? COMPANIES[tourData.origin.companyId ?? ""] : null;
 
   /** 价值链里的一个产品/公司小卡——点它即以它为新根继续钻取（无限循环）。 */
@@ -472,15 +479,24 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
                 </text>
                 {/* 小簇（「国家/地区」）名——缩小时也能看到每一块的名字 */}
                 {(LAYER_GROUPS[layer] ?? []).map((g) => (
-                  <text
-                    key={g.name}
-                    x={c.x + g.dx}
-                    y={c.y + g.dy}
-                    textAnchor="middle"
-                    className="subregion-label"
-                  >
-                    {g.name}
-                  </text>
+                  <g key={g.name}>
+                    <text
+                      x={c.x + g.dx}
+                      y={c.y + g.dy}
+                      textAnchor="middle"
+                      className="subregion-label"
+                    >
+                      {g.nameEn}
+                    </text>
+                    <text
+                      x={c.x + g.dx}
+                      y={c.y + g.dy + 82}
+                      textAnchor="middle"
+                      className="subregion-sub"
+                    >
+                      {g.name}
+                    </text>
+                  </g>
                 ))}
               </g>
             );
@@ -499,13 +515,13 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
           })}
 
           {activeNode && (
-            <circle cx={pos[active!].x} cy={pos[active!].y} r={150} className="city-aura" />
+            <circle cx={pos[active!].x} cy={pos[active!].y} r={ringR + 45} className="city-aura" />
           )}
           {activeNode &&
             activePlayers.map((_, i) => {
               const m = activePlayers.length;
               const ang = -Math.PI / 2 + (i * 2 * Math.PI) / m;
-              const R = 120;
+              const R = ringR;
               return (
                 <line
                   key={i}
@@ -542,8 +558,8 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
                 {Icon ? <Icon /> : <StarMark />}
                 {count > 0 && <span className="city-count">{count}</span>}
               </span>
-              <span className="city-name">{n.name}</span>
-              <span className="city-en">{n.nameEn}</span>
+              <span className="city-name">{n.nameEn}</span>
+              <span className="city-en">{n.name}</span>
               {arrived === id && <span className="city-here">你在这里</span>}
             </button>
           );
@@ -554,7 +570,7 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
           activePlayers.map((pl, i) => {
             const m = activePlayers.length;
             const ang = -Math.PI / 2 + (i * 2 * Math.PI) / m;
-            const R = 120;
+            const R = ringR;
             const x = pos[active!].x + Math.cos(ang) * R;
             const y = pos[active!].y + Math.sin(ang) * R;
             const cid = companyOfPlayer(pl);

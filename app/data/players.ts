@@ -144,7 +144,7 @@ export const PLAYERS: Record<string, Player[]> = {
   ],
   genmedia: [
     { id: "elevenlabs_v", name: "ElevenLabs", by: "ElevenLabs", note: "最逼真的 AI 语音合成与配音。" },
-    { id: "runway_gen", name: "Runway Gen", by: "Runway", note: "AI 视频生成先驱，影视级创作。" },
+    { id: "runway_gen", name: "Runway Gen-4.5", by: "Runway", note: "AI 视频生成先驱，影视级创作与运镜控制。" },
     { id: "pika_v", name: "Pika", by: "Pika Labs", note: "易用、特效丰富的 AI 视频生成。" },
     { id: "luma_dream", name: "Dream Machine", by: "Luma AI", note: "视频生成 + 3D 重建。" },
     { id: "suno_m", name: "Suno", by: "Suno", note: "一句话生成整首带人声的歌。" },
@@ -237,11 +237,11 @@ export const PLAYERS: Record<string, Player[]> = {
 
   /* ---------- 模型层 ---------- */
   llm: [
-    { id: "gpt4", name: "GPT-4o / o3", by: "OpenAI", note: "通用能力标杆，o 系列主打推理。" },
-    { id: "claude35", name: "Claude 3.5", by: "Anthropic", note: "编程与长上下文口碑极佳。" },
-    { id: "gemini_llm", name: "Gemini", by: "Google", note: "超长上下文 + 原生多模态。" },
-    { id: "llama", name: "Llama", by: "Meta", note: "开源模型的扛旗者。" },
-    { id: "grok_llm", name: "Grok", by: "xAI", note: "绑定实时数据的大模型。" },
+    { id: "gpt4", name: "GPT-5.6（Sol/Terra/Luna）", by: "OpenAI", note: "2026.7 发布的旗舰家族；Sol 主打前沿推理与智能体。" },
+    { id: "claude35", name: "Claude Fable 5 · Opus 4.8", by: "Anthropic", note: "编程与长上下文标杆；Fable 5 为 Opus 之上的最强档。" },
+    { id: "gemini_llm", name: "Gemini 3.1 Pro", by: "Google", note: "Gemini 3 系列，百万级上下文、原生多模态、推理领先。" },
+    { id: "llama", name: "Llama 4", by: "Meta", note: "开源扛旗者，主打智能体能力。" },
+    { id: "grok_llm", name: "Grok 4.5", by: "xAI", note: "绑定 X 实时数据，Opus 级推理。" },
     { id: "mistral_large", name: "Mistral Large", by: "Mistral", note: "欧洲开源大模型旗手。" },
     { id: "deepseek_v3", name: "DeepSeek-V3 / R1", by: "DeepSeek", note: "低成本高性能开源模型，撼动行业定价。" },
     { id: "qwen", name: "通义千问 Qwen", by: "阿里云", note: "开源生态最广的中文大模型之一。" },
@@ -264,8 +264,8 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "tml_model", name: "Thinking Machines", by: "Thinking Machines Lab", note: "Mira Murati 领衔的前沿实验室。" },
   ],
   vlm: [
-    { id: "gpt4v", name: "GPT-4V", by: "OpenAI", note: "把「看图说话」带入主流。" },
-    { id: "gemini_vlm", name: "Gemini", by: "Google", note: "图文混合理解能力强。" },
+    { id: "gpt4v", name: "GPT-5.6（视觉）", by: "OpenAI", note: "原生多模态，看图说话已并入 GPT-5.6。" },
+    { id: "gemini_vlm", name: "Gemini 3.1（视觉）", by: "Google", note: "图文混合理解能力强。" },
     { id: "claude_vlm", name: "Claude", by: "Anthropic", note: "擅长读图表、截图与文档。" },
     { id: "llama_vlm", name: "Llama Vision", by: "Meta", note: "开源多模态版本。" },
     { id: "llava", name: "LLaVA", note: "开源 VLM 研究的常用基线。" },
@@ -277,21 +277,21 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "pi0", name: "π0", by: "Physical Intelligence", note: "跨本体通用机器人策略模型。" },
   ],
   mmllm: [
-    { id: "gpt4o_mm", name: "GPT-4o", by: "OpenAI", note: "文本/语音/图像统一的端到端模型。" },
-    { id: "gemini_mm", name: "Gemini", by: "Google", note: "从设计之初就是原生多模态。" },
+    { id: "gpt4o_mm", name: "GPT-5.6（多模态）", by: "OpenAI", note: "文本/语音/图像统一的端到端模型。" },
+    { id: "gemini_mm", name: "Gemini 3.1（多模态）", by: "Google", note: "从设计之初就是原生多模态。" },
   ],
   gpt: [
-    { id: "gpt_series", name: "GPT 系列", by: "OpenAI", note: "把「预训练 + 微调」范式发扬光大。" },
+    { id: "gpt_series", name: "GPT 系列（至 GPT-5.6）", by: "OpenAI", note: "把「预训练 + 微调」范式发扬光大，现已迭代到 GPT-5.6。" },
     { id: "transformer", name: "Transformer", by: "Google（原始论文）", note: "2017《Attention Is All You Need》，一切的起点。" },
   ],
   dm: [
-    { id: "sora", name: "Sora", by: "OpenAI", note: "文生视频的现象级产品。" },
-    { id: "midjourney", name: "Midjourney", note: "画质口碑最佳的文生图。" },
-    { id: "stable_diffusion", name: "Stable Diffusion", by: "Stability AI", note: "开源图像生成的基石。" },
-    { id: "imagen", name: "Imagen / Veo", by: "Google", note: "谷歌的图像/视频生成模型。" },
+    { id: "sora", name: "Sora（已停用）", by: "OpenAI", note: "曾引爆文生视频；OpenAI 于 2026 停用独立产品，能力并入 ChatGPT。" },
+    { id: "midjourney", name: "Midjourney V8.1", note: "画质口碑最佳的文生图。" },
+    { id: "stable_diffusion", name: "Stable Diffusion 3.5", by: "Stability AI", note: "开源图像生成的基石。" },
+    { id: "imagen", name: "Imagen / Veo 3.1", by: "Google", note: "谷歌的图像/视频生成模型，Veo 3.1 音画俱佳。" },
     { id: "firefly", name: "Firefly", by: "Adobe", note: "强调版权合规的商用生成。" },
     { id: "ideogram_img", name: "Ideogram", by: "Ideogram", note: "擅长在图中生成文字与海报。" },
-    { id: "flux_img", name: "FLUX", by: "Black Forest Labs", note: "原 SD 核心团队的高质量开源图像模型。" },
+    { id: "flux_img", name: "FLUX.2", by: "Black Forest Labs", note: "原 SD 核心团队的高质量开源图像模型（含 Klein/Kontext）。" },
     { id: "recraft_img", name: "Recraft", by: "Recraft", note: "面向设计师的可控/矢量图像生成。" },
     { id: "leonardo_img", name: "Leonardo.Ai", by: "Leonardo.Ai", note: "游戏/创意图像生成平台。" },
     { id: "krea_img", name: "Krea", by: "Krea", note: "实时生成的创意工作台。" },
@@ -322,8 +322,8 @@ export const PLAYERS: Record<string, Player[]> = {
 
   /* ---------- 芯片层 ---------- */
   gpu: [
-    { id: "blackwell", name: "Blackwell / H100", by: "NVIDIA", note: "AI 训练的事实标准芯片。" },
-    { id: "mi300", name: "Instinct MI300", by: "AMD", note: "性能逼近、价格更友好的挑战者。" },
+    { id: "blackwell", name: "Blackwell Ultra B300 · Rubin", by: "NVIDIA", note: "当前量产 B300(288GB HBM3e)，Rubin 2026 下半年上量；H100 已两代前。" },
+    { id: "mi300", name: "Instinct MI350 / MI400", by: "AMD", note: "性能逼近、价格更友好的挑战者（MI300 已迭代到 MI350/MI400）。" },
     { id: "tpu", name: "TPU", by: "Google", note: "谷歌自研，自家模型专用算力。" },
     { id: "gaudi", name: "Gaudi", by: "Intel", note: "英特尔的 AI 加速器尝试。" },
     { id: "trainium", name: "Trainium", by: "Amazon", note: "AWS 自研 AI 训练芯片。" },

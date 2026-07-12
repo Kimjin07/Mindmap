@@ -154,28 +154,28 @@ function hash01(s: string): number {
  * 「大层拆小簇」：城市多的板块拆成几个**分散的小簇**（相对板块中心的偏移 + 城市 id），
  * 避免一坨太挤。未列出的板块整层用一个簇。offset 单位为世界坐标。
  */
-export const LAYER_GROUPS: Record<string, { dx: number; dy: number; name: string; ids: string[] }[]> = {
+export const LAYER_GROUPS: Record<string, { dx: number; dy: number; name: string; nameEn: string; ids: string[] }[]> = {
   apps: [
-    { dx: -1050, dy: -1050, name: "消费应用", ids: ["chatbots", "search_ai", "genmedia", "design_ai", "edu_ai", "productivity_ai"] },
-    { dx: 1050, dy: -1050, name: "企业智能体", ids: ["enterprise", "ai_agent", "ai_coder", "fin_ai", "voice_agent", "ai_security", "ai_ad"] },
-    { dx: -1050, dy: 1050, name: "具身机器人", ids: ["robotics", "robotaxi", "manufacturing", "robot_parts", "edge_ai"] },
-    { dx: 1050, dy: 1050, name: "科学前沿", ids: ["science", "digital_biology", "health_ai", "defense_ai", "bci", "game_ai"] },
+    { dx: -1050, dy: -1050, nameEn: "Consumer", name: "消费应用", ids: ["chatbots", "search_ai", "genmedia", "design_ai", "edu_ai", "productivity_ai"] },
+    { dx: 1050, dy: -1050, nameEn: "Enterprise Agents", name: "企业智能体", ids: ["enterprise", "ai_agent", "ai_coder", "fin_ai", "voice_agent", "ai_security", "ai_ad"] },
+    { dx: -1050, dy: 1050, nameEn: "Embodied AI", name: "具身机器人", ids: ["robotics", "robotaxi", "manufacturing", "robot_parts", "edge_ai"] },
+    { dx: 1050, dy: 1050, nameEn: "Science & Frontier", name: "科学前沿", ids: ["science", "digital_biology", "health_ai", "defense_ai", "bci", "game_ai"] },
   ],
   models: [
-    { dx: 230, dy: 680, name: "语言·推理", ids: ["llm", "gpt", "moe", "ssm", "gnn", "world_model"] },
-    { dx: -230, dy: -680, name: "多模态·生成", ids: ["vlm", "vla", "mmllm", "dm", "lbm"] },
+    { dx: 230, dy: 680, nameEn: "Language & Reasoning", name: "语言·推理", ids: ["llm", "gpt", "moe", "ssm", "gnn", "world_model"] },
+    { dx: -230, dy: -680, nameEn: "Multimodal & GenAI", name: "多模态·生成", ids: ["vlm", "vla", "mmllm", "dm", "lbm"] },
   ],
   chips: [
-    { dx: 580, dy: -420, name: "计算芯片", ids: ["gpu", "cpu", "dpu", "ai_accel", "quantum", "av_chip"] },
-    { dx: -580, dy: 420, name: "制造·代工", ids: ["foundry", "packaging", "equipment", "eda", "asic_design"] },
+    { dx: 580, dy: -420, nameEn: "Compute Chips", name: "计算芯片", ids: ["gpu", "cpu", "dpu", "ai_accel", "quantum", "av_chip"] },
+    { dx: -580, dy: 420, nameEn: "Fab & Manufacturing", name: "制造·代工", ids: ["foundry", "packaging", "equipment", "eda", "asic_design"] },
   ],
   energy: [
-    { dx: 580, dy: 420, name: "供电·电网", ids: ["cooling", "power", "grid", "transformer", "power_supply"] },
-    { dx: -580, dy: -420, name: "发电·能源", ids: ["generation", "nuclear", "fusion", "uranium", "fuelcell"] },
+    { dx: 580, dy: 420, nameEn: "Power & Grid", name: "供电·电网", ids: ["cooling", "power", "grid", "transformer", "power_supply"] },
+    { dx: -580, dy: -420, nameEn: "Generation", name: "发电·能源", ids: ["generation", "nuclear", "fusion", "uranium", "fuelcell"] },
   ],
   infra: [
-    { dx: -230, dy: 680, name: "组网·互联", ids: ["nvlink", "network", "connector", "pcb"] },
-    { dx: 230, dy: -680, name: "云·数据中心", ids: ["neocloud", "depin", "ai_datacenter", "ai_server", "ai_infra_sw"] },
+    { dx: -230, dy: 680, nameEn: "Networking", name: "组网·互联", ids: ["nvlink", "network", "connector", "pcb"] },
+    { dx: 230, dy: -680, nameEn: "Cloud & Data Centers", name: "云·数据中心", ids: ["neocloud", "depin", "ai_datacenter", "ai_server", "ai_infra_sw"] },
   ],
 };
 
