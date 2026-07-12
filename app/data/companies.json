@@ -87,6 +87,12 @@
         "description": "微软自研的 AI 加速芯片(Maia)与云服务器 CPU(Cobalt)。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Satya Nadella",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "googl": {
@@ -183,6 +189,12 @@
         "category": "生成式媒体",
         "description": "顶尖的视频生成(Veo)与图像生成(Imagen)模型。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Sundar Pichai",
+        "title": "Alphabet 与谷歌 CEO"
       }
     ]
   },
@@ -288,8 +300,8 @@
     ],
     "leadership": [
       {
-        "name": "黄仁勋",
-        "title": "创始人 / CEO"
+        "name": "黄仁勋 (Jensen Huang)",
+        "title": "创始人、总裁兼 CEO"
       }
     ],
     "news": [
@@ -423,6 +435,12 @@
         "description": "自研的 AI 训练超算与芯片,用于训练自动驾驶模型。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Elon Musk",
+        "title": "CEO"
+      }
     ]
   },
   "meta": {
@@ -511,6 +529,12 @@
         "category": "AI 硬件",
         "description": "与雷朋合作的 AI 智能眼镜,承载「随身多模态 AI」愿景。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Mark Zuckerberg",
+        "title": "创始人、董事长兼 CEO"
       }
     ]
   },
@@ -601,6 +625,12 @@
         "description": "AMD 的 GPU 计算软件栈,对标 CUDA(生态仍是最大挑战)。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "苏姿丰 (Lisa Su)",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "intc": {
@@ -677,6 +707,12 @@
         "category": "晶圆代工",
         "description": "重振制造、承接先进制程代工,冲刺 18A 等新节点。",
         "status": "Ramp"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "陈立武 (Lip-Bu Tan)",
+        "title": "CEO"
       }
     ]
   },
@@ -758,6 +794,12 @@
         "category": "企业软件",
         "description": "收购而来的企业虚拟化与云基础设施软件。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "陈福阳 (Hock Tan)",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -916,6 +958,12 @@
         "description": "把 GPU 与 HBM 高密度集成的关键封装技术,AI 芯片产能瓶颈之一。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "魏哲家 (C.C. Wei)",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "adbe": {
@@ -985,6 +1033,12 @@
         "description": "Photoshop、Premiere 等创意工具全家桶,深度集成 AI 功能。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Shantanu Narayen",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "crm": {
@@ -1053,6 +1107,12 @@
         "category": "企业软件",
         "description": "全球第一的客户关系管理(CRM)云平台。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Marc Benioff",
+        "title": "创始人、董事长兼 CEO"
       }
     ]
   },
@@ -1191,6 +1251,16 @@
         "category": "数据与决策平台",
         "description": "面向商业(Foundry)与政府国防(Gotham)的数据分析决策平台。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Alex Karp",
+        "title": "联合创始人兼 CEO"
+      },
+      {
+        "name": "Peter Thiel",
+        "title": "联合创始人、董事长"
       }
     ]
   },
@@ -1687,6 +1757,16 @@
         "description": "中国最大的云厂商,为 AI 提供算力与模型服务。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "蔡崇信 (Joseph Tsai)",
+        "title": "董事局主席"
+      },
+      {
+        "name": "吴泳铭 (Eddie Wu)",
+        "title": "CEO"
+      }
     ]
   },
   "bidu": {
@@ -1764,6 +1844,12 @@
         "description": "面向企业的云与 AI 平台。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "李彦宏 (Robin Li)",
+        "title": "创始人、董事长兼 CEO"
+      }
     ]
   },
   "amzn": {
@@ -1809,7 +1895,11 @@
     "leadership": [
       {
         "name": "Andy Jassy",
-        "title": "总裁 / CEO"
+        "title": "总裁兼 CEO"
+      },
+      {
+        "name": "Jeff Bezos",
+        "title": "创始人、执行董事长"
       }
     ],
     "financials": [
@@ -1923,6 +2013,16 @@
         "description": "面向干线物流的自动驾驶卡车。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "彭军 (James Peng)",
+        "title": "联合创始人兼 CEO"
+      },
+      {
+        "name": "楼天城",
+        "title": "联合创始人兼 CTO"
+      }
     ]
   },
   "wrd": {
@@ -1980,6 +2080,12 @@
         "description": "覆盖多种车型的 L4 自动驾驶,并出海阿联酋等海外市场。",
         "status": "运营"
       }
+    ],
+    "leadership": [
+      {
+        "name": "韩旭",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "rxrx": {
@@ -2035,6 +2141,12 @@
         "category": "AI 药物发现",
         "description": "用自动化实验室+AI 大规模生成生物数据、加速新药发现。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Chris Gibson",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -2180,6 +2292,12 @@
         "category": "服务器/数据中心 IP",
         "description": "面向数据中心的高能效 CPU 核心 IP,被多家自研服务器芯片采用。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Rene Haas",
+        "title": "CEO"
       }
     ]
   },
@@ -4161,6 +4279,12 @@
         "description": "下一代更高数值孔径的 EUV,推动 2nm 及以下制程。",
         "status": "Ramp"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Christophe Fouquet",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "amat": {
@@ -5005,11 +5129,11 @@
     "leadership": [
       {
         "name": "Sam Altman",
-        "title": "联合创始人 / CEO"
+        "title": "联合创始人兼 CEO"
       },
       {
         "name": "Greg Brockman",
-        "title": "联合创始人 / 总裁"
+        "title": "联合创始人兼总裁"
       }
     ],
     "competitors": [
@@ -5112,11 +5236,11 @@
     "leadership": [
       {
         "name": "Dario Amodei",
-        "title": "联合创始人 / CEO"
+        "title": "联合创始人兼 CEO"
       },
       {
         "name": "Daniela Amodei",
-        "title": "联合创始人 / 总裁"
+        "title": "联合创始人兼总裁"
       }
     ],
     "competitors": [
@@ -5211,7 +5335,7 @@
     "leadership": [
       {
         "name": "Elon Musk",
-        "title": "创始人 / CEO"
+        "title": "创始人"
       }
     ],
     "competitors": [
@@ -5274,7 +5398,7 @@
     "leadership": [
       {
         "name": "梁文锋",
-        "title": "创始人 / CEO"
+        "title": "创始人"
       }
     ],
     "competitors": [
@@ -5481,7 +5605,7 @@
     "leadership": [
       {
         "name": "Brett Adcock",
-        "title": "创始人 / CEO"
+        "title": "创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -5637,6 +5761,12 @@
         "description": "面向工厂与家庭的通用人形机器人,与奔驰、GXO、谷歌合作。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Jeff Cardenas",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "unitree": {
@@ -5676,7 +5806,7 @@
     "leadership": [
       {
         "name": "王兴兴",
-        "title": "创始人 / CEO"
+        "title": "创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -5741,7 +5871,7 @@
     "leadership": [
       {
         "name": "Bernt Børnich",
-        "title": "创始人 / CEO"
+        "title": "创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -5832,6 +5962,12 @@
       "AI 编程",
       "代码编辑器",
       "Agent"
+    ],
+    "leadership": [
+      {
+        "name": "Michael Truell",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "codeium": {
@@ -5952,6 +6088,12 @@
       "AI 编程",
       "云 IDE",
       "vibe coding"
+    ],
+    "leadership": [
+      {
+        "name": "Amjad Masad",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "stackblitz": {
@@ -6082,6 +6224,12 @@
       "AI 编程",
       "应用生成",
       "欧洲 AI"
+    ],
+    "leadership": [
+      {
+        "name": "Anton Osika",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "mistral": {
@@ -6119,7 +6267,7 @@
     "leadership": [
       {
         "name": "Arthur Mensch",
-        "title": "联合创始人 / CEO"
+        "title": "联合创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -6259,7 +6407,7 @@
     "leadership": [
       {
         "name": "David Holz",
-        "title": "创始人 / CEO"
+        "title": "创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -6319,7 +6467,7 @@
     "leadership": [
       {
         "name": "Karol Hausman",
-        "title": "联合创始人 / CEO"
+        "title": "联合创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -6494,6 +6642,12 @@
         "description": "用 AI 加速的特发性肺纤维化候选新药,已进临床。",
         "status": "临床试验"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Alex Zhavoronkov",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "perplexity": {
@@ -6562,7 +6716,13 @@
     ],
     "links": {
       "x": "https://x.com/perplexity_ai"
-    }
+    },
+    "leadership": [
+      {
+        "name": "Aravind Srinivas",
+        "title": "联合创始人兼 CEO"
+      }
+    ]
   },
   "gm": {
     "id": "gm",
@@ -6894,6 +7054,16 @@
       "语音克隆",
       "配音",
       "TTS"
+    ],
+    "leadership": [
+      {
+        "name": "Mati Staniszewski",
+        "title": "联合创始人兼 CEO"
+      },
+      {
+        "name": "Piotr Dąbkowski",
+        "title": "联合创始人兼 CTO"
+      }
     ]
   },
   "runwayml": {
@@ -6960,6 +7130,12 @@
       "AI 视频",
       "生成式媒体",
       "影视"
+    ],
+    "leadership": [
+      {
+        "name": "Cristóbal Valenzuela",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "pika": {
@@ -7142,6 +7318,12 @@
       "AI 音乐",
       "生成式媒体",
       "48kHz"
+    ],
+    "leadership": [
+      {
+        "name": "Mikey Shulman",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "udio": {
@@ -7254,6 +7436,12 @@
       "AI 数字人",
       "口播视频",
       "多语种"
+    ],
+    "leadership": [
+      {
+        "name": "Joshua Xu (徐卓)",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "synthesia": {
@@ -7310,6 +7498,12 @@
       "AI 数字人",
       "企业视频",
       "培训"
+    ],
+    "leadership": [
+      {
+        "name": "Victor Riparbelli",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "deepl": {
@@ -7524,7 +7718,7 @@
     "leadership": [
       {
         "name": "Jonathan Ross",
-        "title": "创始人 / CEO"
+        "title": "创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -7613,6 +7807,12 @@
         "category": "推理云",
         "description": "以极高速度提供开源大模型推理服务。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Andrew Feldman",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -7888,6 +8088,12 @@
         "description": "专为 AI 打造的大规模 GPU 云,英伟达重点扶持的「新云」。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Michael Intrator",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "lambda": {
@@ -8119,6 +8325,12 @@
         "description": "面向开源模型的推理、微调与训练云平台。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Vipul Ved Prakash",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "fireworks": {
@@ -8170,6 +8382,12 @@
         "category": "AI 推理",
         "description": "极速、低成本的开源模型推理平台(自研 FireAttention)。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Lin Qiao (乔琳)",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -8229,6 +8447,12 @@
         "description": "最流行的开源模型库,几乎是使用开源模型的事实标准。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Clément Delangue",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "databricks": {
@@ -8269,7 +8493,7 @@
     "leadership": [
       {
         "name": "Ali Ghodsi",
-        "title": "联合创始人 / CEO"
+        "title": "联合创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -8357,6 +8581,12 @@
         "category": "数据 AI",
         "description": "在数据平台内直接调用大模型做分析、问答的 AI 能力。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Sridhar Ramaswamy",
+        "title": "CEO"
       }
     ]
   },
@@ -8632,6 +8862,10 @@
     ],
     "leadership": [
       {
+        "name": "Alexandr Wang",
+        "title": "创始人(现任 Meta 超级智能负责人)"
+      },
+      {
         "name": "Jason Droege",
         "title": "CEO"
       }
@@ -8754,7 +8988,7 @@
     "leadership": [
       {
         "name": "Aidan Gomez",
-        "title": "联合创始人 / CEO"
+        "title": "联合创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -8819,7 +9053,7 @@
     "leadership": [
       {
         "name": "Dani Yogatama",
-        "title": "联合创始人 / CEO"
+        "title": "联合创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -8928,7 +9162,7 @@
     "leadership": [
       {
         "name": "杨植麟",
-        "title": "创始人 / CEO"
+        "title": "联合创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -9077,6 +9311,12 @@
       "企业搜索",
       "企业智能体",
       "知识"
+    ],
+    "leadership": [
+      {
+        "name": "Arvind Jain",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "tabnine": {
@@ -9258,6 +9498,12 @@
       "企业 AI",
       "自研模型",
       "合规"
+    ],
+    "leadership": [
+      {
+        "name": "May Habib",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "sierra": {
@@ -9316,6 +9562,16 @@
       "企业智能体",
       "AI 客服",
       "对话"
+    ],
+    "leadership": [
+      {
+        "name": "Bret Taylor",
+        "title": "联合创始人兼 CEO"
+      },
+      {
+        "name": "Clay Bavor",
+        "title": "联合创始人"
+      }
     ]
   },
   "decagon": {
@@ -9374,6 +9630,12 @@
       "企业智能体",
       "AI 客服",
       "自动化"
+    ],
+    "leadership": [
+      {
+        "name": "Jesse Zhang",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "harvey": {
@@ -9432,6 +9694,12 @@
       "法律 AI",
       "企业智能体",
       "专业服务"
+    ],
+    "leadership": [
+      {
+        "name": "Winston Weinberg",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "hebbia": {
@@ -9489,6 +9757,12 @@
       "金融 AI",
       "文档智能",
       "专业服务"
+    ],
+    "leadership": [
+      {
+        "name": "George Sivulka",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "characterai": {
@@ -9939,6 +10213,12 @@
         "description": "让重卡在高速无人驾驶的软硬件系统,已开启无安全员商运。",
         "status": "运营"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Chris Urmson",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "wayve": {
@@ -9993,6 +10273,12 @@
         "category": "自动驾驶",
         "description": "端到端学习式自动驾驶,从摄像头直接学开车,不依赖高精地图。",
         "status": "研发"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Alex Kendall",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -10324,7 +10610,7 @@
     "leadership": [
       {
         "name": "姜大昕",
-        "title": "创始人 / CEO"
+        "title": "创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -10410,6 +10696,12 @@
         "description": "自建的大规模 AI 算力基础设施,对外提供算力服务。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "徐立",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "iflytek": {
@@ -10475,6 +10767,12 @@
         "category": "语音 AI 产品",
         "description": "翻译机、会议转写等语音 AI 硬件与应用。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "刘庆峰",
+        "title": "创始人兼董事长"
       }
     ]
   },
@@ -10774,6 +11072,12 @@
         "description": "大型人形机器人,推动进汽车工厂实训与商用服务。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "周剑",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "agibot": {
@@ -10813,8 +11117,8 @@
     ],
     "leadership": [
       {
-        "name": "彭志辉（稚晖君）",
-        "title": "联合创始人 / CTO"
+        "name": "彭志辉 (稚晖君)",
+        "title": "联合创始人"
       }
     ],
     "competitors": [
@@ -10873,7 +11177,7 @@
     "leadership": [
       {
         "name": "王鹤",
-        "title": "创始人 / CTO"
+        "title": "创始人"
       }
     ],
     "competitors": [
@@ -10998,6 +11302,12 @@
         "category": "AI 编程",
         "description": "从底层自研的代码基础模型,面向企业、可私有部署。",
         "status": "研发"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Jason Warner",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -11144,7 +11454,7 @@
     "leadership": [
       {
         "name": "Eric Lefkofsky",
-        "title": "创始人 / CEO"
+        "title": "创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -11267,6 +11577,12 @@
         "category": "光子芯片",
         "description": "用光而非电做 AI 计算与芯片间高速互连。",
         "status": "研发"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Nicholas Harris",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -11697,6 +12013,12 @@
         "category": "设计 AI",
         "description": "生成、编辑设计稿的 AI 能力。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Dylan Field",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -13670,6 +13992,10 @@
       {
         "name": "Palmer Luckey",
         "title": "创始人"
+      },
+      {
+        "name": "Brian Schimpf",
+        "title": "联合创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -13753,6 +14079,16 @@
         "description": "把 AI 用到无人机、电子战等平台。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Gundbert Scherf",
+        "title": "联合创始人兼 CEO"
+      },
+      {
+        "name": "Torsten Reil",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "shield_ai": {
@@ -13809,6 +14145,16 @@
         "category": "无人机",
         "description": "可垂直起降的侦察打击无人机。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Ryan Tseng",
+        "title": "联合创始人兼 CEO"
+      },
+      {
+        "name": "Brandon Tseng",
+        "title": "联合创始人兼总裁"
       }
     ]
   },
@@ -14376,6 +14722,12 @@
         "description": "中国头部短视频与直播电商平台。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "程一笑",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "cartesia": {
@@ -14479,6 +14831,12 @@
         "category": "人形机器人",
         "description": "清华系团队打造的全尺寸通用人形机器人。",
         "status": "研发"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "陈建宇",
+        "title": "创始人兼 CEO"
       }
     ]
   },
@@ -14872,6 +15230,12 @@
         "description": "李飞飞领衔,让 AI 理解并生成三维空间世界。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "李飞飞 (Fei-Fei Li)",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "sakana": {
@@ -14929,6 +15293,16 @@
         "category": "AI 方法",
         "description": "用进化、模型合并等自然启发方法高效组合模型。",
         "status": "研发"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "David Ha",
+        "title": "联合创始人兼 CEO"
+      },
+      {
+        "name": "Llion Jones",
+        "title": "联合创始人兼 CTO"
       }
     ]
   },
@@ -15523,6 +15897,12 @@
         "description": "面向各类机器人的通用「大脑」基础模型。",
         "status": "研发"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Deepak Pathak",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "dexterity": {
@@ -15675,6 +16055,12 @@
         "category": "仿真",
         "description": "高保真仿真器,让自动驾驶主要在虚拟世界训练与测试。",
         "status": "研发"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Raquel Urtasun",
+        "title": "创始人兼 CEO"
       }
     ]
   },
@@ -16036,7 +16422,7 @@
     "leadership": [
       {
         "name": "Ilya Sutskever",
-        "title": "联合创始人 / CEO"
+        "title": "联合创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -16095,7 +16481,7 @@
     "leadership": [
       {
         "name": "Mira Murati",
-        "title": "创始人 / CEO"
+        "title": "创始人兼 CEO"
       }
     ],
     "competitors": [
@@ -17720,6 +18106,12 @@
         "description": "自研的高能效芯片,内置强大 NPU 支撑端侧 AI。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Tim Cook",
+        "title": "CEO"
+      }
     ]
   },
   "qualcomm": {
@@ -17809,6 +18201,12 @@
         "category": "PC 芯片",
         "description": "把高能效 Arm 架构+强 NPU 带进 Windows 笔记本。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Cristiano Amon",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -18010,15 +18408,7 @@
     "leadership": [
       {
         "name": "Larry Ellison",
-        "title": "创始人 / 董事长 / CTO"
-      },
-      {
-        "name": "Clay Magouyrk",
-        "title": "联席 CEO"
-      },
-      {
-        "name": "Mike Sicilia",
-        "title": "联席 CEO"
+        "title": "创始人、董事长兼 CTO"
       }
     ],
     "competitors": [
@@ -19170,6 +19560,12 @@
         "description": "用 GPT 做 AI 对话练习与逐题讲解。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Luis von Ahn",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "speak": {
@@ -19495,6 +19891,12 @@
         "category": "安全 AI 智能体",
         "description": "自动分析威胁、辅助安全运营的 AI 智能体。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "George Kurtz",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
