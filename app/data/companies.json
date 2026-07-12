@@ -496,6 +496,15 @@
       "topu",
       "jlmag",
       "samsung"
+    ],
+    "news": [
+      {
+        "title": "Optimus V3 将于 2026 夏在弗里蒙特投产;超千台 Gen 3 已在产线工作",
+        "date": "2026",
+        "category": "机器人",
+        "summary": "2026 年 1 月已有超 1000 台 Optimus Gen 3 在特斯拉弗里蒙特工厂产线上工作;V3 计划夏季(7 月底/8 月)开始量产,搭载自研 AI5 芯片 + xAI Grok 语音,长期目标售价 2–3 万美元。",
+        "url": "https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/"
+      }
     ]
   },
   "meta": {
@@ -927,6 +936,15 @@
     },
     "suppliers": [
       "tsm"
+    ],
+    "news": [
+      {
+        "title": "AI 芯片营收 Q1 FY26 达 84 亿美元(+106%);为谷歌/Meta/OpenAI 设计定制 XPU",
+        "date": "2026",
+        "category": "业务",
+        "summary": "定制 AI 加速芯片(XPU)客户涵盖谷歌、Meta、OpenAI、Anthropic、字节、xAI、苹果;与谷歌的 TPU 及网络合作延长至 2031 年,Anthropic 承诺 2026 年 1GW、2027 年 3GW 的 TPU。",
+        "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-builds-custom-chips-google-215000298.html"
+      }
     ]
   },
   "anet": {
@@ -1483,6 +1501,15 @@
     "partners": [
       "anthropic",
       "msft"
+    ],
+    "news": [
+      {
+        "title": "Q1 2026 营收 16.3 亿美元(+85%),上调全年指引至 76.6 亿美元;拿下陆军 NGC2",
+        "date": "2026",
+        "category": "财报",
+        "summary": "AI 平台(AIP)在政府与商业客户放量,美国商业收入 +133%;美国陆军选用 Palantir Foundry 作为头号现代化项目 NGC2 的云数据层;并与英伟达合作在主权安全环境运行 AI/Nemotron 模型。",
+        "url": "https://phemex.com/academy/palantir-pltr-stock-2026"
+      }
     ]
   },
   "mrvl": {
@@ -8878,6 +8905,15 @@
       "openai",
       "anthropic",
       "nvda"
+    ],
+    "news": [
+      {
+        "title": "融资 2 亿美元、估值约 200 亿美元;Comet 浏览器免费、月活破亿",
+        "date": "2026-06",
+        "category": "融资",
+        "summary": "年化营收 3 月突破 4.5 亿美元(半年翻倍);Comet AI 浏览器免费后月活用户超 1 亿、月搜索量超 10 亿次;2026 年 2 月转向订阅优先、停掉广告以保用户信任。",
+        "url": "https://www.techtimes.com/articles/318028/20260608/perplexity-raises-200-million-comet-ai-browser-agent-economy-front-door.htm"
+      }
     ]
   },
   "gm": {
@@ -13357,8 +13393,8 @@
     ],
     "competitors": [
       "tsla",
-      "waymo",
-      "kodiak"
+      "Waymo",
+      "Kodiak"
     ],
     "tags": [
       "自动驾驶卡车",
@@ -13442,7 +13478,7 @@
     ],
     "competitors": [
       "tsla",
-      "waymo",
+      "Waymo",
       "mbly"
     ],
     "investors": [
@@ -13518,7 +13554,7 @@
       "体现自动驾驶从自营到授权的务实转型"
     ],
     "competitors": [
-      "waymo",
+      "Waymo",
       "tsla"
     ],
     "tags": [
@@ -13569,7 +13605,7 @@
     "website": "xaira.com",
     "business": "由 ARCH 等重金孵化，用生成式 AI 与大规模实验做新药发现。",
     "competitors": [
-      "isomorphic",
+      "Isomorphic Labs",
       "rxrx",
       "insilico"
     ],
@@ -13643,7 +13679,7 @@
     "business": "ESM 系列蛋白质语言模型，能生成全新蛋白，原 Meta FAIR 团队创立。",
     "competitors": [
       "googl",
-      "isomorphic"
+      "Isomorphic Labs"
     ],
     "oneLinerEn": "The developer of the ESM3 protein language model.",
     "tagline": "用大模型理解生命语言",
@@ -14108,7 +14144,7 @@
     ],
     "competitors": [
       "baba",
-      "baidu",
+      "bidu",
       "sensetime"
     ],
     "tags": [
@@ -15748,7 +15784,7 @@
       "2025 被 CoreWeave 收购,与算力平台结合"
     ],
     "competitors": [
-      "comet",
+      "Comet ML",
       "databricks"
     ],
     "tags": [
@@ -19866,7 +19902,7 @@
       "可灵服务自身内容生态,也对外开放"
     ],
     "competitors": [
-      "bytedance",
+      "字节跳动",
       "runwayml",
       "minimax"
     ],
@@ -21632,7 +21668,7 @@
     ],
     "competitors": [
       "aurora",
-      "waymo",
+      "Waymo",
       "wayve"
     ],
     "tags": [
@@ -24594,7 +24630,7 @@
     "business": "功率半导体、SiC/GaN 器件与微控制器，数据中心供电与汽车电子核心。",
     "competitors": [
       "wolfspeed",
-      "stm"
+      "意法半导体"
     ],
     "oneLinerEn": "The world's leading power-semiconductor maker.",
     "tagline": "让生活更便利、更安全、更环保",
@@ -25026,7 +25062,7 @@
     "competitors": [
       "msft",
       "googl",
-      "accenture"
+      "Accenture"
     ],
     "tags": [
       "watsonx",
@@ -26367,7 +26403,7 @@
     "competitors": [
       "eqix",
       "dlr",
-      "vnet"
+      "世纪互联"
     ],
     "tags": [
       "数据中心",
@@ -29104,7 +29140,7 @@
       "lindy"
     ],
     "investors": [
-      "tencent"
+      "腾讯"
     ],
     "tags": [
       "通用智能体",
