@@ -2892,6 +2892,12 @@
         "description": "中国高速光模块主要厂商,供货北美云厂。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "高光荣",
+        "title": "董事长"
+      }
     ]
   },
   "skhynix": {
@@ -18733,6 +18739,12 @@
         "description": "帮客户把最先进制程的定制 AI 芯片落地量产。",
         "status": "GA"
       }
+    ],
+    "leadership": [
+      {
+        "name": "沈翔霖 (Johnny Shen)",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "guc": {
@@ -22502,6 +22514,12 @@
         "category": "电子代工",
         "description": "全球最大 AI 服务器代工厂,英伟达 GB200/GB300 整机柜主力。",
         "status": "GA"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "郑弘孟",
+        "title": "董事长兼 CEO"
       }
     ]
   },
