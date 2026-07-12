@@ -262,6 +262,13 @@
     ],
     "news": [
       {
+        "title": "Gemini 3.5 Pro 确认 7/17 发布,2M token 上下文架构全重构",
+        "date": "2026-07-12",
+        "category": "产品",
+        "summary": "谷歌确认 Gemini 3.5 Pro 将于 7 月 17 日正式发布,支持 200 万 token 上下文及 Deep Think 深度推理模式,架构已从头全面重构以对标 GPT-5.6 与 Fable 5,扩展推理模式将面向 Ultra 订阅用户开放。",
+        "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a"
+      },
+      {
         "title": "Gemini 3.5 Flash 发布;旗舰 3.5 Pro 推迟至 7 月重构",
         "date": "2026-07",
         "category": "产品",
@@ -281,13 +288,6 @@
         "category": "业务",
         "summary": "因算力「近期受限」、云需求无法完全满足,Alphabet 将 2026 年资本开支指引从 1750-1850 亿美元上调至 1800-1900 亿美元,继续加码 AI 基础设施。",
         "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q1-2026/"
-      },
-      {
-        "title": "AI 付费订阅达 3.5 亿,Gemini 企业版付费用户环比增 40%",
-        "date": "2026-04",
-        "category": "进展",
-        "summary": "Alphabet 称一季度为消费级 AI 订阅史上最强季度,整体付费订阅达 3.5 亿;Gemini Enterprise 付费月活环比增 40%,自研模型每分钟处理超 160 亿 token,环比增 60%。",
-        "url": "https://abc.xyz/investor/events/event-details/2026/2026-Q1-Earnings-Call-2026-nW8kCrBAKS/default.aspx"
       }
     ]
   },
@@ -702,6 +702,13 @@
     },
     "news": [
       {
+        "title": "Meta 在加拿大阿尔伯塔投资 100 亿美元建 1GW 数据中心",
+        "date": "2026-07-08",
+        "category": "业务",
+        "summary": "Meta 宣布斥资约 100 亿美元在加拿大阿尔伯塔省建设首个加拿大 1 吉瓦数据中心,为其境外最大单体数据中心;同期自建 932MW 天然气电站确保稳定供电,并采用闭环液冷系统节约水资源。",
+        "url": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html"
+      },
+      {
         "title": "推出首个专有大模型 Muse Spark,AI 资本开支近乎翻倍",
         "date": "2026-04",
         "category": "产品",
@@ -721,13 +728,6 @@
         "category": "业务",
         "summary": "据报道 Meta 计划对外出售其 AI 算力资源,将自建的大规模数据中心能力商业化,直接切入 AWS、Azure 与谷歌云所在的云计算市场。",
         "url": "https://finance.yahoo.com/technology/ai/articles/meta-wants-sell-ai-compute-171055420.html"
-      },
-      {
-        "title": "多吉瓦级集群 Prometheus 于 2026 年上线,Hyperion 规划 5GW",
-        "date": "2026",
-        "category": "落地",
-        "summary": "Meta 的多吉瓦级 AI 数据中心集群 Prometheus 计划于 2026 年投入运行,另一集群 Hyperion 将在数年内扩展至 5 吉瓦,支撑其「个人超级智能」战略。",
-        "url": "https://www.datacenterdynamics.com/en/news/meta-delivers-blowout-earnings-says-it-will-ramp-ai-data-center-investment-significantly-in-2026/"
       }
     ]
   },
@@ -1067,6 +1067,13 @@
     ],
     "news": [
       {
+        "title": "博通与苹果将定制芯片合作延至 2031 年,Q3 AI 芯片收入预期 160 亿美元",
+        "date": "2026-07-06",
+        "category": "合同",
+        "summary": "博通宣布与苹果将定制芯片供应协议延长至 2031 年,涵盖射频、Wi-Fi 及多代产品定制 ASIC,苹果约占博通年营收 20%;博通 CEO 预计三季度 AI 芯片收入将达 160 亿美元,同比增约 48%。",
+        "url": "https://finance.yahoo.com/technology/articles/broadcom-apple-extend-chip-partnership-120712484.html"
+      },
+      {
         "title": "Q2 FY2026 营收 222 亿美元,AI 芯片单季 108 亿创新高",
         "date": "2026-06",
         "category": "财报",
@@ -1086,13 +1093,6 @@
         "category": "业务",
         "summary": "博通在 Q2 财报中重申 2027 财年 AI 半导体收入将超过 1000 亿美元的指引,定制 XPU 加速器与网络芯片双引擎驱动增长。",
         "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-q2-2026-earnings-ai-111613207.html"
-      },
-      {
-        "title": "AI 芯片营收单季 84 亿美元(+106%),定制 XPU 客户扩容",
-        "date": "2026",
-        "category": "业务",
-        "summary": "定制 AI 加速芯片(XPU)客户涵盖谷歌、Meta、OpenAI、Anthropic、字节、xAI、苹果;与谷歌的 TPU 及网络合作延长至 2031 年,Anthropic 承诺 2026 年 1GW、2027 年 3GW 的 TPU。",
-        "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-builds-custom-chips-google-215000298.html"
       }
     ]
   },
@@ -4525,6 +4525,13 @@
     ],
     "news": [
       {
+        "title": "三星 Q2 初步业绩:营业利润 89.4 万亿韩元,同比增逾 18 倍创纪录",
+        "date": "2026-07-07",
+        "category": "财报",
+        "summary": "三星电子公布 Q2 初步业绩:营业利润约 89.4 万亿韩元,同比增长约 1810%,创历史新高,超分析师预期约 6%;合并营收约 171 万亿韩元。AI 驱动 HBM 存储器需求旺盛助推业绩井喷,完整财报将于 7 月 30 日公布。",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-second-quarter-2026"
+      },
+      {
         "title": "三星加入韩国 392 万亿韩元半导体计划,承诺 140 万亿韩元建 HBM 封装厂",
         "date": "2026-07",
         "category": "重大",
@@ -4544,12 +4551,6 @@
         "category": "财报",
         "summary": "一季度营收 133.9 万亿韩元、营业利润 57.2 万亿韩元双创纪录,同比增长逾八倍;分析师预计全年营业利润或达 300 万亿韩元,超过其进入半导体行业 40 年来的利润总和。",
         "url": "https://www.cnbc.com/2026/04/30/samsung-q1-earnings-ai-memory-chip-demand-profit-record.html"
-      },
-      {
-        "title": "三星全力冲刺英伟达 HBM 认证，力图从 SK 海力士手中夺回份额",
-        "date": "2026",
-        "category": "进展",
-        "summary": "三星在最先进 HBM 上一度落后于抢先拿下英伟达主力订单的 SK 海力士，正全力追赶并争取通过英伟达认证；同时其代工业务也在追赶台积电、争取先进制程与 AI 芯片订单。"
       }
     ]
   },
@@ -14757,6 +14758,13 @@
     ],
     "news": [
       {
+        "title": "Cognition 发布 SWE-1.7 代码模型及 Devin 安全漏洞扫描套件",
+        "date": "2026-07-08",
+        "category": "产品",
+        "summary": "Cognition 推出旗舰代码模型 SWE-1.7,经 Cerebras 加速实现 1000 token/秒推理速度;同期发布 Devin Security Swarm,在 50 个真实漏洞测试中识别 36 个,单位成本较次优工具低 30%。",
+        "url": "https://www.prnewswire.com/news-releases/cognition-launches-devin-security-swarm-302814800.html"
+      },
+      {
         "title": "融资超 10 亿、估值约 250 亿;Windsurf 更名 Devin Desktop",
         "date": "2026-05",
         "category": "重大",
@@ -14776,13 +14784,6 @@
         "category": "进展",
         "summary": "Cognition 披露其内部提交代码的 89% 由 Devin 完成,其余由 Windsurf 本地 Agent 编写;该比例在 2025 年 12 月仅为 13%,被视为企业内 AI 采用速度的标志性案例。",
         "url": "https://techfundingnews.com/the-ai-startup-replacing-software-engineers-just-raised-1b-at-26b-valuation-and-it-is-already-writing-89-of-cognitions-own-code/"
-      },
-      {
-        "title": "高盛、花旗、奔驰、美国陆海军均在生产环境使用 Devin",
-        "date": "2026-05",
-        "category": "落地",
-        "summary": "Cognition 企业客户名单涵盖高盛、花旗、奔驰、戴尔、桑坦德、NASA 及美国陆军和海军等,Devin 已在这些机构的生产环境中投入使用。",
-        "url": "https://theaiinsider.tech/2026/05/28/cognition-announces-1b-funding-round-at-25b-valuation-as-devin-ai-coder-wins-enterprise-market/"
       }
     ]
   },
