@@ -26,7 +26,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "MSFT",
-      "marketCapB": 3100
+      "marketCapB": 3100,
+      "grossMargin": "70%",
+      "revenueTTM": "$260B",
+      "peRatio": 35
     },
     "business": "云计算(Azure)、生产力软件(Microsoft 365 + Copilot)、操作系统与游戏。Azure 是 OpenAI 模型的独家云底座。",
     "businessEn": "Cloud computing (Azure), productivity software (Microsoft 365 + Copilot), operating systems and gaming. Azure is the exclusive cloud backbone for OpenAI's models.",
@@ -125,7 +128,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "GOOGL",
-      "marketCapB": 2100
+      "marketCapB": 2100,
+      "grossMargin": "58%",
+      "revenueTTM": "$350B",
+      "peRatio": 25
     },
     "business": "广告(搜索/YouTube)、谷歌云、安卓生态。旗下 DeepMind 产出 Gemini、AlphaFold、Waymo，自研 TPU 芯片。",
     "businessEn": "Advertising (Search/YouTube), Google Cloud and the Android ecosystem. Its DeepMind unit produces Gemini, AlphaFold and Waymo, and Google designs its own TPU chips.",
@@ -225,9 +231,9 @@
       "ticker": "NVDA",
       "marketCapB": 5100,
       "sharePrice": 213.48,
-      "peRatio": 57.2,
-      "grossMargin": "76%",
-      "revenueTTM": "$248B",
+      "peRatio": 50,
+      "grossMargin": "75%",
+      "revenueTTM": "$130B",
       "week52High": 230,
       "week52Low": 86,
       "dayChangePct": "+2.13%"
@@ -385,7 +391,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "TSLA",
-      "marketCapB": 800
+      "marketCapB": 800,
+      "grossMargin": "18%",
+      "revenueTTM": "$97B",
+      "peRatio": 80
     },
     "business": "电动汽车、储能、FSD 自动驾驶与 Robotaxi、Optimus 人形机器人，自研 Dojo 训练芯片。",
     "businessEn": "Electric vehicles, energy storage, FSD self-driving and Robotaxi, the Optimus humanoid robot, and the in-house Dojo training chip.",
@@ -472,7 +481,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "META",
-      "marketCapB": 1300
+      "marketCapB": 1300,
+      "grossMargin": "81%",
+      "revenueTTM": "$165B",
+      "peRatio": 28
     },
     "business": "社交广告(Facebook/Instagram/WhatsApp)、Reality Labs(VR/AR)。Llama 开源模型推动了整个开源 AI 生态。",
     "businessEn": "Social advertising (Facebook/Instagram/WhatsApp) and Reality Labs (VR/AR). Its open-source Llama models have propelled the entire open-source AI ecosystem.",
@@ -570,7 +582,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "AMD",
-      "marketCapB": 250
+      "marketCapB": 250,
+      "grossMargin": "50%",
+      "revenueTTM": "$26B",
+      "peRatio": 45
     },
     "business": "数据中心 GPU(Instinct MI300)、EPYC 服务器 CPU、消费级处理器与显卡。",
     "businessEn": "Data-center GPUs (Instinct MI300 series), EPYC server CPUs, and consumer processors and graphics cards.",
@@ -666,7 +681,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "INTC",
-      "marketCapB": 100
+      "marketCapB": 100,
+      "grossMargin": "33%",
+      "revenueTTM": "$53B"
     },
     "business": "x86 CPU(Xeon/Core)、AI 加速器(Gaudi)、代工(IDM 2.0)。",
     "businessEn": "x86 CPUs (Xeon/Core), AI accelerators (Gaudi), and its IDM 2.0 foundry business.",
@@ -749,7 +766,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "AVGO",
-      "marketCapB": 800
+      "marketCapB": 800,
+      "grossMargin": "63%",
+      "revenueTTM": "$54B",
+      "peRatio": 40
     },
     "business": "为云厂商定制 AI ASIC、Tomahawk 交换芯片、光通信器件，以及 VMware 等基础软件。",
     "businessEn": "Custom AI ASICs for cloud providers, Tomahawk switching chips, optical components, and infrastructure software such as VMware.",
@@ -836,7 +856,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "ANET",
-      "marketCapB": 120
+      "marketCapB": 120,
+      "grossMargin": "64%",
+      "revenueTTM": "$7B",
+      "peRatio": 40
     },
     "business": "高性能数据中心交换机与 EOS 网络操作系统，支撑大规模 GPU 集群互联。",
     "businessEn": "High-performance data-center switches and the EOS network operating system that interconnect large-scale GPU clusters.",
@@ -916,7 +939,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "TSM",
-      "marketCapB": 900
+      "marketCapB": 900,
+      "grossMargin": "56%",
+      "revenueTTM": "$90B",
+      "peRatio": 28
     },
     "business": "晶圆代工龙头，掌握最先进制程(3nm/2nm)与 CoWoS 先进封装——AI 芯片产能的真正瓶颈。",
     "businessEn": "The foundry leader, commanding the most advanced process nodes (3nm/2nm) and CoWoS advanced packaging — the true bottleneck for AI-chip capacity.",
@@ -1009,7 +1035,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "ADBE",
-      "marketCapB": 220
+      "marketCapB": 220,
+      "grossMargin": "89%",
+      "revenueTTM": "$22B",
+      "peRatio": 30
     },
     "business": "Creative Cloud(PS/AI/Premiere)、文档(Acrobat)，Firefly 提供合规的生成式创作。",
     "businessEn": "Creative Cloud (Photoshop/Illustrator/Premiere), documents (Acrobat), and Firefly for commercially safe generative creation.",
@@ -1084,7 +1113,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "CRM",
-      "marketCapB": 270
+      "marketCapB": 270,
+      "grossMargin": "77%",
+      "revenueTTM": "$38B",
+      "peRatio": 35
     },
     "business": "客户关系管理(销售/服务/营销)云，Agentforce 为企业部署自主 AI 智能体。",
     "businessEn": "Customer-relationship-management cloud (sales/service/marketing); Agentforce deploys autonomous AI agents for enterprises.",
@@ -1159,7 +1191,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "NOW",
-      "marketCapB": 180
+      "marketCapB": 180,
+      "grossMargin": "79%",
+      "revenueTTM": "$11B",
+      "peRatio": 120
     },
     "business": "数字工作流平台(IT/客服/HR)，Now Assist 把生成式 AI 嵌入企业流程。",
     "businessEn": "A digital workflow platform (IT/service/HR); Now Assist embeds generative AI into enterprise processes.",
@@ -1234,7 +1269,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "PLTR",
-      "marketCapB": 150
+      "marketCapB": 150,
+      "grossMargin": "80%",
+      "revenueTTM": "$3B",
+      "peRatio": 200
     },
     "business": "Gotham(政府)、Foundry(企业)与 AIP(AI 平台)，把大模型接入真实业务数据做决策。",
     "businessEn": "Gotham (government), Foundry (enterprise) and AIP (AI platform), wiring large models into real operational data for decisions.",
@@ -1313,7 +1351,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "MRVL",
-      "marketCapB": 70
+      "marketCapB": 70,
+      "grossMargin": "50%",
+      "revenueTTM": "$6B"
     },
     "business": "定制 ASIC、光 DSP、DPU 与数据中心连接芯片。",
     "businessEn": "Custom ASICs, optical DSPs, DPUs and data-center connectivity chips.",
@@ -1474,7 +1514,9 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "VRT",
-      "marketCapB": 40
+      "marketCapB": 40,
+      "grossMargin": "35%",
+      "revenueTTM": "$8B"
     },
     "business": "数据中心电源、配电与热管理(含液冷)，直接受益于 AI 算力的功耗与发热激增。",
     "businessEn": "Data-center power, distribution and thermal management (including liquid cooling), a direct beneficiary of surging AI power draw and heat.",
@@ -1559,7 +1601,9 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "ETN",
-      "marketCapB": 130
+      "marketCapB": 130,
+      "grossMargin": "38%",
+      "revenueTTM": "$25B"
     },
     "business": "电气设备与电力管理(供配电、不间断电源、电网设备)，是 AI 数据中心扩张的卖水人。",
     "businessEn": "Electrical equipment and power management (distribution, UPS, grid gear) — a picks-and-shovels supplier to AI data-center expansion.",
@@ -1814,7 +1858,9 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "BABA",
-      "marketCapB": 220
+      "marketCapB": 220,
+      "grossMargin": "38%",
+      "revenueTTM": "$140B"
     },
     "business": "电商(淘宝/天猫)、阿里云与通义大模型(Qwen 系列，开源生态领先)。",
     "businessEn": "E-commerce (Taobao/Tmall), Alibaba Cloud, and the Tongyi Qwen model family — a leader in the open-source ecosystem.",
@@ -1899,7 +1945,9 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "BIDU",
-      "marketCapB": 35
+      "marketCapB": 35,
+      "grossMargin": "50%",
+      "revenueTTM": "$19B"
     },
     "business": "搜索与广告、智能云、文心(ERNIE)大模型，Apollo Go 萝卜快跑是中国领先的 Robotaxi。",
     "businessEn": "Search and advertising, its AI Cloud, the ERNIE large-model family, and Apollo Go — China's leading robotaxi service.",
@@ -1983,7 +2031,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "AMZN",
-      "marketCapB": 2000
+      "marketCapB": 2000,
+      "grossMargin": "48%",
+      "revenueTTM": "$640B",
+      "peRatio": 38
     },
     "business": "AWS 云、电商与广告，自研 Trainium/Inferentia 芯片，Zoox Robotaxi，重金投资 Anthropic。",
     "businessEn": "The AWS cloud, e-commerce and advertising, in-house Trainium/Inferentia chips, the Zoox robotaxi, and a major investment in Anthropic.",
@@ -2348,7 +2399,9 @@
       "exchange": "NASDAQ",
       "ticker": "ARM",
       "marketCapB": 130,
-      "peRatio": 90
+      "peRatio": 90,
+      "grossMargin": "96%",
+      "revenueTTM": "$4B"
     },
     "business": "授权 CPU/GPU 架构(IP)，几乎所有手机与越来越多数据中心芯片基于 Arm 架构。数据中心里，英伟达 Grace、AWS Graviton/Trainium、Ampere 等都采用 Arm 架构。",
     "businessEn": "Licenses CPU/GPU architectures (IP): nearly every smartphone and a growing share of data-center chips are Arm-based. In the data center, NVIDIA Grace, AWS Graviton/Trainium and Ampere all build on Arm.",
@@ -3598,7 +3651,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "MU",
-      "marketCapB": 200
+      "marketCapB": 200,
+      "grossMargin": "35%",
+      "revenueTTM": "$37B",
+      "peRatio": 15
     },
     "business": "DRAM、NAND 与 HBM 高带宽显存。作为三大 HBM 供应商中**唯一的美系厂商**，美光的 HBM3E 已导入英伟达并供不应求、产能提前售罄；本土属性使其在美国「芯片自主」政策下额外受益。",
     "businessEn": "DRAM, NAND and HBM high-bandwidth memory. As the **only U.S.-based** maker among the three HBM suppliers, Micron's HBM3E is already designed into NVIDIA and is sold out with capacity pre-committed; its domestic footprint gives it extra upside under U.S. \"chip self-sufficiency\" policy.",
@@ -3761,7 +3817,9 @@
       "exchange": "NASDAQ",
       "ticker": "CSCO",
       "marketCapB": 250,
-      "peRatio": 24
+      "peRatio": 24,
+      "grossMargin": "65%",
+      "revenueTTM": "$54B"
     },
     "business": "交换机、路由器、网络安全与协作软件；自研硅光与光模块，是光通信下游主力。",
     "businessEn": "Switches, routers, cybersecurity and collaboration software; it makes its own silicon photonics and optical modules and is a major optical-networking buyer.",
@@ -4845,7 +4903,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "ASML",
-      "marketCapB": 380
+      "marketCapB": 380,
+      "grossMargin": "51%",
+      "revenueTTM": "$30B",
+      "peRatio": 35
     },
     "business": "光刻机（含独家 EUV/High-NA EUV），先进制程绕不开它，是整个芯片产业的咽喉。",
     "businessEn": "Lithography machines (including the exclusive EUV/High-NA EUV) that no advanced node can bypass — the chokepoint of the entire chip industry.",
@@ -4929,7 +4990,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "AMAT",
-      "marketCapB": 160
+      "marketCapB": 160,
+      "grossMargin": "47%",
+      "revenueTTM": "$27B",
+      "peRatio": 22
     },
     "business": "薄膜沉积、刻蚀、离子注入、量测等多类制造设备，覆盖面最广。",
     "businessEn": "The broadest lineup of fab equipment — thin-film deposition, etch, ion implantation, metrology and more.",
@@ -5021,7 +5085,9 @@
       "exchange": "NASDAQ",
       "ticker": "LRCX",
       "marketCapB": 120,
-      "peRatio": 28
+      "peRatio": 28,
+      "grossMargin": "48%",
+      "revenueTTM": "$18B"
     },
     "business": "等离子刻蚀与薄膜沉积设备，在 3D NAND/DRAM 制造中份额领先。",
     "businessEn": "Plasma etch and thin-film deposition equipment, with leading share in 3D NAND/DRAM manufacturing.",
@@ -5114,7 +5180,9 @@
       "exchange": "NASDAQ",
       "ticker": "KLAC",
       "marketCapB": 100,
-      "peRatio": 30
+      "peRatio": 30,
+      "grossMargin": "61%",
+      "revenueTTM": "$12B"
     },
     "business": "缺陷检测与量测设备，保障先进制程良率。",
     "businessEn": "Defect-inspection and metrology equipment that safeguards advanced-node yield.",
@@ -5207,7 +5275,9 @@
       "exchange": "NASDAQ",
       "ticker": "SNPS",
       "marketCapB": 90,
-      "peRatio": 45
+      "peRatio": 45,
+      "grossMargin": "81%",
+      "revenueTTM": "$6B"
     },
     "business": "EDA 工具、IP 与系统设计软件——没有它画不出现代芯片。",
     "businessEn": "EDA tools, IP and system-design software — modern chips can't be designed without it.",
@@ -5305,7 +5375,9 @@
       "exchange": "NASDAQ",
       "ticker": "CDNS",
       "marketCapB": 90,
-      "peRatio": 68
+      "peRatio": 68,
+      "grossMargin": "86%",
+      "revenueTTM": "$4.6B"
     },
     "business": "EDA 工具、IP 与系统仿真，和新思共同主导芯片设计软件。",
     "businessEn": "EDA tools, IP and system simulation that, together with Synopsys, dominate chip-design software.",
@@ -5502,7 +5574,9 @@
       "exchange": "NASDAQ",
       "ticker": "AMKR",
       "marketCapB": 8,
-      "peRatio": 22
+      "peRatio": 22,
+      "grossMargin": "15%",
+      "revenueTTM": "$6.3B"
     },
     "business": "封装与测试服务，是西方供应链本地化的关键一环。",
     "businessEn": "Packaging and testing services — a key link in localizing the Western supply chain.",
@@ -19981,7 +20055,9 @@
       "exchange": "NYSE",
       "ticker": "UMC",
       "marketCapB": 20,
-      "peRatio": 12
+      "peRatio": 12,
+      "grossMargin": "33%",
+      "revenueTTM": "$7.3B"
     },
     "business": "成熟与特殊制程晶圆代工，供应大量 AI 周边芯片(电源/驱动/连接)。",
     "businessEn": "Mature- and specialty-node foundry services, supplying many AI peripheral chips (power, driver, connectivity).",
@@ -20884,7 +20960,9 @@
       "exchange": "NASDAQ",
       "ticker": "AAPL",
       "marketCapB": 3500,
-      "peRatio": 33
+      "peRatio": 33,
+      "grossMargin": "46%",
+      "revenueTTM": "$400B"
     },
     "business": "iPhone/Mac 与自研芯片(A/M 系列，含神经网络引擎)，Apple Intelligence 把生成式 AI 装进系统，部分接入 ChatGPT。",
     "businessEn": "iPhone/Mac and in-house chips (A/M series with a Neural Engine); Apple Intelligence builds generative AI into the OS, with some ChatGPT integration.",
@@ -20982,7 +21060,9 @@
       "exchange": "NASDAQ",
       "ticker": "QCOM",
       "marketCapB": 180,
-      "peRatio": 16
+      "peRatio": 16,
+      "grossMargin": "56%",
+      "revenueTTM": "$39B"
     },
     "business": "骁龙(Snapdragon)移动/PC 芯片与基带，主打端侧 AI 算力(NPU)，Copilot+ PC 主力芯片。",
     "businessEn": "Snapdragon mobile/PC chips and modems, focused on on-device AI compute (NPU); the main chip for Copilot+ PCs.",
@@ -21179,7 +21259,9 @@
       "exchange": "NYSE",
       "ticker": "IBM",
       "marketCapB": 250,
-      "peRatio": 30
+      "peRatio": 30,
+      "grossMargin": "57%",
+      "revenueTTM": "$63B"
     },
     "business": "混合云与咨询、watsonx 企业 AI 平台，以及领先的超导量子计算机与路线图。",
     "businessEn": "Hybrid cloud and consulting, the watsonx enterprise-AI platform, and leading superconducting quantum computers and roadmap.",
@@ -21268,7 +21350,9 @@
       "exchange": "NYSE",
       "ticker": "ORCL",
       "marketCapB": 600,
-      "peRatio": 42
+      "peRatio": 42,
+      "grossMargin": "70%",
+      "revenueTTM": "$57B"
     },
     "business": "数据库与企业软件，OCI 云凭借高性价比 GPU 集群拿下 OpenAI 等超大算力订单(星际之门)。",
     "businessEn": "Databases and enterprise software, plus Oracle Cloud Infrastructure (OCI), whose cost-efficient GPU superclusters have won mega compute contracts such as OpenAI's Stargate.",
@@ -21365,7 +21449,9 @@
       "exchange": "NASDAQ",
       "ticker": "APP",
       "marketCapB": 160,
-      "peRatio": 60
+      "peRatio": 60,
+      "grossMargin": "75%",
+      "revenueTTM": "$4.7B"
     },
     "business": "移动广告平台，AXON AI 推荐引擎大幅提升投放效率，业绩与股价暴涨。",
     "businessEn": "A mobile ad platform whose AXON AI engine sharply improves targeting efficiency, driving surging results and stock.",
@@ -21447,7 +21533,9 @@
       "exchange": "NASDAQ",
       "ticker": "TTD",
       "marketCapB": 45,
-      "peRatio": 50
+      "peRatio": 50,
+      "grossMargin": "81%",
+      "revenueTTM": "$2.4B"
     },
     "business": "需求方广告平台，Kokai 用 AI 优化跨渠道程序化投放。",
     "businessEn": "A demand-side platform whose Kokai uses AI to optimize cross-channel programmatic buying.",
@@ -22504,7 +22592,9 @@
       "exchange": "NASDAQ",
       "ticker": "DUOL",
       "marketCapB": 15,
-      "peRatio": 140
+      "peRatio": 140,
+      "grossMargin": "73%",
+      "revenueTTM": "$0.75B"
     },
     "business": "游戏化语言学习，Duolingo Max 用 GPT 提供 AI 对话与讲解私教。",
     "competitors": [
@@ -23420,7 +23510,9 @@
       "exchange": "NASDAQ",
       "ticker": "SMCI",
       "marketCapB": 25,
-      "peRatio": 22
+      "peRatio": 22,
+      "grossMargin": "14%",
+      "revenueTTM": "$22B"
     },
     "business": "英伟达 GPU 服务器与整机柜(含液冷)组装，AI 服务器出货最激进的厂商之一。",
     "businessEn": "Assembles NVIDIA GPU servers and full racks (including liquid cooling) — one of the most aggressive AI-server shippers.",
@@ -23510,7 +23602,9 @@
       "exchange": "NYSE",
       "ticker": "DELL",
       "marketCapB": 90,
-      "peRatio": 18
+      "peRatio": 18,
+      "grossMargin": "22%",
+      "revenueTTM": "$96B"
     },
     "business": "PC、企业存储与 AI 服务器(PowerEdge)，为 xAI 等提供大规模 AI 集群整机。",
     "businessEn": "PCs, enterprise storage and AI servers (PowerEdge), supplying large AI clusters to the likes of xAI.",
@@ -23605,7 +23699,9 @@
       "exchange": "NYSE",
       "ticker": "HPE",
       "marketCapB": 30,
-      "peRatio": 12
+      "peRatio": 12,
+      "grossMargin": "33%",
+      "revenueTTM": "$30B"
     },
     "business": "服务器、超算(Cray)与网络(收购 Juniper)，AI 整机与私有云方案。",
     "businessEn": "Servers, supercomputing (Cray) and networking (via the Juniper acquisition), plus AI systems and private-cloud solutions.",
