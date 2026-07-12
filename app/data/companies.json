@@ -109,6 +109,14 @@
       "Azure",
       "云计算",
       "操作系统"
+    ],
+    "news": [
+      {
+        "title": "AI 资本开支持续创纪录,Copilot 深入全线产品",
+        "date": "2026",
+        "category": "业务",
+        "summary": "作为 OpenAI 最大股东与云合作方,Azure AI 承接大模型需求;自研 Maia/Cobalt 芯片扩产,数据中心投资持续加码。"
+      }
     ]
   },
   "googl": {
@@ -835,6 +843,14 @@
       "amat",
       "lrcx",
       "klac"
+    ],
+    "news": [
+      {
+        "title": "18A 制程冲刺量产,代工转型进入关键期",
+        "date": "2026",
+        "category": "进展",
+        "summary": "获美国政府入股支持后推进 Intel Foundry;18A 节点承接外部客户订单是翻身关键,Gaudi/GPU 路线继续追赶 AI 算力。"
+      }
     ]
   },
   "avgo": {
@@ -1034,7 +1050,15 @@
       "growth": 68,
       "innovation": 84,
       "community": 51
-    }
+    },
+    "news": [
+      {
+        "title": "AI 数据中心以太网需求强劲,后端网络份额扩大",
+        "date": "2026",
+        "category": "业务",
+        "summary": "云巨头 GPU 集群后端网络从 InfiniBand 转向以太网趋势下,Arista 交换机+EOS 系统持续受益,业绩保持高增长。"
+      }
+    ]
   },
   "tsm": {
     "id": "tsm",
@@ -1232,7 +1256,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 72
-    }
+    },
+    "news": [
+      {
+        "title": "Firefly 商用安全生成全面融入 Creative Cloud",
+        "date": "2026",
+        "category": "产品",
+        "summary": "以版权安全为卖点的生成式模型持续迭代,PS/PR 等全家桶 AI 化,同时应对 Sora 等生成式视频的冲击。"
+      }
+    ]
   },
   "crm": {
     "id": "crm",
@@ -1320,6 +1352,14 @@
     },
     "partners": [
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Agentforce 企业智能体平台成新增长引擎",
+        "date": "2026",
+        "category": "产品",
+        "summary": "让企业在 CRM 里部署自主 AI 代理,按用量计费打开新模式;并深度接入 Anthropic Claude 服务受监管行业。"
+      }
     ]
   },
   "now": {
@@ -1408,6 +1448,14 @@
     },
     "partners": [
       "nvda"
+    ],
+    "news": [
+      {
+        "title": "Now Assist AI 拉动大单,工作流+AI 深度融合",
+        "date": "2026",
+        "category": "业务",
+        "summary": "生成式 AI 助手与智能体嵌入 IT/HR/客服工作流,AI 相关合同占比快速提升;收购 Moveworks 强化企业 AI 入口。"
+      }
     ]
   },
   "pltr": {
@@ -1700,7 +1748,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "HDD 与闪存分拆为两家公司,聚焦 AI 存储需求",
+        "date": "2025",
+        "category": "重大",
+        "summary": "分拆后 HDD 公司受益 AI 冷数据存储需求,大容量盘供不应求、订单能见度延长;闪存(闪迪)独立运营。"
+      }
+    ]
   },
   "vrt": {
     "id": "vrt",
@@ -1893,7 +1949,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "AI 数据中心建设潮推高伊顿电力设备订单，数据中心成最快增长板块",
+        "date": "2026",
+        "category": "业务",
+        "summary": "大型 AI 数据中心用电堪比一座小城市，其配电、变压、保护与备电设备正是伊顿核心业务。AI 基建爆发让伊顿电力设备订单大增，数据中心已成为其增长最快的板块之一。"
+      }
+    ]
   },
   "nee": {
     "id": "nee",
@@ -1979,7 +2043,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "AI 拉动美国用电重回结构性增长，新纪元能源发电资产价值凸显",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 数据中心用电激增使美国电力需求在停滞多年后重新进入结构性增长。作为最大受监管公用事业 FPL 的母公司与全球最大风光发电商，NextEra 成为这一主题下最核心的电力受益者之一。"
+      }
+    ]
   },
   "cohr": {
     "id": "cohr",
@@ -2086,6 +2158,14 @@
     "suppliers": [
       "mtsi",
       "yuanjie"
+    ],
+    "news": [
+      {
+        "title": "数据中心光模块业务爆发,新 CEO 聚焦 AI",
+        "date": "2026",
+        "category": "业务",
+        "summary": "800G/1.6T 光模块与光器件供不应求,数据通信收入占比过半;剥离非核心业务聚焦 AI 光互联。"
+      }
     ]
   },
   "baba": {
@@ -2181,7 +2261,15 @@
       "growth": 74,
       "innovation": 93,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "通义千问(Qwen)开源生态全球领先,加码 AI 基建",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Qwen 系列开源模型在全球社区影响力居前;阿里云宣布大规模 AI 基础设施投资计划,并投资月之暗面、智谱、MiniMax 等大模型公司。"
+      }
+    ]
   },
   "bidu": {
     "id": "bidu",
@@ -2273,7 +2361,15 @@
       "growth": 68,
       "innovation": 84,
       "community": 73
-    }
+    },
+    "news": [
+      {
+        "title": "萝卜快跑 Robotaxi 规模化运营,文心大模型持续迭代",
+        "date": "2026",
+        "category": "业务",
+        "summary": "萝卜快跑在武汉等多城市实现大规模无人化运营,是全球最大的 Robotaxi 服务之一;文心与昆仑芯片自研并进。"
+      }
+    ]
   },
   "amzn": {
     "id": "amzn",
@@ -2383,7 +2479,15 @@
       "growth": 73,
       "innovation": 92,
       "community": 78
-    }
+    },
+    "news": [
+      {
+        "title": "领投 OpenAI 新一轮融资;Trainium 自研芯片放量",
+        "date": "2026",
+        "category": "业务",
+        "summary": "与英伟达、软银共同领投 OpenAI 1220 亿美元融资;AWS 扩建 AI 算力,Trainium/Inferentia 降低对英伟达依赖,并深度绑定 Anthropic。"
+      }
+    ]
   },
   "pony": {
     "id": "pony",
@@ -2485,6 +2589,14 @@
     "suppliers": [
       "nvda",
       "hesai"
+    ],
+    "news": [
+      {
+        "title": "小马智行登陆纳斯达克，Robotaxi 在北上广深商业化运营推进",
+        "date": "2024-11",
+        "category": "重大",
+        "summary": "小马智行于 2024 年 11 月在美国纳斯达克上市，专注 L4 级自动驾驶，业务涵盖 Robotaxi 与 Robotruck，并与丰田等车企、出行平台合作推动无人车队量产与规模化落地。"
+      }
     ]
   },
   "wrd": {
@@ -2577,6 +2689,14 @@
     "suppliers": [
       "nvda",
       "hesai"
+    ],
+    "news": [
+      {
+        "title": "文远知行纳斯达克上市，多场景 L4 产品线加速出海阿联酋",
+        "date": "2024",
+        "category": "重大",
+        "summary": "文远知行 2024 年在美国纳斯达克上市，其 L4 技术覆盖 Robotaxi、无人小巴、货运车、清扫车等多种车型，并在阿联酋等海外市场开展运营，是中国自动驾驶「走出去」的代表。"
+      }
     ]
   },
   "rxrx": {
@@ -2667,7 +2787,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "Recursion 合并 AI 药企 Exscientia，做大「AI+自动化实验室」制药平台",
+        "date": "2024",
+        "category": "重大",
+        "summary": "Recursion 于 2024 年合并 AI 药企 Exscientia，扩大用机器人实验加 AI 挖掘生物图谱的药物发现平台，并与英伟达深度合作用 GPU 训练生物模型，管线最终仍需临床数据验证。"
+      }
+    ]
   },
   "cgnx": {
     "id": "cgnx",
@@ -2761,7 +2889,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 57
-    }
+    },
+    "news": [
+      {
+        "title": "康耐视将深度学习引入机器视觉，攻克复杂多变的外观检测场景",
+        "date": "2026",
+        "category": "产品",
+        "summary": "作为全球工业机器视觉龙头，康耐视把深度学习融入智能相机与视觉软件，让系统能处理传统规则算法搞不定的复杂外观检测，持续受益于制造业自动化与机器人视觉需求增长。"
+      }
+    ]
   },
   "arm": {
     "id": "arm",
@@ -2873,7 +3009,15 @@
       "growth": 69,
       "innovation": 86,
       "community": 52
-    }
+    },
+    "news": [
+      {
+        "title": "数据中心份额快速提升,Neoverse 被自研芯片广泛采用",
+        "date": "2026",
+        "category": "业务",
+        "summary": "亚马逊 Graviton、微软 Cobalt、英伟达 Grace 等均基于 Arm;软银「星际之门」等 AI 大计划让 Arm 处于生态核心。"
+      }
+    ]
   },
   "pstg": {
     "id": "pstg",
@@ -2961,7 +3105,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "拿下 Meta 超大规模闪存合同,AI 存储放量",
+        "date": "2026",
+        "category": "业务",
+        "summary": "与 Meta 合作把全闪存架构引入超大规模数据中心,企业 AI 数据平台需求带动订阅收入(Evergreen)增长。"
+      }
+    ]
   },
   "gev": {
     "id": "gev",
@@ -3059,6 +3211,14 @@
     },
     "partners": [
       "amzn"
+    ],
+    "news": [
+      {
+        "title": "AI 用电激增推动燃气轮机与电网设备需求，GE Vernova 订单饱满业绩大增",
+        "date": "2026",
+        "category": "财报",
+        "summary": "AI 数据中心用电激增带来新增发电与电网升级两大刚需，GE Vernova 全球领先的燃气轮机和变压器等电网装备正是核心供给，订单饱满、业绩大增，成为「AI 到电力」最直接受益者之一。"
+      }
     ]
   },
   "sie": {
@@ -3154,7 +3314,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 57
-    }
+    },
+    "news": [
+      {
+        "title": "西门子携手英伟达推进「工业元宇宙」，AI 深度融入数字孪生与工厂运营",
+        "date": "2026",
+        "category": "进展",
+        "summary": "西门子把 AI 融入预测性维护、生产优化与质量检测等工业场景，并让工程师用自然语言操作工业系统；同时与英伟达合作，将数字孪生与「工业元宇宙」结合，连接数字 AI 与实体工业。"
+      }
+    ]
   },
   "foxconn": {
     "id": "foxconn",
@@ -3255,7 +3423,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "AI 服务器营收超越 iPhone 成第一大业务",
+        "date": "2026",
+        "category": "重大",
+        "summary": "GB200/GB300 整机柜量产主力,AI 服务器收入历史性超过消费电子;与英伟达合作在多地建 AI 工厂。"
+      }
+    ]
   },
   "schneider": {
     "id": "schneider",
@@ -3355,7 +3531,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "施耐德电气 EcoStruxure 打包 AI 数据中心供电与液冷方案，收购补齐设计能力",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 数据中心功率密度暴增，施耐德通过 EcoStruxure 平台提供从园区供配电、UPS 到制冷液冷的整套方案，并收购整合 AI 数据中心设计能力，供配电与制冷成为直接受益的增长引擎。"
+      }
+    ]
   },
   "envicool": {
     "id": "envicool",
@@ -3440,7 +3624,15 @@
       "growth": 63,
       "innovation": 77,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "液冷成 AI 数据中心标配，英维克液冷业务爆发式增长",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 服务器功率密度达普通服务器数倍到十几倍，传统风冷难以压住，液冷成为标配。英维克提供冷板式、浸没式等整套温控方案，作为国产温控龙头液冷业务实现爆发式增长。"
+      }
+    ]
   },
   "innolight": {
     "id": "innolight",
@@ -3652,7 +3844,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "1.6T 批量出货,A+H 上市推进",
+        "date": "2026",
+        "category": "业务",
+        "summary": "800G 大批量交付、1.6T 开始上量,北美大客户订单饱满;推进港股上市打造 A+H 平台,业绩连创新高。"
+      }
+    ]
   },
   "skhynix": {
     "id": "skhynix",
@@ -3854,6 +4054,14 @@
         "name": "卢泰文 (Roh Tae-moon)",
         "title": "联席 CEO(设备体验 DX)"
       }
+    ],
+    "news": [
+      {
+        "title": "三星全力冲刺英伟达 HBM 认证，力图从 SK 海力士手中夺回份额",
+        "date": "2026",
+        "category": "进展",
+        "summary": "三星在最先进 HBM 上一度落后于抢先拿下英伟达主力订单的 SK 海力士，正全力追赶并争取通过英伟达认证；同时其代工业务也在追赶台积电、争取先进制程与 AI 芯片订单。"
+      }
     ]
   },
   "lite": {
@@ -3957,6 +4165,14 @@
     },
     "suppliers": [
       "mtsi"
+    ],
+    "news": [
+      {
+        "title": "EML 激光芯片供不应求,产能积极扩张",
+        "date": "2026",
+        "category": "业务",
+        "summary": "1.6T 时代 EML 是关键瓶颈,Lumentum 扩产仍供不应求;云厂商直接锁定产能,业绩强劲回升。"
+      }
     ]
   },
   "aaoi": {
@@ -4052,7 +4268,15 @@
       "growth": 64,
       "innovation": 79,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "800G 放量+1.6T 突破,重返光模块第一梯队",
+        "date": "2026",
+        "category": "业务",
+        "summary": "与微软等云厂签长期供货协议,800G 收发模块规模出货、1.6T 送样;美国本土产能成为差异化优势。"
+      }
+    ]
   },
   "cien": {
     "id": "cien",
@@ -4147,7 +4371,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "数据中心互联(DCI)需求爆发,AI 拉动相干光订单",
+        "date": "2026",
+        "category": "业务",
+        "summary": "云厂商跨数据中心训练带动 WaveLogic 相干光设备需求,订单能见度改善,AI 成为增长叙事核心。"
+      }
+    ]
   },
   "nok": {
     "id": "nok",
@@ -4231,7 +4463,15 @@
       "growth": 59,
       "innovation": 72,
       "community": 47
-    }
+    },
+    "news": [
+      {
+        "title": "收购 Infinera 完成,光网络卡位 AI 数据中心互联",
+        "date": "2026",
+        "category": "重大",
+        "summary": "约 23 亿美元收购 Infinera 大幅增强光传输实力;数据中心互联(DCI)成为电信设备商的新增长故事,并获英伟达入股合作 AI-RAN。"
+      }
+    ]
   },
   "mu": {
     "id": "mu",
@@ -4432,7 +4672,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "光模块代工满载,英伟达 1.6T 世代主力制造伙伴",
+        "date": "2026",
+        "category": "业务",
+        "summary": "承接英伟达高速光模块/有源光缆制造,泰国产能持续扩建;800G/1.6T 出货爬坡带动业绩创新高。"
+      }
+    ]
   },
   "csco": {
     "id": "csco",
@@ -4523,7 +4771,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 订单加速,自研 Silicon One 进攻数据中心网络",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 基础设施订单持续放量,网络设备+安全(Splunk)双线;Silicon One 芯片争夺超大规模客户。"
+      }
+    ]
   },
   "accelink": {
     "id": "accelink",
@@ -4608,7 +4864,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "国产光模块加速出海,800G 批量交付",
+        "date": "2026",
+        "category": "业务",
+        "summary": "800G 光模块批量供货,硅光与相干技术布局完整;国产算力建设(智算中心)带来国内需求增量。"
+      }
+    ]
   },
   "tianfu": {
     "id": "tianfu",
@@ -4696,7 +4960,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "光引擎与无源器件量价齐升,业绩高增长",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 光模块放量带动上游器件需求,高速光引擎(用于 CPO/光模块)成为新增长点,产能持续扩张。"
+      }
+    ]
   },
   "yuanjie": {
     "id": "yuanjie",
@@ -4784,7 +5056,15 @@
       "growth": 62,
       "innovation": 75,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "国产高速激光器芯片突破,受益光芯片国产化",
+        "date": "2026",
+        "category": "业务",
+        "summary": "100G EML 等高速激光器芯片验证突破,数据中心客户导入;国产光芯片替代空间打开。"
+      }
+    ]
   },
   "mtsi": {
     "id": "mtsi",
@@ -4879,7 +5159,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "数据中心光电芯片需求强劲,业绩稳步增长",
+        "date": "2026",
+        "category": "业务",
+        "summary": "激光驱动器/TIA 随 800G/1.6T 光模块放量,国防射频与卫星通信同步景气。"
+      }
+    ]
   },
   "smtc": {
     "id": "smtc",
@@ -4965,6 +5253,14 @@
     "keyCustomers": [
       "innolight",
       "eoptolink"
+    ],
+    "news": [
+      {
+        "title": "光模块 CDR/DSP 芯片受益 AI 光互联放量",
+        "date": "2026",
+        "category": "业务",
+        "summary": "CopperEdge/FiberEdge 切入 800G/1.6T 光模块与有源铜缆,数据中心业务高增长,LoRa 物联网稳定。"
+      }
     ]
   },
   "jnpr": {
@@ -5051,7 +5347,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "并入 HPE 完成,Mist AI 网络成整合核心",
+        "date": "2025",
+        "category": "重大",
+        "summary": "HPE 以约 140 亿美元完成对瞻博的收购,AI 驱动的 Mist 网络平台成为 HPE 网络业务的核心。"
+      }
+    ]
   },
   "eric": {
     "id": "eric",
@@ -5134,7 +5438,15 @@
       "growth": 59,
       "innovation": 72,
       "community": 47
-    }
+    },
+    "news": [
+      {
+        "title": "5G 企业专网与 AI 网络自动化寻找新增长",
+        "date": "2026",
+        "category": "业务",
+        "summary": "电信资本开支疲软下转向企业市场与 AI 运维自动化;与运营商探索 AI RAN(无线接入网智能化)。"
+      }
+    ]
   },
   "ceg": {
     "id": "ceg",
@@ -5324,6 +5636,14 @@
     },
     "partners": [
       "msft"
+    ],
+    "news": [
+      {
+        "title": "Vistra 探索为数据中心直接供电，核电加燃气资产随 AI 用电预期大涨",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 数据中心用电激增让稳定清洁的基荷电力炙手可热，Vistra 手握核电与燃气资产并收购核电、探索为数据中心直供电，业绩和股价随「AI 用电」预期大幅上涨。"
+      }
     ]
   },
   "oklo": {
@@ -5500,7 +5820,15 @@
       "growth": 61,
       "innovation": 74,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "AI 算力渴求无碳基荷电力，NuScale 转向数据中心客户重获追捧",
+        "date": "2026",
+        "category": "进展",
+        "summary": "旗舰示范项目 UAMPS 因成本超支于 2023 年取消后，NuScale 借 AI 数据中心对无碳基荷电力的渴求重新受追捧，正转向数据中心等新客户寻求订单，但仍面临从设计认证到建成发电的落地考验。"
+      }
+    ]
   },
   "cat": {
     "id": "cat",
@@ -5584,7 +5912,15 @@
       "growth": 59,
       "innovation": 72,
       "community": 47
-    }
+    },
+    "news": [
+      {
+        "title": "数据中心备用与就地发电需求爆发，卡特彼勒发电机组订单大增",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 数据中心狂建带来可靠备电与电网排队期就地发电的硬需求，卡特彼勒的柴油/燃气发电机组和旗下 Solar Turbines 燃气轮机订单大增，同时矿业板块还受益于 AI 对铜等金属的需求。"
+      }
+    ]
   },
   "cmi": {
     "id": "cmi",
@@ -5668,7 +6004,15 @@
       "growth": 59,
       "innovation": 72,
       "community": 47
-    }
+    },
+    "news": [
+      {
+        "title": "AI 数据中心备电需求拉动订单，数据中心成康明斯增长最快业务",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 数据中心需要秒级顶上的大功率备用发电机组以保障 GPU 集群不断电，爆发式建设让康明斯备用与就地发电订单大增，数据中心成为其增长最快的业务之一，并通过 Accelera 布局氢能。"
+      }
+    ]
   },
   "harmonic": {
     "id": "harmonic",
@@ -5757,6 +6101,14 @@
       "unitree",
       "apptronik",
       "tsla"
+    ],
+    "news": [
+      {
+        "title": "人形机器人量产浪潮打开需求空间，哈默纳科谐波减速器龙头地位受益",
+        "date": "2026",
+        "category": "业务",
+        "summary": "每台人形机器人的关节都要用到多个谐波减速器，量产浪潮极大打开需求空间。哈默纳科凭数十年技术工艺近乎垄断高端市场，是具身智能硬件产业链中议价能力很强的一环。"
+      }
     ]
   },
   "teradyne": {
@@ -5859,7 +6211,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 芯片与 HBM 先进封装复杂化，泰瑞达测试设备需求持续上升",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 芯片日益复杂、HBM 等先进封装增多，使芯片测试的难度与价值量同步上升，直接拉动泰瑞达 ATE 设备需求；旗下优傲协作机器人与 MiR 移动机器人同时卡位智能制造趋势。"
+      }
+    ]
   },
   "asml": {
     "id": "asml",
@@ -6062,7 +6422,15 @@
       "growth": 69,
       "innovation": 86,
       "community": 52
-    }
+    },
+    "news": [
+      {
+        "title": "AI 驱动先进制程与 HBM 扩产,设备订单强劲",
+        "date": "2026",
+        "category": "业务",
+        "summary": "先进逻辑(2nm)、HBM/先进封装、背面供电等技术拐点带来设备密集度提升,中国业务受出口管制影响但被 AI 需求抵消。"
+      }
+    ]
   },
   "lrcx": {
     "id": "lrcx",
@@ -6165,7 +6533,15 @@
       "growth": 69,
       "innovation": 85,
       "community": 51
-    }
+    },
+    "news": [
+      {
+        "title": "NAND 升级周期+HBM 扩产,刻蚀沉积设备景气回升",
+        "date": "2026",
+        "category": "业务",
+        "summary": "存储厂商为 AI 升级 3D NAND/DRAM 产线,泛林作为存储设备龙头最受益;先进封装与背面供电打开新市场。"
+      }
+    ]
   },
   "klac": {
     "id": "klac",
@@ -6266,7 +6642,15 @@
       "growth": 68,
       "innovation": 84,
       "community": 51
-    }
+    },
+    "news": [
+      {
+        "title": "先进制程良率控制需求激增,过程控制份额稳固",
+        "date": "2026",
+        "category": "业务",
+        "summary": "2nm/先进封装的缺陷检测更关键,量检测设备强者恒强;AI 芯片高良率诉求直接拉动 KLA 订单。"
+      }
+    ]
   },
   "snps": {
     "id": "snps",
@@ -6374,7 +6758,15 @@
       "growth": 69,
       "innovation": 86,
       "community": 75
-    }
+    },
+    "news": [
+      {
+        "title": "完成收购 Ansys,EDA+仿真巨头成型",
+        "date": "2025",
+        "category": "重大",
+        "summary": "约 350 亿美元收购 Ansys 完成,芯片设计+系统仿真一体化;AI 芯片设计潮与 AI 辅助设计(Synopsys.ai)双引擎。"
+      }
+    ]
   },
   "cdns": {
     "id": "cdns",
@@ -6481,7 +6873,15 @@
       "growth": 69,
       "innovation": 85,
       "community": 74
-    }
+    },
+    "news": [
+      {
+        "title": "AI 芯片设计需求旺盛,AI 驱动 EDA 工具放量",
+        "date": "2026",
+        "category": "业务",
+        "summary": "定制 ASIC 与系统公司自研芯片潮拉动 EDA;Cadence.ai 用 AI 优化设计,并扩展系统分析与数字孪生。"
+      }
+    ]
   },
   "ase": {
     "id": "ase",
@@ -6591,6 +6991,14 @@
     "suppliers": [
       "ibiden",
       "unimicron"
+    ],
+    "news": [
+      {
+        "title": "先进封装产能扩张,承接 AI 芯片外溢需求",
+        "date": "2026",
+        "category": "业务",
+        "summary": "台积电 CoWoS 满载下,日月光承接扇出/2.5D 封装外溢订单;测试业务受益 AI 芯片复杂度提升。"
+      }
     ]
   },
   "amkr": {
@@ -6692,6 +7100,14 @@
     ],
     "partners": [
       "tsm"
+    ],
+    "news": [
+      {
+        "title": "亚利桑那先进封装厂动工,绑定美国制造回流",
+        "date": "2026",
+        "category": "进展",
+        "summary": "配合台积电亚利桑那晶圆厂做先进封装,获《芯片法案》支持;新 CEO Kevin Engel 上任接棒。"
+      }
     ]
   },
   "rklb": {
@@ -6775,7 +7191,15 @@
       "growth": 61,
       "innovation": 74,
       "community": 56
-    }
+    },
+    "news": [
+      {
+        "title": "火箭实验室推进可回收中型火箭「中子号」，直接对标猎鹰 9 号",
+        "date": "2026",
+        "category": "研发",
+        "summary": "在小火箭「电子号」保持发射频次与成功率领先的同时，Rocket Lab 正研发更大的可回收中型火箭「中子号」进军更大发射市场，并以火箭加卫星制造的双线布局深耕太空经济。"
+      }
+    ]
   },
   "asts": {
     "id": "asts",
@@ -6856,7 +7280,15 @@
       "growth": 59,
       "innovation": 72,
       "community": 55
-    }
+    },
+    "news": [
+      {
+        "title": "AST SpaceMobile 携 AT&T、Verizon 等运营商推进卫星直连普通手机",
+        "date": "2026",
+        "category": "进展",
+        "summary": "ASTS 部署「超大天线」低轨卫星，让普通手机在无基站的海上、沙漠、山区直连卫星通话上网，获 AT&T、Verizon、沃达丰等运营商入股或签约，是与 Starlink Direct-to-Cell 竞争的领先玩家。"
+      }
+    ]
   },
   "spacex": {
     "id": "spacex",
@@ -6956,6 +7388,14 @@
       "Sequoia",
       "谷歌",
       "a16z"
+    ],
+    "news": [
+      {
+        "title": "SpaceX 推进 Starship 完全可回收，为在轨算力与太空数据中心铺路",
+        "date": "2026",
+        "category": "研发",
+        "summary": "Falcon 9 反复回收已把每公斤入轨成本压到历史低点，Starlink 数千颗卫星成为现金流支柱；下一代 Starship 追求完全可回收与超大运力，目标再降一个数量级成本并支撑太空数据中心设想。"
+      }
     ]
   },
   "openai": {
@@ -7474,7 +7914,15 @@
       "growth": 87,
       "innovation": 89,
       "community": 52
-    }
+    },
+    "news": [
+      {
+        "title": "华为昇腾 910C 出货量 2026 年有望翻倍至约 60 万颗，910D 下半年量产",
+        "date": "2026",
+        "category": "产品",
+        "summary": "昇腾 910C 自 2025 年 5 月量产后，2026 年出货量有望翻倍至约 60 万颗；5nm、支持 FP8 的 910D 预计 2026 年二三季度量产，CloudMatrix 384 超节点对标英伟达 GB200 NVL72。"
+      }
+    ]
   },
   "bostondynamics": {
     "id": "bostondynamics",
@@ -7558,7 +8006,15 @@
       "growth": 86,
       "innovation": 86,
       "community": 59
-    }
+    },
+    "news": [
+      {
+        "title": "全电动 Atlas 量产版 CES 发布并投产，2026 年产能已被现代与 DeepMind 全部认购",
+        "date": "2026-01",
+        "category": "重大",
+        "summary": "波士顿动力于 2026 年 1 月 CES 发布全电动 Atlas 量产版并在波士顿总部投产，2026 年产能全部认购给现代 RMAC 与谷歌 DeepMind，并接入 Gemini Robotics 模型补齐机器人「大脑」。"
+      }
+    ]
   },
   "figure": {
     "id": "figure",
@@ -7728,6 +8184,14 @@
     },
     "suppliers": [
       "harmonic"
+    ],
+    "news": [
+      {
+        "title": "Digit 借 RoboFab 量产,深入亚马逊与 GXO 真实仓库作业",
+        "date": "2026",
+        "category": "落地",
+        "summary": "Agility Robotics 依托专门量产人形机器人的工厂 RoboFab,推动双足机器人 Digit 从演示走向部署,在亚马逊、GXO 的真实仓库中承担搬料箱、拣货等重复体力活,是西方人形机器人商用落地的先行代表。"
+      }
     ]
   },
   "apptronik": {
@@ -7803,7 +8267,15 @@
       "growth": 85,
       "innovation": 83,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "Apollo 携手奔驰、GXO 实地部署,联合 DeepMind 打造 AI 大脑",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Apptronik 的通用人形机器人 Apollo 主打安全、模块化,已与奔驰在汽车工厂测试、与物流巨头 GXO 实地部署,并与谷歌 DeepMind 合作将先进 AI 装进机器人,被视为最务实落地的人形机器人玩家之一。"
+      }
+    ]
   },
   "unitree": {
     "id": "unitree",
@@ -7968,7 +8440,15 @@
       "growth": 84,
       "innovation": 81,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "OpenAI 领投的 1X 押注家用赛道,NEO 主打安全安静做家务",
+        "date": "2026",
+        "category": "进展",
+        "summary": "1X 以轻量柔性设计打造面向家庭的人形机器人 NEO,强调与人安全共处、安静运行并承担家务,在多数同行聚焦工厂仓库之际大胆押注「机器人进家庭」,成为观察通用人形机器人走进日常生活的重要窗口。"
+      }
+    ]
   },
   "anysphere": {
     "id": "anysphere",
@@ -8123,6 +8603,14 @@
     ],
     "suppliers": [
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Windsurf 巨变:谷歌反向收购请走 CEO,剩余团队并入 Cognition",
+        "date": "2025",
+        "category": "重大",
+        "summary": "2025 年谷歌以「反向收购」方式请走 Windsurf 的 CEO 与部分核心团队并获技术授权,随后剩余的编辑器业务与团队被 Devin 开发商 Cognition 收购,成为 AI 编程赛道剧烈整合与人才争夺的缩影。"
+      }
     ]
   },
   "replit": {
@@ -8203,6 +8691,14 @@
       "a16z",
       "Coatue",
       "Khosla Ventures"
+    ],
+    "news": [
+      {
+        "title": "Replit Agent 踩中 vibe coding 浪潮,收入快速增长",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Replit Agent 让用户以自然语言描述需求,即可自动写代码、装依赖、建数据库、调试并部署上线,把 Replit 从「学编程的地方」升级为「不会编程也能造软件的平台」,收入随之快速增长。"
+      }
     ]
   },
   "stackblitz": {
@@ -8283,6 +8779,14 @@
       "GV",
       "Amplify Partners",
       "The General Partnership"
+    ],
+    "news": [
+      {
+        "title": "Bolt.new 增长神话:ARR 数月内飙升至上亿美元级",
+        "date": "2024",
+        "category": "产品",
+        "summary": "StackBlitz 于 2024 年推出 Bolt.new,依托 WebContainers 让全栈应用在浏览器里实时生成、运行并一键部署,「说话建应用」体验流畅,推出后收入数月内飙至上亿美元级,跻身 vibe coding 明星行列。"
+      }
     ]
   },
   "lovable": {
@@ -8355,6 +8859,14 @@
       "Accel",
       "Creandum",
       "20VC"
+    ],
+    "news": [
+      {
+        "title": "欧洲增长最快软件公司之一:Lovable ARR 破亿、估值飙升",
+        "date": "2026",
+        "category": "融资",
+        "summary": "这家 2023 年成立于瑞典的公司让用户用大白话描述需求即可生成前端、后端与数据库并一键上线,凭极低门槛与惊人增速成为欧洲增长最快的软件公司之一,ARR 快速突破上亿美元、估值持续飙升。"
+      }
     ]
   },
   "mistral": {
@@ -8534,7 +9046,15 @@
       "growth": 83,
       "innovation": 81,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "Stable Audio 3.0 发布,携 SD 3.5 构建最强开源生成生态",
+        "date": "2026-05",
+        "category": "产品",
+        "summary": "Stability AI 于 2026 年 5 月发布 Stable Audio 3.0,与旗舰 Stable Diffusion 3.5 共同构成业界最强开源生成生态之一;在 Prem Akkaraju、James Cameron 等影视化领导层带领下,公司转向企业授权与好莱坞合作,估值约 28 亿美元。"
+      }
+    ]
   },
   "midjourney": {
     "id": "midjourney",
@@ -8602,7 +9122,15 @@
       "growth": 86,
       "innovation": 86,
       "community": 74
-    }
+    },
+    "news": [
+      {
+        "title": "独立盈利的审美标杆:Midjourney 推网页版并探索视频生成",
+        "date": "2026",
+        "category": "进展",
+        "summary": "Midjourney 在 Discord 社区起家后推出网页版,并开始探索视频生成新方向;这家无大规模外部融资、团队精简且据称持续盈利的公司,仍是文生图领域「小团队+极致产品」的典范与画质标杆。"
+      }
+    ]
   },
   "physicalint": {
     "id": "physicalint",
@@ -8747,7 +9275,15 @@
       "growth": 83,
       "innovation": 79,
       "community": 70
-    }
+    },
+    "news": [
+      {
+        "title": "亚马逊以「许可+人才」方式请走 Covariant 创始团队",
+        "date": "2024",
+        "category": "重大",
+        "summary": "2024 年亚马逊以类似对 Adept 的「许可+人才」操作,请走 Covariant 多位创始人与核心团队,将其机器人基础模型 RFM 的仓储拣选能力纳入自家物流机器人体系,成为核心团队被巨头吸走的又一案例。"
+      }
+    ]
   },
   "ai21": {
     "id": "ai21",
@@ -8823,6 +9359,14 @@
       "英伟达",
       "Intel Capital",
       "Pitango"
+    ],
+    "news": [
+      {
+        "title": "Jamba 混合架构立足长上下文,Maestro 智能体瞄准企业复杂任务",
+        "date": "2026",
+        "category": "产品",
+        "summary": "AI21 Labs 主打的 Jamba 融合 Mamba(SSM)与 Transformer,可在同等硬件上处理远超纯 Transformer 的上下文长度;公司聚焦企业级私有部署,并推出面向复杂多步任务的智能体系统 Maestro,估值约 14 亿美元级别。"
+      }
     ]
   },
   "insilico": {
@@ -8898,6 +9442,14 @@
       "华平投资 Warburg Pincus",
       "启明创投",
       "红杉中国"
+    ],
+    "news": [
+      {
+        "title": "AI 设计的 IPF 候选药推进临床,验证「AI 从头造药」流水线",
+        "date": "2026",
+        "category": "研发",
+        "summary": "英矽智能用 AI 大幅加速特发性肺纤维化(IPF)候选新药从靶点发现到临床的进程并成功推进临床试验,成为「AI 设计的药进入临床」的代表性案例,其端到端生成式制药流水线覆盖靶点发现、分子生成与临床预测。"
+      }
     ]
   },
   "perplexity": {
@@ -9081,7 +9633,15 @@
       "growth": 58,
       "innovation": 70,
       "community": 55
-    }
+    },
+    "news": [
+      {
+        "title": "GM 停投 Cruise Robotaxi,转向 Super Cruise 个人自动驾驶",
+        "date": "2024",
+        "category": "重大",
+        "summary": "2024 年底通用汽车决定停止为 Cruise 的 Robotaxi 业务继续投入,将自动驾驶技术整合进公司并聚焦个人自动驾驶,升级辅助驾驶系统 Super Cruise 落到量产乘用车,折射出 Robotaxi 商业化的艰难与车企回归务实。"
+      }
+    ]
   },
   "oss_graph": {
     "id": "oss_graph",
@@ -9138,7 +9698,15 @@
       "growth": 74,
       "innovation": 77,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "PyG 与 DGL 双框架支撑图学习,药物发现风控推荐广泛落地",
+        "date": "2026",
+        "category": "落地",
+        "summary": "作为图神经网络两大主流开源框架,PyG 与 DGL 提供标准的数据结构、算子与模型,大幅降低图学习门槛,被学术界与工业界在药物发现、金融风控、推荐系统等场景广泛使用,持续巩固图机器学习基础设施地位。"
+      }
+    ]
   },
   "mamba": {
     "id": "mamba",
@@ -9196,7 +9764,15 @@
       "growth": 74,
       "innovation": 81,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "Mamba 近线性复杂度挑战 Transformer,混合架构获产业采纳",
+        "date": "2026",
+        "category": "进展",
+        "summary": "由 Albert Gu 与 Tri Dao 提出的 Mamba 以状态空间模型实现接近线性的复杂度,高效处理长文档、基因组、音频等超长序列;「SSM+Transformer 混合」路线已被 AI21 的 Jamba 等产品采纳,成为架构层面探索高效路线的代表方向。"
+      }
+    ]
   },
   "llava": {
     "id": "llava",
@@ -9251,7 +9827,15 @@
       "growth": 74,
       "innovation": 79,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "LLaVA 低成本开源方案催生大量后续工作,普及开源多模态",
+        "date": "2026",
+        "category": "进展",
+        "summary": "LLaVA 用简洁方法把视觉编码器接到大语言模型上,以很低训练成本、开源方式让研究者拥有可用的视觉语言模型,催生了大量后续工作,证明「不必是大厂也能做出可用 VLM」,持续推动开源多模态生态发展。"
+      }
+    ]
   },
   "openvla": {
     "id": "openvla",
@@ -9309,7 +9893,15 @@
       "growth": 74,
       "innovation": 79,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "OpenVLA 开源视觉-语言-动作模型,降低具身智能研究门槛",
+        "date": "2026",
+        "category": "研发",
+        "summary": "在 Physical Intelligence、谷歌 RT 系列等前沿 VLA 多为闭源的背景下,斯坦福等机构主导的 OpenVLA 将「画面+指令直接输出动作」的机器人模型开源,让全球研究者可微调到自己的机器人上,推动开源具身智能生态发展。"
+      }
+    ]
   },
   "ualink": {
     "id": "ualink",
@@ -9365,7 +9957,15 @@
       "growth": 74,
       "innovation": 77,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "AMD、谷歌、微软等联手推 UALink,开放标准对标 NVLink",
+        "date": "2026",
+        "category": "进展",
+        "summary": "由 AMD、博通、谷歌、英特尔、Meta、微软等巨头联合发起的 UALink 联盟,制定任何厂商都能用的开放高速加速器互联标准,意在打破英伟达私有 NVLink 的生态锁定,是产业「去英伟达化」、争夺互联标准话语权的关键一步。"
+      }
+    ]
   },
   "elevenlabs": {
     "id": "elevenlabs",
@@ -9536,7 +10136,15 @@
     ],
     "links": {
       "x": "https://x.com/runwayml"
-    }
+    },
+    "news": [
+      {
+        "title": "Gen 系列持续刷新 AI 视频上限,Runway Studios 探索 AI 影视",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Runway 的 Gen-2、Gen-3、Gen-4 系列模型不断刷新 AI 视频质量上限,配合抠像、动捕、特效等专业创作工具打造「AI 时代的影视创作平台」;其技术曾用于奥斯卡获奖影片《瞬息全宇宙》,并成立 Runway Studios 探索 AI 影视内容。"
+      }
+    ]
   },
   "pika": {
     "id": "pika",
@@ -9607,6 +10215,14 @@
       "Lightspeed",
       "a16z",
       "Homebrew"
+    ],
+    "news": [
+      {
+        "title": "Pikaffects 特效社媒病毒式出圈,Pika 主攻大众 AI 视频创作",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Pika 以文字或图片生成短视频,凭借让物体膨胀、融化、爆炸等 Pikaffects 创意特效在社交媒体病毒式传播,吸引大量普通用户尝鲜,并凭出色产品体验获得大量关注与融资,代表 AI 视频走向大众消费级创意工具。"
+      }
     ]
   },
   "luma": {
@@ -9684,6 +10300,14 @@
       "a16z",
       "英伟达",
       "Matrix Partners"
+    ],
+    "news": [
+      {
+        "title": "Dream Machine 生成电影感视频,3D 技术底子指向世界模型",
+        "date": "2026",
+        "category": "进展",
+        "summary": "Luma AI 从 NeRF/3D 重建起家,其 Dream Machine 能把文字或图片变成高质量、有电影感的短视频,一度是最受欢迎的 AI 视频产品之一;偏重三维与物理理解的技术底子使其在空间感与运动连贯性上独具优势,指向「世界模型」前沿。"
+      }
     ]
   },
   "suno": {
@@ -9751,6 +10375,14 @@
       "Lightspeed",
       "Nat Friedman",
       "Founder Collective"
+    ],
+    "news": [
+      {
+        "title": "Suno 完成 4 亿美元 D 轮,估值 54 亿美元半年翻倍",
+        "date": "2026-06",
+        "category": "融资",
+        "summary": "2026 年 6 月 Suno 完成 4 亿美元 D 轮融资,估值达 54 亿美元、半年内翻倍;3 月发布的 v5.5 支持用创作者自己的嗓音生成并达 48kHz 专业音质,同时其与环球、索尼的版权诉讼关键判决预计 7 月开庭,华纳已率先和解。"
+      }
     ]
   },
   "udio": {
@@ -9816,6 +10448,14 @@
     "investors": [
       "a16z",
       "UTA"
+    ],
+    "news": [
+      {
+        "title": "Udio 深陷唱片公司版权诉讼，AI 音乐合法边界待定",
+        "date": "2026",
+        "category": "重大",
+        "summary": "这家由前 DeepMind 研究者创立、与 Suno 并称 AI 音乐双雄的公司，因训练数据涉嫌使用受版权保护音乐被大型唱片公司起诉，这场官司将划定 AI 音乐生成的合法边界。"
+      }
     ]
   },
   "heygen": {
@@ -9883,6 +10523,14 @@
     "investors": [
       "Benchmark",
       "Conviction"
+    ],
+    "news": [
+      {
+        "title": "HeyGen 收入增长迅猛，AI 数字人视频商业化领跑",
+        "date": "2026",
+        "category": "业务",
+        "summary": "凭借数字化身、口型同步与保留本人音色的多语言配音，HeyGen 帮企业低成本批量生产培训与营销视频，收入快速增长、估值持续攀升，成为 AI 视频商业化最成功的公司之一。"
+      }
     ]
   },
   "synthesia": {
@@ -9951,6 +10599,14 @@
       "NEA",
       "Kleiner Perkins",
       "英伟达"
+    ],
+    "news": [
+      {
+        "title": "Synthesia 估值达数十亿美元，财富 500 强客户持续扩大",
+        "date": "2026",
+        "category": "业务",
+        "summary": "这家伦敦企业级 AI 数字人视频龙头让企业输入脚本即可生成支持百余种语言的专业讲解视频，聚焦大企业培训、合规与内部沟通场景，已积累大量《财富》500 强客户。"
+      }
     ]
   },
   "deepl": {
@@ -10025,6 +10681,14 @@
       "Index Ventures",
       "IVP",
       "Atomico"
+    ],
+    "news": [
+      {
+        "title": "DeepL 扩展为企业 AI 语言平台，估值达数十亿美元",
+        "date": "2026",
+        "category": "业务",
+        "summary": "面对通用大模型的翻译冲击，DeepL 从翻译工具扩展为涵盖文档翻译、DeepL Write 写作润色与数据合规方案的企业语言平台，以专精质量和企业信任守住阵地。"
+      }
     ]
   },
   "ideogram": {
@@ -10094,6 +10758,14 @@
     "investors": [
       "a16z",
       "Index Ventures"
+    ],
+    "news": [
+      {
+        "title": "Ideogram 凭图内文字精准渲染稳居文生图第一梯队",
+        "date": "2026",
+        "category": "产品",
+        "summary": "由谷歌 Imagen 研究者创立的 Ideogram 在图像中渲染清晰、排版美观文字上业界领先，在海报、logo、营销图等需要文字的设计场景建立了与 Midjourney、Flux 的清晰差异化。"
+      }
     ]
   },
   "blackforest": {
@@ -10169,7 +10841,15 @@
       "growth": 85,
       "innovation": 85,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "Black Forest Labs 的 FLUX 成 xAI Grok 图像生成引擎",
+        "date": "2026",
+        "category": "进展",
+        "summary": "由 Stable Diffusion 原班核心团队创立的 Black Forest Labs，其开源 FLUX 系列在质量、文字渲染与可控性上领先，被 xAI 的 Grok 采用为图像生成引擎，并获 a16z 等投资。"
+      }
+    ]
   },
   "groq": {
     "id": "groq",
@@ -10444,6 +11124,14 @@
       "BlackRock",
       "Intel Capital",
       "GV"
+    ],
+    "news": [
+      {
+        "title": "SambaNova 完成 F 轮首关 10 亿美元，估值约 110 亿美元",
+        "date": "2026-07",
+        "category": "融资",
+        "summary": "2026 年 7 月，这家数据流架构（RDU）AI 芯片公司完成由 General Atlantic 领投的 F 轮首关 10 亿美元融资，英特尔参投，投后估值约 110 亿美元，JPMorgan 为其推理合作方之一。"
+      }
     ]
   },
   "graphcore": {
@@ -10502,7 +11190,15 @@
       "growth": 82,
       "innovation": 75,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "Graphcore 被软银收购，并入其 AI 硬件版图",
+        "date": "2024",
+        "category": "重大",
+        "summary": "这家曾估值约 28 亿美元、被视为欧洲最有希望挑战英伟达的 IPU 芯片公司，因难以突破 CUDA 生态壁垒而经营承压，2024 年被软银收购，与 Arm 一同纳入软银 AI 硬件布局。"
+      }
+    ]
   },
   "tenstorrent": {
     "id": "tenstorrent",
@@ -10579,6 +11275,14 @@
       "现代汽车",
       "Fidelity",
       "Jeff Bezos"
+    ],
+    "news": [
+      {
+        "title": "Tenstorrent 获三星、现代投资，押注开放 RISC-V 路线",
+        "date": "2026",
+        "category": "进展",
+        "summary": "由传奇架构师 Jim Keller 掌舵的 Tenstorrent 同时押注 AI 加速芯片与开放 RISC-V 架构，强调可授权、避免 CUDA 式锁定，获三星、现代等大公司投资，是最受关注的英伟达挑战者之一。"
+      }
     ]
   },
   "etched": {
@@ -10652,6 +11356,14 @@
     ],
     "suppliers": [
       "tsm"
+    ],
+    "news": [
+      {
+        "title": "Etched 押注 Sohu 芯片，将 Transformer 硬编码进硅片",
+        "date": "2026",
+        "category": "研发",
+        "summary": "Etched 的旗舰推理 ASIC「Sohu」把 Transformer 计算逻辑直接刻进芯片，牺牲通用性换取极致速度与能效，声称可比 GPU 快数倍且更便宜，是 AI 芯片界最大胆的架构赌局之一。"
+      }
     ]
   },
   "crwv": {
@@ -10845,7 +11557,15 @@
       "growth": 85,
       "innovation": 83,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "Lambda 获英伟达投资，大幅扩建 GPU 云容量",
+        "date": "2026",
+        "category": "业务",
+        "summary": "这家面向 AI 研究者与企业的 GPU 云和工作站厂商，在算力紧缺、GPU 一卡难求的背景下获英伟达等投资并大幅扩容，与 CoreWeave、Nebius 同处快速崛起的「新云」赛道。"
+      }
+    ]
   },
   "crusoe": {
     "id": "crusoe",
@@ -10921,7 +11641,15 @@
       "growth": 84,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "Crusoe 据报参与 Stargate 超大规模数据中心项目",
+        "date": "2026",
+        "category": "重大",
+        "summary": "这家以「把算力建在能源旁」起家的 AI 数据中心公司，据报参与了 OpenAI、软银等主导的得州 Abilene 超大规模 Stargate 项目，成为「能源+算力」深度绑定模式的核心代表。"
+      }
+    ]
   },
   "nbis": {
     "id": "nbis",
@@ -11106,7 +11834,15 @@
       "growth": 85,
       "innovation": 86,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "Together AI 增长迅速，「开源 AI 全栈云」估值攀升",
+        "date": "2026",
+        "category": "业务",
+        "summary": "依托 FlashAttention 等前沿高效计算技术渊源，Together 为 Llama、DeepSeek、Qwen 等开源模型提供推理、微调与大规模 GPU 集群训练服务，乘企业拥抱开源之势快速增长。"
+      }
+    ]
   },
   "fireworks": {
     "id": "fireworks",
@@ -11180,7 +11916,15 @@
       "growth": 85,
       "innovation": 85,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "Fireworks AI 以 FireAttention 引擎抢占开源推理市场",
+        "date": "2026",
+        "category": "产品",
+        "summary": "由前 Meta PyTorch 核心成员创立的 Fireworks，用自研 FireAttention 引擎与量化、编译优化让开源模型跑得更快更省，开发者可一键调用数百个开源模型，增长迅猛、估值快速攀升。"
+      }
+    ]
   },
   "huggingface": {
     "id": "huggingface",
@@ -11263,7 +12007,15 @@
       "growth": 86,
       "innovation": 87,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "Hugging Face 托管模型与数据集突破百万量级",
+        "date": "2026",
+        "category": "进展",
+        "summary": "作为「AI 界的 GitHub」，Hugging Face 已托管上百万个模型与数据集，Meta、谷歌、Mistral、阿里 Qwen 等均在此发布开源模型，其 Transformers 库仍是大模型开发的基础工具。"
+      }
+    ]
   },
   "databricks": {
     "id": "databricks",
@@ -11535,6 +12287,14 @@
       "a16z",
       "Menlo Ventures",
       "ICONIQ"
+    ],
+    "news": [
+      {
+        "title": "Pinecone 稳居向量数据库头部，成 RAG 标配基础设施",
+        "date": "2026",
+        "category": "业务",
+        "summary": "作为向量数据库品类的开创者，Pinecone 的全托管服务让开发者无需自建即可为 AI 应用加上「长期记忆」与自有知识问答，是 AI 应用检索层最常用的基础设施之一。"
+      }
     ]
   },
   "weaviate": {
@@ -11601,6 +12361,14 @@
       {
         "name": "Bob van Luijt",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "Weaviate 以混合搜索强化开源向量数据库竞争力",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Weaviate 提供高性能、可扩展且开发者友好的向量存储与检索，支持混合搜索与过滤，被广泛用于企业知识问答、语义搜索及 AI 智能体记忆，与 Pinecone、Qdrant 正面竞争。"
       }
     ]
   },
@@ -11669,6 +12437,14 @@
       {
         "name": "Jeff Huber",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "Chroma 从开发者入门首选迈向生产级向量数据库",
+        "date": "2026",
+        "category": "产品",
+        "summary": "以「几行代码就能上手」著称的 Chroma 是众多开发者搭建 RAG 原型的第一站，在社区与教程中被广泛使用，目前正从轻量易用向可扩展的生产级方案演进。"
       }
     ]
   },
@@ -11747,6 +12523,14 @@
     "investors": [
       "Sequoia",
       "Benchmark"
+    ],
+    "news": [
+      {
+        "title": "LangChain 以 LangGraph 与 LangSmith 完善智能体开发栈",
+        "date": "2026",
+        "category": "产品",
+        "summary": "作为最流行的大模型应用编排框架，LangChain 用 LangGraph 支持复杂可控的多智能体流程，用 LangSmith 提供调试、评测与可观测能力，形成开源与商业化并行的完整开发栈。"
+      }
     ]
   },
   "llamaindex": {
@@ -11812,6 +12596,14 @@
       {
         "name": "Jerry Liu",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "LlamaIndex 推出 LlamaCloud，深耕企业文档解析与 RAG",
+        "date": "2026",
+        "category": "产品",
+        "summary": "专注「把数据接进大模型」的 LlamaIndex 主攻数据摄取、切分与建索引这一 RAG 最难环节，并推出云服务 LlamaCloud 与文档解析等商业产品，在复杂企业知识库场景口碑领先。"
       }
     ]
   },
@@ -11902,7 +12694,15 @@
       "growth": 86,
       "innovation": 85,
       "community": 59
-    }
+    },
+    "news": [
+      {
+        "title": "Meta 143 亿美元入股 Scale AI 49%，创始人 Wang 离任",
+        "date": "2025-06",
+        "category": "重大",
+        "summary": "2025 年 6 月 Meta 以 143 亿美元收购 Scale 约 49% 无投票权股权，估值达 290 亿美元；Alexandr Wang 转而领导 Meta 超级智能实验室，Jason Droege 接任 CEO，公司加速转向企业与政府市场。"
+      }
+    ]
   },
   "surge": {
     "id": "surge",
@@ -11971,7 +12771,15 @@
       "growth": 84,
       "innovation": 81,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "Surge AI 几乎零风投却营收极高，洽谈约 250 亿美元估值",
+        "date": "2026",
+        "category": "融资",
+        "summary": "这家服务 OpenAI、Anthropic、谷歌的高质量 RLHF 数据标注新贵始终保持精简与盈利，几乎未融外部风投却做到极高营收，据报正洽谈约 250 亿美元估值，与 Scale AI 直接对垒。"
+      }
+    ]
   },
   "cohere": {
     "id": "cohere",
@@ -12053,7 +12861,15 @@
       "growth": 86,
       "innovation": 85,
       "community": 73
-    }
+    },
+    "news": [
+      {
+        "title": "Cohere 与 Aleph Alpha 合并，估值约 200 亿美元并推进 IPO",
+        "date": "2026-04",
+        "category": "重大",
+        "summary": "2026 年 4 月 Cohere 与德国 Aleph Alpha 合并，整体估值约 200 亿美元，年化收入约 2.4 亿美元并推进 IPO；其 North 工作空间直接对标微软 Copilot，客户含 RBC、Dell、Oracle、SAP 等。"
+      }
+    ]
   },
   "reka": {
     "id": "reka",
@@ -12122,7 +12938,15 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "news": [
+      {
+        "title": "Reka 以精简团队推进原生多模态模型，对标一线大厂",
+        "date": "2026",
+        "category": "研发",
+        "summary": "由 DeepMind、Meta 等资深研究者创立的 Reka 持续打磨 Core、Flash、Edge 系列原生多模态模型，同时理解文本、图像、音频与视频，面向企业提供并探索私有部署落地。"
+      }
+    ]
   },
   "zeroone": {
     "id": "zeroone",
@@ -12191,6 +13015,14 @@
     },
     "investors": [
       "阿里巴巴"
+    ],
+    "news": [
+      {
+        "title": "零一万物转向企业应用落地，与阿里合作共享算力",
+        "date": "2026",
+        "category": "业务",
+        "summary": "李开复创办的零一万物不再追逐最大参数的基础模型军备竞赛，聚焦把 Yi 系列模型做成企业可用的应用与解决方案，并与阿里合作共享算力，折射「大模型六小虎」的商业化抉择。"
+      }
     ]
   },
   "moonshot2": {
@@ -12355,6 +13187,15 @@
       "Founders Fund",
       "8VC",
       "Khosla Ventures"
+    ],
+    "news": [
+      {
+        "title": "融资超 10 亿美元、估值约 250 亿;Windsurf 更名 Devin Desktop",
+        "date": "2026-05",
+        "category": "重大",
+        "summary": "收购 Windsurf 后 ARR 翻倍、5 月达 4.92 亿美元;2026 年 6 月 Windsurf 品牌整体更名为 Devin Desktop,抢占企业级 AI 编程市场。",
+        "url": "https://cognition.com/blog/windsurf"
+      }
     ]
   },
   "glean": {
@@ -12430,6 +13271,14 @@
     "suppliers": [
       "openai",
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Glean ARR 增至约 3 亿美元，企业 AI 搜索领跑地位巩固",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "Glean 年化收入从 2025 年初约 1 亿美元增长到 2026 年 5 月的约 3 亿美元；此前 2025 年 6 月完成 1.5 亿美元 F 轮融资、估值 72 亿美元，与微软 Copilot 正面竞争。"
+      }
     ]
   },
   "tabnine": {
@@ -12494,6 +13343,14 @@
       {
         "name": "Dror Weiss",
         "title": "CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "Tabnine 深耕私有化部署，服务金融国防等代码保密客户",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Tabnine 以「代码不出企业环境」为核心卖点，支持完全私有化部署、不拿客户代码训练并可用自有代码库定制模型，满足金融、国防等对代码保密极敏感企业的刚需。"
       }
     ]
   },
@@ -12582,7 +13439,15 @@
     ],
     "links": {
       "github": "https://github.com/vercel"
-    }
+    },
+    "news": [
+      {
+        "title": "v0 升级为完整开发平台，含 Git、编辑器与智能体工作流",
+        "date": "2026",
+        "category": "产品",
+        "summary": "2026 年 Vercel 的 v0 从「组件生成器」升级为包含 Git、类 VS Code 编辑器、数据库连接与智能体工作流的完整开发平台；其 AI Gateway 聚合 GPT-5.6、Claude 等多家模型供开发者调用。"
+      }
+    ]
   },
   "writer": {
     "id": "writer",
@@ -12658,6 +13523,14 @@
       "ICONIQ",
       "Premji Invest",
       "Salesforce Ventures"
+    ],
+    "news": [
+      {
+        "title": "Writer 凭自研 Palmyra 模型深入财富 500 强，估值达数十亿美元",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Writer 以「自研模型 + 企业级平台 + 强合规」的差异化路线，让企业在自有品牌语气与合规规则下用 AI 写文案、生成报告与搭建 Agent 工作流，客户涵盖大量财富 500 强公司。"
+      }
     ]
   },
   "sierra": {
@@ -12735,6 +13608,14 @@
     "suppliers": [
       "openai",
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Sierra 估值达约 100 亿美元，超四成财富 50 强成为客户",
+        "date": "2025",
+        "category": "融资",
+        "summary": "Bret Taylor 创立的 Sierra 2025 年估值达约 100 亿美元，ARR 超 1.5 亿美元，超 40% 的《财富》50 强为其客户，其对话智能体能接入企业系统真正办完改订单、退款等事务。"
+      }
     ]
   },
   "decagon": {
@@ -12808,6 +13689,14 @@
     "suppliers": [
       "openai",
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Decagon AI 客服智能体承接大企业重复咨询，增长迅猛",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Decagon 的客服 Agent 能调用企业后台查订单、改预约、办退款并按规则走完服务流程，面向电商、金融等大客户大幅降本提效，估值随扎实落地效果快速攀升。"
+      }
     ]
   },
   "harvey": {
@@ -12882,6 +13771,14 @@
     "suppliers": [
       "openai",
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Harvey 成顶级律所标配，法律垂直 AI 达数十亿美元级",
+        "date": "2026",
+        "category": "落地",
+        "summary": "Harvey 被 A&O Shearman 等全球顶级律所与大企业法务采用，覆盖合同起草审查、判例检索、并购尽调等工作流，凭准确性与可溯源引用优化，收入与估值快速攀升。"
+      }
     ]
   },
   "hebbia": {
@@ -12954,6 +13851,14 @@
     "suppliers": [
       "openai",
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Hebbia Matrix 获顶级资管投行采用，估值达数十亿美元",
+        "date": "2026",
+        "category": "落地",
+        "summary": "Hebbia 的 Matrix 能同时读通成百上千份财报、招股书、合同等长文档，逐份提取比对并给出可溯源到原文的答案，被众多顶级资产管理公司与投行采用。"
+      }
     ]
   },
   "characterai": {
@@ -13022,6 +13927,14 @@
       {
         "name": "Karandeep Anand",
         "title": "CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "Character.AI 青少年诉讼与谷歌一并达成和解",
+        "date": "2026-01",
+        "category": "重大",
+        "summary": "多起青少年自杀/心理伤害诉讼(如佛州 Megan Garcia 案)于 2026 年 1 月与谷歌一并达成和解；此前 2024 年 8 月谷歌以约 27 亿美元技术授权请回两位创始人，交易曾引来司法部反垄断关注。"
       }
     ]
   },
@@ -13097,6 +14010,14 @@
       "Sequoia",
       "Blackbird Ventures",
       "Bond"
+    ],
+    "news": [
+      {
+        "title": "Canva 收购 Leonardo.Ai 与 Affinity，AI 设计能力大增",
+        "date": "2024",
+        "category": "重大",
+        "summary": "Canva 于 2024 年收购 AI 图像生成公司 Leonardo.Ai 及专业设计软件 Affinity，叠加 Magic Studio 的文生图、一键抠图、AI 文案等功能，巩固全球最大在线设计平台地位。"
+      }
     ]
   },
   "notion": {
@@ -13175,6 +14096,14 @@
     "suppliers": [
       "openai",
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Notion AI 助手可跨全部笔记问答，重塑知识管理",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Notion 把 AI 深度嵌入产品，可在文档与知识库内写作、总结、翻译、生成表格，并推出跨所有笔记和资料回答问题的 AI 助手，凭海量结构化内容占据 AI 生产力有利位置。"
+      }
     ]
   },
   "grammarly": {
@@ -13249,6 +14178,14 @@
       "General Catalyst",
       "IVP",
       "Baillie Gifford"
+    ],
+    "news": [
+      {
+        "title": "Grammarly 收购 Coda 与 Superhuman，转型 AI 生产力平台",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Grammarly 近年接连收购协作文档工具 Coda 与高效邮箱 Superhuman，从单一写作工具整合为覆盖写作、文档、沟通的 AI 生产力平台，并以 GrammarlyGO 从「改你写的」升级到「帮你写」。"
+      }
     ]
   },
   "sanctuary": {
@@ -13314,6 +14251,14 @@
       {
         "name": "Geordie Rose",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "Sanctuary Phoenix 靠遥操作采数据，推进灵巧手自主作业",
+        "date": "2026",
+        "category": "研发",
+        "summary": "Sanctuary AI 的人形机器人 Phoenix 配备业界领先的灵巧双手，通过「先遥操作采集高质量数据、再训练 AI」的路径，让机器人从人遥控逐步走向自主完成精细手部任务。"
       }
     ]
   },
@@ -13396,6 +14341,14 @@
     ],
     "suppliers": [
       "harmonic"
+    ],
+    "news": [
+      {
+        "title": "傅利叶 GR 系列人形机器人切入康养科研服务场景",
+        "date": "2026",
+        "category": "进展",
+        "summary": "以康复机器人起家的傅利叶把运动控制与人机交互积累延伸到 GR-1、GR-2 等全尺寸通用人形机器人，主打运动能力与灵巧操作，带着康复医疗真实落地经验务实推进。"
+      }
     ]
   },
   "mbly": {
@@ -13485,7 +14438,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "Mobileye 以 EyeQ 芯片与 RSS 方法论务实演进自动驾驶",
+        "date": "2026",
+        "category": "进展",
+        "summary": "2022 年从英特尔分拆上市的 Mobileye 凭 EyeQ 视觉芯片与算法几乎定义主流 ADAS，坚持视觉为主、结合众包高精地图与责任敏感安全(RSS)方法论，向更高级别自动驾驶演进。"
+      }
+    ]
   },
   "aurora": {
     "id": "aurora",
@@ -13577,6 +14538,14 @@
     },
     "suppliers": [
       "nvda"
+    ],
+    "news": [
+      {
+        "title": "Aurora 得州开启无安全员商业无人卡车运营",
+        "date": "2025",
+        "category": "重大",
+        "summary": "2024 年底至 2025 年，Aurora 在得州达拉斯—休斯顿线路正式开启无安全员的商业化无人卡车运营，成为自动驾驶行业从测试走向无人商运的重要里程碑。"
+      }
     ]
   },
   "wayve": {
@@ -13654,6 +14623,14 @@
     },
     "suppliers": [
       "nvda"
+    ],
+    "news": [
+      {
+        "title": "Wayve 获软银英伟达微软巨额投资，端到端路线拓展落地",
+        "date": "2026",
+        "category": "融资",
+        "summary": "走「端到端学习 + 具身 AI」路线的 Wayve 获软银、英伟达、微软等巨额投资，成为欧洲最受瞩目的自动驾驶公司，并把不依赖高精地图的驾驶大模型技术拓展到辅助驾驶等产品。"
+      }
     ]
   },
   "nuro": {
@@ -13724,6 +14701,14 @@
       "Tiger Global",
       "T. Rowe Price",
       "Fidelity"
+    ],
+    "news": [
+      {
+        "title": "Nuro 从自营配送转向对外授权 Nuro Driver 系统",
+        "date": "2026",
+        "category": "业务",
+        "summary": "面对自动驾驶商业化的漫长与烧钱，无人配送先驱 Nuro 调整战略重心，从自己运营配送车转向把积累多年的「Nuro Driver」自动驾驶系统授权给车企与出行公司，走轻资产技术输出路线。"
+      }
     ]
   },
   "xaira": {
@@ -13796,6 +14781,14 @@
       "Foresite Capital",
       "Sequoia",
       "NEA"
+    ],
+    "news": [
+      {
+        "title": "Xaira 携约 10 亿美元启动资金攻坚 AI 药物发现",
+        "date": "2024",
+        "category": "融资",
+        "summary": "2024 年由 ARCH、Foresite 牵头设立的 Xaira 带着约 10 亿美元资金起步，是史上启动资金最多的生物科技公司之一，汇聚诺奖得主 David Baker 蛋白质设计相关技术，考验在于能否产出获批药物。"
+      }
     ]
   },
   "evoscale": {
@@ -13868,6 +14861,14 @@
       "a16z",
       "英伟达",
       "Nat Friedman"
+    ],
+    "news": [
+      {
+        "title": "EvolutionaryScale 携 1.42 亿美元种子轮推进 ESM3 蛋白质生成",
+        "date": "2026",
+        "category": "研发",
+        "summary": "由原 Meta FAIR 蛋白质团队创立的 EvolutionaryScale 持续推进 ESM3 蛋白质大模型,可理解并生成全新蛋白质,面向药物、酶与材料设计,是生物大模型赛道最受关注的公司之一。"
+      }
     ]
   },
   "minimax": {
@@ -13949,6 +14950,20 @@
     },
     "partners": [
       "baba"
+    ],
+    "stock": {
+      "exchange": "HKEX",
+      "ticker": "0100",
+      "marketCapB": 9
+    },
+    "news": [
+      {
+        "title": "登陆港交所(00100),首日涨 42%、市值约 719 亿港元",
+        "date": "2026-01",
+        "category": "重大",
+        "summary": "2026 年 1 月 9 日挂牌,成为全球从创立到 IPO 最快的 AI 公司之一;阿里、阿布扎比投资局基石认购;前 9 个月营收同比增超 170%,海外贡献超 70%。",
+        "url": "https://www.stcn.com/article/detail/3582934.html"
+      }
     ]
   },
   "zhipu": {
@@ -14131,7 +15146,15 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "news": [
+      {
+        "title": "阶跃星辰 Step 系列多模态模型覆盖图像语音视频,稳居第一梯队",
+        "date": "2026",
+        "category": "产品",
+        "summary": "这家 2023 年成立、由前微软全球副总裁姜大昕创办的「大模型六小虎」之一,以多模态见长,Step 系列覆盖图像、语音、视频理解与生成,并向内容创作、智能终端、Agent 方向落地。"
+      }
+    ]
   },
   "sensetime": {
     "id": "sensetime",
@@ -14232,6 +15255,14 @@
     },
     "partners": [
       "amd"
+    ],
+    "news": [
+      {
+        "title": "商汤全面转向生成式 AI,「日日新」大模型叠加大装置算力服务",
+        "date": "2026",
+        "category": "业务",
+        "summary": "这家港股上市的「AI 视觉四小龙」之首全力转型生成式 AI,推出日日新(SenseNova)大模型体系,布局大语言模型、多模态与文生图/视频,并将自建 AIDC 算力对外提供服务。"
+      }
     ]
   },
   "iflytek": {
@@ -14334,6 +15365,14 @@
     },
     "partners": [
       "huawei"
+    ],
+    "news": [
+      {
+        "title": "科大讯飞星火大模型基于国产算力,深耕教育医疗办公落地",
+        "date": "2026",
+        "category": "落地",
+        "summary": "这家 1999 年成立的中国智能语音龙头将几十年语音与 AI 积累与星火认知大模型结合,强调基于国产算力训练,在教育、医疗、办公等行业落地,教育与语音场景壁垒深厚。"
+      }
     ]
   },
   "cambricon": {
@@ -14428,6 +15467,14 @@
     },
     "suppliers": [
       "tsm"
+    ],
+    "news": [
+      {
+        "title": "寒武纪思元系列乘国产替代东风,业绩股价屡创新高",
+        "date": "2026",
+        "category": "业务",
+        "summary": "在英伟达高端 AI 芯片对华出口受限背景下,「中国 AI 芯片第一股」寒武纪的思元(MLU)系列加速卡承接国产算力需求,业绩与股价随国产替代预期大幅波动、屡创新高。"
+      }
     ]
   },
   "moorethreads": {
@@ -14513,7 +15560,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "摩尔线程推进 IPO,全功能 GPU 覆盖 AI 计算与图形渲染",
+        "date": "2026",
+        "category": "重大",
+        "summary": "这家 2020 年成立、被称为「中国英伟达」的国产 GPU 新锐正推进 IPO,其全功能 GPU 同时支持 AI 计算、图形渲染、视频编解码与科学计算,布局消费显卡与数据中心算力。"
+      }
+    ]
   },
   "biren": {
     "id": "biren",
@@ -14583,6 +15638,14 @@
     },
     "suppliers": [
       "tsm"
+    ],
+    "news": [
+      {
+        "title": "壁仞科技完成港交所 IPO,成港股首个 AI 芯片上市标的",
+        "date": "2026",
+        "category": "重大",
+        "summary": "2026 年壁仞科技在港交所完成 IPO,成为港股市场备受关注的国产 AI 芯片上市公司。这家 2019 年成立的上海公司以自研架构高端 GPGPU 对标英伟达数据中心 GPU。"
+      }
     ]
   },
   "hygon": {
@@ -14681,7 +15744,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "海光信息 CPU+DCU 双线布局,成国产算力最受关注标的之一",
+        "date": "2026",
+        "category": "业务",
+        "summary": "海光的 x86 授权 CPU 广泛用于国产服务器替代,DCU 通用加速卡面向 AI 训练推理并兼容主流编程生态。CPU 与 AI 加速卡双线布局使其成为国产算力稀缺上市标的。"
+      }
+    ]
   },
   "ubtech": {
     "id": "ubtech",
@@ -14775,6 +15846,14 @@
     },
     "suppliers": [
       "harmonic"
+    ],
+    "news": [
+      {
+        "title": "优必选 Walker 人形机器人进汽车工厂实训,拓展工业场景",
+        "date": "2026",
+        "category": "落地",
+        "summary": "「中国人形机器人第一股」优必选凭借伺服舵机与运动控制多年积累,推动 Walker 系列人形机器人进入汽车工厂实训与商用服务场景,稳居国内人形机器人第一梯队。"
+      }
     ]
   },
   "agibot": {
@@ -14933,7 +16012,15 @@
       "growth": 85,
       "innovation": 84,
       "community": 73
-    }
+    },
+    "news": [
+      {
+        "title": "银河通用三个月融资近 50 亿元,估值约 30 亿美元拟赴港 IPO",
+        "date": "2026-01",
+        "category": "融资",
+        "summary": "2025 年底至 2026 年初,银河通用三个月内密集融资近 50 亿元人民币,估值达约 30 亿美元,成为中国估值最高的未上市人形机器人公司之一,其轮式人形 Galbot G1 已落地无人药店。"
+      }
+    ]
   },
   "magicdev": {
     "id": "magicdev",
@@ -15004,6 +16091,14 @@
       "a16z",
       "Nat Friedman",
       "Eric Schmidt"
+    ],
+    "news": [
+      {
+        "title": "Magic.dev 押注上亿 token 超长上下文,携手谷歌云建专属算力",
+        "date": "2026",
+        "category": "研发",
+        "summary": "Magic.dev 宣称做出可一次读入上亿 token 的模型,让 AI 通读整个代码库后再写代码,目标是自主的 AI 软件工程师,获谷歌云、Eric Schmidt 等支持并合建专属算力。"
+      }
     ]
   },
   "poolside": {
@@ -15074,7 +16169,15 @@
       "growth": 84,
       "innovation": 81,
       "community": 71
-    }
+    },
+    "news": [
+      {
+        "title": "Poolside 自研代码大模型面向企业私有部署,跻身高估值独角兽",
+        "date": "2026",
+        "category": "业务",
+        "summary": "这家 2023 年成立的公司坚持从底层自训代码基础模型,认为代码可自动验证、适合强化学习自我提升,凭巨额融资跻身高估值独角兽,主打企业级可私有部署的 AI 编程平台。"
+      }
+    ]
   },
   "abridge": {
     "id": "abridge",
@@ -15147,6 +16250,14 @@
     },
     "suppliers": [
       "openai"
+    ],
+    "news": [
+      {
+        "title": "Abridge AI 病历记录获大量大型医院采用,估值攀升至数十亿美元",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Abridge 的 AI 在医患对话中实时聆听并生成可直接入 EHR 的结构化病历草稿,凭借可溯源与 Epic 等深度集成赢得大量大型医院系统采用,增长迅猛、估值攀升至数十亿美元。"
+      }
     ]
   },
   "openevidence": {
@@ -15220,6 +16331,14 @@
     "suppliers": [
       "openai",
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "OpenEvidence 联手 NEJM 等权威出版方,在美国医生群体快速普及",
+        "date": "2026",
+        "category": "进展",
+        "summary": "这个被称为「医生版 ChatGPT」的平台与《新英格兰医学杂志》等顶级医学出版方合作,为医生提供循证、标注引用来源的临床问答,在美国医生群体中快速普及、估值飙升。"
+      }
     ]
   },
   "tempus": {
@@ -15309,7 +16428,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "Tempus AI 2024 年上市,「诊断+数据平台」双轮驱动精准医疗",
+        "date": "2024",
+        "category": "重大",
+        "summary": "由 Groupon 创始人 Eric Lefkofsky 创立的 Tempus 于 2024 年上市(TEM),以基因测序诊断服务加真实世界医疗数据库双轮驱动,成为「AI+医疗数据」最具规模的商业化案例之一。"
+      }
+    ]
   },
   "hippocratic": {
     "id": "hippocratic",
@@ -15385,6 +16512,14 @@
     },
     "suppliers": [
       "nvda"
+    ],
+    "news": [
+      {
+        "title": "Hippocratic AI 推「AI 护士」语音智能体,分担随访与用药提醒",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Hippocratic 训练专门医疗大模型,让 AI 通过电话完成出院随访、提醒吃药、术前指导、慢病管理等非诊断性沟通,坚持只做安全事务并进行大量安全测试,瞄准医护人力短缺刚需。"
+      }
     ]
   },
   "lightmatter": {
@@ -15455,7 +16590,15 @@
       "growth": 85,
       "innovation": 83,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "Lightmatter 以光互联连接成百上千颗芯片,跻身高估值独角兽",
+        "date": "2026",
+        "category": "融资",
+        "summary": "Lightmatter 押注用光替代电做 AI 计算与数据传输,主攻用光把成百上千颗芯片高速连成一体以突破电互联的带宽与功耗瓶颈,凭巨额融资跻身高估值独角兽。"
+      }
+    ]
   },
   "ayarlabs": {
     "id": "ayarlabs",
@@ -15524,7 +16667,15 @@
       "growth": 85,
       "innovation": 83,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "Ayar Labs 获英伟达英特尔台积电等巨头加持,CPO 战略价值持续上升",
+        "date": "2026",
+        "category": "进展",
+        "summary": "Ayar Labs 把光引擎做成 TeraPHY 芯粒与 GPU 共封装(CPO),大幅降功耗、提带宽,获英伟达、英特尔、AMD、台积电等产业链巨头投资合作,随 AI 集群膨胀战略价值持续上升。"
+      }
+    ]
   },
   "celestial": {
     "id": "celestial",
@@ -15595,6 +16746,14 @@
       "Temasek",
       "Maverick",
       "Koch"
+    ],
+    "news": [
+      {
+        "title": "Celestial AI 光子结构主攻内存墙,估值达约 25 亿美元",
+        "date": "2026",
+        "category": "融资",
+        "summary": "Celestial 自研 Photonic Fabric 用光把 GPU 与远端大容量内存池高带宽连接,突破 AI 大模型的内存与带宽瓶颈,获 a16z、Fidelity、AMD 风投等投资,估值约 25 亿美元。"
+      }
     ]
   },
   "modal": {
@@ -15666,6 +16825,14 @@
       "Redpoint",
       "Amplify Partners",
       "Lux Capital"
+    ],
+    "news": [
+      {
+        "title": "Modal 无服务器 GPU 平台按秒计费,承接 AI 应用爆发算力需求",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Modal 让开发者在 Python 代码里加几行即可把 GPU 任务部署上云,按需拉起、用完释放、按秒计费,彻底抽象基础设施运维,踩中 AI 应用大爆发对灵活易用算力的需求。"
+      }
     ]
   },
   "baseten": {
@@ -15736,7 +16903,15 @@
       "growth": 85,
       "innovation": 83,
       "community": 72
-    }
+    },
+    "news": [
+      {
+        "title": "Baseten 推理平台助企业把模型部署进生产,需求快速上升",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Baseten 把 GPU 调度、自动扩缩容、推理优化与监控封装成平台,帮企业把开源或自研模型快速、低延迟、可控成本地上线。随着公司从训练模型走向部署进产品,需求快速增长。"
+      }
+    ]
   },
   "replicate": {
     "id": "replicate",
@@ -15808,6 +16983,14 @@
     "investors": [
       "a16z",
       "Sequoia"
+    ],
+    "news": [
+      {
+        "title": "Replicate 以 Cog 容器标准化开源模型,一行代码即可调用",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Replicate 用其开源的 Cog 工具把各类开源模型打包成标准容器,开发者通过简单 API 即时调用、按量付费、免运维,并可一键部署分享自己的模型,持续降低使用开源 AI 的门槛。"
+      }
     ]
   },
   "anyscale": {
@@ -15891,6 +17074,14 @@
       "a16z",
       "NEA",
       "Addition"
+    ],
+    "news": [
+      {
+        "title": "Ray 成大模型训练标配，Anyscale 托管平台承接 AI 规模化需求",
+        "date": "2026",
+        "category": "业务",
+        "summary": "开源分布式框架 Ray 广泛用于大模型训练、强化学习与推理，OpenAI 等知名 AI 公司曾用其训练模型。Anyscale 依托托管平台与企业服务，卡位「AI 计算从单机扩展到万卡集群」的底层刚需环节。"
+      }
     ]
   },
   "wandb": {
@@ -15965,7 +17156,15 @@
       "growth": 85,
       "innovation": 83,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "Weights & Biases 被 CoreWeave 收购，实验跟踪与算力平台深度结合",
+        "date": "2025",
+        "category": "重大",
+        "summary": "2025 年 AI 云算力巨头 CoreWeave 收购 W&B，将其最常用的实验跟踪与 MLOps 工具链和算力平台整合，强化从训练管理到 GPU 资源的一体化 AI 开发体验。"
+      }
+    ]
   },
   "figma": {
     "id": "figma",
@@ -16059,7 +17258,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 71
-    }
+    },
+    "news": [
+      {
+        "title": "Figma 2025 年独立上市，AI 功能打通设计到开发链路",
+        "date": "2025",
+        "category": "重大",
+        "summary": "Adobe 约 200 亿美元收购因反垄断于 2023 年告吹后，Figma 于 2025 年独立上市。公司持续推出文字生成界面、自动整理图层与 Dev Mode 等 AI 功能，加速「设计变代码」流程。"
+      }
+    ]
   },
   "stx": {
     "id": "stx",
@@ -16142,7 +17349,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "HAMR 硬盘量产爬坡,AI 冷数据需求带动盘价上行",
+        "date": "2026",
+        "category": "业务",
+        "summary": "3TB+ 单碟 HAMR 技术投入量产,大容量近线盘供不应求;AI 数据湖扩张让 HDD 重回景气周期。"
+      }
+    ]
   },
   "kioxia": {
     "id": "kioxia",
@@ -16235,7 +17450,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "东京上市后 NAND 周期反转,企业级 SSD 供不应求",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 服务器对高性能企业级 SSD 需求激增,NAND 价格上行带动业绩大幅回升;与西数的合资产线持续扩产。"
+      }
+    ]
   },
   "vast": {
     "id": "vast",
@@ -16308,7 +17531,15 @@
       "growth": 86,
       "innovation": 85,
       "community": 51
-    }
+    },
+    "news": [
+      {
+        "title": "VAST Data 2026 年估值达 300 亿美元，英伟达参投",
+        "date": "2026",
+        "category": "融资",
+        "summary": "凭借与 CoreWeave 等 AI 云的大单，VAST 达到约 6 亿美元 ARR、90% 毛利率并连续多年正现金流，2026 年融资后估值 300 亿美元，成为 AI 数据基础设施最耀眼的公司之一。"
+      }
+    ]
   },
   "talen": {
     "id": "talen",
@@ -16403,7 +17634,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "Talen 将核电站旁数据中心园区卖给亚马逊，开创核电直供模式",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Talen 把紧邻 Susquehanna 核电站的数据中心园区售予亚马逊并签长期协议，由核电直接为 AWS 的 AI 数据中心提供无碳基荷电力，「专电专用」新范式带动股价大涨。"
+      }
+    ]
   },
   "cameco": {
     "id": "cameco",
@@ -16492,7 +17731,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "Cameco 2026 业绩强劲，斩获印度约 26 亿美元九年供铀长约",
+        "date": "2026",
+        "category": "财报",
+        "summary": "AI 用电激增推动核电复兴，铀价与长约需求上行，Cameco 2026 年业绩强劲增长，并拿下向印度供铀约 26 亿美元的九年长约；其持股约 49% 的西屋电气延伸了核燃料全链条布局。"
+      }
+    ]
   },
   "centrus": {
     "id": "centrus",
@@ -16584,7 +17831,15 @@
       "growth": 64,
       "innovation": 79,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "美国政府扶持 Centrus 俄亥俄扩产 HALEU，先进核燃料去俄化提速",
+        "date": "2026",
+        "category": "进展",
+        "summary": "作为美国唯一持牌生产 HALEU 的厂商，Centrus 在「核燃料去俄化 + SMR 兴起」背景下获政府大力扶持扩产，随着 Oklo、TerraPower、X-energy 等先进堆落地，其战略价值持续上升。"
+      }
+    ]
   },
   "nanonuclear": {
     "id": "nanonuclear",
@@ -16661,7 +17916,15 @@
       "growth": 58,
       "innovation": 70,
       "community": 47
-    }
+    },
+    "news": [
+      {
+        "title": "Nano Nuclear 推进 Zeus、Odin 便携微堆，瞄准数据中心供电",
+        "date": "2026",
+        "category": "研发",
+        "summary": "这家纳斯达克上市的微型反应堆新锐，目标打造可运输、可部署到偏远地区、矿区与数据中心的便携式微堆，并布局核燃料运输；技术与商业化仍处早期，属高风险高预期标的。"
+      }
+    ]
   },
   "terrapower": {
     "id": "terrapower",
@@ -16729,7 +17992,15 @@
       "growth": 84,
       "innovation": 81,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "TerraPower Natrium 电站怀俄明动工，美国首座公用级先进核电",
+        "date": "2024",
+        "category": "落地",
+        "summary": "盖茨创立的 TerraPower 于 2024 年在怀俄明州 Kemmerer 为 345MW Natrium 钠冷快堆破土动工，配套熔盐储能可将功率灵活放大至 500MW，预计 2030 年建成。"
+      }
+    ]
   },
   "xenergy": {
     "id": "xenergy",
@@ -16795,7 +18066,15 @@
       "growth": 82,
       "innovation": 77,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "亚马逊领投 X-energy，Xe-100 为数据中心与陶氏工厂供能",
+        "date": "2026",
+        "category": "融资",
+        "summary": "亚马逊领投并押注 X-energy 的高温气冷堆为数据中心提供无碳电力，公司同时与陶氏合作在得州建反应堆为工厂供电供热，其 TRISO-X「本质安全」燃料是核心卖点。"
+      }
+    ]
   },
   "kairos": {
     "id": "kairos",
@@ -16861,7 +18140,15 @@
       "growth": 82,
       "innovation": 77,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "Kairos 与谷歌签约供最高约 500MW 核电，首批 2030 年前后",
+        "date": "2024",
+        "category": "重大",
+        "summary": "2024 年 Kairos Power 与谷歌签下里程碑式协议，用 KP-FHR 氟盐冷却高温堆为谷歌数据中心供最高约 500MW 无碳电力，成为科技巨头直接采购 SMR 电力的标志案例。"
+      }
+    ]
   },
   "helion": {
     "id": "helion",
@@ -16935,7 +18222,15 @@
       "growth": 84,
       "innovation": 81,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "Helion Orion 电厂 2025 年动工，兑现微软 2028 供电承诺",
+        "date": "2025",
+        "category": "进展",
+        "summary": "继 2023 年与微软签下全球首份聚变购电协议（2028 年起供电 50MW）后，Helion 的 Orion 电厂于 2025 年破土动工；公司获 Sam Altman 长期押注，累计融资约 15 亿美元。"
+      }
+    ]
   },
   "cfs": {
     "id": "cfs",
@@ -17005,7 +18300,15 @@
       "growth": 84,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "CFS 的 SPARC 装上首块高温超导磁体，目标 2027 年 Q>1",
+        "date": "2026",
+        "category": "进展",
+        "summary": "2026 年初 SPARC 示范装置装上首块 HTS 磁体，CFS 并与西门子、英伟达合作用 AI 数字孪生加速研发，目标 2027 年实现输出能量超过输入，打造世界首台商业相关净产能聚变机器。"
+      }
+    ]
   },
   "tae": {
     "id": "tae",
@@ -17072,6 +18375,14 @@
       {
         "name": "Michl Binderbauer",
         "title": "CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "TAE 携手谷歌用 AI 优化等离子体控制，坚守氢硼无中子聚变",
+        "date": "2026",
+        "category": "研发",
+        "summary": "老牌聚变公司 TAE 与谷歌合作用机器学习优化场反位形（FRC）等离子体控制，获雪佛龙等能源巨头投资，其技术还外溢至电池、医疗领域，持续冲刺氢硼「无中子」聚变终极路线。"
       }
     ]
   },
@@ -17168,6 +18479,14 @@
     },
     "partners": [
       "oracle"
+    ],
+    "news": [
+      {
+        "title": "AI 数据中心抢电，Bloom 燃料电池就地供电方案加速被采用",
+        "date": "2026",
+        "category": "业务",
+        "summary": "电网接入排队漫长，Bloom 的固体氧化物燃料电池可在用户现场快速部署、持续供电，绕开电网瓶颈，恰好击中 AI 数据中心「等不起电」的痛点，方案获越来越多关注和采用。"
+      }
     ]
   },
   "plugpower": {
@@ -17249,7 +18568,15 @@
       "growth": 57,
       "innovation": 68,
       "community": 46
-    }
+    },
+    "news": [
+      {
+        "title": "Plug Power 依托亚马逊、沃尔玛叉车业务，苦盼绿氢降本拐点",
+        "date": "2026",
+        "category": "业务",
+        "summary": "公司最成熟的应用是为仓储物流叉车提供燃料电池，并布局电解槽与绿氢生产；但绿氢成本高、持续大额烧钱令财务承压，前景高度取决于绿氢经济性改善与规模化节奏。"
+      }
+    ]
   },
   "hitachienergy": {
     "id": "hitachienergy",
@@ -17315,6 +18642,14 @@
       {
         "name": "Andreas Schierenbeck",
         "title": "CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "变压器「一柜难求」，日立能源订单饱满承接电网扩容潮",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 用电暴增须经变压器与输电网送达，而全球大型变压器产能紧张、交货周期拉长至数年。作为变压器与 HVDC 龙头，日立能源订单饱满，是这轮电网扩容最卡脖子的受益者之一。"
       }
     ]
   },
@@ -17405,7 +18740,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "燃气轮机需求猛增排期拉长，西门子能源业绩订单大幅回暖",
+        "date": "2026",
+        "category": "财报",
+        "summary": "数据中心需要「立刻能上、能持续」的电力，燃气轮机订单排期拉长，变压器与电网设备同样供不应求；此前受风电亏损拖累的西门子能源，靠燃气与电网业务强劲复苏。"
+      }
+    ]
   },
   "powell": {
     "id": "powell",
@@ -17493,6 +18836,14 @@
     "keyCustomers": [
       "msft",
       "amzn"
+    ],
+    "news": [
+      {
+        "title": "AI 数据中心配电需求激增，Powell 订单饱满业绩股价大涨",
+        "date": "2026",
+        "category": "业务",
+        "summary": "每座 AI 数据中心都需大量中高压开关柜与配电系统把海量电力安全送进机房，叠加制造业回流、电网升级与电气化趋势，Powell 订单饱满，业绩和股价大幅增长。"
+      }
     ]
   },
   "pwr": {
@@ -17583,7 +18934,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 用电叠加电网老化，Quanta 施工订单能见度持续拉长",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 数据中心激增要求大规模新建和升级输电线路、变电站与配电网，美国电网又普遍老化，作为北美最大电网工程建设商，Quanta 是施工端最直接受益者，成长确定性高。"
+      }
+    ]
   },
   "nvent": {
     "id": "nvent",
@@ -17671,7 +19030,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "液冷成 AI 机柜标配，数据中心跃升 nVent 高增长业务",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 服务器功率密度极高，nVent 提供机柜、配电及冷板、CDU 等液冷散热基础设施，帮数据中心「把电送进、把热带走」，AI 数据中心爆发式建设直接拉动其液冷与电气产品需求。"
+      }
+    ]
   },
   "shinetsu": {
     "id": "shinetsu",
@@ -17773,7 +19140,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "AI 芯片扩产与 HBM 放量，信越硅片和 EUV 光刻胶需求攀升",
+        "date": "2026",
+        "category": "业务",
+        "summary": "作为全球最大半导体硅片制造商和 EUV 光刻胶领先供应商，信越化学稳居两大关键材料龙头，AI 芯片扩产、先进制程与 HBM 放量都需要更多其硅片与光刻胶，地位难以绕开。"
+      }
+    ]
   },
   "sumco": {
     "id": "sumco",
@@ -17860,7 +19235,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 芯片与 HBM 扩产拉动硅片需求，SUMCO 稳居全球第二",
+        "date": "2026",
+        "category": "业务",
+        "summary": "作为仅次于信越的全球第二大硅片厂，SUMCO 的高纯度 300mm 硅片直接受益于 AI 芯片扩产、先进逻辑制程与 HBM 放量带来的最上游晶圆需求增长。"
+      }
+    ]
   },
   "gwafers": {
     "id": "gwafers",
@@ -17948,7 +19331,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "环球晶圆美国得州 12 吋硅片厂承接制造回流需求",
+        "date": "2026",
+        "category": "进展",
+        "summary": "全球第三大硅片厂环球晶圆在美国得州新建 12 吋硅片厂，承接美国半导体制造本土化带来的配套需求，同时受益于 AI 芯片扩产对硅片的直接拉动。"
+      }
+    ]
   },
   "jsr": {
     "id": "jsr",
@@ -18011,7 +19402,15 @@
       "growth": 82,
       "innovation": 77,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "JSR 被日本政府基金 JIC 收购，强化 EUV 光刻胶战略掌控",
+        "date": "2023",
+        "category": "重大",
+        "summary": "因 EUV 光刻胶等先进材料的战略价值，全球光刻胶龙头 JSR 于 2023 年被日本政府背景的产业基金 JIC 收购，旨在强化日本对半导体关键材料的掌控。"
+      }
+    ]
   },
   "tok": {
     "id": "tok",
@@ -18100,7 +19499,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "EUV 迈向 High-NA，东京应化高端光刻胶需求持续上升",
+        "date": "2026",
+        "category": "业务",
+        "summary": "随先进制程向 EUV 乃至 High-NA EUV 推进，全球能稳定供货高端 EUV 光刻胶的厂商很少，市占领先的 TOK 直接受益于 AI 芯片放量带来的材料需求。"
+      }
+    ]
   },
   "linde": {
     "id": "linde",
@@ -18187,7 +19594,15 @@
       "growth": 61,
       "innovation": 74,
       "community": 56
-    }
+    },
+    "news": [
+      {
+        "title": "AI 晶圆厂扩产带来长期供气合同，林德电子特气需求走高",
+        "date": "2026",
+        "category": "业务",
+        "summary": "全球最大工业气体公司林德为芯片制造沉积、刻蚀、清洗等工序供应电子特气，AI 扩产、先进制程与 HBM 放量直接增加其晶圆厂长期供气合同与需求。"
+      }
+    ]
   },
   "airliquide": {
     "id": "airliquide",
@@ -18270,7 +19685,15 @@
       "growth": 61,
       "innovation": 74,
       "community": 56
-    }
+    },
+    "news": [
+      {
+        "title": "液化空气电子特气与先进材料随 AI 芯片扩产稳步增长",
+        "date": "2026",
+        "category": "业务",
+        "summary": "与林德并列全球工业气体双雄的液化空气，为晶圆厂就近配套气体供应装置并签长期合同，AI 扩产与 HBM 放量持续拉动其电子特气与材料业务。"
+      }
+    ]
   },
   "ibiden": {
     "id": "ibiden",
@@ -18364,7 +19787,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "ABF 载板供不应求,扩产绑定英伟达世代",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI GPU 大尺寸载板需求爆发,大野/河间新厂产能爬坡;英特尔、英伟达高端载板核心供应商。"
+      }
+    ]
   },
   "unimicron": {
     "id": "unimicron",
@@ -18456,6 +19887,14 @@
       {
         "name": "曾子章",
         "title": "董事长"
+      }
+    ],
+    "news": [
+      {
+        "title": "ABF 载板景气回升,AI 加速卡订单饱满",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 芯片与交换机载板需求强劲,高阶 ABF 产能利用率回满;并进军玻璃基板下一代技术。"
       }
     ]
   },
@@ -18552,7 +19991,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "先进制程良率之战升级，Entegris 纯净管控方案价值凸显",
+        "date": "2026",
+        "category": "业务",
+        "summary": "制程越先进对污染控制越苛刻，Entegris 的高纯化学品输送过滤系统与 FOUP 晶圆容器需求随 AI 芯片对高良率的极致追求持续上升，2022 年收购 CMC Materials 后材料版图进一步扩大。"
+      }
+    ]
   },
   "cabot": {
     "id": "cabot",
@@ -18616,7 +20063,15 @@
       "growth": 82,
       "innovation": 75,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "CMP 材料龙头 CMC Materials 以约 65 亿美元并入 Entegris",
+        "date": "2022",
+        "category": "重大",
+        "summary": "抛光液与抛光垫全球主要供应商 CMC Materials（原 Cabot Microelectronics）于 2022 年被恩特格里斯以约 65 亿美元收购，并入其半导体材料版图。"
+      }
+    ]
   },
   "mp": {
     "id": "mp",
@@ -18712,7 +20167,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "美国防部约 4 亿美元入股 MP Materials 成最大股东",
+        "date": "2025-07",
+        "category": "重大",
+        "summary": "2025 年 7 月美国国防部以可转优先股入股约 15% 成为最大股东，为 NdPr 氧化物设 110 美元/公斤保底价并包销新磁厂十年产量，苹果亦签下 5 亿美元美产磁材采购协议。"
+      }
+    ]
   },
   "lynas": {
     "id": "lynas",
@@ -18800,7 +20263,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "Lynas 在美建稀土加工产能，承载供应链去中国化战略",
+        "date": "2026",
+        "category": "进展",
+        "summary": "作为中国以外全球最大的稀土生产商，Lynas 正在美国等地建设加工产能，在机器人与电气化拉动磁材需求、地缘供应链博弈加剧的背景下战略地位持续上升。"
+      }
+    ]
   },
   "jlmag": {
     "id": "jlmag",
@@ -18886,7 +20357,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "人形机器人量产预期打开金力永磁磁材需求新增量",
+        "date": "2026",
+        "category": "业务",
+        "summary": "国产高性能钕铁硼龙头金力永磁客户覆盖特斯拉、比亚迪与主流风电厂商，每台人形机器人的众多关节电机均需大量高性能永磁，机器人量产将带来显著需求增量。"
+      }
+    ]
   },
   "fcx": {
     "id": "fcx",
@@ -18970,7 +20449,15 @@
       "growth": 59,
       "innovation": 72,
       "community": 47
-    }
+    },
+    "news": [
+      {
+        "title": "AI 数据中心与电网扩容推升铜需求，自由港结构性受益",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 用电激增与全社会电气化让铜需求结构性上升，而铜矿开发周期长达十年以上、新增供给缓慢，运营 Grasberg 等世界级矿山的自由港是最直接的受益者之一。"
+      }
+    ]
   },
   "scco": {
     "id": "scco",
@@ -19053,7 +20540,15 @@
       "growth": 59,
       "innovation": 72,
       "community": 47
-    }
+    },
+    "news": [
+      {
+        "title": "低成本大储量优势下，南方铜业受益铜需求长期上行",
+        "date": "2026",
+        "category": "业务",
+        "summary": "全球储量最大的铜矿公司之一南方铜业以储量大、成本低、纯铜属性强著称，AI 用电激增叠加电气化令铜需求长期上行，而新铜矿供给增长缓慢。"
+      }
+    ]
   },
   "anduril": {
     "id": "anduril",
@@ -19223,7 +20718,15 @@
       "growth": 85,
       "innovation": 83,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "Helsing 估值达约 120 亿欧元，成欧洲最有价值国防独角兽",
+        "date": "2026",
+        "category": "融资",
+        "summary": "这家慕尼黑国防 AI 公司在乌克兰实战部署无人机并拿下欧洲多国军方合同，估值飙升至约 120 亿欧元，成为「软件定义国防」的欧洲旗手。"
+      }
+    ]
   },
   "shield_ai": {
     "id": "shield_ai",
@@ -19302,7 +20805,15 @@
       "growth": 85,
       "innovation": 83,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "Shield AI 将 Hivemind「AI 飞行员」推向战斗机等更多平台",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Hivemind 可在无 GPS、无通信、无遥控环境下自主飞行执行任务，已用于 V-BAT 垂直起降无人机并向战斗机等平台扩展，公司估值达数十亿美元。"
+      }
+    ]
   },
   "neuralink": {
     "id": "neuralink",
@@ -19449,6 +20960,14 @@
       "Khosla Ventures",
       "Jeff Bezos",
       "Bill Gates"
+    ],
+    "news": [
+      {
+        "title": "Synchron 完成 2 亿美元 D 轮，筹备 2026 年关键性临床试验",
+        "date": "2025-11",
+        "category": "融资",
+        "summary": "获贝索斯、盖茨投资的 Synchron 于 2025 年 11 月完成 2 亿美元 D 轮融资，正筹备 2026 年 pivotal trial，目标成为首个获 FDA 上市批准的植入式脑机接口。"
+      }
     ]
   },
   "precision_neuro": {
@@ -19518,6 +21037,14 @@
     "investors": [
       "Forbion",
       "B Capital"
+    ],
+    "news": [
+      {
+        "title": "Precision 薄膜电极临床采集高分辨率脑信号，进展领先",
+        "date": "2026",
+        "category": "研发",
+        "summary": "其超薄柔性 Layer 7 薄膜电极经极小切口贴于大脑皮层表面、不刺入脑组织且可取出更换，已在临床采集高分辨率脑信号，走出深植入与血管路线之外的第三条路。"
+      }
     ]
   },
   "ionet": {
@@ -19577,7 +21104,15 @@
       "growth": 82,
       "innovation": 75,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "io.net 聚合全球闲置 GPU，打造低成本去中心化算力池",
+        "date": "2026",
+        "category": "业务",
+        "summary": "构建于 Solana 等区块链之上的 io.net 以代币激励聚合分散闲置 GPU，让 AI 开发者以更低价格按需租用算力做训练与推理，成为大型云厂之外的补充选项。"
+      }
+    ]
   },
   "render": {
     "id": "render",
@@ -19637,7 +21172,15 @@
       "growth": 81,
       "innovation": 74,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "Render 从 3D 渲染拓展至 AI 算力，深耕去中心化 GPU 市场",
+        "date": "2026",
+        "category": "业务",
+        "summary": "最初瞄准极耗 GPU 的 3D 渲染场景，Render 通过区块链与代币撮合结算出租闲置 GPU；随 AI 兴起顺势拓展为 AI 提供去中心化算力，与 io.net、Akash 同处 DePIN 赛道。"
+      }
+    ]
   },
   "akash": {
     "id": "akash",
@@ -19696,7 +21239,15 @@
       "growth": 81,
       "innovation": 74,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "Akash 大力拓展 GPU 算力租赁，承接 AI 需求",
+        "date": "2026",
+        "category": "业务",
+        "summary": "被称为「云计算的 Airbnb」的 Akash 让闲置算力挂牌出租、需求方低价租用并由区块链自动结算，在 GPU 昂贵紧缺的当下大力拓展 GPU 租赁以承接 AI 需求。"
+      }
+    ]
   },
   "bittensor": {
     "id": "bittensor",
@@ -19752,7 +21303,15 @@
       "growth": 74,
       "innovation": 76,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "Bittensor 子网生态扩张，TAO 激励众包去中心化智能",
+        "date": "2026",
+        "category": "进展",
+        "summary": "Bittensor 以 TAO 代币激励由众多子网组成的去中心化机器学习网络，各子网专注大模型推理、文生图等任务；项目想象空间大但仍高度实验性，子网质量与投机性存疑。"
+      }
+    ]
   },
   "inworld": {
     "id": "inworld",
@@ -19823,6 +21382,14 @@
       "Kleiner Perkins",
       "Section 32",
       "Intel Capital"
+    ],
+    "news": [
+      {
+        "title": "Inworld 携手微软等探索 AI NPC，让游戏角色「活起来」",
+        "date": "2026",
+        "category": "落地",
+        "summary": "Inworld 的 AI 角色引擎让 NPC 拥有人格、记忆并能与玩家自由对话，正与游戏厂商及微软等合作探索应用，站在生成式 AI 重塑游戏交互体验的前沿。"
+      }
     ]
   },
   "scenario": {
@@ -19884,6 +21451,14 @@
     },
     "suppliers": [
       "blackforest"
+    ],
+    "news": [
+      {
+        "title": "Scenario 深耕游戏美术管线,自训风格模型成工作室标配",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Scenario 让游戏工作室用自有素材训练专属模型,按项目统一风格批量生成角色、道具、图标等资产,解决通用文生图风格漂移痛点,持续深入专业游戏内容团队的生产管线。"
+      }
     ]
   },
   "tii": {
@@ -19942,7 +21517,15 @@
       "growth": 74,
       "innovation": 81,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "TII 持续迭代 Falcon 开源系列,拓展多模态方向",
+        "date": "2026",
+        "category": "研发",
+        "summary": "继 Falcon 40B、180B 登上 Hugging Face 榜前列后,阿布扎比 TII 继续以宽松许可迭代 Falcon 模型并向多模态拓展,巩固海湾国家「主权 AI」代表地位。"
+      }
+    ]
   },
   "quora": {
     "id": "quora",
@@ -20017,6 +21600,14 @@
       {
         "name": "Adam D'Angelo",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "Quora 旗下 Poe 聚合 GPT/Claude/Gemini,坐稳模型中立入口",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Poe 让用户一个会员即可使用多家顶级大模型及社区自定义 bot,并为开发者提供分发与变现渠道,成为 Quora 在生成式 AI 时代的第二增长曲线。"
       }
     ]
   },
@@ -20117,7 +21708,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 72
-    }
+    },
+    "news": [
+      {
+        "title": "快手可灵(Kling)全球出圈,对标 Sora、Veo 顶尖视频模型",
+        "date": "2026",
+        "category": "产品",
+        "summary": "快手自研视频生成大模型可灵能将文字或图片生成连贯逼真的高质量视频,被视为可与 OpenAI Sora、谷歌 Veo 一较高下,既服务自身创作者生态也对外开放使用。"
+      }
+    ]
   },
   "cartesia": {
     "id": "cartesia",
@@ -20189,7 +21788,15 @@
       "growth": 85,
       "innovation": 83,
       "community": 72
-    }
+    },
+    "news": [
+      {
+        "title": "Cartesia 以 SSM 架构打磨 Sonic,冲刺真人级实时语音",
+        "date": "2026",
+        "category": "研发",
+        "summary": "由状态空间模型(Mamba)相关研究者创立的 Cartesia,基于 SSM 高效长序列架构实现超低延迟语音合成,面向语音助手、客服等场景提供接近真人反应速度的语音 API。"
+      }
+    ]
   },
   "robotera": {
     "id": "robotera",
@@ -20264,6 +21871,14 @@
     "suppliers": [
       "harmonic",
       "leaderdrive"
+    ],
+    "news": [
+      {
+        "title": "星动纪元推进 STAR1 全尺寸人形机器人「大脑+身体」一体研发",
+        "date": "2026",
+        "category": "进展",
+        "summary": "这家 2023 年由清华孵化的公司同时研发 STAR1 人形本体、灵巧手与驱动运动操作的 AI 模型,凭运动控制与强化学习积累跻身中国人形机器人第一梯队。"
+      }
     ]
   },
   "engineai": {
@@ -20329,6 +21944,14 @@
       {
         "name": "赵同阳",
         "title": "创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "众擎机器人以拟人步态与前空翻出圈,自研核心部件冲量产",
+        "date": "2026",
+        "category": "进展",
+        "summary": "深圳众擎的双足机器人以接近人类的流畅步态和前空翻等动作在社交媒体频频出圈,公司自研电机、关节与控制算法,力求兼顾性能与成本走向量产。"
       }
     ]
   },
@@ -20418,6 +22041,14 @@
     "suppliers": [
       "nvda",
       "hesai"
+    ],
+    "news": [
+      {
+        "title": "Momenta 港交所上市募资约 7.52 亿美元,估值约 90 亿美元",
+        "date": "2026-07",
+        "category": "重大",
+        "summary": "2026 年 7 月 8 日 Momenta 登陆港交所(06880),GIC、富达、贝莱德、奔驰等担任基石投资者,其「量产智驾供货车企 + 数据反哺冲击 L4」双飞轮模式获资本市场认可。"
+      }
     ]
   },
   "augment": {
@@ -20489,6 +22120,14 @@
       "Sutter Hill Ventures",
       "Index Ventures",
       "Lightspeed"
+    ],
+    "news": [
+      {
+        "title": "Augment Code 凭上下文引擎攻入企业级大型代码库市场",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Augment 的上下文引擎可索引理解百万行级复杂工程,提供贴合项目结构与团队规范的补全、问答和自主编程智能体,与 Cursor、Copilot 在企业级场景形成差异化竞争。"
+      }
     ]
   },
   "astera": {
@@ -20585,7 +22224,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "Astera Labs 连接芯片成 AI 服务器刚需,英伟达为大客户",
+        "date": "2026",
+        "category": "业务",
+        "summary": "其 PCIe/以太网重定时器与 CXL 内存控制器随 AI 服务器规模扩大而需求激增,2024 年上市后备受追捧,是「AI 连接」细分中最纯粹的高增长标的之一。"
+      }
+    ]
   },
   "credo": {
     "id": "credo",
@@ -20680,7 +22327,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "Credo 有源电缆绑定云厂 AI 网络建设,AEC 业务高速增长",
+        "date": "2026",
+        "category": "财报",
+        "summary": "随 400G/800G 高速互联需求爆发,Credo 在铜缆中加入自研信号处理芯片的 AEC 方案兼顾性能、成本与功耗,深度绑定大型云厂商,AEC 与 SerDes 业务实现高速增长。"
+      }
+    ]
   },
   "sourcegraph": {
     "id": "sourcegraph",
@@ -20757,6 +22412,14 @@
       "a16z",
       "Sequoia",
       "Redpoint"
+    ],
+    "news": [
+      {
+        "title": "Sourcegraph 以全库上下文加持 Cody,深耕企业 AI 编程",
+        "date": "2026",
+        "category": "产品",
+        "summary": "依托对整个代码库的深度索引,AI 助手 Cody 能给出真正理解项目上下文的问答与代码生成,帮助大型科技公司在千万行级代码中搜索、追踪与重构。"
+      }
     ]
   },
   "worldlabs": {
@@ -20827,7 +22490,15 @@
       "growth": 86,
       "innovation": 85,
       "community": 73
-    }
+    },
+    "news": [
+      {
+        "title": "李飞飞 World Labs 训练大世界模型,一张图生成可探索 3D 场景",
+        "date": "2026",
+        "category": "研发",
+        "summary": "2024 年创立的 World Labs 主攻空间智能,让 AI 理解、生成并推理三维世界,起步即获顶级资本重注、估值超 10 亿美元,是世界模型方向最受关注的公司之一。"
+      }
+    ]
   },
   "sakana": {
     "id": "sakana",
@@ -20908,6 +22579,14 @@
       "Khosla Ventures",
       "英伟达",
       "Lux Capital"
+    ],
+    "news": [
+      {
+        "title": "Sakana AI 以进化式方法与 AI Scientist 立足,估值约 15 亿美元",
+        "date": "2026",
+        "category": "研发",
+        "summary": "这家由 Transformer 作者 Llion Jones 等前谷歌研究者创立的东京独角兽,用进化算法、模型合并等自然启发方法高效组合模型,其 AI Scientist 可自主做研究写论文。"
+      }
     ]
   },
   "aleph": {
@@ -20972,6 +22651,14 @@
       {
         "name": "Jonas Andrulis",
         "title": "创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "Aleph Alpha 与 Cohere 合并,合并后估值约 200 亿美元",
+        "date": "2026",
+        "category": "重大",
+        "summary": "2026 年这家德国「主权 AI」代表与加拿大企业大模型公司 Cohere 合并,此前它已从自研前沿模型转向 PhariaAI 企业 AI 操作系统,服务欧洲政企的私有部署与合规需求。"
       }
     ]
   },
@@ -21042,6 +22729,14 @@
       "Kleiner Perkins",
       "Lightspeed",
       "Bain Capital Ventures"
+    ],
+    "news": [
+      {
+        "title": "ServiceNow 约 28.5 亿美元收购 Moveworks,并入企业工作流平台",
+        "date": "2025",
+        "category": "重大",
+        "summary": "2025 年 ServiceNow 宣布收购这家企业 IT/HR 支持自动化先行者,将其在 Slack、Teams 中用自然语言直接办理员工求助的对话式 AI 能力整合进自家平台。"
+      }
     ]
   },
   "recraft": {
@@ -21112,6 +22807,14 @@
       "Khosla Ventures",
       "Nat Friedman",
       "RTP Global"
+    ],
+    "news": [
+      {
+        "title": "Recraft 凭矢量输出与品牌一致性登顶图像模型盲测榜",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Recraft 可输出无限缩放的 SVG 矢量图并按统一品牌风格批量生成素材,曾在 Artificial Analysis 等权威盲测榜上超越 Midjourney、DALL·E 登顶,验证专业可控路线价值。"
+      }
     ]
   },
   "leonardo": {
@@ -21181,6 +22884,14 @@
     "investors": [
       "Blackbird Ventures",
       "Samsung Next"
+    ],
+    "news": [
+      {
+        "title": "Leonardo.Ai 被 Canva 收购,生成能力并入数亿用户设计生态",
+        "date": "2024",
+        "category": "重大",
+        "summary": "2024 年图形设计巨头 Canva 收购这家深受游戏美术与概念设计圈欢迎的澳大利亚平台,将其姿势、构图、风格一致性等精细生成能力融入 Canva 设计生态。"
+      }
     ]
   },
   "krea": {
@@ -21253,6 +22964,14 @@
     ],
     "suppliers": [
       "blackforest"
+    ],
+    "news": [
+      {
+        "title": "Krea 实时画布聚合 Flux 等顶尖模型,打造一站式创作台",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Krea 招牌的实时生成让用户随手画几笔即被即时渲染成精美图像,并整合多家优秀图像/视频模型与放大、风格迁移等工具,以极致体验在设计师圈广受欢迎。"
+      }
     ]
   },
   "genmo": {
@@ -21325,6 +23044,14 @@
     },
     "investors": [
       "NEA"
+    ],
+    "news": [
+      {
+        "title": "Genmo 开源视频模型 Mochi 成生态底座,对标闭源巨头",
+        "date": "2026",
+        "category": "进展",
+        "summary": "Genmo 将 Mochi 权重开放,供研究者与开发者自由下载、微调和本地部署,被视为视频界的 Stable Diffusion,为开源视频社区和下游应用提供可自主掌控的基础模型。"
+      }
     ]
   },
   "higgsfield": {
@@ -21391,6 +23118,14 @@
     ],
     "suppliers": [
       "nvda"
+    ],
+    "news": [
+      {
+        "title": "Higgsfield 以电影级可控运镜切入社媒短视频生成",
+        "date": "2026",
+        "category": "产品",
+        "summary": "由前 Snap AI 负责人创立的 Higgsfield 让创作者选择 crash zoom、bullet time 等专业运镜快速产出大片质感竖屏视频,以「镜头语言」在短视频与广告创意圈差异化立足。"
+      }
     ]
   },
   "playht": {
@@ -21454,6 +23189,14 @@
       "Y Combinator",
       "Race Capital",
       "500 Global"
+    ],
+    "news": [
+      {
+        "title": "PlayAI 被 Meta 收购,语音克隆技术并入其 AI 语音布局",
+        "date": "2024",
+        "category": "重大",
+        "summary": "2024 年 Meta 收购这家成立于 2016 年的语音生成公司,其高质量 TTS、声音克隆与低延迟实时对话语音技术和团队整体并入 Meta 的 AI 语音体系。"
+      }
     ]
   },
   "lindy": {
@@ -21517,6 +23260,14 @@
       {
         "name": "Flo Crivello",
         "title": "创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "Lindy 无代码 AI 智能体平台加速普及,自然语言即可搭建数字员工",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Lindy 让用户用自然语言描述工作流即可生成自动化智能体,可连接邮箱、日历、CRM 等工具,自动处理邮件日程、跟进销售线索与客户支持,成为「人人可搭 AI 智能体」趋势的代表落地。"
       }
     ]
   },
@@ -21582,6 +23333,14 @@
       {
         "name": "Div Garg",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "MultiOn 押注网页自主操作,把 web agent 能力开放为开发者 API",
+        "date": "2026",
+        "category": "业务",
+        "summary": "MultiOn 的 AI 智能体可像人一样打开浏览器、点按钮、填表单,自主完成订票、购物、填申请等跨网站任务,并将这套网页操作能力做成 API,与 OpenAI Operator、Manus 等同台竞争。"
       }
     ]
   },
@@ -21655,7 +23414,15 @@
       "growth": 86,
       "innovation": 85,
       "community": 73
-    }
+    },
+    "news": [
+      {
+        "title": "Skild AI 通用机器人大脑获软银英伟达等投资,估值约 45 亿美元",
+        "date": "2026",
+        "category": "融资",
+        "summary": "由 CMU 两位机器人学教授创立的 Skild AI,其基础模型 Skild Brain 可迁移到机械臂、四足、人形等不同本体,凭顶尖学术背景获软银、英伟达、贝索斯等重磅投资,估值达约 45 亿美元。"
+      }
+    ]
   },
   "dexterity": {
     "id": "dexterity",
@@ -21724,6 +23491,14 @@
       "Kleiner Perkins",
       "Lightspeed",
       "Tiger Global"
+    ],
+    "news": [
+      {
+        "title": "Dexterity 机械臂智能操作落地物流仓储,自主完成码垛与货车装卸",
+        "date": "2026",
+        "category": "落地",
+        "summary": "Dexterity 用 AI 视觉与操作模型让机械臂看懂杂乱货物、规划抓取并灵活应对变化,自主完成码垛拆垛、货车装卸、拣选打包等任务,服务大型物流、快递与制造企业。"
+      }
     ]
   },
   "cobot": {
@@ -21794,6 +23569,14 @@
       "Sequoia",
       "General Catalyst",
       "Lux Capital"
+    ],
+    "news": [
+      {
+        "title": "前亚马逊机器人副总裁创立的 Cobot 走务实路线,协作机器人进军多场景",
+        "date": "2026",
+        "category": "进展",
+        "summary": "Brad Porter 创立的 Collaborative Robotics 不执着人形外观,专注能在仓库、工厂、医院、机场等真实场景与人协同搬运物料的移动机器人,凭大额融资与量产运营经验强调规模化落地。"
+      }
     ]
   },
   "waabi": {
@@ -21874,6 +23657,14 @@
     },
     "suppliers": [
       "nvda"
+    ],
+    "news": [
+      {
+        "title": "Waabi 以仿真优先路线推进自动驾驶卡车,虚拟世界训练危险场景",
+        "date": "2026",
+        "category": "研发",
+        "summary": "Raquel Urtasun 创立的 Waabi 用高保真仿真器 Waabi World 让自动驾驶 AI 在虚拟世界训练并严测罕见危险场景,结合端到端可解释大模型做驾驶决策,聚焦长途货运卡车商业化。"
+      }
     ]
   },
   "appliedintuition": {
@@ -21943,7 +23734,15 @@
       "growth": 85,
       "innovation": 83,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "Applied Intuition 扩展国防自主系统业务,估值升至约 150 亿美元",
+        "date": "2026",
+        "category": "业务",
+        "summary": "这家自动驾驶仿真与工具链龙头几乎服务全球大部分主流车企,近年将能力扩展到自主军用车辆与无人系统等国防领域,估值升至约 150 亿美元,巩固中立「卖铲子」卡位。"
+      }
+    ]
   },
   "qdrant": {
     "id": "qdrant",
@@ -22010,6 +23809,14 @@
       {
         "name": "Andre Zayarni",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "Rust 编写的开源向量数据库 Qdrant 成 RAG 生产级部署热门选择",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Qdrant 以高性能与可扩展性著称,支持过滤与混合搜索,能高效处理海量向量的存储与相似度检索,在与 Pinecone、Weaviate、Chroma 的竞争中凭性能和开源赢得大量开发者。"
       }
     ]
   },
@@ -22079,6 +23886,14 @@
       {
         "name": "星爵 (Charles Xie)",
         "title": "创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "Zilliz Cloud 全托管服务发力,Milvus 支撑数十亿级向量检索",
+        "date": "2026",
+        "category": "业务",
+        "summary": "随着 RAG 成为企业 AI 应用标配,Zilliz 在最流行的开源向量数据库之一 Milvus 之上提供全托管云服务,让企业免运维用上面向超大规模场景的高性能向量检索。"
       }
     ]
   },
@@ -22156,6 +23971,14 @@
       "General Catalyst",
       "Peter Thiel",
       "DST Global"
+    ],
+    "news": [
+      {
+        "title": "Mercor 踩中专家数据爆发需求,估值短期飙升至数十亿美元级",
+        "date": "2026",
+        "category": "融资",
+        "summary": "Mercor 用 AI 面试与匹配把全球博士、医生、律师、资深工程师对接给 OpenAI、Anthropic 等前沿实验室做标注评测,增速惊人,估值短期内飙升到数十亿至上百亿美元级。"
+      }
     ]
   },
   "turing": {
@@ -22229,6 +24052,14 @@
       "WestBridge Capital",
       "Foundation Capital",
       "AltaIR"
+    ],
+    "news": [
+      {
+        "title": "Turing 从远程工程人才平台转型 AGI 训练数据服务,快速成长",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Turing 的核心业务已转向为 OpenAI、谷歌等前沿实验室提供高质量代码、推理与专业领域数据,以及能做复杂标注评测的高水平工程师,成为大模型后训练的关键数据供应方。"
+      }
     ]
   },
   "paradromics": {
@@ -22294,6 +24125,14 @@
         "name": "Matt Angle",
         "title": "创始人兼 CEO"
       }
+    ],
+    "news": [
+      {
+        "title": "Paradromics 主攻高带宽植入式脑机接口,瞄准瘫痪失语患者医疗场景",
+        "date": "2026",
+        "category": "研发",
+        "summary": "作为 Neuralink 的主要竞争对手之一,Paradromics 主打一次读取大量神经元信号的高带宽方案,首要目标是把严重瘫痪、失语患者想说的话和动作直接从大脑解码出来。"
+      }
     ]
   },
   "saronic": {
@@ -22358,7 +24197,15 @@
       "growth": 84,
       "innovation": 80,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "「海上 Anduril」Saronic 估值攀升至约 40 亿美元以上",
+        "date": "2026",
+        "category": "融资",
+        "summary": "Saronic 自研自造低成本、可消耗的自主无人水面舰艇,用 AI 实现海上自主导航、协同与任务执行,契合美军分布式无人化海军思路,借国防科技资本热潮估值快速攀升。"
+      }
+    ]
   },
   "ssi": {
     "id": "ssi",
@@ -22431,7 +24278,15 @@
       "growth": 88,
       "innovation": 91,
       "community": 77
-    }
+    },
+    "news": [
+      {
+        "title": "Ilya 的 SSI 无产品累计融资约 60 亿美元,估值达 320 亿美元",
+        "date": "2026",
+        "category": "重大",
+        "summary": "Ilya Sutskever 于 2024 年创立的 Safe Superintelligence 全球仅约 20 人、不发布任何商用产品,却已累计融资约 60 亿美元、估值 320 亿美元,成史上没有产品估值最高的 AI 实验室。"
+      }
+    ]
   },
   "thinkingmachines": {
     "id": "thinkingmachines",
@@ -22509,7 +24364,15 @@
       "growth": 87,
       "innovation": 89,
       "community": 76
-    }
+    },
+    "news": [
+      {
+        "title": "Mira Murati 的 Thinking Machines 完成 20 亿美元史上最大种子轮",
+        "date": "2025-07",
+        "category": "融资",
+        "summary": "前 OpenAI CTO 创立的 Thinking Machines Lab 于 2025 年 7 月完成 20 亿美元种子轮、估值 120 亿美元,创 AI 史上最大种子融资纪录,首个产品为微调开源模型的 API Tinker。"
+      }
+    ]
   },
   "deepgram": {
     "id": "deepgram",
@@ -22593,6 +24456,14 @@
       "Tiger Global",
       "Wing VC",
       "英伟达"
+    ],
+    "news": [
+      {
+        "title": "语音智能体兴起,Deepgram 低延迟语音识别成电话 AI 底层刚需",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Deepgram 自研深度学习语音模型,以高精度、低延迟的语音转文字加说话人分离、总结等理解能力,通过 API 服务客服中心、会议、媒体等海量语音场景,受益于语音智能体需求上升。"
+      }
     ]
   },
   "cresta": {
@@ -22672,6 +24543,14 @@
     "suppliers": [
       "openai",
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Cresta 实时「耳语」AI 赋能联络中心坐席,并推出可接管对话智能体",
+        "date": "2026",
+        "category": "产品",
+        "summary": "源自斯坦福 AI 实验室的 Cresta 在通话进行中实时给坐席建议话术、推荐与合规提示,自动做总结质检并沉淀最优坐席做法推广全员,同时提供能直接接管对话的 AI 智能体。"
+      }
     ]
   },
   "assemblyai": {
@@ -22741,6 +24620,14 @@
       "Accel",
       "Insight Partners",
       "Y Combinator"
+    ],
+    "news": [
+      {
+        "title": "AssemblyAI 语音理解 API 覆盖会议客服字幕播客,基础设施地位巩固",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AssemblyAI 把高精度转录与说话人分离、摘要、情感分析、敏感内容检测等能力封装成开发者友好的 API,让应用无需自研语音模型即可「听懂」语音,广泛用于会议、客服质检与媒体。"
+      }
     ]
   },
   "dmatrix": {
@@ -22807,7 +24694,15 @@
       "growth": 84,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "d-Matrix 旗舰 Corsair 存算一体加速卡主攻大模型推理能效",
+        "date": "2026",
+        "category": "产品",
+        "summary": "d-Matrix 用数字存算一体(DIMC)架构把计算直接放进存储单元,大幅减少数据搬运,令旗舰 Corsair 在大模型推理上实现远超传统 GPU 的每瓦性能与更低延迟,挑战推理成本瓶颈。"
+      }
+    ]
   },
   "positron": {
     "id": "positron",
@@ -22870,6 +24765,14 @@
     },
     "suppliers": [
       "tsm"
+    ],
+    "news": [
+      {
+        "title": "Positron 专用 ASIC 瞄准 Transformer 推理,主打每瓦性能超 GPU",
+        "date": "2026",
+        "category": "研发",
+        "summary": "随着推理算力与电费快速超过训练成为最大持续成本,Positron 打造专为 Transformer 推理优化的专用芯片,在同样任务上追求比通用 GPU 更高的每瓦与每美元性能,帮数据中心省电省钱。"
+      }
     ]
   },
   "rainai": {
@@ -22929,7 +24832,15 @@
       "growth": 82,
       "innovation": 75,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "Sam Altman 早期投资的 Rain AI 押注类脑芯片,瞄准能效数量级提升",
+        "date": "2026",
+        "category": "研发",
+        "summary": "Rain AI 用存算一体加模拟计算的神经形态架构模仿人脑工作方式,目标把 AI 训练与推理能效提升几个数量级,走与主流数字 GPU 完全不同的激进路线,风险高但潜在颠覆性大。"
+      }
+    ]
   },
   "robin_ai": {
     "id": "robin_ai",
@@ -22996,6 +24907,14 @@
     },
     "suppliers": [
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Robin AI 携手 Anthropic Claude 深耕合同审查,服务企业法务与律所",
+        "date": "2026",
+        "category": "落地",
+        "summary": "这家 2019 年成立于伦敦的法律 AI 公司将大模型调校至读懂法律合同,自动标出风险条款、对照公司标准给修改建议并加速谈判,与 Harvey、Hebbia 同处「专业服务+AI」赛道。"
+      }
     ]
   },
   "nabla": {
@@ -23064,6 +24983,14 @@
     "investors": [
       "Cathay Innovation",
       "DST Global"
+    ],
+    "news": [
+      {
+        "title": "Nabla 环境问诊记录已处理数千万次问诊，覆盖大量医疗系统",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Nabla 的 AI 助手在医患对话中实时聆听并自动生成结构化病历草稿，医生只需审核确认。目前已服务大量诊所与医疗系统、处理数千万次问诊，稳居环境记录赛道领先阵营。"
+      }
     ]
   },
   "suki": {
@@ -23134,6 +25061,14 @@
       "Venrock",
       "March Capital",
       "Flare Capital"
+    ],
+    "news": [
+      {
+        "title": "Suki Assistant 深化 EHR 集成，语音开医嘱查编码全面铺开",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Suki 在环境聆听自动生成临床记录之外，把产品做成语音驱动的医生助手：口述病历、查病人信息、开医嘱、查编码，并与主流电子病历系统集成，服务众多医疗机构。"
+      }
     ]
   },
   "alchip": {
@@ -23235,6 +25170,14 @@
     },
     "suppliers": [
       "tsm"
+    ],
+    "news": [
+      {
+        "title": "世芯电子承接大型客户自研 AI 加速芯片订单，业绩大幅增长",
+        "date": "2026",
+        "category": "业务",
+        "summary": "在 AI 巨头纷纷自研专用芯片以摆脱对英伟达依赖的浪潮下，世芯凭借深度绑定台积电最先进制程与先进封装，承接高端 AI ASIC 订单，业绩因此大幅增长。"
+      }
     ]
   },
   "guc": {
@@ -23330,6 +25273,14 @@
     },
     "suppliers": [
       "tsm"
+    ],
+    "news": [
+      {
+        "title": "创意电子凭台积电协同与高速接口 IP，卡位高端 AI ASIC 落地",
+        "date": "2026",
+        "category": "业务",
+        "summary": "作为台积电大股东加持的设计服务旗舰，GUC 依托最紧密的代工协同以及高速接口与先进封装能力，成为科技巨头自研 AI 加速芯片落地量产的关键承接方之一。"
+      }
     ]
   },
   "faraday": {
@@ -23418,7 +25369,15 @@
       "growth": 61,
       "innovation": 74,
       "community": 67
-    }
+    },
+    "news": [
+      {
+        "title": "智原科技受益自研 AI ASIC 需求上升，IP 库与联电协同发力",
+        "date": "2026",
+        "category": "业务",
+        "summary": "越来越多公司自研专用 AI 加速芯片以降本增效、减少对通用 GPU 依赖，带动 ASIC 设计服务需求上升。智原凭多年 IP 积累与联电代工协同，与创意、世芯同赛道分享增长。"
+      }
+    ]
   },
   "andes": {
     "id": "andes",
@@ -23506,7 +25465,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "晶心科技 RISC-V 内核加速渗透 AI 芯片，充当调度控制核心",
+        "date": "2026",
+        "category": "进展",
+        "summary": "很多 AI 加速器与 SoC 都需要一颗小 CPU 做调度与控制，晶心的 RISC-V 内核 IP 正被广泛授权采用。作为 RISC-V 阵营商业化最成熟的 IP 厂商之一，它直接受益于开放架构崛起。"
+      }
+    ]
   },
   "ememory": {
     "id": "ememory",
@@ -23595,7 +25562,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "力旺电子存储 IP 授权需求获 AI 与物联网双重拉动",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 芯片与万物联网带来芯片数量和安全需求增长，几乎每颗芯片都需内嵌存储保存固件、参数与不可篡改的安全密钥，直接拉动这家嵌入式 NVM IP 全球龙头的授权业务。"
+      }
+    ]
   },
   "umc": {
     "id": "umc",
@@ -23690,6 +25665,14 @@
       "asml",
       "amat",
       "lrcx"
+    ],
+    "news": [
+      {
+        "title": "成熟制程稳健,特色工艺与英特尔合作推进",
+        "date": "2026",
+        "category": "业务",
+        "summary": "与英特尔合作开发 12nm 平台;车用/工控特色工艺稳固,并受益于成熟制程涨价周期。"
+      }
     ]
   },
   "wistron": {
@@ -23788,7 +25771,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "AI 服务器板卡+整机双线放量,业绩高增长",
+        "date": "2026",
+        "category": "业务",
+        "summary": "英伟达 GPU 基板/模组主力供应商之一,AI 业务占比快速提升;在美国德州扩产承接本土化需求。"
+      }
+    ]
   },
   "inventec": {
     "id": "inventec",
@@ -23879,7 +25870,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 服务器出货放量,服务器业务占比过半",
+        "date": "2026",
+        "category": "业务",
+        "summary": "承接云厂商 AI 服务器订单,与 GB200 世代同步爬坡;传统笔电代工稳定,AI 成为增长引擎。"
+      }
+    ]
   },
   "gigabyte": {
     "id": "gigabyte",
@@ -23973,7 +25972,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 服务器成第一大业务,营收创历史新高",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Giga Computing 承接英伟达 HGX/GB200 整机订单,AI 服务器收入超越显卡主板;2025 营收翻倍后继续增长。"
+      }
+    ]
   },
   "pegatron": {
     "id": "pegatron",
@@ -24063,7 +26070,15 @@
       "growth": 61,
       "innovation": 74,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "切入 AI 服务器代工,寻找 iPhone 之外第二曲线",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 服务器与网通产品放量,降低对苹果依赖;与英伟达合作 MGX 架构服务器。"
+      }
+    ]
   },
   "accton": {
     "id": "accton",
@@ -24156,6 +26171,14 @@
     },
     "suppliers": [
       "avgo"
+    ],
+    "news": [
+      {
+        "title": "智邦科技 400G/800G 白盒交换机需求爆发，深度参与英伟达 AI 网络",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 时代 GPU 集群需要超高速大带宽互联，超大规模云厂商的白盒交换机订单直接拉动智邦出货；它还深度参与英伟达等的 AI 网络方案，业绩显著受益于 AI 网络建设。"
+      }
     ]
   },
   "avc": {
@@ -24250,7 +26273,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "奇鋐科技加码液冷方案，AI 服务器散热业绩显著增长",
+        "date": "2026",
+        "category": "业务",
+        "summary": "高端 AI GPU 功耗上千瓦，机柜功率密度飙升让高效散热从可选变成必需。奇鋐在风扇、热管、均温板之外积极布局液冷，为 AI 服务器提供高效液冷方案，业绩显著增长。"
+      }
+    ]
   },
   "auras": {
     "id": "auras",
@@ -24337,7 +26368,15 @@
       "growth": 63,
       "innovation": 77,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "双鸿科技加大液冷布局，抢占 AI 服务器散热刚需市场",
+        "date": "2026",
+        "category": "进展",
+        "summary": "AI 服务器功率密度飙升使液冷从可选项变成必需品。双鸿在热管、均温板、散热器基础上加码风冷转液冷的关键转变，需求与价值随算力扩建持续被拉动。"
+      }
+    ]
   },
   "zhending": {
     "id": "zhending",
@@ -24421,7 +26460,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 服务器板与载板并进,鸿海体系协同",
+        "date": "2026",
+        "category": "业务",
+        "summary": "全球最大 PCB 厂发力 AI 服务器板、交换机板与 IC 载板,消费电子之外打开数据中心第二曲线。"
+      }
+    ]
   },
   "liteon": {
     "id": "liteon",
@@ -24508,7 +26555,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 服务器电源放量,与云厂共推高效供电",
+        "date": "2026",
+        "category": "业务",
+        "summary": "高功率服务器电源(PSU)出货强劲,切入 GB 系列整机柜供电链;光电与云端业务重组聚焦。"
+      }
+    ]
   },
   "nanya": {
     "id": "nanya",
@@ -24593,7 +26648,15 @@
       "growth": 61,
       "innovation": 74,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "DRAM 价格暴涨带动扭亏,受益 AI 内存挤出效应",
+        "date": "2026",
+        "category": "业务",
+        "summary": "三大厂产能转向 HBM 后,利基型 DRAM 供给紧张、价格大涨,南亚科业绩显著回升。"
+      }
+    ]
   },
   "asus": {
     "id": "asus",
@@ -24681,7 +26744,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 服务器与 AI PC 双线发力,业绩强劲",
+        "date": "2026",
+        "category": "业务",
+        "summary": "服务器业务(含 GB200 整机柜)高速增长,电竞与 AI PC 稳固;目标服务器营收数年内翻数倍。"
+      }
+    ]
   },
   "wolfspeed": {
     "id": "wolfspeed",
@@ -24767,7 +26838,15 @@
       "growth": 61,
       "innovation": 74,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "完成债务重组走出低谷,SiC 聚焦 AI 电源与 EV",
+        "date": "2026",
+        "category": "进展",
+        "summary": "破产重组后轻装上阵,8 吋 SiC 产能爬坡;AI 数据中心 800V 供电与电动车需求提供长期空间。"
+      }
+    ]
   },
   "ifx": {
     "id": "ifx",
@@ -24857,7 +26936,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 数据中心功率芯片放量,汽车业务筑底回升",
+        "date": "2026",
+        "category": "业务",
+        "summary": "与英伟达合作 800V HVDC 供电架构,功率半导体切入 AI 电源链;SiC/GaN 产品组合完整。"
+      }
+    ]
   },
   "apple": {
     "id": "apple",
@@ -24965,7 +27052,15 @@
       "growth": 71,
       "innovation": 88,
       "community": 52
-    }
+    },
+    "news": [
+      {
+        "title": "Apple Intelligence 持续铺开,自研芯片强化端侧 AI",
+        "date": "2026",
+        "category": "产品",
+        "summary": "个人 AI 系统深度集成进 iPhone/Mac,主打隐私与本地运行;M 系列/A 系列芯片 NPU 持续升级,是端侧 AI 的标杆。"
+      }
+    ]
   },
   "qualcomm": {
     "id": "qualcomm",
@@ -25069,7 +27164,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "骁龙 X 系列进攻 AI PC,端侧 AI 全面铺开",
+        "date": "2026",
+        "category": "产品",
+        "summary": "手机、PC、汽车三线推进端侧 AI;骁龙 X 把 Arm+强 NPU 带进 Windows 笔记本,与英特尔/苹果正面竞争。"
+      }
+    ]
   },
   "mediatek": {
     "id": "mediatek",
@@ -25177,7 +27280,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "天玑旗舰追平高通,ASIC 业务打开第二曲线",
+        "date": "2026",
+        "category": "业务",
+        "summary": "旗舰手机 SoC 站稳高端,端侧 AI 能力领先;为谷歌等设计定制 AI 芯片(ASIC)成为新增长引擎。"
+      }
+    ]
   },
   "ibm": {
     "id": "ibm",
@@ -25275,7 +27386,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "watsonx 企业 AI 稳步增长,量子路线图推进",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Granite 开源模型+企业级治理工具服务监管行业;量子计算按路线图向容错演进,是企业 AI 与量子双线玩家。"
+      }
+    ]
   },
   "oracle": {
     "id": "oracle",
@@ -25482,7 +27601,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 72
-    }
+    },
+    "news": [
+      {
+        "title": "AppLovin 借 AXON 引擎从手游向电商广告市场扩张",
+        "date": "2026",
+        "category": "业务",
+        "summary": "自研 AI 广告推荐引擎 AXON 持续进化，令 AppLovin 广告业务爆发式增长、利润率极高，股价在 2024–2025 年成为美股最惊人的公司之一，如今正从游戏向电商等更大广告市场扩张。"
+      }
+    ]
   },
   "ttd": {
     "id": "ttd",
@@ -25579,7 +27706,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 71
-    }
+    },
+    "news": [
+      {
+        "title": "The Trade Desk 以 Kokai AI 平台重仓 CTV，主推 UID2 应对 Cookie 消亡",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Kokai 平台用 AI 优化每一次竞价、定向与跨渠道分配，并主推隐私友好的 UID2 身份方案。TTD 重仓增长最快的联网电视，但也面临谷歌、亚马逊竞争与自身增长波动压力。"
+      }
+    ]
   },
   "ionq": {
     "id": "ionq",
@@ -25673,7 +27808,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "IonQ 收购 Oxford Ionics 扩充技术版图，押注量子网络",
+        "date": "2026",
+        "category": "重大",
+        "summary": "这家市值最高的纯量子计算上市公司近年大举收购（如 Oxford Ionics）扩充技术与人才，并通过 AWS、Azure、GCP 云平台输出算力；但季度营收仅数千万美元，估值高、波动剧烈。"
+      }
+    ]
   },
   "rigetti": {
     "id": "rigetti",
@@ -25755,7 +27898,15 @@
       "growth": 61,
       "innovation": 74,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "Rigetti 坚持全栈自研超导路线，自有工厂制造量子芯片",
+        "date": "2026",
+        "category": "研发",
+        "summary": "Rigetti 自己设计并在自有工厂制造超导量子芯片、搭建量子计算机，并经云平台对外提供算力。作为少数已上市的纯量子公司，其价值取决于比特扩展与纠错的长期技术突破。"
+      }
+    ]
   },
   "dwave": {
     "id": "dwave",
@@ -25838,7 +27989,15 @@
       "growth": 61,
       "innovation": 74,
       "community": 67
-    }
+    },
+    "news": [
+      {
+        "title": "D-Wave 获佛罗里达大西洋大学 2000 万美元系统采购订单",
+        "date": "2026",
+        "category": "落地",
+        "summary": "2026 年 D-Wave 拿下 FAU 2000 万美元量子系统采购，并与财富 100 强企业签订千万美元级量子云（QCaaS）协议，以量子退火专攻优化问题，成为营收相对「实」的量子标的。"
+      }
+    ]
   },
   "psiquantum": {
     "id": "psiquantum",
@@ -25902,6 +28061,14 @@
       {
         "name": "Jeremy O'Brien",
         "title": "联合创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "PsiQuantum 携手 GlobalFoundries，美澳布局大型容错量子计算机",
+        "date": "2026",
+        "category": "进展",
+        "summary": "这家光子量子独角兽跳过小规模阶段，直攻百万量子比特级可容错通用量子计算机，与 GlobalFoundries 合作用成熟半导体工艺量产量子芯片，并已获巨额融资在美国、澳大利亚建造大型量子机。"
       }
     ]
   },
@@ -25986,7 +28153,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "Quantinuum 登陆纳斯达克，募资约 16.8 亿美元、估值约 150 亿",
+        "date": "2026-06",
+        "category": "重大",
+        "summary": "2026 年 6 月霍尼韦尔控股的 Quantinuum 以代码 QNT 上市，成为仅次于 IonQ 的第二大上市量子公司。其离子阱 H 系列长期领先量子体积指标，并在纠错与逻辑量子比特上取得重要进展。"
+      }
+    ]
   },
   "hesai": {
     "id": "hesai",
@@ -26082,6 +28257,15 @@
     },
     "suppliers": [
       "yuanjie"
+    ],
+    "news": [
+      {
+        "title": "2026 出货指引上调至 300–350 万台;在手订单超 400 万台",
+        "date": "2026-04",
+        "category": "业务",
+        "summary": "Q1 出货同比 +141%;长距 ADAS 激光雷达市占 43% 全球第一;年产能翻番至 400 万台,泰国工厂 2027 年初投产。",
+        "url": "https://www.eeo.com.cn/2026/0402/825864.shtml"
+      }
     ]
   },
   "luminar": {
@@ -26163,7 +28347,15 @@
       "growth": 59,
       "innovation": 72,
       "community": 55
-    }
+    },
+    "news": [
+      {
+        "title": "Luminar 推进 Iris 激光雷达上量产车，携手沃尔沃但盈利承压",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Luminar 主打面向量产乘用车的高性能激光雷达 Iris，与沃尔沃等车企合作推动装车；但自动驾驶商业化漫长、行业竞争激烈且长期烧钱，公司仍面临盈利与经营压力。"
+      }
+    ]
   },
   "ouster": {
     "id": "ouster",
@@ -26245,7 +28437,15 @@
       "growth": 59,
       "innovation": 72,
       "community": 55
-    }
+    },
+    "news": [
+      {
+        "title": "Ouster 完成与 Velodyne 整合，数字激光雷达押注芯片化降本",
+        "date": "2023",
+        "category": "重大",
+        "summary": "2023 年 Ouster 与激光雷达先驱 Velodyne 合并，整合成更有规模的公司以应对烧钱的行业竞争。其数字化架构借鉴 CMOS 传感器思路，把激光雷达做成可量产、成本更低的芯片化方案。"
+      }
+    ]
   },
   "horizon": {
     "id": "horizon",
@@ -26345,6 +28545,14 @@
     },
     "suppliers": [
       "tsm"
+    ],
+    "news": [
+      {
+        "title": "地平线港交所上市募资约 6.7 亿美元，成当年香港最大 IPO 之一",
+        "date": "2024-10",
+        "category": "重大",
+        "summary": "2024 年 10 月地平线登陆港交所（9660）。随着中国车企智能化竞赛白热化与本土供应链需求，其征程系列芯片与软硬一体方案被大量车企装车，出货与业绩快速增长。"
+      }
     ]
   },
   "eqix": {
@@ -26437,6 +28645,14 @@
     },
     "partners": [
       "nvda"
+    ],
+    "news": [
+      {
+        "title": "Equinix 互联生态护城河在 AI 多云时代持续兑现价值",
+        "date": "2026",
+        "category": "业务",
+        "summary": "企业既要用公有云、又要就近部署自有算力并实现多云互联，Equinix 的中立机房作为汇聚成千上万网络与云厂商的低延迟互联枢纽，在 AI 时代作为「连接一切的中枢」持续受益。"
+      }
     ]
   },
   "dlr": {
@@ -26529,6 +28745,14 @@
     },
     "partners": [
       "nvda"
+    ],
+    "news": [
+      {
+        "title": "Digital Realty 联手云巨头扩建 AI 容量，高密度机房供不应求",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 数据中心需求爆发，尤其是可支持 GPU 集群的大功率高密度机房供不应求。作为全球最大数据中心 REIT 之一，Digital Realty 与云巨头深度合作扩建 AI 相关容量，持续受益。"
+      }
     ]
   },
   "gds": {
@@ -26619,7 +28843,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "万国数据承接 AI 算力需求,DayOne 加速拓展东南亚",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 大模型训练推动高密度机房需求激增,万国数据凭一线城市优质数据中心资源持续受益,并通过分拆的国际业务 GDS International(DayOne)承接 AI 驱动的东南亚等海外数据中心需求。"
+      }
+    ]
   },
   "irm": {
     "id": "irm",
@@ -26702,7 +28934,15 @@
       "growth": 61,
       "innovation": 74,
       "community": 48
-    }
+    },
+    "news": [
+      {
+        "title": "铁山转型见效:数据中心成 Iron Mountain 增长最快业务",
+        "date": "2026",
+        "category": "业务",
+        "summary": "这家百年档案管理巨头利用安全设施、房地产与企业信任积累大举建设运营数据中心,在 AI 驱动数据爆发的浪潮下,数据中心已成为其增长最快的新业务之一,老牌公司焕发新生。"
+      }
+    ]
   },
   "bloomberg": {
     "id": "bloomberg",
@@ -26774,7 +29014,15 @@
       "growth": 85,
       "innovation": 83,
       "community": 72
-    }
+    },
+    "news": [
+      {
+        "title": "彭博把 BloombergGPT 生成式 AI 深度嵌入终端",
+        "date": "2026",
+        "category": "产品",
+        "summary": "彭博基于金融语料自研 BloombergGPT,将新闻摘要、财报问答、数据查询等生成式 AI 能力嵌进彭博终端,以「独家数据+场景+分发」护城河做金融专用 AI。"
+      }
+    ]
   },
   "blackrock": {
     "id": "blackrock",
@@ -26870,7 +29118,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "贝莱德联手微软、英伟达设 AI 基建基金,收购数据中心电力资产",
+        "date": "2026",
+        "category": "重大",
+        "summary": "全球最大资管贝莱德牵头设立大规模 AI 基础设施投资基金,与微软、MGX、英伟达等合作,并收购数据中心与电力资产,为 AI 时代的算力与能源提供长期资本。"
+      }
+    ]
   },
   "duolingo": {
     "id": "duolingo",
@@ -26969,7 +29225,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 71
-    }
+    },
+    "news": [
+      {
+        "title": "多邻国确立「AI-first」战略,用 AI 批量生成课程扩品类",
+        "date": "2025",
+        "category": "业务",
+        "summary": "2025 年多邻国明确 AI-first 战略,用 AI 大规模、低成本地生成课程内容与练习,加速向数学、音乐等品类扩张;Duolingo Max 订阅以 GPT 提供 AI 对话练习与逐题讲解。"
+      }
+    ]
   },
   "speak": {
     "id": "speak",
@@ -27034,6 +29298,14 @@
         "name": "Connor Zwick",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "news": [
+      {
+        "title": "Speak AI 口语陪练在韩日市场登顶,估值快速攀升",
+        "date": "2026",
+        "category": "进展",
+        "summary": "Speak 用语音识别+大模型让学习者与 AI 老师开放式对话、实时纠正发音与语法,在韩国、日本等英语学习旺盛市场做到头部,作为 OpenAI 创业基金被投公司,商业化在 AI 教育应用中领先。"
+      }
     ]
   },
   "khanacademy": {
@@ -27096,6 +29368,14 @@
       {
         "name": "Salman Khan (萨尔曼·可汗)",
         "title": "创始人兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "可汗学院携手 OpenAI 推 AI 私教 Khanmigo,引导式教学落地",
+        "date": "2026",
+        "category": "落地",
+        "summary": "基于 GPT 打造的 Khanmigo 不直接给答案,而是像好老师一样提问引导学生逐步思考,同时为教师减负备课、出题与批改,让「一对一因材施教」有望人人可及。"
       }
     ]
   },
@@ -27161,6 +29441,14 @@
       {
         "name": "Sean White",
         "title": "CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "核心团队被微软收编后,Inflection 转向企业 AI 服务",
+        "date": "2024",
+        "category": "重大",
+        "summary": "2024 年微软将 Inflection 核心团队(含创始人 Suleyman)整体收编并支付授权费,Suleyman 出任微软 AI 负责人;此后公司从消费级助手 Pi 转向可授权、可私有部署的企业 AI 模型服务。"
       }
     ]
   },
@@ -27231,6 +29519,14 @@
     "suppliers": [
       "openai",
       "deepgram"
+    ],
+    "news": [
+      {
+        "title": "Retell AI 语音智能体平台加速客服外呼场景商用",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Retell 将语音识别、大模型、语音合成、电话通信与低延迟处理封装成易用 API,开发者可快速上线客服、预约、外呼提醒等语音 Agent,并处理好实时打断与转人工等关键体验。"
+      }
     ]
   },
   "vapi": {
@@ -27299,6 +29595,14 @@
     "suppliers": [
       "openai",
       "deepgram"
+    ],
+    "news": [
+      {
+        "title": "Vapi 封装语音 AI 底层能力,让电话智能体人人可开发",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Vapi 把语音识别、大模型、语音合成、电话通信与低延迟处理封装为简单 API 与平台,开发者只需配置编排即可做出客服、预约、外呼等语音应用,成为语音 Agent 开发基础设施代表。"
+      }
     ]
   },
   "crowdstrike": {
@@ -27502,7 +29806,15 @@
       "growth": 68,
       "innovation": 84,
       "community": 51
-    }
+    },
+    "news": [
+      {
+        "title": "Palo Alto 推 XSIAM 自主响应,录得史上最佳季度",
+        "date": "2026-03",
+        "category": "财报",
+        "summary": "2026 年 3 月 Palo Alto Networks 推出 XSIAM 自主响应,将 SOC 的检测—分析—处置尽量自动化以应对 AI 时代攻击;凭平台化与 AI 化,公司 2026 年录得史上最佳季度、股价大涨。"
+      }
+    ]
   },
   "sentinelone": {
     "id": "sentinelone",
@@ -27590,7 +29902,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "SentinelOne Singularity 平台以端侧 AI 实现自主防御",
+        "date": "2026",
+        "category": "研发",
+        "summary": "Singularity 平台把机器学习模型直接部署到每个端点,实时检测异常、拦截攻击,甚至自动回滚被勒索软件加密的文件,尽量不依赖人工与云端连接就地响应,践行「用 AI 对抗 AI」。"
+      }
+    ]
   },
   "zscaler": {
     "id": "zscaler",
@@ -27678,7 +29998,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "Zscaler 用 AI 强化威胁检测,管控企业员工 AI 应用风险",
+        "date": "2026",
+        "category": "业务",
+        "summary": "零信任云安全龙头 Zscaler 在其 SSE/SASE 平台上引入 AI 做威胁检测,并帮助企业管控员工使用 AI 应用带来的数据安全风险,巩固「云化+AI 化需要新安全底座」的定位。"
+      }
+    ]
   },
   "wiz": {
     "id": "wiz",
@@ -27745,7 +30073,15 @@
       "growth": 86,
       "innovation": 85,
       "community": 51
-    }
+    },
+    "news": [
+      {
+        "title": "谷歌约 320 亿美元收购 Wiz,创网络安全史上最大交易",
+        "date": "2025",
+        "category": "重大",
+        "summary": "2025 年谷歌宣布以约 320 亿美元收购成立仅五年的云安全公司 Wiz,创谷歌史上最大收购;Wiz 的 CNAPP 平台可扫描整个云环境并按优先级呈现最危险的可利用风险,ARR 增速为史上最快之一。"
+      }
+    ]
   },
   "planet": {
     "id": "planet",
@@ -27828,7 +30164,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 57
-    }
+    },
+    "news": [
+      {
+        "title": "Planet Labs 以「每日拍遍地球+AI 解译」承接卫星情报需求",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Planet 运营 Dove、SkySat 等小卫星星座每天为全球成像,并用 AI 自动识别船只、农田长势、灾害与军事动向等变化;在地缘冲突背景下,政府、国防与金融客户的卫星情报需求持续上升。"
+      }
+    ]
   },
   "blacksky": {
     "id": "blacksky",
@@ -27910,7 +30254,15 @@
       "growth": 61,
       "innovation": 74,
       "community": 56
-    }
+    },
+    "news": [
+      {
+        "title": "BlackSky 高频重访+AI 分析,压缩近实时情报交付时间",
+        "date": "2026",
+        "category": "进展",
+        "summary": "BlackSky 低轨星座对全球热点区域高频重访,用 AI 自动识别追踪船只、飞机与设施变化,把「拍到」与「分析出」的间隔压到最短,为政府与国防情报客户提供近实时地理情报警报。"
+      }
+    ]
   },
   "smci": {
     "id": "smci",
@@ -28014,6 +30366,14 @@
     },
     "partners": [
       "nvda"
+    ],
+    "news": [
+      {
+        "title": "液冷整机柜出货领先,业绩随 AI 建设波动",
+        "date": "2026",
+        "category": "业务",
+        "summary": "DLC 液冷方案与快速上市能力保持差异化;经历会计风波后重回增长轨道,与英伟达新平台同步发布。"
+      }
     ]
   },
   "dell": {
@@ -28122,6 +30482,14 @@
     },
     "partners": [
       "nvda"
+    ],
+    "news": [
+      {
+        "title": "AI 服务器积压订单屡创新高,企业 AI 落地主力",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 服务器订单积压创纪录,ISG 基础设施部门高增长;与英伟达共推「AI 工厂」方案,AI PC 换机潮蓄势。"
+      }
     ]
   },
   "hpe": {
@@ -28221,6 +30589,14 @@
     },
     "partners": [
       "nvda"
+    ],
+    "news": [
+      {
+        "title": "完成收购瞻博网络,AI 网络+超算双线强化",
+        "date": "2025",
+        "category": "重大",
+        "summary": "约 140 亿美元收购 Juniper 完成,网络成为利润核心;HPC/Cray 承接主权 AI 与超算大单。"
+      }
     ]
   },
   "fii": {
@@ -28325,7 +30701,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "AI 服务器代工量创纪录,GB300 量产主力",
+        "date": "2026",
+        "category": "业务",
+        "summary": "英伟达新一代整机柜主力代工厂,云服务设备收入占比过半;上半年营收、净利均创历史新高。"
+      }
+    ]
   },
   "quantacomputer": {
     "id": "quantacomputer",
@@ -28425,7 +30809,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "AI 服务器营收占比过半,业绩创历史新高",
+        "date": "2026",
+        "category": "业务",
+        "summary": "为北美四大云厂代工 AI 服务器,GB200/GB300 出货爬坡;笔电代工龙头完成向 AI 硬件的重心转移。"
+      }
+    ]
   },
   "wiwynn": {
     "id": "wiwynn",
@@ -28525,7 +30917,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "超大规模云厂 AI 订单爆发,营收翻倍增长",
+        "date": "2026",
+        "category": "业务",
+        "summary": "深度绑定微软/Meta 的 AI 服务器定制需求,整机柜(rack-level)交付能力成核心竞争力,业绩连创新高。"
+      }
+    ]
   },
   "amphenol": {
     "id": "amphenol",
@@ -28619,7 +31019,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 58
-    }
+    },
+    "news": [
+      {
+        "title": "AI 机柜高速连接需求爆发,业绩持续超预期",
+        "date": "2026",
+        "category": "业务",
+        "summary": "GB200/GB300 整机柜大量采用其高速铜互联与连接器,IT 数据通信部门增速创纪录;并购整合持续。"
+      }
+    ]
   },
   "te": {
     "id": "te",
@@ -28707,7 +31115,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 数据中心连接业务高增长,工业与汽车稳健",
+        "date": "2026",
+        "category": "业务",
+        "summary": "高速连接器与线缆组件受益 AI 服务器放量;汽车电动化与工业自动化提供基本盘。"
+      }
+    ]
   },
   "wus": {
     "id": "wus",
@@ -28796,7 +31212,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 服务器 PCB supercycle,业绩连创新高",
+        "date": "2026",
+        "category": "业务",
+        "summary": "英伟达平台高多层高速板核心供应商,800G 交换机板同步放量;泰国基地扩产承接海外需求。"
+      }
+    ]
   },
   "victory": {
     "id": "victory",
@@ -28883,7 +31307,15 @@
       "growth": 63,
       "innovation": 77,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "英伟达链 PCB 黑马,产能满载业绩暴增",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 服务器/显卡高端 PCB 放量,惠州/泰国扩产;股价与业绩随 AI 硬件周期大幅上行。"
+      }
+    ]
   },
   "ttm": {
     "id": "ttm",
@@ -28970,7 +31402,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "AI 与国防双轮驱动,高端 PCB 订单饱满",
+        "date": "2026",
+        "category": "业务",
+        "summary": "北美最大 PCB 厂受益 AI 服务器高多层板需求与国防电子景气,马来西亚/纽约新产能爬坡。"
+      }
+    ]
   },
   "delta": {
     "id": "delta",
@@ -29075,7 +31515,15 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "AI 电源与液冷双引擎,数据中心业务爆发",
+        "date": "2026",
+        "category": "业务",
+        "summary": "服务器电源、机柜电源架构(含 800V HVDC)与液冷方案全面放量,AI 相关营收占比持续提升,业绩连创新高。"
+      }
+    ]
   },
   "mpwr": {
     "id": "mpwr",
@@ -29170,7 +31618,15 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "英伟达平台电源方案放量,数据中心业务领跑",
+        "date": "2026",
+        "category": "业务",
+        "summary": "为 Blackwell/Rubin 平台供多相电源与模块,企业数据业务成第一大板块;800V 直流供电架构打开新空间。"
+      }
+    ]
   },
   "vicor": {
     "id": "vicor",
@@ -29255,7 +31711,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "高密度电源模块卡位 GPU 供电,专利授权贡献收入",
+        "date": "2026",
+        "category": "业务",
+        "summary": "垂直供电(VPD)方案切入 AI 加速器,把电源模块贴到 GPU 封装旁;NBM 模块随 800V 架构迭代。"
+      }
+    ]
   },
   "manus": {
     "id": "manus",
@@ -29335,6 +31799,14 @@
     ],
     "suppliers": [
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Meta 收购 Manus 遭发改委叫停,6 月正式终止交易",
+        "date": "2026-06",
+        "category": "重大",
+        "summary": "Meta 曾计划以 20–30 亿美元收购通用智能体公司 Manus(蝴蝶效应),2026 年 4 月被中国发改委叫停,Meta 于 6 月正式终止交易;Manus 2026 年营收约 1.25 亿美元,增长迅速。"
+      }
     ]
   },
   "genspark": {
@@ -29409,6 +31881,14 @@
     "suppliers": [
       "openai",
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Genspark Super Agent 年化收入一年冲到约 2.5 亿美元",
+        "date": "2026",
+        "category": "业务",
+        "summary": "由百度等大厂背景团队创立的 Genspark 凭 Super Agent 出色的通用智能体体验,据称 ARR 一年内冲到约 2.5 亿美元,成为增长最快的 AI 应用之一,与 Manus、OpenAI Agent 同台竞技。"
+      }
     ]
   },
   "adept": {
@@ -29468,7 +31948,15 @@
       "growth": 82,
       "innovation": 77,
       "community": 69
-    }
+    },
+    "news": [
+      {
+        "title": "Adept 创始团队 2024 年被亚马逊招揽,computer use 先驱转向",
+        "date": "2024",
+        "category": "重大",
+        "summary": "由 Transformer 论文作者创立的 Adept 以 ACT-1 探索 AI 操作真实软件界面,但因技术极难、商业化慢,2024 年多位创始人与核心团队以「许可+人才」方式被亚马逊招揽,公司战略转向。"
+      }
+    ]
   },
   "sanhua": {
     "id": "sanhua",
@@ -29562,7 +32050,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 57
-    }
+    },
+    "news": [
+      {
+        "title": "三花智控布局机器人执行器,切入 Optimus 人形机器人供应链",
+        "date": "2026",
+        "category": "进展",
+        "summary": "全球热管理龙头三花智控把精密阀件、泵与执行器的设计制造能力迁移到机器人机电执行器,切入以特斯拉 Optimus 为代表的人形机器人供应链,被视为最受关注的国产执行器潜在供应商之一。"
+      }
+    ]
   },
   "topu": {
     "id": "topu",
@@ -29649,7 +32145,15 @@
       "growth": 62,
       "innovation": 76,
       "community": 57
-    }
+    },
+    "news": [
+      {
+        "title": "拓普集团发力直线与旋转执行器,进军人形机器人供应链",
+        "date": "2026",
+        "category": "进展",
+        "summary": "拓普集团将造车沉淀的机电、精密加工与规模制造能力迁移到机器人领域,积极布局直线执行器与旋转执行器,切入以特斯拉 Optimus 为代表的人形机器人供应链,成为备受关注的中国制造力量。"
+      }
+    ]
   },
   "inovance": {
     "id": "inovance",
@@ -29740,7 +32244,15 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "汇川技术凭伺服与运动控制积累,切入机器人核心部件",
+        "date": "2026",
+        "category": "研发",
+        "summary": "「中国的西门子/发那科」汇川技术以伺服电机+驱动+控制的核心技术为基础,面向人形机器人对高性能关节执行器的大量需求布局核心部件,是被看好的国产机器人执行器潜在供应商之一。"
+      }
+    ]
   },
   "leaderdrive": {
     "id": "leaderdrive",
@@ -29829,6 +32341,14 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "news": [
+      {
+        "title": "人形机器人量产打开需求,绿的谐波国产减速器空间大增",
+        "date": "2026",
+        "category": "业务",
+        "summary": "绿的谐波打破日本哈默纳科对谐波减速器的长期垄断,实现自主研发与规模量产;人形机器人每台需用多个谐波减速器,量产浪潮大幅打开需求空间,公司作为国产核心供应商备受关注。"
+      }
+    ]
   }
 }
