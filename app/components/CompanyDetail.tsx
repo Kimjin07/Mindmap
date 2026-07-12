@@ -10,12 +10,11 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import {
   COMPANIES, KIND_LABEL,
-  companyTagline, companyDescription, companyAiScore, hasEnglishDescription,
+  companyTagline, companyDescription, companyAiScore,
   type Company, type Lang,
 } from "../data/companies";
 import { NODES } from "../data/nodes";
 import { productsOfCompany } from "../data/players";
-import type { LiveData } from "../lib/market";
 import CompanyLogo from "./CompanyLogo";
 
 /** 该节点在世界地图上的回跳链接（定位到对应城市）。 */
@@ -87,14 +86,13 @@ function MiniChart({ data }: { data: { date: string; price: number }[] }) {
 
 export interface CompanyDetailProps {
   c: Company;
-  live?: LiveData;
   /** 抽屉模式下：点关联公司 → 在抽屉内切换，而不是跳转。 */
   onOpenCompany?: (id: string) => void;
   /** 抽屉模式下：点地图环节 → 让地图飞过去，而不是跳转。 */
   onGotoNode?: (nodeId: string) => void;
 }
 
-export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: CompanyDetailProps) {
+export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyDetailProps) {
   // 中/EN 语言切换（记忆在 localStorage，跨公司/跨页保持）。
   const [lang, setLang] = useState<Lang>("zh");
   useEffect(() => {
@@ -145,7 +143,7 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
     USD: "$", HKD: "HK$", CNY: "¥", TWD: "NT$", JPY: "¥", KRW: "₩", EUR: "€", GBP: "£", AUD: "A$",
   };
   const curSym = CUR_SYM[liveQuote?.currency ?? "USD"] ?? "$";
-  const isLive = !!(liveQuote || live?.live);
+  const isLive = !!liveQuote;
 
   const chainIds = new Set<string>();
   Object.values(NODES).forEach((n) => {
@@ -154,32 +152,23 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
   productsOfCompany(c.id).forEach((s) => chainIds.add(s.cityId));
   const chainNodes = [...chainIds].map((nid) => NODES[nid]).filter(Boolean);
 
-  const marketCapB = liveQuote?.marketCapB ?? live?.marketCapB ?? c.stock?.marketCapB;
-  const financials = live?.financials && live.financials.length ? live.financials : c.financials;
-  const finLive = !!(live?.financials && live.financials.length);
-  const price = liveQuote?.price ?? live?.price ?? c.stock?.sharePrice;
-  const peRatio = live?.peRatio ?? c.stock?.peRatio;
-  const changePctNum = liveQuote?.changePct ?? live?.changePct;
+  const marketCapB = liveQuote?.marketCapB ?? c.stock?.marketCapB;
+  const financials = c.financials;
+  const price = liveQuote?.price ?? c.stock?.sharePrice;
+  const peRatio = c.stock?.peRatio;
+  const changePctNum = liveQuote?.changePct;
   const dayChangePct =
     changePctNum != null
       ? `${changePctNum > 0 ? "+" : ""}${changePctNum.toFixed(2)}%`
       : c.stock?.dayChangePct;
-  const week52Low = liveQuote?.week52Low ?? live?.week52Low ?? c.stock?.week52Low;
-  const week52High = liveQuote?.week52High ?? live?.week52High ?? c.stock?.week52High;
-  const employees = live?.employees ?? c.employees;
-  const leadership = (() => {
-    const base = c.leadership ?? [];
-    if (live?.ceo && !base.some((e) => e.name === live.ceo)) {
-      return [{ name: live.ceo, title: "CEO" }, ...base];
-    }
-    return base;
-  })();
+  const week52Low = liveQuote?.week52Low ?? c.stock?.week52Low;
+  const week52High = liveQuote?.week52High ?? c.stock?.week52High;
+  const employees = c.employees;
+  const leadership = c.leadership ?? [];
 
   const tagline = companyTagline(c, lang);
   const description = companyDescription(c, lang);
-  // EN 模式下若无人工英文简介，则回退到 FMP 实时英文资料（多为英文），再退到中文。
-  const aboutText =
-    en && !hasEnglishDescription(c) && live?.description ? live.description : description;
+  const aboutText = description;
   const aiScore = companyAiScore(c);
 
   const fallbackProducts = productsOfCompany(c.id);
@@ -317,7 +306,6 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
           {c.hq && <span>🏛 {c.hq}</span>}
           {c.foundedYear && <span>📅 成立于 {c.foundedYear}</span>}
           {employees && <span>👥 {employees} 员工</span>}
-          {(live?.sector || live?.industry) && <span>🏷 {live.industry || live.sector}</span>}
         </div>
 
         {linkNav.length > 0 && (
@@ -339,17 +327,6 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
             <p className="company-business">{aboutText}</p>
           </section>
 
-          {/* FMP 实时英文公司简介：作为补充资料常驻。仅当英文模式已经把它当作主简介时才隐藏，避免重复。 */}
-          {live?.description && !(en && !hasEnglishDescription(c)) && (
-            <section className="company-card">
-              <h2>
-                {en ? "Company profile" : "公司简介"}
-                <span className="live-badge">● {en ? "live data" : "实时资料"}</span>
-              </h2>
-              <p className="company-business">{live.description}</p>
-            </section>
-          )}
-
           {showMarket && (
             <section className="company-card">
               <h2>
@@ -368,7 +345,7 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
               </h2>
               <div className="cp-stat-grid">
                 <div className="cp-stat">
-                  <span className="stat-k">市值{live?.marketCapB != null ? "" : "（约值）"}</span>
+                  <span className="stat-k">市值{liveQuote?.marketCapB != null ? "" : "（约值）"}</span>
                   <span className="stat-v">{fmtCap(marketCapB)}</span>
                 </div>
                 <div className="cp-stat">
@@ -417,7 +394,7 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
                 </div>
               </div>
               {(() => {
-                const hist = liveQuote?.history ?? live?.history;
+                const hist = liveQuote?.history;
                 return hist && hist.length >= 2 ? <MiniChart data={hist} /> : null;
               })()}
             </section>
@@ -470,8 +447,7 @@ export default function CompanyDetail({ c, live, onOpenCompany, onGotoNode }: Co
           {financials && financials.length > 0 && (
             <section className="company-card">
               <h2>
-                {finLive ? "财务（实时财报）" : "财务（近年约值）"}
-                {finLive && <span className="live-badge">● 实时</span>}
+                {en ? "Financials" : "财务（近年数据）"}
               </h2>
               <table className="fin-table">
                 <thead>
