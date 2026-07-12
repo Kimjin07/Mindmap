@@ -164,6 +164,22 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
   const [panelCo, setPanelCo] = useState<string | null>(null);
   const [arrived, setArrived] = useState<string | null>(null);
   const [smooth, setSmooth] = useState(false);
+  // 右侧 AI 快讯面板(Google News 聚合,提及的公司可点击跳转)
+  type FeedItem = { title: string; link: string; source?: string; date?: string; companies: { id: string; name: string }[] };
+  const [newsOpen, setNewsOpen] = useState(false);
+  const [feed, setFeed] = useState<FeedItem[] | null>(null);
+  useEffect(() => {
+    if (!newsOpen || feed) return;
+    let stopped = false;
+    (async () => {
+      try {
+        const r = await fetch("/api/news/feed");
+        const j = await r.json();
+        if (!stopped && Array.isArray(j?.items)) setFeed(j.items);
+      } catch {}
+    })();
+    return () => { stopped = true; };
+  }, [newsOpen, feed]);
   const ready = size.w > 0;
 
   const originColRef = useRef<HTMLDivElement>(null);
@@ -743,6 +759,51 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
               onOpenCompany={openCompanyPanel}
               onGotoNode={gotoNode}
             />
+          </div>
+        </aside>
+      )}
+
+      {/* 右侧 AI 快讯面板(可收合;提及的公司可点击打开左侧详情) */}
+      <button
+        className={`atlas-news-tab${newsOpen ? " open" : ""}`}
+        onClick={() => setNewsOpen(!newsOpen)}
+        aria-label="AI 快讯"
+      >
+        {newsOpen ? "收起 ▸" : "◂ AI 快讯"}
+      </button>
+      {newsOpen && (
+        <aside className="atlas-news" onPointerDown={(e) => e.stopPropagation()}>
+          <div className="atlas-news-head">
+            <h3>AI 快讯 <span className="live-badge pulse">● 实时</span></h3>
+            <span className="atlas-news-sub">Google News 聚合 · 每 30 分钟刷新</span>
+          </div>
+          <div className="atlas-news-body">
+            {!feed && <p className="atlas-news-loading">加载中…</p>}
+            {feed && feed.length === 0 && <p className="atlas-news-loading">暂时没有拉到快讯</p>}
+            {feed && feed.map((n, i) => (
+              <div key={i} className="atlas-news-item">
+                <div className="atlas-news-meta">
+                  {n.date && <span className="atlas-news-date">{n.date}</span>}
+                  {n.source && <span className="atlas-news-src">{n.source}</span>}
+                </div>
+                <a className="atlas-news-title" href={n.link} target="_blank" rel="noreferrer">
+                  {n.title} ↗
+                </a>
+                {n.companies.length > 0 && (
+                  <div className="atlas-news-cos">
+                    {n.companies.map((co) => (
+                      <button
+                        key={co.id}
+                        className="atlas-news-co"
+                        onClick={() => openCompanyPanel(co.id)}
+                      >
+                        {co.name}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         </aside>
       )}
