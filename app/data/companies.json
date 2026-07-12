@@ -625,7 +625,7 @@
     },
     "news": [
       {
-        "title": "推出首个自研专有大模型 Muse Spark;2026 AI 资本开支 1150–1350 亿美元",
+        "title": "推出首个专有大模型 Muse Spark,AI 资本开支近乎翻倍",
         "date": "2026-04",
         "category": "产品",
         "summary": "由从 Scale AI 加入的首席 AI 官 Alexandr Wang 领衔的 Meta 超级智能实验室打造,是 Meta 首次转向专有基础模型(而非严格开源);2026 年 AI 资本开支达 1150–1350 亿美元,近去年两倍。",
@@ -739,7 +739,7 @@
     },
     "news": [
       {
-        "title": "OpenAI 入股约 10% 并承诺采购 6GW GPU;MI400 系列 2026 下半年量产",
+        "title": "OpenAI 入股约 10% 锁定 6GW GPU;MI400 下半年量产",
         "date": "2026",
         "category": "重大",
         "summary": "2025 年底 OpenAI 取得 AMD 至多约 10% 股份以锁定 6GW GPU 供应(潜在采购额约 2000 亿美元);新一代 Instinct MI400(432GB HBM4、算力较 MI350 翻倍)将于 2026 下半年量产。",
@@ -955,7 +955,7 @@
     ],
     "news": [
       {
-        "title": "AI 芯片营收 Q1 FY26 达 84 亿美元(+106%);为谷歌/Meta/OpenAI 设计定制 XPU",
+        "title": "AI 芯片营收单季 84 亿美元(+106%),定制 XPU 客户扩容",
         "date": "2026",
         "category": "业务",
         "summary": "定制 AI 加速芯片(XPU)客户涵盖谷歌、Meta、OpenAI、Anthropic、字节、xAI、苹果;与谷歌的 TPU 及网络合作延长至 2031 年,Anthropic 承诺 2026 年 1GW、2027 年 3GW 的 TPU。",
@@ -1552,7 +1552,7 @@
     ],
     "news": [
       {
-        "title": "Q1 2026 营收 16.3 亿美元(+85%),上调全年指引至 76.6 亿美元;拿下陆军 NGC2",
+        "title": "Q1 营收 +85% 上调全年指引,拿下陆军 NGC2 大单",
         "date": "2026",
         "category": "财报",
         "summary": "AI 平台(AIP)在政府与商业客户放量,美国商业收入 +133%;美国陆军选用 Palantir Foundry 作为头号现代化项目 NGC2 的云数据层;并与英伟达合作在主权安全环境运行 AI/Nemotron 模型。",
@@ -1853,7 +1853,7 @@
     },
     "news": [
       {
-        "title": "Q1 2026 营收 26.5 亿美元(+30%),上调全年指引;订单积压超 150 亿美元",
+        "title": "Q1 营收 +30% 上调指引,订单积压超 150 亿美元",
         "date": "2026",
         "category": "财报",
         "summary": "AI 数据中心对供电与散热(尤其液冷)需求强劲,美洲区增长 53%;全年营收指引上调至 135–140 亿美元;并收购 Strategic Thermal Labs 深化液冷能力。",
@@ -2790,7 +2790,7 @@
     },
     "news": [
       {
-        "title": "Recursion 合并 AI 药企 Exscientia，做大「AI+自动化实验室」制药平台",
+        "title": "合并 Exscientia,做大「AI+自动化实验室」制药平台",
         "date": "2024",
         "category": "重大",
         "summary": "Recursion 于 2024 年合并 AI 药企 Exscientia，扩大用机器人实验加 AI 挖掘生物图谱的药物发现平台，并与英伟达深度合作用 GPU 训练生物模型，管线最终仍需临床数据验证。"
@@ -3962,7 +3962,7 @@
     ],
     "news": [
       {
-        "title": "Q1 2026 创历史最佳:营收 355 亿美元(+198%)、营业利润率 72%;HBM4 率先量产",
+        "title": "Q1 创历史最佳:营收 +198%、HBM4 率先量产",
         "date": "2026",
         "category": "财报",
         "summary": "AI 对 HBM 需求爆发,单季营收首破 50 万亿韩元;2 月率先量产 HBM4(领先对手),6 月送样 12 层 HBM4E;HBM 市占约 57%,产能已售罄至 2026 年;并启动约 280 亿美元纳斯达克上市。",
@@ -8009,7 +8009,7 @@
     },
     "news": [
       {
-        "title": "全电动 Atlas 量产版 CES 发布并投产，2026 年产能已被现代与 DeepMind 全部认购",
+        "title": "全电动 Atlas 量产,2026 产能被现代与 DeepMind 认购",
         "date": "2026-01",
         "category": "重大",
         "summary": "波士顿动力于 2026 年 1 月 CES 发布全电动 Atlas 量产版并在波士顿总部投产，2026 年产能全部认购给现代 RMAC 与谷歌 DeepMind，并接入 Gemini Robotics 模型补齐机器人「大脑」。"
@@ -11047,7 +11047,7 @@
     ],
     "news": [
       {
-        "title": "完成 2026 最大科技 IPO:募资 55.5 亿美元、估值约 560 亿美元;OpenAI 签 750MW 推理大单",
+        "title": "完成 2026 最大科技 IPO,OpenAI 签 750MW 推理大单",
         "date": "2026-05",
         "category": "重大",
         "summary": "5 月登陆纳斯达克(CBRS),定价高于区间、首日近乎翻倍;主打推理而非训练;1 月与 OpenAI 签多年 750MW(可扩至 2GW)推理产能协议(合约价值超 100 亿美元),并与 AWS 合作。",
@@ -12209,7 +12209,7 @@
     ],
     "news": [
       {
-        "title": "Q4 FY26 营收 12.8 亿美元(+30%);Cortex AI 年化收入约 1 亿美元",
+        "title": "Q4 营收 +30%,Cortex AI 年化收入约 1 亿美元",
         "date": "2026",
         "category": "财报",
         "summary": "AI 成强劲顺风,Snowflake Intelligence 服务超 9100 个账户;779 家客户年消费超百万美元、净收入留存 125%;并宣布向亚马逊采购 60 亿美元算力。",
@@ -13190,7 +13190,7 @@
     ],
     "news": [
       {
-        "title": "融资超 10 亿美元、估值约 250 亿;Windsurf 更名 Devin Desktop",
+        "title": "融资超 10 亿、估值约 250 亿;Windsurf 更名 Devin Desktop",
         "date": "2026-05",
         "category": "重大",
         "summary": "收购 Windsurf 后 ARR 翻倍、5 月达 4.92 亿美元;2026 年 6 月 Windsurf 品牌整体更名为 Devin Desktop,抢占企业级 AI 编程市场。",
@@ -20632,7 +20632,7 @@
     },
     "news": [
       {
-        "title": "完成 50 亿美元融资、估值翻倍至 610 亿美元;拿下陆军最高 200 亿美元 IDIQ 合同",
+        "title": "融资 50 亿估值翻倍至 610 亿,获陆军 200 亿大单",
         "date": "2026-05",
         "category": "重大",
         "summary": "由 Thrive、a16z 领投;2025 营收 22 亿美元(翻倍)、2026 预计 43 亿;3 月获陆军 10 年、上限 20 亿美元的 Lattice 企业合同(整合 120+ 采购项目);俄亥俄 Arsenal-1 工厂投产。",
@@ -24367,7 +24367,7 @@
     },
     "news": [
       {
-        "title": "Mira Murati 的 Thinking Machines 完成 20 亿美元史上最大种子轮",
+        "title": "Mira Murati 实验室推出 Tinker 微调 API",
         "date": "2025-07",
         "category": "融资",
         "summary": "前 OpenAI CTO 创立的 Thinking Machines Lab 于 2025 年 7 月完成 20 亿美元种子轮、估值 120 亿美元,创 AI 史上最大种子融资纪录,首个产品为微调开源模型的 API Tinker。"
@@ -24768,7 +24768,7 @@
     ],
     "news": [
       {
-        "title": "Positron 专用 ASIC 瞄准 Transformer 推理,主打每瓦性能超 GPU",
+        "title": "专攻 Transformer 推理能效,挑战 GPU 每瓦性能",
         "date": "2026",
         "category": "研发",
         "summary": "随着推理算力与电费快速超过训练成为最大持续成本,Positron 打造专为 Transformer 推理优化的专用芯片,在同样任务上追求比通用 GPU 更高的每瓦与每美元性能,帮数据中心省电省钱。"
@@ -27505,7 +27505,7 @@
     },
     "news": [
       {
-        "title": "AI 云爆发:剩余合同额(RPO)达 6380 亿美元(+363%);FY27 营收指引 900 亿美元",
+        "title": "RPO 达 6380 亿美元(+363%),FY27 指引 900 亿",
         "date": "2026",
         "category": "财报",
         "summary": "FY26 OCI 营收 +93%;Stargate 旗舰 Abilene 园区 1.2GW 上线、整体扩至约 7GW、投资超 4000 亿美元;为支撑 AI 基建,FY26 资本开支激增、自由现金流转负。",
@@ -27709,7 +27709,7 @@
     },
     "news": [
       {
-        "title": "The Trade Desk 以 Kokai AI 平台重仓 CTV，主推 UID2 应对 Cookie 消亡",
+        "title": "程序化广告龙头以 AI(Kokai)优化投放决策",
         "date": "2026",
         "category": "产品",
         "summary": "Kokai 平台用 AI 优化每一次竞价、定向与跨渠道分配，并主推隐私友好的 UID2 身份方案。TTD 重仓增长最快的联网电视，但也面临谷歌、亚马逊竞争与自身增长波动压力。"
@@ -29703,7 +29703,7 @@
     },
     "news": [
       {
-        "title": "FY26 净新增 ARR 破 10 亿美元,总 ARR 达 52.5 亿(+24%);Charlotte AI 使用量增 6 倍",
+        "title": "ARR 达 52.5 亿(+24%),Charlotte AI 使用量增 6 倍",
         "date": "2026",
         "category": "财报",
         "summary": "Charlotte AI 相关 ARR 翻三倍、获 FedRAMP High 认证;推出与 AWS/英伟达/OpenAI 共建的无代码安全智能体平台 AgentWorks;并发起含 OpenAI、Anthropic 的前沿 AI 风险治理联盟 QuiltWorks。",
