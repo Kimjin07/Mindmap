@@ -837,6 +837,13 @@
     },
     "news": [
       {
+        "title": "AMD 确认 EPYC Venice 7 月 22 日发布，256 核 TSMC 2nm",
+        "date": "2026-07-11",
+        "category": "产品",
+        "summary": "AMD 确认第六代 EPYC Venice 将于 7 月 22–23 日发布，采台积电 2nm 工艺，最高 256 核，性能较 Zen 5 提升逾 70%，主攻 AI 数据中心。",
+        "url": "https://www.techpowerup.com/350648/amd-confirms-epyc-venice-zen-6-cpus-launch-on-july-22-23-at-advancing-ai-event"
+      },
+      {
         "title": "Q1 营收 103 亿美元同比 +38%,数据中心 58 亿创纪录",
         "date": "2026-05",
         "category": "财报",
