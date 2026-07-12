@@ -230,6 +230,15 @@
       "搜索",
       "TPU",
       "云计算"
+    ],
+    "news": [
+      {
+        "title": "Gemini 3.5 Flash 发布;旗舰 3.5 Pro 推迟至 7 月重构",
+        "date": "2026-07",
+        "category": "产品",
+        "summary": "Gemini 3.5 Flash 正式版主打持续的前沿智能体与编码能力、约百万 token 上下文;旗舰 3.5 Pro 因架构从头重构推迟至 7 月 17 日,引入 200 万 token 上下文与 Deep Think 推理层。",
+        "url": "https://ai.google.dev/gemini-api/docs/changelog"
+      }
     ]
   },
   "nvda": {
@@ -347,22 +356,11 @@
     ],
     "news": [
       {
-        "title": "Blackwell 平台全面售罄",
+        "title": "Q3 FY2026 数据中心营收创纪录,Blackwell「供不应求」",
         "date": "2026",
-        "category": "产品",
-        "summary": "新一代 GPU 需求超预期，产能排满。"
-      },
-      {
-        "title": "英伟达与沙特达成 AI 算力合作",
-        "date": "2026",
-        "category": "合作",
-        "summary": "向中东大型 AI 数据中心供应算力。"
-      },
-      {
-        "title": "市值站上 5 万亿美元",
-        "date": "2026",
-        "category": "市场",
-        "summary": "成为全球市值最高的公司之一。"
+        "category": "财报",
+        "summary": "黄仁勋称 Blackwell 销量「爆表」、云端 GPU 售罄;Blackwell Ultra 相比 Hopper 推理性能最高提升 50 倍、成本降 35 倍。CFO 称 Blackwell 与下一代 Rubin 收入能见度约 5000 亿美元。",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2026"
       }
     ],
     "links": {
@@ -1104,7 +1102,16 @@
       "growth": 76,
       "innovation": 96,
       "community": 55
-    }
+    },
+    "news": [
+      {
+        "title": "2nm 产能 2026 年全数订满,毛利率近 70%,先进制程涨价",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 需求强劲,TSMC 2026 年 2nm(N2)产能全部订满,苹果、英伟达拿下主要份额;二季度毛利率有望近 70%,全年营收增速上调至 30% 以上,并对 7nm 及以下先进制程涨价 5–10%。",
+        "url": "https://www.trendforce.com/news/2026/06/29/news-tsmcs-2q-margins-reportedly-near-70-as-ai-demand-strengthens-3q-revenue-seen-growing-over-10-sequentially/"
+      }
+    ]
   },
   "adbe": {
     "id": "adbe",
@@ -6945,7 +6952,23 @@
     "links": {
       "developer": "https://platform.openai.com/docs",
       "x": "https://x.com/OpenAI"
-    }
+    },
+    "news": [
+      {
+        "title": "完成 1220 亿美元融资,估值 8520 亿美元",
+        "date": "2026",
+        "category": "融资",
+        "summary": "由亚马逊、英伟达、软银领投,微软继续参与,a16z 等联合领投。企业收入已占总营收 40% 以上。",
+        "url": "https://openai.com/index/accelerating-the-next-phase-ai/"
+      },
+      {
+        "title": "GPT-5.6 系列公开发布,推出 GPT-Live 语音模型",
+        "date": "2026-07",
+        "category": "产品",
+        "summary": "GPT-5.6 Sol/Terra/Luna 公开发布(此前应美国政府要求仅限受信伙伴,Sol 在生物/化学/网络安全上最强);GPT-Live 可同时听与说,对话更自然。",
+        "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html"
+      }
+    ]
   },
   "anthropic": {
     "id": "anthropic",
@@ -7051,7 +7074,23 @@
     "links": {
       "developer": "https://docs.anthropic.com",
       "x": "https://x.com/AnthropicAI"
-    }
+    },
+    "news": [
+      {
+        "title": "完成 650 亿美元 H 轮,估值 9650 亿美元,超越 OpenAI",
+        "date": "2026-05",
+        "category": "融资",
+        "summary": "由 Altimeter、Dragoneer、Greenoaks、红杉领投,成为全球估值最高的 AI 创业公司;年化营收突破 470 亿美元。",
+        "url": "https://www.anthropic.com/news/series-h"
+      },
+      {
+        "title": "发布 Claude Opus 4.8",
+        "date": "2026",
+        "category": "产品",
+        "summary": "在智能体任务、高级编码、诚实与自我纠错上能力增强;Claude Code 年化营收超 25 亿美元,估计全球 4% 的 GitHub 公开提交由其编写。",
+        "url": "https://www.anthropic.com/news/series-h"
+      }
+    ]
   },
   "xai": {
     "id": "xai",
@@ -7137,6 +7176,22 @@
       "a16z",
       "Sequoia",
       "Kingdom Holding"
+    ],
+    "news": [
+      {
+        "title": "被 SpaceX 收购、更名 SpaceXAI,完成 200 亿美元 E 轮",
+        "date": "2026",
+        "category": "重大",
+        "summary": "2026 年 2 月 SpaceX 以全股票收购 xAI(xAI 估值 2500 亿美元),7 月更名 SpaceXAI;E 轮融资 200 亿美元(英伟达、卡塔尔主权基金、MGX 等参投),用于扩建 Colossus 与训练 Grok 5。",
+        "url": "https://x.ai/news"
+      },
+      {
+        "title": "Colossus 2 成全球首个吉瓦级训练集群;Grok 4.3 发布",
+        "date": "2026",
+        "category": "算力",
+        "summary": "Colossus 2 上线为全球首个吉瓦级 AI 训练集群,4 月升级至 1.5GW;Colossus 1(约 22 万张英伟达 GPU)租给对手 Anthropic。旗舰 Grok 4.3 支持原生视频输入、百万 token 上下文,Grok 5 训练中。",
+        "url": "https://x.ai/news"
+      }
     ]
   },
   "deepseek": {
@@ -7216,7 +7271,16 @@
       "growth": 88,
       "innovation": 93,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "发布开源 DeepSeek-V4(Pro/Flash),R2 仍未面世",
+        "date": "2026-04",
+        "category": "产品",
+        "summary": "2026 年 4 月发布开源 V4:V4-Pro 为 1.6 万亿参数 MoE(激活 490 亿)、百万 token 上下文,支持思考/非思考双模式;备受期待的 R2 推理模型因梁文锋对性能不满,仍未正式发布。",
+        "url": "https://api-docs.deepseek.com/news/news260424/"
+      }
+    ]
   },
   "huawei": {
     "id": "huawei",
