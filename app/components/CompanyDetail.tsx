@@ -27,9 +27,19 @@ function nodeHref(nodeId: string): string {
 
 const fmtCap = (b?: number) => {
   if (b == null) return "—";
-  return b >= 1000 ? `$${(b / 1000).toFixed(2)}T` : `$${b.toFixed(0)}B`;
+  if (b >= 1000) return `$${(b / 1000).toFixed(2)}T`;
+  if (b < 1) return `$${(b * 1000).toFixed(0)}M`;
+  return `$${b.toFixed(0)}B`;
 };
-const fmtB = (v: number) => `$${v.toFixed(1)}B`;
+// 自适应量级：大额用 B/T、小于 10 亿用 M，负值(亏损)保留符号
+const fmtB = (v: number) => {
+  const sign = v < 0 ? "-" : "";
+  const a = Math.abs(v);
+  if (a === 0) return "$0";
+  if (a < 1) return `${sign}$${(a * 1000).toFixed(0)}M`;
+  if (a < 10) return `${sign}$${a.toFixed(1)}B`;
+  return `${sign}$${Math.round(a)}B`;
+};
 const fmtPrice = (p?: number) => (p == null ? "—" : `$${p.toFixed(2)}`);
 
 function Stars({ score }: { score: number }) {
