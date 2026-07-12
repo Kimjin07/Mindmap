@@ -712,6 +712,13 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
           <h3>{activeNode.name}</h3>
           <span className="atlas-card-en">{activeNode.nameEn}</span>
           <p>{activeNode.levels.l1 ?? activeNode.levels.l0}</p>
+          {activeNode.levels.l2 && (
+            <details className="atlas-card-deep">
+              <summary>深入了解 ▾</summary>
+              <p>{activeNode.levels.l2}</p>
+              {activeNode.levels.l3 && <p>{activeNode.levels.l3}</p>}
+            </details>
+          )}
           <span className="atlas-card-count">
             {activePlayers.length > 0
               ? `${activePlayers.length} 个代表性产品 · 点图钉看路线`

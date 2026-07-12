@@ -896,6 +896,30 @@ body {
   color: var(--gold-line);
 }
 
+.atlas-card-deep {
+  margin: 2px 0 8px;
+}
+.atlas-card-deep > summary {
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--gold-line);
+  list-style: none;
+  user-select: none;
+  opacity: 0.9;
+}
+.atlas-card-deep > summary::-webkit-details-marker {
+  display: none;
+}
+.atlas-card-deep[open] > summary {
+  margin-bottom: 6px;
+}
+.atlas-card-deep > p {
+  font-size: 12.5px;
+  line-height: 1.6;
+  opacity: 0.8;
+  margin: 0 0 6px;
+}
+
 /* zoom controls */
 .atlas-controls {
   position: absolute;
