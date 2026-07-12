@@ -1602,6 +1602,15 @@
     },
     "suppliers": [
       "tsm"
+    ],
+    "news": [
+      {
+        "title": "FY26 营收 82 亿美元(+42%,创纪录);定制芯片收入翻倍至 15 亿美元",
+        "date": "2026",
+        "category": "财报",
+        "summary": "数据中心营收超 60 亿美元,AI 相关的光电、定制、存储、交换全线放量;目标 2029 年定制芯片业务超 100 亿美元,并与谷歌洽谈下一代 AI 芯片。",
+        "url": "https://cryptobriefing.com/broadcom-marvell-ai-chip-record-revenue/"
+      }
     ]
   },
   "wdc": {
@@ -11418,6 +11427,15 @@
     "partners": [
       "nvda",
       "anthropic"
+    ],
+    "news": [
+      {
+        "title": "Q4 FY26 营收 12.8 亿美元(+30%);Cortex AI 年化收入约 1 亿美元",
+        "date": "2026",
+        "category": "财报",
+        "summary": "AI 成强劲顺风,Snowflake Intelligence 服务超 9100 个账户;779 家客户年消费超百万美元、净收入留存 125%;并宣布向亚马逊采购 60 亿美元算力。",
+        "url": "https://www.snowflake.com/en/news/press-releases/snowflake-reports-financial-results-for-the-fourth-quarter-and-full-year-of-fiscal-2026/"
+      }
     ]
   },
   "pinecone": {
@@ -19089,7 +19107,16 @@
       "growth": 86,
       "innovation": 87,
       "community": 60
-    }
+    },
+    "news": [
+      {
+        "title": "完成 50 亿美元融资、估值翻倍至 610 亿美元;拿下陆军最高 200 亿美元 IDIQ 合同",
+        "date": "2026-05",
+        "category": "重大",
+        "summary": "由 Thrive、a16z 领投;2025 营收 22 亿美元(翻倍)、2026 预计 43 亿;3 月获陆军 10 年、上限 20 亿美元的 Lattice 企业合同(整合 120+ 采购项目);俄亥俄 Arsenal-1 工厂投产。",
+        "url": "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/"
+      }
+    ]
   },
   "helsing": {
     "id": "helsing",
@@ -19316,7 +19343,16 @@
       "growth": 85,
       "innovation": 83,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "完成 6.5 亿美元 E 轮;全球试验扩至 21 名受试者,并拓展至英国/阿联酋/加拿大",
+        "date": "2026-04",
+        "category": "临床",
+        "summary": "累计融资约 18.5 亿美元(估值约 90 亿美元+);PRIME 临床试验(针对四肢瘫痪/ALS)扩至 21 人、并在美国以外首次手术;计划 2026 转向高产量、自动化手术。",
+        "url": "https://neuralink.com/updates/"
+      }
+    ]
   },
   "synchron": {
     "id": "synchron",

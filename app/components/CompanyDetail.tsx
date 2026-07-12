@@ -339,6 +339,33 @@ export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyD
             <p className="company-business">{aboutText}</p>
           </section>
 
+          {c.news && c.news.length > 0 && (
+            <section className="company-card">
+              <h2>最新动态</h2>
+              <div className="cp-news">
+                {[...c.news].sort((a, b) => (b.date || "").localeCompare(a.date || "")).map((n, i) => {
+                  const inner = (
+                    <>
+                      <div className="cp-news-meta">
+                        {n.category && <span className="cp-news-cat">{n.category}</span>}
+                        {n.date && <span className="cp-news-date">{n.date}</span>}
+                      </div>
+                      <span className="cp-news-title">{n.title}</span>
+                      {n.summary && <p className="cp-news-sum">{n.summary}</p>}
+                    </>
+                  );
+                  return n.url ? (
+                    <a key={i} className="cp-news-item link" href={n.url} target="_blank" rel="noreferrer">
+                      {inner}
+                    </a>
+                  ) : (
+                    <div key={i} className="cp-news-item">{inner}</div>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+
           {showMarket && (
             <section className="company-card">
               <h2>
@@ -496,32 +523,6 @@ export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyD
             </section>
           )}
 
-          {c.news && c.news.length > 0 && (
-            <section className="company-card">
-              <h2>最新动态</h2>
-              <div className="cp-news">
-                {[...c.news].sort((a, b) => (b.date || "").localeCompare(a.date || "")).map((n, i) => {
-                  const inner = (
-                    <>
-                      <div className="cp-news-meta">
-                        {n.category && <span className="cp-news-cat">{n.category}</span>}
-                        {n.date && <span className="cp-news-date">{n.date}</span>}
-                      </div>
-                      <span className="cp-news-title">{n.title}</span>
-                      {n.summary && <p className="cp-news-sum">{n.summary}</p>}
-                    </>
-                  );
-                  return n.url ? (
-                    <a key={i} className="cp-news-item link" href={n.url} target="_blank" rel="noreferrer">
-                      {inner}
-                    </a>
-                  ) : (
-                    <div key={i} className="cp-news-item">{inner}</div>
-                  );
-                })}
-              </div>
-            </section>
-          )}
         </div>
 
         <aside className="cp-col-side">
