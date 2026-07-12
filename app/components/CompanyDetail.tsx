@@ -351,7 +351,7 @@ export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyD
                 {updatedAt && (
                   <span className="live-time">
                     {en ? "updated " : "更新于 "}
-                    {new Date(updatedAt).toLocaleTimeString(en ? "en-US" : "zh-CN")}
+                    {new Date(updatedAt).toLocaleTimeString(en ? "en-US" : "zh-CN", { hour: "2-digit", minute: "2-digit" })}
                   </span>
                 )}
               </h2>

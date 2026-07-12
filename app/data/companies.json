@@ -5926,7 +5926,16 @@
       "growth": 72,
       "innovation": 90,
       "community": 53
-    }
+    },
+    "news": [
+      {
+        "title": "上调 2026 营收指引至 360–400 亿欧元;AI 驱动 EUV 需求强劲",
+        "date": "2026",
+        "category": "财报",
+        "summary": "Q1 2026 营收 88 亿欧元、毛利率 53%;AI 客户(台/韩/美)的高毛利 EUV 需求替代了流失的对华 DUV 收入,对华销售占比降至 19%;High-NA EUV 持续出货。",
+        "url": "https://www.globalbankingandfinance.com/asml-lifts-2026-outlook-back-stronger-ai-demand/"
+      }
+    ]
   },
   "amat": {
     "id": "amat",
@@ -8410,7 +8419,16 @@
       "growth": 87,
       "innovation": 90,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "洽谈约 30 亿欧元融资、估值约 200 亿欧元;ASML 为最大股东",
+        "date": "2026-06",
+        "category": "融资",
+        "summary": "较去年 9 月 117 亿欧元估值近乎翻倍(彼时 ASML 投 13 亿欧元占约 11% 成最大股东);目标 2026 年底 ARR 超 10 亿美元,并与空客、宝马签约拓展工程/制造场景。",
+        "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/"
+      }
+    ]
   },
   "stabilityai": {
     "id": "stabilityai",
@@ -9392,6 +9410,15 @@
       "a16z",
       "Sequoia",
       "ICONIQ Growth"
+    ],
+    "news": [
+      {
+        "title": "完成 5 亿美元 D 轮、估值 110 亿美元;ARR 突破 5 亿美元",
+        "date": "2026",
+        "category": "融资",
+        "summary": "由红杉领投,英伟达、Salesforce、贝莱德等参投;年化营收 4 月突破 5 亿美元(2025 年底为 3.5 亿),正洽谈约 220 亿美元的二级市场估值。",
+        "url": "https://elevenlabs.io/blog/series-d"
+      }
     ]
   },
   "runwayml": {
@@ -14745,6 +14772,15 @@
     "suppliers": [
       "harmonic",
       "leaderdrive"
+    ],
+    "news": [
+      {
+        "title": "第 15000 台机器人下线;2025 全球人形机器人出货与市占第一",
+        "date": "2026-06",
+        "category": "落地",
+        "summary": "2026 年 6 月第 15000 台机器人(工业级 AGIBOT G2)下线,距破万仅 3 个月;据 Omdia,智元 2025 年以 5168 台出货、39% 市占居全球人形机器人第一;估值约 150 亿元。",
+        "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-28/doc-inieyetq3739162.shtml"
+      }
     ]
   },
   "galbot": {
