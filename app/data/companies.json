@@ -3526,7 +3526,16 @@
       "growth": 68,
       "innovation": 84,
       "community": 51
-    }
+    },
+    "news": [
+      {
+        "title": "1.6T 硅光加速放量,海外收入占比达 92%",
+        "date": "2026",
+        "category": "业务",
+        "summary": "AI 基建驱动高速光模块需求,800G 仍是主力、1.6T 成为收入与毛利增长引擎,硅光方案交付优势明显;FY25 产能同比 +34%、出货 +45%,主要客户三季度起部署 1.6T 并持续加单。",
+        "url": "https://news.futunn.com/en/post/65246748/quarterly-earnings-commentary-on-innolight-technology-300308-clear-demand-outlook"
+      }
+    ]
   },
   "eoptolink": {
     "id": "eoptolink",
@@ -3731,6 +3740,15 @@
         "year": 2025,
         "revenue": 56,
         "netIncome": 20
+      }
+    ],
+    "news": [
+      {
+        "title": "Q1 2026 创历史最佳:营收 355 亿美元(+198%)、营业利润率 72%;HBM4 率先量产",
+        "date": "2026",
+        "category": "财报",
+        "summary": "AI 对 HBM 需求爆发,单季营收首破 50 万亿韩元;2 月率先量产 HBM4(领先对手),6 月送样 12 层 HBM4E;HBM 市占约 57%,产能已售罄至 2026 年;并启动约 280 亿美元纳斯达克上市。",
+        "url": "https://news.skhynix.com/q1-2026-business-results/"
       }
     ]
   },
@@ -5184,7 +5202,16 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "与 Meta 签 20 年核电协议,为其伊利诺伊数据中心供电",
+        "date": "2026",
+        "category": "合同",
+        "summary": "Meta 自 2027 年起采购 Constellation 旗下 Clinton 核电站的无碳电力(扩产 30MW);Meta 同期还与 Vistra、TerraPower、Oklo 签约,合计最高 6.6GW 核电,支撑其 Prometheus 超算集群。",
+        "url": "https://carboncredits.com/meta-partners-with-constellation-for-clean-nuclear-energy/"
+      }
+    ]
   },
   "vst": {
     "id": "vst",
@@ -25221,7 +25248,16 @@
       "growth": 68,
       "innovation": 84,
       "community": 51
-    }
+    },
+    "news": [
+      {
+        "title": "AI 云爆发:剩余合同额(RPO)达 6380 亿美元(+363%);FY27 营收指引 900 亿美元",
+        "date": "2026",
+        "category": "财报",
+        "summary": "FY26 OCI 营收 +93%;Stargate 旗舰 Abilene 园区 1.2GW 上线、整体扩至约 7GW、投资超 4000 亿美元;为支撑 AI 基建,FY26 资本开支激增、自由现金流转负。",
+        "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx"
+      }
+    ]
   },
   "applovin": {
     "id": "applovin",
