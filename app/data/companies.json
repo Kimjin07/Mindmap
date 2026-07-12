@@ -605,7 +605,16 @@
       "growth": 74,
       "innovation": 95,
       "community": 92
-    }
+    },
+    "news": [
+      {
+        "title": "推出首个自研专有大模型 Muse Spark;2026 AI 资本开支 1150–1350 亿美元",
+        "date": "2026-04",
+        "category": "产品",
+        "summary": "由从 Scale AI 加入的首席 AI 官 Alexandr Wang 领衔的 Meta 超级智能实验室打造,是 Meta 首次转向专有基础模型(而非严格开源);2026 年 AI 资本开支达 1150–1350 亿美元,近去年两倍。",
+        "url": "https://ai.meta.com/blog/"
+      }
+    ]
   },
   "amd": {
     "id": "amd",
@@ -710,7 +719,16 @@
       "growth": 71,
       "innovation": 88,
       "community": 52
-    }
+    },
+    "news": [
+      {
+        "title": "OpenAI 入股约 10% 并承诺采购 6GW GPU;MI400 系列 2026 下半年量产",
+        "date": "2026",
+        "category": "重大",
+        "summary": "2025 年底 OpenAI 取得 AMD 至多约 10% 股份以锁定 6GW GPU 供应(潜在采购额约 2000 亿美元);新一代 Instinct MI400(432GB HBM4、算力较 MI350 翻倍)将于 2026 下半年量产。",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1201/amd-accelerates-pace-of-data-center-ai-innovation-and-leadership-with-expanded-amd-instinct-gpu-roadmap"
+      }
+    ]
   },
   "intc": {
     "id": "intc",
@@ -4247,6 +4265,15 @@
       {
         "name": "Sanjay Mehrotra",
         "title": "总裁兼 CEO"
+      }
+    ],
+    "news": [
+      {
+        "title": "2026 年 HBM 产能全数售罄,营收同比大增 196%",
+        "date": "2026",
+        "category": "财报",
+        "summary": "美光成为三大存储巨头中率先宣布 2026 年 HBM 全部售罄的厂商(固定价格合约),并送样 36GB 12-Hi HBM4、获英伟达认证供 Vera Rubin 平台;二财季营收 239 亿美元、同比增 196%,连续第四季创纪录。",
+        "url": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html"
       }
     ]
   },
@@ -7912,6 +7939,15 @@
     "partners": [
       "anthropic",
       "openai"
+    ],
+    "news": [
+      {
+        "title": "SpaceX 以约 600 亿美元全股票收购 Anysphere(Cursor)",
+        "date": "2026-06",
+        "category": "重大",
+        "summary": "2026 年 6 月 16 日 SpaceX 同意以约 600 亿美元全股票收购 Cursor 母公司 Anysphere,创风投支持创业公司被收购最高纪录,预计三季度完成;Cursor 年化营收从 2025 年 10 亿美元飙升至约 40 亿美元。",
+        "url": "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding"
+      }
     ]
   },
   "codeium": {
