@@ -96,7 +96,14 @@
         "name": "Satya Nadella",
         "title": "董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 95,
+      "moat": 97,
+      "growth": 76,
+      "innovation": 95,
+      "community": 54
+    }
   },
   "googl": {
     "id": "googl",
@@ -202,7 +209,14 @@
         "name": "Sundar Pichai",
         "title": "Alphabet 与谷歌 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 97,
+      "moat": 97,
+      "growth": 77,
+      "innovation": 97,
+      "community": 81
+    }
   },
   "nvda": {
     "id": "nvda",
@@ -454,7 +468,14 @@
         "name": "Elon Musk",
         "title": "CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 88,
+      "moat": 88,
+      "growth": 71,
+      "innovation": 88,
+      "community": 60
+    }
   },
   "meta": {
     "id": "meta",
@@ -556,6 +577,13 @@
     "links": {
       "github": "https://github.com/meta-llama",
       "huggingface": "https://huggingface.co/meta-llama"
+    },
+    "scores": {
+      "ai": 92,
+      "moat": 72,
+      "growth": 74,
+      "innovation": 95,
+      "community": 92
     }
   },
   "amd": {
@@ -654,7 +682,14 @@
         "name": "苏姿丰 (Lisa Su)",
         "title": "董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 88,
+      "moat": 90,
+      "growth": 71,
+      "innovation": 88,
+      "community": 52
+    }
   },
   "intc": {
     "id": "intc",
@@ -739,7 +774,14 @@
         "name": "陈立武 (Lip-Bu Tan)",
         "title": "CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 70,
+      "moat": 72,
+      "growth": 58,
+      "innovation": 70,
+      "community": 47
+    }
   },
   "avgo": {
     "id": "avgo",
@@ -830,7 +872,14 @@
         "name": "陈福阳 (Hock Tan)",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 92,
+      "moat": 94,
+      "growth": 73,
+      "innovation": 92,
+      "community": 53
+    }
   },
   "anet": {
     "id": "anet",
@@ -912,7 +961,14 @@
         "name": "Jayshree Ullal",
         "title": "董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 86,
+      "growth": 68,
+      "innovation": 84,
+      "community": 51
+    }
   },
   "tsm": {
     "id": "tsm",
@@ -1009,7 +1065,14 @@
         "name": "魏哲家 (C.C. Wei)",
         "title": "董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 96,
+      "moat": 97,
+      "growth": 76,
+      "innovation": 96,
+      "community": 55
+    }
   },
   "adbe": {
     "id": "adbe",
@@ -1087,7 +1150,14 @@
         "name": "Shantanu Narayen",
         "title": "董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 82,
+      "growth": 66,
+      "innovation": 82,
+      "community": 72
+    }
   },
   "crm": {
     "id": "crm",
@@ -1165,7 +1235,14 @@
         "name": "Marc Benioff",
         "title": "创始人、董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 84,
+      "growth": 68,
+      "innovation": 84,
+      "community": 73
+    }
   },
   "now": {
     "id": "now",
@@ -1243,7 +1320,14 @@
         "name": "Bill McDermott",
         "title": "董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 84,
+      "growth": 68,
+      "innovation": 84,
+      "community": 73
+    }
   },
   "pltr": {
     "id": "pltr",
@@ -1325,7 +1409,14 @@
         "name": "Peter Thiel",
         "title": "联合创始人、董事长"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 88,
+      "moat": 88,
+      "growth": 71,
+      "innovation": 88,
+      "community": 60
+    }
   },
   "mrvl": {
     "id": "mrvl",
@@ -1407,7 +1498,14 @@
         "name": "Matt Murphy",
         "title": "董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 86,
+      "growth": 68,
+      "innovation": 84,
+      "community": 51
+    }
   },
   "wdc": {
     "id": "wdc",
@@ -1489,7 +1587,14 @@
         "name": "Irving Tan",
         "title": "CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "vrt": {
     "id": "vrt",
@@ -1576,7 +1681,14 @@
     ],
     "partners": [
       "nvda"
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 86,
+      "growth": 68,
+      "innovation": 84,
+      "community": 51
+    }
   },
   "etn": {
     "id": "etn",
@@ -1659,7 +1771,14 @@
       "msft",
       "amzn",
       "googl"
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "nee": {
     "id": "nee",
@@ -1738,7 +1857,14 @@
         "name": "John Ketchum",
         "title": "董事长、总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "cohr": {
     "id": "cohr",
@@ -1834,7 +1960,14 @@
         "revenue": 5.7,
         "netIncome": 0.1
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 86,
+      "growth": 68,
+      "innovation": 84,
+      "community": 51
+    }
   },
   "baba": {
     "id": "baba",
@@ -1922,6 +2055,13 @@
     "links": {
       "github": "https://github.com/QwenLM",
       "huggingface": "https://huggingface.co/Qwen"
+    },
+    "scores": {
+      "ai": 90,
+      "moat": 70,
+      "growth": 74,
+      "innovation": 93,
+      "community": 92
     }
   },
   "bidu": {
@@ -2007,7 +2147,14 @@
         "name": "李彦宏 (Robin Li)",
         "title": "创始人、董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 84,
+      "growth": 68,
+      "innovation": 84,
+      "community": 73
+    }
   },
   "amzn": {
     "id": "amzn",
@@ -2110,7 +2257,14 @@
         "description": "面向开发者的端到端机器学习开发与部署平台。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 92,
+      "moat": 94,
+      "growth": 73,
+      "innovation": 92,
+      "community": 78
+    }
   },
   "pony": {
     "id": "pony",
@@ -2201,7 +2355,14 @@
         "revenue": 0.075,
         "netIncome": -0.2
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 82,
+      "growth": 66,
+      "innovation": 82,
+      "community": 58
+    }
   },
   "wrd": {
     "id": "wrd",
@@ -2282,7 +2443,14 @@
         "revenue": 0.05,
         "netIncome": -0.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 80,
+      "growth": 65,
+      "innovation": 80,
+      "community": 58
+    }
   },
   "rxrx": {
     "id": "rxrx",
@@ -2365,7 +2533,14 @@
         "revenue": 0.083,
         "netIncome": -0.45
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 80,
+      "growth": 65,
+      "innovation": 80,
+      "community": 58
+    }
   },
   "cgnx": {
     "id": "cgnx",
@@ -2452,7 +2627,14 @@
         "revenue": 0.92,
         "netIncome": 0.13
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 76,
+      "growth": 62,
+      "innovation": 76,
+      "community": 57
+    }
   },
   "arm": {
     "id": "arm",
@@ -2557,7 +2739,14 @@
         "name": "Rene Haas",
         "title": "CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 86,
+      "moat": 88,
+      "growth": 69,
+      "innovation": 86,
+      "community": 52
+    }
   },
   "pstg": {
     "id": "pstg",
@@ -2638,7 +2827,14 @@
         "revenue": 3.17,
         "netIncome": 0.11
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "gev": {
     "id": "gev",
@@ -2726,7 +2922,14 @@
         "name": "Scott Strazik",
         "title": "CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "sie": {
     "id": "sie",
@@ -2814,7 +3017,14 @@
         "revenue": 79,
         "netIncome": 9
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 78,
+      "growth": 64,
+      "innovation": 78,
+      "community": 57
+    }
   },
   "foxconn": {
     "id": "foxconn",
@@ -2908,7 +3118,14 @@
         "revenue": 210,
         "netIncome": 4.6
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "schneider": {
     "id": "schneider",
@@ -3001,7 +3218,14 @@
         "revenue": 41,
         "netIncome": 4.5
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "envicool": {
     "id": "envicool",
@@ -3079,7 +3303,14 @@
         "revenue": 0.65,
         "netIncome": 0.06
       }
-    ]
+    ],
+    "scores": {
+      "ai": 77,
+      "moat": 79,
+      "growth": 63,
+      "innovation": 77,
+      "community": 49
+    }
   },
   "innolight": {
     "id": "innolight",
@@ -3174,7 +3405,14 @@
         "revenue": 3.3,
         "netIncome": 0.85
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 86,
+      "growth": 68,
+      "innovation": 84,
+      "community": 51
+    }
   },
   "eoptolink": {
     "id": "eoptolink",
@@ -3265,7 +3503,14 @@
         "revenue": 1.2,
         "netIncome": 0.4
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "skhynix": {
     "id": "skhynix",
@@ -3550,7 +3795,14 @@
         "revenue": 1.8,
         "netIncome": 0.05
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 86,
+      "growth": 68,
+      "innovation": 84,
+      "community": 51
+    }
   },
   "aaoi": {
     "id": "aaoi",
@@ -3638,7 +3890,14 @@
         "revenue": 0.25,
         "netIncome": -0.19
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 81,
+      "growth": 64,
+      "innovation": 79,
+      "community": 50
+    }
   },
   "cien": {
     "id": "cien",
@@ -3726,7 +3985,14 @@
         "revenue": 4,
         "netIncome": 0.09
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "nok": {
     "id": "nok",
@@ -3803,7 +4069,14 @@
         "revenue": 21,
         "netIncome": 1.4
       }
-    ]
+    ],
+    "scores": {
+      "ai": 72,
+      "moat": 74,
+      "growth": 59,
+      "innovation": 72,
+      "community": 47
+    }
   },
   "mu": {
     "id": "mu",
@@ -3988,7 +4261,14 @@
         "revenue": 3.4,
         "netIncome": 0.4
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "csco": {
     "id": "csco",
@@ -4072,7 +4352,14 @@
         "name": "Chuck Robbins",
         "title": "董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "accelink": {
     "id": "accelink",
@@ -4150,7 +4437,14 @@
         "revenue": 1,
         "netIncome": 0.09
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "tianfu": {
     "id": "tianfu",
@@ -4231,7 +4525,14 @@
         "revenue": 0.5,
         "netIncome": 0.15
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "yuanjie": {
     "id": "yuanjie",
@@ -4312,7 +4613,14 @@
         "revenue": 0.05,
         "netIncome": 0.01
       }
-    ]
+    ],
+    "scores": {
+      "ai": 75,
+      "moat": 77,
+      "growth": 62,
+      "innovation": 75,
+      "community": 48
+    }
   },
   "mtsi": {
     "id": "mtsi",
@@ -4400,7 +4708,14 @@
         "revenue": 0.9,
         "netIncome": 0.15
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "smtc": {
     "id": "smtc",
@@ -4475,7 +4790,14 @@
         "revenue": 0.95,
         "netIncome": 0.02
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "jnpr": {
     "id": "jnpr",
@@ -4554,7 +4876,14 @@
         "revenue": 5.1,
         "netIncome": 0.29
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "eric": {
     "id": "eric",
@@ -4630,7 +4959,14 @@
         "revenue": 25,
         "netIncome": 0.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 72,
+      "moat": 74,
+      "growth": 59,
+      "innovation": 72,
+      "community": 47
+    }
   },
   "ceg": {
     "id": "ceg",
@@ -4709,7 +5045,14 @@
     ],
     "partners": [
       "msft"
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "vst": {
     "id": "vst",
@@ -4794,7 +5137,14 @@
         "name": "Jim Burke",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "oklo": {
     "id": "oklo",
@@ -4872,7 +5222,14 @@
         "revenue": 0,
         "netIncome": -0.07
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "smr": {
     "id": "smr",
@@ -4947,7 +5304,14 @@
         "revenue": 0.037,
         "netIncome": -0.2
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 76,
+      "growth": 61,
+      "innovation": 74,
+      "community": 48
+    }
   },
   "cat": {
     "id": "cat",
@@ -5024,7 +5388,14 @@
         "description": "黄色工程机械龙头,柴油/燃气发电机组+Solar Turbines 供数据中心。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 72,
+      "moat": 74,
+      "growth": 59,
+      "innovation": 72,
+      "community": 47
+    }
   },
   "cmi": {
     "id": "cmi",
@@ -5101,7 +5472,14 @@
         "description": "全球发动机与发电机组龙头,数据中心备用/就地发电。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 72,
+      "moat": 74,
+      "growth": 59,
+      "innovation": 72,
+      "community": 47
+    }
   },
   "harmonic": {
     "id": "harmonic",
@@ -5177,7 +5555,14 @@
         "revenue": 0.5,
         "netIncome": 0.02
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "teradyne": {
     "id": "teradyne",
@@ -5272,7 +5657,14 @@
       "amd",
       "qualcomm",
       "apple"
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "asml": {
     "id": "asml",
@@ -5359,7 +5751,14 @@
         "name": "Christophe Fouquet",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 90,
+      "moat": 92,
+      "growth": 72,
+      "innovation": 90,
+      "community": 53
+    }
   },
   "amat": {
     "id": "amat",
@@ -5452,7 +5851,14 @@
         "name": "Gary Dickerson",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 86,
+      "moat": 88,
+      "growth": 69,
+      "innovation": 86,
+      "community": 52
+    }
   },
   "lrcx": {
     "id": "lrcx",
@@ -5548,7 +5954,14 @@
         "name": "Tim Archer",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 85,
+      "moat": 87,
+      "growth": 69,
+      "innovation": 85,
+      "community": 51
+    }
   },
   "klac": {
     "id": "klac",
@@ -5642,7 +6055,14 @@
         "name": "Rick Wallace",
         "title": "CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 86,
+      "growth": 68,
+      "innovation": 84,
+      "community": 51
+    }
   },
   "snps": {
     "id": "snps",
@@ -5743,7 +6163,14 @@
         "name": "Sassine Ghazi",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 86,
+      "moat": 88,
+      "growth": 69,
+      "innovation": 86,
+      "community": 75
+    }
   },
   "cdns": {
     "id": "cdns",
@@ -5843,7 +6270,14 @@
         "name": "Anirudh Devgan",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 85,
+      "moat": 87,
+      "growth": 69,
+      "innovation": 85,
+      "community": 74
+    }
   },
   "ase": {
     "id": "ase",
@@ -5942,7 +6376,14 @@
         "revenue": 19,
         "netIncome": 1.6
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "amkr": {
     "id": "amkr",
@@ -6029,7 +6470,14 @@
         "name": "Kevin Engel",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "rklb": {
     "id": "rklb",
@@ -6105,7 +6553,14 @@
         "revenue": 0.44,
         "netIncome": -0.19
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 74,
+      "growth": 61,
+      "innovation": 74,
+      "community": 56
+    }
   },
   "asts": {
     "id": "asts",
@@ -6179,7 +6634,14 @@
         "revenue": 0.005,
         "netIncome": -0.06
       }
-    ]
+    ],
+    "scores": {
+      "ai": 72,
+      "moat": 72,
+      "growth": 59,
+      "innovation": 72,
+      "community": 55
+    }
   },
   "spacex": {
     "id": "spacex",
@@ -6660,6 +7122,13 @@
     "links": {
       "github": "https://github.com/deepseek-ai",
       "huggingface": "https://huggingface.co/deepseek-ai"
+    },
+    "scores": {
+      "ai": 90,
+      "moat": 70,
+      "growth": 88,
+      "innovation": 93,
+      "community": 92
     }
   },
   "huawei": {
@@ -6730,7 +7199,14 @@
         "description": "自研服务器 CPU 与华为云,构建自主算力生态(含 CANN 软件栈)。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 88,
+      "moat": 76,
+      "growth": 87,
+      "innovation": 89,
+      "community": 52
+    }
   },
   "bostondynamics": {
     "id": "bostondynamics",
@@ -6807,7 +7283,14 @@
     ],
     "investors": [
       "现代汽车集团"
-    ]
+    ],
+    "scores": {
+      "ai": 85,
+      "moat": 73,
+      "growth": 86,
+      "innovation": 86,
+      "community": 59
+    }
   },
   "figure": {
     "id": "figure",
@@ -6887,7 +7370,14 @@
         "description": "自研的视觉-语言-动作模型,驱动机器人自主操作。",
         "status": "研发"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 88,
+      "moat": 76,
+      "growth": 87,
+      "innovation": 89,
+      "community": 76
+    }
   },
   "agility": {
     "id": "agility",
@@ -6951,7 +7441,14 @@
         "name": "Peggy Johnson",
         "title": "CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 58
+    }
   },
   "apptronik": {
     "id": "apptronik",
@@ -7019,7 +7516,14 @@
         "name": "Jeff Cardenas",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 58
+    }
   },
   "unitree": {
     "id": "unitree",
@@ -7091,7 +7595,14 @@
       "红杉中国",
       "深创投",
       "中国移动"
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 72,
+      "growth": 86,
+      "innovation": 85,
+      "community": 59
+    }
   },
   "onex": {
     "id": "onex",
@@ -7158,7 +7669,14 @@
         "description": "面向家用的人形机器人,主打安全、安静、做家务,OpenAI 投资。",
         "status": "研发"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 58
+    }
   },
   "anysphere": {
     "id": "anysphere",
@@ -7289,7 +7807,14 @@
         "description": "以智能体式编程体验著称的 AI IDE。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
+    }
   },
   "replit": {
     "id": "replit",
@@ -7604,6 +8129,13 @@
       "github": "https://github.com/mistralai",
       "x": "https://x.com/MistralAI",
       "huggingface": "https://huggingface.co/mistralai"
+    },
+    "scores": {
+      "ai": 87,
+      "moat": 67,
+      "growth": 87,
+      "innovation": 90,
+      "community": 92
     }
   },
   "stabilityai": {
@@ -7676,6 +8208,13 @@
     "links": {
       "github": "https://github.com/Stability-AI",
       "huggingface": "https://huggingface.co/stabilityai"
+    },
+    "scores": {
+      "ai": 78,
+      "moat": 58,
+      "growth": 83,
+      "innovation": 81,
+      "community": 92
     }
   },
   "midjourney": {
@@ -7737,6 +8276,13 @@
     ],
     "links": {
       "x": "https://x.com/midjourney"
+    },
+    "scores": {
+      "ai": 85,
+      "moat": 73,
+      "growth": 86,
+      "innovation": 86,
+      "community": 74
     }
   },
   "physicalint": {
@@ -7809,7 +8355,14 @@
     ],
     "partners": [
       "googl"
-    ]
+    ],
+    "scores": {
+      "ai": 87,
+      "moat": 75,
+      "growth": 87,
+      "innovation": 88,
+      "community": 75
+    }
   },
   "covariant": {
     "id": "covariant",
@@ -7859,7 +8412,14 @@
         "description": "面向仓储拣选的机器人基础模型,让机械臂识别抓取各种货物。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 66,
+      "growth": 83,
+      "innovation": 79,
+      "community": 70
+    }
   },
   "ai21": {
     "id": "ai21",
@@ -7922,7 +8482,14 @@
         "description": "面向企业的大模型 API 与应用平台。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 70
+    }
   },
   "insilico": {
     "id": "insilico",
@@ -7985,7 +8552,14 @@
         "name": "Alex Zhavoronkov",
         "title": "创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
+    }
   },
   "perplexity": {
     "id": "perplexity",
@@ -8147,7 +8721,14 @@
         "description": "把自动驾驶聚焦到个人辅助驾驶(Super Cruise),大举转型电动车。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 70,
+      "moat": 70,
+      "growth": 58,
+      "innovation": 70,
+      "community": 55
+    }
   },
   "oss_graph": {
     "id": "oss_graph",
@@ -8197,6 +8778,13 @@
     ],
     "links": {
       "github": "https://github.com/pyg-team/pytorch_geometric"
+    },
+    "scores": {
+      "ai": 74,
+      "moat": 54,
+      "growth": 74,
+      "innovation": 77,
+      "community": 92
     }
   },
   "mamba": {
@@ -8248,6 +8836,13 @@
     ],
     "links": {
       "github": "https://github.com/state-spaces/mamba"
+    },
+    "scores": {
+      "ai": 78,
+      "moat": 58,
+      "growth": 74,
+      "innovation": 81,
+      "community": 92
     }
   },
   "llava": {
@@ -8296,6 +8891,13 @@
     ],
     "links": {
       "github": "https://github.com/haotian-liu/LLaVA"
+    },
+    "scores": {
+      "ai": 76,
+      "moat": 56,
+      "growth": 74,
+      "innovation": 79,
+      "community": 92
     }
   },
   "openvla": {
@@ -8347,6 +8949,13 @@
     ],
     "links": {
       "github": "https://github.com/openvla/openvla"
+    },
+    "scores": {
+      "ai": 76,
+      "moat": 56,
+      "growth": 74,
+      "innovation": 79,
+      "community": 92
     }
   },
   "ualink": {
@@ -8396,7 +9005,14 @@
         "description": "对标 NVLink 的开放加速器互联标准,多家巨头联合发起。",
         "status": "标准制定"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 54,
+      "growth": 74,
+      "innovation": 77,
+      "community": 92
+    }
   },
   "elevenlabs": {
     "id": "elevenlabs",
@@ -9184,6 +9800,13 @@
     "links": {
       "github": "https://github.com/black-forest-labs",
       "huggingface": "https://huggingface.co/black-forest-labs"
+    },
+    "scores": {
+      "ai": 82,
+      "moat": 62,
+      "growth": 85,
+      "innovation": 85,
+      "community": 92
     }
   },
   "groq": {
@@ -9255,7 +9878,14 @@
       "Cisco",
       "三星",
       "D1 Capital"
-    ]
+    ],
+    "scores": {
+      "ai": 83,
+      "moat": 71,
+      "growth": 85,
+      "innovation": 84,
+      "community": 51
+    }
   },
   "cerebras": {
     "id": "cerebras",
@@ -9343,7 +9973,14 @@
         "revenue": 0.14,
         "netIncome": -0.06
       }
-    ]
+    ],
+    "scores": {
+      "ai": 83,
+      "moat": 85,
+      "growth": 67,
+      "innovation": 83,
+      "community": 51
+    }
   },
   "sambanova": {
     "id": "sambanova",
@@ -9401,7 +10038,14 @@
         "description": "自研 AI 芯片与整机系统,主打高速大模型推理。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 81,
+      "moat": 69,
+      "growth": 84,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "graphcore": {
     "id": "graphcore",
@@ -9452,7 +10096,14 @@
         "description": "为机器学习设计的智能处理器,已被软银收购。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 62,
+      "growth": 82,
+      "innovation": 75,
+      "community": 48
+    }
   },
   "tenstorrent": {
     "id": "tenstorrent",
@@ -9516,7 +10167,14 @@
         "description": "开放的 RISC-V 处理器 IP,可授权给客户做定制。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 50
+    }
   },
   "etched": {
     "id": "etched",
@@ -9574,7 +10232,14 @@
         "name": "Gavin Uberti",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "crwv": {
     "id": "crwv",
@@ -9670,7 +10335,14 @@
         "revenue": 5,
         "netIncome": -0.5
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 86,
+      "growth": 68,
+      "innovation": 84,
+      "community": 51
+    }
   },
   "lambda": {
     "id": "lambda",
@@ -9744,7 +10416,14 @@
     ],
     "partners": [
       "nvda"
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 50
+    }
   },
   "crusoe": {
     "id": "crusoe",
@@ -9813,7 +10492,14 @@
     "partners": [
       "openai",
       "nvda"
-    ]
+    ],
+    "scores": {
+      "ai": 81,
+      "moat": 69,
+      "growth": 84,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "nbis": {
     "id": "nbis",
@@ -9904,7 +10590,14 @@
         "revenue": 0.9,
         "netIncome": -0.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "together": {
     "id": "together",
@@ -9975,6 +10668,13 @@
     ],
     "links": {
       "github": "https://github.com/togethercomputer"
+    },
+    "scores": {
+      "ai": 83,
+      "moat": 63,
+      "growth": 85,
+      "innovation": 86,
+      "community": 92
     }
   },
   "fireworks": {
@@ -10042,7 +10742,14 @@
     ],
     "partners": [
       "nvda"
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 62,
+      "growth": 85,
+      "innovation": 85,
+      "community": 92
+    }
   },
   "huggingface": {
     "id": "huggingface",
@@ -10118,6 +10825,13 @@
       "github": "https://github.com/huggingface",
       "x": "https://x.com/huggingface",
       "huggingface": "https://huggingface.co/huggingface"
+    },
+    "scores": {
+      "ai": 84,
+      "moat": 64,
+      "growth": 86,
+      "innovation": 87,
+      "community": 92
     }
   },
   "databricks": {
@@ -10195,7 +10909,14 @@
     "partners": [
       "nvda",
       "msft"
-    ]
+    ],
+    "scores": {
+      "ai": 88,
+      "moat": 76,
+      "growth": 87,
+      "innovation": 89,
+      "community": 60
+    }
   },
   "snow": {
     "id": "snow",
@@ -10282,7 +11003,14 @@
         "revenue": 3.63,
         "netIncome": -1.29
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "pinecone": {
     "id": "pinecone",
@@ -10342,6 +11070,13 @@
     ],
     "links": {
       "github": "https://github.com/pinecone-io"
+    },
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
     }
   },
   "weaviate": {
@@ -10396,6 +11131,13 @@
     ],
     "links": {
       "github": "https://github.com/weaviate"
+    },
+    "scores": {
+      "ai": 78,
+      "moat": 58,
+      "growth": 83,
+      "innovation": 81,
+      "community": 92
     }
   },
   "chroma": {
@@ -10451,6 +11193,13 @@
     ],
     "links": {
       "github": "https://github.com/chroma-core"
+    },
+    "scores": {
+      "ai": 77,
+      "moat": 57,
+      "growth": 83,
+      "innovation": 80,
+      "community": 92
     }
   },
   "langchain": {
@@ -10517,6 +11266,13 @@
     ],
     "links": {
       "github": "https://github.com/langchain-ai"
+    },
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
     }
   },
   "llamaindex": {
@@ -10570,6 +11326,13 @@
     ],
     "links": {
       "github": "https://github.com/run-llama"
+    },
+    "scores": {
+      "ai": 78,
+      "moat": 66,
+      "growth": 83,
+      "innovation": 79,
+      "community": 57
     }
   },
   "scaleai": {
@@ -10652,7 +11415,14 @@
     "partners": [
       "meta",
       "msft"
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 72,
+      "growth": 86,
+      "innovation": 85,
+      "community": 59
+    }
   },
   "surge": {
     "id": "surge",
@@ -10714,7 +11484,14 @@
       "openai",
       "anthropic",
       "googl"
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 58
+    }
   },
   "cohere": {
     "id": "cohere",
@@ -10789,7 +11566,14 @@
     "partners": [
       "nvda",
       "oracle"
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 72,
+      "growth": 86,
+      "innovation": 85,
+      "community": 73
+    }
   },
   "reka": {
     "id": "reka",
@@ -10851,7 +11635,14 @@
       "Snowflake",
       "Nvidia",
       "DST Global"
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
+    }
   },
   "zeroone": {
     "id": "zeroone",
@@ -10910,7 +11701,14 @@
         "description": "中英双语能力强的大模型,开源版曾登全球榜单前列。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 59,
+      "growth": 84,
+      "innovation": 82,
+      "community": 92
+    }
   },
   "moonshot2": {
     "id": "moonshot2",
@@ -10976,7 +11774,14 @@
         "description": "以超长上下文著称的智能助手,能读进整本书级别的长文本。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 64,
+      "growth": 86,
+      "innovation": 87,
+      "community": 92
+    }
   },
   "cognition": {
     "id": "cognition",
@@ -11178,7 +11983,14 @@
         "description": "注重隐私与私有部署的 AI 代码助手,代码不出企业环境。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 66,
+      "growth": 83,
+      "innovation": 79,
+      "community": 70
+    }
   },
   "vercel": {
     "id": "vercel",
@@ -11964,7 +12776,14 @@
         "description": "配业界领先灵巧双手的人形机器人,主打精细手部操作。",
         "status": "研发"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 77,
+      "moat": 65,
+      "growth": 83,
+      "innovation": 78,
+      "community": 57
+    }
   },
   "fourier": {
     "id": "fourier",
@@ -12030,7 +12849,14 @@
         "name": "顾捷 (Alex Gu)",
         "title": "创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 58
+    }
   },
   "mbly": {
     "id": "mbly",
@@ -12112,7 +12938,14 @@
         "revenue": 1.65,
         "netIncome": -0.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "aurora": {
     "id": "aurora",
@@ -12194,7 +13027,14 @@
         "revenue": 0,
         "netIncome": -0.7
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 82,
+      "growth": 66,
+      "innovation": 82,
+      "community": 58
+    }
   },
   "wayve": {
     "id": "wayve",
@@ -12261,7 +13101,14 @@
     "partners": [
       "nvda",
       "msft"
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 72,
+      "growth": 86,
+      "innovation": 85,
+      "community": 59
+    }
   },
   "nuro": {
     "id": "nuro",
@@ -12318,7 +13165,14 @@
         "name": "朱佳俊 (Jiajun Zhu)",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 58
+    }
   },
   "xaira": {
     "id": "xaira",
@@ -12377,7 +13231,14 @@
         "name": "Marc Tessier-Lavigne",
         "title": "CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
+    }
   },
   "evoscale": {
     "id": "evoscale",
@@ -12436,7 +13297,14 @@
         "name": "Alexander Rives",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 81,
+      "moat": 69,
+      "growth": 84,
+      "innovation": 82,
+      "community": 72
+    }
   },
   "minimax": {
     "id": "minimax",
@@ -12507,7 +13375,14 @@
         "description": "自研的多模态大模型系列。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 84,
+      "growth": 68,
+      "innovation": 84,
+      "community": 73
+    }
   },
   "zhipu": {
     "id": "zhipu",
@@ -12600,7 +13475,14 @@
         "revenue": 0.4,
         "netIncome": -0.4
       }
-    ]
+    ],
+    "scores": {
+      "ai": 86,
+      "moat": 86,
+      "growth": 69,
+      "innovation": 86,
+      "community": 75
+    }
   },
   "stepfun": {
     "id": "stepfun",
@@ -12663,7 +13545,14 @@
     "investors": [
       "腾讯",
       "上海国资"
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
+    }
   },
   "sensetime": {
     "id": "sensetime",
@@ -12754,7 +13643,14 @@
         "revenue": 0.53,
         "netIncome": -0.6
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 76,
+      "growth": 62,
+      "innovation": 76,
+      "community": 69
+    }
   },
   "iflytek": {
     "id": "iflytek",
@@ -12846,7 +13742,14 @@
         "revenue": 3.3,
         "netIncome": 0.08
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 78,
+      "growth": 64,
+      "innovation": 78,
+      "community": 70
+    }
   },
   "cambricon": {
     "id": "cambricon",
@@ -12930,7 +13833,14 @@
         "revenue": 1,
         "netIncome": 0.15
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "moorethreads": {
     "id": "moorethreads",
@@ -13008,7 +13918,14 @@
         "revenue": 0.06,
         "netIncome": -0.2
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "biren": {
     "id": "biren",
@@ -13068,7 +13985,14 @@
         "description": "对标英伟达数据中心 GPU 的国产高端通用 GPU,2026 港股 IPO。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 77,
+      "moat": 79,
+      "growth": 63,
+      "innovation": 77,
+      "community": 49
+    }
   },
   "hygon": {
     "id": "hygon",
@@ -13159,7 +14083,14 @@
         "revenue": 1.28,
         "netIncome": 0.27
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "ubtech": {
     "id": "ubtech",
@@ -13243,7 +14174,14 @@
         "revenue": 0.18,
         "netIncome": -0.16
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 80,
+      "growth": 65,
+      "innovation": 80,
+      "community": 58
+    }
   },
   "agibot": {
     "id": "agibot",
@@ -13310,7 +14248,14 @@
       "腾讯",
       "比亚迪",
       "北汽"
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 72,
+      "growth": 86,
+      "innovation": 85,
+      "community": 59
+    }
   },
   "galbot": {
     "id": "galbot",
@@ -13374,7 +14319,14 @@
       "美团",
       "科大讯飞",
       "IDG 资本"
-    ]
+    ],
+    "scores": {
+      "ai": 83,
+      "moat": 71,
+      "growth": 85,
+      "innovation": 84,
+      "community": 73
+    }
   },
   "magicdev": {
     "id": "magicdev",
@@ -13433,7 +14385,14 @@
         "name": "Eric Steinberger",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
+    }
   },
   "poolside": {
     "id": "poolside",
@@ -13496,7 +14455,14 @@
       "英伟达",
       "eBay",
       "Felicis"
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
+    }
   },
   "abridge": {
     "id": "abridge",
@@ -13559,7 +14525,14 @@
         "name": "Shiv Rao",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 72,
+      "growth": 86,
+      "innovation": 85,
+      "community": 73
+    }
   },
   "openevidence": {
     "id": "openevidence",
@@ -13621,7 +14594,14 @@
         "name": "Daniel Nadler",
         "title": "创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 72,
+      "growth": 86,
+      "innovation": 85,
+      "community": 73
+    }
   },
   "tempus": {
     "id": "tempus",
@@ -13703,7 +14683,14 @@
         "revenue": 0.69,
         "netIncome": -0.7
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 82,
+      "growth": 66,
+      "innovation": 82,
+      "community": 58
+    }
   },
   "hippocratic": {
     "id": "hippocratic",
@@ -13769,7 +14756,14 @@
     ],
     "partners": [
       "nvda"
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 72
+    }
   },
   "lightmatter": {
     "id": "lightmatter",
@@ -13832,7 +14826,14 @@
       "GV",
       "T. Rowe Price",
       "Fidelity"
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 50
+    }
   },
   "ayarlabs": {
     "id": "ayarlabs",
@@ -13894,7 +14895,14 @@
         "name": "Mark Wade",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 50
+    }
   },
   "celestial": {
     "id": "celestial",
@@ -13952,7 +14960,14 @@
         "name": "Dave Lazovsky",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 58
+    }
   },
   "modal": {
     "id": "modal",
@@ -14011,7 +15026,14 @@
         "name": "Erik Bernhardsson",
         "title": "创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 50
+    }
   },
   "baseten": {
     "id": "baseten",
@@ -14074,7 +15096,14 @@
         "name": "Tuhin Srivastava",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 72
+    }
   },
   "replicate": {
     "id": "replicate",
@@ -14135,6 +15164,13 @@
     ],
     "links": {
       "github": "https://github.com/replicate"
+    },
+    "scores": {
+      "ai": 79,
+      "moat": 59,
+      "growth": 84,
+      "innovation": 82,
+      "community": 92
     }
   },
   "anyscale": {
@@ -14206,6 +15242,13 @@
     ],
     "links": {
       "github": "https://github.com/ray-project"
+    },
+    "scores": {
+      "ai": 81,
+      "moat": 61,
+      "growth": 84,
+      "innovation": 84,
+      "community": 92
     }
   },
   "wandb": {
@@ -14273,6 +15316,13 @@
     ],
     "links": {
       "github": "https://github.com/wandb"
+    },
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 58
     }
   },
   "figma": {
@@ -14360,7 +15410,14 @@
         "revenue": 1,
         "netIncome": 0.1
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 80,
+      "growth": 65,
+      "innovation": 80,
+      "community": 71
+    }
   },
   "stx": {
     "id": "stx",
@@ -14436,7 +15493,14 @@
         "description": "大容量磁存储双雄之一,HAMR 技术提升单盘容量、降每 TB 成本。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "kioxia": {
     "id": "kioxia",
@@ -14522,7 +15586,14 @@
         "revenue": 12,
         "netIncome": 0.9
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "vast": {
     "id": "vast",
@@ -14588,7 +15659,14 @@
         "name": "Renen Hallak",
         "title": "创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 72,
+      "growth": 86,
+      "innovation": 85,
+      "community": 51
+    }
   },
   "talen": {
     "id": "talen",
@@ -14676,7 +15754,14 @@
         "revenue": 2,
         "netIncome": 0.6
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "cameco": {
     "id": "cameco",
@@ -14758,7 +15843,14 @@
         "revenue": 2.2,
         "netIncome": 0.13
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "centrus": {
     "id": "centrus",
@@ -14843,7 +15935,14 @@
         "revenue": 0.44,
         "netIncome": 0.07
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 81,
+      "growth": 64,
+      "innovation": 79,
+      "community": 50
+    }
   },
   "nanonuclear": {
     "id": "nanonuclear",
@@ -14913,7 +16012,14 @@
         "revenue": 0,
         "netIncome": -0.04
       }
-    ]
+    ],
+    "scores": {
+      "ai": 70,
+      "moat": 72,
+      "growth": 58,
+      "innovation": 70,
+      "community": 47
+    }
   },
   "terrapower": {
     "id": "terrapower",
@@ -14974,7 +16080,14 @@
         "description": "比尔·盖茨创立,钠冷快堆+储能的先进核电方案。",
         "status": "研发"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 50
+    }
   },
   "xenergy": {
     "id": "xenergy",
@@ -15033,7 +16146,14 @@
     ],
     "partners": [
       "amzn"
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 64,
+      "growth": 82,
+      "innovation": 77,
+      "community": 49
+    }
   },
   "kairos": {
     "id": "kairos",
@@ -15092,7 +16212,14 @@
     ],
     "partners": [
       "googl"
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 64,
+      "growth": 82,
+      "innovation": 77,
+      "community": 49
+    }
   },
   "helion": {
     "id": "helion",
@@ -15159,7 +16286,14 @@
     ],
     "partners": [
       "msft"
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 50
+    }
   },
   "cfs": {
     "id": "cfs",
@@ -15222,7 +16356,14 @@
         "name": "Bob Mumgaard",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 81,
+      "moat": 69,
+      "growth": 84,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "tae": {
     "id": "tae",
@@ -15277,7 +16418,14 @@
     ],
     "partners": [
       "googl"
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 66,
+      "growth": 83,
+      "innovation": 79,
+      "community": 49
+    }
   },
   "bloom": {
     "id": "bloom",
@@ -15362,7 +16510,14 @@
         "revenue": 1.5,
         "netIncome": -0.2
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 81,
+      "growth": 64,
+      "innovation": 79,
+      "community": 50
+    }
   },
   "plugpower": {
     "id": "plugpower",
@@ -15436,7 +16591,14 @@
         "revenue": 0.63,
         "netIncome": -2.1
       }
-    ]
+    ],
+    "scores": {
+      "ai": 68,
+      "moat": 70,
+      "growth": 57,
+      "innovation": 68,
+      "community": 46
+    }
   },
   "hitachienergy": {
     "id": "hitachienergy",
@@ -15490,7 +16652,14 @@
         "description": "全球变压器与电网设备龙头,数据中心接入与电网升级关键。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 66,
+      "growth": 83,
+      "innovation": 79,
+      "community": 49
+    }
   },
   "siemensenergy": {
     "id": "siemensenergy",
@@ -15572,7 +16741,14 @@
         "revenue": 38,
         "netIncome": 1.6
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "powell": {
     "id": "powell",
@@ -15649,7 +16825,14 @@
         "revenue": 1,
         "netIncome": 0.15
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 76,
+      "growth": 61,
+      "innovation": 74,
+      "community": 48
+    }
   },
   "pwr": {
     "id": "pwr",
@@ -15732,7 +16915,14 @@
         "revenue": 24,
         "netIncome": 0.9
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "nvent": {
     "id": "nvent",
@@ -15813,7 +17003,14 @@
         "revenue": 3.3,
         "netIncome": 0.5
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "shinetsu": {
     "id": "shinetsu",
@@ -15908,7 +17105,14 @@
         "revenue": 18,
         "netIncome": 4.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "sumco": {
     "id": "sumco",
@@ -15988,7 +17192,14 @@
         "revenue": 3,
         "netIncome": 0.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "gwafers": {
     "id": "gwafers",
@@ -16069,7 +17280,14 @@
         "revenue": 2,
         "netIncome": 0.4
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "jsr": {
     "id": "jsr",
@@ -16125,7 +17343,14 @@
         "description": "全球光刻胶龙头之一,先进制程战略材料,被日本 JIC 收购。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 64,
+      "growth": 82,
+      "innovation": 77,
+      "community": 49
+    }
   },
   "tok": {
     "id": "tok",
@@ -16207,7 +17432,14 @@
         "revenue": 1.6,
         "netIncome": 0.18
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "linde": {
     "id": "linde",
@@ -16287,7 +17519,14 @@
         "description": "全球最大工业气体公司,半导体电子特气主力供应。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 74,
+      "growth": 61,
+      "innovation": 74,
+      "community": 56
+    }
   },
   "airliquide": {
     "id": "airliquide",
@@ -16363,7 +17602,14 @@
         "revenue": 29,
         "netIncome": 3.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 74,
+      "growth": 61,
+      "innovation": 74,
+      "community": 56
+    }
   },
   "ibiden": {
     "id": "ibiden",
@@ -16450,7 +17696,14 @@
         "revenue": 2.5,
         "netIncome": 0.25
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "unimicron": {
     "id": "unimicron",
@@ -16530,7 +17783,14 @@
         "revenue": 3.2,
         "netIncome": 0.25
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "entegris": {
     "id": "entegris",
@@ -16618,7 +17878,14 @@
         "name": "Bertrand Loy",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "cabot": {
     "id": "cabot",
@@ -16675,7 +17942,14 @@
       "tsm",
       "samsung",
       "intc"
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 62,
+      "growth": 82,
+      "innovation": 75,
+      "community": 48
+    }
   },
   "mp": {
     "id": "mp",
@@ -16764,7 +18038,14 @@
         "revenue": 0.2,
         "netIncome": -0.06
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "lynas": {
     "id": "lynas",
@@ -16845,7 +18126,14 @@
         "revenue": 0.35,
         "netIncome": 0.03
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "jlmag": {
     "id": "jlmag",
@@ -16924,7 +18212,14 @@
         "revenue": 0.9,
         "netIncome": 0.06
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "fcx": {
     "id": "fcx",
@@ -17001,7 +18296,14 @@
         "revenue": 25.5,
         "netIncome": 1.9
       }
-    ]
+    ],
+    "scores": {
+      "ai": 72,
+      "moat": 74,
+      "growth": 59,
+      "innovation": 72,
+      "community": 47
+    }
   },
   "scco": {
     "id": "scco",
@@ -17077,7 +18379,14 @@
         "revenue": 11.4,
         "netIncome": 3.4
       }
-    ]
+    ],
+    "scores": {
+      "ai": 72,
+      "moat": 74,
+      "growth": 59,
+      "innovation": 72,
+      "community": 47
+    }
   },
   "anduril": {
     "id": "anduril",
@@ -17151,7 +18460,14 @@
       "a16z",
       "General Catalyst",
       "8VC"
-    ]
+    ],
+    "scores": {
+      "ai": 86,
+      "moat": 74,
+      "growth": 86,
+      "innovation": 87,
+      "community": 60
+    }
   },
   "helsing": {
     "id": "helsing",
@@ -17224,7 +18540,14 @@
       "Accel",
       "Prima Materia",
       "Lightspeed"
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 58
+    }
   },
   "shield_ai": {
     "id": "shield_ai",
@@ -17296,7 +18619,14 @@
       "a16z",
       "Riot Ventures",
       "US Innovative Technology"
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 58
+    }
   },
   "neuralink": {
     "id": "neuralink",
@@ -17357,7 +18687,14 @@
     "investors": [
       "Founders Fund",
       "DFJ Growth"
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 50
+    }
   },
   "synchron": {
     "id": "synchron",
@@ -17414,7 +18751,14 @@
         "name": "Tom Oxley",
         "title": "创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 58
+    }
   },
   "precision_neuro": {
     "id": "precision_neuro",
@@ -17472,7 +18816,14 @@
         "name": "Michael Mager",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 58
+    }
   },
   "ionet": {
     "id": "ionet",
@@ -17524,7 +18875,14 @@
         "description": "聚合全球闲置 GPU 的去中心化算力网络(DePIN)。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 62,
+      "growth": 82,
+      "innovation": 75,
+      "community": 48
+    }
   },
   "render": {
     "id": "render",
@@ -17577,7 +18935,14 @@
         "description": "去中心化 GPU 渲染与算力网络,聚合闲置 GPU(DePIN)。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 73,
+      "moat": 61,
+      "growth": 81,
+      "innovation": 74,
+      "community": 48
+    }
   },
   "akash": {
     "id": "akash",
@@ -17629,7 +18994,14 @@
         "description": "去中心化云算力市场,「云计算的 Airbnb」(DePIN)。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 73,
+      "moat": 61,
+      "growth": 81,
+      "innovation": 74,
+      "community": 48
+    }
   },
   "bittensor": {
     "id": "bittensor",
@@ -17678,7 +19050,14 @@
         "description": "用区块链激励协作训练模型的去中心化机器学习网络。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 73,
+      "moat": 53,
+      "growth": 74,
+      "innovation": 76,
+      "community": 92
+    }
   },
   "inworld": {
     "id": "inworld",
@@ -17736,7 +19115,14 @@
         "name": "Ilya Gelfenbeyn",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 70
+    }
   },
   "scenario": {
     "id": "scenario",
@@ -17787,7 +19173,14 @@
         "description": "用自有素材训练专属模型,按项目风格批量生成一致游戏资产。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 77,
+      "moat": 65,
+      "growth": 83,
+      "innovation": 78,
+      "community": 69
+    }
   },
   "tii": {
     "id": "tii",
@@ -17838,7 +19231,14 @@
         "description": "阿联酋研究院的开源大模型系列,曾是最强开源模型之一。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 58,
+      "growth": 74,
+      "innovation": 81,
+      "community": 92
+    }
   },
   "quora": {
     "id": "quora",
@@ -17896,7 +19296,14 @@
         "description": "全球知名的问答社区。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 66,
+      "growth": 83,
+      "innovation": 79,
+      "community": 70
+    }
   },
   "kuaishou": {
     "id": "kuaishou",
@@ -17988,7 +19395,14 @@
         "revenue": 18,
         "netIncome": 2.6
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 82,
+      "growth": 66,
+      "innovation": 82,
+      "community": 72
+    }
   },
   "cartesia": {
     "id": "cartesia",
@@ -18053,7 +19467,14 @@
         "name": "Albert Gu",
         "title": "联合创始人"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 72
+    }
   },
   "robotera": {
     "id": "robotera",
@@ -18112,7 +19533,14 @@
         "name": "陈建宇",
         "title": "创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 81,
+      "moat": 69,
+      "growth": 84,
+      "innovation": 82,
+      "community": 72
+    }
   },
   "engineai": {
     "id": "engineai",
@@ -18165,7 +19593,14 @@
         "description": "以自然流畅步态出圈的人形机器人,自研电机/关节/控制。",
         "status": "研发"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 66,
+      "growth": 83,
+      "innovation": 79,
+      "community": 57
+    }
   },
   "momenta": {
     "id": "momenta",
@@ -18242,7 +19677,14 @@
         "revenue": 0.15,
         "netIncome": -0.2
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 82,
+      "growth": 66,
+      "innovation": 82,
+      "community": 58
+    }
   },
   "augment": {
     "id": "augment",
@@ -18301,7 +19743,14 @@
         "name": "Scott Dietzen",
         "title": "CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
+    }
   },
   "astera": {
     "id": "astera",
@@ -18390,7 +19839,14 @@
         "revenue": 0.9,
         "netIncome": 0.2
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "credo": {
     "id": "credo",
@@ -18478,7 +19934,14 @@
         "revenue": 0.44,
         "netIncome": 0.05
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "sourcegraph": {
     "id": "sourcegraph",
@@ -18618,7 +20081,14 @@
       "a16z",
       "NEA",
       "Radical Ventures"
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 72,
+      "growth": 86,
+      "innovation": 85,
+      "community": 73
+    }
   },
   "sakana": {
     "id": "sakana",
@@ -18686,7 +20156,14 @@
         "name": "Llion Jones",
         "title": "联合创始人兼 CTO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
+    }
   },
   "aleph": {
     "id": "aleph",
@@ -18738,7 +20215,14 @@
         "description": "面向欧洲政企、可私有部署、强调可解释与合规的 AI 平台。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 66,
+      "growth": 83,
+      "innovation": 79,
+      "community": 70
+    }
   },
   "moveworks": {
     "id": "moveworks",
@@ -19256,7 +20740,14 @@
         "description": "无需编程、用自然语言搭建自动化 AI 智能体。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 66,
+      "growth": 83,
+      "innovation": 79,
+      "community": 70
+    }
   },
   "multion": {
     "id": "multion",
@@ -19308,7 +20799,14 @@
         "description": "能自主操作网页、替你完成上网任务的 AI 智能体。",
         "status": "研发"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 77,
+      "moat": 65,
+      "growth": 83,
+      "innovation": 78,
+      "community": 69
+    }
   },
   "skild": {
     "id": "skild",
@@ -19373,7 +20871,14 @@
       "Lightspeed",
       "Coatue",
       "英伟达"
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 72,
+      "growth": 86,
+      "innovation": 85,
+      "community": 73
+    }
   },
   "dexterity": {
     "id": "dexterity",
@@ -19430,7 +20935,14 @@
         "name": "Samir Menon",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 58
+    }
   },
   "cobot": {
     "id": "cobot",
@@ -19488,7 +21000,14 @@
         "name": "Brad Porter",
         "title": "创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 58
+    }
   },
   "waabi": {
     "id": "waabi",
@@ -19558,7 +21077,14 @@
       "Khosla Ventures",
       "英伟达",
       "Volvo"
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 72
+    }
   },
   "appliedintuition": {
     "id": "appliedintuition",
@@ -19620,7 +21146,14 @@
       "Lux Capital",
       "a16z",
       "General Catalyst"
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 58
+    }
   },
   "qdrant": {
     "id": "qdrant",
@@ -19675,6 +21208,13 @@
     ],
     "links": {
       "github": "https://github.com/qdrant"
+    },
+    "scores": {
+      "ai": 77,
+      "moat": 57,
+      "growth": 83,
+      "innovation": 80,
+      "community": 92
     }
   },
   "zilliz": {
@@ -19731,6 +21271,13 @@
     ],
     "links": {
       "github": "https://github.com/milvus-io"
+    },
+    "scores": {
+      "ai": 77,
+      "moat": 57,
+      "growth": 83,
+      "innovation": 80,
+      "community": 92
     }
   },
   "mercor": {
@@ -19794,7 +21341,14 @@
       "openai",
       "anthropic",
       "meta"
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 58
+    }
   },
   "turing": {
     "id": "turing",
@@ -19855,7 +21409,14 @@
     "keyCustomers": [
       "openai",
       "googl"
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 58
+    }
   },
   "paradromics": {
     "id": "paradromics",
@@ -19907,7 +21468,14 @@
         "description": "高带宽植入式脑机接口,首要用于帮瘫痪失语患者恢复沟通。",
         "status": "临床试验"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 66,
+      "growth": 83,
+      "innovation": 79,
+      "community": 57
+    }
   },
   "saronic": {
     "id": "saronic",
@@ -19964,7 +21532,14 @@
         "name": "Dino Mavrookas",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 58
+    }
   },
   "ssi": {
     "id": "ssi",
@@ -20030,7 +21605,14 @@
       "DST Global",
       "Greenoaks",
       "英伟达"
-    ]
+    ],
+    "scores": {
+      "ai": 90,
+      "moat": 78,
+      "growth": 88,
+      "innovation": 91,
+      "community": 77
+    }
   },
   "thinkingmachines": {
     "id": "thinkingmachines",
@@ -20101,7 +21683,14 @@
       "英伟达",
       "AMD",
       "Accel"
-    ]
+    ],
+    "scores": {
+      "ai": 88,
+      "moat": 76,
+      "growth": 87,
+      "innovation": 89,
+      "community": 76
+    }
   },
   "deepgram": {
     "id": "deepgram",
@@ -20317,7 +21906,14 @@
         "name": "Dylan Fox",
         "title": "创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
+    }
   },
   "dmatrix": {
     "id": "dmatrix",
@@ -20376,7 +21972,14 @@
         "name": "Sid Sheth",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "positron": {
     "id": "positron",
@@ -20429,7 +22032,14 @@
         "description": "专为 Transformer 推理优化的高能效专用芯片。",
         "status": "研发"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 77,
+      "moat": 65,
+      "growth": 83,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "rainai": {
     "id": "rainai",
@@ -20481,7 +22091,14 @@
         "description": "模仿人脑的神经形态芯片,追求极致能效,获 Sam Altman 投资。",
         "status": "研发"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 62,
+      "growth": 82,
+      "innovation": 75,
+      "community": 48
+    }
   },
   "robin_ai": {
     "id": "robin_ai",
@@ -20538,7 +22155,14 @@
         "name": "Richard Robinson",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 70
+    }
   },
   "nabla": {
     "id": "nabla",
@@ -20595,7 +22219,14 @@
         "name": "Alexandre Lebrun",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
+    }
   },
   "suki": {
     "id": "suki",
@@ -20653,7 +22284,14 @@
         "name": "Punit Soni",
         "title": "创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 68,
+      "growth": 84,
+      "innovation": 81,
+      "community": 71
+    }
   },
   "alchip": {
     "id": "alchip",
@@ -20744,7 +22382,14 @@
         "revenue": 1.3,
         "netIncome": 0.2
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 72
+    }
   },
   "guc": {
     "id": "guc",
@@ -20829,7 +22474,14 @@
         "revenue": 0.95,
         "netIncome": 0.14
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 71
+    }
   },
   "faraday": {
     "id": "faraday",
@@ -20910,7 +22562,14 @@
         "revenue": 0.4,
         "netIncome": 0.05
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 76,
+      "growth": 61,
+      "innovation": 74,
+      "community": 67
+    }
   },
   "andes": {
     "id": "andes",
@@ -20991,7 +22650,14 @@
         "revenue": 0.1,
         "netIncome": 0.02
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "ememory": {
     "id": "ememory",
@@ -21073,7 +22739,14 @@
         "revenue": 0.2,
         "netIncome": 0.09
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "umc": {
     "id": "umc",
@@ -21156,7 +22829,14 @@
       "qualcomm",
       "mediatek",
       "nvda"
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "wistron": {
     "id": "wistron",
@@ -21247,7 +22927,14 @@
         "revenue": 32,
         "netIncome": 1
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "inventec": {
     "id": "inventec",
@@ -21331,7 +23018,14 @@
         "revenue": 20,
         "netIncome": 0.2
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "gigabyte": {
     "id": "gigabyte",
@@ -21418,7 +23112,14 @@
         "revenue": 12,
         "netIncome": 0.6
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "pegatron": {
     "id": "pegatron",
@@ -21501,7 +23202,14 @@
         "revenue": 40,
         "netIncome": 0.8
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 76,
+      "growth": 61,
+      "innovation": 74,
+      "community": 48
+    }
   },
   "accton": {
     "id": "accton",
@@ -21584,7 +23292,14 @@
         "revenue": 3.5,
         "netIncome": 0.5
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "avc": {
     "id": "avc",
@@ -21671,7 +23386,14 @@
         "revenue": 1.8,
         "netIncome": 0.25
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "auras": {
     "id": "auras",
@@ -21751,7 +23473,14 @@
         "revenue": 0.8,
         "netIncome": 0.1
       }
-    ]
+    ],
+    "scores": {
+      "ai": 77,
+      "moat": 79,
+      "growth": 63,
+      "innovation": 77,
+      "community": 49
+    }
   },
   "zhending": {
     "id": "zhending",
@@ -21828,7 +23557,14 @@
         "revenue": 4.2,
         "netIncome": 0.35
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "liteon": {
     "id": "liteon",
@@ -21908,7 +23644,14 @@
         "revenue": 5.3,
         "netIncome": 0.5
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "nanya": {
     "id": "nanya",
@@ -21986,7 +23729,14 @@
         "revenue": 1.5,
         "netIncome": -0.1
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 76,
+      "growth": 61,
+      "innovation": 74,
+      "community": 48
+    }
   },
   "asus": {
     "id": "asus",
@@ -22067,7 +23817,14 @@
         "revenue": 19,
         "netIncome": 0.9
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "wolfspeed": {
     "id": "wolfspeed",
@@ -22146,7 +23903,14 @@
         "revenue": 0.76,
         "netIncome": -1
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 76,
+      "growth": 61,
+      "innovation": 74,
+      "community": 48
+    }
   },
   "ifx": {
     "id": "ifx",
@@ -22229,7 +23993,14 @@
         "revenue": 16,
         "netIncome": 1.4
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "apple": {
     "id": "apple",
@@ -22328,7 +24099,14 @@
         "name": "Tim Cook",
         "title": "CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 88,
+      "moat": 90,
+      "growth": 71,
+      "innovation": 88,
+      "community": 52
+    }
   },
   "qualcomm": {
     "id": "qualcomm",
@@ -22426,7 +24204,14 @@
         "name": "Cristiano Amon",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "mediatek": {
     "id": "mediatek",
@@ -22528,7 +24313,14 @@
         "revenue": 16.5,
         "netIncome": 3.5
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "ibm": {
     "id": "ibm",
@@ -22619,7 +24411,14 @@
         "name": "Arvind Krishna",
         "title": "董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "oracle": {
     "id": "oracle",
@@ -22720,7 +24519,14 @@
         "description": "全球领先的企业级数据库,正深度融入 AI 能力。",
         "status": "GA"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 86,
+      "growth": 68,
+      "innovation": 84,
+      "community": 51
+    }
   },
   "applovin": {
     "id": "applovin",
@@ -22803,7 +24609,14 @@
         "name": "Adam Foroughi",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 82,
+      "growth": 66,
+      "innovation": 82,
+      "community": 72
+    }
   },
   "ttd": {
     "id": "ttd",
@@ -22893,7 +24706,14 @@
         "name": "Jeff Green",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 80,
+      "growth": 65,
+      "innovation": 80,
+      "community": 71
+    }
   },
   "ionq": {
     "id": "ionq",
@@ -22980,7 +24800,14 @@
         "revenue": 0.043,
         "netIncome": -0.33
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "rigetti": {
     "id": "rigetti",
@@ -23055,7 +24882,14 @@
         "revenue": 0.011,
         "netIncome": -0.2
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 76,
+      "growth": 61,
+      "innovation": 74,
+      "community": 48
+    }
   },
   "dwave": {
     "id": "dwave",
@@ -23131,7 +24965,14 @@
         "revenue": 0.009,
         "netIncome": -0.14
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 76,
+      "growth": 61,
+      "innovation": 74,
+      "community": 67
+    }
   },
   "psiquantum": {
     "id": "psiquantum",
@@ -23183,7 +25024,14 @@
         "description": "用光子做量子比特,直接瞄准百万量子比特容错量子机。",
         "status": "研发"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 66,
+      "growth": 83,
+      "innovation": 79,
+      "community": 57
+    }
   },
   "quantinuum": {
     "id": "quantinuum",
@@ -23259,7 +25107,14 @@
         "revenue": 0.026,
         "netIncome": -0.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 80,
+      "growth": 65,
+      "innovation": 80,
+      "community": 58
+    }
   },
   "hesai": {
     "id": "hesai",
@@ -23345,7 +25200,14 @@
         "revenue": 0.29,
         "netIncome": -0.14
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 82,
+      "growth": 66,
+      "innovation": 82,
+      "community": 58
+    }
   },
   "luminar": {
     "id": "luminar",
@@ -23419,7 +25281,14 @@
         "revenue": 0.076,
         "netIncome": -0.35
       }
-    ]
+    ],
+    "scores": {
+      "ai": 72,
+      "moat": 72,
+      "growth": 59,
+      "innovation": 72,
+      "community": 55
+    }
   },
   "ouster": {
     "id": "ouster",
@@ -23494,7 +25363,14 @@
         "revenue": 0.11,
         "netIncome": -0.1
       }
-    ]
+    ],
+    "scores": {
+      "ai": 72,
+      "moat": 72,
+      "growth": 59,
+      "innovation": 72,
+      "community": 55
+    }
   },
   "horizon": {
     "id": "horizon",
@@ -23584,7 +25460,14 @@
         "revenue": 0.32,
         "netIncome": -0.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "eqix": {
     "id": "eqix",
@@ -23666,7 +25549,14 @@
         "name": "Adaire Fox-Martin",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "dlr": {
     "id": "dlr",
@@ -23748,7 +25638,14 @@
         "name": "Andy Power",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "gds": {
     "id": "gds",
@@ -23831,7 +25728,14 @@
         "revenue": 1.6,
         "netIncome": -0.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "irm": {
     "id": "irm",
@@ -23907,7 +25811,14 @@
         "revenue": 6.1,
         "netIncome": 0.18
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 76,
+      "growth": 61,
+      "innovation": 74,
+      "community": 48
+    }
   },
   "bloomberg": {
     "id": "bloomberg",
@@ -23972,7 +25883,14 @@
         "name": "Michael Bloomberg",
         "title": "创始人"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 70,
+      "growth": 85,
+      "innovation": 83,
+      "community": 72
+    }
   },
   "blackrock": {
     "id": "blackrock",
@@ -24061,7 +25979,14 @@
         "name": "Larry Fink",
         "title": "创始人、董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 80,
+      "growth": 65,
+      "innovation": 80,
+      "community": 58
+    }
   },
   "duolingo": {
     "id": "duolingo",
@@ -24153,7 +26078,14 @@
         "name": "Luis von Ahn",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 80,
+      "growth": 65,
+      "innovation": 80,
+      "community": 71
+    }
   },
   "speak": {
     "id": "speak",
@@ -24398,7 +26330,14 @@
         "name": "Bing Wu",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 70
+    }
   },
   "vapi": {
     "id": "vapi",
@@ -24455,7 +26394,14 @@
         "name": "Jordan Dearsley",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 79,
+      "moat": 67,
+      "growth": 84,
+      "innovation": 80,
+      "community": 70
+    }
   },
   "crowdstrike": {
     "id": "crowdstrike",
@@ -24545,7 +26491,14 @@
         "revenue": 3.95,
         "netIncome": -0.02
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 86,
+      "growth": 68,
+      "innovation": 84,
+      "community": 51
+    }
   },
   "paloalto": {
     "id": "paloalto",
@@ -24635,7 +26588,14 @@
         "name": "Nikesh Arora",
         "title": "董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 86,
+      "growth": 68,
+      "innovation": 84,
+      "community": 51
+    }
   },
   "sentinelone": {
     "id": "sentinelone",
@@ -24716,7 +26676,14 @@
         "revenue": 0.82,
         "netIncome": -0.29
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "zscaler": {
     "id": "zscaler",
@@ -24797,7 +26764,14 @@
         "revenue": 2.66,
         "netIncome": 0.1
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "wiz": {
     "id": "wiz",
@@ -24857,7 +26831,14 @@
         "name": "Assaf Rappaport",
         "title": "联合创始人兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 84,
+      "moat": 72,
+      "growth": 86,
+      "innovation": 85,
+      "community": 51
+    }
   },
   "planet": {
     "id": "planet",
@@ -24933,7 +26914,14 @@
         "revenue": 0.24,
         "netIncome": -0.12
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 76,
+      "growth": 62,
+      "innovation": 76,
+      "community": 57
+    }
   },
   "blacksky": {
     "id": "blacksky",
@@ -25008,7 +26996,14 @@
         "revenue": 0.1,
         "netIncome": -0.12
       }
-    ]
+    ],
+    "scores": {
+      "ai": 74,
+      "moat": 74,
+      "growth": 61,
+      "innovation": 74,
+      "community": 56
+    }
   },
   "smci": {
     "id": "smci",
@@ -25101,7 +27096,14 @@
         "name": "梁见后 (Charles Liang)",
         "title": "创始人、董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "dell": {
     "id": "dell",
@@ -25197,7 +27199,14 @@
         "name": "Michael Dell",
         "title": "创始人、董事长兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "hpe": {
     "id": "hpe",
@@ -25284,7 +27293,14 @@
         "name": "Antonio Neri",
         "title": "总裁兼 CEO"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "fii": {
     "id": "fii",
@@ -25381,7 +27397,14 @@
         "revenue": 85,
         "netIncome": 3.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "quantacomputer": {
     "id": "quantacomputer",
@@ -25474,7 +27497,14 @@
         "revenue": 45,
         "netIncome": 1.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "wiwynn": {
     "id": "wiwynn",
@@ -25567,7 +27597,14 @@
         "revenue": 18,
         "netIncome": 0.9
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "amphenol": {
     "id": "amphenol",
@@ -25654,7 +27691,14 @@
         "revenue": 15.2,
         "netIncome": 2.3
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 80,
+      "growth": 65,
+      "innovation": 80,
+      "community": 58
+    }
   },
   "te": {
     "id": "te",
@@ -25735,7 +27779,14 @@
         "revenue": 15.8,
         "netIncome": 2.5
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "wus": {
     "id": "wus",
@@ -25817,7 +27868,14 @@
         "revenue": 1.7,
         "netIncome": 0.4
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "victory": {
     "id": "victory",
@@ -25897,7 +27955,14 @@
         "revenue": 1.6,
         "netIncome": 0.2
       }
-    ]
+    ],
+    "scores": {
+      "ai": 77,
+      "moat": 79,
+      "growth": 63,
+      "innovation": 77,
+      "community": 49
+    }
   },
   "ttm": {
     "id": "ttm",
@@ -25977,7 +28042,14 @@
         "revenue": 2.4,
         "netIncome": 0.1
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "delta": {
     "id": "delta",
@@ -26075,7 +28147,14 @@
         "revenue": 13.5,
         "netIncome": 1.4
       }
-    ]
+    ],
+    "scores": {
+      "ai": 82,
+      "moat": 84,
+      "growth": 66,
+      "innovation": 82,
+      "community": 50
+    }
   },
   "mpwr": {
     "id": "mpwr",
@@ -26163,7 +28242,14 @@
         "revenue": 2.2,
         "netIncome": 0.62
       }
-    ]
+    ],
+    "scores": {
+      "ai": 80,
+      "moat": 82,
+      "growth": 65,
+      "innovation": 80,
+      "community": 50
+    }
   },
   "vicor": {
     "id": "vicor",
@@ -26241,7 +28327,14 @@
         "revenue": 0.36,
         "netIncome": 0.02
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 78,
+      "growth": 62,
+      "innovation": 76,
+      "community": 49
+    }
   },
   "manus": {
     "id": "manus",
@@ -26440,7 +28533,14 @@
         "description": "能自主操作软件的 AI 智能体先驱(核心团队多入亚马逊)。",
         "status": "研发"
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 64,
+      "growth": 82,
+      "innovation": 77,
+      "community": 69
+    }
   },
   "sanhua": {
     "id": "sanhua",
@@ -26527,7 +28627,14 @@
         "revenue": 4,
         "netIncome": 0.45
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 78,
+      "growth": 64,
+      "innovation": 78,
+      "community": 57
+    }
   },
   "topu": {
     "id": "topu",
@@ -26607,7 +28714,14 @@
         "revenue": 3.4,
         "netIncome": 0.4
       }
-    ]
+    ],
+    "scores": {
+      "ai": 76,
+      "moat": 76,
+      "growth": 62,
+      "innovation": 76,
+      "community": 57
+    }
   },
   "inovance": {
     "id": "inovance",
@@ -26691,7 +28805,14 @@
         "revenue": 5.1,
         "netIncome": 0.6
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   },
   "leaderdrive": {
     "id": "leaderdrive",
@@ -26771,6 +28892,13 @@
         "revenue": 0.07,
         "netIncome": 0.015
       }
-    ]
+    ],
+    "scores": {
+      "ai": 78,
+      "moat": 80,
+      "growth": 64,
+      "innovation": 78,
+      "community": 49
+    }
   }
 }
