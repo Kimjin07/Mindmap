@@ -112,6 +112,27 @@
     ],
     "news": [
       {
+        "title": "FY2026 Q3 营收 829 亿美元,Azure 增 40%、AI 年化收入超 37…",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "微软 2026 财年三季度营收 828.9 亿美元,同比增 18.3%,摊薄 EPS 4.27 美元;Azure 及其他云服务收入增长 40%,AI 年化收入超过 370 亿美元,业绩全面超预期。",
+        "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html"
+      },
+      {
+        "title": "修订与 OpenAI 关系:终止收入分成,放开云独占",
+        "date": "2026-04",
+        "category": "重大",
+        "summary": "微软宣布调整与 OpenAI 的合作条款,终止收入分成安排,任何云服务商均可承载 OpenAI 模型,双方关系从独占转向更开放的合作模式。",
+        "url": "https://redmondmag.com/articles/2026/04/28/microsoft-openai-restructure-partnership.aspx"
+      },
+      {
+        "title": "自研 Maia 200 AI 加速器上线,单位成本 token 产出提升超 30%",
+        "date": "2026-04",
+        "category": "研发",
+        "summary": "微软披露自研 Maia 200 AI 加速器已在爱荷华与亚利桑那数据中心投入运行,每美元 token 产出提升逾 30%;Cobalt 服务器 CPU 已部署至近半数数据中心区域。",
+        "url": "https://news.microsoft.com/source/2026/04/29/microsoft-cloud-and-ai-strength-fuels-third-quarter-results/"
+      },
+      {
         "title": "AI 资本开支持续创纪录,Copilot 深入全线产品",
         "date": "2026",
         "category": "业务",
@@ -246,6 +267,27 @@
         "category": "产品",
         "summary": "Gemini 3.5 Flash 正式版主打持续的前沿智能体与编码能力、约百万 token 上下文;旗舰 3.5 Pro 因架构从头重构推迟至 7 月 17 日,引入 200 万 token 上下文与 Deep Think 推理层。",
         "url": "https://ai.google.dev/gemini-api/docs/changelog"
+      },
+      {
+        "title": "Q1 2026 营收 1099 亿美元增 22%,云业务大增 63%",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "Alphabet 2026 年一季度营收 1099 亿美元,同比增长 22%,净利润增 81%;谷歌云营收增长 63% 首次突破 200 亿美元,积压订单近乎环比翻倍至逾 4600 亿美元。",
+        "url": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html"
+      },
+      {
+        "title": "上调 2026 年资本开支指引至 1800-1900 亿美元",
+        "date": "2026-04",
+        "category": "业务",
+        "summary": "因算力「近期受限」、云需求无法完全满足,Alphabet 将 2026 年资本开支指引从 1750-1850 亿美元上调至 1800-1900 亿美元,继续加码 AI 基础设施。",
+        "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q1-2026/"
+      },
+      {
+        "title": "AI 付费订阅达 3.5 亿,Gemini 企业版付费用户环比增 40%",
+        "date": "2026-04",
+        "category": "进展",
+        "summary": "Alphabet 称一季度为消费级 AI 订阅史上最强季度,整体付费订阅达 3.5 亿;Gemini Enterprise 付费月活环比增 40%,自研模型每分钟处理超 160 亿 token,环比增 60%。",
+        "url": "https://abc.xyz/investor/events/event-details/2026/2026-Q1-Earnings-Call-2026-nW8kCrBAKS/default.aspx"
       }
     ]
   },
@@ -363,6 +405,27 @@
       }
     ],
     "news": [
+      {
+        "title": "GTC 2026:黄仁勋预计 Blackwell+Rubin 订单达 1 万亿美元",
+        "date": "2026-03",
+        "category": "重大",
+        "summary": "在 GTC 2026 大会上,CEO 黄仁勋表示预计到 2027 年 Blackwell 与 Vera Rubin 两代平台的采购订单总额将达 1 万亿美元,较此前 5000 亿美元的展望翻倍。",
+        "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"
+      },
+      {
+        "title": "Q4 FY2026 营收约 680 亿美元,下季指引 780 亿",
+        "date": "2026-02",
+        "category": "财报",
+        "summary": "英伟达公布 2026 财年四季度业绩,营收约 680 亿美元超预期,并给出 2027 财年一季度 780 亿美元的营收指引,Rubin 样片已向头部客户出货、下半年量产。",
+        "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-26-nvidia-q4-2026-earnings-rubin-gpu-ramp-and-68-billion-revenue-blowout"
+      },
+      {
+        "title": "CES 发布 Rubin 平台:六款新芯片,已全面量产",
+        "date": "2026-01",
+        "category": "产品",
+        "summary": "英伟达在 CES 宣布 Vera Rubin 芯片进入全面量产,Rubin 平台含六款新芯片,推理 token 成本较 Blackwell 最高降 10 倍;AWS、谷歌云、微软等将于 2026 年内率先部署。",
+        "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer"
+      },
       {
         "title": "Q3 FY2026 数据中心营收创纪录,Blackwell「供不应求」",
         "date": "2026",
@@ -507,6 +570,20 @@
     ],
     "news": [
       {
+        "title": "Q2 交付约 48 万辆超预期,储能部署 13.5 GWh",
+        "date": "2026-07",
+        "category": "财报",
+        "summary": "特斯拉 2026 年 Q2 生产约 45.2 万辆、交付约 48 万辆,大幅好于市场预期,储能部署达 13.5 GWh;财报定于 7 月 22 日盘后发布,市场焦点转向毛利率与 FSD。",
+        "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262018485-tesla-q2-2026-deliveries-fsd-robotaxi-margin-analysis-tradingkey"
+      },
+      {
+        "title": "Robotaxi 登陆迈阿密,得州三城约 59 辆车队运营中",
+        "date": "2026-07",
+        "category": "落地",
+        "summary": "特斯拉 Robotaxi 在迈阿密小范围地理围栏上线,奥斯汀、达拉斯、休斯敦约 59 辆运营;马斯克称有意义的 Robotaxi 营收或要到 2027 年,约 400 万辆车需硬件升级才能实现无监督自动驾驶。",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/did-tesla-miami-robotaxi-launch-221357688.html"
+      },
+      {
         "title": "Optimus V3 将于 2026 夏在弗里蒙特投产;超千台 Gen 3 已在产线工作",
         "date": "2026",
         "category": "机器人",
@@ -630,6 +707,27 @@
         "category": "产品",
         "summary": "由从 Scale AI 加入的首席 AI 官 Alexandr Wang 领衔的 Meta 超级智能实验室打造,是 Meta 首次转向专有基础模型(而非严格开源);2026 年 AI 资本开支达 1150–1350 亿美元,近去年两倍。",
         "url": "https://ai.meta.com/blog/"
+      },
+      {
+        "title": "Q1 2026 营收 563 亿美元增 33%,净利 268 亿超预期",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "Meta 一季度营收 563.1 亿美元,同比增长 33%,EPS 10.44 美元远超市场预期,净利润 267.7 亿美元;Llama 4 在广告排序中的应用成为增长亮点。",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx"
+      },
+      {
+        "title": "进军算力出售业务,与 AWS、Azure、谷歌云正面竞争",
+        "date": "2026",
+        "category": "业务",
+        "summary": "据报道 Meta 计划对外出售其 AI 算力资源,将自建的大规模数据中心能力商业化,直接切入 AWS、Azure 与谷歌云所在的云计算市场。",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-wants-sell-ai-compute-171055420.html"
+      },
+      {
+        "title": "多吉瓦级集群 Prometheus 于 2026 年上线,Hyperion 规划 5GW",
+        "date": "2026",
+        "category": "落地",
+        "summary": "Meta 的多吉瓦级 AI 数据中心集群 Prometheus 计划于 2026 年投入运行,另一集群 Hyperion 将在数年内扩展至 5 吉瓦,支撑其「个人超级智能」战略。",
+        "url": "https://www.datacenterdynamics.com/en/news/meta-delivers-blowout-earnings-says-it-will-ramp-ai-data-center-investment-significantly-in-2026/"
       }
     ]
   },
@@ -738,6 +836,20 @@
       "community": 52
     },
     "news": [
+      {
+        "title": "Q1 营收 103 亿美元同比 +38%,数据中心 58 亿创纪录",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "AMD 2026 财年 Q1 营收 103 亿美元(+38%),EPS 1.37 美元;数据中心营收 58 亿美元同比 +57%,受 EPYC 与 Instinct MI350 强劲需求驱动,Q2 指引 112 亿美元,财报后股价大涨。",
+        "url": "https://qz.com/amd-first-quarter-2026-earnings-revenue-data-center-050526"
+      },
+      {
+        "title": "与 Meta 扩大合作:再部署 6GW GPU,含定制 MI450 加速器",
+        "date": "2026-02",
+        "category": "合同",
+        "summary": "2 月 24 日 AMD 与 Meta 宣布扩大合作,将跨多代 Instinct 产品再部署 6 吉瓦 AMD GPU,其中包括基于 MI450 架构的定制加速器,继 OpenAI 之后再获超大规模客户锁定。",
+        "url": "https://futurumgroup.com/insights/amd-q1-fy-2026-data-center-momentum-builds-as-ai-deployments-scale/"
+      },
       {
         "title": "OpenAI 入股约 10% 锁定 6GW GPU;MI400 下半年量产",
         "date": "2026",
@@ -955,6 +1067,27 @@
     ],
     "news": [
       {
+        "title": "Q2 FY2026 营收 222 亿美元,AI 芯片单季 108 亿创新高",
+        "date": "2026-06",
+        "category": "财报",
+        "summary": "博通 2026 财年第二季度营收 222 亿美元,同比增长 48%;AI 半导体收入达创纪录的 108 亿美元,同比大增 143%,并指引下季营收约 294 亿美元。",
+        "url": "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html"
+      },
+      {
+        "title": "Tomahawk 6 交换芯片开始批量出货,102.4Tbps 全球最快",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "全球首款 102.4Tbps 交换芯片 Tomahawk 6 进入批量出货阶段,带动网络业务同比增长 60%,在同性能级别暂无直接竞争对手。",
+        "url": "https://www.investing.com/analysis/broadcom-earnings-power-still-backs-the-ai-chip-trade-200679307"
+      },
+      {
+        "title": "重申 2027 财年 AI 半导体营收将超 1000 亿美元",
+        "date": "2026-06",
+        "category": "业务",
+        "summary": "博通在 Q2 财报中重申 2027 财年 AI 半导体收入将超过 1000 亿美元的指引,定制 XPU 加速器与网络芯片双引擎驱动增长。",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-q2-2026-earnings-ai-111613207.html"
+      },
+      {
         "title": "AI 芯片营收单季 84 亿美元(+106%),定制 XPU 客户扩容",
         "date": "2026",
         "category": "业务",
@@ -1053,10 +1186,24 @@
     },
     "news": [
       {
+        "title": "Q1 2026 营收 27.1 亿美元(+35%)，上调全年目标至 115 亿",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "Arista 2026 年一季度营收 27.09 亿美元，同比增长 35.1%，非 GAAP 每股收益 0.87 美元均超预期；公司将全年营收指引上调至 115 亿美元，AI 网络收入目标升至 35 亿美元。",
+        "url": "https://www.arista.com/en/company/news/press-release/24017-pr-20260505"
+      },
+      {
         "title": "AI 数据中心以太网需求强劲,后端网络份额扩大",
         "date": "2026",
         "category": "业务",
         "summary": "云巨头 GPU 集群后端网络从 InfiniBand 转向以太网趋势下,Arista 交换机+EOS 系统持续受益,业绩保持高增长。"
+      },
+      {
+        "title": "发布 1.6T AI 网络平台，瞄准机架级 AI 数据中心",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Arista 推出面向下一代 AI 数据中心的 1.6T 网络平台及 XPO 方案，相较传统可插拔光模块可减少最多 75% 的网络机架并节省约 44% 占地面积，Scale-across 预计贡献 AI 收入目标的三分之一以上。",
+        "url": "https://simplywall.st/stocks/us/tech/nyse-anet/arista-networks/news/arista-networks-anet-is-up-104-after-boosting-2026-outlook-a"
       }
     ]
   },
@@ -1165,6 +1312,20 @@
     },
     "news": [
       {
+        "title": "Q1 净利 5725 亿新台币,批准向亚利桑那子公司注资 200 亿美元",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "台积电 2026 年一季度营收 11341 亿新台币、净利润 5724.8 亿新台币;董事会批准向 TSMC Arizona 注资至多 200 亿美元,加速美国产能扩张,亚利桑那二厂已建成、2026 年装机。",
+        "url": "https://www.stocktitan.net/sec-filings/TSM/6-k-taiwan-semiconductor-manufacturing-co-ltd-current-report-foreign--05f713e6aa54.html"
+      },
+      {
+        "title": "2026 年资本开支上调至 520-560 亿美元,最多增 40%",
+        "date": "2026-01",
+        "category": "业务",
+        "summary": "台积电宣布 2026 年资本开支计划为 520 亿-560 亿美元,较 2025 年最多增加 40%,其中 70-80% 投向 N3、N2 及更先进制程,并规划亚利桑那第四厂与首座先进封装厂。",
+        "url": "https://www.datacenterdynamics.com/en/news/tsmc-announces-2026-capex-spend-of-56bn-after-posting-eighth-consecutive-quarter-of-growth/"
+      },
+      {
         "title": "2nm 产能 2026 年全数订满,毛利率近 70%,先进制程涨价",
         "date": "2026",
         "category": "业务",
@@ -1259,10 +1420,24 @@
     },
     "news": [
       {
+        "title": "Q1 FY2026 营收 64 亿美元，AI-first ARR 同比三倍突破 5 亿美元",
+        "date": "2026-03",
+        "category": "财报",
+        "summary": "Adobe 2026 财年一季度营收 64.0 亿美元，非 GAAP EPS 6.06 美元，经营利润率 47.4%；AI-first 年度经常性收入同比增长约三倍至 5 亿美元以上，Acrobat AI Assistant ARR 亦增长约三倍。",
+        "url": "https://futurumgroup.com/insights/adobe-q1-fy-2026-earnings-show-ai-monetization-progress-amid-ceo-transition/"
+      },
+      {
         "title": "Firefly 商用安全生成全面融入 Creative Cloud",
         "date": "2026",
         "category": "产品",
         "summary": "以版权安全为卖点的生成式模型持续迭代,PS/PR 等全家桶 AI 化,同时应对 Sora 等生成式视频的冲击。"
+      },
+      {
+        "title": "Firefly 总 ARR 逼近 3 亿美元，可口可乐、SAP 等以定制模型工业化生产内容",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Firefly 应用、点数包与企业业务合计 ARR 接近 3 亿美元，消费端业务环比增长约 50%；可口可乐、SAP、Tesco 等品牌利用定制模型批量生成内容，企业生成资产量同比增长逾 4 倍。",
+        "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-12-adobe-adbe-deep-dive-can-firefly-ai-monetization-save-the-legacy-king"
       }
     ]
   },
@@ -1355,10 +1530,24 @@
     ],
     "news": [
       {
+        "title": "FY26 营收 415 亿美元，Agentforce ARR 达 8 亿(+169%)",
+        "date": "2026-02",
+        "category": "财报",
+        "summary": "Salesforce 2026 财年营收 415 亿美元，同比增长 10%；Agentforce ARR 达 8 亿美元、同比增长 169%，累计消耗近 20 万亿 token；公司给出 FY27 营收指引 458-462 亿美元。",
+        "url": "https://www.salesforce.com/news/press-releases/2026/02/25/fy26-q4-earnings/"
+      },
+      {
         "title": "Agentforce 企业智能体平台成新增长引擎",
         "date": "2026",
         "category": "产品",
         "summary": "让企业在 CRM 里部署自主 AI 代理,按用量计费打开新模式;并深度接入 Anthropic Claude 服务受监管行业。"
+      },
+      {
+        "title": "96 亿美元收购 Informatica 完成交割，夯实数据底座",
+        "date": "2026",
+        "category": "重大",
+        "summary": "Salesforce 于 2026 财年第四季度完成对 Informatica 的收购(约 96 亿美元)，交易单季贡献约 4.44 亿美元营收，显著增强企业数据管理与可信数据基础能力。",
+        "url": "https://www.salesforce.com/news/press-releases/2026/02/25/fy26-q4-earnings/"
       }
     ]
   },
@@ -1450,6 +1639,27 @@
       "nvda"
     ],
     "news": [
+      {
+        "title": "77.5 亿美元现金收购 Armis 完成交割，重注安全赛道",
+        "date": "2026-04",
+        "category": "重大",
+        "summary": "ServiceNow 于 2026 年 4 月 20 日完成对 Armis Security 的收购，作价 77.5 亿美元现金，部分由 40 亿美元定期贷款融资；此前 3 月还完成了对身份安全公司 Veza 的收购。",
+        "url": "https://futurumgroup.com/insights/servicenow-q1-fy-2026-results-raise-full-year-subscription-outlook/"
+      },
+      {
+        "title": "Q1 2026 营收 38 亿美元(+22%)，上调全年订阅收入指引",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "ServiceNow 一季度总营收 38 亿美元，同比增长 22% 超预期，非 GAAP 每股收益 0.97 美元；受 AI 需求与 Armis 并表推动，全年订阅收入指引上调至 157.35-157.75 亿美元。",
+        "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-First-Quarter-2026-Financial-Results/default.aspx"
+      },
+      {
+        "title": "Agentic AI 驱动大单激增，500 万美元以上订单同比增近 80%",
+        "date": "2026-04",
+        "category": "业务",
+        "summary": "智能体 AI 推动平台整合浪潮，净新增 ACV 超 500 万美元的大单同比增长近 80%；整合 Moveworks 的 EmployeeWorks 产品同比增长 5 倍，单季成单量超过 Moveworks 2025 全年。",
+        "url": "https://www.tikr.com/blog/servicenow-q1-2026-revenue-beats-but-ai-inflection-still-coming"
+      },
       {
         "title": "Now Assist AI 拉动大单,工作流+AI 深度融合",
         "date": "2026",
@@ -1552,11 +1762,25 @@
     ],
     "news": [
       {
+        "title": "获美国农业部最高 3 亿美元合同,聚焦农田安全与反欺诈",
+        "date": "2026-05",
+        "category": "合同",
+        "summary": "Palantir 获美国农业部(USDA)价值最高 3 亿美元的合同,用于提升农田安全、供应链韧性与欺诈防控,政府业务在 NGC2 之外再下一城。",
+        "url": "https://www.cnbc.com/2026/05/04/palantir-pltr-q1-earnings-report-2026.html"
+      },
+      {
         "title": "Q1 营收 +85% 上调全年指引,拿下陆军 NGC2 大单",
         "date": "2026",
         "category": "财报",
         "summary": "AI 平台(AIP)在政府与商业客户放量,美国商业收入 +133%;美国陆军选用 Palantir Foundry 作为头号现代化项目 NGC2 的云数据层;并与英伟达合作在主权安全环境运行 AI/Nemotron 模型。",
         "url": "https://phemex.com/academy/palantir-pltr-stock-2026"
+      },
+      {
+        "title": "一季度连签空客、贝恩、GE 航空航天、Stellantis 商业大客户",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Palantir 在 2026 年 Q1 宣布与 Airbus、Bain、GE Aerospace、Stellantis 达成合作,美国商业营收 5.95 亿美元同比 +133%,商业化扩张持续加速。",
+        "url": "https://www.cnbc.com/2026/05/04/palantir-pltr-q1-earnings-report-2026.html"
       }
     ]
   },
@@ -1653,11 +1877,25 @@
     ],
     "news": [
       {
+        "title": "FY27 Q1 营收 24.2 亿美元(+28%)超预期，指引持续上调",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "Marvell 2027 财年一季度营收 24.2 亿美元，同比增长 28%，调整后每股收益 0.80 美元均超预期；二季度营收指引中值 27 亿美元，公司大幅上调 FY27/FY28 展望。",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-q1-2027-earnings-beat-115148669.html"
+      },
+      {
         "title": "FY26 营收 82 亿美元(+42%,创纪录);定制芯片收入翻倍至 15 亿美元",
         "date": "2026",
         "category": "财报",
         "summary": "数据中心营收超 60 亿美元,AI 相关的光电、定制、存储、交换全线放量;目标 2029 年定制芯片业务超 100 亿美元,并与谷歌洽谈下一代 AI 芯片。",
         "url": "https://cryptobriefing.com/broadcom-marvell-ai-chip-record-revenue/"
+      },
+      {
+        "title": "锁定 3nm 产能推进下一代定制 XPU，瞄准数百亿美元市场",
+        "date": "2026",
+        "category": "研发",
+        "summary": "Marvell 已为下一代定制芯片项目锁定 3nm 晶圆与封装产能，计划 2026 年投产；面向大型云厂商的定制 AI XPU 业务被公司视为数百亿美元级的长期市场机会。",
+        "url": "https://nai500.com/blog/2026/05/marvell-technologys-earnings-beat-estimates-across-the-board-custom-ai-chip-business-targets-tens-of-billions-of-dollars/"
       }
     ]
   },
@@ -1853,6 +2091,20 @@
     },
     "news": [
       {
+        "title": "Q1 营收 26.5 亿美元创新高,上调 2026 全年指引至 135-140 亿美元",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "2026 年一季度营收 26.5 亿美元、净利润 3.9 亿美元,AI 数据中心需求强劲,公司上调全年净销售额指引至 135 亿-140 亿美元。",
+        "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026024824/exhibit991vrt-q120264132026.htm"
+      },
+      {
+        "title": "连续收购 ThermoKey 与 BMarko,强化液冷散热与预制模块能力",
+        "date": "2026-03",
+        "category": "业务",
+        "summary": "3 月宣布收购意大利换热技术商 ThermoKey 扩充热管理产品线与 EMEA 产能,4 月又收购美国结构预制商 BMarko,补齐高密度 AI 数据中心交付链条。",
+        "url": "https://finance.yahoo.com/technology/articles/vrt-boosts-data-center-portfolio-171900667.html"
+      },
+      {
         "title": "Q1 营收 +30% 上调指引,订单积压超 150 亿美元",
         "date": "2026",
         "category": "财报",
@@ -1956,6 +2208,20 @@
         "date": "2026",
         "category": "业务",
         "summary": "大型 AI 数据中心用电堪比一座小城市，其配电、变压、保护与备电设备正是伊顿核心业务。AI 基建爆发让伊顿电力设备订单大增，数据中心已成为其增长最快的板块之一。"
+      },
+      {
+        "title": "Q1 2026 创纪录：营收 74.5 亿美元增 17%，数据中心订单暴增约 240%",
+        "date": "2026",
+        "category": "财报",
+        "summary": "伊顿一季度净销售额同比增长 17% 至 74.5 亿美元，调整后 EPS 2.81 美元超预期；电气美洲板块数据中心相关订单同比增约 240%、收入增 50%，公司将全年有机增长指引中值从 8% 上调至 10%。",
+        "url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-first-quarter-2026-results.html"
+      },
+      {
+        "title": "约 95.5 亿美元收购 Boyd Thermal，补强数据中心液冷能力",
+        "date": "2026",
+        "category": "重大",
+        "summary": "伊顿完成对 Boyd Thermal 约 95.5 亿美元的收购，扩展面向高密度 AI 数据中心的液冷与热管理能力；同期还以约 15.3 亿美元收购 Ultra PCS，拓宽航空航天布局。",
+        "url": "https://www.stocktitan.net/sec-filings/ETN/10-q-eaton-corp-plc-quarterly-earnings-report-f357b7eecf1f.html"
       }
     ]
   },
@@ -2165,6 +2431,20 @@
         "date": "2026",
         "category": "业务",
         "summary": "800G/1.6T 光模块与光器件供不应求,数据通信收入占比过半;剥离非核心业务聚焦 AI 光互联。"
+      },
+      {
+        "title": "获英伟达 20 亿美元战略投资,共推 AI 数据中心光学技术",
+        "date": "2026",
+        "category": "融资",
+        "summary": "英伟达与 Coherent 达成多年期战略协议并投资 20 亿美元,支持其研发、扩产及美国本土制造布局,聚焦 AI 数据中心先进光学。",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-coherent-cohr-valuation-record-120653286.html"
+      },
+      {
+        "title": "FY2026 Q3 营收 18.1 亿美元同比增 21%,创季度纪录",
+        "date": "2026",
+        "category": "财报",
+        "summary": "第三财季营收 18.1 亿美元超预期,数据中心收入同比增 37%,800G 与 1.6T 光模块及 OCS 光交换机成为增长引擎,下季指引 19.1 亿-20.5 亿美元。",
+        "url": "https://futurumgroup.com/insights/coherent-q3-fy-2026-ai-data-center-demand-accelerates-optical-growth/"
       }
     ]
   },
@@ -2263,6 +2543,27 @@
       "community": 92
     },
     "news": [
+      {
+        "title": "2026 财年营收首破 1 万亿元,云业务增长 40%",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "阿里巴巴 2026 财年总收入 10236.7 亿元,首次突破万亿;净利润 1059 亿元,云智能对外商业化收入增长提速至 40%,AI 商业化加速。",
+        "url": "https://finance.sina.com.cn/roll/2026-05-13/doc-inhxtzpm4563609.shtml"
+      },
+      {
+        "title": "提出五年内云与 AI 商业化年收入超千亿美元目标",
+        "date": "2026-03",
+        "category": "重大",
+        "summary": "CEO 吴泳铭在财报会上宣布,五年内包含 MaaS 在内的云和 AI 商业化收入将超过 1000 亿美元;当季阿里云在全栈 AI 驱动下加速增长 36%。",
+        "url": "https://paper.cnstock.com/html/2026-03/20/content_2190434.htm"
+      },
+      {
+        "title": "平头哥自研 GPU 量产,累计交付 47 万颗",
+        "date": "2026-02",
+        "category": "研发",
+        "summary": "阿里平头哥自研 GPU 芯片实现量产,截至 2026 年 2 月累计交付 47 万颗,服务互联网、金融、自动驾驶等领域超 400 家企业客户。",
+        "url": "https://finance.sina.com.cn/jjxw/2026-05-21/doc-inhyqiye9524183.shtml"
+      },
       {
         "title": "通义千问(Qwen)开源生态全球领先,加码 AI 基建",
         "date": "2026",
@@ -2364,10 +2665,31 @@
     },
     "news": [
       {
+        "title": "发布文心大模型 5.1,以约 6% 预训练成本达业界领先水平",
+        "date": "2026-05",
+        "category": "产品",
+        "summary": "5 月 9 日百度发布新一代基础大模型文心 5.1,仅以业界同规模模型约 6% 的预训练成本实现领先效果,登上 LMArena 搜索榜国内第一。",
+        "url": "https://finance.sina.com.cn/jjxw/2026-05-09/doc-inhxifmc3310553.shtml"
+      },
+      {
+        "title": "Q1 核心 AI 新业务收入 136 亿元,占比首次过半",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "2026 年一季度总收入 321 亿元超市场预期,核心 AI 新业务收入达 136 亿元、占一般性业务收入 52%,AI 相关收入占比首次超过传统业务。",
+        "url": "https://finance.sina.com.cn/roll/2026-05-18/doc-inhyivua0494957.shtml"
+      },
+      {
         "title": "萝卜快跑 Robotaxi 规模化运营,文心大模型持续迭代",
         "date": "2026",
         "category": "业务",
         "summary": "萝卜快跑在武汉等多城市实现大规模无人化运营,是全球最大的 Robotaxi 服务之一;文心与昆仑芯片自研并进。"
+      },
+      {
+        "title": "昆仑芯启动赴港上市,目标估值约 500 亿美元",
+        "date": "2026",
+        "category": "重大",
+        "summary": "百度 AI 芯片子公司昆仑芯于 2026 年初向港交所秘密递表,6 月消息称目标估值约 500 亿美元;高盛预测其 2026 年销售额有望达 65 亿元。",
+        "url": "https://www.nbd.com.cn/articles/2026-06-29/4440794.html"
       }
     ]
   },
@@ -2482,6 +2804,27 @@
     },
     "news": [
       {
+        "title": "OpenAI GPT-5.5 等模型登陆 Amazon Bedrock",
+        "date": "2026-07",
+        "category": "产品",
+        "summary": "AWS 扩大与 OpenAI 合作,将 GPT-5.5、Codex 及 Managed Agents 引入 Bedrock 平台(限量预览);同时发布 AI 工作助手 Amazon Quick。",
+        "url": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026/"
+      },
+      {
+        "title": "AWS 斥资 10 亿美元组建前置部署工程师团队",
+        "date": "2026-06",
+        "category": "业务",
+        "summary": "AWS 宣布投入 10 亿美元成立 Forward Deployed Engineering 新部门,派遣数千名工程师深入客户现场,帮助企业构建和部署 AI 系统。",
+        "url": "https://www.cnbc.com/2026/06/30/aws-amazon-ai-forward-deployed-engineers.html"
+      },
+      {
+        "title": "Q1 2026 AWS 营收 376 亿美元,增速 28% 创 15 个季度最快",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "亚马逊 2026 年一季度净销售额 1815 亿美元,同比增长 17%;AWS 收入 376 亿美元、同比增长 28%,为 15 个季度以来最快增速。",
+        "url": "https://www.cnbc.com/2026/04/29/aws-earnings-q1-2026.html"
+      },
+      {
         "title": "领投 OpenAI 新一轮融资;Trainium 自研芯片放量",
         "date": "2026",
         "category": "业务",
@@ -2591,6 +2934,27 @@
       "hesai"
     ],
     "news": [
+      {
+        "title": "Q1 2026 Robotaxi 收入同比暴增 395%，总营收 2.36 亿元增 14…",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "小马智行一季度总营收 2.36 亿元人民币（约 3470 万美元），同比增长 145%；Robotaxi 收入同比增长 395.4%，其中打车车费收入增长 456.5%，广深两城单车经济模型（UE）跑通。",
+        "url": "https://electriccarsreport.com/2026/05/pony-ai-robotaxi-revenue-surges-395-in-q1-2026-amid-global-expansion/"
+      },
+      {
+        "title": "上调 2026 目标：年底 Robotaxi 车队超 3500 辆，收入超上年 3.5 倍",
+        "date": "2026-05",
+        "category": "业务",
+        "summary": "公司将 2026 年底 Robotaxi 车队目标从 3000 辆上调至 3500 辆以上，全年 Robotaxi 收入目标从 2025 年的 3 倍上调至 3.5 倍以上；截至 5 月下旬车队已超 1700 辆，覆盖 20 余座城市。",
+        "url": "https://autonews.gasgoo.com/articles/news/ponyai-raises-2026-robotaxi-targets-after-record-quarterly-revenue-2059470593563594753"
+      },
+      {
+        "title": "出海加速：克罗地亚、卡塔尔、新加坡、韩国开放公开 Robotaxi 服务",
+        "date": "2026",
+        "category": "落地",
+        "summary": "小马智行业务已覆盖 9 个国家，在克罗地亚、卡塔尔、新加坡、韩国提供面向公众的 Robotaxi 服务，并宣布与 Bolt、Stellantis 在卢森堡启动自动驾驶出行测试项目。",
+        "url": "https://electriccarsreport.com/2026/05/pony-ai-robotaxi-revenue-surges-395-in-q1-2026-amid-global-expansion/"
+      },
       {
         "title": "小马智行登陆纳斯达克，Robotaxi 在北上广深商业化运营推进",
         "date": "2024-11",
@@ -3012,6 +3376,27 @@
     },
     "news": [
       {
+        "title": "FY2026 Q4 营收 14.9 亿美元创纪录,AGI CPU 需求超 20 亿美元",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "截至 2026 年 3 月的第四财季营收 14.9 亿美元、调整后 EPS 0.60 美元均超预期,全年营收创新高;AGI CPU 客户需求已超 20 亿美元,但产能尚未完全锁定引发供应担忧。",
+        "url": "https://www.businesswire.com/news/home/20260506216985/en/Arm-Holdings-plc-Reports-Results-for-the-Fourth-Quarter-and-Fiscal-Year-Ended-2026"
+      },
+      {
+        "title": "美国 FTC 对 Arm 芯片授权模式启动反垄断调查",
+        "date": "2026-05",
+        "category": "重大",
+        "summary": "美国联邦贸易委员会于 2026 年 5 月通知 Arm,对其半导体授权业务展开反垄断调查,为其快速扩张的商业模式带来监管不确定性。",
+        "url": "https://www.stocktitan.net/news/ARM/"
+      },
+      {
+        "title": "发布 35 年来首款自研芯片 Arm AGI CPU,进军数据中心自产硅片",
+        "date": "2026-03",
+        "category": "产品",
+        "summary": "Arm 宣布推出首款自研数据中心 CPU「Arm AGI CPU」,面向 Agentic AI 工作负载,最多 136 个 Neoverse V3 核心,宣称机架性能超 x86 两倍,消息公布当日股价大涨 16%。",
+        "url": "https://www.tikr.com/blog/arm-holdings-unveiled-its-first-chip-in-35-years-what-a-599-target-means-for-investors"
+      },
+      {
         "title": "数据中心份额快速提升,Neoverse 被自研芯片广泛采用",
         "date": "2026",
         "category": "业务",
@@ -3426,10 +3811,24 @@
     },
     "news": [
       {
+        "title": "Q2 2026 营收 2.51 万亿新台币超预期，AI 服务器需求驱动大增约 40%",
+        "date": "2026-07",
+        "category": "财报",
+        "summary": "富士康 2026 年二季度营收约 2.51 万亿新台币（约 790 亿美元），高于分析师平均预估的 2.37 万亿新台币，同比增长约 40%，主因英伟达 AI 服务器需求强劲、超大规模云厂商加码资本开支。",
+        "url": "https://fortune.com/2026/07/05/nvidia-supplier-hon-hai-foxconn-sales-earnings-report-ai-demand/"
+      },
+      {
         "title": "AI 服务器营收超越 iPhone 成第一大业务",
         "date": "2026",
         "category": "重大",
         "summary": "GB200/GB300 整机柜量产主力,AI 服务器收入历史性超过消费电子;与英伟达合作在多地建 AI 工厂。"
+      },
+      {
+        "title": "2026 年 AI 服务器出货量有望翻倍，机架组装全球份额约 40%",
+        "date": "2026",
+        "category": "业务",
+        "summary": "富士康 AI 服务器出货量预计 2026 年较 2025 年翻倍，在全球 AI 服务器机架组装市场保持约 40% 份额；AI 服务器已占云与网络产品板块收入约四成，成为超越手机组装的增长引擎。",
+        "url": "https://finance.biggo.com/news/inf6-J0BrX5PFN7BATef"
       }
     ]
   },
@@ -3739,6 +4138,27 @@
     },
     "news": [
       {
+        "title": "美银称 1.6T 光模块供需严重失衡,目标价上调 50% 至 1650 元",
+        "date": "2026-06",
+        "category": "进展",
+        "summary": "美银证券认为 1.6T 光模块供需严重失衡,将中际旭创目标价从 1100 元上调至 1650 元,并预计 2026 年净利润约 392 亿元、同比增长超 263%。",
+        "url": "https://finance.sina.com.cn/jjxw/2026-06-13/doc-inichssn8081241.shtml"
+      },
+      {
+        "title": "Q1 营收 195 亿元同比增 192%,净利 57 亿元增 262%",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "2026 年一季度营收 194.96 亿元、同比增长 192%,归母净利润 57.35 亿元、同比增长 262%,1.6T 产品批量出货,并推进 6.4T NPO、12.8T XPO 研发送测。",
+        "url": "https://news.qq.com/rain/a/20260519A0018L00"
+      },
+      {
+        "title": "2025 年营收大增 60%、净利润翻倍,拟每 10 股派 10 元",
+        "date": "2026-03",
+        "category": "财报",
+        "summary": "2025 年报显示营收同比增长约 60%,净利润翻一倍,公司拟每 10 股派现 10 元,AI 算力驱动的光模块高景气充分兑现。",
+        "url": "https://news.qq.com/rain/a/20260330A08CU300"
+      },
+      {
         "title": "1.6T 硅光加速放量,海外收入占比达 92%",
         "date": "2026",
         "category": "业务",
@@ -3846,6 +4266,20 @@
       "community": 50
     },
     "news": [
+      {
+        "title": "高盛：1.6T 光模块迎放量拐点，大幅上调新易盛目标价",
+        "date": "2026-06",
+        "category": "进展",
+        "summary": "高盛发布研报称 1.6T 光模块进入放量拐点，大幅上调新易盛目标价；全球 AI 光模块市场 2026 年预计增至 260 亿美元，800G/1.6T 需求主导，公司 1.6T 订单情况良好、全年出货量呈增长趋势。",
+        "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-06-01/doc-inhzwpyu4068801.shtml"
+      },
+      {
+        "title": "Q1 2026 净利润 27.8 亿元同比增 76.8%，汇兑与物料短缺致环比回落",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "新易盛 2026 年一季度净利润 27.8 亿元，同比增长 76.8%，但环比下降 13%，主因汇兑损失及上游物料短缺拖累产能释放；预付款项环比大增至 6.82 亿元，印证上游供给紧张。",
+        "url": "https://m.cls.cn/detail/2354227"
+      },
       {
         "title": "1.6T 批量出货,A+H 上市推进",
         "date": "2026",
@@ -3962,6 +4396,27 @@
     ],
     "news": [
       {
+        "title": "调整 HBM4 爬坡节奏,转向利润优先策略",
+        "date": "2026-06",
+        "category": "业务",
+        "summary": "据 TrendForce,SK 海力士放缓 HBM4 产能爬坡,规模化量产预计推迟至 2026 年三季度,优先优化利润并加码趋紧的通用 DRAM 市场。",
+        "url": "https://www.trendforce.com/news/2026/06/23/news-memory-giants-split-on-hbm4-strategy-samsung-hbm4-sales-reportedly-tops-1b-sk-hynix-slows-ramp/"
+      },
+      {
+        "title": "HBM4E 下半年送样、2027 量产;HBM 份额 56.4% 全球第一",
+        "date": "2026-04",
+        "category": "进展",
+        "summary": "公司计划 2026 下半年供应第七代 HBM4E 样品,目标 2027 年量产;当前 HBM 全球市占率 56.4% 居首,2026 年产能已全部售罄。",
+        "url": "https://www.cnbc.com/2026/04/23/sk-hynix-earnings-ai-memory-shortage-hbm-demand.html"
+      },
+      {
+        "title": "向 ASML 下达约 80 亿美元史上最大单笔 EUV 订单",
+        "date": "2026-03",
+        "category": "合同",
+        "summary": "SK 海力士承诺在 2027 年底前向 ASML 采购约 79.7 亿美元 EUV 光刻设备,为公开披露的最大单笔 EUV 订单,支撑 AI 存储扩产。",
+        "url": "https://www.techtimes.com/articles/320137/20260710/asml-earnings-wednesday-euv-bookings-will-show-whether-ai-chip-boom-sustainable.htm"
+      },
+      {
         "title": "Q1 创历史最佳:营收 +198%、HBM4 率先量产",
         "date": "2026",
         "category": "财报",
@@ -4057,10 +4512,31 @@
     ],
     "news": [
       {
+        "title": "HBM4 量产 4 个月销售额破 10 亿美元,2026 年产能售罄",
+        "date": "2026-06",
+        "category": "业务",
+        "summary": "三星 2026 年 2 月启动 HBM4 量产,凭借良率与 4nm 基础裸片产能提升,量产仅 4 个月销售额即突破 10 亿美元,成为业内首个达到该规模的 HBM4 产品,全年产能已全部售罄。",
+        "url": "https://www.trendforce.com/news/2026/06/23/news-memory-giants-split-on-hbm4-strategy-samsung-hbm4-sales-reportedly-tops-1b-sk-hynix-slows-ramp/"
+      },
+      {
+        "title": "2026 Q1 营业利润暴增逾 8 倍创纪录,存储紧缺推动业绩井喷",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "一季度营收 133.9 万亿韩元、营业利润 57.2 万亿韩元双创纪录,同比增长逾八倍;分析师预计全年营业利润或达 300 万亿韩元,超过其进入半导体行业 40 年来的利润总和。",
+        "url": "https://www.cnbc.com/2026/04/30/samsung-q1-earnings-ai-memory-chip-demand-profit-record.html"
+      },
+      {
         "title": "三星全力冲刺英伟达 HBM 认证，力图从 SK 海力士手中夺回份额",
         "date": "2026",
         "category": "进展",
         "summary": "三星在最先进 HBM 上一度落后于抢先拿下英伟达主力订单的 SK 海力士，正全力追赶并争取通过英伟达认证；同时其代工业务也在追赶台积电、争取先进制程与 AI 芯片订单。"
+      },
+      {
+        "title": "下半年量产第二代 2nm 移动工艺,先进制程产线满载",
+        "date": "2026",
+        "category": "进展",
+        "summary": "晶圆代工业务计划 2026 年 Q2 实现先进制程产线满产,下半年开始量产面向移动产品的第二代 2nm 工艺,并为 AI/HPC 客户量产 LPU 等芯片。",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2026-results"
       }
     ]
   },
@@ -4167,6 +4643,20 @@
       "mtsi"
     ],
     "news": [
+      {
+        "title": "获英伟达 20 亿美元投资,建设美国本土新光学晶圆厂",
+        "date": "2026-03",
+        "category": "融资",
+        "summary": "2026 年 3 月英伟达宣布与 Lumentum 战略合作并投资 20 亿美元,支持其研发、扩产与美国新晶圆厂建设,深化 AI 数据中心光互连布局。",
+        "url": "https://seekingalpha.com/article/4899403-lumentum-ai-bottleneck-era-begins"
+      },
+      {
+        "title": "FY2026 Q2 营收 6.66 亿美元创纪录,同比增长 65%",
+        "date": "2026-02",
+        "category": "财报",
+        "summary": "第二财季营收 665.5 百万美元创新高,受超大规模云客户对激光芯片与光模块的强劲需求驱动;OCS 光交换机订单积压超 4 亿美元,公司提出 2028 财年 80 亿美元营收目标。",
+        "url": "https://www.semiconductor-today.com/news_items/2026/feb/lumentum-090226.shtml"
+      },
       {
         "title": "EML 激光芯片供不应求,产能积极扩张",
         "date": "2026",
@@ -4571,6 +5061,27 @@
       }
     ],
     "news": [
+      {
+        "title": "Q3 FY2026 营收创纪录达 415 亿美元,同比增 346%",
+        "date": "2026-06",
+        "category": "财报",
+        "summary": "美光 2026 财年三季度营收 414.6 亿美元,同比大增 346%,非 GAAP 每股收益 25.11 美元,毛利率 84.6%,并指引下季营收 500 亿美元。",
+        "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter"
+      },
+      {
+        "title": "HBM4 已为首要客户批量出货,12H 样品带宽超 2.8TB/s",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "基于 1-beta 工艺的 HBM4 已为首要客户平台大批量出货,并向多家终端客户送出认证样品;HBM4 12H 样品带宽超 2.8TB/s、引脚速率超 11Gbps。",
+        "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261990080-micron-mu-q3-2026-earnings-record-revenue-hbm4-analysis-tradingkey"
+      },
+      {
+        "title": "HBM 等 AI 内存年收入达 100 亿美元,同比增逾五倍",
+        "date": "2026-06",
+        "category": "业务",
+        "summary": "HBM、高容量 DIMM 与 LP 服务器 DRAM 合计收入达 100 亿美元,较上一财年增长逾五倍;多年期固定价格协议锁定 AI 需求红利。",
+        "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter"
+      },
       {
         "title": "2026 年 HBM 产能全数售罄,营收同比大增 196%",
         "date": "2026",
@@ -5535,11 +6046,25 @@
     },
     "news": [
       {
+        "title": "完成 164 亿美元收购 Calpine，坐拥核电+燃气近 60 GW 发电资产",
+        "date": "2026-01",
+        "category": "重大",
+        "summary": "Constellation 于 2026 年 1 月 7 日完成对 Calpine 164 亿美元的收购，将美国最大核电机队（32.4 GW）与 Calpine 约 26 GW 现代燃气及全球最大地热综合体 The Geysers 合并，强化对 AI 数据中心的供电能力。",
+        "url": "https://www.financialcontent.com/article/marketminute-2026-3-10-constellation-energy-finalizes-164-billion-calpine-acquisition-solidifying-lead-in-ai-data-center-power-race"
+      },
+      {
         "title": "与 Meta 签 20 年核电协议,为其伊利诺伊数据中心供电",
         "date": "2026",
         "category": "合同",
         "summary": "Meta 自 2027 年起采购 Constellation 旗下 Clinton 核电站的无碳电力(扩产 30MW);Meta 同期还与 Vistra、TerraPower、Oklo 签约,合计最高 6.6GW 核电,支撑其 Prometheus 超算集群。",
         "url": "https://carboncredits.com/meta-partners-with-constellation-for-clean-nuclear-energy/"
+      },
+      {
+        "title": "签约为 CyrusOne 德州新数据中心供电 380 MW，2026 年 EPS 指引 …",
+        "date": "2026",
+        "category": "合同",
+        "summary": "完成 Calpine 收购后不久，公司宣布一项 380 MW 供电协议，服务 CyrusOne 在德州的新数据中心；管理层确认 2026 全年调整后运营每股收益指引 11.00-12.00 美元，同比提升约 20%。",
+        "url": "https://www.trefis.com/stock/ceg/articles/599381/constellation-energy-earnings-fueled-by-calpine-and-data-center-demand/2026-05-14"
       }
     ]
   },
@@ -6316,11 +6841,32 @@
     },
     "news": [
       {
+        "title": "Q1 2026 净销售 88 亿欧元,毛利率达 53%",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "ASML 2026 年一季度净销售额 88 亿欧元,毛利率 53%,业绩超预期;公司将于 7 月 15 日发布二季度财报,市场聚焦 EUV 订单动向。",
+        "url": "https://tickeron.com/earnings/ASML/"
+      },
+      {
+        "title": "获 SK 海力士约 80 亿美元订单,为史上最大单笔 EUV 订单",
+        "date": "2026-03",
+        "category": "合同",
+        "summary": "SK 海力士承诺 2027 年底前向 ASML 采购约 79.7 亿美元 EUV 设备,为公开披露的最大单笔 EUV 订单,印证 AI 芯片周期对光刻需求的拉动。",
+        "url": "https://www.techtimes.com/articles/320137/20260710/asml-earnings-wednesday-euv-bookings-will-show-whether-ai-chip-boom-sustainable.htm"
+      },
+      {
         "title": "上调 2026 营收指引至 360–400 亿欧元;AI 驱动 EUV 需求强劲",
         "date": "2026",
         "category": "财报",
         "summary": "Q1 2026 营收 88 亿欧元、毛利率 53%;AI 客户(台/韩/美)的高毛利 EUV 需求替代了流失的对华 DUV 收入,对华销售占比降至 19%;High-NA EUV 持续出货。",
         "url": "https://www.globalbankingandfinance.com/asml-lifts-2026-outlook-back-stronger-ai-demand/"
+      },
+      {
+        "title": "2025 年末在手订单 388 亿欧元,High-NA 系统开始确认收入",
+        "date": "2025-12",
+        "category": "业务",
+        "summary": "2025 年四季度净销售额创纪录达 97 亿欧元,含两台 High-NA EUV 系统收入;当季净订单 132 亿欧元(EUV 占 74 亿),年末积压订单 388 亿欧元。",
+        "url": "https://www.heygotrade.com/en/blog/asml-investment-case-euv-monopoly-semi-capex/"
       }
     ]
   },
@@ -6425,10 +6971,24 @@
     },
     "news": [
       {
+        "title": "FY2026 Q2 营收 79.1 亿美元,预计全年设备业务增长超 30%",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "截至 4 月的第二财季营收 79.1 亿美元、调整后 EPS 2.86 美元;公司预计 2026 自然年半导体设备业务增长超 30%,先进封装收入增长超 50%,DRAM 需求领跑。",
+        "url": "https://www.trendforce.com/news/2026/05/15/news-applied-materials-sees-over-30-equipment-growth-50-packaging-surge-in-2026-china-remains-top-market-in-2qfy26/"
+      },
+      {
         "title": "AI 驱动先进制程与 HBM 扩产,设备订单强劲",
         "date": "2026",
         "category": "业务",
         "summary": "先进逻辑(2nm)、HBM/先进封装、背面供电等技术拐点带来设备密集度提升,中国业务受出口管制影响但被 AI 需求抵消。"
+      },
+      {
+        "title": "美国对华出口管制收紧,预计致 2026 财年营收减少数亿美元",
+        "date": "2026",
+        "category": "重大",
+        "summary": "应用材料警告更严的美国出口管制将令 2026 年中国晶圆厂设备支出下滑,扩大的限制预计影响其 2026 财年营收约 6 亿美元;公司另因向中芯国际交付设备被处以 2.52 亿美元罚款。",
+        "url": "https://www.trendforce.com/news/2025/11/14/news-applied-materials-flags-a-2026-china-fab-spending-drop-amid-tougher-u-s-export-rules/"
       }
     ]
   },
@@ -6535,6 +7095,20 @@
       "community": 51
     },
     "news": [
+      {
+        "title": "FY26Q3营收58.4亿美元创纪录，同比增24%",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "4月22日泛林公布截至3月29日季度业绩：营收58.41亿美元创纪录、同比增24%，毛利率49.8%，GAAP每股收益1.45美元超预期，AI基建带动先进存储与封装设备需求。",
+        "url": "https://newsroom.lamresearch.com/2026-04-22-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-March-29,-2026"
+      },
+      {
+        "title": "上调展望：6月季度指引66亿美元，全年WFE看1400亿",
+        "date": "2026-04",
+        "category": "业务",
+        "summary": "泛林指引6月季度营收66亿±4亿美元、毛利率50.5%，并预计2026年全球晶圆厂设备支出达1400亿美元且有上行空间；客户支持业务季度营收首破20亿美元。",
+        "url": "https://ca.investing.com/news/company-news/lam-research-q3-2026-slides-ai-drives-record-revenue-raises-outlook-93CH-4581262"
+      },
       {
         "title": "NAND 升级周期+HBM 扩产,刻蚀沉积设备景气回升",
         "date": "2026",
@@ -6649,6 +7223,20 @@
         "date": "2026",
         "category": "业务",
         "summary": "2nm/先进封装的缺陷检测更关键,量检测设备强者恒强;AI 芯片高良率诉求直接拉动 KLA 订单。"
+      },
+      {
+        "title": "3 月季度营收 34.15 亿美元同比增 11%,AI 驱动增长",
+        "date": "2026",
+        "category": "财报",
+        "summary": "2026 年 3 月季度营收 34.15 亿美元、同比增长 11%,服务业务收入 7.75 亿美元、同比增 16%,业绩超预期,AI 仍是核心增长驱动力。",
+        "url": "https://www.indexbox.io/blog/kla-corporation-reports-strong-march-quarter-2026-results-with-revenue-of-3415-billion/"
+      },
+      {
+        "title": "先进封装过程控制收入 2026 年有望达约 10 亿美元",
+        "date": "2026",
+        "category": "业务",
+        "summary": "KLA 先进封装过程控制收入预计从 2025 年约 6.35 亿美元增至 2026 年约 10 亿美元,并已获得 2025 年先进晶圆级封装过程控制市场第一的位置,系统业务增速有望超 20%。",
+        "url": "https://news.alphastreet.com/kla-klac-has-a-services-and-process-control-engine-bigger-than-the-wafer-fab-cycle/"
       }
     ]
   },
@@ -6760,6 +7348,27 @@
       "community": 75
     },
     "news": [
+      {
+        "title": "FY2026 Q1 营收 24.1 亿美元同比大增 66%,Ansys 并表显效",
+        "date": "2026",
+        "category": "财报",
+        "summary": "第一财季营收 24.09 亿美元,同比增长 66%,其中设计自动化业务收入 20 亿美元、同比增长 96%,非 GAAP EPS 3.77 美元超指引上限,Ansys 并购整合动能强劲。",
+        "url": "https://futurumgroup.com/insights/synopsys-q1-fy-2026-earnings-highlight-eda-and-ansys-momentum/"
+      },
+      {
+        "title": "Converge 2026 发布 AgentEngineer 多智能体芯片设计与多物理场…",
+        "date": "2026",
+        "category": "产品",
+        "summary": "在 Converge 2026 大会上发布 AgentEngineer 多智能体工作流、Multiphysics Fusion、电子数字孪生平台等,宣称设计效率提升 2-5 倍,硬件验证前可完成最高 90% 软件验证。",
+        "url": "https://www.stocktitan.net/news/SNPS/synopsys-outlines-vision-for-engineering-the-4ak5le1q4k9x.html"
+      },
+      {
+        "title": "Q2 业绩强劲上调 FY26 全年指引,AI 芯片设计需求旺盛",
+        "date": "2026",
+        "category": "业务",
+        "summary": "受 AI 芯片设计需求带动,新思科技第二财季业绩超预期并上调 2026 财年全年指引,与 Ansys 融合的多物理场收入协同预计自 2027 财年起贡献营收。",
+        "url": "https://www.kucoin.com/news/flash/synopsys-raises-fy26-guidance-amid-strong-q2-earnings-and-ai-chip-demand"
+      },
       {
         "title": "完成收购 Ansys,EDA+仿真巨头成型",
         "date": "2025",
@@ -6875,6 +7484,27 @@
       "community": 74
     },
     "news": [
+      {
+        "title": "Q1营收14.7亿美元增19%，积压订单创纪录80亿",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "楷登2026年Q1营收14.74亿美元、同比增19%，各业务线均双位数增长，积压订单达创纪录的80亿美元，公司将全年营收增速指引上调至17%。",
+        "url": "https://www.tikr.com/blog/cadence-design-systems-stock-q1-2026-earnings-every-segment-grew-double-digits"
+      },
+      {
+        "title": "再度出手并购，收购EDA厂商EMA Design Automation",
+        "date": "2026-05",
+        "category": "业务",
+        "summary": "5月20日楷登完成对EMA Design Automation的收购，延续其通过并购扩张EDA与系统设计版图的策略，为年内继Hexagon业务后又一笔交易。",
+        "url": "https://pitchbook.com/profiles/company/10135-63"
+      },
+      {
+        "title": "完成收购Hexagon设计与工程业务，年内贡献1.6亿营收",
+        "date": "2026-02",
+        "category": "业务",
+        "summary": "2月23日楷登完成对Hexagon旗下Design & Engineering业务的收购，预计2026年贡献约1.6亿美元营收，短期摊薄每股收益约0.28美元，2027年起转为增厚。",
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-cadence-design-tops-q1-2026-estimates-raises-guidance-93CH-4640092"
+      },
       {
         "title": "AI 芯片设计需求旺盛,AI 驱动 EDA 工具放量",
         "date": "2026",
@@ -6994,10 +7624,24 @@
     ],
     "news": [
       {
+        "title": "先进封装报价上调逾 20%，覆盖 CoWoS、FoCoS 等 AI 关键工艺",
+        "date": "2026-07",
+        "category": "业务",
+        "summary": "据 TrendForce 报道，日月光在 AI 需求驱动下将先进封装报价上调超过 20%，涵盖 CoWoS、FoCoS 等技术，主因原材料成本与长期投资成本上升，且台积电向其转移更多 AI 客户封装订单。",
+        "url": "https://www.trendforce.com/news/2026/07/01/news-ase-reportedly-raises-advanced-packaging-quotes-by-more-than-20-in-latest-ai-driven-price-hike/"
+      },
+      {
         "title": "先进封装产能扩张,承接 AI 芯片外溢需求",
         "date": "2026",
         "category": "业务",
         "summary": "台积电 CoWoS 满载下,日月光承接扇出/2.5D 封装外溢订单;测试业务受益 AI 芯片复杂度提升。"
+      },
+      {
+        "title": "2026 年资本开支上调至创纪录 85 亿美元，全球动工 6 座新厂",
+        "date": "2026",
+        "category": "进展",
+        "summary": "AI 封装需求供不应求，日月光将 2026 年资本开支从 2025 年的 53 亿美元大幅上调至 85 亿美元，并在美国、马来西亚、日本、德国和台湾等地动工 6 座新厂，CoWoS 等效产能拟增至每月 2.5 万片。",
+        "url": "https://startupfortune.com/ase-technology-raises-its-2026-capex-to-85-billion-as-ai-chip-packaging-demand-overwhelms-supply/"
       }
     ]
   },
@@ -7391,6 +8035,27 @@
     ],
     "news": [
       {
+        "title": "SpaceX 登陆纳斯达克,IPO 定价 135 美元、估值约 1.77 万亿美元",
+        "date": "2026-06",
+        "category": "重大",
+        "summary": "SpaceX 于 2026 年 6 月 12 日以代码 SPCX 在纳斯达克开始交易,IPO 定价每股 135 美元,创下美国公开市场史上最大单次 IPO 融资纪录,估值约 1.77 万亿美元。",
+        "url": "https://spaceflightnow.com/2026/06/12/live-coverage-spacex-to-launch-final-starlink-mission-as-it-begins-publicly-trade-its-stock-on-the-nasdaq-for-the-first-time/"
+      },
+      {
+        "title": "2026 上半年部署 1589 颗星链卫星再破纪录,V3 卫星将由 Starship 发射",
+        "date": "2026-06",
+        "category": "业务",
+        "summary": "2026 年上半年 SpaceX 共发射 1589 颗 Starlink 卫星,超过去年同期的 1489 颗;下半年将用 Starship 部署单星下行容量达 1Tbps 的下一代 V3 卫星。",
+        "url": "https://www.basenor.com/blogs/news/spacex-breaks-its-own-starlink-deployment-record-in-h1-2026"
+      },
+      {
+        "title": "史上最强火箭 Starship V3 首飞成功,累计投入超 150 亿美元",
+        "date": "2026-05",
+        "category": "进展",
+        "summary": "2026 年 5 月 22 日 Starship Version 3 首飞成功,为迄今体积最大、推力最强的运载火箭。Starship 项目累计投入已超 150 亿美元,并计划年内首次从佛州卡纳维拉尔角发射。",
+        "url": "https://intellectia.ai/blog/spacex-ipo-2026-starship-starlink"
+      },
+      {
         "title": "SpaceX 推进 Starship 完全可回收，为在轨算力与太空数据中心铺路",
         "date": "2026",
         "category": "研发",
@@ -7512,18 +8177,32 @@
     },
     "news": [
       {
-        "title": "完成 1220 亿美元融资,估值 8520 亿美元",
-        "date": "2026",
-        "category": "融资",
-        "summary": "由亚马逊、英伟达、软银领投,微软继续参与,a16z 等联合领投。企业收入已占总营收 40% 以上。",
-        "url": "https://openai.com/index/accelerating-the-next-phase-ai/"
-      },
-      {
         "title": "GPT-5.6 系列公开发布,推出 GPT-Live 语音模型",
         "date": "2026-07",
         "category": "产品",
         "summary": "GPT-5.6 Sol/Terra/Luna 公开发布(此前应美国政府要求仅限受信伙伴,Sol 在生物/化学/网络安全上最强);GPT-Live 可同时听与说,对话更自然。",
         "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html"
+      },
+      {
+        "title": "与博通联合发布首款自研 AI 芯片「Jalapeño」",
+        "date": "2026-06",
+        "category": "研发",
+        "summary": "OpenAI 与博通公布定制芯片合作的首个成果 Jalapeño,目标 2026 年底前完成首批部署并在后续数年扩大规模,标志其「构建全栈」战略落地。",
+        "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"
+      },
+      {
+        "title": "与微软重构合作协议,收入分成设上限并解除云独占",
+        "date": "2026-04",
+        "category": "重大",
+        "summary": "OpenAI 与微软宣布修订合作协议,OpenAI 将封顶向微软支付的收入分成,并可在任意云服务商(包括亚马逊、谷歌)上向客户提供全部产品,此前其已承诺采购 2500 亿美元 Azure 云服务。",
+        "url": "https://www.cnbc.com/2026/04/27/openai-microsoft-partnership-revenue-cap.html"
+      },
+      {
+        "title": "完成 1220 亿美元融资,估值 8520 亿美元",
+        "date": "2026",
+        "category": "融资",
+        "summary": "由亚马逊、英伟达、软银领投,微软继续参与,a16z 等联合领投。企业收入已占总营收 40% 以上。",
+        "url": "https://openai.com/index/accelerating-the-next-phase-ai/"
       }
     ]
   },
@@ -7634,6 +8313,13 @@
     },
     "news": [
       {
+        "title": "发布 Claude Science,IPO 前拓展医药科研企业业务",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "Anthropic 推出面向科学研究的 Claude Science,瞄准制药等行业收入,被视为其 IPO 前扩大企业业务版图的重要一步。",
+        "url": "https://thetechportal.com/2026/06/30/anthropic-launches-claude-science-to-expand-enterprise-business-and-pharma-revenue-ahead-of-ipo/"
+      },
+      {
         "title": "完成 650 亿美元 H 轮,估值 9650 亿美元,超越 OpenAI",
         "date": "2026-05",
         "category": "融资",
@@ -7641,11 +8327,18 @@
         "url": "https://www.anthropic.com/news/series-h"
       },
       {
-        "title": "发布 Claude Opus 4.8",
-        "date": "2026",
-        "category": "产品",
-        "summary": "在智能体任务、高级编码、诚实与自我纠错上能力增强;Claude Code 年化营收超 25 亿美元,估计全球 4% 的 GitHub 公开提交由其编写。",
-        "url": "https://www.anthropic.com/news/series-h"
+        "title": "与普华永道扩大战略联盟,Claude 覆盖数十万员工",
+        "date": "2026-05",
+        "category": "合同",
+        "summary": "Anthropic 与 PwC 宣布扩大战略合作,PwC 将利用 Claude 构建技术、执行交易并重塑企业职能,Claude Code 与 Cowork 将从美国团队起步推广至其全球数十万专业人员。",
+        "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
+      },
+      {
+        "title": "年化营收达 300 亿美元,大客户数一年增近 7 倍",
+        "date": "2026-04",
+        "category": "进展",
+        "summary": "Anthropic 宣布年化收入运行率达 300 亿美元,实现约 80 倍的爆发式增长;企业客户超 30 万家,年消费超 100 万美元的客户逾 500 家,财富前 10 强中 8 家使用 Claude。",
+        "url": "https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth"
       }
     ]
   },
@@ -7735,6 +8428,20 @@
       "Kingdom Holding"
     ],
     "news": [
+      {
+        "title": "发布 Grok 4.5:与 Cursor 联合训练,主打编程与高性价比",
+        "date": "2026-07",
+        "category": "产品",
+        "summary": "马斯克称 Grok 4.5 为 Opus 级模型但更快、Token 效率更高、成本更低,在工程与知识型任务上超越同级模型,已上线 Grok Build、Cursor 及控制台(暂未登陆欧盟)。",
+        "url": "https://www.axios.com/2026/07/08/spacexai-grok-new-model"
+      },
+      {
+        "title": "马斯克宣布 Grok Imagine 开发完成,图像视频生成能力就绪",
+        "date": "2026-07",
+        "category": "进展",
+        "summary": "马斯克 7 月 5 日发文称「Done with Grok Imagine」,标志 Grok 图像与视频生成功能开发完成;同期 Grok Voice 新增 21 种多语言音色并支持语音克隆。",
+        "url": "https://www.basenor.com/blogs/news/grok-imagine-is-done-xai-completes-image-generation-feature"
+      },
       {
         "title": "被 SpaceX 收购、更名 SpaceXAI,完成 200 亿美元 E 轮",
         "date": "2026",
@@ -7831,11 +8538,25 @@
     },
     "news": [
       {
+        "title": "DeepSeek-V4 正式版「原厂直供」7 月中上线腾讯云",
+        "date": "2026-07",
+        "category": "落地",
+        "summary": "腾讯云宣布 DeepSeek-V4 正式版模型计划于 7 月中在大模型服务平台 TokenHub 及智能体开发平台上线,V4 生态落地进一步提速。",
+        "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-07-03/doc-inifpqky0448372.shtml"
+      },
+      {
         "title": "发布开源 DeepSeek-V4(Pro/Flash),R2 仍未面世",
         "date": "2026-04",
         "category": "产品",
         "summary": "2026 年 4 月发布开源 V4:V4-Pro 为 1.6 万亿参数 MoE(激活 490 亿)、百万 token 上下文,支持思考/非思考双模式;备受期待的 R2 推理模型因梁文锋对性能不满,仍未正式发布。",
         "url": "https://api-docs.deepseek.com/news/news260424/"
+      },
+      {
+        "title": "公开 mHC 与 Engram 两项新架构,测试 1M 上下文新模型结构",
+        "date": "2026-02",
+        "category": "研发",
+        "summary": "DeepSeek 年初发表两篇论文公开 mHC(流形约束超连接)与 Engram(条件记忆模块)架构,用廉价 DRAM 存储静态知识以释放 HBM;2 月官方披露正在测试支持 1M 上下文的新长文本模型结构。",
+        "url": "https://news.sciencenet.cn/htmlnews/2026/2/560251.shtm"
       }
     ]
   },
@@ -7917,10 +8638,31 @@
     },
     "news": [
       {
+        "title": "昇腾 950 超节点将在 WAIC 亮相,950PR 采用自研 HBM",
+        "date": "2026-07",
+        "category": "进展",
+        "summary": "华为计划于 7 月 17 日世界人工智能大会正式发布昇腾 950 超节点真机 Atlas 950 SuperPoD;面向推理的昇腾 950PR 芯片已按路线图于一季度推出,首次采用华为自研 HBM。",
+        "url": "https://caifuhao.eastmoney.com/news/20260707072445821394490"
+      },
+      {
+        "title": "HDC 2026 启动 HarmonyOS 7 Beta,鸿蒙生态设备超 13 亿台",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "6 月 12 日华为开发者大会上 HarmonyOS 7 开发者 Beta 正式启动,围绕 Agent 时代带来五大核心发布;截至 6 月鸿蒙生态设备累计超 13 亿台,覆盖手机、车机、IoT 等全品类。",
+        "url": "https://finance.sina.com.cn/wm/2026-06-12/doc-iniceccm3470069.shtml"
+      },
+      {
         "title": "华为昇腾 910C 出货量 2026 年有望翻倍至约 60 万颗，910D 下半年量产",
         "date": "2026",
         "category": "产品",
         "summary": "昇腾 910C 自 2025 年 5 月量产后，2026 年出货量有望翻倍至约 60 万颗；5nm、支持 FP8 的 910D 预计 2026 年二三季度量产，CloudMatrix 384 超节点对标英伟达 GB200 NVL72。"
+      },
+      {
+        "title": "2025 年销售收入超 8800 亿元再创新高",
+        "date": "2026",
+        "category": "财报",
+        "summary": "华为董事长梁华透露 2025 年公司销售收入超 8800 亿元人民币,较 2024 年的 8621 亿元稳步增长,持续加码 AI 与鸿蒙生态建设。",
+        "url": "https://www.esmchina.com/news/13943.html"
       }
     ]
   },
@@ -8013,6 +8755,27 @@
         "date": "2026-01",
         "category": "重大",
         "summary": "波士顿动力于 2026 年 1 月 CES 发布全电动 Atlas 量产版并在波士顿总部投产，2026 年产能全部认购给现代 RMAC 与谷歌 DeepMind，并接入 Gemini Robotics 模型补齐机器人「大脑」。"
+      },
+      {
+        "title": "CES 2026发布量产版Atlas，与谷歌DeepMind重启合作",
+        "date": "2026-01",
+        "category": "产品",
+        "summary": "1月5日波士顿动力在CES现代展台发布产品版新Atlas人形机器人，并宣布与近十年前的老东家谷歌再度携手，由DeepMind以Gemini Robotics基础模型为Atlas提供智能。",
+        "url": "https://www.therobotreport.com/boston-dynamics-google-reunite-on-next-gen-atlas-humanoid/"
+      },
+      {
+        "title": "Atlas定价策略曝光：低于美国制造业工人两年工资",
+        "date": "2026-01",
+        "category": "业务",
+        "summary": "据韩国经济日报报道，波士顿动力计划将人形机器人Atlas定价控制在低于美国制造业工人两年薪酬的水平，以凸显对制造场景的投资回报吸引力。",
+        "url": "https://www.kedglobal.com/robotics/newsView/ked202601200007"
+      },
+      {
+        "title": "现代摩比斯供应Atlas执行器，共建机器人供应链",
+        "date": "2026",
+        "category": "进展",
+        "summary": "现代摩比斯将为Atlas供应执行器，双方合作打造高可靠零部件供应链并加速执行器研发与量产；现代此前表态未来数年将在自家工厂部署数以万计的波士顿动力机器人。",
+        "url": "https://www.automate.org/robotics/industry-insights/boston-dynamics-to-begin-production-on-redesigned-atlas-humanoid-in-2026"
       }
     ]
   },
@@ -8104,11 +8867,32 @@
     },
     "news": [
       {
+        "title": "机器人连续近一周不间断分拣包裹,效率达人类 98.5%",
+        "date": "2026-05",
+        "category": "进展",
+        "summary": "Figure 直播多台机器人连续近一周不间断处理包裹,并举行 10 小时人机对抗赛,机器人分拣效率达到人类工人的 98.5%,展示商业场景下的长时稳定作业能力。",
+        "url": "https://forgeglobal.com/insights/figure-ai-robotics-growth-2026/"
+      },
+      {
+        "title": "Figure 03 亮相白宫,美国第一夫人展示 AI 教育应用",
+        "date": "2026-03",
+        "category": "重大",
+        "summary": "美国第一夫人梅拉尼娅·特朗普在白宫与 Figure 03 同台亮相,宣传 AI 未来在儿童教育中的潜力,Figure 借此获得罕见的国家级曝光。",
+        "url": "https://www.cnbc.com/2026/03/26/figure-ai-the-robotics-company-hosted-by-melania-trump.html"
+      },
+      {
         "title": "Figure 03 在宝马工厂商业化部署;估值 390 亿美元",
         "date": "2026",
         "category": "落地",
         "summary": "继 Figure 02 在宝马 Spartanburg 工厂协助生产 3 万多辆 X3 后,双方签商业合同,首批 40 台 Figure 03 上线做物流分拣;公司累计融资超 19 亿美元(英伟达、贝索斯、OpenAI、微软),估值 390 亿美元。",
         "url": "https://www.press.bmwgroup.com/global/article/detail/T0458778EN/"
+      },
+      {
+        "title": "发布家用人形机器人 Figure 03,Helix AI 可观察人类学习家务",
+        "date": "2025-10",
+        "category": "产品",
+        "summary": "Figure 发布面向家庭场景的新一代人形机器人 Figure 03,搭载自研 Helix AI,可通过观察人类学习家务任务;消费者版本最早 2026 年底上市,初期部署限定合作伙伴。",
+        "url": "https://blog.robozaps.com/b/figure-03-review"
       }
     ]
   },
@@ -8187,10 +8971,31 @@
     ],
     "news": [
       {
+        "title": "Agility 宣布以 25 亿美元 SPAC 合并上市,将成美股首家纯人形机器人公司",
+        "date": "2026-07",
+        "category": "重大",
+        "summary": "Agility Robotics 通过 SPAC 合并上市,估值 25 亿美元,预计获得超 6.2 亿美元现金,交易完成后将以代码 AGLT 登陆纳斯达克,成为美国首家专注人形机器人的上市公司。",
+        "url": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/"
+      },
+      {
+        "title": "新一代 Digit v5 主打「协作安全」,已锁定超 3 亿美元预订单",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "Agility 即将商用的 Digit v5 定位全球首款「协作安全」人形机器人,可与人类工人近距离协同作业,上市文件披露其多年期承诺订单已超 3 亿美元。",
+        "url": "https://www.forbes.com/sites/johnkoetsier/2026/06/24/first-humanoid-robot-maker-goes-public-in-us-25-billion-deal-new-robot-300-million-in-pre-orders/"
+      },
+      {
         "title": "Digit 借 RoboFab 量产,深入亚马逊与 GXO 真实仓库作业",
         "date": "2026",
         "category": "落地",
         "summary": "Agility Robotics 依托专门量产人形机器人的工厂 RoboFab,推动双足机器人 Digit 从演示走向部署,在亚马逊、GXO 的真实仓库中承担搬料箱、拣货等重复体力活,是西方人形机器人商用落地的先行代表。"
+      },
+      {
+        "title": "Digit 累计真实作业超 6.5 万小时,率先采用英伟达 Halos 安全系统",
+        "date": "2026",
+        "category": "落地",
+        "summary": "Digit 已在舍弗勒、丰田加拿大工厂、Mercado Libre 等客户现场累计运行超 6.5 万小时;Agility 成为首家采用英伟达新发布 Halos 机器人安全系统的公司,推动人机无隔离协作。",
+        "url": "https://interestingengineering.com/ai-robotics/us-digit-robot-maker-agility"
       }
     ]
   },
@@ -8270,10 +9075,24 @@
     },
     "news": [
       {
+        "title": "Apptronik 追加 5.2 亿美元融资,估值 50 亿美元、A 轮累计超 9.35…",
+        "date": "2026-02",
+        "category": "融资",
+        "summary": "2026 年 2 月 Apptronik 完成 5.2 亿美元 Series A 扩展轮,估值达 50 亿美元,A 轮累计超 9.35 亿美元;新投资方包括 AT&T Ventures、约翰迪尔和卡塔尔投资局,资金用于扩产 Apollo。",
+        "url": "https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html"
+      },
+      {
         "title": "Apollo 携手奔驰、GXO 实地部署,联合 DeepMind 打造 AI 大脑",
         "date": "2026",
         "category": "业务",
         "summary": "Apptronik 的通用人形机器人 Apollo 主打安全、模块化,已与奔驰在汽车工厂测试、与物流巨头 GXO 实地部署,并与谷歌 DeepMind 合作将先进 AI 装进机器人,被视为最务实落地的人形机器人玩家之一。"
+      },
+      {
+        "title": "秘密测试一年的新一代人形机器人 2026 年内亮相",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Apptronik 透露其下一代人形机器人已内部测试约一年、临近发布,新融资将支持这款备受期待的新机型于 2026 年正式登场,并扩大全球商业与试点部署网络。",
+        "url": "https://www.automate.org/robotics/industry-insights/this-years-model-apptroniks-next-apollo-is-nearly-ready-for-its-closeup"
       }
     ]
   },
@@ -8365,6 +9184,27 @@
         "category": "重大",
         "summary": "2026 年 7 月 3 日证监会核准宇树科创板上市(拟募资约 42 亿元、目标估值约 62 亿美元);英伟达选用宇树 H2 作为其面向全球科研的机器人参考平台(H2 + Jetson Thor + Isaac GR00T)。",
         "url": "https://www.caixinglobal.com/2026-06-02/humanoid-robot-maker-unitree-advances-toward-618-million-shanghai-ipo-102449940.html"
+      },
+      {
+        "title": "IPO 拟募资 42 亿元,近半投向智能机器人模型研发",
+        "date": "2026-07",
+        "category": "进展",
+        "summary": "科创板 IPO 从递交申请到注册批复仅 104 天,创硬科技企业最快审批纪录;拟募集资金 42.02 亿元,约 48% 投向智能机器人模型研发,其余用于本体研发与制造基地建设。",
+        "url": "https://finance.eastmoney.com/a/202607023792294468.html"
+      },
+      {
+        "title": "R1 人形机器人直降 1 万元,2.99 万元起现货开售",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "消费级人形机器人 Unitree R1 从 3.99 万元降至 2.99 万元起并现货发售,整机约 25 公斤、26 个关节自由度,集成语音与图像多模态大模型。",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-06-24/doc-iniepeiw3016158.shtml"
+      },
+      {
+        "title": "2025 年人形机器人出货超 5500 台,营收 16.99 亿元",
+        "date": "2026",
+        "category": "业务",
+        "summary": "招股材料显示 2025 年营收 16.99 亿元、扣非净利润 5.91 亿元,人形机器人出货量超 5500 台,超越优必选与特斯拉位居全球前列,实现规模化盈利。",
+        "url": "https://finance.eastmoney.com/a/202607023792294468.html"
       }
     ]
   },
@@ -8535,6 +9375,27 @@
         "category": "重大",
         "summary": "2026 年 6 月 16 日 SpaceX 同意以约 600 亿美元全股票收购 Cursor 母公司 Anysphere,创风投支持创业公司被收购最高纪录,预计三季度完成;Cursor 年化营收从 2025 年 10 亿美元飙升至约 40 亿美元。",
         "url": "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding"
+      },
+      {
+        "title": "ARR 约 4 个月翻倍至 40 亿美元,创 B2B 软件最快纪录",
+        "date": "2026-06",
+        "category": "业务",
+        "summary": "Cursor 年化收入 2026 年 2 月突破 20 亿美元后,6 月已达约 40 亿美元,其中企业客户贡献约 26 亿,刷新 B2B 软件史上最快增长纪录。",
+        "url": "https://www.teahose.com/guides/cursor-valuation"
+      },
+      {
+        "title": "被收购前曾洽谈以 500 亿美元估值再融 20 亿美元",
+        "date": "2026-04",
+        "category": "融资",
+        "summary": "据报道,Anysphere 在被 SpaceX 收购前曾洽谈以约 500 亿美元投前估值募集 20 亿美元新融资,彼时 ARR 刚在三年内突破 20 亿美元。",
+        "url": "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding"
+      },
+      {
+        "title": "完成 23 亿美元 D 轮融资,估值 293 亿美元",
+        "date": "2025-11",
+        "category": "融资",
+        "summary": "Anysphere 完成由 Accel 与 Coatue 联合领投的 23 亿美元 D 轮融资,估值达 293 亿美元,成为增长最快的 AI 编程公司之一。",
+        "url": "https://www.cnbc.com/2025/11/13/cursor-ai-startup-funding-round-valuation.html"
       }
     ]
   },
@@ -8694,6 +9555,20 @@
     ],
     "news": [
       {
+        "title": "年化收入 4 月达约 5.25 亿美元,剑指年底 10 亿美元 ARR",
+        "date": "2026-04",
+        "category": "业务",
+        "summary": "据 Sacra 估计,Replit 年化收入 2026 年 4 月达约 5.25 亿美元,较 2025 年底的 3 亿美元继续高速增长;公司公开表示目标在 2026 年底前实现 10 亿美元 ARR。",
+        "url": "https://sacra.com/c/replit/"
+      },
+      {
+        "title": "完成 4 亿美元 D 轮融资,估值半年内从 30 亿飙至 90 亿美元",
+        "date": "2026-03",
+        "category": "融资",
+        "summary": "Replit 获 Georgian 领投的 4 亿美元 D 轮融资,估值 90 亿美元,较 2025 年 9 月 2.5 亿美元融资时的 30 亿美元估值半年翻三倍,a16z、Coatue、Databricks Ventures 等跟投。",
+        "url": "https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/"
+      },
+      {
         "title": "Replit Agent 踩中 vibe coding 浪潮,收入快速增长",
         "date": "2026",
         "category": "业务",
@@ -8782,6 +9657,27 @@
     ],
     "news": [
       {
+        "title": "与微软达成合作，接入 Azure 与 Microsoft 365 生态",
+        "date": "2026-05",
+        "category": "业务",
+        "summary": "Bolt 宣布与 Microsoft Azure 及 Microsoft 365 合作，新增微软应用市场采购渠道，支持 Azure 原生部署、企业级安全合规，并集成 Teams 与 Copilot。",
+        "url": "https://sacra.com/c/bolt-new/"
+      },
+      {
+        "title": "推出 Bolt Cloud，从代码生成延伸至应用基础设施",
+        "date": "2025-08",
+        "category": "产品",
+        "summary": "Bolt Cloud 将平台能力扩展到托管、数据库、身份认证与无服务器函数等基础设施层，推动商业模式从纯代码生成转向可持续的基础设施订阅收入。",
+        "url": "https://sacra.com/c/bolt-new/"
+      },
+      {
+        "title": "完成 1.055 亿美元 B 轮融资，Emergence 与 GV 领投",
+        "date": "2025-01",
+        "category": "融资",
+        "summary": "StackBlitz 宣布为 Bolt.new 完成 1.055 亿美元 B 轮融资，由 Emergence Capital 与 GV 领投，Madrona、Conviction 等跟投，累计融资约 1.35 亿美元。",
+        "url": "https://sacra.com/c/bolt-new/"
+      },
+      {
         "title": "Bolt.new 增长神话:ARR 数月内飙升至上亿美元级",
         "date": "2024",
         "category": "产品",
@@ -8861,6 +9757,20 @@
       "20VC"
     ],
     "news": [
+      {
+        "title": "传 Lovable 洽谈新融资,估值翻倍至 132 亿美元",
+        "date": "2026-07",
+        "category": "融资",
+        "summary": "据报道 Lovable 正洽谈融资约 3 亿美元,估值 132 亿美元,较去年 12 月 66 亿美元翻倍,Menlo Ventures 预计领投。",
+        "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/"
+      },
+      {
+        "title": "ARR 达 5 亿美元,企业客户含 Workday、英伟达",
+        "date": "2026-07",
+        "category": "业务",
+        "summary": "Lovable ARR 已达约 5 亿美元,创软件公司最快破亿纪录;vibe coding 工具进入 Workday、Asana、英伟达等大型企业,人均创收约 200 万美元。",
+        "url": "https://growthindex.startupriders.com/lovable"
+      },
       {
         "title": "欧洲增长最快软件公司之一:Lovable ARR 破亿、估值飙升",
         "date": "2026",
@@ -8966,6 +9876,27 @@
         "category": "融资",
         "summary": "较去年 9 月 117 亿欧元估值近乎翻倍(彼时 ASML 投 13 亿欧元占约 11% 成最大股东);目标 2026 年底 ARR 超 10 亿美元,并与空客、宝马签约拓展工程/制造场景。",
         "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/"
+      },
+      {
+        "title": "发布 OCR 4 企业文档 AI,按页计费切入企业市场",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "Mistral 推出商用文档识别模型 OCR 4,提供边界框、置信度评分、块分类等能力,支持多平台分发与企业自托管部署,把文档抽取升级为完整的企业级 AI 产品线。",
+        "url": "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play"
+      },
+      {
+        "title": "发布 Medium 3.5 模型,2026 年营收目标 10 亿欧元",
+        "date": "2026-04",
+        "category": "业务",
+        "summary": "Mistral 于 4 月发布 1280 亿参数的 Medium 3.5,部分编码基准超越三倍于自身规模的模型;公司将 2026 年营收目标定为 10 亿欧元,较 2025 年约 2 亿欧元大幅提升。",
+        "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+      },
+      {
+        "title": "获 8.3 亿美元债务融资,建设巴黎数据中心集群",
+        "date": "2026-03",
+        "category": "融资",
+        "summary": "Mistral 获得 8.3 亿美元债务融资用于巴黎附近自建 AI 数据中心,规划 2027 年达到最高 200 兆瓦、2030 年达 1 吉瓦算力的 Mistral Compute 计划,减少对外部云的依赖。",
+        "url": "https://www.cnbc.com/2026/03/30/mistral-ai-paris-data-center-cluster-debt-financing.html"
       }
     ]
   },
@@ -9125,10 +10056,31 @@
     },
     "news": [
       {
+        "title": "诉讼进入证据开示阶段，反向要求好莱坞公开 AI 使用内幕",
+        "date": "2026-07",
+        "category": "进展",
+        "summary": "版权案进入证据开示环节，Midjourney 要求各大制片厂披露自身内部 AI 使用情况，法官裁定制片厂仅需提供与面向消费者内容相关的 AI 使用信息。",
+        "url": "https://www.theartnewspaper.com/2026/07/09/midjourney-demands-hollywood-AI-secrets"
+      },
+      {
         "title": "独立盈利的审美标杆:Midjourney 推网页版并探索视频生成",
         "date": "2026",
         "category": "进展",
         "summary": "Midjourney 在 Discord 社区起家后推出网页版,并开始探索视频生成新方向;这家无大规模外部融资、团队精简且据称持续盈利的公司,仍是文生图领域「小团队+极致产品」的典范与画质标杆。"
+      },
+      {
+        "title": "正式发布首个 AI 视频模型 V1，图片可动画化",
+        "date": "2025-06",
+        "category": "产品",
+        "summary": "Midjourney 上线视频生成模型 V1，用户可将生成或上传的图片转为 5 秒视频并可延长至 20 秒，视频任务定价约为图片任务的 8 倍，同期还推出了 V7 文生图模型。",
+        "url": "https://venturebeat.com/business/surpassing-all-my-expectations-midjourney-releases-first-ai-video-model-amid-disney-universal-lawsuit"
+      },
+      {
+        "title": "遭迪士尼、环球、华纳兄弟接连提起版权诉讼",
+        "date": "2025",
+        "category": "重大",
+        "summary": "2025 年 6 月迪士尼与环球影业率先起诉 Midjourney 侵犯版权，9 月华纳兄弟探索也提起诉讼，指控其\"窃取\"知识产权，成为 AI 生成内容版权争议的标志性案件。",
+        "url": "https://variety.com/2025/digital/news/midjourney-ai-launches-video-ai-disney-nbcu-lawsuit-1236436241/"
       }
     ]
   },
@@ -9217,6 +10169,20 @@
         "category": "融资",
         "summary": "较四个月前 56 亿美元 B 轮估值近乎翻倍(Founders Fund、Lightspeed 等参投);发布可操控、泛化能力跃升的视觉-语言-动作基础模型 π0.7;仍处资本密集的无营收阶段。",
         "url": "https://techcrunch.com/2026/03/27/physical-intelligence-is-reportedly-in-talks-to-raise-1-billion-again/"
+      },
+      {
+        "title": "完成 6 亿美元 B 轮融资,估值约 56 亿美元",
+        "date": "2025-11",
+        "category": "融资",
+        "summary": "Physical Intelligence 完成由 Google 旗下 CapitalG 领投的 6 亿美元 B 轮融资,贝索斯、Thrive Capital、红杉、英伟达 NVentures 等参投,估值约 56 亿美元,累计融资达 11 亿美元。",
+        "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/"
+      },
+      {
+        "title": "开源 π0 机器人基础模型,采用 Apache 2.0 许可",
+        "date": "2025-02",
+        "category": "研发",
+        "summary": "公司通过 openpi 仓库以 Apache 2.0 许可开源 π0 通用机器人基础模型的权重与代码,并同步发布自回归变体 π0-FAST,推动机器人基础模型生态发展。",
+        "url": "https://www.therobotreport.com/physical-intelligence-open-sources-pi0-robotics-foundation-model/"
       }
     ]
   },
@@ -9546,6 +10512,20 @@
         "category": "融资",
         "summary": "年化营收 3 月突破 4.5 亿美元(半年翻倍);Comet AI 浏览器免费后月活用户超 1 亿、月搜索量超 10 亿次;2026 年 2 月转向订阅优先、停掉广告以保用户信任。",
         "url": "https://www.techtimes.com/articles/318028/20260608/perplexity-raises-200-million-comet-ai-browser-agent-economy-front-door.htm"
+      },
+      {
+        "title": "ARR 突破 4.5 亿美元,半年翻倍,月查询量超 10 亿次",
+        "date": "2026-03",
+        "category": "业务",
+        "summary": "Perplexity 年化经常性收入于 2026 年 3 月突破 4.5 亿美元,较 2025 年 9 月的 2 亿美元半年内翻倍以上,平台月搜索查询量已超过 10 亿次。",
+        "url": "https://aibusinessweekly.net/p/perplexity-ai-statistics"
+      },
+      {
+        "title": "Comet Plus 推出出版商分成:80% 收入分给内容方",
+        "date": "2025-08",
+        "category": "业务",
+        "summary": "Perplexity 推出 Comet Plus 订阅,将 80% 收入按人类访问、搜索引用、代理操作三类流量分给出版商,初始资金池 4250 万美元,被视为智能体经济下首个真实的内容分成模式。",
+        "url": "https://www.leadgen-economy.com/blog/perplexity-comet-200m-comet-plus-publisher-revenue-share/"
       }
     ]
   },
@@ -10049,6 +11029,27 @@
     ],
     "news": [
       {
+        "title": "ElevenReader 升级为有声书平台,20 万本人声书目对标 Audible",
+        "date": "2026-05",
+        "category": "产品",
+        "summary": "ElevenLabs 将朗读应用 ElevenReader 升级为完整有声书平台,从主流出版商获得 20 万本人工朗读书目授权,定价 11 美元/月,比 Audible 便宜约 26%。",
+        "url": "https://texttolab.com/blog/elevenlabs-news"
+      },
+      {
+        "title": "与 Spotify 合作 AI 有声书制作,瞄准 1 亿美元收入",
+        "date": "2026-05",
+        "category": "业务",
+        "summary": "Spotify 宣布与 ElevenLabs 合作,让作者直接在 Spotify 平台使用 AI 生成有声书,目标撬动 1 亿美元有声书收入。",
+        "url": "https://texttolab.com/blog/elevenlabs-news"
+      },
+      {
+        "title": "Revolut、Klarna 部署其语音客服 Agent,覆盖数千万用户",
+        "date": "2026-01",
+        "category": "落地",
+        "summary": "Revolut 在英国和欧洲为超 400 万客户部署 ElevenLabs Agents 客服,解决时长缩短 8 倍、支持 30 多种语言;Klarna 随后为 3500 万美国用户上线其语音 AI 一线电话客服。",
+        "url": "https://texttolab.com/blog/elevenlabs-news"
+      },
+      {
         "title": "完成 5 亿美元 D 轮、估值 110 亿美元;ARR 突破 5 亿美元",
         "date": "2026",
         "category": "融资",
@@ -10139,10 +11140,31 @@
     },
     "news": [
       {
+        "title": "设 1000 万美元基金扩展世界模型生态,Q2 ARR 增 4000 万美元",
+        "date": "2026-04",
+        "category": "业务",
+        "summary": "Runway 推出 1000 万美元基金扶持 AI 视频与世界模型生态;创始人透露公司 2026 年第二季度新增约 4000 万美元年经常性收入,世界模型被定位为医疗、气候、机器人等领域的核心技术方向。",
+        "url": "https://theaiinsider.tech/2026/04/02/runway-launches-10m-fund-to-expand-ai-video-and-world-model-ecosystem/"
+      },
+      {
+        "title": "完成 3.15 亿美元 E 轮融资,估值升至 53 亿美元",
+        "date": "2026-02",
+        "category": "融资",
+        "summary": "Runway 完成由 General Atlantic 领投的 3.15 亿美元 E 轮融资,英伟达、富达、Adobe Ventures、AMD Ventures 等参投,估值较此前近乎翻倍至 53 亿美元,资金将用于预训练下一代世界模型。",
+        "url": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/"
+      },
+      {
         "title": "Gen 系列持续刷新 AI 视频上限,Runway Studios 探索 AI 影视",
         "date": "2026",
         "category": "产品",
         "summary": "Runway 的 Gen-2、Gen-3、Gen-4 系列模型不断刷新 AI 视频质量上限,配合抠像、动捕、特效等专业创作工具打造「AI 时代的影视创作平台」;其技术曾用于奥斯卡获奖影片《瞬息全宇宙》,并成立 Runway Studios 探索 AI 影视内容。"
+      },
+      {
+        "title": "Gen-4.5 视频模型多项基准超越 Google 与 OpenAI",
+        "date": "2026",
+        "category": "产品",
+        "summary": "Runway 发布 Gen-4.5 视频生成模型,支持原生音频、长视频多镜头生成、角色一致性与高级编辑,在多项基准上超越 Google 与 OpenAI 的视频生成产品,显著提升行业口碑。",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ai-startup-runway-outshines-industry-giants-with-gen-4-5-video-ai/cLI7WZNREiY"
       }
     ]
   },
@@ -10222,6 +11244,20 @@
         "date": "2026",
         "category": "产品",
         "summary": "Pika 以文字或图片生成短视频,凭借让物体膨胀、融化、爆炸等 Pikaffects 创意特效在社交媒体病毒式传播,吸引大量普通用户尝鲜,并凭出色产品体验获得大量关注与融资,代表 AI 视频走向大众消费级创意工具。"
+      },
+      {
+        "title": "Pika 年化收入超 8500 万美元,估值升至约 9 亿美元",
+        "date": "2026",
+        "category": "业务",
+        "summary": "2026 年初 Pika 年化经常性收入达约 8500 万美元以上,估值约 9 亿美元,较 8000 万美元 B 轮时的 4.7 亿美元估值近乎翻倍,是增长最快的 AI 视频平台之一。",
+        "url": "https://fueler.io/blog/pika-labs-usage-revenue-valuation-growth-statistics"
+      },
+      {
+        "title": "Meta 曾洽谈收购 Pika,公司转向消费级社交 App 与「AI 分身」",
+        "date": "2025-07",
+        "category": "重大",
+        "summary": "据 Sacra,Meta 于 2025 年 7 月与 Pika 进行过收购谈判;同期 Pika 推出面向社交场景的消费级 App,并以 pika.me 试水可对话、发帖、记忆的「AI Selves」分身产品。",
+        "url": "https://sacra.com/c/pika/"
       }
     ]
   },
@@ -10303,10 +11339,31 @@
     ],
     "news": [
       {
+        "title": "Ray3.2 上线:16 关键帧控制、HDR 与 20 秒长视频",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "面向影视、广告与游戏创作者的 Ray3.2 支持每段最多 16 个关键帧、1080p 最长 20 秒生成、HDR 及 16-bit EXR 导出,并同步开放开发者 API。",
+        "url": "https://lumalabs.ai/news"
+      },
+      {
+        "title": "发布 Ray3.14:原生 1080p、生成速度提升 4 倍",
+        "date": "2026-01",
+        "category": "产品",
+        "summary": "Luma 于 2026 年 1 月推出 Ray3.14,支持原生 1080p 生成、速度较前代快 4 倍,按秒计价便宜 3 倍,并将 Ray3 推理引擎强化用于动画与专业视频工作流。",
+        "url": "https://lumalabs.ai/news"
+      },
+      {
         "title": "Dream Machine 生成电影感视频,3D 技术底子指向世界模型",
         "date": "2026",
         "category": "进展",
         "summary": "Luma AI 从 NeRF/3D 重建起家,其 Dream Machine 能把文字或图片变成高质量、有电影感的短视频,一度是最受欢迎的 AI 视频产品之一;偏重三维与物理理解的技术底子使其在空间感与运动连贯性上独具优势,指向「世界模型」前沿。"
+      },
+      {
+        "title": "完成 9 亿美元 C 轮融资,沙特 Humain 领投估值 40 亿",
+        "date": "2025",
+        "category": "融资",
+        "summary": "Luma AI 完成 9 亿美元 C 轮融资,由沙特 PIF 旗下 Humain 领投,AMD Ventures、a16z 等跟投,估值 40 亿美元,转向多模态基础模型。",
+        "url": "https://kr-asia.com/luma-ai-draws-saudi-backing-to-pivot-toward-multimodal-foundation-models"
       }
     ]
   },
@@ -10382,6 +11439,20 @@
         "date": "2026-06",
         "category": "融资",
         "summary": "2026 年 6 月 Suno 完成 4 亿美元 D 轮融资,估值达 54 亿美元、半年内翻倍;3 月发布的 v5.5 支持用创作者自己的嗓音生成并达 48kHz 专业音质,同时其与环球、索尼的版权诉讼关键判决预计 7 月开庭,华纳已率先和解。"
+      },
+      {
+        "title": "与环球、索尼和解谈判陷入僵局,合理使用关键判决 7 月开庭",
+        "date": "2026-04",
+        "category": "进展",
+        "summary": "Suno 与环球音乐、索尼音乐的授权与和解谈判据报陷入僵局,针对其「合理使用」抗辩的简易判决听证定于 2026 年 7 月举行,结果将深刻影响 AI 音乐版权格局。",
+        "url": "https://www.digitalmusicnews.com/2026/04/09/suno-universal-music-lawsuit-settlement-impasse/"
+      },
+      {
+        "title": "与华纳音乐达成和解并获授权,同时收购演出平台 Songkick",
+        "date": "2025-11",
+        "category": "重大",
+        "summary": "华纳音乐 2025 年 11 月宣布与 Suno 和解版权诉讼并建立授权合作,Suno 承诺 2026 年推出基于合规授权音乐训练的新模型并调整下载付费规则,同时从华纳手中收购演出发现平台 Songkick。",
+        "url": "https://legalclarity.org/suno-lawsuit-explained-from-filing-to-warner-settlement/"
       }
     ]
   },
@@ -10455,6 +11526,20 @@
         "date": "2026",
         "category": "重大",
         "summary": "这家由前 DeepMind 研究者创立、与 Suno 并称 AI 音乐双雄的公司，因训练数据涉嫌使用受版权保护音乐被大型唱片公司起诉，这场官司将划定 AI 音乐生成的合法边界。"
+      },
+      {
+        "title": "与环球音乐和解,将合建授权 AI 音乐平台",
+        "date": "2025",
+        "category": "重大",
+        "summary": "环球音乐集团撤销对 Udio 的版权诉讼并达成战略合作,双方计划 2026 年推出基于授权曲库训练的 AI 音乐创作与流媒体平台,采用封闭式「围墙花园」模式。",
+        "url": "https://www.musicbusinessworldwide.com/universal-music-settles-udio-lawsuit-strikes-deal-for-licensed-ai-music-platform/"
+      },
+      {
+        "title": "华纳音乐亦与 Udio 和解并签订授权协议",
+        "date": "2025",
+        "category": "业务",
+        "summary": "继环球之后,华纳音乐也与 Udio 就版权诉讼达成和解,并签署许可协议,支持其 2026 年推出「下一代」授权 AI 音乐平台,版权纠纷进一步化解。",
+        "url": "https://www.musicbusinessworldwide.com/warner-music-settles-udio-lawsuit-strikes-licensing-deal-with-ai-platform/"
       }
     ]
   },
@@ -10526,10 +11611,24 @@
     ],
     "news": [
       {
+        "title": "ARR 突破 2 亿美元,八个月内实现翻倍",
+        "date": "2026-06",
+        "category": "业务",
+        "summary": "HeyGen 年经常性收入超 2 亿美元,八个月翻倍且几乎不烧钱,每 1 美元融资产生 2.7 美元 ARR;用户超 3000 万,覆盖 85% 的财富 100 强企业。",
+        "url": "https://www.upstartsmedia.com/p/exclusive-heygen-200m-arr-without-burn"
+      },
+      {
         "title": "HeyGen 收入增长迅猛，AI 数字人视频商业化领跑",
         "date": "2026",
         "category": "业务",
         "summary": "凭借数字化身、口型同步与保留本人音色的多语言配音，HeyGen 帮企业低成本批量生产培训与营销视频，收入快速增长、估值持续攀升，成为 AI 视频商业化最成功的公司之一。"
+      },
+      {
+        "title": "据报完成 1.5 亿美元 B 轮,估值达 20 亿美元",
+        "date": "2025",
+        "category": "融资",
+        "summary": "据 Sacra 报道,HeyGen 于 2025 年中完成 1.5 亿美元 B 轮融资,投后估值约 20 亿美元,较 2023 年 A 轮后的 5 亿美元估值大幅提升。",
+        "url": "https://sacra.com/c/heygen/"
       }
     ]
   },
@@ -10601,6 +11700,20 @@
       "英伟达"
     ],
     "news": [
+      {
+        "title": "完成 2 亿美元 E 轮融资,估值升至 40 亿美元",
+        "date": "2026-01",
+        "category": "融资",
+        "summary": "2026 年 1 月完成 2 亿美元 E 轮融资,估值 40 亿美元,由 Google Ventures 领投,英伟达 NVentures、Accel、Kleiner Perkins 等参投,较 2025 年初 21 亿美元估值近乎翻倍。",
+        "url": "https://www.synthesia.io/post/series-e-200-million-4-billion-valuation-future-work"
+      },
+      {
+        "title": "ARR 达 1.5 亿美元,发力对话式智能体学习产品",
+        "date": "2026-01",
+        "category": "业务",
+        "summary": "年经常性收入达 1.5 亿美元,预计 2026 年内突破 2 亿美元;计划从单向视频培训扩展到对话式、智能体驱动的学习体验,支持员工与 AI 智能体问答和角色扮演演练。",
+        "url": "https://siliconangle.com/2026/01/26/synthesia-raises-200m-4b-valuation-build-worker-skills-using-ai-avatars/"
+      },
       {
         "title": "Synthesia 估值达数十亿美元，财富 500 强客户持续扩大",
         "date": "2026",
@@ -10684,10 +11797,31 @@
     ],
     "news": [
       {
+        "title": "推出实时语音 Voice API,并上架 AWS Marketplace",
+        "date": "2026-02",
+        "category": "产品",
+        "summary": "DeepL 于 2026 年 2 月发布支持实时语音转录与翻译的 Voice API,同期登陆 AWS Marketplace,加速企业级语言 AI 分发与落地。",
+        "url": "https://www.deepl.com/en/press-release"
+      },
+      {
+        "title": "引入 Salesforce、ServiceNow 高管,酝酿最早 2026 年 IPO",
+        "date": "2026-01",
+        "category": "进展",
+        "summary": "DeepL 任命前 Salesforce 与 ServiceNow 高管出任 COO 和 CRO,补强商业化班底;据知情人士,公司考虑最早于 2026 年启动 IPO。",
+        "url": "https://www.cnbc.com/2025/09/03/deepl-launches-ai-agent-pitting-it-against-openai-anthropic.html"
+      },
+      {
         "title": "DeepL 扩展为企业 AI 语言平台，估值达数十亿美元",
         "date": "2026",
         "category": "业务",
         "summary": "面对通用大模型的翻译冲击，DeepL 从翻译工具扩展为涵盖文档翻译、DeepL Write 写作润色与数据合规方案的企业语言平台，以专精质量和企业信任守住阵地。"
+      },
+      {
+        "title": "发布 DeepL Agent,进军自主 AI 智能体市场",
+        "date": "2025-11",
+        "category": "产品",
+        "summary": "DeepL 推出自主 AI 数字员工 DeepL Agent 并宣布正式商用,可自动处理销售、营销、财务等工作流,与 CRM、邮件等企业系统集成,正面挑战 OpenAI 与微软。",
+        "url": "https://www.deepl.com/en/press-release/deepl_unveils_next-gen_language_ai_tools_and_game-changing_agentic_productivity_solution"
       }
     ]
   },
@@ -10761,10 +11895,24 @@
     ],
     "news": [
       {
+        "title": "Ideogram 4.0 以 Apache 2.0 协议开源发布",
+        "date": "2026-06",
+        "category": "研发",
+        "summary": "2026 年 6 月 Ideogram 发布 4.0 前沿文生图基础模型,以 Apache 2.0 开放权重并允许商用,支持生产级文字渲染、边界框布局控制与 2K 照片级输出。",
+        "url": "https://ideogram.ai/news/ideogram-4.0/"
+      },
+      {
         "title": "Ideogram 凭图内文字精准渲染稳居文生图第一梯队",
         "date": "2026",
         "category": "产品",
         "summary": "由谷歌 Imagen 研究者创立的 Ideogram 在图像中渲染清晰、排版美观文字上业界领先，在海报、logo、营销图等需要文字的设计场景建立了与 Midjourney、Flux 的清晰差异化。"
+      },
+      {
+        "title": "发布 Ideogram 3.0:写实度跃升并支持风格参考",
+        "date": "2025-03",
+        "category": "产品",
+        "summary": "Ideogram 3.0 大幅提升照片级写实与复杂文字排版理解,新增 Style References 风格参考系统及 Magic Fill、Extend 画布编辑工具。",
+        "url": "https://ideogram.ai/models/3.0/"
       }
     ]
   },
@@ -10843,6 +11991,13 @@
       "community": 92
     },
     "news": [
+      {
+        "title": "FLUX 成 Hugging Face 最热门图像模型,跻身欧洲最具价值 AI 公司",
+        "date": "2026-02",
+        "category": "业务",
+        "summary": "FLUX 开源模型是 Hugging Face 上最受欢迎的图像模型,Adobe、Canva、Meta、微软等均基于其构建创意功能;《财富》称其已悄然成为欧洲最有价值的 AI 公司之一。",
+        "url": "https://fortune.com/2026/02/17/ai-startup-that-has-quietly-become-one-of-europes-most-valuable-companies/"
+      },
       {
         "title": "Black Forest Labs 的 FLUX 成 xAI Grok 图像生成引擎",
         "date": "2026",
@@ -10942,6 +12097,20 @@
         "category": "重大",
         "summary": "累计融资约 30 亿美元,专注 AI 推理云,GroqCloud 开发者超 200 万;沙特 PIF 承诺 15 亿美元、成为 HUMAIN 关键技术供应商;与英伟达签非独家推理技术授权(结构化现金 170 亿美元)。",
         "url": "https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business"
+      },
+      {
+        "title": "转型 AI 推理云业务,拟 2027 年底扩容至 200 兆瓦",
+        "date": "2026-06",
+        "category": "业务",
+        "summary": "核心团队加入英伟达后,Groq 重组聚焦 GroqCloud「新云」推理业务,结合自研硬件与英伟达 GPU 提供推理基础设施,计划部署新一代 LPU 并在 2027 年底前将容量扩展至约 200 兆瓦。",
+        "url": "https://siliconangle.com/2026/06/22/inference-chip-startup-groq-raises-650m-grow-cloud-platform/"
+      },
+      {
+        "title": "美参议员就英伟达 200 亿美元 Groq 交易发起反垄断调查",
+        "date": "2026-03",
+        "category": "重大",
+        "summary": "参议员 Elizabeth Warren 与 Richard Blumenthal 于 2026 年 3 月对英伟达 200 亿美元收购 Groq LPU 技术授权并吸纳创始人 Jonathan Ross 及核心高管的交易发起正式调查,质疑其规避反垄断申报门槛。",
+        "url": "https://mlq.ai/news/groq-raises-650m-from-existing-backers-to-build-ai-inference-cloud-after-nvidias-20b-deal/"
       }
     ]
   },
@@ -11052,6 +12221,20 @@
         "category": "重大",
         "summary": "5 月登陆纳斯达克(CBRS),定价高于区间、首日近乎翻倍;主打推理而非训练;1 月与 OpenAI 签多年 750MW(可扩至 2GW)推理产能协议(合约价值超 100 亿美元),并与 AWS 合作。",
         "url": "https://thenextweb.com/news/cerebras-ipo-5-55-billion-biggest-tech-2026"
+      },
+      {
+        "title": "AWS 宣布部署 Trainium+CS-3 组合方案并接入 Bedrock",
+        "date": "2026-03",
+        "category": "合同",
+        "summary": "AWS 于 2026 年 3 月宣布在其数据中心部署 Trainium 与 Cerebras CS-3 的组合方案并通过 Amazon Bedrock 提供服务:Trainium 负责提示词预填充,CS-3 负责解码输出,发挥晶圆级引擎的推理速度优势。",
+        "url": "https://www.theregister.com/ai-ml/2026/05/15/cerebras-wafer-scale-ai-bet-delivers-blockbuster-ipo/5240821"
+      },
+      {
+        "title": "Q1 核心营收约 1.9 亿美元,同比大增 92%",
+        "date": "2026",
+        "category": "财报",
+        "summary": "2026 年第一季度核心营收 1.91 亿至 1.93 亿美元,同比增长 92%,主要受与 OpenAI 的多年期大额合作协议拉动,IPO 前业绩表现强劲。",
+        "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/"
       }
     ]
   },
@@ -11470,11 +12653,32 @@
     },
     "news": [
       {
+        "title": "与 Anthropic 签多年协议,承载 Claude 推理负载",
+        "date": "2026-04",
+        "category": "合同",
+        "summary": "CoreWeave 宣布与 Anthropic 达成多年期协议,提供英伟达 GPU 算力支持 Claude 生产级推理,至此已集齐 Meta、Anthropic、OpenAI、谷歌四大 AI 实验室客户。",
+        "url": "https://www.forbes.com/sites/janakirammsv/2026/04/13/coreweave-becomes-ais-landlord-with-meta-and-anthropic-deals/"
+      },
+      {
+        "title": "Meta 合作扩容 210 亿美元,并发行 35 亿可转债",
+        "date": "2026-04",
+        "category": "重大",
+        "summary": "CoreWeave 与 Meta 的基础设施合作扩大 210 亿美元,并在 48 小时内完成 35 亿美元可转换优先票据定价,为算力扩张补充弹药。",
+        "url": "https://www.forbes.com/sites/janakirammsv/2026/04/13/coreweave-becomes-ais-landlord-with-meta-and-anthropic-deals/"
+      },
+      {
         "title": "Q1 2026 营收 21 亿美元(+112%),订单积压 994 亿美元",
         "date": "2026",
         "category": "财报",
         "summary": "已签下 Meta、Anthropic、OpenAI、谷歌四大 AI 实验室,OpenAI 合同扩至约 224 亿美元;预计 2026 年底年化营收 180–190 亿美元,活跃电力超 1GW、签约超 3.5GW。",
         "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-First-Quarter-2026-Results/"
+      },
+      {
+        "title": "OpenAI 合同再扩 65 亿,总额约 224 亿美元",
+        "date": "2025-09",
+        "category": "合同",
+        "summary": "CoreWeave 与 OpenAI 的协议再次扩大至多 65 亿美元,使双方合同总价值达约 224 亿美元;OpenAI 此前已通过 3.5 亿美元入股成为其投资方。",
+        "url": "https://www.cnbc.com/2025/09/25/coreweave-openai-6point5-billion-deal.html"
       }
     ]
   },
@@ -11560,10 +12764,31 @@
     },
     "news": [
       {
+        "title": "Lambda 计划 2026 下半年 IPO,洽谈 3.5 亿美元可转债过桥融资",
+        "date": "2026-01",
+        "category": "重大",
+        "summary": "据报道 Lambda 计划 2026 年下半年上市,正洽谈由 Mubadala Capital 领投的 3.5 亿美元可转换票据 pre-IPO 融资,定价约为最终 IPO 价的 8 折;其 Series E 融资约 15 亿美元、估值 59 亿美元。",
+        "url": "https://www.datacenterdynamics.com/en/news/lambda-in-talks-to-raise-350m-in-pre-ipo-funding-report/"
+      },
+      {
         "title": "Lambda 获英伟达投资，大幅扩建 GPU 云容量",
         "date": "2026",
         "category": "业务",
         "summary": "这家面向 AI 研究者与企业的 GPU 云和工作站厂商，在算力紧缺、GPU 一卡难求的背景下获英伟达等投资并大幅扩容，与 CoreWeave、Nebius 同处快速崛起的「新云」赛道。"
+      },
+      {
+        "title": "自建 AI 工厂:堪萨斯城 24MW 数据中心 2026 年初上线",
+        "date": "2026",
+        "category": "落地",
+        "summary": "Lambda 正从托管模式转向垂直整合的自建「AI 工厂」,位于堪萨斯城的 24MW 数据中心计划 2026 年初投运,将部署超 1 万块英伟达 Blackwell Ultra GPU。",
+        "url": "https://medium.com/@fahey_james/lambdas-1-5b-raise-and-the-rise-of-the-superintelligence-cloud-d405585c4b7b"
+      },
+      {
+        "title": "与微软签署数十亿美元 GPU 供应合同,锚定 AI 云增长",
+        "date": "2025",
+        "category": "合同",
+        "summary": "2025 年四季度 Lambda 与微软签署价值数十亿美元的多年期合同,向这家超大规模云厂商提供 GPU 算力,成为其 IPO 前最重要的收入锚点之一。",
+        "url": "https://finance.yahoo.com/news/microsoft-nvidia-anchor-lambdas-ai-181306538.html"
       }
     ]
   },
@@ -11750,11 +12975,32 @@
     },
     "news": [
       {
+        "title": "与 Meta 签订最高 270 亿美元 AI 基础设施大单",
+        "date": "2026-03",
+        "category": "合同",
+        "summary": "2026 年 3 月 Nebius 与 Meta 签署五年期 AI 基础设施供应协议,合同总额最高约 270 亿美元,将提供 120 亿美元专属容量,基于英伟达 Vera Rubin 平台,2027 年初起交付。",
+        "url": "https://www.cnbc.com/2026/03/16/meta-nebius-ai-infrastructure.html"
+      },
+      {
         "title": "Q1 2026 AI 营收同比暴增 841% 至 3.9 亿美元",
         "date": "2026",
         "category": "财报",
         "summary": "作为专注 AI 的欧洲「新云」营收爆发式增长,并被纳入纳斯达克 100 指数;不过 Meta 亲自下场做新云等竞争因素,一度令 CoreWeave、Nebius 股价大跌。",
         "url": "https://www.indexbox.io/blog/ai-infrastructure-boom-neocloud-providers-coreweave-and-nebius-report-surging-revenue/"
+      },
+      {
+        "title": "重申 2026 全年营收 30-34 亿美元指引,资本开支上调至 200-250 亿",
+        "date": "2026",
+        "category": "财报",
+        "summary": "Nebius 重申 2026 财年营收 30 亿至 34 亿美元、调整后 EBITDA 利润率约 40% 的指引,同时将全年资本开支预期上调至 200 亿-250 亿美元以加速扩建 AI 云容量。",
+        "url": "https://futurumgroup.com/insights/nebius-q1-fy-2026-earnings-show-ai-cloud-capacity-scaling/"
+      },
+      {
+        "title": "拿下微软最高 194 亿美元五年期算力合同",
+        "date": "2025-09",
+        "category": "合同",
+        "summary": "Nebius 于 2025 年 9 月与微软达成协议,五年内向其交付最高 194 亿美元的 GPU 计算资源;管理层强调微软、Meta 大单是多元化客户结构的补充而非替代。",
+        "url": "https://futurumgroup.com/insights/nebius-q1-fy-2026-earnings-show-ai-cloud-capacity-scaling/"
       }
     ]
   },
@@ -11836,6 +13082,20 @@
       "community": 92
     },
     "news": [
+      {
+        "title": "完成 8 亿美元 C 轮融资,估值跃升至 83 亿美元",
+        "date": "2026-07",
+        "category": "融资",
+        "summary": "2026 年 7 月宣布完成 8 亿美元 C 轮融资,估值 83 亿美元,由 Aramco Ventures 领投,Vista、General Catalyst、英伟达等参投;16 个月前估值仅 33 亿美元,现为估值最高的纯「新云」创业公司。",
+        "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+      },
+      {
+        "title": "年化订单额超 11.5 亿美元,投资方另承诺逾 500MW 算力",
+        "date": "2026-07",
+        "category": "业务",
+        "summary": "最近一季年化订单额超过 11.5 亿美元,主打 DeepSeek、Llama、Kimi 等开源权重模型的推理基础设施;随融资投资方另行承诺超过 500 兆瓦算力容量,由独立资本支持建设。",
+        "url": "https://www.techtimes.com/articles/319657/20260703/together-ai-raises-800m-open-source-inference-breaks-1b-closed-models-stall.htm"
+      },
       {
         "title": "Together AI 增长迅速，「开源 AI 全栈云」估值攀升",
         "date": "2026",
@@ -11919,10 +13179,24 @@
     },
     "news": [
       {
+        "title": "传洽谈新融资,估值目标 150 亿美元,七个月近翻两番",
+        "date": "2026-05",
+        "category": "融资",
+        "summary": "彭博报道 Fireworks AI 正洽谈以 150 亿美元投后估值融资,Index Ventures 拟联合领投;年化收入据 Sacra 估计已达约 8 亿美元。",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-27/fireworks-ai-in-talks-for-funding-at-15-billion-valuation"
+      },
+      {
         "title": "Fireworks AI 以 FireAttention 引擎抢占开源推理市场",
         "date": "2026",
         "category": "产品",
         "summary": "由前 Meta PyTorch 核心成员创立的 Fireworks，用自研 FireAttention 引擎与量化、编译优化让开源模型跑得更快更省，开发者可一键调用数百个开源模型，增长迅猛、估值快速攀升。"
+      },
+      {
+        "title": "完成 2.5 亿美元 C 轮融资,估值达 40 亿美元",
+        "date": "2025-10",
+        "category": "融资",
+        "summary": "由 Lightspeed、Index Ventures 与 Evantic 领投,红杉资本跟投。客户数从 B 轮时约 1000 家增长至逾 1 万家,覆盖 Cursor、Notion、Uber 等。",
+        "url": "https://fireworks.ai/blog/series-c"
       }
     ]
   },
@@ -12010,10 +13284,31 @@
     },
     "news": [
       {
+        "title": "与 NVIDIA 深化合作，Isaac GR00T 等机器人模型接入 LeRobot",
+        "date": "2026-07",
+        "category": "产品",
+        "summary": "NVIDIA 将 Isaac GR00T 1.7 与 Isaac Teleop 集成进 Hugging Face 的开源机器人库 LeRobot，Cosmos 3 也计划后续接入，强化其在开源具身智能生态的核心地位。",
+        "url": "https://theaiinsider.tech/2026/07/07/nvidia-and-hugging-face-bring-new-models-and-frameworks-to-lerobot-for-open-source-robotics/"
+      },
+      {
+        "title": "与高通扩大合作，AI 工作负载覆盖从终端到云端",
+        "date": "2026-06",
+        "category": "业务",
+        "summary": "Hugging Face 与高通宣布扩展合作，将开发者工作负载引入高通数据中心方案，并推出 Hugging Face Agent 实现设备与云端间的混合 AI 编排。",
+        "url": "https://www.qualcomm.com/news/releases/2026/06/qualcomm-and-hugging-face-expand-relationship-to-advance-open--d"
+      },
+      {
         "title": "Hugging Face 托管模型与数据集突破百万量级",
         "date": "2026",
         "category": "进展",
         "summary": "作为「AI 界的 GitHub」，Hugging Face 已托管上百万个模型与数据集，Meta、谷歌、Mistral、阿里 Qwen 等均在此发布开源模型，其 Transformers 库仍是大模型开发的基础工具。"
+      },
+      {
+        "title": "机器人成正式产品线：299 美元 Reachy Mini 面向消费级市场",
+        "date": "2026",
+        "category": "产品",
+        "summary": "依托收购 Pollen Robotics，Hugging Face 机器人硬件线覆盖 7 万美元人形机器人 Reachy 2（已在 20 多国部署数百台）到 299 美元起的消费级 Reachy Mini 和百元级开源机械臂 SO-101。",
+        "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"
       }
     ]
   },
@@ -12107,6 +13402,27 @@
         "category": "融资",
         "summary": "较半年前 1340 亿美元估值再跳涨;年化营收 54 亿美元(其中 AI 业务超 14 亿);CEO 称今年不上市但已进入 IPO 准备状态,最快 2026 年底上市。",
         "url": "https://techfundingnews.com/databricks-eyes-5b-raise-at-134b-valuation-post-100b-jump/"
+      },
+      {
+        "title": "CEO 排除 2026 年上市,称最早 2027 年 IPO",
+        "date": "2026-06",
+        "category": "重大",
+        "summary": "CEO Ali Ghodsi 接受彭博电视采访时称 2026 年是\"糟糕的上市年份\",明确排除年内 IPO,转而指向最早 2027 年上市的可能。",
+        "url": "https://tech-insider.org/databricks-valuation-175-billion-2026/"
+      },
+      {
+        "title": "完成超 70 亿美元融资:1340 亿美元估值股权 + 20 亿债务额度",
+        "date": "2026-02",
+        "category": "融资",
+        "summary": "Databricks 完成合计超 70 亿美元的资金安排,含约 50 亿美元股权融资(估值 1340 亿美元)及约 20 亿美元额外债务额度,摩根大通通过其战略投资集团扩大投资。",
+        "url": "https://www.cnbc.com/2026/02/09/databricks-completes-5-billion-funding-round-with-2-billion-in-debt.html"
+      },
+      {
+        "title": "AI 产品年化收入达 14 亿美元,加速 Lakebase 与 Genie",
+        "date": "2026-02",
+        "category": "产品",
+        "summary": "Databricks 披露其 AI 产品线年化收入已达 14 亿美元,并宣布将新融资重点投向面向 AI 智能体的无服务器 Postgres 数据库 Lakebase 和对话式助手 Genie。",
+        "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-grows-65-yoy-surpasses-5-4-billion-revenue-run-rate"
       }
     ]
   },
@@ -12208,6 +13524,20 @@
       "anthropic"
     ],
     "news": [
+      {
+        "title": "Q1 FY27 营收 13.9 亿美元超预期,股价单日暴涨 36%",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "季度营收同比增长 33%,调整后 EPS 0.39 美元均超预期,创上市以来最大单日涨幅;管理层指引 FY27 产品营收约 58.4 亿美元(增约 31%)。",
+        "url": "https://www.cnbc.com/2026/05/28/snowflake-snow-software-stock-rally.html"
+      },
+      {
+        "title": "承诺 60 亿美元采购 AWS 算力,并收购 AI 初创 Natoma",
+        "date": "2026-05",
+        "category": "业务",
+        "summary": "宣布未来在亚马逊云上投入 60 亿美元算力,同时收购 AI 身份安全初创公司 Natoma;逾 9100 个客户账户已在使用 Snowflake AI 功能。",
+        "url": "https://www.cnbc.com/2026/05/27/snowflake-amazon-graviton-cloud-chips.html"
+      },
       {
         "title": "Q4 营收 +30%,Cortex AI 年化收入约 1 亿美元",
         "date": "2026",
@@ -12697,6 +14027,27 @@
     },
     "news": [
       {
+        "title": "获五角大楼 5 亿美元 Thunderforge 合同，转向国防业务",
+        "date": "2026-05",
+        "category": "合同",
+        "summary": "Scale AI 主导美国国防部 Project Thunderforge，将 AI 智能体引入任务规划，获 5 亿美元合同；此前还与 Palantir、Anduril 一同入选'金穹'导弹防御项目承包商。",
+        "url": "https://www.forbes.com/sites/richardnieva/2026/05/14/scale-meta-deal/"
+      },
+      {
+        "title": "Google、OpenAI 等大客户因 Meta 交易缩减或暂停合作",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Meta 入股引发数据保密与竞争顾虑，Google、OpenAI、xAI 等主要客户相继减少或暂停与 Scale 的合作；公司据报道获 Meta 每年至少 4.5 亿美元的五年期合同作为支撑。",
+        "url": "https://www.forbes.com/sites/richardnieva/2026/05/14/scale-meta-deal/"
+      },
+      {
+        "title": "Meta 入股一个月后裁员 200 人，并终止 500 名承包商合作",
+        "date": "2025-07",
+        "category": "重大",
+        "summary": "Scale AI 在获 Meta 143 亿美元投资约一个月后裁减约 14% 全职员工（200 人），称此前扩张过快，GenAI 团队从 16 个整合为 5 个。",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/scale-ai-lays-off-200-employees-one-month-after-metas-usd14-billion-investment-says-it-scaled-up-too-quickly"
+      },
+      {
         "title": "Meta 143 亿美元入股 Scale AI 49%，创始人 Wang 离任",
         "date": "2025-06",
         "category": "重大",
@@ -12868,6 +14219,20 @@
         "date": "2026-04",
         "category": "重大",
         "summary": "2026 年 4 月 Cohere 与德国 Aleph Alpha 合并，整体估值约 200 亿美元，年化收入约 2.4 亿美元并推进 IPO；其 North 工作空间直接对标微软 Copilot，客户含 RBC、Dell、Oracle、SAP 等。"
+      },
+      {
+        "title": "Schwarz 集团承诺 5 亿欧元领投 E 轮结构化融资",
+        "date": "2026-04",
+        "category": "融资",
+        "summary": "德国 Schwarz 集团承诺 5 亿欧元（约 6 亿美元）作为 Cohere E 轮领投方，CFO 称该轮预计数月内完成；公司将继续拓展欧洲市场并建设 AI 智能体平台 North。",
+        "url": "https://www.cnbc.com/2026/02/13/ai-startup-cohere-revenue-ipo.html"
+      },
+      {
+        "title": "2025 年 ARR 达约 2.4 亿美元超额完成目标，IPO 势头渐强",
+        "date": "2026-02",
+        "category": "财报",
+        "summary": "投资人备忘录显示 Cohere 2025 年 ARR 约 2.4 亿美元，超过 2 亿美元目标，季度环比增速超 50%，毛利率约 70%，约 85% 收入来自私有化部署，正为上市做准备。",
+        "url": "https://www.cnbc.com/2026/02/13/ai-startup-cohere-revenue-ipo.html"
       }
     ]
   },
@@ -13102,11 +14467,32 @@
     ],
     "news": [
       {
+        "title": "寻求新一轮融资，估值目标 300 亿美元",
+        "date": "2026-06",
+        "category": "融资",
+        "summary": "据 Bloomberg 报道，月之暗面正洽谈新融资，拟募集至多 20 亿美元、估值达 300 亿美元，为六个月内第三次融资，距上一轮 200 亿美元估值大幅跃升。",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-08/china-s-moonshot-ai-seeks-30-billion-value-in-new-funding-talks"
+      },
+      {
+        "title": "Kimi ARR 突破 3 亿美元，新旗舰 K3 定于 7 月发布",
+        "date": "2026-06",
+        "category": "进展",
+        "summary": "Kimi 系列模型年化经常性收入至 6 月中旬突破 3 亿美元；开源旗舰 K2.6 在 Artificial Analysis 独立测评中居开源权重模型之首，新一代旗舰 K3 确认 7 月推出。",
+        "url": "https://news.qq.com/rain/a/20260702A09KP500"
+      },
+      {
         "title": "完成 20 亿美元 D 轮、估值超 200 亿美元,创中国大模型融资纪录",
         "date": "2026-05",
         "category": "融资",
         "summary": "由美团龙珠领投,清华资本、中国移动等参投,成为中国融资额最高的大模型创业公司;旗舰 Kimi K2.6(万亿参数 MoE、26 万 token 上下文)4 月发布,ARR 突破 2 亿美元。",
         "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/"
+      },
+      {
+        "title": "拆除离岸架构，筹备香港 IPO",
+        "date": "2026-04",
+        "category": "重大",
+        "summary": "月之暗面正拆除海外离岸股权架构，为赴港上市铺路，此举发生在监管收紧境外上市背景下，公司对上市态度在数月内明显转变。",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-06/doc-inhtnpyp1565088.shtml"
       }
     ]
   },
@@ -13195,6 +14581,27 @@
         "category": "重大",
         "summary": "收购 Windsurf 后 ARR 翻倍、5 月达 4.92 亿美元;2026 年 6 月 Windsurf 品牌整体更名为 Devin Desktop,抢占企业级 AI 编程市场。",
         "url": "https://cognition.com/blog/windsurf"
+      },
+      {
+        "title": "ARR 达 4.92 亿美元,12 个月增长 13 倍",
+        "date": "2026-05",
+        "category": "业务",
+        "summary": "Cognition 年化收入运行率达 4.92 亿美元,较 2025 年 5 月的 3700 万美元一年内增长 13 倍,Devin 企业端用量过去六个月保持每月 50% 的环比增长。",
+        "url": "https://enterprisedna.co/resources/news/cognition-devin-1-billion-25-billion-valuation-2026/"
+      },
+      {
+        "title": "公司内部 89% 代码已由 Devin 提交",
+        "date": "2026-05",
+        "category": "进展",
+        "summary": "Cognition 披露其内部提交代码的 89% 由 Devin 完成,其余由 Windsurf 本地 Agent 编写;该比例在 2025 年 12 月仅为 13%,被视为企业内 AI 采用速度的标志性案例。",
+        "url": "https://techfundingnews.com/the-ai-startup-replacing-software-engineers-just-raised-1b-at-26b-valuation-and-it-is-already-writing-89-of-cognitions-own-code/"
+      },
+      {
+        "title": "高盛、花旗、奔驰、美国陆海军均在生产环境使用 Devin",
+        "date": "2026-05",
+        "category": "落地",
+        "summary": "Cognition 企业客户名单涵盖高盛、花旗、奔驰、戴尔、桑坦德、NASA 及美国陆军和海军等,Devin 已在这些机构的生产环境中投入使用。",
+        "url": "https://theaiinsider.tech/2026/05/28/cognition-announces-1b-funding-round-at-25b-valuation-as-devin-ai-coder-wins-enterprise-market/"
       }
     ]
   },
@@ -13278,6 +14685,20 @@
         "date": "2026-05",
         "category": "财报",
         "summary": "Glean 年化收入从 2025 年初约 1 亿美元增长到 2026 年 5 月的约 3 亿美元；此前 2025 年 6 月完成 1.5 亿美元 F 轮融资、估值 72 亿美元，与微软 Copilot 正面竞争。"
+      },
+      {
+        "title": "财富 500 强客户一年近翻倍,主打帮企业削减 AI 算力成本",
+        "date": "2026-05",
+        "category": "业务",
+        "summary": "Glean 过去一年将财富 500 强客户数量近乎翻倍,并以\"权限感知知识图谱降低 AI token 消耗、削减企业 AI 计算成本\"为核心卖点,直接对标微软 Copilot。",
+        "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/"
+      },
+      {
+        "title": "完成 1.5 亿美元 F 轮融资,估值 72 亿美元",
+        "date": "2025-06",
+        "category": "融资",
+        "summary": "Glean 完成由 Wellington Management 领投的 1.5 亿美元 F 轮融资,估值达 72 亿美元,Khosla Ventures、Bicycle Capital 等新投资方参投,资金用于加速企业 AI Agent 平台。",
+        "url": "https://www.glean.com/blog/glean-series-f-announcement"
       }
     ]
   },
@@ -13442,10 +14863,24 @@
     },
     "news": [
       {
+        "title": "收入运行率达 3.4 亿美元同比增 84%,平台 30% 应用由智能体生成",
+        "date": "2026-03",
+        "category": "业务",
+        "summary": "Vercel 披露 2026 年 3 月 GAAP 收入运行率达 3.4 亿美元、同比增长 84%,平台上 30% 的应用已由 AI 智能体创建;CEO 表示公司正以上市公司标准运营,为 IPO 做准备。",
+        "url": "https://sacra.com/c/vercel/"
+      },
+      {
         "title": "v0 升级为完整开发平台，含 Git、编辑器与智能体工作流",
         "date": "2026",
         "category": "产品",
         "summary": "2026 年 Vercel 的 v0 从「组件生成器」升级为包含 Git、类 VS Code 编辑器、数据库连接与智能体工作流的完整开发平台；其 AI Gateway 聚合 GPT-5.6、Claude 等多家模型供开发者调用。"
+      },
+      {
+        "title": "完成 3 亿美元 F 轮融资,估值 93 亿美元押注 AI Cloud",
+        "date": "2025-09",
+        "category": "融资",
+        "summary": "Vercel 完成 Accel 与 GIC 领投的 3 亿美元 F 轮融资,估值 93 亿美元,较 2024 年 5 月的 32.5 亿美元增长近三倍,资金用于建设面向 AI 原生与智能体应用的 AI Cloud。",
+        "url": "https://vercel.com/blog/series-f"
       }
     ]
   },
@@ -13526,10 +14961,24 @@
     ],
     "news": [
       {
+        "title": "Palmyra X5 成为主力模型，旧版模型 2026 年 7 月起弃用",
+        "date": "2026-07",
+        "category": "产品",
+        "summary": "Writer 开发者文档将旧版 Palmyra 模型标记为弃用并定于 2026 年 7 月 13 日移除，palmyra-x5 成为官方迁移路径；此前发布的 Palmyra X4 在工具调用上达到业界领先精度。",
+        "url": "https://www.aipedia.wiki/tools/writer/"
+      },
+      {
         "title": "Writer 凭自研 Palmyra 模型深入财富 500 强，估值达数十亿美元",
         "date": "2026",
         "category": "业务",
         "summary": "Writer 以「自研模型 + 企业级平台 + 强合规」的差异化路线，让企业在自有品牌语气与合规规则下用 AI 写文案、生成报告与搭建 Agent 工作流，客户涵盖大量财富 500 强公司。"
+      },
+      {
+        "title": "完成 2 亿美元 C 轮融资，估值 19 亿美元",
+        "date": "2024-11",
+        "category": "融资",
+        "summary": "Writer 宣布由 Premji Invest、Radical Ventures 与 ICONIQ Growth 共同领投的 2 亿美元 C 轮，Adobe、Salesforce、IBM、Workday 等产业资本参投，加码企业级智能体 AI。",
+        "url": "https://writer.com/blog/series-c-funding-writer-press-release/"
       }
     ]
   },
@@ -13611,6 +15060,20 @@
     ],
     "news": [
       {
+        "title": "完成 9.5 亿美元 E 轮融资,估值突破 150 亿美元",
+        "date": "2026-05",
+        "category": "融资",
+        "summary": "Sierra 完成由 Tiger Global 与 GV 领投的 9.5 亿美元 E 轮融资,Benchmark、红杉、Greenoaks 等参投,估值从去年秋天的 100 亿美元升至逾 150 亿美元,在手资金超 10 亿美元。",
+        "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/"
+      },
+      {
+        "title": "ARR 超 1.5 亿美元,AI 客服代理向语音与销售场景扩张",
+        "date": "2026-05",
+        "category": "业务",
+        "summary": "Sierra 进入第三年时 ARR 已超 1.5 亿美元,客户涵盖 Prudential、Cigna 及全球三分之一的最大银行;公司正发力语音代理,瞄准仍占客服交互约 80% 的电话渠道,并拓展销售与客户管理场景。",
+        "url": "https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html"
+      },
+      {
         "title": "Sierra 估值达约 100 亿美元，超四成财富 50 强成为客户",
         "date": "2025",
         "category": "融资",
@@ -13691,6 +15154,20 @@
       "anthropic"
     ],
     "news": [
+      {
+        "title": "完成首次员工股份回购要约，按 45 亿美元估值执行",
+        "date": "2026-03",
+        "category": "进展",
+        "summary": "Decagon 完成首次 tender offer，让 300 余名员工按 45 亿美元估值出售部分已归属股份；过去一年新增超 100 家企业客户，含 Avis 与德国电信，平均问题拦截率超 80%。",
+        "url": "https://techcrunch.com/2026/03/04/decagon-completes-first-tender-offer-at-4-5-billion-valuation/"
+      },
+      {
+        "title": "2.5 亿美元 D 轮融资，估值三倍跃升至 45 亿美元",
+        "date": "2026-01",
+        "category": "融资",
+        "summary": "Decagon 完成 Coatue 与 Index Ventures 领投的 2.5 亿美元 D 轮，估值较上轮增至三倍达 45 亿美元，a16z、Accel、Bain Capital Ventures 等老股东跟投。",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-28/ai-customer-support-startup-decagon-valued-at-4-5-billion"
+      },
       {
         "title": "Decagon AI 客服智能体承接大企业重复咨询，增长迅猛",
         "date": "2026",
@@ -13774,10 +15251,24 @@
     ],
     "news": [
       {
+        "title": "获 2 亿美元融资,估值达 110 亿美元",
+        "date": "2026-03",
+        "category": "融资",
+        "summary": "Harvey 完成由新加坡 GIC 与红杉领投的 2 亿美元融资,估值达 110 亿美元,距去年 12 月 80 亿美元估值的上一轮仅数月,累计融资超 10 亿美元,资金将用于扩展 AI 法律代理与全球嵌入式法律工程团队。",
+        "url": "https://www.cnbc.com/2026/03/25/legal-ai-startup-harvey-raises-200-million-at-11-billion-valuation.html"
+      },
+      {
         "title": "Harvey 成顶级律所标配，法律垂直 AI 达数十亿美元级",
         "date": "2026",
         "category": "落地",
         "summary": "Harvey 被 A&O Shearman 等全球顶级律所与大企业法务采用，覆盖合同起草审查、判例检索、并购尽调等工作流，凭准确性与可溯源引用优化，收入与估值快速攀升。"
+      },
+      {
+        "title": "ARR 达 3 亿美元,超 10 万名律师、1300 家机构在用",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Harvey 2026 年 ARR 达约 3 亿美元,全球超过 10 万名律师、1300 家律所与企业机构在其平台上处理核心法律工作,公司员工规模约 460 人,稳居法律垂直 AI 头部。",
+        "url": "https://www.harvey.ai/blog/harvey-raises-at-dollar11-billion-valuation-to-scale-agents-across-law-firms-and-enterprises"
       }
     ]
   },
@@ -13858,6 +15349,27 @@
         "date": "2026",
         "category": "落地",
         "summary": "Hebbia 的 Matrix 能同时读通成百上千份财报、招股书、合同等长文档，逐份提取比对并给出可溯源到原文的答案，被众多顶级资产管理公司与投行采用。"
+      },
+      {
+        "title": "平台累计处理文档突破 10 亿页，金融机构规模化部署",
+        "date": "2026",
+        "category": "进展",
+        "summary": "Hebbia 宣布平台累计处理页面数突破 10 亿页，金融机构正以前所未有的规模部署其 AI 基础设施，公司团队规模也扩张至约 150 人以上。",
+        "url": "https://www.globalbankingandfinance.com/hebbia-processes-one-billion-pages-as-financial-institutions-deploy-ai-infrastructure-at-unprecedented-scale/"
+      },
+      {
+        "title": "收购 FlashDocs，补强自动化内容生成能力",
+        "date": "2025-06",
+        "category": "业务",
+        "summary": "Hebbia 宣布收购 FlashDocs，将分析处理与信息检索能力延伸至自动化文档/演示内容生成，进一步完善面向金融与法律客户的产品闭环。",
+        "url": "https://www.hebbia.com/newsroom"
+      },
+      {
+        "title": "接入 FactSet、PitchBook、ICE 等多家权威数据源",
+        "date": "2025",
+        "category": "业务",
+        "summary": "Hebbia 陆续宣布与 Preqin、FactSet、Third Bridge 集成，并与 PitchBook、洲际交易所(ICE)合作接入私募公司数据与机构级定价数据，强化金融 AI 平台的数据底座。",
+        "url": "https://www.hebbia.com/newsroom"
       }
     ]
   },
@@ -13931,10 +15443,31 @@
     ],
     "news": [
       {
+        "title": "推出自制互动微短剧,角色可与观众对话",
+        "date": "2026-07",
+        "category": "产品",
+        "summary": "上线《Last Summer》等三部自制微短剧进军微短剧市场,特色是剧中角色可与用户互动对话,延续其沉浸式陪伴产品路线。",
+        "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/"
+      },
+      {
+        "title": "上线对话内全屏广告与 Lorebook 世界观构建工具",
+        "date": "2026-04",
+        "category": "产品",
+        "summary": "2026 年初在对话中引入全屏广告加速商业化;4 月推出世界观构建工具 Lorebook 及可让用户置身经典文学的 Books 功能。",
+        "url": "https://www.businessofapps.com/data/character-ai-statistics/"
+      },
+      {
         "title": "Character.AI 青少年诉讼与谷歌一并达成和解",
         "date": "2026-01",
         "category": "重大",
         "summary": "多起青少年自杀/心理伤害诉讼(如佛州 Megan Garcia 案)于 2026 年 1 月与谷歌一并达成和解；此前 2024 年 8 月谷歌以约 27 亿美元技术授权请回两位创始人，交易曾引来司法部反垄断关注。"
+      },
+      {
+        "title": "全面禁止 18 岁以下用户进行开放式 1 对 1 聊天",
+        "date": "2025-11",
+        "category": "重大",
+        "summary": "在多起诉讼与安全争议后,Character.AI 宣布自 2025 年 11 月 25 日起禁止未成年人使用开放式一对一聊天功能,为行业内最严格的青少年限制之一。",
+        "url": "https://mypresio.com/blog/character-ai-review-2026"
       }
     ]
   },
@@ -14012,6 +15545,20 @@
       "Bond"
     ],
     "news": [
+      {
+        "title": "年化收入突破 40 亿美元,B2B 业务翻倍增长",
+        "date": "2026-02",
+        "category": "业务",
+        "summary": "联合创始人 Cliff Obrecht 披露 ARR 达 40 亿美元,25 席位以上的 B2B 业务 ARR 达 5 亿美元、同比增长 100%,LLM 引荐流量成为新增长来源。",
+        "url": "https://techcrunch.com/2026/02/18/canva-gets-to-4b-in-revenue-as-llm-referral-traffic-rises/"
+      },
+      {
+        "title": "员工股份出售交易估值 420 亿美元,IPO 预期升温",
+        "date": "2025-08",
+        "category": "重大",
+        "summary": "员工股份出售按 420 亿美元估值定价,允许员工出售最多 300 万美元已归属股权;叠加 CFO 到位等信号,市场预期其临近纳斯达克 IPO。",
+        "url": "https://tsginvest.com/canva/"
+      },
       {
         "title": "Canva 收购 Leonardo.Ai 与 Affinity，AI 设计能力大增",
         "date": "2024",
@@ -14099,10 +15646,31 @@
     ],
     "news": [
       {
+        "title": "推出开发者平台，将工作区变成 AI 智能体中枢",
+        "date": "2026-05",
+        "category": "产品",
+        "summary": "Notion 发布新开发者平台，支持自定义 AI 智能体、接入外部智能体并构建可读取任意数据库的多步自动化工作流，Claude 与 Cursor 成为首批外部智能体。",
+        "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/"
+      },
+      {
+        "title": "完成约 2.7 亿美元要约收购交易，估值达 110 亿美元",
+        "date": "2026-01",
+        "category": "融资",
+        "summary": "Notion 完成总额约 2.7 亿美元的私募股权 tender offer，交易估值 110 亿美元；公司自 2021 年 C 轮后未再融资，市场预期其最快 2026 年底启动 IPO。",
+        "url": "https://www.saastr.com/notion-and-growing-into-your-10b-valuation-a-masterclass-in-patience/"
+      },
+      {
         "title": "Notion AI 助手可跨全部笔记问答，重塑知识管理",
         "date": "2026",
         "category": "产品",
         "summary": "Notion 把 AI 深度嵌入产品，可在文档与知识库内写作、总结、翻译、生成表格，并推出跨所有笔记和资料回答问题的 AI 助手，凭海量结构化内容占据 AI 生产力有利位置。"
+      },
+      {
+        "title": "ARR 突破 6 亿美元，约一半收入来自 AI 产品",
+        "date": "2025",
+        "category": "财报",
+        "summary": "Notion 2025 年 ARR 先后越过 5 亿与约 6 亿美元关口，自推出 AI 智能体后增长逐月加速，AI 产品贡献约一半经常性收入。",
+        "url": "https://www.cnbc.com/2025/09/18/notion-launches-ai-agent-as-it-crosses-500-million-in-annual-revenue.html"
       }
     ]
   },
@@ -14181,10 +15749,31 @@
     ],
     "news": [
       {
+        "title": "收购 AI 文本检测公司 GPTZero",
+        "date": "2026-06",
+        "category": "业务",
+        "summary": "Superhuman(原 Grammarly)宣布收购 GPTZero,后者的检测工具帮助教师、编辑与招聘方识别机器生成文本,补强其 AI 写作生态。",
+        "url": "https://siliconangle.com/2026/06/24/grammarly-parent-superhuman-buys-ai-detector-gptzero/"
+      },
+      {
         "title": "Grammarly 收购 Coda 与 Superhuman，转型 AI 生产力平台",
         "date": "2026",
         "category": "业务",
         "summary": "Grammarly 近年接连收购协作文档工具 Coda 与高效邮箱 Superhuman，从单一写作工具整合为覆盖写作、文档、沟通的 AI 生产力平台，并以 GrammarlyGO 从「改你写的」升级到「帮你写」。"
+      },
+      {
+        "title": "公司更名 Superhuman,发布 Superhuman Suite 与 Go 助手",
+        "date": "2025-10",
+        "category": "重大",
+        "summary": "母公司更名为 Superhuman Platform Inc.,整合 Grammarly 写作、Coda 协作、Mail 邮箱与全新 AI 助手 Superhuman Go 为一体的生产力套件。",
+        "url": "https://www.grammarly.com/blog/company/announcing-company-rebrand-to-superhuman/"
+      },
+      {
+        "title": "获 General Catalyst 10 亿美元非稀释性增长融资",
+        "date": "2025-05",
+        "category": "融资",
+        "summary": "从 General Catalyst 客户价值基金获得 10 亿美元非稀释性融资,用于市场扩张与产品研发,为其向 AI 生产力平台转型提供弹药。",
+        "url": "https://sqmagazine.co.uk/grammarly-ai-statistics/"
       }
     ]
   },
@@ -14541,6 +16130,27 @@
     ],
     "news": [
       {
+        "title": "McLane 转入全无人运输,Hirschbach 规划 500 辆规模",
+        "date": "2026-05",
+        "category": "合同",
+        "summary": "大客户 McLane 开始采用完全无人驾驶货运,Hirschbach 计划部署 500 辆搭载 Aurora Driver 的卡车,消息推动股价单日大涨逾 40%。",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-aurora-innovation-aur-42-221916810.html"
+      },
+      {
+        "title": "2025 年净亏 8.16 亿美元,指引 2026 年营收增长 400%",
+        "date": "2026-02",
+        "category": "财报",
+        "summary": "2025 年营收 300 万美元、净亏损 8.16 亿美元,在手流动性近 15 亿美元;公司指引 2026 年营收 1400 万-1600 万美元,年底无人卡车超 200 辆。",
+        "url": "https://seekingalpha.com/news/4550817-aurora-outlines-400-percent-revenue-growth-target-and-200-plus-driverless-trucks-for-2026-as"
+      },
+      {
+        "title": "无人驾驶商业里程突破 25 万英里",
+        "date": "2026-01",
+        "category": "进展",
+        "summary": "在美国公共道路开启无人商业货运后,累计无人驾驶里程于 2026 年 1 月突破 25 万英里,并计划于二季度推出第二代硬件套件。",
+        "url": "https://www.stocktitan.net/sec-filings/AUR/8-k-aurora-innovation-inc-reports-material-event-7deb6448fc8e.html"
+      },
+      {
         "title": "Aurora 得州开启无安全员商业无人卡车运营",
         "date": "2025",
         "category": "重大",
@@ -14626,10 +16236,24 @@
     ],
     "news": [
       {
+        "title": "D 轮融资 12 亿美元,英伟达、Uber 与三大车企参投,估值 86 亿美元",
+        "date": "2026-02",
+        "category": "融资",
+        "summary": "Wayve 完成 12 亿美元 D 轮融资,投后估值 86 亿美元,英伟达、微软、Uber 及奔驰、日产、Stellantis 三大车企参投,本轮总承诺资金达 15 亿美元,用于全球部署其自动驾驶平台。",
+        "url": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/"
+      },
+      {
         "title": "Wayve 获软银英伟达微软巨额投资，端到端路线拓展落地",
         "date": "2026",
         "category": "融资",
         "summary": "走「端到端学习 + 具身 AI」路线的 Wayve 获软银、英伟达、微软等巨额投资，成为欧洲最受瞩目的自动驾驶公司，并把不依赖高精地图的驾驶大模型技术拓展到辅助驾驶等产品。"
+      },
+      {
+        "title": "联手日产与 Uber 签署备忘录,拟 2026 年底东京试点 Robotaxi",
+        "date": "2026",
+        "category": "落地",
+        "summary": "Wayve、Uber 与日产签署合作备忘录,计划 2026 年底在东京用搭载 Wayve AI Driver 的日产 LEAF 试点 Robotaxi 服务,并通过 Uber 平台向乘客开放;2027 年起 L2+ 监督式自动驾驶将进入日产下一代 ProPILOT 量产车。",
+        "url": "https://wayve.ai/press/series-d/"
       }
     ]
   },
@@ -14958,11 +16582,32 @@
     },
     "news": [
       {
+        "title": "连发 M2.5、M2.7 至 M3.0 大模型,快速迭代文本模型系列",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "MiniMax 在 2026 年密集迭代旗舰模型:2 月发布 M2.5 及 Lightning 版本,3 月推出 M2.7,6 月发布 MiniMax-M3.0,持续强化其在文本大模型上的竞争力。",
+        "url": "https://releasebot.io/updates/minimax"
+      },
+      {
+        "title": "发布 2025 年报:营收 7900 万美元同比增 159%,ARR 突破 1.5 亿美元",
+        "date": "2026-03",
+        "category": "财报",
+        "summary": "MiniMax 于 3 月 2 日发布上市后首份年报,2025 年营收 7900 万美元、同比增长 158.9%,超 70% 来自海外市场;2026 年 2 月 ARR 突破 1.5 亿美元,上市以来股价累计上涨逾三倍。",
+        "url": "https://kr-asia.com/minimaxs-arr-tops-usd-150-million-as-it-pivots-toward-an-ai-platform-model"
+      },
+      {
         "title": "登陆港交所(00100),首日涨 42%、市值约 719 亿港元",
         "date": "2026-01",
         "category": "重大",
         "summary": "2026 年 1 月 9 日挂牌,成为全球从创立到 IPO 最快的 AI 公司之一;阿里、阿布扎比投资局基石认购;前 9 个月营收同比增超 170%,海外贡献超 70%。",
         "url": "https://www.stcn.com/article/detail/3582934.html"
+      },
+      {
+        "title": "发布海螺 Hailuo 2.3 视频模型,全球累计生成视频超 6 亿条",
+        "date": "2026",
+        "category": "产品",
+        "summary": "MiniMax 发布物理表现更强的视频生成模型 Hailuo 2.3,提升人体动作与面部微表情自然度,并支持动漫、水墨、游戏 CG 等风格;截至 2025 年底其视频模型全球累计生成超 6 亿条视频。",
+        "url": "https://www.minimax.io/news/minimax-hailuo-23"
       }
     ]
   },
@@ -15069,6 +16714,27 @@
       "huawei"
     ],
     "news": [
+      {
+        "title": "启动最高336亿港元配售，或成2026港股最大再融资",
+        "date": "2026-07",
+        "category": "融资",
+        "summary": "智谱AI在IPO解禁后即宣布配售1980万股，定价1588-1698港元、折价最高13%，拟募资至多约43亿美元，用于研发、业务扩张与并购，规模超其IPO六倍。",
+        "url": "https://finance.biggo.com/news/2c11288d-df27-4e63-ab32-89e6c8d5314b"
+      },
+      {
+        "title": "开源新旗舰GLM-5.2，支持百万token无损上下文",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "6月17日智谱正式发布并开源新一代旗舰大模型GLM-5.2，支持最高100万token无损上下文，编码能力显著增强，在多项基准测试中登顶。",
+        "url": "https://theairankings.com/zhipu/"
+      },
+      {
+        "title": "发布开源旗舰GLM-5，据报未用英伟达芯片训练",
+        "date": "2026-02",
+        "category": "研发",
+        "summary": "智谱2月推出开放权重旗舰模型GLM-5，据报道训练未使用英伟达芯片；4月又推出GLM-5.1，强化长程智能体编码能力，持续逼近美国顶尖模型水平。",
+        "url": "https://www.cnbc.com/2026/06/26/china-zhipu-z-ai-open-source-anthropic-openai.html"
+      },
       {
         "title": "港股上市,市值约 560 亿美元",
         "date": "2026",
@@ -15469,6 +17135,20 @@
       "tsm"
     ],
     "news": [
+      {
+        "title": "思元 590 出货强劲,大摩维持增持评级",
+        "date": "2026-05",
+        "category": "业务",
+        "summary": "摩根士丹利称一季度业绩超预期主要受思元 590 芯片强劲出货驱动;预付款项环比激增 155% 至 19 亿元,反映新增芯片生产订单充足。",
+        "url": "https://www.sohu.com/a/1016545752_121157270"
+      },
+      {
+        "title": "2026 年 Q1 营收 28.85 亿元增 160%,净利 10.13 亿增 185%",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "一季度营收同比增长 159.56%,归母净利润 10.13 亿元、同比增长 185.04%,经营现金流净额 8.34 亿元实现由负转正。",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-05-01/doc-inhwktzf6603604.shtml"
+      },
       {
         "title": "寒武纪思元系列乘国产替代东风,业绩股价屡创新高",
         "date": "2026",
@@ -15940,6 +17620,27 @@
         "category": "落地",
         "summary": "2026 年 6 月第 15000 台机器人(工业级 AGIBOT G2)下线,距破万仅 3 个月;据 Omdia,智元 2025 年以 5168 台出货、39% 市占居全球人形机器人第一;估值约 150 亿元。",
         "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-28/doc-inieyetq3739162.shtml"
+      },
+      {
+        "title": "密集发布 GO-2、GE-2 模型及 Genie Sim 3.0 仿真平台",
+        "date": "2026-04",
+        "category": "研发",
+        "summary": "智元在 4 月密集发布融合大小脑的 GO-2 模型、动作世界模型 GE-2、开源数据集 AGIBOT WORLD 2026,以及仿真平台 Genie Sim 3.0 与 Genie Studio 2.0,推动具身智能从「能动」迈向「会干」。",
+        "url": "https://finance.sina.com.cn/wm/2026-04-25/doc-inhvtmtf0840472.shtml"
+      },
+      {
+        "title": "新增人形机器人生产订单超万台,2027 年营收目标 100 亿元",
+        "date": "2026-03",
+        "category": "业务",
+        "summary": "智元新增人形机器人生产订单超一万台,年化产能超 4 万台;公司计划 2027 年营收达 100 亿元,2030 年挑战 1000 亿元。",
+        "url": "https://www.tmtpost.com/7970809.html"
+      },
+      {
+        "title": "启动港股 IPO 计划,目标估值 51-64 亿美元",
+        "date": "2026",
+        "category": "重大",
+        "summary": "智元机器人计划 2026 年在香港上市,目标估值 51-64 亿美元(约 400-500 亿港元),已聘请中金公司、中信证券和摩根士丹利负责 IPO 事宜;此前累计融资超 30 亿元人民币。",
+        "url": "https://xueqiu.com/8220155156/365480934"
       }
     ]
   },
@@ -16015,10 +17716,31 @@
     },
     "news": [
       {
+        "title": "再获 25 亿元融资,国家大基金首次投资具身智能",
+        "date": "2026-03",
+        "category": "融资",
+        "summary": "2026 年 3 月完成 25 亿元人民币新一轮融资,国家 AI 产业投资基金(大基金)首次出手具身智能赛道;成立不到三年累计融资约 70 亿元,估值约 200 亿元,居具身智能领域未上市公司首位。",
+        "url": "https://finance.sina.com.cn/stock/marketresearch/2026-03-02/doc-inhppxwy5503799.shtml"
+      },
+      {
         "title": "银河通用三个月融资近 50 亿元,估值约 30 亿美元拟赴港 IPO",
         "date": "2026-01",
         "category": "融资",
         "summary": "2025 年底至 2026 年初,银河通用三个月内密集融资近 50 亿元人民币,估值达约 30 亿美元,成为中国估值最高的未上市人形机器人公司之一,其轮式人形 Galbot G1 已落地无人药店。"
+      },
+      {
+        "title": "成为 2026 央视春晚指定具身大模型机器人",
+        "date": "2026",
+        "category": "落地",
+        "summary": "银河通用成为 2026 年央视春晚指定具身大模型机器人,Galbot G1 成为春晚舞台上首个自主作业的机器人,工业重载机器人 Galbot S1 亦与卫星、C919 等国家工程成果同台展出。",
+        "url": "https://www.cls.cn/detail/2269045"
+      },
+      {
+        "title": "获宁德时代、博世等数千台订单,2026 年启动量产",
+        "date": "2026",
+        "category": "业务",
+        "summary": "在工业制造领域已与宁德时代、德国博世等全球客户累计斩获数千台订单,预计 2026 年实现 Galbot 机器人量产,年内启动小批量订单交付。",
+        "url": "https://www.cls.cn/detail/1772280"
       }
     ]
   },
@@ -16253,10 +17975,31 @@
     ],
     "news": [
       {
+        "title": "完成 3.16 亿美元 E 轮延伸融资,ARR 突破 1 亿美元",
+        "date": "2026-04",
+        "category": "融资",
+        "summary": "继 2025 年 6 月由 a16z 领投的 3 亿美元 E 轮(估值 53 亿美元)后,Abridge 于 2026 年 4 月再获 3.16 亿美元 E 轮延伸融资;其 ARR 已突破 1 亿美元,公开披露客户超 90 家。",
+        "url": "https://sacra.com/c/abridge/"
+      },
+      {
+        "title": "与 NEJM、JAMA 达成合作,从病历记录迈向临床决策支持",
+        "date": "2026-04",
+        "category": "业务",
+        "summary": "Abridge 宣布与《新英格兰医学杂志》(NEJM)和《美国医学会杂志》(JAMA)合作,将业务从被动的病历文档生成拓展至主动临床决策支持,打开新的增长空间。",
+        "url": "https://research.contrary.com/company/abridge"
+      },
+      {
         "title": "Abridge AI 病历记录获大量大型医院采用,估值攀升至数十亿美元",
         "date": "2026",
         "category": "业务",
         "summary": "Abridge 的 AI 在医患对话中实时聆听并生成可直接入 EHR 的结构化病历草稿,凭借可溯源与 Epic 等深度集成赢得大量大型医院系统采用,增长迅猛、估值攀升至数十亿美元。"
+      },
+      {
+        "title": "深化 Epic 集成,凯撒医疗 2.46 万名医生全面部署",
+        "date": "2026",
+        "category": "落地",
+        "summary": "Abridge 在 Epic 内上线门诊医嘱集成,并联合 Highmark、Availity 实现实时预授权;凯撒医疗(Kaiser Permanente)已在 40 家医院、600 家诊所向 24600 名医生推广,梅奥诊所等亦全院部署。",
+        "url": "https://sacra.com/c/abridge/"
       }
     ]
   },
@@ -16333,6 +18076,20 @@
       "anthropic"
     ],
     "news": [
+      {
+        "title": "获 2.5 亿美元 D 轮融资,估值翻倍至 120 亿美元",
+        "date": "2026-01",
+        "category": "融资",
+        "summary": "OpenEvidence 完成由 Thrive Capital 和 DST 领投的 2.5 亿美元 D 轮融资,估值较三个月前翻倍至 120 亿美元,成为全球估值最高的医疗 AI 公司;一年内累计融资近 7 亿美元。",
+        "url": "https://techcrunch.com/2026/01/21/openevidence-hits-12b-valuation-with-new-round-led-by-thrive-dst/"
+      },
+      {
+        "title": "美国 40% 医生在用,月临床咨询量达 2000 万次,年营收破 1 亿美元",
+        "date": "2026-01",
+        "category": "业务",
+        "summary": "CEO Daniel Nadler 披露,OpenEvidence 已被约 40% 的美国医生使用,2025 年营收突破 1 亿美元;月度临床咨询量在 2026 年 1 月达约 2000 万次,一年前仅约 300 万次。",
+        "url": "https://www.cnbc.com/2026/01/21/openevidence-chatgpt-for-doctors-doubles-valuation-to-12-billion.html"
+      },
       {
         "title": "OpenEvidence 联手 NEJM 等权威出版方,在美国医生群体快速普及",
         "date": "2026",
@@ -16431,6 +18188,27 @@
     },
     "news": [
       {
+        "title": "Tempus 2025 全年营收 13 亿美元,同比大增 83%",
+        "date": "2026-02",
+        "category": "财报",
+        "summary": "Tempus AI 公布 2025 年第四季度及全年业绩:全年营收增长 83.4% 至 13 亿美元,其中 Q4 营收 3.672 亿美元、同比增长 83%(剔除 Ambry 后有机增长 33.5%)。",
+        "url": "https://www.businesswire.com/news/home/20260224126737/en/Tempus-Reports-Fourth-Quarter-and-Full-Year-2025-Results"
+      },
+      {
+        "title": "2026 年 Q1 营收 3.48 亿美元,全年指引上看 15.9 亿",
+        "date": "2026",
+        "category": "财报",
+        "summary": "2026 年第一季度营收 3.481 亿美元、同比增长 36.1%,其中诊断业务增 34.7%、数据与应用业务增 40.5%,MRD 检测量同比增约 500%;公司给出 2026 全年营收 15.9 亿美元指引。",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526206317/tem-ex99_1.htm"
+      },
+      {
+        "title": "与默沙东达成多年期战略合作,加速生物标志物研发",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Tempus 与默沙东(Merck)建立多年期战略合作,利用其多模态数据和 Lens 分析平台加速生物标志物的发现与开发,数据业务价值进一步获大药企背书。",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526206317/tem-ex99_1.htm"
+      },
+      {
         "title": "Tempus AI 2024 年上市,「诊断+数据平台」双轮驱动精准医疗",
         "date": "2024",
         "category": "重大",
@@ -16519,6 +18297,20 @@
         "date": "2026",
         "category": "产品",
         "summary": "Hippocratic 训练专门医疗大模型,让 AI 通过电话完成出院随访、提醒吃药、术前指导、慢病管理等非诊断性沟通,坚持只做安全事务并进行大量安全测试,瞄准医护人力短缺刚需。"
+      },
+      {
+        "title": "C 轮融资 1.26 亿美元,估值达 35 亿美元",
+        "date": "2025-11",
+        "category": "融资",
+        "summary": "Hippocratic AI 完成由 Avenir Growth 领投的 1.26 亿美元 C 轮融资,估值 35 亿美元,CapitalG、General Catalyst、a16z 等跟投,累计融资达 4.04 亿美元,资金将用于全球部署扩张与并购。",
+        "url": "https://www.businesswire.com/news/home/20251103432446/en/Hippocratic-AI-Raises-$126-Million-in-Series-C-at-$3.5-Billion-Valuation-Led-by-Avenir-Growth-to-Expand-Clinically-Safe-Generative-AI-Agents-Across-Healthcare"
+      },
+      {
+        "title": "B 轮融资 1.41 亿美元晋升独角兽,推出 AI 智能体应用商店",
+        "date": "2025-01",
+        "category": "融资",
+        "summary": "公司完成 1.41 亿美元 B 轮融资,估值升至 16.4 亿美元跻身独角兽,并同步推出医疗 AI 智能体应用商店;商业化 15 个月内已与 6 个国家超 50 家大型医疗系统、支付方及药企建立合作。",
+        "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/hippocratic-ai-banks-141m-series-b-hits-unicorn-status-it-rolls-out-ai"
       }
     ]
   },
@@ -16597,6 +18389,20 @@
         "date": "2026",
         "category": "融资",
         "summary": "Lightmatter 押注用光替代电做 AI 计算与数据传输,主攻用光把成百上千颗芯片高速连成一体以突破电互联的带宽与功耗瓶颈,凭巨额融资跻身高估值独角兽。"
+      },
+      {
+        "title": "Passage L200 系列 CPO 平台 2026 年进入客户芯片集成阶段",
+        "date": "2026",
+        "category": "进展",
+        "summary": "Passage L200(32Tb/s)与 L200X(64Tb/s)共封装光学平台于 2026 年通过 GlobalFoundries、ASE、安靠(Amkor)进入客户芯片集成,量产系统预计 2027 年落地。",
+        "url": "https://nextwavesinsight.com/photonic-compute-production-lightmatter-ayar-labs/"
+      },
+      {
+        "title": "发布 Passage M1000 3D 光子超级芯片,总光带宽 114Tbps",
+        "date": "2025-03",
+        "category": "产品",
+        "summary": "Lightmatter 发布 Passage M1000 3D 光子中介层「超级芯片」,提供 114Tbps 总光学带宽,可在单一封装内连接大规模加速器与交换芯片阵列,直击 AI 集群互联瓶颈。",
+        "url": "https://lightmatter.co/press-releases/"
       }
     ]
   },
@@ -16670,10 +18476,24 @@
     },
     "news": [
       {
+        "title": "完成 5 亿美元 E 轮融资,估值 37.5 亿美元加速 CPO 量产",
+        "date": "2026-03",
+        "category": "融资",
+        "summary": "Ayar Labs 完成由 Neuberger Berman 领投的 5 亿美元 E 轮融资,Alchip、ARK Invest、联发科、卡塔尔投资局等参投,累计融资达 8.7 亿美元,估值 37.5 亿美元,资金用于扩大共封装光学量产与测试产能。",
+        "url": "https://ayarlabs.com/news/ayar-labs-closes-500m-series-e-accelerates-volume-production-of-co-packaged-optics/"
+      },
+      {
         "title": "Ayar Labs 获英伟达英特尔台积电等巨头加持,CPO 战略价值持续上升",
         "date": "2026",
         "category": "进展",
         "summary": "Ayar Labs 把光引擎做成 TeraPHY 芯粒与 GPU 共封装(CPO),大幅降功耗、提带宽,获英伟达、英特尔、AMD、台积电等产业链巨头投资合作,随 AI 集群膨胀战略价值持续上升。"
+      },
+      {
+        "title": "携手世芯 Alchip 与台积电,把光 I/O 直接封进 AI 加速器",
+        "date": "2025-09",
+        "category": "业务",
+        "summary": "Ayar Labs 与台湾 ASIC 厂商世芯(Alchip)达成合作,将 TeraPHY 光引擎与 Alchip 方案共封装于同一基板,并采用台积电 COUPE、SoIC 等先进封装工艺,把光 I/O 直接带到 AI 加速器接口。",
+        "url": "https://www.semiconductor-today.com/news_items/2025/sep/ayar-090925.shtml"
       }
     ]
   },
@@ -16905,6 +18725,20 @@
       "community": 72
     },
     "news": [
+      {
+        "title": "F 轮融资 15 亿美元,估值最高达 130 亿美元",
+        "date": "2026-06",
+        "category": "融资",
+        "summary": "Baseten 完成由 Altimeter、Conviction、Spark Capital 领投的 15 亿美元 F 轮融资,分两批分别按 110 亿和 130 亿美元估值进行;平台每天处理超 10 亿次推理调用,覆盖 18 朵云上的 87 个集群。",
+        "url": "https://www.businesswire.com/news/home/20260622645563/en/Baseten-Raises-$1.5-Billion-to-Power-the-Next-Era-of-AI-Inference"
+      },
+      {
+        "title": "E 轮融资 3 亿美元,IVP 与 CapitalG 领投、英伟达参投",
+        "date": "2026-01",
+        "category": "融资",
+        "summary": "Baseten 完成 3 亿美元 E 轮融资,估值 50 亿美元,由 IVP 和谷歌 CapitalG 领投、英伟达参投;据 Sacra 估算其年化收入 2026 年 3 月达 6 亿美元,同比增长约 19 倍。",
+        "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/"
+      },
       {
         "title": "Baseten 推理平台助企业把模型部署进生产,需求快速上升",
         "date": "2026",
@@ -17158,6 +18992,20 @@
       "community": 58
     },
     "news": [
+      {
+        "title": "推出 ARIA 研究智能体,分钟级扫描数千次训练实验",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "CoreWeave 面向 W&B 平台公测 ARIA(AI Research and Iteration Agent),可自动分析实验数据,在几分钟内扫描数千次训练运行和数万项指标,替研究员挖掘原本需数小时人工排查的模式。",
+        "url": "https://www.hpcwire.com/bigdatawire/this-just-in/coreweave-launches-aria-research-agent-for-weights-biases/"
+      },
+      {
+        "title": "与 CoreWeave 发布三大新品:推理服务与在线评估上线",
+        "date": "2025-06",
+        "category": "产品",
+        "summary": "在 Fully Connected 大会上,W&B 与 CoreWeave 发布收购后首批集成产品:Mission Control 集成、W&B Inference 开源模型推理服务,以及跨云实时监控 AI 智能体表现的 Weave Online Evaluations。",
+        "url": "https://www.coreweave.com/news/coreweave-and-weights-biases-announce-new-products-and-capabilities-helping-ai-developers-iterate-faster-on-models-and-agents"
+      },
       {
         "title": "Weights & Biases 被 CoreWeave 收购，实验跟踪与算力平台深度结合",
         "date": "2025",
@@ -17538,6 +19386,20 @@
         "date": "2026",
         "category": "融资",
         "summary": "凭借与 CoreWeave 等 AI 云的大单，VAST 达到约 6 亿美元 ARR、90% 毛利率并连续多年正现金流，2026 年融资后估值 300 亿美元，成为 AI 数据基础设施最耀眼的公司之一。"
+      },
+      {
+        "title": "与 CoreWeave 签署 11.7 亿美元多年期合同,成其主数据平台",
+        "date": "2026",
+        "category": "合同",
+        "summary": "VAST Data 与 AI 云厂商 CoreWeave 签署 11.7 亿美元多年期商业协议,CoreWeave 将在其云基础设施中把 VAST 作为主数据平台,支撑大规模 AI 训练与推理负载。",
+        "url": "https://finance.yahoo.com/news/exclusive-nvidia-backed-vast-data-120456403.html"
+      },
+      {
+        "title": "FY2025 承诺 ARR 超 5 亿美元、累计订单超 40 亿美元,已实现盈利",
+        "date": "2026",
+        "category": "财报",
+        "summary": "VAST Data 披露 2025 财年末承诺性年度经常性收入(CARR)超 5 亿美元,累计订单超 40 亿美元,营收同比增长约三倍,公司已实现盈利且现金流为正;客户包括 xAI 20 万卡 Colossus 集群、美国空军和 Cursor 等。",
+        "url": "https://tech-insider.org/vast-data-1-billion-series-f-30-billion-valuation-2026/"
       }
     ]
   },
@@ -19147,6 +21009,20 @@
         "date": "2026",
         "category": "业务",
         "summary": "作为全球最大半导体硅片制造商和 EUV 光刻胶领先供应商，信越化学稳居两大关键材料龙头，AI 芯片扩产、先进制程与 HBM 放量都需要更多其硅片与光刻胶，地位难以绕开。"
+      },
+      {
+        "title": "2026 财年中报:AI 需求带动硅片、光刻胶等材料销售增长",
+        "date": "2025-10",
+        "category": "财报",
+        "summary": "信越化学发布截至 2025 年 9 月的 2026 财年上半年业绩,称半导体市场 AI 相关需求持续活跃,硅片、光刻胶、掩膜坯等半导体材料销售增加,并持续投资扩充 PVC 与高性能硅酮产能。",
+        "url": "https://www.shinetsu.co.jp/wp-content/uploads/2025/07/20251024_con_E.pdf"
+      },
+      {
+        "title": "宣布 5000 亿日元回购,最多注销 10.2% 流通股",
+        "date": "2025-04",
+        "category": "重大",
+        "summary": "信越化学宣布规模达 5000 亿日元的股票回购计划,拟回购最多 2 亿股、约占流通股 10.2%,执行期为 2025 年 5 月至 2026 年 4 月;至 2025 年 5 月已完成约 4000 亿日元、4.46% 股份的回购。",
+        "url": "https://www.ainvest.com/news/shin-etsu-chemical-400-billion-yen-buyback-strategic-masterstroke-investors-2505/"
       }
     ]
   },
@@ -19790,10 +21666,24 @@
     },
     "news": [
       {
+        "title": "宣布 5000 亿日元三年扩产计划,押注 AI 服务器 IC 载板",
+        "date": "2026-02",
+        "category": "业务",
+        "summary": "揖斐电计划自 2026 财年起三年内投资约 5000 亿日元(约 33 亿美元)扩建核心 IC 封装载板产能,以满足 AI 服务器对高端 ABF 载板的旺盛需求。",
+        "url": "https://www.digitimes.com/news/a20260204PD227/ibiden-expansion-capacity-production-plant.html"
+      },
+      {
         "title": "ABF 载板供不应求,扩产绑定英伟达世代",
         "date": "2026",
         "category": "业务",
         "summary": "AI GPU 大尺寸载板需求爆发,大野/河间新厂产能爬坡;英特尔、英伟达高端载板核心供应商。"
+      },
+      {
+        "title": "Q3 财报电子业务强劲增长,并实施 1 拆 2 股票分拆",
+        "date": "2026",
+        "category": "财报",
+        "summary": "受电子业务板块拉动,揖斐电第三财季营收与利润同比大幅增长,同时宣布 1 拆 2 股票分拆及扩充高性能 IC 载板产能的重大投资计划。",
+        "url": "https://www.tradingview.com/news/urn:summary_document_report:quartr.com:2731287:0-ibiden-strong-q3-growth-stock-split-and-major-investment-plan-to-boost-high-performance-ic-substrate-capacity/"
       }
     ]
   },
@@ -20637,6 +22527,27 @@
         "category": "重大",
         "summary": "由 Thrive、a16z 领投;2025 营收 22 亿美元(翻倍)、2026 预计 43 亿;3 月获陆军 10 年、上限 20 亿美元的 Lattice 企业合同(整合 120+ 采购项目);俄亥俄 Arsenal-1 工厂投产。",
         "url": "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/"
+      },
+      {
+        "title": "太空监视网络合同增资1亿美元，总额上限超2亿",
+        "date": "2026-05",
+        "category": "合同",
+        "summary": "五角大楼向Anduril的太空追踪技术合同增资1.003亿美元，合同总上限超过2亿美元，用于升级太空监视网络，计划2027年9月前完成。",
+        "url": "https://www.washingtontimes.com/news/2026/may/7/anduril-awarded-100-million-increase-pentagon-contract-enhance-space/"
+      },
+      {
+        "title": "入选国防部低成本高超音速导弹采购，供应至少3000枚",
+        "date": "2026",
+        "category": "合同",
+        "summary": "美国防部宣布与Anduril等四家公司三年内采购超1万枚低成本高超音速导弹，Anduril将向陆军供应至少3000枚Barracuda-500M，2027上半年开始交付。",
+        "url": "https://www.manufacturingdive.com/news/anduril-5b-h-series-leidos-defense-missiles-castelion-coaspire-zone-5/820174/"
+      },
+      {
+        "title": "俄亥俄Arsenal-1超级工厂投产，全年营收指引43亿美元",
+        "date": "2026",
+        "category": "进展",
+        "summary": "Arsenal-1大型制造基地2026年开始投产，产线涵盖Barracuda巡航导弹和入选空军CCA项目的YFQ-44A Fury自主战机，公司预计2026年营收达43亿美元。",
+        "url": "https://www.top1markets.com/news/anduril-industries-2026-valuation-contracts-lattice-ai"
       }
     ]
   },
@@ -20720,6 +22631,27 @@
       "community": 58
     },
     "news": [
+      {
+        "title": "拟融资 12 亿美元,估值约 180 亿美元创德国初创纪录",
+        "date": "2026-05",
+        "category": "融资",
+        "summary": "Helsing 洽谈由 Dragoneer 领投、Lightspeed 联合领投的 12 亿美元新一轮融资,估值约 180 亿美元,认购数倍超额,有望成为德国最有价值初创公司。",
+        "url": "https://techcrunch.com/2026/05/11/daniel-ek-backed-defense-tech-helsing-to-raise-1-2b-at-18b-valuation/"
+      },
+      {
+        "title": "德国批准 HX-2 巡飞弹合同,框架金额可达 14.6 亿欧元",
+        "date": "2026-02",
+        "category": "合同",
+        "summary": "德国联邦议院预算委员会批准 HX-2 自杀式巡飞弹初始合同 2.69 亿欧元,七年框架总额最高可达 14.6 亿欧元;HX-2 可在 GPS 拒止环境下依靠机载 AI 作战。",
+        "url": "https://frontierbeat.com/2026/05/13/helsings-18b-valuation-drone-contract-europe-ai-defense-shift/"
+      },
+      {
+        "title": "收购西班牙机器狗公司 Keybotic,拓展地面与水下无人系统",
+        "date": "2026-01",
+        "category": "业务",
+        "summary": "Helsing 收购西班牙四足机器人公司 Keybotic 进军地面自主系统,并推出 Lura 潜艇探测与监视平台,将业务从空中无人机扩展至陆地与水下。",
+        "url": "https://en.wikipedia.org/wiki/Helsing_(company)"
+      },
       {
         "title": "Helsing 估值达约 120 亿欧元，成欧洲最有价值国防独角兽",
         "date": "2026",
@@ -20808,10 +22740,31 @@
     },
     "news": [
       {
+        "title": "V-BAT 拿下波兰海军订单,荷兰海军批准投入使用",
+        "date": "2026-06",
+        "category": "落地",
+        "summary": "波兰军备局签约采购 V-BAT 垂直起降无人机支持海军行动;荷兰皇家海军在舰上试验成功后批准 V-BAT 投入作战使用,欧洲市场加速落地。",
+        "url": "https://www.navalnews.com/naval-news/2026/06/shield-ais-v-bat-to-support-polish-naval-operations/"
+      },
+      {
+        "title": "完成 15 亿美元 G 轮融资,估值翻倍至 127 亿美元",
+        "date": "2026-03",
+        "category": "融资",
+        "summary": "Shield AI 完成由 Advent International 领投、摩根大通联合领投的 15 亿美元 G 轮,投后估值 127 亿美元,另获 Blackstone 5 亿美元优先股;公司预计全年营收超 5.4 亿美元。",
+        "url": "https://fortune.com/2026/03/26/shield-ai-revenue-series-g-funding-12-billion-valuation/"
+      },
+      {
         "title": "Shield AI 将 Hivemind「AI 飞行员」推向战斗机等更多平台",
         "date": "2026",
         "category": "产品",
         "summary": "Hivemind 可在无 GPS、无通信、无遥控环境下自主飞行执行任务，已用于 V-BAT 垂直起降无人机并向战斗机等平台扩展，公司估值达数十亿美元。"
+      },
+      {
+        "title": "入选美国海军最高 8 亿美元 ISR 服务合同竞标",
+        "date": "2026",
+        "category": "合同",
+        "summary": "Shield AI 获美国海军选定,以 V-BAT 无人机系统参与总额最高 8 亿美元的情报、监视与侦察(ISR)服务合同框架竞争。",
+        "url": "https://defence-industry.eu/shield-ai-selected-by-u-s-navy-to-compete-for-up-to-800-million-isr-services-contract-using-v-bat-drone-system/"
       }
     ]
   },
@@ -20884,11 +22837,32 @@
     },
     "news": [
       {
+        "title": "临床试验累计达 26 名患者,英国 GB PRIME 研究已入组 7 人",
+        "date": "2026-05",
+        "category": "进展",
+        "summary": "Neuralink 人体临床试验受试者增至 26 人,较 2026 年 1 月的 21 人明显提速;截至 5 月英国 GB PRIME 研究已入组 7 名患者。",
+        "url": "https://www.basenor.com/blogs/news/neuralink-reaches-26th-patient-in-ongoing-brain-computer-interface-trials"
+      },
+      {
         "title": "完成 6.5 亿美元 E 轮;全球试验扩至 21 名受试者,并拓展至英国/阿联酋/加拿大",
         "date": "2026-04",
         "category": "临床",
         "summary": "累计融资约 18.5 亿美元(估值约 90 亿美元+);PRIME 临床试验(针对四肢瘫痪/ALS)扩至 21 人、并在美国以外首次手术;计划 2026 转向高产量、自动化手术。",
         "url": "https://neuralink.com/updates/"
+      },
+      {
+        "title": "2026 年启动植入体量产与近全自动化手术流程",
+        "date": "2026-01",
+        "category": "进展",
+        "summary": "马斯克宣布 Neuralink 将于 2026 年开始脑机接口设备的高产量生产,并转向近乎全自动化的植入手术,电极丝可穿过硬脑膜植入而无需切除。",
+        "url": "https://www.foxnews.com/health/elon-musk-shares-plan-mass-produce-brain-implants-paralysis-neurological-disease"
+      },
+      {
+        "title": "Blindsight 视觉恢复植入体计划年内开展首例患者试验",
+        "date": "2026",
+        "category": "研发",
+        "summary": "Neuralink 面向全盲人群的 Blindsight 视觉恢复植入体计划于 2026 年进行首例患者试验;其语音恢复技术与 Blindsight 均已获 FDA 突破性设备认定。",
+        "url": "https://www.cerebralink.com/post/neuralink-s-milestones-in-2025-and-its-promising-future-in-2026"
       }
     ]
   },
@@ -21711,6 +23685,20 @@
     },
     "news": [
       {
+        "title": "2026Q1 营收 337 亿元,月活 7.72 亿创历史新高",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "快手一季度总收入 337 亿元,经调整净利润 34 亿元;日活 4.13 亿、月活 7.72 亿创历史新高,线上营销服务收入 196 亿元同比增长 9.3%。",
+        "url": "https://finance.eastmoney.com/a/202605273751448545.html"
+      },
+      {
+        "title": "可灵 AI 单季收入超 6.5 亿元,ARR 一年增长 4 倍近 5 亿美元",
+        "date": "2026-05",
+        "category": "业务",
+        "summary": "可灵 AI 商业化加速,2026 年一季度收入超 6.5 亿元、同比增长超 300%;3 月年化收入(ARR)接近 5 亿美元,较上年同期的 1 亿美元增长 4 倍。",
+        "url": "https://www.thepaper.cn/newsDetail_forward_33251670"
+      },
+      {
         "title": "快手可灵(Kling)全球出圈,对标 Sora、Veo 顶尖视频模型",
         "date": "2026",
         "category": "产品",
@@ -21791,10 +23779,24 @@
     },
     "news": [
       {
+        "title": "发布 Sonic 3.5 与 Ink 2,构建统一实时语音技术栈",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "Cartesia 同步发布文本转语音模型 Sonic 3.5 与语音转文本模型 Ink 2,组成统一实时语音栈,首音频延迟降至约 82 毫秒。",
+        "url": "https://aimmediahouse.com/ai-startups/cartesia-says-this-is-the-year-of-voice-ai"
+      },
+      {
         "title": "Cartesia 以 SSM 架构打磨 Sonic,冲刺真人级实时语音",
         "date": "2026",
         "category": "研发",
         "summary": "由状态空间模型(Mamba)相关研究者创立的 Cartesia,基于 SSM 高效长序列架构实现超低延迟语音合成,面向语音助手、客服等场景提供接近真人反应速度的语音 API。"
+      },
+      {
+        "title": "融资 1 亿美元并发布 Sonic-3 语音模型,累计融资达 1.91 亿美元",
+        "date": "2025",
+        "category": "融资",
+        "summary": "Cartesia 完成 1 亿美元融资并推出新一代 Sonic-3 语音模型,公司累计融资达约 1.91 亿美元,Sonic 系列模型客户已超过 1 万家。",
+        "url": "https://www.linkedin.com/posts/the-left-shift_cartesia-raises-100-million-launches-sonic-activity-7389201900191068162-0eUs"
       }
     ]
   },
@@ -22048,6 +24050,27 @@
         "date": "2026-07",
         "category": "重大",
         "summary": "2026 年 7 月 8 日 Momenta 登陆港交所(06880),GIC、富达、贝莱德、奔驰等担任基石投资者,其「量产智驾供货车企 + 数据反哺冲击 L4」双飞轮模式获资本市场认可。"
+      },
+      {
+        "title": "发布 R7 强化学习世界模型,成行业首个量产上车的世界模型",
+        "date": "2026-04",
+        "category": "研发",
+        "summary": "Momenta 发布 R7 强化学习世界模型,基于超 120 亿公里真实驾驶数据训练,成为行业首个实现量产上车的世界模型。",
+        "url": "https://www.tmtpost.com/8052365.html"
+      },
+      {
+        "title": "智驾搭载量突破百万台,全球前 10 车企中 9 家达成合作",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Momenta 量产交付车型超 100 款、累计定点超 210 款,智驾方案搭载量突破百万台;合作客户覆盖奔驰、宝马、奥迪等,全球前 10 大车企中 9 家与其合作。",
+        "url": "https://www.163.com/dy/article/L18LP2NA0511B8LM.html"
+      },
+      {
+        "title": "携手奔驰的豪华 Robotaxi 车队计划 2026 年在德国运营",
+        "date": "2026",
+        "category": "落地",
+        "summary": "Momenta 与奔驰合作的豪华 Robotaxi 车队计划 2026 年在德国正式运营;搭载其方案的奥迪 E7X 将成为公司首款具备 L3 级自动驾驶能力的量产车。",
+        "url": "https://www.163.com/dy/article/L1GEU2MD0512B07B.html"
       }
     ]
   },
@@ -22227,10 +24250,31 @@
     },
     "news": [
       {
+        "title": "Astera Labs 2025 全年营收 8.5 亿美元,同比大增 115%",
+        "date": "2026-02",
+        "category": "财报",
+        "summary": "公司公布 2025 年第四季度及全年业绩:Q4 营收创纪录达 2.706 亿美元,环比增 17%;全年营收 8.525 亿美元,同比增长 115%,Scorpio 交换芯片首个完整年度贡献超 1.25 亿美元。",
+        "url": "https://www.asteralabs.com/news/astera-labs-reports-fourth-quarter-and-full-year-2025-financial-results/"
+      },
+      {
+        "title": "与亚马逊签认股权证协议,绑定至多 65 亿美元采购",
+        "date": "2026-02",
+        "category": "合同",
+        "summary": "Astera Labs 授予亚马逊以每股 142.82 美元认购 326 万股的权证,随亚马逊在 2033 年 2 月前累计采购至多 65 亿美元的交换芯片、信号调理及光学引擎产品分批归属,深度绑定云巨头。",
+        "url": "https://futurumgroup.com/insights/astera-labs-q1-fy-2026-earnings-highlight-scale-up-switching-ramp/"
+      },
+      {
         "title": "Astera Labs 连接芯片成 AI 服务器刚需,英伟达为大客户",
         "date": "2026",
         "category": "业务",
         "summary": "其 PCIe/以太网重定时器与 CXL 内存控制器随 AI 服务器规模扩大而需求激增,2024 年上市后备受追捧,是「AI 连接」细分中最纯粹的高增长标的之一。"
+      },
+      {
+        "title": "2026 年 Q1 营收 3.08 亿美元创新高,同比增 93%",
+        "date": "2026",
+        "category": "财报",
+        "summary": "受 PCIe 6 产品组合需求驱动,2026 财年一季度营收环比增 14%、同比增 93% 至 3.084 亿美元;管理层预计 Scorpio 将在 2026 财年末成为最大产品线,Q2 营收指引大幅高于市场预期。",
+        "url": "https://www.asteralabs.com/news/astera-labs-reports-first-quarter-2026-financial-results/"
       }
     ]
   },
@@ -22415,10 +24459,24 @@
     ],
     "news": [
       {
+        "title": "推出 Agentic Batch Changes 公测,AI 驱动企业级大规模代码变更",
+        "date": "2026-07",
+        "category": "产品",
+        "summary": "Sourcegraph 于 2026 年 7 月初推出 Agentic Batch Changes 公测版,将 AI 智能体引入大规模批量代码变更场景,面向企业工程团队提供跨仓库的自动化代码修改能力。",
+        "url": "https://sourcegraph.com/blog"
+      },
+      {
         "title": "Sourcegraph 以全库上下文加持 Cody,深耕企业 AI 编程",
         "date": "2026",
         "category": "产品",
         "summary": "依托对整个代码库的深度索引,AI 助手 Cody 能给出真正理解项目上下文的问答与代码生成,帮助大型科技公司在千万行级代码中搜索、追踪与重构。"
+      },
+      {
+        "title": "将 AI 编程智能体 Amp 分拆为独立公司,创始人 Quinn Slack 出任其 C…",
+        "date": "2025-12",
+        "category": "重大",
+        "summary": "Sourcegraph 将 2025 年 5 月推出的 AI 编程智能体 Amp 分拆为独立公司,联合创始人 Quinn Slack 转任 Amp Inc CEO,原业务副总裁 Dan Adler 接任 Sourcegraph CEO;Sequoia、a16z 等同时进入两家公司董事会。",
+        "url": "https://ainativedev.io/news/sourcegraph-spins-out-ai-coding-agent-amp-as-a-standalone-company"
       }
     ]
   },
@@ -22492,6 +24550,20 @@
       "community": 73
     },
     "news": [
+      {
+        "title": "World Labs 获 10 亿美元新融资,英伟达 AMD Autodesk 参投",
+        "date": "2026-02",
+        "category": "融资",
+        "summary": "李飞飞创立的 World Labs 完成 10 亿美元融资,AMD、英伟达、Autodesk、Fidelity 等参投,其中 Autodesk 出资 2 亿美元并担任顾问角色,公司累计融资约 12.3 亿美元。",
+        "url": "https://theaiinsider.tech/2026/02/19/fei-fei-lis-world-labs-raises-1b-in-fresh-funding-to-advance-development-of-world-models/"
+      },
+      {
+        "title": "首款商业产品 Marble 正式发布,多模态生成持久 3D 世界",
+        "date": "2026-02",
+        "category": "产品",
+        "summary": "Marble 于 2025 年 11 月开启限量测试后,2026 年 2 月随融资官宣正式商用。用户可用文本、图像、视频或 3D 布局生成空间一致、高保真且持久的可探索 3D 环境。",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/world-labs-raises-1-billion-to-scale-spatial-ai/"
+      },
       {
         "title": "李飞飞 World Labs 训练大世界模型,一张图生成可探索 3D 场景",
         "date": "2026",
@@ -22732,6 +24804,20 @@
     ],
     "news": [
       {
+        "title": "获 FedRAMP Moderate 授权,AI 助手进军美国公共部门",
+        "date": "2026-02",
+        "category": "业务",
+        "summary": "Moveworks(隶属 ServiceNow)宣布取得 FedRAMP Moderate 授权,联邦机构与国防承包商可安全部署其 AI 助手平台,借助 Agent Studio 与 AI Agent 市场实现政府技术栈的端到端自动化。",
+        "url": "https://newsroom.servicenow.com/press-releases/details/2026/Moveworks-from-ServiceNow-achieves-FedRAMP-moderate-authorization-to-provide-secure-conversational-AI-to-public-sector/default.aspx"
+      },
+      {
+        "title": "ServiceNow 完成收购交割,最终对价约 24 亿美元",
+        "date": "2025-12",
+        "category": "重大",
+        "summary": "ServiceNow 于 2025 年 12 月 15 日正式完成对 Moveworks 的收购,最终合计对价约 24 亿美元(含约 14.67 亿美元股票与 9.05 亿美元现金),其 AI 助手与企业搜索技术并入 ServiceNow 平台。",
+        "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm"
+      },
+      {
         "title": "ServiceNow 约 28.5 亿美元收购 Moveworks,并入企业工作流平台",
         "date": "2025",
         "category": "重大",
@@ -22810,10 +24896,31 @@
     ],
     "news": [
       {
+        "title": "V4.1 上线,Utility Pro 成谷歌 OpenAI 之外排名最高文生图模型",
+        "date": "2026-05",
+        "category": "进展",
+        "summary": "Recraft 于 2026 年 5 月 14 日发布 V4.1,人物表现更自然真实;其 V4.1 Utility Pro 在文生图榜单上成为 Google 与 OpenAI 之外排名最高的模型。",
+        "url": "https://www.recraft.ai/press-releases/recraft-v4-1-utility-pro-becomes-the-highest-ranked-text-to-image-model-outside-google-and-openai"
+      },
+      {
+        "title": "Recraft 发布 V4 设计导向图像模型,分标准与 Pro 双版本",
+        "date": "2026-02",
+        "category": "产品",
+        "summary": "V4 为从零重构的旗舰模型,围绕设计审美、构图光影与提示词准确性调优,提供矢量与 2048 高分辨率光栅等四个版本;V4 约 10 秒出图,V4 Pro 约 28 秒生成更高分辨率图像。",
+        "url": "https://www.recraft.ai/blog/introducing-recraft-v4-design-taste-meets-image-generation"
+      },
+      {
         "title": "Recraft 凭矢量输出与品牌一致性登顶图像模型盲测榜",
         "date": "2026",
         "category": "产品",
         "summary": "Recraft 可输出无限缩放的 SVG 矢量图并按统一品牌风格批量生成素材,曾在 Artificial Analysis 等权威盲测榜上超越 Midjourney、DALL·E 登顶,验证专业可控路线价值。"
+      },
+      {
+        "title": "Recraft 完成 3000 万美元 B 轮融资,Accel 领投英伟达随后加入",
+        "date": "2025-04",
+        "category": "融资",
+        "summary": "B 轮由 Accel 领投,Madrona、Khosla Ventures 等参投,累计融资达 4200 万美元;英伟达随后作为新投资方加入 B 轮扩展。公司两年内实现约 10 倍增长,用户采用率年增 700%。",
+        "url": "https://www.businesswire.com/news/home/20250430996607/en/Recraft-Raises-$30M-Series-B-to-Bring-Creative-Quality-and-Brand-Control-to-Generative-AI-Design"
       }
     ]
   },
@@ -22886,6 +24993,27 @@
       "Samsung Next"
     ],
     "news": [
+      {
+        "title": "上线 Omni Editing 统一编辑器,自然语言直接改图",
+        "date": "2026-02",
+        "category": "产品",
+        "summary": "Leonardo.Ai 推出 Omni Editing 统一内联编辑功能,用户可在查看器中用自然语言提示直接修改任意图像;并入 Canva 后平台还整合了 Google Veo 3 视频生成能力。",
+        "url": "https://en.wikipedia.org/wiki/Leonardo.ai"
+      },
+      {
+        "title": "用户突破 3000 万,累计生成图像超 20 亿张",
+        "date": "2026",
+        "category": "进展",
+        "summary": "截至 2026 年初,Leonardo.Ai 服务用户已超 3000 万,累计生成图像超过 20 亿张;Canva 的资源支持加速了 Lucid Origin 等新模型的研发与发布节奏。",
+        "url": "https://en.wikipedia.org/wiki/Leonardo.ai"
+      },
+      {
+        "title": "发布旗舰图像模型 Lucid Origin,跻身权威榜单前列",
+        "date": "2025-08",
+        "category": "产品",
+        "summary": "Leonardo.Ai 推出面向全高清渲染的新一代文生图模型 Lucid Origin,在 Artificial Analysis 图像榜单首发即列第 6 位,质量比肩 FLUX.1 Kontext,较此前 Phoenix 系列大幅升级。",
+        "url": "https://leonardo.ai/news/lucid-origin-ai-image-model"
+      },
       {
         "title": "Leonardo.Ai 被 Canva 收购,生成能力并入数亿用户设计生态",
         "date": "2024",
@@ -22967,10 +25095,31 @@
     ],
     "news": [
       {
+        "title": "发布 Krea Realtime 14B,实现实时长视频生成",
+        "date": "2026-01",
+        "category": "研发",
+        "summary": "Krea 发布 140 亿参数的 Realtime 14B 模型,支持实时、长时程视频生成,用户可在视频流生成过程中即时引导与改变画面走向,采用内存高效训练与新型推理策略保证长序列稳定性。",
+        "url": "https://www.krea.ai/blog/krea-realtime-14b"
+      },
+      {
         "title": "Krea 实时画布聚合 Flux 等顶尖模型,打造一站式创作台",
         "date": "2026",
         "category": "产品",
         "summary": "Krea 招牌的实时生成让用户随手画几笔即被即时渲染成精美图像,并整合多家优秀图像/视频模型与放大、风格迁移等工具,以极致体验在设计师圈广受欢迎。"
+      },
+      {
+        "title": "完成 4700 万美元 B 轮融资,估值达 5 亿美元",
+        "date": "2025-07",
+        "category": "融资",
+        "summary": "Krea 宣布由 Bain Capital Ventures 领投、a16z 与 Abstract Ventures 跟投的 4700 万美元 B 轮融资,投后估值 5 亿美元,累计融资 8300 万美元,用户覆盖 191 个国家、超 3000 万人。",
+        "url": "https://tracxn.com/d/companies/krea/__vbg0pscxCO89X-ZlrVDSYKyRSuDHMIFcUi_Dy65TLFA"
+      },
+      {
+        "title": "开源 FLUX.1 Krea 模型权重,并推出自研基础模型 Krea 2",
+        "date": "2025",
+        "category": "研发",
+        "summary": "Krea 开放 FLUX.1 Krea 的模型权重、训练细节及微调资源;同时推出完全从零训练的首个自研基础图像模型 Krea 2,强调让用户全面掌控画面风格与创作方向。",
+        "url": "https://www.krea.ai/blog"
       }
     ]
   },
@@ -23417,10 +25566,24 @@
     },
     "news": [
       {
+        "title": "Skild AI 完成 14 亿美元 C 轮,估值 18 个月升至 140 亿美元",
+        "date": "2026-01",
+        "category": "融资",
+        "summary": "C 轮由软银领投,英伟达 NVentures、贝索斯、三星、LG、施耐德电气、Salesforce Ventures 等参投,为机器人 AI 领域有记录以来最大单轮融资,估值从 2025 年夏的 45 亿美元升至 140 亿。",
+        "url": "https://techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/"
+      },
+      {
         "title": "Skild AI 通用机器人大脑获软银英伟达等投资,估值约 45 亿美元",
         "date": "2026",
         "category": "融资",
         "summary": "由 CMU 两位机器人学教授创立的 Skild AI,其基础模型 Skild Brain 可迁移到机械臂、四足、人形等不同本体,凭顶尖学术背景获软银、英伟达、贝索斯等重磅投资,估值达约 45 亿美元。"
+      },
+      {
+        "title": "携手 ABB、优傲、富士康,并收购斑马技术机器人部门",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Skild AI 宣布与 ABB Robotics、Universal Robots、MiR、英伟达、富士康建立合作,并收购斑马技术旗下机器人部门(原 Fetch Robotics),其「机器人大脑」已部署于安防、建筑、数据中心与工厂装配等场景。",
+        "url": "https://www.blackscarab.ai/insights/skild-ai-general-purpose-robot-brain-guide"
       }
     ]
   },
@@ -23660,10 +25823,31 @@
     ],
     "news": [
       {
+        "title": "完成 7.5 亿美元 C 轮融资,创加拿大最大融资纪录",
+        "date": "2026-01",
+        "category": "融资",
+        "summary": "Waabi 完成由 Khosla Ventures 与 G2 Venture Partners 领投的 7.5 亿美元 C 轮融资,公司估值约 30 亿美元,号称加拿大历史上规模最大的一轮融资,资金将用于自动驾驶卡车扩张并进军 Robotaxi。",
+        "url": "https://www.cnbc.com/2026/01/28/autonomous-startup-waabi-raises-750-million-to-expand-into-robotaxis.html"
+      },
+      {
+        "title": "携手 Uber 部署 2.5 万辆 Robotaxi,Uber 追加 2.5 亿美元",
+        "date": "2026-01",
+        "category": "业务",
+        "summary": "Waabi 与 Uber 达成合作,将在 Uber 平台独家部署 2.5 万辆搭载 Waabi 系统的 Robotaxi,Uber 追加投资 2.5 亿美元;计划 2026 年扩展至十余个美国城市,并进军伦敦与东京。",
+        "url": "https://fortune.com/2026/01/28/waabi-fundraise-valuation-1-billion-partners-with-uber-robotaxis-self-driving/"
+      },
+      {
         "title": "Waabi 以仿真优先路线推进自动驾驶卡车,虚拟世界训练危险场景",
         "date": "2026",
         "category": "研发",
         "summary": "Raquel Urtasun 创立的 Waabi 用高保真仿真器 Waabi World 让自动驾驶 AI 在虚拟世界训练并严测罕见危险场景,结合端到端可解释大模型做驾驶决策,聚焦长途货运卡车商业化。"
+      },
+      {
+        "title": "与沃尔沃联合发布 VNL Autonomous 自动驾驶卡车",
+        "date": "2025-10",
+        "category": "产品",
+        "summary": "Waabi 与 Volvo Autonomous Solutions 宣布推出集成 Waabi Driver 的 Volvo VNL Autonomous 卡车,完成关键技术整合里程碑,双方将聚焦安全且可大规模商业部署的自动驾驶货运方案。",
+        "url": "https://techcrunch.com/2025/10/28/waabi-unveils-autonomous-truck-made-in-partnership-with-volvo/"
       }
     ]
   },
@@ -23737,10 +25921,24 @@
     },
     "news": [
       {
+        "title": "中标美国防部 Autonomy Factory 企业级自主平台",
+        "date": "2026-05",
+        "category": "合同",
+        "summary": "美国防部首席数字与 AI 办公室(CDAO)选定 Applied Intuition 基于其 Axion 工具链与数据引擎构建全军级 Autonomy Factory 企业自主软件平台;公司此前已获 1.711 亿美元生产合同及 2.49 亿美元 BPA 等多项政府订单。",
+        "url": "https://insidedefense.com/insider/applied-intuition-wins-contract-underpin-new-dod-wide-autonomy-factory"
+      },
+      {
         "title": "Applied Intuition 扩展国防自主系统业务,估值升至约 150 亿美元",
         "date": "2026",
         "category": "业务",
         "summary": "这家自动驾驶仿真与工具链龙头几乎服务全球大部分主流车企,近年将能力扩展到自主军用车辆与无人系统等国防领域,估值升至约 150 亿美元,巩固中立「卖铲子」卡位。"
+      },
+      {
+        "title": "收购国防 AI 公司 EpiSci,自主能力扩展至海陆空天",
+        "date": "2025-02",
+        "category": "业务",
+        "summary": "Applied Intuition 收购 EpiSci,后者的战术 AI 与可信自主软件已用于 AI 驾驶战斗机、无人机蜂群及海上目标跟踪等场景,将并入其仿真、验证与数据管理产品线,覆盖全域自主。",
+        "url": "https://www.defensenews.com/air/2025/02/06/applied-intuition-acquires-ai-software-firm-episci/"
       }
     ]
   },
@@ -24281,10 +26479,24 @@
     },
     "news": [
       {
+        "title": "Ilya 宣称 2026 开启「新研究时代」,押注算法创新而非堆算力",
+        "date": "2026-06",
+        "category": "研发",
+        "summary": "Sutskever 将 AI 发展划分为研究时代(2012-2020)、规模化时代(2020-2025)与 2026 年起的新研究时代,认为规模化路线已近天花板,SSI 押注算法突破驱动下一阶段进展。",
+        "url": "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-ilya-sutskever-ssi-financial-breakdown-2026-06-06"
+      },
+      {
         "title": "Ilya 的 SSI 无产品累计融资约 60 亿美元,估值达 320 亿美元",
         "date": "2026",
         "category": "重大",
         "summary": "Ilya Sutskever 于 2024 年创立的 Safe Superintelligence 全球仅约 20 人、不发布任何商用产品,却已累计融资约 60 亿美元、估值 320 亿美元,成史上没有产品估值最高的 AI 实验室。"
+      },
+      {
+        "title": "获 Alphabet、英伟达注资,Google Cloud 成为主要算力供应商",
+        "date": "2025-04",
+        "category": "业务",
+        "summary": "除 Greenoaks、a16z、Lightspeed 等风投外,Alphabet 与英伟达也已入股 SSI,Google Cloud 成为其主要基础设施供应商,为这家坚持不发中间产品的实验室提供训练算力。",
+        "url": "https://techcrunch.com/2025/04/12/openai-co-founder-ilya-sutskevers-safe-superintelligence-reportedly-valued-at-32b/"
       }
     ]
   },
@@ -24366,6 +26578,27 @@
       "community": 76
     },
     "news": [
+      {
+        "title": "与 Google Cloud 签数十亿美元协议扩展 AI 基础设施",
+        "date": "2026-04",
+        "category": "合同",
+        "summary": "Thinking Machines Lab 与 Google Cloud 签署新的数十亿美元(个位数 billion 级)协议,扩大对其 AI 基础设施的使用,包括搭载 NVIDIA 最新 GPU 的系统。",
+        "url": "https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/"
+      },
+      {
+        "title": "与 NVIDIA 达成战略合作,部署 1 吉瓦 Vera Rubin 算力",
+        "date": "2026-03",
+        "category": "合同",
+        "summary": "Thinking Machines Lab 宣布与 NVIDIA 建立战略合作,后者进行未披露金额的投资,双方签署多年期协议,将部署 1 吉瓦 Vera Rubin 计算能力。",
+        "url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab"
+      },
+      {
+        "title": "据报寻求 50 亿美元新融资,估值冲击 500 亿美元",
+        "date": "2025-11",
+        "category": "融资",
+        "summary": "据报道,Thinking Machines Lab 正寻求约 50 亿美元的新一轮融资,估值约 500 亿美元;此前公司已在 2025 年完成由 a16z 领投的 20 亿美元种子轮(估值 120 亿美元)。",
+        "url": "https://techfundingnews.com/ex-openai-exec-mira-muratis-thinking-machines-lab-nears-50b-valuation/"
+      },
       {
         "title": "Mira Murati 实验室推出 Tinker 微调 API",
         "date": "2025-07",
@@ -24459,6 +26692,20 @@
     ],
     "news": [
       {
+        "title": "完成1.3亿美元C轮融资，估值13亿美元晋级独角兽",
+        "date": "2026-01",
+        "category": "融资",
+        "summary": "1月13日Deepgram宣布获AVP领投的1.3亿美元C轮融资，估值达13亿美元，Twilio、ServiceNow、SAP、花旗等战投跟投，超1300家机构基于其API构建语音AI。",
+        "url": "https://techcrunch.com/2026/01/13/deepgram-raises-130m-at-1-3b-valuation-and-buys-a-yc-ai-startup/"
+      },
+      {
+        "title": "收购YC语音AI初创OfOne，切入餐饮得来速场景",
+        "date": "2026-01",
+        "category": "业务",
+        "summary": "Deepgram在C轮融资同时宣布收购OfOne——一家专注快餐得来速点餐的AI原生语音初创公司，借此从底层API向垂直行业语音应用延伸。",
+        "url": "https://pulse2.com/deepgram-130-million-series-c/"
+      },
+      {
         "title": "语音智能体兴起,Deepgram 低延迟语音识别成电话 AI 底层刚需",
         "date": "2026",
         "category": "业务",
@@ -24546,10 +26793,24 @@
     ],
     "news": [
       {
+        "title": "推出 Knowledge Agent,通话中实时为坐席提供上下文答案",
+        "date": "2026-03",
+        "category": "产品",
+        "summary": "Cresta 于 2026 年 3 月发布 Knowledge Agent,在客户实时对话中自动理解语境并向联络中心坐席推送准确答案,免去人工检索知识库;公司同年入选福布斯美国最佳初创雇主榜。",
+        "url": "https://www.cmswire.com/contact-center/cresta-launches-knowledge-agent-for-contact-centers/"
+      },
+      {
         "title": "Cresta 实时「耳语」AI 赋能联络中心坐席,并推出可接管对话智能体",
         "date": "2026",
         "category": "产品",
         "summary": "源自斯坦福 AI 实验室的 Cresta 在通话进行中实时给坐席建议话术、推荐与合规提示,自动做总结质检并沉淀最优坐席做法推广全员,同时提供能直接接管对话的 AI 智能体。"
+      },
+      {
+        "title": "Cresta 完成 1.25 亿美元 D 轮融资,累计融资超 2.7 亿美元",
+        "date": "2024-11",
+        "category": "融资",
+        "summary": "本轮由 World Innovation Lab 与卡塔尔投资局共同领投,埃森哲、高通创投、Workday Ventures 及 a16z、红杉、Tiger Global 等新老股东参投,用于打造人类坐席与虚拟坐席统一平台。",
+        "url": "https://www.prnewswire.com/news-releases/cresta-closes-125m-series-d-to-accelerate-adoption-of-human-centric-ai-in-the-contact-center-302309858.html"
       }
     ]
   },
@@ -25172,6 +27433,20 @@
       "tsm"
     ],
     "news": [
+      {
+        "title": "2026 年 Q1 净利同比微增,下半年 3nm AI 芯片放量在即",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "2026 年一季度营收 1.324 亿美元,但 NRE 收入强劲增长带动净利润同比微增;公司预计 Q3 起营收强劲反弹,受北美 3nm AI 加速器出货驱动,并计划年底前完成 2nm 加速器流片。",
+        "url": "https://www.globenewswire.com/news-release/2026/05/27/3301698/0/en/alchip-technologies-reports-improved-first-quarter-financial-results.html"
+      },
+      {
+        "title": "2025 年营收 9.92 亿美元回落,寄望 3nm 项目重启增长",
+        "date": "2026-03",
+        "category": "财报",
+        "summary": "世芯电子公布 2025 年全年营收 9.92 亿美元、EPS 为新台币 69.2 元(上年 81.3 元),Q4 营收 1.527 亿美元同比大幅下滑;HPC 与 AI ASIC 占营收 83%,CEO 沈翔霖称 2025 只是短暂波折,3nm 量产项目将自 2026 年 Q2 起带动长期增长。",
+        "url": "https://www.globenewswire.com/news-release/2026/03/18/3258197/0/en/Alchip-Technologies-Reports-Q4-and-2025-FY-Financial-Results.html"
+      },
       {
         "title": "世芯电子承接大型客户自研 AI 加速芯片订单，业绩大幅增长",
         "date": "2026",
@@ -27055,6 +29330,27 @@
     },
     "news": [
       {
+        "title": "WWDC 2026 发布全新 Siri AI,支持跨设备对话式交互",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "苹果在 WWDC 2026 正式发布重构后的 Siri AI,提供独立应用与类 ChatGPT 的对话体验,可结合用户邮件、短信等个人信息完成任务,但未承诺具体上线日期,发布次日股价一度下跌逾 3%。",
+        "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+      },
+      {
+        "title": "与 Google 合作推出 Apple 云端基础模型驱动新 Siri",
+        "date": "2026-06",
+        "category": "研发",
+        "summary": "苹果宣布与 Google 合作打造 Apple Foundation Models on Cloud,其中 AFM Cloud Pro 面向高难度任务、质量对标 Gemini 前沿模型,运行在 Google 云的 Nvidia GPU 上,为新 Siri 及各类 AI 功能提供支撑。",
+        "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+      },
+      {
+        "title": "库克宣布卸任 CEO,硬件负责人 John Ternus 9 月接任",
+        "date": "2026-06",
+        "category": "重大",
+        "summary": "蒂姆·库克宣布将于 2026 年 9 月 1 日把 CEO 职位交给高级副总裁(硬件工程)John Ternus,WWDC 2026 成为库克任内最后一届开发者大会,标志苹果领导层重大交接。",
+        "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+      },
+      {
         "title": "Apple Intelligence 持续铺开,自研芯片强化端侧 AI",
         "date": "2026",
         "category": "产品",
@@ -27166,6 +29462,27 @@
       "community": 50
     },
     "news": [
+      {
+        "title": "约39亿美元全股票收购AI软件初创Modular",
+        "date": "2026-06",
+        "category": "重大",
+        "summary": "高通宣布以约39.2亿美元全股票交易收购AI软件公司Modular,后者的软件可让AI模型跨不同硬件架构运行,交易预计2026年下半年完成,旨在强化数据中心AI推理软件栈。",
+        "url": "https://www.cnbc.com/2026/06/24/qualcomm-ai-chip-modular-software.html"
+      },
+      {
+        "title": "发布Dragonfly数据中心CPU,Meta成首批大客户",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "高通在2026年投资者日发布Dragonfly C1000数据中心CPU并宣布Meta为客户,预计2028年供货;另一款高带宽计算芯片已获微软Azure采用,计划2027年年中推出。",
+        "url": "https://www.cnbc.com/2026/06/24/qualcomm-data-center-cpu-meta.html"
+      },
+      {
+        "title": "定下2029财年非手机营收400亿美元目标",
+        "date": "2026-06",
+        "category": "进展",
+        "summary": "高通投资者日提出2029财年非手机业务营收达400亿美元的目标,其中数据中心业务贡献超150亿美元,并计划实现非GAAP每股收益超18美元。",
+        "url": "https://futurumgroup.com/insights/qualcomms-investor-day-2026-agentic-and-ai-inference-to-drive-2x-revenue-growth-by-2030/"
+      },
       {
         "title": "骁龙 X 系列进攻 AI PC,端侧 AI 全面铺开",
         "date": "2026",
@@ -27505,11 +29822,32 @@
     },
     "news": [
       {
+        "title": "FY26 Q3 云收入大增 44%,业绩超预期股价跳涨 10%",
+        "date": "2026-03",
+        "category": "财报",
+        "summary": "甲骨文 2026 财年第三季度云收入同比增长 44%,营收与盈利均超市场预期并上调指引,财报公布后股价上涨约 10%;全财年资本开支同比大增 162% 至 557 亿美元以扩建 AI 算力。",
+        "url": "https://www.cnbc.com/2026/03/10/oracle-orcl-q3-earnings-report-2026.html"
+      },
+      {
         "title": "RPO 达 6380 亿美元(+363%),FY27 指引 900 亿",
         "date": "2026",
         "category": "财报",
         "summary": "FY26 OCI 营收 +93%;Stargate 旗舰 Abilene 园区 1.2GW 上线、整体扩至约 7GW、投资超 4000 亿美元;为支撑 AI 基建,FY26 资本开支激增、自由现金流转负。",
         "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx"
+      },
+      {
+        "title": "与 OpenAI 达成约 3000 亿美元云算力协议,史上最大云合同之一",
+        "date": "2025-09",
+        "category": "合同",
+        "summary": "据报道甲骨文与 OpenAI 签订约 3000 亿美元的云基础设施协议,OpenAI 占甲骨文剩余履约义务(RPO)的 50% 以上,该合同成为其 AI 云积压订单暴增的核心驱动。",
+        "url": "https://intuitionlabs.ai/articles/oracle-openai-300b-deal-analysis"
+      },
+      {
+        "title": "与 OpenAI 合作追加 4.5 吉瓦 Stargate 数据中心容量",
+        "date": "2025-07",
+        "category": "业务",
+        "summary": "甲骨文与 OpenAI 达成协议,在美国新增开发 4.5GW 的 Stargate 数据中心容量,推动 Stargate 计划加速落地,巩固甲骨文在 AI 基础设施供给中的关键地位。",
+        "url": "https://openai.com/index/stargate-advances-with-partnership-with-oracle/"
       }
     ]
   },
@@ -27603,6 +29941,20 @@
       "community": 72
     },
     "news": [
+      {
+        "title": "自助式AXON广告平台面向全球广告主公开上线",
+        "date": "2026-06",
+        "category": "产品",
+        "summary": "AppLovin于2026年6月将AXON自助广告平台向全球所有广告主公开开放,被市场视为打开新增长空间、大幅拓宽客户群的关键举措。",
+        "url": "https://stockstotrade.com/news/applovin-corporation-app-news-2026_06_26/"
+      },
+      {
+        "title": "Q1营收18.4亿美元同比增59%,利润率创纪录",
+        "date": "2026-05",
+        "category": "财报",
+        "summary": "AppLovin发布2026年一季报,营收18.4亿美元同比增长59%,调整后EPS 3.56美元超预期,调整后EBITDA增长66%,利润率达85%创历史纪录。",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-stock-buy-explosive-q1-180400193.html"
+      },
       {
         "title": "AppLovin 借 AXON 引擎从手游向电商广告市场扩张",
         "date": "2026",
@@ -28265,6 +30617,27 @@
         "category": "业务",
         "summary": "Q1 出货同比 +141%;长距 ADAS 激光雷达市占 43% 全球第一;年产能翻番至 400 万台,泰国工厂 2027 年初投产。",
         "url": "https://www.eeo.com.cn/2026/0402/825864.shtml"
+      },
+      {
+        "title": "成为首家实现全年GAAP盈利的激光雷达公司",
+        "date": "2026-03",
+        "category": "财报",
+        "summary": "禾赛2025年全年营收30.28亿元,激光雷达出货约162万台,成为全球首家实现全年GAAP盈利的激光雷达企业,并以超40%份额居长距车载激光雷达市场第一。",
+        "url": "https://investor.hesaitech.com/"
+      },
+      {
+        "title": "获梅赛德斯-奔驰L3级激光雷达定点供应",
+        "date": "2026",
+        "category": "合同",
+        "summary": "禾赛被选为梅赛德斯-奔驰战略激光雷达合作伙伴,确认为其支持L3级自动驾驶车型的供应商,量产将由泰国新工厂配套支持。",
+        "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/2023472/hesai-hsai-q1-2026-earnings-call-transcript/"
+      },
+      {
+        "title": "KargoBot独家定点,6D激光雷达首获商用车合同",
+        "date": "2026",
+        "category": "合同",
+        "summary": "禾赛获KargoBot二期运输机器人独家定点,搭载4320线ETX与FTX补盲激光雷达,为其6D全彩激光雷达首个商用车合同,ETX预计2026年下半年量产。",
+        "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/2023472/hesai-hsai-q1-2026-earnings-call-transcript/"
       }
     ]
   },
@@ -28547,6 +30920,27 @@
       "tsm"
     ],
     "news": [
+      {
+        "title": "HSD V2.0智驾系统发布,iCAR V27首发OTA",
+        "date": "2026-06",
+        "category": "落地",
+        "summary": "地平线于2026年6月29日正式发布HSD V2.0智能驾驶系统,iCAR V27成为首款获得OTA升级的车型,6月30日起陆续推送。",
+        "url": "https://www.horizon.auto/news/product"
+      },
+      {
+        "title": "发布国内首颗舱驾融合芯片\"地平线星空\"",
+        "date": "2026-04",
+        "category": "产品",
+        "summary": "地平线于2026年4月发布国内首颗舱驾融合车载智能芯片\"地平线星空\",并推出车载智能操作系统,HSD舱驾一体方案已获超十家品牌合作意向。",
+        "url": "https://www.horizon.auto/news/product"
+      },
+      {
+        "title": "2025年营收约37.6亿元,同比增长57.7%",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "地平线发布2025年业绩,全年营收约37.58亿元,同比增长57.7%,研发投入持续高企,智驾方案量产上车规模继续扩大。",
+        "url": "https://www.horizon.auto/investor-relations"
+      },
       {
         "title": "地平线港交所上市募资约 6.7 亿美元，成当年香港最大 IPO 之一",
         "date": "2024-10",
@@ -29017,6 +31411,20 @@
     },
     "news": [
       {
+        "title": "公布ASKB路线图,AI代理网络覆盖投资全流程",
+        "date": "2026-04",
+        "category": "进展",
+        "summary": "彭博于2026年4月16日公布ASKB新功能路线图,将彭博数据与客户自有观点打通,通过协同的AI代理网络支持盈利前准备、会议准备等多步骤投研工作流。",
+        "url": "https://www.bloomberg.com/professional/insights/press-announcement/bloomberg-unveils-askb-roadmap-for-clients-to-augment-their-investment-process-with-agentic-ai/"
+      },
+      {
+        "title": "推出终端智能体AI对话界面ASKB",
+        "date": "2026-02",
+        "category": "产品",
+        "summary": "彭博于2026年2月23日推出ASKB(beta),将智能体AI直接引入彭博终端,用户可用自然语言提问,由AI代理在彭博全量内容中检索、分析并综合生成投研洞察。",
+        "url": "https://www.bloomberg.com/company/stories/meet-askb-bloomberg-introduces-agentic-ai-to-the-bloomberg-terminal/"
+      },
+      {
         "title": "彭博把 BloombergGPT 生成式 AI 深度嵌入终端",
         "date": "2026",
         "category": "产品",
@@ -29305,6 +31713,20 @@
         "date": "2026",
         "category": "进展",
         "summary": "Speak 用语音识别+大模型让学习者与 AI 老师开放式对话、实时纠正发音与语法,在韩国、日本等英语学习旺盛市场做到头部,作为 OpenAI 创业基金被投公司,商业化在 AI 教育应用中领先。"
+      },
+      {
+        "title": "企业版获KPMG等约500家公司采用,年化营收破亿",
+        "date": "2025",
+        "category": "业务",
+        "summary": "Speak推出企业服务Speak for Business,KPMG、HD现代等约500家企业(含韩国前十大雇主中的八家)为员工订阅,员工采用率达85%,公司年化营收已超1亿美元。",
+        "url": "https://www.forbes.com/sites/rashishrivastava/2025/11/12/this-startup-is-racing-duolingo-to-replace-human-language-tutors-with-ai/"
+      },
+      {
+        "title": "完成7800万美元C轮融资,估值达10亿美元",
+        "date": "2024-12",
+        "category": "融资",
+        "summary": "Speak完成由Accel领投的7800万美元C轮融资,OpenAI创业基金、Khosla Ventures等跟投,估值达10亿美元晋级独角兽,较六个月前翻倍。",
+        "url": "https://techcrunch.com/2024/12/10/openai-backed-speak-raises-78m-at-1b-valuation-to-help-users-learn-languages-by-talking-out-loud/"
       }
     ]
   },
@@ -29376,6 +31798,20 @@
         "date": "2026",
         "category": "落地",
         "summary": "基于 GPT 打造的 Khanmigo 不直接给答案,而是像好老师一样提问引导学生逐步思考,同时为教师减负备课、出题与批改,让「一对一因材施教」有望人人可及。"
+      },
+      {
+        "title": "可汗学院全面重构课堂版,2026 年 7 月起面向所有用户上线",
+        "date": "2026",
+        "category": "产品",
+        "summary": "可汗学院与多个学区试点「课堂优先」的全新平台体验,Khanmigo 化身学习教练在学生卡壳时一对一辅导,教师可直接获得学情洞察与作业建议,平台于 2026 年 7 月正式向全部用户推出。",
+        "url": "https://blog.khanacademy.org/khan-academy-reimagined-for-districts-2026/"
+      },
+      {
+        "title": "获微软支持,Khanmigo 教师版向全美教师免费开放",
+        "date": "2024",
+        "category": "落地",
+        "summary": "在微软的资助与 Azure 支持下,可汗学院宣布 Khanmigo for Teachers 对所有美国教师 100% 免费,提供备课、教案生成与学情分析等 AI 助教能力,加速 AI 教学工具普及。",
+        "url": "https://blog.khanacademy.org/khanmigo-for-teachers-is-free-for-all-us-teachers-thanks-to-support-from-microsoft/"
       }
     ]
   },
@@ -29703,11 +32139,25 @@
     },
     "news": [
       {
+        "title": "FY27 Q1:净新增 ARR 创纪录 2.56 亿美元,宣布 1 拆 4",
+        "date": "2026-06",
+        "category": "财报",
+        "summary": "季度营收 13.9 亿美元同比增 26%,净新增 ARR 2.56 亿美元创纪录(+32%),自由现金流 4.68 亿美元创新高,公司上调全年净新增 ARR 增速指引,并宣布 7 月实施 1 拆 4 股票拆分。",
+        "url": "https://www.cnbc.com/2026/06/03/crowdstrike-crwd-q1-2027-earnings.html"
+      },
+      {
         "title": "ARR 达 52.5 亿(+24%),Charlotte AI 使用量增 6 倍",
         "date": "2026",
         "category": "财报",
         "summary": "Charlotte AI 相关 ARR 翻三倍、获 FedRAMP High 认证;推出与 AWS/英伟达/OpenAI 共建的无代码安全智能体平台 AgentWorks;并发起含 OpenAI、Anthropic 的前沿 AI 风险治理联盟 QuiltWorks。",
         "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-first-quarter-fiscal-year-2027-financial"
+      },
+      {
+        "title": "7.4 亿美元收购身份安全公司 SGNL,并揽入 AI 安全商 Pangea",
+        "date": "2026",
+        "category": "重大",
+        "summary": "CrowdStrike 以 7.4 亿美元收购身份安全初创 SGNL,并收购 AI 安全公司 Pangea 与浏览器安全公司 Seraphic,强化非人类身份与零常设权限等能力;还从英伟达延揽 Bartley Richardson 出任首席 AI 与自主系统官。",
+        "url": "https://www.businesswire.com/news/home/20260603234051/en/CrowdStrike-Reports-First-Quarter-Fiscal-Year-2027-Financial-Results"
       }
     ]
   },
@@ -29809,10 +32259,24 @@
     },
     "news": [
       {
+        "title": "FY2026 Q3 营收 30 亿美元同比增 31%,超华尔街预期",
+        "date": "2026-06",
+        "category": "财报",
+        "summary": "2026 财年第三季度营收 30 亿美元,高于预期的 29.4 亿美元,同比增长 31%,其中 CyberArk 与 Chronosphere 两笔收购贡献 3.88 亿美元;AI 驱动的安全需求持续推高业绩。",
+        "url": "https://www.cnbc.com/2026/06/02/palo-alto-networks-panw-q3-earnings-2026.html"
+      },
+      {
         "title": "Palo Alto 推 XSIAM 自主响应,录得史上最佳季度",
         "date": "2026-03",
         "category": "财报",
         "summary": "2026 年 3 月 Palo Alto Networks 推出 XSIAM 自主响应,将 SOC 的检测—分析—处置尽量自动化以应对 AI 时代攻击;凭平台化与 AI 化,公司 2026 年录得史上最佳季度、股价大涨。"
+      },
+      {
+        "title": "完成 211 亿美元收购 CyberArk,确立身份安全为平台核心支柱",
+        "date": "2026-02",
+        "category": "重大",
+        "summary": "2026 年 2 月完成对 CyberArk 的收购,总对价约 211 亿美元(约 23 亿美元现金加约 1.12 亿股股票),将身份安全确立为平台化战略核心支柱,覆盖人类、机器与 AI 智能体身份。",
+        "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-completes-acquisition-of-cyberark-to-secure-the-ai-era"
       }
     ]
   },
@@ -30075,6 +32539,20 @@
       "community": 51
     },
     "news": [
+      {
+        "title": "ARR 突破 10 亿美元,服务超半数财富 100 强企业",
+        "date": "2026-03",
+        "category": "业务",
+        "summary": "截至谷歌收购交割时,Wiz 年经常性收入已突破 10 亿美元,员工约 1800 人,客户覆盖超过 50% 的财富 100 强;并入 Google Cloud 后保留品牌并继续支持 AWS、Azure 等多云环境。",
+        "url": "https://aimagazine.com/news/how-wiz-became-a-32bn-cloud-security-powerhouse"
+      },
+      {
+        "title": "RSAC 2026 发布 AI-APP 平台,防护 AI 模型与智能体安全",
+        "date": "2026",
+        "category": "产品",
+        "summary": "在 RSAC 2026 推出 AI 应用防护平台(AI-APP),对 AWS Bedrock、Azure AI、Vertex AI 上的模型、智能体与数据流提供全景可视化,防范提示注入与影子 AI,并新增 Red Agent 与 Workload Explainer 等能力。",
+        "url": "https://www.wiz.io/blog/introducing-wiz-ai-app"
+      },
       {
         "title": "谷歌约 320 亿美元收购 Wiz,创网络安全史上最大交易",
         "date": "2025",
@@ -30703,6 +33181,20 @@
       "community": 50
     },
     "news": [
+      {
+        "title": "上半年净利预增93%–101%,首破200亿元",
+        "date": "2026-07",
+        "category": "财报",
+        "summary": "工业富联发布2026年半年度业绩预增公告,预计归母净利润234亿至244亿元,同比增长93%–101%,上半年净利首次突破200亿元创历史新高。",
+        "url": "https://finance.sina.com.cn/roll/2026-07-09/doc-inihfazc5370139.shtml"
+      },
+      {
+        "title": "云服务商AI服务器营收同比增超230%",
+        "date": "2026-07",
+        "category": "业务",
+        "summary": "2026年上半年工业富联云服务商AI服务器收入同比增长超230%,800G以上数据中心交换机出货量同比增长1.4倍,与大客户联合研发的下一代产品预计下半年量产。",
+        "url": "https://m.jrj.com.cn/madapter/stock/2026/07/09182257748422.shtml"
+      },
       {
         "title": "AI 服务器代工量创纪录,GB300 量产主力",
         "date": "2026",
@@ -31518,10 +34010,31 @@
     },
     "news": [
       {
+        "title": "Q1营收年增34%,毛利率37%创新高",
+        "date": "2026-04",
+        "category": "财报",
+        "summary": "台达电子2026年第一季合并营收1593.53亿新台币,同比增长34%,毛利率达37%创新高,云服务商资本开支扩大持续拉动电源与数据中心业务。",
+        "url": "https://finance.technews.tw/2026/04/30/delta-financial-report/"
+      },
+      {
+        "title": "2025年净利601亿新台币,年增70.6%创新高",
+        "date": "2026-02",
+        "category": "财报",
+        "summary": "台达电子2025年全年营收5548.85亿新台币,年增31.75%;税后净利601.08亿新台币,大增70.6%创历史新高,EPS达23.14元,AI数据中心需求为主要驱动力。",
+        "url": "https://www.bnext.com.tw/article/90178/2026-delta-earnings-call"
+      },
+      {
         "title": "AI 电源与液冷双引擎,数据中心业务爆发",
         "date": "2026",
         "category": "业务",
         "summary": "服务器电源、机柜电源架构(含 800V HVDC)与液冷方案全面放量,AI 相关营收占比持续提升,业绩连创新高。"
+      },
+      {
+        "title": "市值突破1000亿美元,跃居台股第二",
+        "date": "2026",
+        "category": "重大",
+        "summary": "受AI数据中心电力与液冷需求猛增推动,台达电子市值突破1000亿美元(约3.23兆新台币),超越鸿海精密成为仅次于台积电的台股第二大市值企业。",
+        "url": "https://cj.sina.com.cn/articles/view/5835524730/15bd30a7a020023ed2"
       }
     ]
   },
@@ -31806,6 +34319,20 @@
         "date": "2026-06",
         "category": "重大",
         "summary": "Meta 曾计划以 20–30 亿美元收购通用智能体公司 Manus(蝴蝶效应),2026 年 4 月被中国发改委叫停,Meta 于 6 月正式终止交易;Manus 2026 年营收约 1.25 亿美元,增长迅速。"
+      },
+      {
+        "title": "年化收入达约 4.5 亿美元,创始人洽谈 10 亿美元融资回购",
+        "date": "2026-06",
+        "category": "业务",
+        "summary": "据 Sacra 估计,Manus 年化收入在 2026 年 6 月达约 4.5 亿美元,较 2025 年的 1.27 亿美元大幅增长;Meta 交易解除后,联合创始人已就融资约 10 亿美元以重新掌控公司进行初步洽谈。",
+        "url": "https://sacra.com/c/manus/"
+      },
+      {
+        "title": "推出桌面版应用,My Computer 功能可操作本地电脑",
+        "date": "2026-03",
+        "category": "产品",
+        "summary": "Manus 发布 macOS 与 Windows 桌面应用,新功能 My Computer 允许智能体执行终端命令、读取本地文件并调用本机开发工具,把通用代理能力从云端延伸到用户本地环境。",
+        "url": "https://codersera.com/blog/manus-ai-2026-status-meta-block-desktop-app/"
       }
     ]
   },
@@ -31884,10 +34411,31 @@
     ],
     "news": [
       {
+        "title": "B轮扩至4.85亿美元，估值三个月涨至26亿美元",
+        "date": "2026-06",
+        "category": "融资",
+        "summary": "6月17日Genspark宣布B轮追加1亿美元，投后估值达26亿美元，较三个月前的16亿大幅上调，B轮累计4.85亿美元，Sozo Ventures、未来资产等参投。",
+        "url": "https://www.businesswire.com/news/home/20260617758937/en/Genspark.ai-Extends-Series-B-to-$485M-at-$2.6B-Post-Money-Valuation-Appoints-Jamison-Powell-as-Chief-Revenue-Officer"
+      },
+      {
+        "title": "推出首个「AI员工」Genspark Claw 及AgentBase",
+        "date": "2026-03",
+        "category": "产品",
+        "summary": "3月Genspark发布定位为首个「AI员工」的Genspark Claw，并推出AgentBase，让用户用自有数据构建AI原生数据库、看板和内部系统，替代传统SaaS工具。",
+        "url": "https://sacra.com/c/genspark/"
+      },
+      {
         "title": "Genspark Super Agent 年化收入一年冲到约 2.5 亿美元",
         "date": "2026",
         "category": "业务",
         "summary": "由百度等大厂背景团队创立的 Genspark 凭 Super Agent 出色的通用智能体体验,据称 ARR 一年内冲到约 2.5 亿美元,成为增长最快的 AI 应用之一,与 Manus、OpenAI Agent 同台竞技。"
+      },
+      {
+        "title": "与微软达成全球战略合作，AI智能体嵌入Office全家桶",
+        "date": "2026",
+        "category": "业务",
+        "summary": "Genspark宣布与微软全球战略合作，将其AI智能体原生嵌入PowerPoint、Excel、Word及Microsoft Agent 365，借微软生态加速企业级市场扩张。",
+        "url": "https://sacra.com/c/genspark/"
       }
     ]
   },
