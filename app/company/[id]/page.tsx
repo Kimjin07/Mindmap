@@ -8,6 +8,23 @@ export function generateStaticParams() {
   return allCompanyIds().map((id) => ({ id }));
 }
 
+/** 每家公司独立的 SEO 标题与描述(否则 354 页共用同一标题)。 */
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const c = getCompany(id);
+  if (!c) return {};
+  const title =
+    c.nameEn && c.nameEn !== c.name ? `${c.name} (${c.nameEn})` : c.name;
+  return {
+    title: `${title} | The AI Stack`,
+    description: c.oneLiner || c.business,
+  };
+}
+
 export default async function CompanyPage({
   params,
 }: {

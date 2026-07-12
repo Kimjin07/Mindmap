@@ -4031,6 +4031,12 @@
         "category": "业务",
         "summary": "AI 服务器功率密度达普通服务器数倍到十几倍，传统风冷难以压住，液冷成为标配。英维克提供冷板式、浸没式等整套温控方案，作为国产温控龙头液冷业务实现爆发式增长。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "齐勇",
+        "title": "创始人兼董事长"
+      }
     ]
   },
   "innolight": {
@@ -4961,6 +4967,12 @@
         "category": "重大",
         "summary": "约 23 亿美元收购 Infinera 大幅增强光传输实力;数据中心互联(DCI)成为电信设备商的新增长故事,并获英伟达入股合作 AI-RAN。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Justin Hotard",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "mu": {
@@ -5383,6 +5395,16 @@
         "category": "业务",
         "summary": "800G 光模块批量供货,硅光与相干技术布局完整;国产算力建设(智算中心)带来国内需求增量。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "黄宣泽",
+        "title": "董事长"
+      },
+      {
+        "name": "胡强高",
+        "title": "总经理"
+      }
     ]
   },
   "tianfu": {
@@ -5479,6 +5501,16 @@
         "category": "业务",
         "summary": "AI 光模块放量带动上游器件需求,高速光引擎(用于 CPO/光模块)成为新增长点,产能持续扩张。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "邹支农",
+        "title": "联合创始人兼董事长"
+      },
+      {
+        "name": "欧洋",
+        "title": "总经理"
+      }
     ]
   },
   "yuanjie": {
@@ -5574,6 +5606,12 @@
         "date": "2026",
         "category": "业务",
         "summary": "100G EML 等高速激光器芯片验证突破,数据中心客户导入;国产光芯片替代空间打开。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "张欣刚 (Zhang Xingang)",
+        "title": "创始人、董事长兼总经理"
       }
     ]
   },
@@ -5772,6 +5810,12 @@
         "category": "业务",
         "summary": "CopperEdge/FiberEdge 切入 800G/1.6T 光模块与有源铜缆,数据中心业务高增长,LoRa 物联网稳定。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Hong Q. Hou",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "jnpr": {
@@ -5866,6 +5910,12 @@
         "category": "重大",
         "summary": "HPE 以约 140 亿美元完成对瞻博的收购,AI 驱动的 Mist 网络平台成为 HPE 网络业务的核心。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Rami Rahim",
+        "title": "HPE 网络业务执行副总裁兼总经理（原 Juniper CEO，2025 年被 HPE 收购）"
+      }
     ]
   },
   "eric": {
@@ -5956,6 +6006,12 @@
         "date": "2026",
         "category": "业务",
         "summary": "电信资本开支疲软下转向企业市场与 AI 运维自动化;与运营商探索 AI RAN(无线接入网智能化)。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Börje Ekholm",
+        "title": "总裁兼 CEO（2026-09-30 卸任，继任者 Per Narvinger）"
       }
     ]
   },
@@ -6353,6 +6409,12 @@
         "category": "进展",
         "summary": "旗舰示范项目 UAMPS 因成本超支于 2023 年取消后，NuScale 借 AI 数据中心对无碳基荷电力的渴求重新受追捧，正转向数据中心等新客户寻求订单，但仍面临从设计认证到建成发电的落地考验。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "John Hopkins",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "cat": {
@@ -6445,6 +6507,12 @@
         "category": "业务",
         "summary": "AI 数据中心狂建带来可靠备电与电网排队期就地发电的硬需求，卡特彼勒的柴油/燃气发电机组和旗下 Solar Turbines 燃气轮机订单大增，同时矿业板块还受益于 AI 对铜等金属的需求。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Joseph E. Creed",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "cmi": {
@@ -6536,6 +6604,12 @@
         "date": "2026",
         "category": "业务",
         "summary": "AI 数据中心需要秒级顶上的大功率备用发电机组以保障 GPU 集群不断电，爆发式建设让康明斯备用与就地发电订单大增，数据中心成为其增长最快的业务之一，并通过 Accelera 布局氢能。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Jennifer Rumsey",
+        "title": "董事长兼 CEO"
       }
     ]
   },
@@ -6633,6 +6707,12 @@
         "date": "2026",
         "category": "业务",
         "summary": "每台人形机器人的关节都要用到多个谐波减速器，量产浪潮极大打开需求空间。哈默纳科凭数十年技术工艺近乎垄断高端市场，是具身智能硬件产业链中议价能力很强的一环。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "丸山显（Akira Maruyama）",
+        "title": "社长兼 CEO"
       }
     ]
   },
@@ -7843,6 +7923,12 @@
         "category": "研发",
         "summary": "在小火箭「电子号」保持发射频次与成功率领先的同时，Rocket Lab 正研发更大的可回收中型火箭「中子号」进军更大发射市场，并以火箭加卫星制造的双线布局深耕太空经济。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Peter Beck",
+        "title": "创始人兼 CEO"
+      }
     ]
   },
   "asts": {
@@ -7931,6 +8017,12 @@
         "date": "2026",
         "category": "进展",
         "summary": "ASTS 部署「超大天线」低轨卫星，让普通手机在无基站的海上、沙漠、山区直连卫星通话上网，获 AT&T、Verizon、沃达丰等运营商入股或签约，是与 Starlink Direct-to-Cell 竞争的领先玩家。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Abel Avellan",
+        "title": "创始人、董事长兼 CEO"
       }
     ]
   },
@@ -9472,6 +9564,16 @@
         "category": "重大",
         "summary": "2025 年谷歌以「反向收购」方式请走 Windsurf 的 CEO 与部分核心团队并获技术授权,随后剩余的编辑器业务与团队被 Devin 开发商 Cognition 收购,成为 AI 编程赛道剧烈整合与人才争夺的缩影。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Jeff Wang",
+        "title": "CEO（Cognition 收购后接任）"
+      },
+      {
+        "name": "Graham Moreno",
+        "title": "总裁"
+      }
     ]
   },
   "replit": {
@@ -10249,6 +10351,12 @@
         "category": "重大",
         "summary": "2024 年亚马逊以类似对 Adept 的「许可+人才」操作,请走 Covariant 多位创始人与核心团队,将其机器人基础模型 RFM 的仓储拣选能力纳入自家物流机器人体系,成为核心团队被巨头吸走的又一案例。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Ted Stinson",
+        "title": "CEO（原 COO，创始团队加入 Amazon 后接任）"
+      }
     ]
   },
   "ai21": {
@@ -10620,6 +10728,12 @@
         "date": "2024",
         "category": "重大",
         "summary": "2024 年底通用汽车决定停止为 Cruise 的 Robotaxi 业务继续投入,将自动驾驶技术整合进公司并聚焦个人自动驾驶,升级辅助驾驶系统 Super Cruise 落到量产乘用车,折射出 Robotaxi 商业化的艰难与车企回归务实。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Mary Barra",
+        "title": "董事长兼 CEO"
       }
     ]
   },
@@ -12380,6 +12494,12 @@
         "date": "2024",
         "category": "重大",
         "summary": "这家曾估值约 28 亿美元、被视为欧洲最有希望挑战英伟达的 IPU 芯片公司，因难以突破 CUDA 生态壁垒而经营承压，2024 年被软银收购，与 Arm 一同纳入软银 AI 硬件布局。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Nigel Toon",
+        "title": "联合创始人兼 CEO、董事长"
       }
     ]
   },
@@ -19205,6 +19325,12 @@
         "category": "业务",
         "summary": "3TB+ 单碟 HAMR 技术投入量产,大容量近线盘供不应求;AI 数据湖扩张让 HDD 重回景气周期。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Dave Mosley",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "kioxia": {
@@ -19786,6 +19912,12 @@
         "category": "研发",
         "summary": "这家纳斯达克上市的微型反应堆新锐，目标打造可运输、可部署到偏远地区、矿区与数据中心的便携式微堆，并布局核燃料运输；技术与商业化仍处早期，属高风险高预期标的。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "James Walker",
+        "title": "CEO"
+      }
     ]
   },
   "terrapower": {
@@ -19936,6 +20068,12 @@
         "category": "融资",
         "summary": "亚马逊领投并押注 X-energy 的高温气冷堆为数据中心提供无碳电力，公司同时与陶氏合作在得州建反应堆为工厂供电供热，其 TRISO-X「本质安全」燃料是核心卖点。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "J. Clay Sell",
+        "title": "CEO"
+      }
     ]
   },
   "kairos": {
@@ -20009,6 +20147,12 @@
         "date": "2024",
         "category": "重大",
         "summary": "2024 年 Kairos Power 与谷歌签下里程碑式协议，用 KP-FHR 氟盐冷却高温堆为谷歌数据中心供最高约 500MW 无碳电力，成为科技巨头直接采购 SMR 电力的标志案例。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Mike Laufer",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -20438,6 +20582,16 @@
         "category": "业务",
         "summary": "公司最成熟的应用是为仓储物流叉车提供燃料电池，并布局电解槽与绿氢生产；但绿氢成本高、持续大额烧钱令财务承压，前景高度取决于绿氢经济性改善与规模化节奏。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Jose Luis Crespo",
+        "title": "总裁兼 CEO"
+      },
+      {
+        "name": "Andy Marsh",
+        "title": "执行董事长"
+      }
     ]
   },
   "hitachienergy": {
@@ -20706,6 +20860,12 @@
         "category": "业务",
         "summary": "每座 AI 数据中心都需大量中高压开关柜与配电系统把海量电力安全送进机房，叠加制造业回流、电网升级与电气化趋势，Powell 订单饱满，业绩和股价大幅增长。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Brett Cope",
+        "title": "董事长、总裁兼 CEO"
+      }
     ]
   },
   "pwr": {
@@ -20899,6 +21059,12 @@
         "date": "2026",
         "category": "业务",
         "summary": "AI 服务器功率密度极高，nVent 提供机柜、配电及冷板、CDU 等液冷散热基础设施，帮数据中心「把电送进、把热带走」，AI 数据中心爆发式建设直接拉动其液冷与电气产品需求。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Beth Wozniak",
+        "title": "董事会主席兼 CEO"
       }
     ]
   },
@@ -21119,6 +21285,12 @@
         "category": "业务",
         "summary": "作为仅次于信越的全球第二大硅片厂，SUMCO 的高纯度 300mm 硅片直接受益于 AI 芯片扩产、先进逻辑制程与 HBM 放量带来的最上游晶圆需求增长。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "龙田次郎（Jiro Ryuta）",
+        "title": "代表董事社长（2026 年 3 月上任）"
+      }
     ]
   },
   "gwafers": {
@@ -21215,6 +21387,12 @@
         "category": "进展",
         "summary": "全球第三大硅片厂环球晶圆在美国得州新建 12 吋硅片厂，承接美国半导体制造本土化带来的配套需求，同时受益于 AI 芯片扩产对硅片的直接拉动。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "徐秀兰（Doris Hsu）",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "jsr": {
@@ -21285,6 +21463,12 @@
         "date": "2023",
         "category": "重大",
         "summary": "因 EUV 光刻胶等先进材料的战略价值，全球光刻胶龙头 JSR 于 2023 年被日本政府背景的产业基金 JIC 收购，旨在强化日本对半导体关键材料的掌控。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "堀哲朗（Tetsuro Hori）",
+        "title": "代表董事、社长兼 CEO"
       }
     ]
   },
@@ -21383,6 +21567,12 @@
         "category": "业务",
         "summary": "随先进制程向 EUV 乃至 High-NA EUV 推进，全球能稳定供货高端 EUV 光刻胶的厂商很少，市占领先的 TOK 直接受益于 AI 芯片放量带来的材料需求。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "种市顺昭（Noriaki Taneichi）",
+        "title": "董事社长"
+      }
     ]
   },
   "linde": {
@@ -21478,6 +21668,12 @@
         "category": "业务",
         "summary": "全球最大工业气体公司林德为芯片制造沉积、刻蚀、清洗等工序供应电子特气，AI 扩产、先进制程与 HBM 放量直接增加其晶圆厂长期供气合同与需求。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Sanjiv Lamba",
+        "title": "董事长兼 CEO"
+      }
     ]
   },
   "airliquide": {
@@ -21568,6 +21764,16 @@
         "date": "2026",
         "category": "业务",
         "summary": "与林德并列全球工业气体双雄的液化空气，为晶圆厂就近配套气体供应装置并签长期合同，AI 扩产与 HBM 放量持续拉动其电子特气与材料业务。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "François Jackow",
+        "title": "CEO"
+      },
+      {
+        "name": "Benoît Potier",
+        "title": "董事长"
       }
     ]
   },
@@ -21961,6 +22167,12 @@
         "category": "重大",
         "summary": "抛光液与抛光垫全球主要供应商 CMC Materials（原 Cabot Microelectronics）于 2022 年被恩特格里斯以约 65 亿美元收购，并入其半导体材料版图。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "David Reeder",
+        "title": "总裁兼 CEO（母公司 Entegris，CMC Materials 已于 2022 年被其收购）"
+      }
     ]
   },
   "mp": {
@@ -22255,6 +22467,12 @@
         "category": "业务",
         "summary": "国产高性能钕铁硼龙头金力永磁客户覆盖特斯拉、比亚迪与主流风电厂商，每台人形机器人的众多关节电机均需大量高性能永磁，机器人量产将带来显著需求增量。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "蔡报贵",
+        "title": "创始人、董事长兼 CEO"
+      }
     ]
   },
   "fcx": {
@@ -22347,6 +22565,12 @@
         "category": "业务",
         "summary": "AI 用电激增与全社会电气化让铜需求结构性上升，而铜矿开发周期长达十年以上、新增供给缓慢，运营 Grasberg 等世界级矿山的自由港是最直接的受益者之一。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Kathleen L. Quirk",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "scco": {
@@ -22437,6 +22661,16 @@
         "date": "2026",
         "category": "业务",
         "summary": "全球储量最大的铜矿公司之一南方铜业以储量大、成本低、纯铜属性强著称，AI 用电激增叠加电气化令铜需求长期上行，而新铜矿供给增长缓慢。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Germán Larrea Mota-Velasco",
+        "title": "董事长"
+      },
+      {
+        "name": "Leonardo Contreras Lerdo de Tejada",
+        "title": "临时 CEO"
       }
     ]
   },
@@ -23086,6 +23320,16 @@
         "category": "业务",
         "summary": "构建于 Solana 等区块链之上的 io.net 以代币激励聚合分散闲置 GPU，让 AI 开发者以更低价格按需租用算力做训练与推理，成为大型云厂之外的补充选项。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Gaurav Sharma",
+        "title": "CEO"
+      },
+      {
+        "name": "Tory Green",
+        "title": "联合创始人兼 io.net 基金会主席"
+      }
     ]
   },
   "render": {
@@ -23154,6 +23398,12 @@
         "category": "业务",
         "summary": "最初瞄准极耗 GPU 的 3D 渲染场景，Render 通过区块链与代币撮合结算出租闲置 GPU；随 AI 兴起顺势拓展为 AI 提供去中心化算力，与 io.net、Akash 同处 DePIN 赛道。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Jules Urbach",
+        "title": "创始人（OTOY 创始人兼 CEO）"
+      }
     ]
   },
   "akash": {
@@ -23220,6 +23470,12 @@
         "date": "2026",
         "category": "业务",
         "summary": "被称为「云计算的 Airbnb」的 Akash 让闲置算力挂牌出租、需求方低价租用并由区块链自动结算，在 GPU 昂贵紧缺的当下大力拓展 GPU 租赁以承接 AI 需求。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Greg Osuri",
+        "title": "创始人兼 CEO（Overclock Labs）"
       }
     ]
   },
@@ -23432,6 +23688,12 @@
         "date": "2026",
         "category": "业务",
         "summary": "Scenario 让游戏工作室用自有素材训练专属模型,按项目统一风格批量生成角色、道具、图标等资产,解决通用文生图风格漂移痛点,持续深入专业游戏内容团队的生产管线。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Emmanuel de Maistre",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -25346,6 +25608,16 @@
         "category": "重大",
         "summary": "2024 年 Meta 收购这家成立于 2016 年的语音生成公司,其高质量 TTS、声音克隆与低延迟实时对话语音技术和团队整体并入 Meta 的 AI 语音体系。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Mahmoud Felfel",
+        "title": "联合创始人兼 CEO"
+      },
+      {
+        "name": "Hammad Syed",
+        "title": "联合创始人兼 COO"
+      }
     ]
   },
   "lindy": {
@@ -27034,6 +27306,16 @@
         "category": "研发",
         "summary": "随着推理算力与电费快速超过训练成为最大持续成本,Positron 打造专为 Transformer 推理优化的专用芯片,在同样任务上追求比通用 GPU 更高的每瓦与每美元性能,帮数据中心省电省钱。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Mitesh Agrawal",
+        "title": "CEO"
+      },
+      {
+        "name": "Thomas Sohmers",
+        "title": "联合创始人兼 CTO"
+      }
     ]
   },
   "rainai": {
@@ -27100,6 +27382,12 @@
         "date": "2026",
         "category": "研发",
         "summary": "Rain AI 用存算一体加模拟计算的神经形态架构模仿人脑工作方式,目标把 AI 训练与推理能效提升几个数量级,走与主流数字 GPU 完全不同的激进路线,风险高但潜在颠覆性大。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "William Passo",
+        "title": "CEO"
       }
     ]
   },
@@ -27556,6 +27844,16 @@
         "category": "业务",
         "summary": "作为台积电大股东加持的设计服务旗舰，GUC 依托最紧密的代工协同以及高速接口与先进封装能力，成为科技巨头自研 AI 加速芯片落地量产的关键承接方之一。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "张丽丝",
+        "title": "董事长"
+      },
+      {
+        "name": "戴尚义 (Sean Tai)",
+        "title": "总经理"
+      }
     ]
   },
   "faraday": {
@@ -27651,6 +27949,16 @@
         "date": "2026",
         "category": "业务",
         "summary": "越来越多公司自研专用 AI 加速芯片以降本增效、减少对通用 GPU 依赖，带动 ASIC 设计服务需求上升。智原凭多年 IP 积累与联电代工协同，与创意、世芯同赛道分享增长。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "洪嘉聪",
+        "title": "董事长"
+      },
+      {
+        "name": "王国雍",
+        "title": "总经理"
       }
     ]
   },
@@ -27748,6 +28056,16 @@
         "category": "进展",
         "summary": "很多 AI 加速器与 SoC 都需要一颗小 CPU 做调度与控制，晶心的 RISC-V 内核 IP 正被广泛授权采用。作为 RISC-V 阵营商业化最成熟的 IP 厂商之一，它直接受益于开放架构崛起。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "林志明 (Frankwell Lin)",
+        "title": "联合创始人、董事长兼 CEO"
+      },
+      {
+        "name": "苏泓萌",
+        "title": "总经理兼技术长"
+      }
     ]
   },
   "ememory": {
@@ -27844,6 +28162,12 @@
         "date": "2026",
         "category": "业务",
         "summary": "AI 芯片与万物联网带来芯片数量和安全需求增长，几乎每颗芯片都需内嵌存储保存固件、参数与不可篡改的安全密钥，直接拉动这家嵌入式 NVM IP 全球龙头的授权业务。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "徐清祥 (Charles Hsu)",
+        "title": "创始人兼董事长"
       }
     ]
   },
@@ -27947,6 +28271,16 @@
         "date": "2026",
         "category": "业务",
         "summary": "与英特尔合作开发 12nm 平台;车用/工控特色工艺稳固,并受益于成熟制程涨价周期。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "洪嘉聪",
+        "title": "董事长"
+      },
+      {
+        "name": "王石 (Jason Wang)",
+        "title": "CEO"
       }
     ]
   },
@@ -28153,6 +28487,12 @@
         "category": "业务",
         "summary": "承接云厂商 AI 服务器订单,与 GB200 世代同步爬坡;传统笔电代工稳定,AI 成为增长引擎。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "叶力诚",
+        "title": "董事长"
+      }
     ]
   },
   "gigabyte": {
@@ -28353,6 +28693,16 @@
         "category": "业务",
         "summary": "AI 服务器与网通产品放量,降低对苹果依赖;与英伟达合作 MGX 架构服务器。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "童子贤",
+        "title": "董事长兼执行长"
+      },
+      {
+        "name": "邓国彦（Kuo-Yen Teng）",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "accton": {
@@ -28453,6 +28803,16 @@
         "date": "2026",
         "category": "业务",
         "summary": "AI 时代 GPU 集群需要超高速大带宽互联，超大规模云厂商的白盒交换机订单直接拉动智邦出货；它还深度参与英伟达等的 AI 网络方案，业绩显著受益于 AI 网络建设。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "黄国修",
+        "title": "董事长"
+      },
+      {
+        "name": "李训德",
+        "title": "总经理"
       }
     ]
   },
@@ -28651,6 +29011,12 @@
         "category": "进展",
         "summary": "AI 服务器功率密度飙升使液冷从可选项变成必需品。双鸿在热管、均温板、散热器基础上加码风冷转液冷的关键转变，需求与价值随算力扩建持续被拉动。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "林育申（Steve Lin）",
+        "title": "董事长"
+      }
     ]
   },
   "zhending": {
@@ -28742,6 +29108,12 @@
         "date": "2026",
         "category": "业务",
         "summary": "全球最大 PCB 厂发力 AI 服务器板、交换机板与 IC 载板,消费电子之外打开数据中心第二曲线。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "沈庆芳",
+        "title": "董事长"
       }
     ]
   },
@@ -28838,6 +29210,16 @@
         "category": "业务",
         "summary": "高功率服务器电源(PSU)出货强劲,切入 GB 系列整机柜供电链;光电与云端业务重组聚焦。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "宋明峰",
+        "title": "董事长"
+      },
+      {
+        "name": "邱森彬",
+        "title": "总经理"
+      }
     ]
   },
   "nanya": {
@@ -28930,6 +29312,16 @@
         "date": "2026",
         "category": "业务",
         "summary": "三大厂产能转向 HBM 后,利基型 DRAM 供给紧张、价格大涨,南亚科业绩显著回升。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "邹明仁",
+        "title": "董事长"
+      },
+      {
+        "name": "李培瑛",
+        "title": "总经理"
       }
     ]
   },
@@ -29027,6 +29419,16 @@
         "category": "业务",
         "summary": "服务器业务(含 GB200 整机柜)高速增长,电竞与 AI PC 稳固;目标服务器营收数年内翻数倍。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "施崇棠",
+        "title": "董事长"
+      },
+      {
+        "name": "胡书宾、许先越",
+        "title": "共同执行长（Co-CEO）"
+      }
     ]
   },
   "wolfspeed": {
@@ -29120,6 +29522,12 @@
         "date": "2026",
         "category": "进展",
         "summary": "破产重组后轻装上阵,8 吋 SiC 产能爬坡;AI 数据中心 800V 供电与电动车需求提供长期空间。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Robert Feurle",
+        "title": "CEO"
       }
     ]
   },
@@ -30258,6 +30666,12 @@
         "category": "研发",
         "summary": "Rigetti 自己设计并在自有工厂制造超导量子芯片、搭建量子计算机，并经云平台对外提供算力。作为少数已上市的纯量子公司，其价值取决于比特扩展与纠错的长期技术突破。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Subodh Kulkarni",
+        "title": "总裁兼 CEO"
+      }
     ]
   },
   "dwave": {
@@ -30348,6 +30762,12 @@
         "date": "2026",
         "category": "落地",
         "summary": "2026 年 D-Wave 拿下 FAU 2000 万美元量子系统采购，并与财富 100 强企业签订千万美元级量子云（QCaaS）协议，以量子退火专攻优化问题，成为营收相对「实」的量子标的。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Alan Baratz",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -30728,6 +31148,12 @@
         "category": "业务",
         "summary": "Luminar 主打面向量产乘用车的高性能激光雷达 Iris，与沃尔沃等车企合作推动装车；但自动驾驶商业化漫长、行业竞争激烈且长期烧钱，公司仍面临盈利与经营压力。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Paul Ricci",
+        "title": "CEO"
+      }
     ]
   },
   "ouster": {
@@ -30817,6 +31243,12 @@
         "date": "2023",
         "category": "重大",
         "summary": "2023 年 Ouster 与激光雷达先驱 Velodyne 合并，整合成更有规模的公司以应对烧钱的行业竞争。其数字化架构借鉴 CMOS 传感器思路，把激光雷达做成可量产、成本更低的芯片化方案。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Angus Pacala",
+        "title": "联合创始人兼 CEO"
       }
     ]
   },
@@ -31335,6 +31767,12 @@
         "date": "2026",
         "category": "业务",
         "summary": "这家百年档案管理巨头利用安全设施、房地产与企业信任积累大举建设运营数据中心,在 AI 驱动数据爆发的浪潮下,数据中心已成为其增长最快的新业务之一,老牌公司焕发新生。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "William L. Meaney",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -32650,6 +33088,12 @@
         "category": "业务",
         "summary": "Planet 运营 Dove、SkySat 等小卫星星座每天为全球成像,并用 AI 自动识别船只、农田长势、灾害与军事动向等变化;在地缘冲突背景下,政府、国防与金融客户的卫星情报需求持续上升。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Will Marshall",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "blacksky": {
@@ -32739,6 +33183,12 @@
         "date": "2026",
         "category": "进展",
         "summary": "BlackSky 低轨星座对全球热点区域高频重访,用 AI 自动识别追踪船只、飞机与设施变化,把「拍到」与「分析出」的间隔压到最短,为政府与国防情报客户提供近实时地理情报警报。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Brian O'Toole",
+        "title": "CEO"
       }
     ]
   },
@@ -33615,6 +34065,12 @@
         "category": "业务",
         "summary": "高速连接器与线缆组件受益 AI 服务器放量;汽车电动化与工业自动化提供基本盘。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "Terrence Curtin",
+        "title": "CEO"
+      }
     ]
   },
   "wus": {
@@ -33712,6 +34168,16 @@
         "category": "业务",
         "summary": "英伟达平台高多层高速板核心供应商,800G 交换机板同步放量;泰国基地扩产承接海外需求。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "陈美芳",
+        "title": "董事长"
+      },
+      {
+        "name": "吴传彬",
+        "title": "总经理"
+      }
     ]
   },
   "victory": {
@@ -33807,6 +34273,12 @@
         "category": "业务",
         "summary": "AI 服务器/显卡高端 PCB 放量,惠州/泰国扩产;股价与业绩随 AI 硬件周期大幅上行。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "陈涛",
+        "title": "创始人兼董事长"
+      }
     ]
   },
   "ttm": {
@@ -33901,6 +34373,12 @@
         "date": "2026",
         "category": "业务",
         "summary": "北美最大 PCB 厂受益 AI 服务器高多层板需求与国防电子景气,马来西亚/纽约新产能爬坡。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Edwin Roks",
+        "title": "总裁兼 CEO"
       }
     ]
   },
@@ -34231,6 +34709,12 @@
         "date": "2026",
         "category": "业务",
         "summary": "垂直供电(VPD)方案切入 AI 加速器,把电源模块贴到 GPU 封装旁;NBM 模块随 800V 架构迭代。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "Patrizio Vinciarelli",
+        "title": "创始人、董事长兼 CEO"
       }
     ]
   },
@@ -34701,6 +35185,12 @@
         "category": "进展",
         "summary": "拓普集团将造车沉淀的机电、精密加工与规模制造能力迁移到机器人领域,积极布局直线执行器与旋转执行器,切入以特斯拉 Optimus 为代表的人形机器人供应链,成为备受关注的中国制造力量。"
       }
+    ],
+    "leadership": [
+      {
+        "name": "邬建树",
+        "title": "创始人兼董事长"
+      }
     ]
   },
   "inovance": {
@@ -34896,6 +35386,16 @@
         "date": "2026",
         "category": "业务",
         "summary": "绿的谐波打破日本哈默纳科对谐波减速器的长期垄断,实现自主研发与规模量产;人形机器人每台需用多个谐波减速器,量产浪潮大幅打开需求空间,公司作为国产核心供应商备受关注。"
+      }
+    ],
+    "leadership": [
+      {
+        "name": "左昱昱",
+        "title": "董事长"
+      },
+      {
+        "name": "左晶",
+        "title": "副董事长兼总经理"
       }
     ]
   }
