@@ -818,6 +818,20 @@
       "EOS",
       "以太网",
       "GPU 互联"
+    ],
+    "products": [
+      {
+        "name": "高速以太网交换机",
+        "category": "网络设备",
+        "description": "AI 数据中心高速以太网交换的领导者,GPU 集群互联关键。",
+        "status": "GA"
+      },
+      {
+        "name": "EOS",
+        "category": "网络操作系统",
+        "description": "可编程的网络操作系统,是其软件护城河。",
+        "status": "GA"
+      }
     ]
   },
   "tsm": {
@@ -1095,6 +1109,20 @@
       "Now Assist",
       "企业智能体",
       "IT/HR"
+    ],
+    "products": [
+      {
+        "name": "Now Platform",
+        "category": "企业工作流",
+        "description": "把 IT、HR、客服等企业流程自动化的平台。",
+        "status": "GA"
+      },
+      {
+        "name": "Now Assist",
+        "category": "企业 AI",
+        "description": "嵌入工作流的生成式 AI 助手与智能体。",
+        "status": "GA"
+      }
     ]
   },
   "pltr": {
@@ -1363,6 +1391,20 @@
       "数据中心供电",
       "UPS",
       "AI 散热"
+    ],
+    "products": [
+      {
+        "name": "供电 (UPS / 配电)",
+        "category": "数据中心基础设施",
+        "description": "为数据中心提供不间断、干净的电力。",
+        "status": "GA"
+      },
+      {
+        "name": "液冷 / 精密制冷",
+        "category": "散热",
+        "description": "为高功率 AI 机柜提供液冷方案,与英伟达紧密合作。",
+        "status": "GA"
+      }
     ]
   },
   "etn": {
@@ -1419,6 +1461,20 @@
       "UPS",
       "电网",
       "数据中心供电"
+    ],
+    "products": [
+      {
+        "name": "配电与电力管理",
+        "category": "电气设备",
+        "description": "断路器、开关柜、配电系统等,把海量电力安全送进数据中心。",
+        "status": "GA"
+      },
+      {
+        "name": "UPS / 备用电源",
+        "category": "数据中心供电",
+        "description": "不间断电源等数据中心供电设备。",
+        "status": "GA"
+      }
     ]
   },
   "nee": {
@@ -1475,6 +1531,20 @@
       "可再生能源",
       "储能",
       "AI 用电"
+    ],
+    "products": [
+      {
+        "name": "FPL (公用事业)",
+        "category": "电力",
+        "description": "美国最大的受监管公用事业之一,服务数千万人。",
+        "status": "GA"
+      },
+      {
+        "name": "风光发电",
+        "category": "可再生能源",
+        "description": "全球最大的风能与太阳能发电商。",
+        "status": "GA"
+      }
     ]
   },
   "cohr": {
@@ -1531,6 +1601,20 @@
       "EML 激光",
       "光互联",
       "SiC"
+    ],
+    "products": [
+      {
+        "name": "光模块 / 光器件",
+        "category": "光通信",
+        "description": "高速光模块及激光器、光引擎等关键光学元器件。",
+        "status": "GA"
+      },
+      {
+        "name": "碳化硅 (SiC)",
+        "category": "化合物半导体",
+        "description": "用于电动车与电力电子的碳化硅材料。",
+        "status": "GA"
+      }
     ]
   },
   "baba": {
@@ -1825,6 +1909,20 @@
       "L4",
       "小马智行",
       "丰田"
+    ],
+    "products": [
+      {
+        "name": "Robotaxi",
+        "category": "自动驾驶",
+        "description": "在北上广深等地测试与商业化运营的 L4 无人出租车。",
+        "status": "运营"
+      },
+      {
+        "name": "Robotruck",
+        "category": "自动驾驶",
+        "description": "面向干线物流的自动驾驶卡车。",
+        "status": "研发"
+      }
     ]
   },
   "wrd": {
@@ -1874,6 +1972,14 @@
       "Robotaxi",
       "文远知行",
       "Uber"
+    ],
+    "products": [
+      {
+        "name": "Robotaxi / 小巴 / 货运 / 清扫车",
+        "category": "自动驾驶",
+        "description": "覆盖多种车型的 L4 自动驾驶,并出海阿联酋等海外市场。",
+        "status": "运营"
+      }
     ]
   },
   "rxrx": {
@@ -1922,6 +2028,14 @@
       "TechBio",
       "自动化实验室",
       "Exscientia"
+    ],
+    "products": [
+      {
+        "name": "Recursion OS",
+        "category": "AI 药物发现",
+        "description": "用自动化实验室+AI 大规模生成生物数据、加速新药发现。",
+        "status": "GA"
+      }
     ]
   },
   "cgnx": {
@@ -2180,6 +2294,20 @@
         "revenue": 34.9,
         "netIncome": 1.55
       }
+    ],
+    "products": [
+      {
+        "name": "燃气轮机",
+        "category": "发电装备",
+        "description": "全球领先的燃气轮机,可快速部署的稳定基荷发电。",
+        "status": "GA"
+      },
+      {
+        "name": "电网设备",
+        "category": "电网",
+        "description": "变压器、开关等输配电装备,支撑电网升级扩建。",
+        "status": "GA"
+      }
     ]
   },
   "sie": {
@@ -2278,6 +2406,20 @@
       "AI 服务器",
       "GB200",
       "苹果"
+    ],
+    "products": [
+      {
+        "name": "AI 服务器组装",
+        "category": "电子代工",
+        "description": "英伟达 GB200 等整机柜 AI 服务器的主力组装厂。",
+        "status": "GA"
+      },
+      {
+        "name": "消费电子代工",
+        "category": "电子代工",
+        "description": "全球最大电子代工厂,苹果 iPhone 主力制造。",
+        "status": "GA"
+      }
     ]
   },
   "schneider": {
@@ -2328,6 +2470,20 @@
       "制冷",
       "EcoStruxure",
       "数据中心基建"
+    ],
+    "products": [
+      {
+        "name": "EcoStruxure",
+        "category": "能源管理平台",
+        "description": "能源管理与自动化的数字化平台。",
+        "status": "GA"
+      },
+      {
+        "name": "数据中心配电 / 制冷",
+        "category": "数据中心基础设施",
+        "description": "为数据中心提供配电、UPS 与制冷方案。",
+        "status": "GA"
+      }
     ]
   },
   "envicool": {
@@ -2434,6 +2590,14 @@
       "800G",
       "1.6T",
       "光互联龙头"
+    ],
+    "products": [
+      {
+        "name": "800G / 1.6T 光模块",
+        "category": "光通信",
+        "description": "全球高速光模块出货龙头,AI 数据中心 GPU 互联主力供应。",
+        "status": "GA"
+      }
     ]
   },
   "eoptolink": {
@@ -2490,6 +2654,14 @@
       "800G",
       "1.6T",
       "高毛利"
+    ],
+    "products": [
+      {
+        "name": "800G / 1.6T 光模块",
+        "category": "光通信",
+        "description": "中国高速光模块主要厂商,供货北美云厂。",
+        "status": "GA"
+      }
     ]
   },
   "skhynix": {
@@ -2696,6 +2868,20 @@
       "1.6T",
       "OCS",
       "光模块上游"
+    ],
+    "products": [
+      {
+        "name": "EML 激光芯片",
+        "category": "光芯片",
+        "description": "1.6T 时代关键的高速激光芯片,能量产者屈指可数。",
+        "status": "GA"
+      },
+      {
+        "name": "光模块器件",
+        "category": "光通信",
+        "description": "高速光模块所需的核心光学器件。",
+        "status": "GA"
+      }
     ]
   },
   "aaoi": {
@@ -2794,6 +2980,20 @@
       "DCI",
       "WaveLogic",
       "路由"
+    ],
+    "products": [
+      {
+        "name": "WaveLogic 相干光",
+        "category": "光网络",
+        "description": "在一根光纤塞进极高容量的相干光引擎,支撑数据中心互联。",
+        "status": "GA"
+      },
+      {
+        "name": "路由与交换",
+        "category": "网络设备",
+        "description": "高容量 IP 路由与传输设备。",
+        "status": "GA"
+      }
     ]
   },
   "nok": {
@@ -3451,6 +3651,14 @@
       "三里岛",
       "无碳基荷",
       "AI 供电"
+    ],
+    "products": [
+      {
+        "name": "核电运营",
+        "category": "清洁电力",
+        "description": "美国最大核电运营商,直接为 AI 数据中心提供无碳基荷电力。",
+        "status": "GA"
+      }
     ]
   },
   "vst": {
@@ -3519,6 +3727,14 @@
         "year": 2024,
         "revenue": 17,
         "netIncome": 2.66
+      }
+    ],
+    "products": [
+      {
+        "name": "核电 / 燃气 / 储能",
+        "category": "电力",
+        "description": "多元发电组合,为 AI 用电激增提供稳定与灵活电力。",
+        "status": "GA"
       }
     ]
   },
@@ -4007,6 +4223,26 @@
       "沉积",
       "刻蚀",
       "先进封装"
+    ],
+    "products": [
+      {
+        "name": "沉积 / 刻蚀设备",
+        "category": "半导体设备",
+        "description": "芯片一层层制造所需的薄膜沉积与刻蚀设备。",
+        "status": "GA"
+      },
+      {
+        "name": "CMP / 离子注入",
+        "category": "半导体设备",
+        "description": "化学机械抛光、离子注入等核心工序设备。",
+        "status": "GA"
+      },
+      {
+        "name": "量测与检测",
+        "category": "过程控制",
+        "description": "制造过程中的量测与缺陷检测设备。",
+        "status": "GA"
+      }
     ]
   },
   "lrcx": {
@@ -4080,6 +4316,20 @@
         "revenue": 18.2,
         "netIncome": 5.02
       }
+    ],
+    "products": [
+      {
+        "name": "刻蚀设备",
+        "category": "半导体设备",
+        "description": "精准雕刻电路结构,在存储(3D NAND/DRAM)制造中至关重要。",
+        "status": "GA"
+      },
+      {
+        "name": "薄膜沉积设备",
+        "category": "半导体设备",
+        "description": "一层层铺上材料薄膜,与刻蚀并列泛林两大龙头业务。",
+        "status": "GA"
+      }
     ]
   },
   "klac": {
@@ -4151,6 +4401,20 @@
         "year": 2025,
         "revenue": 12.2,
         "netIncome": 3.8
+      }
+    ],
+    "products": [
+      {
+        "name": "检测设备 (Inspection)",
+        "category": "过程控制",
+        "description": "在制造中检测纳米级缺陷,占该细分全球约一半以上份额。",
+        "status": "GA"
+      },
+      {
+        "name": "量测设备 (Metrology)",
+        "category": "过程控制",
+        "description": "量测线宽、薄膜厚度等,帮芯片厂提升良率。",
+        "status": "GA"
       }
     ]
   },
@@ -4224,6 +4488,26 @@
         "revenue": 6.13,
         "netIncome": 2.26
       }
+    ],
+    "products": [
+      {
+        "name": "EDA 全流程工具",
+        "category": "芯片设计软件",
+        "description": "从设计、验证到布局的全套 EDA 工具,与楷登近乎双寡头。",
+        "status": "GA"
+      },
+      {
+        "name": "半导体 IP",
+        "category": "设计 IP",
+        "description": "大量可复用的接口、处理器等设计 IP。",
+        "status": "GA"
+      },
+      {
+        "name": "Synopsys.ai",
+        "category": "AI 设计",
+        "description": "用 AI 自动优化芯片设计流程。",
+        "status": "GA"
+      }
     ]
   },
   "cdns": {
@@ -4295,6 +4579,26 @@
         "revenue": 4.64,
         "netIncome": 1.06
       }
+    ],
+    "products": [
+      {
+        "name": "EDA 全流程工具",
+        "category": "芯片设计软件",
+        "description": "与新思并列 EDA 双雄,芯片设计不可或缺的软件。",
+        "status": "GA"
+      },
+      {
+        "name": "设计 IP",
+        "category": "设计 IP",
+        "description": "可复用的高速接口等设计 IP。",
+        "status": "GA"
+      },
+      {
+        "name": "Cadence.ai",
+        "category": "AI 设计",
+        "description": "用 AI 自动优化芯片设计。",
+        "status": "GA"
+      }
     ]
   },
   "ase": {
@@ -4348,6 +4652,20 @@
       "先进封装",
       "封测",
       "CoWoS"
+    ],
+    "products": [
+      {
+        "name": "封装测试 (OSAT)",
+        "category": "封装测试",
+        "description": "全球最大封装测试厂,把芯片封装成品并测试筛选。",
+        "status": "GA"
+      },
+      {
+        "name": "先进封装",
+        "category": "先进封装",
+        "description": "2.5D/3D 集成芯粒与 HBM,决定 AI 芯片性能与良率。",
+        "status": "GA"
+      }
     ]
   },
   "amkr": {
@@ -4417,6 +4735,14 @@
         "year": 2024,
         "revenue": 6.32,
         "netIncome": 0.36
+      }
+    ],
+    "products": [
+      {
+        "name": "封装测试 (OSAT)",
+        "category": "封装测试",
+        "description": "全球第二大封装测试厂,在美国亚利桑那建先进封装厂。",
+        "status": "GA"
       }
     ]
   },
@@ -5024,6 +5350,26 @@
       "CloudMatrix",
       "盘古",
       "国产算力"
+    ],
+    "products": [
+      {
+        "name": "昇腾 (Ascend)",
+        "category": "AI 芯片",
+        "description": "华为自研 AI 加速芯片,国产 AI 算力的核心力量。",
+        "status": "GA"
+      },
+      {
+        "name": "盘古大模型 (Pangu)",
+        "category": "大模型",
+        "description": "面向行业(政企、气象、医药等)的大模型体系。",
+        "status": "GA"
+      },
+      {
+        "name": "鲲鹏 CPU / 华为云",
+        "category": "算力与云",
+        "description": "自研服务器 CPU 与华为云,构建自主算力生态(含 CANN 软件栈)。",
+        "status": "GA"
+      }
     ]
   },
   "bostondynamics": {
@@ -5221,6 +5567,14 @@
       "物流人形",
       "RoboFab",
       "仓储"
+    ],
+    "products": [
+      {
+        "name": "Digit",
+        "category": "人形机器人",
+        "description": "双足物流机器人,已在仓库搬箱、拣货商用。",
+        "status": "GA"
+      }
     ]
   },
   "apptronik": {
@@ -5275,6 +5629,14 @@
       "通用人形",
       "奔驰",
       "Gemini Robotics"
+    ],
+    "products": [
+      {
+        "name": "Apollo",
+        "category": "人形机器人",
+        "description": "面向工厂与家庭的通用人形机器人,与奔驰、GXO、谷歌合作。",
+        "status": "研发"
+      }
     ]
   },
   "unitree": {
@@ -7086,6 +7448,14 @@
       "开源图像",
       "Stable Diffusion 团队",
       "Grok"
+    ],
+    "products": [
+      {
+        "name": "FLUX",
+        "category": "开源图像生成",
+        "description": "质量领先的开源文生图模型,被 xAI Grok 用作图像引擎。",
+        "status": "GA"
+      }
     ]
   },
   "groq": {
@@ -7520,6 +7890,20 @@
       "GPU 云",
       "工作站",
       "深度学习"
+    ],
+    "products": [
+      {
+        "name": "GPU 云",
+        "category": "AI 云算力",
+        "description": "面向 AI 的大规模 GPU 云,英伟达投资的「新云」。",
+        "status": "GA"
+      },
+      {
+        "name": "深度学习工作站",
+        "category": "AI 硬件",
+        "description": "面向研究者的多 GPU 工作站与服务器。",
+        "status": "GA"
+      }
     ]
   },
   "crusoe": {
@@ -7566,6 +7950,14 @@
       "AI 数据中心",
       "低碳能源",
       "星际之门"
+    ],
+    "products": [
+      {
+        "name": "AI 数据中心 / GPU 云",
+        "category": "AI 云算力",
+        "description": "围绕能源建算力,参与超大规模 Stargate 数据中心项目。",
+        "status": "GA"
+      }
     ]
   },
   "nbis": {
@@ -7621,6 +8013,14 @@
       "GPU",
       "Yandex",
       "欧洲"
+    ],
+    "products": [
+      {
+        "name": "Nebius AI 云",
+        "category": "AI 云算力",
+        "description": "源自 Yandex 的欧洲 GPU 云,英伟达重点扶持的「新云」。",
+        "status": "GA"
+      }
     ]
   },
   "together": {
@@ -9449,6 +9849,14 @@
       "Aurora Driver",
       "无人货运",
       "L4"
+    ],
+    "products": [
+      {
+        "name": "Aurora Driver",
+        "category": "自动驾驶",
+        "description": "让重卡在高速无人驾驶的软硬件系统,已开启无安全员商运。",
+        "status": "运营"
+      }
     ]
   },
   "wayve": {
@@ -9496,6 +9904,14 @@
       "AV2.0",
       "通用智驾",
       "欧洲"
+    ],
+    "products": [
+      {
+        "name": "AV2.0 自动驾驶",
+        "category": "自动驾驶",
+        "description": "端到端学习式自动驾驶,从摄像头直接学开车,不依赖高精地图。",
+        "status": "研发"
+      }
     ]
   },
   "nuro": {
@@ -9629,6 +10045,14 @@
       "ESM3",
       "AI for Science",
       "生成蛋白"
+    ],
+    "products": [
+      {
+        "name": "ESM3",
+        "category": "蛋白质大模型",
+        "description": "能理解并生成全新蛋白质的大语言模型,用于药物/酶/材料设计。",
+        "status": "GA"
+      }
     ]
   },
   "minimax": {
@@ -10297,6 +10721,14 @@
       "远征",
       "具身数据",
       "稚晖君"
+    ],
+    "products": [
+      {
+        "name": "远征 (Yuanzheng) 系列",
+        "category": "人形机器人",
+        "description": "通用人形与具身智能机器人,主打快速量产落地。",
+        "status": "研发"
+      }
     ]
   },
   "galbot": {
@@ -10348,6 +10780,14 @@
       "轮式人形",
       "具身大模型",
       "真实场景"
+    ],
+    "products": [
+      {
+        "name": "银河通用机器人",
+        "category": "具身智能",
+        "description": "面向真实场景的具身智能机器人,估值最高的国产未上市人形公司之一。",
+        "status": "研发"
+      }
     ]
   },
   "magicdev": {
@@ -10480,6 +10920,14 @@
       "临床文书",
       "语音",
       "EHR"
+    ],
+    "products": [
+      {
+        "name": "Abridge",
+        "category": "医疗 AI",
+        "description": "问诊中实时聆听、自动生成结构化临床记录,深度集成 Epic 等 EHR。",
+        "status": "GA"
+      }
     ]
   },
   "openevidence": {
@@ -10523,6 +10971,14 @@
       "循证医学",
       "临床问答",
       "医生"
+    ],
+    "products": [
+      {
+        "name": "OpenEvidence",
+        "category": "医疗 AI",
+        "description": "基于权威最新医学文献给循证、可溯源答案的「医生版 ChatGPT」。",
+        "status": "GA"
+      }
     ]
   },
   "tempus": {
@@ -10578,6 +11034,14 @@
       "基因组",
       "医疗数据",
       "AI 诊断"
+    ],
+    "products": [
+      {
+        "name": "精准医疗 AI 平台",
+        "category": "医疗 AI",
+        "description": "汇聚基因组与临床数据,用 AI 辅助肿瘤等疾病的精准诊疗。",
+        "status": "GA"
+      }
     ]
   },
   "hippocratic": {
@@ -10622,6 +11086,14 @@
       "语音智能体",
       "AI 护士",
       "安全优先"
+    ],
+    "products": [
+      {
+        "name": "AI 护士 / 医疗语音智能体",
+        "category": "医疗 AI",
+        "description": "打电话做随访、用药提醒等非诊断性医患沟通,主打安全。",
+        "status": "GA"
+      }
     ]
   },
   "lightmatter": {
@@ -10666,6 +11138,14 @@
       "光互联",
       "Passage",
       "算力互联"
+    ],
+    "products": [
+      {
+        "name": "光子计算 / 光互连",
+        "category": "光子芯片",
+        "description": "用光而非电做 AI 计算与芯片间高速互连。",
+        "status": "研发"
+      }
     ]
   },
   "ayarlabs": {
@@ -10714,6 +11194,14 @@
       "CPO",
       "TeraPHY",
       "光互连"
+    ],
+    "products": [
+      {
+        "name": "TeraPHY 硅光 I/O",
+        "category": "光互连",
+        "description": "把光互连直接集成进芯片,突破电互联的带宽与功耗瓶颈。",
+        "status": "研发"
+      }
     ]
   },
   "celestial": {
@@ -10847,6 +11335,14 @@
       "推理",
       "MLOps",
       "自动扩缩容"
+    ],
+    "products": [
+      {
+        "name": "Baseten 推理平台",
+        "category": "AI 推理",
+        "description": "帮企业把模型快速、可靠、经济地部署上线服务。",
+        "status": "GA"
+      }
     ]
   },
   "replicate": {
@@ -10935,6 +11431,20 @@
       "分布式计算",
       "训练",
       "开源"
+    ],
+    "products": [
+      {
+        "name": "Ray",
+        "category": "分布式计算",
+        "description": "让 AI 程序从单机扩展到大规模集群的开源框架。",
+        "status": "GA"
+      },
+      {
+        "name": "Anyscale 平台",
+        "category": "AI 平台",
+        "description": "基于 Ray 的托管平台与企业服务。",
+        "status": "GA"
+      }
     ]
   },
   "wandb": {
@@ -10980,6 +11490,14 @@
       "MLOps",
       "CoreWeave",
       "开发者工具"
+    ],
+    "products": [
+      {
+        "name": "Weights & Biases",
+        "category": "MLOps",
+        "description": "AI 实验跟踪与协作平台,被 CoreWeave 收购。",
+        "status": "GA"
+      }
     ]
   },
   "figma": {
@@ -11196,6 +11714,14 @@
       "全闪存",
       "DASE",
       "数据吞吐"
+    ],
+    "products": [
+      {
+        "name": "VAST Data Platform",
+        "category": "AI 数据平台",
+        "description": "为 AI 打造的高性能统一数据平台,喂养大规模训练与推理。",
+        "status": "GA"
+      }
     ]
   },
   "talen": {
@@ -11645,6 +12171,14 @@
       "托卡马克",
       "高温超导磁体",
       "SPARC"
+    ],
+    "products": [
+      {
+        "name": "SPARC / ARC",
+        "category": "核聚变",
+        "description": "用高温超导磁体的紧凑托卡马克,冲刺商业聚变发电。",
+        "status": "研发"
+      }
     ]
   },
   "tae": {
@@ -12085,6 +12619,20 @@
       "光刻胶",
       "半导体材料",
       "上游"
+    ],
+    "products": [
+      {
+        "name": "半导体硅片",
+        "category": "半导体材料",
+        "description": "全球最大的半导体硅片(晶圆)制造商。",
+        "status": "GA"
+      },
+      {
+        "name": "光刻胶 (含 EUV)",
+        "category": "半导体材料",
+        "description": "先进制程关键感光材料,EUV 光刻胶领先供应商。",
+        "status": "GA"
+      }
     ]
   },
   "sumco": {
@@ -12452,6 +13000,14 @@
       "封装",
       "英伟达",
       "瓶颈供应"
+    ],
+    "products": [
+      {
+        "name": "ABF 封装载板",
+        "category": "先进封装",
+        "description": "最高端的 IC 封装载板,连接高端 GPU 上万引脚的「桥」。",
+        "status": "GA"
+      }
     ]
   },
   "unimicron": {
@@ -12918,6 +13474,20 @@
       "Lattice",
       "自主武器",
       "无人机"
+    ],
+    "products": [
+      {
+        "name": "Lattice OS",
+        "category": "战场操作系统",
+        "description": "融合各类传感器与无人平台的 AI 自主指挥系统。",
+        "status": "GA"
+      },
+      {
+        "name": "自主无人机 / 系统",
+        "category": "无人装备",
+        "description": "Ghost、Anvil、Roadrunner 等自主无人机与反无人机系统。",
+        "status": "GA"
+      }
     ]
   },
   "helsing": {
@@ -12961,6 +13531,20 @@
       "战场 AI",
       "电子战",
       "欧洲"
+    ],
+    "products": [
+      {
+        "name": "国防 AI 软件",
+        "category": "国防 AI",
+        "description": "融合战场传感器数据,提供实时态势感知与决策支持。",
+        "status": "GA"
+      },
+      {
+        "name": "无人机 / 电子战",
+        "category": "无人装备",
+        "description": "把 AI 用到无人机、电子战等平台。",
+        "status": "GA"
+      }
     ]
   },
   "shield_ai": {
@@ -13004,6 +13588,20 @@
       "自主飞行",
       "无人机",
       "AI 飞行员"
+    ],
+    "products": [
+      {
+        "name": "Hivemind",
+        "category": "AI 飞行员",
+        "description": "让飞行器在无 GPS、无通信下自主飞行、感知、执行任务。",
+        "status": "GA"
+      },
+      {
+        "name": "V-BAT",
+        "category": "无人机",
+        "description": "可垂直起降的侦察打击无人机。",
+        "status": "GA"
+      }
     ]
   },
   "neuralink": {
@@ -13053,6 +13651,14 @@
       "N1 芯片",
       "意念操控",
       "神经技术"
+    ],
+    "products": [
+      {
+        "name": "N1 植入物 / 脑机接口",
+        "category": "脑机接口",
+        "description": "可植入大脑的高带宽脑机接口,已开始人体试验。",
+        "status": "临床试验"
+      }
     ]
   },
   "synchron": {
@@ -13597,6 +14203,14 @@
       "SSM",
       "低延迟",
       "Sonic"
+    ],
+    "products": [
+      {
+        "name": "Sonic",
+        "category": "AI 语音",
+        "description": "超低延迟的实时语音生成模型,基于高效状态空间架构。",
+        "status": "GA"
+      }
     ]
   },
   "robotera": {
@@ -13642,6 +14256,14 @@
       "具身大模型",
       "清华",
       "灵巧操作"
+    ],
+    "products": [
+      {
+        "name": "STAR1",
+        "category": "人形机器人",
+        "description": "清华系团队打造的全尺寸通用人形机器人。",
+        "status": "研发"
+      }
     ]
   },
   "engineai": {
@@ -13737,6 +14359,14 @@
       "城市 NOA",
       "双飞轮",
       "港股"
+    ],
+    "products": [
+      {
+        "name": "智能驾驶方案",
+        "category": "智能驾驶",
+        "description": "以「飞轮」数据驱动的量产智驾方案,中国头部智驾方案商。",
+        "status": "GA"
+      }
     ]
   },
   "augment": {
@@ -13835,6 +14465,14 @@
       "重定时器",
       "CXL",
       "PCIe"
+    ],
+    "products": [
+      {
+        "name": "连接芯片 (Aries / Leo)",
+        "category": "AI 服务器连接",
+        "description": "PCIe/CXL 重定时器等连接芯片,解决 AI 服务器高速互联瓶颈。",
+        "status": "GA"
+      }
     ]
   },
   "credo": {
@@ -13994,6 +14632,14 @@
       "世界模型",
       "李飞飞",
       "3D"
+    ],
+    "products": [
+      {
+        "name": "空间智能 / 世界模型",
+        "category": "前沿模型",
+        "description": "李飞飞领衔,让 AI 理解并生成三维空间世界。",
+        "status": "研发"
+      }
     ]
   },
   "sakana": {
@@ -14623,6 +15269,14 @@
       "Skild Brain",
       "跨本体",
       "通用大脑"
+    ],
+    "products": [
+      {
+        "name": "Skild Brain",
+        "category": "机器人基础模型",
+        "description": "面向各类机器人的通用「大脑」基础模型。",
+        "status": "研发"
+      }
     ]
   },
   "dexterity": {
@@ -14754,6 +15408,20 @@
       "神经仿真",
       "生成式 AI",
       "数据高效"
+    ],
+    "products": [
+      {
+        "name": "Waabi Driver",
+        "category": "自动驾驶",
+        "description": "以仿真优先训练的自动驾驶卡车系统。",
+        "status": "研发"
+      },
+      {
+        "name": "Waabi World",
+        "category": "仿真",
+        "description": "高保真仿真器,让自动驾驶主要在虚拟世界训练与测试。",
+        "status": "研发"
+      }
     ]
   },
   "appliedintuition": {
@@ -14797,6 +15465,14 @@
       "工具链",
       "AV 软件",
       "国防"
+    ],
+    "products": [
+      {
+        "name": "自动驾驶仿真与工具链",
+        "category": "自动驾驶工具",
+        "description": "为车企和自动驾驶公司提供仿真、开发与验证工具链。",
+        "status": "GA"
+      }
     ]
   },
   "qdrant": {
@@ -15111,6 +15787,14 @@
       "AI 安全",
       "Ilya",
       "无产品"
+    ],
+    "products": [
+      {
+        "name": "安全超级智能",
+        "category": "研究使命",
+        "description": "唯一目标是直接构建安全的超级智能,期间不推出中间商业产品。",
+        "status": "研发"
+      }
     ]
   },
   "thinkingmachines": {
@@ -15162,6 +15846,20 @@
       "可定制 AI",
       "Mira Murati",
       "Tinker"
+    ],
+    "products": [
+      {
+        "name": "Tinker",
+        "category": "模型微调 API",
+        "description": "面向研究者的大模型微调 API,让定制前沿模型更简单。",
+        "status": "GA"
+      },
+      {
+        "name": "前沿模型研究",
+        "category": "AI 研究",
+        "description": "Mira Murati 领衔的实验室,专注可定制、可理解的前沿 AI。",
+        "status": "研发"
+      }
     ]
   },
   "deepgram": {
@@ -15663,6 +16361,14 @@
       "先进制程",
       "CoWoS",
       "定制 AI"
+    ],
+    "products": [
+      {
+        "name": "高端 AI ASIC 设计服务",
+        "category": "ASIC 设计服务",
+        "description": "帮客户把最先进制程的定制 AI 芯片落地量产。",
+        "status": "GA"
+      }
     ]
   },
   "guc": {
@@ -17087,6 +17793,14 @@
         "revenue": 4.71,
         "netIncome": 1.58
       }
+    ],
+    "products": [
+      {
+        "name": "AXON",
+        "category": "AI 广告引擎",
+        "description": "用 AI 精准投放广告、找高价值用户,驱动惊人增长。",
+        "status": "GA"
+      }
     ]
   },
   "ttd": {
@@ -17449,6 +18163,14 @@
       "感知",
       "自动驾驶",
       "机器人"
+    ],
+    "products": [
+      {
+        "name": "车载激光雷达 (AT / FT 系列)",
+        "category": "激光雷达",
+        "description": "全球车载激光雷达出货龙头,用于智能驾驶与机器人。",
+        "status": "GA"
+      }
     ]
   },
   "luminar": {
@@ -17596,6 +18318,20 @@
       "车规 AI",
       "智驾",
       "港股"
+    ],
+    "products": [
+      {
+        "name": "征程 (Journey)",
+        "category": "车规 AI 芯片",
+        "description": "中国车规级智能驾驶 AI 芯片龙头。",
+        "status": "GA"
+      },
+      {
+        "name": "智驾方案",
+        "category": "智能驾驶",
+        "description": "面向车企的软硬一体智能驾驶方案。",
+        "status": "GA"
+      }
     ]
   },
   "eqix": {
@@ -17871,6 +18607,20 @@
       "金融数据",
       "BloombergGPT",
       "垂直 AI"
+    ],
+    "products": [
+      {
+        "name": "彭博终端 (Terminal)",
+        "category": "金融数据",
+        "description": "金融从业者必备的数据与交易终端。",
+        "status": "GA"
+      },
+      {
+        "name": "BloombergGPT",
+        "category": "金融大模型",
+        "description": "自研的金融领域大模型。",
+        "status": "GA"
+      }
     ]
   },
   "blackrock": {
@@ -18320,6 +19070,20 @@
       "Falcon",
       "Charlotte AI",
       "EDR"
+    ],
+    "products": [
+      {
+        "name": "Falcon 平台",
+        "category": "端点安全",
+        "description": "云原生端点安全平台,行业龙头。",
+        "status": "GA"
+      },
+      {
+        "name": "Charlotte AI",
+        "category": "安全 AI 智能体",
+        "description": "自动分析威胁、辅助安全运营的 AI 智能体。",
+        "status": "GA"
+      }
     ]
   },
   "paloalto": {
@@ -18387,6 +19151,20 @@
         "year": 2024,
         "revenue": 8.03,
         "netIncome": 2.58
+      }
+    ],
+    "products": [
+      {
+        "name": "下一代防火墙 / Prisma",
+        "category": "网络与云安全",
+        "description": "网络防火墙与云安全(Prisma Cloud)平台。",
+        "status": "GA"
+      },
+      {
+        "name": "Cortex",
+        "category": "AI 安全运营",
+        "description": "AI 驱动的安全运营(SOC)自动化平台。",
+        "status": "GA"
       }
     ]
   },
@@ -18530,6 +19308,14 @@
       "CNAPP",
       "谷歌收购",
       "攻击路径"
+    ],
+    "products": [
+      {
+        "name": "Wiz 云安全平台 (CNAPP)",
+        "category": "云安全",
+        "description": "扫描整个云环境、按优先级揪出最危险风险,被谷歌约 320 亿美元收购。",
+        "status": "GA"
+      }
     ]
   },
   "planet": {
@@ -18901,6 +19687,14 @@
       "GB200",
       "富士康",
       "整柜组装"
+    ],
+    "products": [
+      {
+        "name": "AI 服务器代工",
+        "category": "电子代工",
+        "description": "全球最大 AI 服务器代工厂,英伟达 GB200/GB300 整机柜主力。",
+        "status": "GA"
+      }
     ]
   },
   "quantacomputer": {
@@ -19309,6 +20103,20 @@
       "供配电",
       "液冷",
       "AI 服务器"
+    ],
+    "products": [
+      {
+        "name": "服务器电源 (PSU)",
+        "category": "电源",
+        "description": "高效率、高功率密度的 AI 服务器电源,全球电源龙头。",
+        "status": "GA"
+      },
+      {
+        "name": "数据中心散热",
+        "category": "散热",
+        "description": "含液冷的数据中心供配电与散热方案。",
+        "status": "GA"
+      }
     ]
   },
   "mpwr": {
