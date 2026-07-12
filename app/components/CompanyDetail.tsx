@@ -500,7 +500,7 @@ export default function CompanyDetail({ c, onOpenCompany, onGotoNode }: CompanyD
             <section className="company-card">
               <h2>最新动态</h2>
               <div className="cp-news">
-                {c.news.map((n, i) => {
+                {[...c.news].sort((a, b) => (b.date || "").localeCompare(a.date || "")).map((n, i) => {
                   const inner = (
                     <>
                       <div className="cp-news-meta">

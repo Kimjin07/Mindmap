@@ -1785,7 +1785,16 @@
       "growth": 68,
       "innovation": 84,
       "community": 51
-    }
+    },
+    "news": [
+      {
+        "title": "Q1 2026 营收 26.5 亿美元(+30%),上调全年指引;订单积压超 150 亿美元",
+        "date": "2026",
+        "category": "财报",
+        "summary": "AI 数据中心对供电与散热(尤其液冷)需求强劲,美洲区增长 53%;全年营收指引上调至 135–140 亿美元;并收购 Strategic Thermal Labs 深化液冷能力。",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bull-case-vertiv-holdings-co-221050452.html"
+      }
+    ]
   },
   "etn": {
     "id": "etn",
@@ -10319,6 +10328,15 @@
     ],
     "partners": [
       "googl"
+    ],
+    "news": [
+      {
+        "title": "完成 2026 最大科技 IPO:募资 55.5 亿美元、估值约 560 亿美元;OpenAI 签 750MW 推理大单",
+        "date": "2026-05",
+        "category": "重大",
+        "summary": "5 月登陆纳斯达克(CBRS),定价高于区间、首日近乎翻倍;主打推理而非训练;1 月与 OpenAI 签多年 750MW(可扩至 2GW)推理产能协议(合约价值超 100 亿美元),并与 AWS 合作。",
+        "url": "https://thenextweb.com/news/cerebras-ipo-5-55-billion-biggest-tech-2026"
+      }
     ]
   },
   "sambanova": {
@@ -10965,7 +10983,16 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "news": [
+      {
+        "title": "Q1 2026 AI 营收同比暴增 841% 至 3.9 亿美元",
+        "date": "2026",
+        "category": "财报",
+        "summary": "作为专注 AI 的欧洲「新云」营收爆发式增长,并被纳入纳斯达克 100 指数;不过 Meta 亲自下场做新云等竞争因素,一度令 CoreWeave、Nebius 股价大跌。",
+        "url": "https://www.indexbox.io/blog/ai-infrastructure-boom-neocloud-providers-coreweave-and-nebius-report-surging-revenue/"
+      }
+    ]
   },
   "together": {
     "id": "together",
@@ -11284,7 +11311,16 @@
       "growth": 87,
       "innovation": 89,
       "community": 60
-    }
+    },
+    "news": [
+      {
+        "title": "洽谈新一轮融资、估值 1650–1750 亿美元;ARR 达 54 亿美元(+65%)",
+        "date": "2026-06",
+        "category": "融资",
+        "summary": "较半年前 1340 亿美元估值再跳涨;年化营收 54 亿美元(其中 AI 业务超 14 亿);CEO 称今年不上市但已进入 IPO 准备状态,最快 2026 年底上市。",
+        "url": "https://techfundingnews.com/databricks-eyes-5b-raise-at-134b-valuation-post-100b-jump/"
+      }
+    ]
   },
   "snow": {
     "id": "snow",
