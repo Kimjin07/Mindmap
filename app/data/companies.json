@@ -1425,7 +1425,9 @@
       "exchange": "NASDAQ",
       "ticker": "WDC",
       "marketCapB": 20,
-      "peRatio": 15
+      "peRatio": 15,
+      "grossMargin": "30%",
+      "revenueTTM": "$17B"
     },
     "business": "企业级硬盘(HDD)与闪存(NAND)，为 AI 数据中心提供海量存储。",
     "competitors": [
@@ -1684,7 +1686,10 @@
     "stock": {
       "exchange": "NYSE",
       "ticker": "NEE",
-      "marketCapB": 160
+      "marketCapB": 160,
+      "grossMargin": "58%",
+      "peRatio": 22,
+      "revenueTTM": "$25B"
     },
     "business": "受监管公用事业(佛州电力)与可再生能源(风/光/储)，为 AI 数据中心的用电激增供能。",
     "businessEn": "Regulated utility (Florida power) plus renewables (wind/solar/storage), supplying the surge in AI data-center electricity demand.",
@@ -2660,7 +2665,9 @@
       "exchange": "NYSE",
       "ticker": "GEV",
       "marketCapB": 90,
-      "peRatio": 55
+      "peRatio": 55,
+      "grossMargin": "17%",
+      "revenueTTM": "$35B"
     },
     "business": "燃气/风电/电网设备与电气化解决方案，承接 AI 用电激增带来的电力装备需求。",
     "businessEn": "Gas turbines, wind and grid equipment plus electrification solutions, meeting the power-equipment demand from surging AI electricity use.",
@@ -4650,7 +4657,10 @@
     "stock": {
       "exchange": "NASDAQ",
       "ticker": "CEG",
-      "marketCapB": 90
+      "marketCapB": 90,
+      "grossMargin": "30%",
+      "peRatio": 25,
+      "revenueTTM": "$24B"
     },
     "business": "核电为主的无碳电力生产，与微软等签署数据中心长期供电协议（含重启三里岛）。",
     "businessEn": "Mostly nuclear carbon-free power generation, with long-term data-center supply deals such as Microsoft's (including restarting Three Mile Island).",
@@ -4726,7 +4736,9 @@
       "exchange": "NYSE",
       "ticker": "VST",
       "marketCapB": 50,
-      "peRatio": 22
+      "peRatio": 22,
+      "grossMargin": "30%",
+      "revenueTTM": "$17B"
     },
     "business": "发电与零售电力，收购核电资产受益 AI 用电激增。",
     "businessEn": "Power generation and retail electricity; its nuclear acquisitions benefit from surging AI electricity demand.",
@@ -4953,7 +4965,9 @@
       "exchange": "NYSE",
       "ticker": "CAT",
       "marketCapB": 180,
-      "peRatio": 18
+      "peRatio": 18,
+      "grossMargin": "30%",
+      "revenueTTM": "$65B"
     },
     "business": "工程机械与燃气 / 柴油发电机组，AI 数据中心抢电期的供电设备供应商。",
     "competitors": [
@@ -5028,7 +5042,9 @@
       "exchange": "NYSE",
       "ticker": "CMI",
       "marketCapB": 50,
-      "peRatio": 16
+      "peRatio": 16,
+      "grossMargin": "25%",
+      "revenueTTM": "$34B"
     },
     "business": "发电机组、发动机与电力系统，数据中心备电常用。",
     "competitors": [
@@ -5179,7 +5195,9 @@
       "exchange": "NASDAQ",
       "ticker": "TER",
       "marketCapB": 25,
-      "peRatio": 35
+      "peRatio": 35,
+      "grossMargin": "58%",
+      "revenueTTM": "$3B"
     },
     "business": "芯片测试设备，并通过 Universal Robots 做协作机械臂，横跨芯片与机器人。",
     "competitors": [
@@ -8070,7 +8088,9 @@
       "exchange": "NYSE",
       "ticker": "GM",
       "marketCapB": 55,
-      "peRatio": 7
+      "peRatio": 7,
+      "grossMargin": "12%",
+      "revenueTTM": "$187B"
     },
     "business": "整车制造与电动化，自动驾驶子公司 Cruise 运营 Robotaxi。",
     "competitors": [
@@ -14358,7 +14378,9 @@
       "exchange": "NASDAQ",
       "ticker": "STX",
       "marketCapB": 25,
-      "peRatio": 15
+      "peRatio": 15,
+      "grossMargin": "30%",
+      "revenueTTM": "$9B"
     },
     "business": "大容量机械硬盘与 HAMR 新技术，为 AI 数据湖提供低成本海量存储。",
     "competitors": [
@@ -16203,7 +16225,9 @@
       "exchange": "NASDAQ",
       "ticker": "LIN",
       "marketCapB": 220,
-      "peRatio": 30
+      "peRatio": 30,
+      "grossMargin": "47%",
+      "revenueTTM": "$33B"
     },
     "business": "工业气体与半导体电子特气，AI 芯片扩产直接受益。",
     "competitors": [
@@ -16534,7 +16558,9 @@
       "exchange": "NASDAQ",
       "ticker": "ENTG",
       "marketCapB": 15,
-      "peRatio": 40
+      "peRatio": 40,
+      "grossMargin": "45%",
+      "revenueTTM": "$3B"
     },
     "business": "CMP 抛光液/垫、过滤与流体输送、先进材料，覆盖芯片制造耗材。",
     "businessEn": "CMP slurries/pads, filtration and fluid handling, and advanced materials — chip-manufacturing consumables.",
@@ -23585,7 +23611,9 @@
       "exchange": "NASDAQ",
       "ticker": "EQIX",
       "marketCapB": 85,
-      "peRatio": 75
+      "peRatio": 75,
+      "grossMargin": "48%",
+      "revenueTTM": "$9B"
     },
     "business": "全球互联数据中心(IBX)与云交换，AI 算力落地的核心地产平台。",
     "businessEn": "Global interconnected data centers (IBX) and cloud exchange — a core real-estate platform where AI compute lands.",
@@ -23665,7 +23693,9 @@
       "exchange": "NYSE",
       "ticker": "DLR",
       "marketCapB": 55,
-      "peRatio": 90
+      "peRatio": 90,
+      "grossMargin": "50%",
+      "revenueTTM": "$6B"
     },
     "business": "大规模数据中心地产与托管，承接云厂与 AI 算力扩张。",
     "businessEn": "Large-scale data-center real estate and colocation, absorbing cloud and AI compute expansion.",
@@ -23829,7 +23859,8 @@
       "ticker": "IRM",
       "marketCapB": 30,
       "revenueTTM": "$6.1B",
-      "peRatio": 100
+      "peRatio": 100,
+      "grossMargin": "55%"
     },
     "business": "从档案存储转向数据中心与资产管理，受益 AI 数据存储需求。",
     "businessEn": "Pivoting from records storage into data centers and asset management, benefiting from AI data-storage demand.",
@@ -23970,7 +24001,9 @@
       "exchange": "NYSE",
       "ticker": "BLK",
       "marketCapB": 160,
-      "peRatio": 23
+      "peRatio": 23,
+      "grossMargin": "50%",
+      "revenueTTM": "$20B"
     },
     "business": "资产管理与 Aladdin 风控/投研平台，把生成式 AI 引入投资流程，并大手笔投资 AI 基建。",
     "businessEn": "Asset management plus the Aladdin risk/analytics platform, bringing generative AI into investing and making large AI-infrastructure investments.",
@@ -24540,7 +24573,9 @@
       "exchange": "NASDAQ",
       "ticker": "PANW",
       "marketCapB": 130,
-      "peRatio": 48
+      "peRatio": 48,
+      "grossMargin": "74%",
+      "revenueTTM": "$8B"
     },
     "business": "网络、云与安全运营平台(Cortex/Prisma)，用 AI 做检测与自动响应。",
     "businessEn": "Network, cloud and security-operations platforms (Cortex/Prisma), using AI for detection and automated response.",
