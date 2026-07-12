@@ -103,7 +103,13 @@
       "growth": 76,
       "innovation": 95,
       "community": 54
-    }
+    },
+    "tags": [
+      "Copilot",
+      "Azure",
+      "云计算",
+      "操作系统"
+    ]
   },
   "googl": {
     "id": "googl",
@@ -218,7 +224,13 @@
       "growth": 77,
       "innovation": 97,
       "community": 81
-    }
+    },
+    "tags": [
+      "Gemini",
+      "搜索",
+      "TPU",
+      "云计算"
+    ]
   },
   "nvda": {
     "id": "nvda",
@@ -11286,7 +11298,13 @@
       "growth": 83,
       "innovation": 81,
       "community": 92
-    }
+    },
+    "leadership": [
+      {
+        "name": "Bob van Luijt",
+        "title": "联合创始人兼 CEO"
+      }
+    ]
   },
   "chroma": {
     "id": "chroma",
@@ -11348,7 +11366,13 @@
       "growth": 83,
       "innovation": 80,
       "community": 92
-    }
+    },
+    "leadership": [
+      {
+        "name": "Jeff Huber",
+        "title": "联合创始人兼 CEO"
+      }
+    ]
   },
   "langchain": {
     "id": "langchain",
@@ -11485,7 +11509,13 @@
       "growth": 83,
       "innovation": 79,
       "community": 57
-    }
+    },
+    "leadership": [
+      {
+        "name": "Jerry Liu",
+        "title": "联合创始人兼 CEO"
+      }
+    ]
   },
   "scaleai": {
     "id": "scaleai",
@@ -12152,7 +12182,13 @@
       "growth": 83,
       "innovation": 79,
       "community": 70
-    }
+    },
+    "leadership": [
+      {
+        "name": "Dror Weiss",
+        "title": "CEO"
+      }
+    ]
   },
   "vercel": {
     "id": "vercel",
@@ -12966,7 +13002,13 @@
       "growth": 83,
       "innovation": 78,
       "community": 57
-    }
+    },
+    "leadership": [
+      {
+        "name": "Geordie Rose",
+        "title": "联合创始人兼 CEO"
+      }
+    ]
   },
   "fourier": {
     "id": "fourier",
@@ -16700,7 +16742,13 @@
       "growth": 83,
       "innovation": 79,
       "community": 49
-    }
+    },
+    "leadership": [
+      {
+        "name": "Michl Binderbauer",
+        "title": "CEO"
+      }
+    ]
   },
   "bloom": {
     "id": "bloom",
@@ -16937,7 +16985,13 @@
       "growth": 83,
       "innovation": 79,
       "community": 49
-    }
+    },
+    "leadership": [
+      {
+        "name": "Andreas Schierenbeck",
+        "title": "CEO"
+      }
+    ]
   },
   "siemensenergy": {
     "id": "siemensenergy",
@@ -18072,7 +18126,13 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "leadership": [
+      {
+        "name": "曾子章",
+        "title": "董事长"
+      }
+    ]
   },
   "entegris": {
     "id": "entegris",
@@ -19609,6 +19669,12 @@
       "openai",
       "anthropic",
       "googl"
+    ],
+    "leadership": [
+      {
+        "name": "Adam D'Angelo",
+        "title": "联合创始人兼 CEO"
+      }
     ]
   },
   "kuaishou": {
@@ -19915,7 +19981,13 @@
       "growth": 83,
       "innovation": 79,
       "community": 57
-    }
+    },
+    "leadership": [
+      {
+        "name": "赵同阳",
+        "title": "创始人兼 CEO"
+      }
+    ]
   },
   "momenta": {
     "id": "momenta",
@@ -20552,7 +20624,13 @@
       "growth": 83,
       "innovation": 79,
       "community": 70
-    }
+    },
+    "leadership": [
+      {
+        "name": "Jonas Andrulis",
+        "title": "创始人兼 CEO"
+      }
+    ]
   },
   "moveworks": {
     "id": "moveworks",
@@ -21091,7 +21169,13 @@
       "growth": 83,
       "innovation": 79,
       "community": 70
-    }
+    },
+    "leadership": [
+      {
+        "name": "Flo Crivello",
+        "title": "创始人兼 CEO"
+      }
+    ]
   },
   "multion": {
     "id": "multion",
@@ -21150,7 +21234,13 @@
       "growth": 83,
       "innovation": 78,
       "community": 69
-    }
+    },
+    "leadership": [
+      {
+        "name": "Div Garg",
+        "title": "联合创始人兼 CEO"
+      }
+    ]
   },
   "skild": {
     "id": "skild",
@@ -21572,7 +21662,13 @@
       "growth": 83,
       "innovation": 80,
       "community": 92
-    }
+    },
+    "leadership": [
+      {
+        "name": "Andre Zayarni",
+        "title": "联合创始人兼 CEO"
+      }
+    ]
   },
   "zilliz": {
     "id": "zilliz",
@@ -21635,7 +21731,13 @@
       "growth": 83,
       "innovation": 80,
       "community": 92
-    }
+    },
+    "leadership": [
+      {
+        "name": "星爵 (Charles Xie)",
+        "title": "创始人兼 CEO"
+      }
+    ]
   },
   "mercor": {
     "id": "mercor",
@@ -21843,7 +21945,13 @@
       "growth": 83,
       "innovation": 79,
       "community": 57
-    }
+    },
+    "leadership": [
+      {
+        "name": "Matt Angle",
+        "title": "创始人兼 CEO"
+      }
+    ]
   },
   "saronic": {
     "id": "saronic",
@@ -25437,7 +25545,13 @@
       "growth": 83,
       "innovation": 79,
       "community": 57
-    }
+    },
+    "leadership": [
+      {
+        "name": "Jeremy O'Brien",
+        "title": "联合创始人兼 CEO"
+      }
+    ]
   },
   "quantinuum": {
     "id": "quantinuum",
@@ -26690,6 +26804,12 @@
       "对话助手",
       "情感陪伴",
       "企业 AI"
+    ],
+    "leadership": [
+      {
+        "name": "Sean White",
+        "title": "CEO"
+      }
     ]
   },
   "retell": {
