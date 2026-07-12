@@ -655,8 +655,8 @@
       "openai"
     ],
     "partners": [
-      "tsm",
-      "msft"
+      "msft",
+      "meta"
     ],
     "suppliers": [
       "tsm",
@@ -1262,7 +1262,10 @@
       "growth": 68,
       "innovation": 84,
       "community": 73
-    }
+    },
+    "partners": [
+      "anthropic"
+    ]
   },
   "now": {
     "id": "now",
@@ -1347,7 +1350,10 @@
       "growth": 68,
       "innovation": 84,
       "community": 73
-    }
+    },
+    "partners": [
+      "nvda"
+    ]
   },
   "pltr": {
     "id": "pltr",
@@ -1436,7 +1442,11 @@
       "growth": 71,
       "innovation": 88,
       "community": 60
-    }
+    },
+    "partners": [
+      "anthropic",
+      "msft"
+    ]
   },
   "mrvl": {
     "id": "mrvl",
@@ -2964,7 +2974,10 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "partners": [
+      "amzn"
+    ]
   },
   "sie": {
     "id": "sie",
@@ -5190,7 +5203,10 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "partners": [
+      "msft"
+    ]
   },
   "oklo": {
     "id": "oklo",
@@ -6537,6 +6553,9 @@
     "suppliers": [
       "ibiden",
       "unimicron"
+    ],
+    "partners": [
+      "tsm"
     ]
   },
   "rklb": {
@@ -9975,6 +9994,10 @@
     },
     "suppliers": [
       "samsung"
+    ],
+    "partners": [
+      "三星",
+      "沙特 HUMAIN"
     ]
   },
   "cerebras": {
@@ -10073,6 +10096,9 @@
     },
     "suppliers": [
       "tsm"
+    ],
+    "partners": [
+      "googl"
     ]
   },
   "sambanova": {
@@ -11123,7 +11149,11 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "partners": [
+      "nvda",
+      "anthropic"
+    ]
   },
   "pinecone": {
     "id": "pinecone",
@@ -11906,7 +11936,10 @@
       "growth": 86,
       "innovation": 87,
       "community": 92
-    }
+    },
+    "partners": [
+      "baba"
+    ]
   },
   "cognition": {
     "id": "cognition",
@@ -13564,7 +13597,10 @@
       "growth": 68,
       "innovation": 84,
       "community": 73
-    }
+    },
+    "partners": [
+      "baba"
+    ]
   },
   "zhipu": {
     "id": "zhipu",
@@ -13664,7 +13700,10 @@
       "growth": 69,
       "innovation": 86,
       "community": 75
-    }
+    },
+    "partners": [
+      "huawei"
+    ]
   },
   "stepfun": {
     "id": "stepfun",
@@ -13832,7 +13871,10 @@
       "growth": 62,
       "innovation": 76,
       "community": 69
-    }
+    },
+    "partners": [
+      "amd"
+    ]
   },
   "iflytek": {
     "id": "iflytek",
@@ -13931,7 +13973,10 @@
       "growth": 64,
       "innovation": 78,
       "community": 70
-    }
+    },
+    "partners": [
+      "huawei"
+    ]
   },
   "cambricon": {
     "id": "cambricon",
@@ -16747,7 +16792,10 @@
       "growth": 64,
       "innovation": 79,
       "community": 50
-    }
+    },
+    "partners": [
+      "oracle"
+    ]
   },
   "plugpower": {
     "id": "plugpower",
@@ -25920,7 +25968,10 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "partners": [
+      "nvda"
+    ]
   },
   "dlr": {
     "id": "dlr",
@@ -26009,7 +26060,10 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "partners": [
+      "nvda"
+    ]
   },
   "gds": {
     "id": "gds",
@@ -27476,7 +27530,10 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "partners": [
+      "nvda"
+    ]
   },
   "dell": {
     "id": "dell",
@@ -27581,7 +27638,10 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "partners": [
+      "nvda"
+    ]
   },
   "hpe": {
     "id": "hpe",
@@ -27677,7 +27737,10 @@
       "growth": 64,
       "innovation": 78,
       "community": 49
-    }
+    },
+    "partners": [
+      "nvda"
+    ]
   },
   "fii": {
     "id": "fii",
