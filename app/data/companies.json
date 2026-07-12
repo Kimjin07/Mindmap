@@ -5383,7 +5383,13 @@
     ],
     "links": {
       "x": "https://x.com/SpaceX"
-    }
+    },
+    "investors": [
+      "Founders Fund",
+      "Sequoia",
+      "谷歌",
+      "a16z"
+    ]
   },
   "openai": {
     "id": "openai",
@@ -5758,6 +5764,9 @@
         "description": "开源推理大模型,性能对标顶级闭源推理模型。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "幻方量化 High-Flyer"
     ]
   },
   "huawei": {
@@ -5902,6 +5911,9 @@
         "description": "面向仓储的搬箱机器人。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "现代汽车集团"
     ]
   },
   "figure": {
@@ -6035,6 +6047,11 @@
         "description": "双足物流机器人,已在仓库搬箱、拣货商用。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "亚马逊",
+      "DCVC",
+      "Playground Global"
     ]
   },
   "apptronik": {
@@ -6169,6 +6186,12 @@
         "description": "高动态、可量产的人形机器人,频频在社媒出圈。",
         "status": "GA"
       }
+    ],
+    "investors": [
+      "美团",
+      "红杉中国",
+      "深创投",
+      "中国移动"
     ]
   },
   "onex": {
@@ -6437,6 +6460,11 @@
         "name": "Amjad Masad",
         "title": "创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "a16z",
+      "Coatue",
+      "Khosla Ventures"
     ]
   },
   "stackblitz": {
@@ -6512,6 +6540,11 @@
         "name": "Eric Simons",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "GV",
+      "Amplify Partners",
+      "The General Partnership"
     ]
   },
   "lovable": {
@@ -6579,6 +6612,11 @@
         "name": "Anton Osika",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Accel",
+      "Creandum",
+      "20VC"
     ]
   },
   "mistral": {
@@ -7495,6 +7533,11 @@
         "name": "Piotr Dąbkowski",
         "title": "联合创始人兼 CTO"
       }
+    ],
+    "investors": [
+      "a16z",
+      "Sequoia",
+      "ICONIQ Growth"
     ]
   },
   "runwayml": {
@@ -7567,6 +7610,12 @@
         "name": "Cristóbal Valenzuela",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "谷歌",
+      "英伟达",
+      "a16z",
+      "Salesforce Ventures"
     ]
   },
   "pika": {
@@ -7633,6 +7682,11 @@
         "name": "Demi Guo (郭文景)",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Lightspeed",
+      "a16z",
+      "Homebrew"
     ]
   },
   "luma": {
@@ -7705,6 +7759,11 @@
         "name": "Amit Jain",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "a16z",
+      "英伟达",
+      "Matrix Partners"
     ]
   },
   "suno": {
@@ -7833,6 +7892,10 @@
         "name": "David Ding",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "a16z",
+      "UTA"
     ]
   },
   "heygen": {
@@ -7896,6 +7959,10 @@
         "name": "Joshua Xu (徐卓)",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Benchmark",
+      "Conviction"
     ]
   },
   "synthesia": {
@@ -7958,6 +8025,12 @@
         "name": "Victor Riparbelli",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Accel",
+      "NEA",
+      "Kleiner Perkins",
+      "英伟达"
     ]
   },
   "deepl": {
@@ -8027,6 +8100,11 @@
         "name": "Jaroslaw Kutylowski",
         "title": "创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Index Ventures",
+      "IVP",
+      "Atomico"
     ]
   },
   "ideogram": {
@@ -8092,6 +8170,10 @@
         "name": "Mohammad Norouzi",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "a16z",
+      "Index Ventures"
     ]
   },
   "blackforest": {
@@ -8152,6 +8234,10 @@
         "name": "Robin Rombach",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "a16z",
+      "General Catalyst"
     ]
   },
   "groq": {
@@ -8991,6 +9077,13 @@
         "name": "Clément Delangue",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Sequoia",
+      "a16z",
+      "英伟达",
+      "谷歌",
+      "亚马逊"
     ]
   },
   "databricks": {
@@ -9871,6 +9964,11 @@
         "name": "Scott Wu",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Founders Fund",
+      "8VC",
+      "Khosla Ventures"
     ]
   },
   "glean": {
@@ -10069,6 +10167,11 @@
         "name": "Guillermo Rauch",
         "title": "创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Accel",
+      "GV",
+      "a16z"
     ]
   },
   "writer": {
@@ -10557,6 +10660,11 @@
         "name": "Melanie Perkins",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Sequoia",
+      "Blackbird Ventures",
+      "Bond"
     ]
   },
   "notion": {
@@ -10626,6 +10734,11 @@
         "name": "Ivan Zhao",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Index Ventures",
+      "Sequoia",
+      "Coatue"
     ]
   },
   "grammarly": {
@@ -10695,6 +10808,11 @@
         "name": "Shishir Mehrotra",
         "title": "CEO"
       }
+    ],
+    "investors": [
+      "General Catalyst",
+      "IVP",
+      "Baillie Gifford"
     ]
   },
   "sanctuary": {
@@ -12820,6 +12938,11 @@
         "name": "Lukas Biewald",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Coatue",
+      "Insight Partners",
+      "Felicis"
     ]
   },
   "figma": {
@@ -15280,6 +15403,11 @@
         "name": "Brandon Tseng",
         "title": "联合创始人兼总裁"
       }
+    ],
+    "investors": [
+      "a16z",
+      "Riot Ventures",
+      "US Innovative Technology"
     ]
   },
   "neuralink": {
@@ -15337,6 +15465,10 @@
         "description": "可植入大脑的高带宽脑机接口,已开始人体试验。",
         "status": "临床试验"
       }
+    ],
+    "investors": [
+      "Founders Fund",
+      "DFJ Growth"
     ]
   },
   "synchron": {
@@ -16438,6 +16570,11 @@
         "name": "Quinn Slack",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "a16z",
+      "Sequoia",
+      "Redpoint"
     ]
   },
   "worldlabs": {
@@ -16685,6 +16822,11 @@
         "name": "Bhavin Shah",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Kleiner Perkins",
+      "Lightspeed",
+      "Bain Capital Ventures"
     ]
   },
   "recraft": {
@@ -16750,6 +16892,11 @@
         "name": "Anna Veronika Dorogush",
         "title": "创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Khosla Ventures",
+      "Nat Friedman",
+      "RTP Global"
     ]
   },
   "leonardo": {
@@ -16815,6 +16962,10 @@
         "name": "JJ Fiasson",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Blackbird Ventures",
+      "Samsung Next"
     ]
   },
   "krea": {
@@ -16880,6 +17031,10 @@
         "name": "Victor Perez",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "a16z",
+      "Abstract Ventures"
     ]
   },
   "genmo": {
@@ -17452,6 +17607,11 @@
         "name": "Qasar Younis",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Lux Capital",
+      "a16z",
+      "General Catalyst"
     ]
   },
   "qdrant": {
@@ -17979,6 +18139,11 @@
         "name": "Scott Stephenson",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Tiger Global",
+      "Wing VC",
+      "英伟达"
     ]
   },
   "cresta": {
@@ -18049,6 +18214,11 @@
         "name": "Zayd Enam",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "investors": [
+      "Sequoia",
+      "Greylock",
+      "a16z"
     ]
   },
   "assemblyai": {
