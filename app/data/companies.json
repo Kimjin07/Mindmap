@@ -69,7 +69,7 @@
     ],
     "suppliers": [
       "nvda",
-      "tsm"
+      "amd"
     ],
     "products": [
       {
@@ -176,7 +176,9 @@
       "anthropic"
     ],
     "suppliers": [
-      "tsm"
+      "tsm",
+      "avgo",
+      "nvda"
     ],
     "products": [
       {
@@ -314,7 +316,10 @@
     "suppliers": [
       "tsm",
       "skhynix",
-      "asml"
+      "mu",
+      "samsung",
+      "amkr",
+      "ase"
     ],
     "relatedCompanies": [
       "tsm",
@@ -475,7 +480,13 @@
       "growth": 71,
       "innovation": 88,
       "community": 60
-    }
+    },
+    "suppliers": [
+      "sanhua",
+      "topu",
+      "jlmag",
+      "samsung"
+    ]
   },
   "meta": {
     "id": "meta",
@@ -540,7 +551,7 @@
     ],
     "suppliers": [
       "nvda",
-      "tsm"
+      "amd"
     ],
     "tags": [
       "Llama",
@@ -649,7 +660,7 @@
     ],
     "suppliers": [
       "tsm",
-      "skhynix"
+      "amkr"
     ],
     "tags": [
       "Instinct MI300",
@@ -781,7 +792,13 @@
       "growth": 58,
       "innovation": 70,
       "community": 47
-    }
+    },
+    "suppliers": [
+      "asml",
+      "amat",
+      "lrcx",
+      "klac"
+    ]
   },
   "avgo": {
     "id": "avgo",
@@ -879,7 +896,10 @@
       "growth": 73,
       "innovation": 92,
       "community": 53
-    }
+    },
+    "suppliers": [
+      "tsm"
+    ]
   },
   "anet": {
     "id": "anet",
@@ -1505,7 +1525,10 @@
       "growth": 68,
       "innovation": 84,
       "community": 51
-    }
+    },
+    "suppliers": [
+      "tsm"
+    ]
   },
   "wdc": {
     "id": "wdc",
@@ -2229,7 +2252,7 @@
     ],
     "suppliers": [
       "nvda",
-      "tsm"
+      "amd"
     ],
     "tags": [
       "AWS",
@@ -3367,7 +3390,9 @@
     ],
     "suppliers": [
       "lite",
-      "cohr"
+      "cohr",
+      "tianfu",
+      "mtsi"
     ],
     "tags": [
       "光模块",
@@ -3465,7 +3490,8 @@
     ],
     "suppliers": [
       "lite",
-      "cohr"
+      "tianfu",
+      "yuanjie"
     ],
     "tags": [
       "光模块",
@@ -3685,7 +3711,8 @@
     ],
     "suppliers": [
       "asml",
-      "amat"
+      "amat",
+      "lrcx"
     ],
     "tags": [
       "HBM",
@@ -6383,7 +6410,11 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "suppliers": [
+      "ibiden",
+      "unimicron"
+    ]
   },
   "amkr": {
     "id": "amkr",
@@ -6477,7 +6508,11 @@
       "growth": 65,
       "innovation": 80,
       "community": 50
-    }
+    },
+    "suppliers": [
+      "ibiden",
+      "unimicron"
+    ]
   },
   "rklb": {
     "id": "rklb",
@@ -6843,8 +6878,6 @@
     ],
     "suppliers": [
       "nvda",
-      "msft",
-      "oracle",
       "crwv"
     ],
     "tags": [
@@ -7032,9 +7065,7 @@
       "nvda"
     ],
     "suppliers": [
-      "nvda",
-      "skhynix",
-      "dell"
+      "nvda"
     ],
     "tags": [
       "Grok",
@@ -7348,8 +7379,8 @@
       "openai"
     ],
     "suppliers": [
-      "nvda",
-      "harmonic"
+      "harmonic",
+      "leaderdrive"
     ],
     "tags": [
       "人形机器人",
@@ -7448,7 +7479,10 @@
       "growth": 85,
       "innovation": 83,
       "community": 58
-    }
+    },
+    "suppliers": [
+      "harmonic"
+    ]
   },
   "apptronik": {
     "id": "apptronik",
@@ -7495,7 +7529,7 @@
       "googl"
     ],
     "suppliers": [
-      "nvda"
+      "harmonic"
     ],
     "tags": [
       "Apollo",
@@ -7602,7 +7636,10 @@
       "growth": 86,
       "innovation": 85,
       "community": 59
-    }
+    },
+    "suppliers": [
+      "harmonic"
+    ]
   },
   "onex": {
     "id": "onex",
@@ -7654,7 +7691,7 @@
       "Tiger Global"
     ],
     "suppliers": [
-      "nvda"
+      "harmonic"
     ],
     "tags": [
       "NEO",
@@ -13840,7 +13877,10 @@
       "growth": 66,
       "innovation": 82,
       "community": 50
-    }
+    },
+    "suppliers": [
+      "tsm"
+    ]
   },
   "moorethreads": {
     "id": "moorethreads",
@@ -13992,7 +14032,10 @@
       "growth": 63,
       "innovation": 77,
       "community": 49
-    }
+    },
+    "suppliers": [
+      "tsm"
+    ]
   },
   "hygon": {
     "id": "hygon",
@@ -14255,7 +14298,11 @@
       "growth": 86,
       "innovation": 85,
       "community": 59
-    }
+    },
+    "suppliers": [
+      "harmonic",
+      "leaderdrive"
+    ]
   },
   "galbot": {
     "id": "galbot",
@@ -22389,7 +22436,10 @@
       "growth": 66,
       "innovation": 82,
       "community": 72
-    }
+    },
+    "suppliers": [
+      "tsm"
+    ]
   },
   "guc": {
     "id": "guc",
@@ -22481,7 +22531,10 @@
       "growth": 65,
       "innovation": 80,
       "community": 71
-    }
+    },
+    "suppliers": [
+      "tsm"
+    ]
   },
   "faraday": {
     "id": "faraday",
@@ -22836,7 +22889,12 @@
       "growth": 62,
       "innovation": 76,
       "community": 49
-    }
+    },
+    "suppliers": [
+      "asml",
+      "amat",
+      "lrcx"
+    ]
   },
   "wistron": {
     "id": "wistron",
@@ -24055,7 +24113,9 @@
     ],
     "suppliers": [
       "tsm",
-      "skhynix"
+      "foxconn",
+      "samsung",
+      "qualcomm"
     ],
     "tags": [
       "端侧 AI",
@@ -24159,8 +24219,7 @@
     ],
     "suppliers": [
       "tsm",
-      "samsung",
-      "arm"
+      "samsung"
     ],
     "tags": [
       "骁龙",
@@ -25207,7 +25266,10 @@
       "growth": 66,
       "innovation": 82,
       "community": 58
-    }
+    },
+    "suppliers": [
+      "yuanjie"
+    ]
   },
   "luminar": {
     "id": "luminar",
@@ -27058,7 +27120,8 @@
       "xai"
     ],
     "suppliers": [
-      "nvda"
+      "nvda",
+      "amd"
     ],
     "tags": [
       "AI 服务器",
@@ -27155,7 +27218,9 @@
       "xai"
     ],
     "suppliers": [
-      "nvda"
+      "nvda",
+      "amd",
+      "intc"
     ],
     "tags": [
       "AI 服务器",
@@ -27255,7 +27320,9 @@
       "smci"
     ],
     "suppliers": [
-      "nvda"
+      "nvda",
+      "amd",
+      "intc"
     ],
     "tags": [
       "服务器",
