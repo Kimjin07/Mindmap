@@ -14,7 +14,7 @@ import {
   useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type JSX,
 } from "react";
 import { NODES } from "../data/nodes";
-import { getPlayers, companyOfPlayer, PRODUCTS, relatedTree, type TreeRelated } from "../data/players";
+import { getPlayers, companyOfPlayer, PRODUCTS, relatedTree, type TreeRelated, type DeepSection } from "../data/players";
 import { KIND_LABEL, type Company, type CompanyProduct } from "../data/companyTypes";
 import { SLIM, isDomesticCompany } from "../data/companiesClient";
 import CompanyLogo from "./CompanyLogo";
@@ -182,12 +182,24 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
   // 项目详情抽屉:每个图钉项目都有自己的窗口(公司主页是其中的下一步入口)
   const [panelProd, setPanelProd] = useState<string | null>(null);
   const [prodCo, setProdCo] = useState<Company | null>(null);
+  const [prodDeep, setProdDeep] = useState<DeepSection[] | null>(null);
   useEffect(() => {
     setProdCo(null);
+    setProdDeep(null);
     if (!panelProd) return;
+    let stopped = false;
+    // 深度讲解(知识卡片)按需拉取,不随客户端包分发
+    (async () => {
+      try {
+        const r = await fetch(`/api/product/${encodeURIComponent(panelProd)}`);
+        if (r.ok) {
+          const j = await r.json();
+          if (!stopped && Array.isArray(j?.deep)) setProdDeep(j.deep);
+        }
+      } catch {}
+    })();
     const cid = PRODUCTS[panelProd]?.companyId;
     if (!cid) return;
-    let stopped = false;
     (async () => {
       try {
         const r = await fetch(`/api/company/${encodeURIComponent(cid)}`);
@@ -860,8 +872,8 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
                   <p className="prod-desc">{curated.description}</p>
                 )}
               </section>
-              {/* 深度讲解:知识卡片(挑战→方案/规格/对比/里程碑) */}
-              {(pr.deep ?? []).map((sec) => (
+              {/* 深度讲解:知识卡片(挑战→方案/规格/对比/里程碑),按需从服务端拉取 */}
+              {(prodDeep ?? []).map((sec) => (
                 <section key={sec.title} className="company-card">
                   <h2>{sec.title}</h2>
                   <ul className="prod-deep">
