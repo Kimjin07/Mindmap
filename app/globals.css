@@ -2099,6 +2099,87 @@ body {
   margin-top: 4px;
   cursor: pointer;
 }
+.prod-deep {
+  margin: 0;
+  padding-left: 2px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.prod-deep li {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  padding: 8px 11px;
+  border: 1px solid rgba(var(--gold-rgb), 0.16);
+  border-radius: 10px;
+  background: rgba(var(--gold-rgb), 0.03);
+}
+.prod-dep {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  background: rgba(var(--gold-rgb), 0.03);
+  border: 1px solid rgba(var(--gold-rgb), 0.16);
+  border-radius: 10px;
+  padding: 8px 11px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+.prod-dep:hover {
+  background: rgba(var(--gold-rgb), 0.1);
+}
+.prod-dep-head {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-strong);
+}
+.prod-dep-head em {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  color: var(--gold-line);
+  margin-left: 8px;
+}
+.prod-dep-note {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ink-dim);
+}
+.prod-dep-label {
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: var(--gold-line);
+  margin: 4px 0 7px;
+}
+.prod-why {
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0 0 4px;
+}
+.prod-news {
+  font-size: 12.5px;
+  line-height: 1.6;
+  margin: 8px 0 0;
+  color: var(--ink-soft);
+}
+.prod-news a {
+  color: var(--ink-strong);
+  text-decoration: none;
+}
+.prod-news a:hover {
+  color: var(--gold-line);
+}
+.prod-news-date {
+  color: var(--gold-line);
+  font-size: 11px;
+}
 
 /* ---- 地图右侧 AI 快讯面板 ---- */
 .atlas-news-tab {

@@ -860,6 +860,39 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
                   <p className="prod-desc">{curated.description}</p>
                 )}
               </section>
+              {/* 深度讲解:知识卡片(挑战→方案/规格/对比/里程碑) */}
+              {(pr.deep ?? []).map((sec) => (
+                <section key={sec.title} className="company-card">
+                  <h2>{sec.title}</h2>
+                  <ul className="prod-deep">
+                    {sec.bullets.map((b, i) => (
+                      <li key={i}>{b}</li>
+                    ))}
+                  </ul>
+                </section>
+              ))}
+              {/* 依赖链解读:它靠什么运转 / 又被谁使用 */}
+              {(() => {
+                const rel = relatedTree(pr.id);
+                const ups = rel.filter((r) => r.dir === "up").slice(0, 4);
+                const downs = rel.filter((r) => r.dir === "down").slice(0, 4);
+                if (!ups.length && !downs.length) return null;
+                const Row = ({ r, mark }: { r: TreeRelated; mark: string }) => (
+                  <button type="button" className="prod-dep" onClick={() => openProductPanel(r.id)}>
+                    <span className="prod-dep-head">{mark} {r.name}<em>{r.rel}</em></span>
+                    {r.note && <span className="prod-dep-note">{r.note}</span>}
+                  </button>
+                );
+                return (
+                  <section className="company-card">
+                    <h2>依赖链解读</h2>
+                    {ups.length > 0 && <p className="prod-dep-label">◀ 它靠这些运转(上游)</p>}
+                    {ups.map((r) => <Row key={r.id} r={r} mark="▲" />)}
+                    {downs.length > 0 && <p className="prod-dep-label">谁在用它(下游)▶</p>}
+                    {downs.map((r) => <Row key={r.id} r={r} mark="▼" />)}
+                  </section>
+                );
+              })()}
               {node && (
                 <section className="company-card">
                   <h2>所在环节 · {node.name}</h2>
@@ -870,6 +903,29 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
                       <p>{node.levels.l2}</p>
                     </details>
                   )}
+                </section>
+              )}
+              {/* 出品方深读:公司背景 + 为什么重要 + 相关动态 */}
+              {prodCo && (
+                <section className="company-card">
+                  <h2>出品方 · {prodCo.name}</h2>
+                  <p className="prod-ctx">{prodCo.oneLiner}</p>
+                  {(prodCo.whyItMatters ?? []).slice(0, 3).map((w, i) => (
+                    <p key={i} className="prod-why">· {w}</p>
+                  ))}
+                  {prodCo.description && (
+                    <details className="atlas-card-deep">
+                      <summary>公司完整介绍 ▾</summary>
+                      <p>{prodCo.description}</p>
+                    </details>
+                  )}
+                  {(prodCo.news ?? []).slice(0, 2).map((n, i) => (
+                    <p key={`n${i}`} className="prod-news">
+                      🗞 {n.date && <span className="prod-news-date">{n.date}</span>} {n.url ? (
+                        <a href={n.url} target="_blank" rel="noreferrer">{n.title} ↗</a>
+                      ) : n.title}
+                    </p>
+                  ))}
                 </section>
               )}
               {foot.length > 0 && (
