@@ -703,6 +703,13 @@
     },
     "news": [
       {
+        "title": "扎克伯格证实 Meta Compute 云业务将出租 AI 算力，与三大云厂正面竞争",
+        "date": "2026-07-09",
+        "category": "业务",
+        "summary": "扎克伯格接受彭博采访证实，Meta Compute 云部门正式成立，将向外部出售 AI 算力与 Muse 模型，直面 AWS、Azure 和 Google Cloud。",
+        "url": "https://www.cnbc.com/2026/07/01/meta-stock-cloud-ai-compute.html"
+      },
+      {
         "title": "Meta 发布 Muse Spark 1.1，开放 API 主攻代码与 Agent 任务",
         "date": "2026-07-09",
         "category": "产品",
@@ -722,13 +729,6 @@
         "category": "业务",
         "summary": "Meta 宣布斥资约 100 亿美元在加拿大阿尔伯塔省建设首个加拿大 1 吉瓦数据中心,为其境外最大单体数据中心;同期自建 932MW 天然气电站确保稳定供电,并采用闭环液冷系统节约水资源。",
         "url": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html"
-      },
-      {
-        "title": "Meta 发布自研图像生成模型 Muse Image，Arena 文生图基准排名第二",
-        "date": "2026-07-07",
-        "category": "产品",
-        "summary": "Meta 超级智能实验室 7 月 7 日推出旗下首款图像生成模型 Muse Image，代理式架构结合网页搜索与代码执行优化输出，免费集成至 Meta AI App、Instagram Stories 及 WhatsApp，Arena 文生图综合基准排名第二仅次于 ChatGPT；Meta 同步宣布 Muse Video 正在开发中。",
-        "url": "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/"
       }
     ]
   },
