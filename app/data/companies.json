@@ -2837,6 +2837,13 @@
     },
     "news": [
       {
+        "title": "亚马逊发行250亿美元债券专项用于AWS AI基础设施扩建",
+        "date": "2026-07-07",
+        "category": "融资",
+        "summary": "亚马逊以8档债券融资至少250亿美元用于AWS AI数据中心与芯片扩建；市场需求逾620亿、超额约1.6倍，公司承诺本年度不再追加发债，2026年总资本开支预算已达2000亿美元。",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-07/amazon-returns-to-us-bond-market-to-fund-ai-infrastructure-build"
+      },
+      {
         "title": "OpenAI GPT-5.5 等模型登陆 Amazon Bedrock",
         "date": "2026-07",
         "category": "产品",
@@ -2856,12 +2863,6 @@
         "category": "财报",
         "summary": "亚马逊 2026 年一季度净销售额 1815 亿美元,同比增长 17%;AWS 收入 376 亿美元、同比增长 28%,为 15 个季度以来最快增速。",
         "url": "https://www.cnbc.com/2026/04/29/aws-earnings-q1-2026.html"
-      },
-      {
-        "title": "领投 OpenAI 新一轮融资;Trainium 自研芯片放量",
-        "date": "2026",
-        "category": "业务",
-        "summary": "与英伟达、软银共同领投 OpenAI 1220 亿美元融资;AWS 扩建 AI 算力,Trainium/Inferentia 降低对英伟达依赖,并深度绑定 Anthropic。"
       }
     ]
   },
@@ -8500,6 +8501,13 @@
     },
     "news": [
       {
+        "title": "Anthropic发布Sonnet 5并解禁Fable 5，两款旗舰模型全面上线",
+        "date": "2026-07-01",
+        "category": "产品",
+        "summary": "Anthropic推出Claude Sonnet 5主打多步自主代理，并解除Fable 5因美国出口管制引发的18天封禁，两款模型即日在Claude.ai、Claude Code及全球合作平台恢复上线。",
+        "url": "https://aibusiness.com/generative-ai/restrictions-fable-5-mythos-5-lifted-anthropic-launches-sonnet-5"
+      },
+      {
         "title": "Claude Cowork 扩展至 Web 与移动端，云端会话跨设备续接",
         "date": "2026-07",
         "category": "产品",
@@ -8519,13 +8527,6 @@
         "category": "产品",
         "summary": "Anthropic 推出面向科学研究的 Claude Science,瞄准制药等行业收入,被视为其 IPO 前扩大企业业务版图的重要一步。",
         "url": "https://thetechportal.com/2026/06/30/anthropic-launches-claude-science-to-expand-enterprise-business-and-pharma-revenue-ahead-of-ipo/"
-      },
-      {
-        "title": "完成 650 亿美元 H 轮,估值 9650 亿美元,超越 OpenAI",
-        "date": "2026-05",
-        "category": "融资",
-        "summary": "由 Altimeter、Dragoneer、Greenoaks、红杉领投,成为全球估值最高的 AI 创业公司;年化营收突破 470 亿美元。",
-        "url": "https://www.anthropic.com/news/series-h"
       }
     ]
   },
