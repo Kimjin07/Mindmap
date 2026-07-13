@@ -2381,6 +2381,30 @@ body {
   text-align: center;
   max-width: 200px;
 }
+.vo-cat {
+  font-size: 10.5px;
+  letter-spacing: 0.03em;
+  color: var(--gold-line);
+  border: 1px solid rgba(var(--gold-rgb), 0.32);
+  border-radius: 5px;
+  padding: 1px 8px;
+}
+.vo-desc {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-strong);
+  text-align: left;
+  max-width: 230px;
+  border-top: 1px dashed rgba(var(--gold-rgb), 0.25);
+  padding-top: 8px;
+}
+.vo-ctx {
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--ink-dim);
+  text-align: left;
+  max-width: 230px;
+}
 .vo-cta {
   font: inherit;
   font-size: 12px;

@@ -15,7 +15,7 @@ import {
 } from "react";
 import { NODES } from "../data/nodes";
 import { getPlayers, companyOfPlayer, PRODUCTS, relatedTree, type TreeRelated } from "../data/players";
-import { KIND_LABEL, type Company } from "../data/companyTypes";
+import { KIND_LABEL, type Company, type CompanyProduct } from "../data/companyTypes";
 import { SLIM, isDomesticCompany } from "../data/companiesClient";
 import CompanyLogo from "./CompanyLogo";
 import CompanyDetail from "./CompanyDetail";
@@ -179,6 +179,31 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
     })();
     return () => { stopped = true; };
   }, [panelCo]);
+  // 巡游「当前项目」的详情:从公司策展产品库匹配详细介绍(类别/描述/状态)
+  const [originProd, setOriginProd] = useState<CompanyProduct | null>(null);
+  const tourOriginId = tour?.productId ?? null;
+  useEffect(() => {
+    setOriginProd(null);
+    if (!tourOriginId) return;
+    const o = PRODUCTS[tourOriginId];
+    if (!o?.companyId) return;
+    let stopped = false;
+    (async () => {
+      try {
+        const r = await fetch(`/api/company/${encodeURIComponent(o.companyId!)}`);
+        if (!r.ok) return;
+        const co = (await r.json()) as Company;
+        const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9一-鿿]/g, "");
+        const b = norm(o.name);
+        const hit = (co.products ?? []).find((p) => {
+          const a = norm(p.name);
+          return a && b && (a.includes(b) || b.includes(a));
+        });
+        if (!stopped && hit) setOriginProd(hit);
+      } catch {}
+    })();
+    return () => { stopped = true; };
+  }, [tourOriginId]);
   const [arrived, setArrived] = useState<string | null>(null);
   const [smooth, setSmooth] = useState(false);
   // 右侧 AI 快讯面板(Google News 聚合,提及的公司可点击跳转)
@@ -673,10 +698,21 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
               <div className="vchain-card origin">
                 <CompanyLogo companyId={tourData.origin.companyId} size={44} />
                 <span className="vo-name">{tourData.origin.name}</span>
+                {originProd?.category && <span className="vo-cat">{originProd.category}{originProd.status ? ` · ${originProd.status}` : ""}</span>}
                 {tourCo && (
                   <span className={`kind-badge ${tourCo.kind}`}>{KIND_LABEL[tourCo.kind]}</span>
                 )}
                 {tourData.origin.note && <p className="vo-note">{tourData.origin.note}</p>}
+                {/* 项目详情:来自该公司策展产品库的详细介绍 */}
+                {originProd?.description && originProd.description !== tourData.origin.note && (
+                  <p className="vo-desc">{originProd.description}</p>
+                )}
+                {/* 所在环节的背景讲解 */}
+                {NODES[tourData.origin.cityId] && (
+                  <p className="vo-ctx">
+                    📍 {NODES[tourData.origin.cityId].name} · {NODES[tourData.origin.cityId].levels.l0}
+                  </p>
+                )}
                 {tourCo && (
                   <button
                     className="vo-cta"
