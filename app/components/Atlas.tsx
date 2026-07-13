@@ -710,7 +710,8 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
                 {/* 所在环节的背景讲解 */}
                 {NODES[tourData.origin.cityId] && (
                   <p className="vo-ctx">
-                    📍 {NODES[tourData.origin.cityId].name} · {NODES[tourData.origin.cityId].levels.l0}
+                    📍 {NODES[tourData.origin.cityId].name} ·{" "}
+                    {NODES[tourData.origin.cityId].levels.l1 ?? NODES[tourData.origin.cityId].levels.l0}
                   </p>
                 )}
                 {tourCo && (

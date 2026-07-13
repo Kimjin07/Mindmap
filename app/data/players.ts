@@ -43,7 +43,7 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "alphafold", name: "AlphaFold", by: "DeepMind", note: "破解蛋白质折叠，拿下诺贝尔化学奖。" },
     { id: "isomorphic", name: "Isomorphic Labs", by: "Alphabet", note: "DeepMind 分拆，用 AI 做新药研发。" },
     { id: "recursion", name: "Recursion", by: "RXRX", note: "自动化湿实验室 × AI，规模化造药。" },
-    { id: "insilico", name: "Insilico Medicine", note: "端到端生成式制药，多条管线进临床。" },
+    { id: "insilico", name: "Insilico Medicine", note: "端到端生成式制药，多条管线进临床。", companyId: "insilico" },
     { id: "xaira_dd", name: "Xaira", by: "Xaira", note: "重金起步的 AI 药物发现公司。" },
     { id: "esm3", name: "ESM3", by: "EvolutionaryScale", note: "蛋白质大语言模型，能生成全新蛋白。" },
   ],
@@ -68,7 +68,7 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "agentforce", name: "Agentforce", by: "Salesforce", note: "在 CRM 里部署能干活的 AI 智能体。" },
     { id: "now_assist", name: "Now Assist", by: "ServiceNow", note: "把 AI 嵌入 IT/HR 工作流。" },
     { id: "aip", name: "AIP", by: "Palantir", note: "把大模型接到真实业务数据做决策。" },
-    { id: "glean", name: "Glean", note: "企业内部的 AI 搜索与工作助手。" },
+    { id: "glean", name: "Glean", note: "企业内部的 AI 搜索与工作助手。", companyId: "glean" },
     { id: "writer_ai", name: "Writer", by: "Writer", note: "面向大企业的全栈生成式 AI 平台。" },
     { id: "sierra_agent", name: "Sierra", by: "Sierra", note: "Bret Taylor 创立的企业 AI 客服智能体。" },
     { id: "decagon_agent", name: "Decagon", by: "Decagon", note: "自动化大规模客户支持的 AI 智能体。" },
@@ -268,11 +268,11 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "gemini_vlm", name: "Gemini 3.1（视觉）", by: "Google", note: "图文混合理解能力强。" },
     { id: "claude_vlm", name: "Claude", by: "Anthropic", note: "擅长读图表、截图与文档。" },
     { id: "llama_vlm", name: "Llama Vision", by: "Meta", note: "开源多模态版本。" },
-    { id: "llava", name: "LLaVA", note: "开源 VLM 研究的常用基线。" },
+    { id: "llava", name: "LLaVA", note: "开源 VLM 研究的常用基线。", companyId: "llava" },
   ],
   vla: [
     { id: "rt2", name: "RT-2", by: "DeepMind", note: "把网络知识迁移到机器人动作。" },
-    { id: "openvla", name: "OpenVLA", note: "开源视觉-语言-动作模型。" },
+    { id: "openvla", name: "OpenVLA", note: "开源视觉-语言-动作模型。", companyId: "openvla" },
     { id: "helix", name: "Helix", by: "Figure", note: "Figure 自研，驱动上半身精细操作。" },
     { id: "pi0", name: "π0", by: "Physical Intelligence", note: "跨本体通用机器人策略模型。" },
   ],
@@ -286,7 +286,7 @@ export const PLAYERS: Record<string, Player[]> = {
   ],
   dm: [
     { id: "sora", name: "Sora（已停用）", by: "OpenAI", note: "曾引爆文生视频；OpenAI 于 2026 停用独立产品，能力并入 ChatGPT。" },
-    { id: "midjourney", name: "Midjourney V8.1", note: "画质口碑最佳的文生图。" },
+    { id: "midjourney", name: "Midjourney V8.1", note: "画质口碑最佳的文生图。", companyId: "midjourney" },
     { id: "stable_diffusion", name: "Stable Diffusion 3.5", by: "Stability AI", note: "开源图像生成的基石。" },
     { id: "imagen", name: "Imagen / Veo 3.1", by: "Google", note: "谷歌的图像/视频生成模型，Veo 3.1 音画俱佳。" },
     { id: "firefly", name: "Firefly", by: "Adobe", note: "强调版权合规的商用生成。" },
@@ -306,13 +306,13 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "gpt_moe", name: "GPT (MoE)", by: "OpenAI", note: "前沿大模型普遍采用 MoE。" },
   ],
   ssm: [
-    { id: "mamba", name: "Mamba", note: "线性复杂度处理超长序列。" },
+    { id: "mamba", name: "Mamba", note: "线性复杂度处理超长序列。", companyId: "mamba" },
     { id: "jamba", name: "Jamba", by: "AI21", note: "Mamba + Transformer 混合架构。" },
   ],
   lbm: [
     { id: "tesla_lbm", name: "行为大模型", by: "Tesla", note: "把端到端思路用于驾驶决策。" },
     { id: "pi_foundation", name: "Foundation Models", by: "Physical Intelligence", note: "面向机器人的通用动作模型。" },
-    { id: "covariant", name: "Covariant", note: "仓储分拣的机器人基础模型。" },
+    { id: "covariant", name: "Covariant", note: "仓储分拣的机器人基础模型。", companyId: "covariant" },
   ],
   world_model: [
     { id: "worldlabs_wm", name: "Large World Model", by: "World Labs", note: "李飞飞：生成可交互 3D 世界。" },
@@ -450,7 +450,7 @@ export const PLAYERS: Record<string, Player[]> = {
   /* ---------- 基础设施层 ---------- */
   nvlink: [
     { id: "nvlink_p", name: "NVLink / NVSwitch", by: "NVIDIA", note: "GPU 之间的「高速公路」，护城河之一。" },
-    { id: "ualink_p", name: "UALink 联盟", note: "AMD/谷歌等联手挑战 NVLink 的开放标准。" },
+    { id: "ualink_p", name: "UALink 联盟", note: "AMD/谷歌等联手挑战 NVLink 的开放标准。", companyId: "ualink" },
   ],
   network: [
     { id: "tomahawk", name: "Tomahawk 交换芯片", by: "Broadcom", note: "数据中心交换的核心芯片。" },
