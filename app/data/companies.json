@@ -119,6 +119,13 @@
         "url": "https://www.bloomberg.com/news/articles/2026-07-07/microsoft-replaces-openai-anthropic-with-own-ai-in-some-apps"
       },
       {
+        "title": "微软成立 Frontier Company，25 亿美元押注企业 AI 落地",
+        "date": "2026-07-02",
+        "category": "业务",
+        "summary": "微软宣布成立子公司 Microsoft Frontier Company，投入 25 亿美元资金及 6000 名行业与工程专家，以驻场工程师模式帮企业将 Azure AI 工具转化为可量化业务成果；早期客户涵盖伦敦证券交易所集团（LSEG）等大型机构。",
+        "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/"
+      },
+      {
         "title": "FY2026 Q3 营收 829 亿美元,Azure 增 40%、AI 年化收入超 37…",
         "date": "2026-04",
         "category": "财报",
@@ -131,13 +138,6 @@
         "category": "重大",
         "summary": "微软宣布调整与 OpenAI 的合作条款,终止收入分成安排,任何云服务商均可承载 OpenAI 模型,双方关系从独占转向更开放的合作模式。",
         "url": "https://redmondmag.com/articles/2026/04/28/microsoft-openai-restructure-partnership.aspx"
-      },
-      {
-        "title": "自研 Maia 200 AI 加速器上线,单位成本 token 产出提升超 30%",
-        "date": "2026-04",
-        "category": "研发",
-        "summary": "微软披露自研 Maia 200 AI 加速器已在爱荷华与亚利桑那数据中心投入运行,每美元 token 产出提升逾 30%;Cobalt 服务器 CPU 已部署至近半数数据中心区域。",
-        "url": "https://news.microsoft.com/source/2026/04/29/microsoft-cloud-and-ai-strength-fuels-third-quarter-results/"
       }
     ]
   },
@@ -8516,18 +8516,18 @@
         "url": "https://www.anthropic.com/news/claude-microsoft-365-write-tools"
       },
       {
+        "title": "Anthropic 与 TeraWulf 签订 190 亿美元、20 年数据中心租约",
+        "date": "2026-07-06",
+        "category": "合同",
+        "summary": "Anthropic 与可持续算力公司 TeraWulf 签署 20 年数据中心长期租约，合同总额约 190 亿美元。基地位于肯塔基州 Hawesville，规划 IT 负载约 401MW，首批算力预计 2027 年下半年投产，2028 年初满载运行。",
+        "url": "https://siliconangle.com/2026/07/06/anthropic-inks-19b-ai-data-center-lease-terawulf/"
+      },
+      {
         "title": "Anthropic发布Sonnet 5并解禁Fable 5，两款旗舰模型全面上线",
         "date": "2026-07-01",
         "category": "产品",
         "summary": "Anthropic推出Claude Sonnet 5主打多步自主代理，并解除Fable 5因美国出口管制引发的18天封禁，两款模型即日在Claude.ai、Claude Code及全球合作平台恢复上线。",
         "url": "https://aibusiness.com/generative-ai/restrictions-fable-5-mythos-5-lifted-anthropic-launches-sonnet-5"
-      },
-      {
-        "title": "Claude Cowork 扩展至 Web 与移动端，云端会话跨设备续接",
-        "date": "2026-07",
-        "category": "产品",
-        "summary": "Anthropic 于 7 月 9 日将 Claude Cowork 推广至 Web 与移动端，任务在云端持久保存可从任意设备续接，后台无人值守运行；Max 订阅用户优先体验，使用限额至 8 月 5 日翻倍。",
-        "url": "https://9to5mac.com/2026/07/07/anthropic-expanding-claude-cowork-to-mobile-and-web-details-here/"
       }
     ]
   },
@@ -11287,6 +11287,13 @@
     ],
     "news": [
       {
+        "title": "ElevenLabs 洽谈 220 亿美元估值二次售股，估值 5 个月翻番",
+        "date": "2026-07-02",
+        "category": "融资",
+        "summary": "据彭博报道，ElevenLabs 正与投资者就员工股份二次售股（Tender Offer）进行初步洽谈，目标估值约 220 亿美元，较今年 2 月 D 轮 110 亿美元估值翻番，交易预计于 9 月前完成。公司年化收入（ARR）已达 5 亿美元。",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-02/elevenlabs-in-talks-for-tender-offer-at-22-billion-valuation"
+      },
+      {
         "title": "ElevenReader 升级为有声书平台,20 万本人声书目对标 Audible",
         "date": "2026-05",
         "category": "产品",
@@ -11306,13 +11313,6 @@
         "category": "落地",
         "summary": "Revolut 在英国和欧洲为超 400 万客户部署 ElevenLabs Agents 客服,解决时长缩短 8 倍、支持 30 多种语言;Klarna 随后为 3500 万美国用户上线其语音 AI 一线电话客服。",
         "url": "https://texttolab.com/blog/elevenlabs-news"
-      },
-      {
-        "title": "完成 5 亿美元 D 轮、估值 110 亿美元;ARR 突破 5 亿美元",
-        "date": "2026",
-        "category": "融资",
-        "summary": "由红杉领投,英伟达、Salesforce、贝莱德等参投;年化营收 4 月突破 5 亿美元(2025 年底为 3.5 亿),正洽谈约 220 亿美元的二级市场估值。",
-        "url": "https://elevenlabs.io/blog/series-d"
       }
     ]
   },
