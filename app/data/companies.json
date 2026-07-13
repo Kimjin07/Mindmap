@@ -17816,6 +17816,9 @@
     ],
     "partners": [
       "sensetime"
+    ],
+    "keyCustomers": [
+      "sensetime"
     ]
   },
   "ubtech": {
@@ -19067,6 +19070,9 @@
     "suppliers": [
       "amzn",
       "googl"
+    ],
+    "partners": [
+      "oracle"
     ]
   },
   "baseten": {
@@ -22760,6 +22766,9 @@
         "category": "进展",
         "summary": "作为中国以外全球最大的稀土生产商，Lynas 正在美国等地建设加工产能，在机器人与电气化拉动磁材需求、地缘供应链博弈加剧的背景下战略地位持续上升。"
       }
+    ],
+    "keyCustomers": [
+      "shinetsu"
     ]
   },
   "jlmag": {
@@ -24867,6 +24876,10 @@
     "suppliers": [
       "anthropic",
       "googl"
+    ],
+    "partners": [
+      "anthropic",
+      "googl"
     ]
   },
   "astera": {
@@ -25468,6 +25481,9 @@
     "partners": [
       "cohere",
       "hpe"
+    ],
+    "suppliers": [
+      "cerebras"
     ]
   },
   "moveworks": {
@@ -25937,6 +25953,9 @@
         "category": "进展",
         "summary": "Genmo 将 Mochi 权重开放,供研究者与开发者自由下载、微调和本地部署,被视为视频界的 Stable Diffusion,为开源视频社区和下游应用提供可自主掌控的基础模型。"
       }
+    ],
+    "partners": [
+      "huggingface"
     ]
   },
   "higgsfield": {
@@ -26450,6 +26469,9 @@
       }
     ],
     "suppliers": [
+      "nvda"
+    ],
+    "partners": [
       "nvda"
     ]
   },
@@ -27243,6 +27265,9 @@
     ],
     "partners": [
       "pltr"
+    ],
+    "suppliers": [
+      "pltr"
     ]
   },
   "ssi": {
@@ -27736,6 +27761,9 @@
     "suppliers": [
       "amzn",
       "googl"
+    ],
+    "partners": [
+      "amzn"
     ]
   },
   "dmatrix": {

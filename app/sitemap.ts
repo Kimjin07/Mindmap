@@ -1,9 +1,15 @@
 import type { MetadataRoute } from "next";
 import { allCompanyIds } from "./data/companies";
 
-/** 站点地图:首页 + 地图 + 全部 354 个公司页(部署后设 NEXT_PUBLIC_SITE_URL)。 */
+/** 站点地图:首页 + 地图 + 全部 354 个公司页。
+ * 域名解析优先级:NEXT_PUBLIC_SITE_URL(自定义域)→ Vercel 生产域名(自动)→ 本地。
+ */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  const base =
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "http://localhost:3000");
   return [
     { url: `${base}/`, changeFrequency: "daily", priority: 1 },
     { url: `${base}/map`, changeFrequency: "daily", priority: 0.9 },
