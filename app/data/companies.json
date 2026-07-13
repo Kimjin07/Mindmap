@@ -724,11 +724,11 @@
         "url": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html"
       },
       {
-        "title": "推出首个专有大模型 Muse Spark,AI 资本开支近乎翻倍",
-        "date": "2026-04",
+        "title": "Meta 发布自研图像生成模型 Muse Image，Arena 文生图基准排名第二",
+        "date": "2026-07-07",
         "category": "产品",
-        "summary": "由从 Scale AI 加入的首席 AI 官 Alexandr Wang 领衔的 Meta 超级智能实验室打造,是 Meta 首次转向专有基础模型(而非严格开源);2026 年 AI 资本开支达 1150–1350 亿美元,近去年两倍。",
-        "url": "https://ai.meta.com/blog/"
+        "summary": "Meta 超级智能实验室 7 月 7 日推出旗下首款图像生成模型 Muse Image，代理式架构结合网页搜索与代码执行优化输出，免费集成至 Meta AI App、Instagram Stories 及 WhatsApp，Arena 文生图综合基准排名第二仅次于 ChatGPT；Meta 同步宣布 Muse Video 正在开发中。",
+        "url": "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/"
       }
     ]
   },
