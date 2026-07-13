@@ -269,6 +269,13 @@
         "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a"
       },
       {
+        "title": "谷歌搜索全面切换至 Gemini 3.5 Flash，终结\"蓝色链接\"25 年历史",
+        "date": "2026-07-10",
+        "category": "产品",
+        "summary": "谷歌将 Search 全面切换至 Gemini 3.5 Flash 驱动，以 AI 生成摘要和智能体交互取代传统\"十条蓝色链接\"；对话式 AI Mode 月活用户突破 10 亿，查询量连续多季翻倍，为 Search 25 年来最大变革。",
+        "url": "https://tech.yahoo.com/ai/gemini/articles/google-ends-10-blue-links-112000624.html"
+      },
+      {
         "title": "Gemini 3.5 Flash 发布;旗舰 3.5 Pro 推迟至 7 月重构",
         "date": "2026-07",
         "category": "产品",
@@ -281,13 +288,6 @@
         "category": "财报",
         "summary": "Alphabet 2026 年一季度营收 1099 亿美元,同比增长 22%,净利润增 81%;谷歌云营收增长 63% 首次突破 200 亿美元,积压订单近乎环比翻倍至逾 4600 亿美元。",
         "url": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html"
-      },
-      {
-        "title": "上调 2026 年资本开支指引至 1800-1900 亿美元",
-        "date": "2026-04",
-        "category": "业务",
-        "summary": "因算力「近期受限」、云需求无法完全满足,Alphabet 将 2026 年资本开支指引从 1750-1850 亿美元上调至 1800-1900 亿美元,继续加码 AI 基础设施。",
-        "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q1-2026/"
       }
     ]
   },
@@ -4532,6 +4532,13 @@
     ],
     "news": [
       {
+        "title": "三星李在镕赴美拟月底会见黄仁勋，深化英伟达 AI 芯片供应链合作",
+        "date": "2026-07-09",
+        "category": "业务",
+        "summary": "据报道，三星集团会长李在镕计划赴美硅谷，与英伟达 CEO 黄仁勋会面，讨论 HBM4 认证进展及 AI 芯片供应链扩大合作；消息带动三星股价单日涨逾 5%。",
+        "url": "https://www.investing.com/news/stock-market-news/samsungs-lee-seeks-to-meet-nvidias-huang-by-endjuly-report-4785205"
+      },
+      {
         "title": "三星 Q2 初步业绩:营业利润 89.4 万亿韩元,同比增逾 18 倍创纪录",
         "date": "2026-07-07",
         "category": "财报",
@@ -4551,13 +4558,6 @@
         "category": "重大",
         "summary": "三星集团承诺国内投入 1000 万亿韩元(约 6480 亿美元),与 SK 海力士联合达 1350 万亿韩元,用于 AI 代工厂及数据中心建设,创韩国最大科技投资纪录。",
         "url": "https://www.bloomberg.com/news/articles/2026-06-28/samsung-sk-reportedly-to-invest-1-3-trillion-over-10-years"
-      },
-      {
-        "title": "HBM4 量产 4 个月销售额破 10 亿美元,2026 年产能售罄",
-        "date": "2026-06",
-        "category": "业务",
-        "summary": "三星 2026 年 2 月启动 HBM4 量产,凭借良率与 4nm 基础裸片产能提升,量产仅 4 个月销售额即突破 10 亿美元,成为业内首个达到该规模的 HBM4 产品,全年产能已全部售罄。",
-        "url": "https://www.trendforce.com/news/2026/06/23/news-memory-giants-split-on-hbm4-strategy-samsung-hbm4-sales-reportedly-tops-1b-sk-hynix-slows-ramp/"
       }
     ]
   },
