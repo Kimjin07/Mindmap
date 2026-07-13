@@ -8395,11 +8395,11 @@
         "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html"
       },
       {
-        "title": "与博通联合发布首款自研 AI 芯片「Jalapeño」",
-        "date": "2026-06",
-        "category": "研发",
-        "summary": "OpenAI 与博通公布定制芯片合作的首个成果 Jalapeño,目标 2026 年底前完成首批部署并在后续数年扩大规模,标志其「构建全栈」战略落地。",
-        "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"
+        "title": "OpenAI 秘密提交 IPO 上市申请，高盛主承销，估值 8520 亿美元",
+        "date": "2026-06-08",
+        "category": "融资",
+        "summary": "OpenAI 秘密向 SEC 提交 S-1，目标 2026 年秋 IPO、估值约 8500 亿美元，高盛等主承销；公司月入 20 亿美元但尚未盈利。",
+        "url": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html"
       }
     ]
   },
@@ -8510,6 +8510,13 @@
     },
     "news": [
       {
+        "title": "空军备忘录：承包商须 9 月 1 日前清除 Anthropic 全部产品",
+        "date": "2026-07-09",
+        "category": "业务",
+        "summary": "美空军发备忘录要求承包商 9 月 1 日前清除 Anthropic 全部产品；Anthropic 因拒绝武器化而被国防部列为供应链风险，联邦法院驳回其暂停申请。",
+        "url": "https://breakingdefense.com/2026/07/air-force-pushing-contractors-to-purge-anthropic-by-sept-1-memo/"
+      },
+      {
         "title": "Anthropic 发布政府版 Claude 公测，含 FedRAMP 高级安全认证",
         "date": "2026-07-07",
         "category": "产品",
@@ -8529,13 +8536,6 @@
         "category": "合同",
         "summary": "Anthropic 与可持续算力公司 TeraWulf 签署 20 年数据中心长期租约，合同总额约 190 亿美元。基地位于肯塔基州 Hawesville，规划 IT 负载约 401MW，首批算力预计 2027 年下半年投产，2028 年初满载运行。",
         "url": "https://siliconangle.com/2026/07/06/anthropic-inks-19b-ai-data-center-lease-terawulf/"
-      },
-      {
-        "title": "Anthropic发布Sonnet 5并解禁Fable 5，两款旗舰模型全面上线",
-        "date": "2026-07-01",
-        "category": "产品",
-        "summary": "Anthropic推出Claude Sonnet 5主打多步自主代理，并解除Fable 5因美国出口管制引发的18天封禁，两款模型即日在Claude.ai、Claude Code及全球合作平台恢复上线。",
-        "url": "https://aibusiness.com/generative-ai/restrictions-fable-5-mythos-5-lifted-anthropic-launches-sonnet-5"
       }
     ]
   },
