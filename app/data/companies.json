@@ -30413,6 +30413,13 @@
     },
     "news": [
       {
+        "title": "苹果低调收购可观测性初创 SigScalr，增强云端运维调试能力",
+        "date": "2026-07-13",
+        "category": "业务",
+        "summary": "苹果通过欧盟 DMA 通知披露了 3 月对 SigScalr 的收购，获其 SigLens 开源日志平台技术与团队，将用于强化云服务可观测性与调试能力。",
+        "url": "https://9to5mac.com/2026/07/13/apple-acquires-observability-startup-sigscalr/"
+      },
+      {
         "title": "苹果重构Mac芯片路线图，跳过M6高端型号加速AI专项M7系列",
         "date": "2026-07-12",
         "category": "产品",
@@ -30432,13 +30439,6 @@
         "category": "重大",
         "summary": "苹果 7 月 11 日在加州北区联邦法院起诉 OpenAI 及其硬件子公司 io Products，指控其系统性招募逾 400 名苹果前员工带走芯片架构与端侧 AI 机密；点名 OpenAI 首席硬件官 Tang Tan 要求候选人面试时携带苹果内部零件。",
         "url": "https://www.bloomberg.com/news/articles/2026-07-10/apple-sues-openai-for-trade-secret-theft-in-blockbuster-case"
-      },
-      {
-        "title": "WWDC 2026 发布全新 Siri AI,支持跨设备对话式交互",
-        "date": "2026-06",
-        "category": "产品",
-        "summary": "苹果在 WWDC 2026 正式发布重构后的 Siri AI,提供独立应用与类 ChatGPT 的对话体验,可结合用户邮件、短信等个人信息完成任务,但未承诺具体上线日期,发布次日股价一度下跌逾 3%。",
-        "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
       }
     ]
   },
