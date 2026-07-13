@@ -702,6 +702,13 @@
     },
     "news": [
       {
+        "title": "Meta 发布 Muse Spark 1.1，开放 API 主攻代码与 Agent 任务",
+        "date": "2026-07-09",
+        "category": "产品",
+        "summary": "Meta 于 7 月 9 日发布 Muse Spark 1.1，代码生成与 Agent 能力大幅提升；同步推出 Meta Model API 开放预览，$1.25/$4.25 per Mtok，兼容 OpenAI/Anthropic SDK，首度以 API 形式进军开发者市场。",
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+      },
+      {
         "title": "Meta 自研 Iris AI 芯片 9 月量产，2027 年算力目标翻倍至 14GW",
         "date": "2026-07-09",
         "category": "产品",
@@ -721,13 +728,6 @@
         "category": "产品",
         "summary": "由从 Scale AI 加入的首席 AI 官 Alexandr Wang 领衔的 Meta 超级智能实验室打造,是 Meta 首次转向专有基础模型(而非严格开源);2026 年 AI 资本开支达 1150–1350 亿美元,近去年两倍。",
         "url": "https://ai.meta.com/blog/"
-      },
-      {
-        "title": "Q1 2026 营收 563 亿美元增 33%,净利 268 亿超预期",
-        "date": "2026-04",
-        "category": "财报",
-        "summary": "Meta 一季度营收 563.1 亿美元,同比增长 33%,EPS 10.44 美元远超市场预期,净利润 267.7 亿美元;Llama 4 在广告排序中的应用成为增长亮点。",
-        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx"
       }
     ]
   },
@@ -8501,6 +8501,13 @@
     },
     "news": [
       {
+        "title": "Anthropic 为 Claude 企业版新增 M365 写权限，可代发邮件管理日历",
+        "date": "2026-07-07",
+        "category": "落地",
+        "summary": "7 月 7 日 Anthropic 将 Claude 企业版 M365 连接器从只读升级为读写，可代发邮件、管理日历事件，并在 OneDrive/SharePoint 中创建更新文件，显著扩展企业 AI 办公落地能力。",
+        "url": "https://www.anthropic.com/news/claude-microsoft-365-write-tools"
+      },
+      {
         "title": "Anthropic发布Sonnet 5并解禁Fable 5，两款旗舰模型全面上线",
         "date": "2026-07-01",
         "category": "产品",
@@ -8520,13 +8527,6 @@
         "category": "重大",
         "summary": "Anthropic 于 6 月 1 日向 SEC 提交 S-1 草案,估值约 9650 亿美元,与 OpenAI、SpaceX 共同掀起 2026 年最大科技 IPO 浪潮。",
         "url": "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html"
-      },
-      {
-        "title": "发布 Claude Science,IPO 前拓展医药科研企业业务",
-        "date": "2026-06",
-        "category": "产品",
-        "summary": "Anthropic 推出面向科学研究的 Claude Science,瞄准制药等行业收入,被视为其 IPO 前扩大企业业务版图的重要一步。",
-        "url": "https://thetechportal.com/2026/06/30/anthropic-launches-claude-science-to-expand-enterprise-business-and-pharma-revenue-ahead-of-ipo/"
       }
     ]
   },
@@ -11397,6 +11397,13 @@
     },
     "news": [
       {
+        "title": "Runway 推出 Dev 企业 API 平台，Adobe 等头部企业已接入生产",
+        "date": "2026-07-08",
+        "category": "产品",
+        "summary": "7 月 8 日 Runway 发布 Runway Dev API 平台，整合旗下 Gen-4.5 等视频图像音频模型及第三方模型，Adobe、ElevenLabs、Shutterstock 等已在生产中使用，首次以 API 模式开拓企业市场。",
+        "url": "https://runwayml.com/news/introducing-runway-dev"
+      },
+      {
         "title": "设 1000 万美元基金扩展世界模型生态,Q2 ARR 增 4000 万美元",
         "date": "2026-04",
         "category": "业务",
@@ -11415,13 +11422,6 @@
         "date": "2026",
         "category": "产品",
         "summary": "Runway 的 Gen-2、Gen-3、Gen-4 系列模型不断刷新 AI 视频质量上限,配合抠像、动捕、特效等专业创作工具打造「AI 时代的影视创作平台」;其技术曾用于奥斯卡获奖影片《瞬息全宇宙》,并成立 Runway Studios 探索 AI 影视内容。"
-      },
-      {
-        "title": "Gen-4.5 视频模型多项基准超越 Google 与 OpenAI",
-        "date": "2026",
-        "category": "产品",
-        "summary": "Runway 发布 Gen-4.5 视频生成模型,支持原生音频、长视频多镜头生成、角色一致性与高级编辑,在多项基准上超越 Google 与 OpenAI 的视频生成产品,显著提升行业口碑。",
-        "url": "https://stocktwits.com/news-articles/markets/equity/ai-startup-runway-outshines-industry-giants-with-gen-4-5-video-ai/cLI7WZNREiY"
       }
     ]
   },
