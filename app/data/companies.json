@@ -703,6 +703,13 @@
     },
     "news": [
       {
+        "title": "Meta 路易斯安那 Hyperion 超算集群扩至 5GW，总投资超 500 亿美元",
+        "date": "2026-07-13",
+        "category": "重大",
+        "summary": "Meta 将路易斯安那 Hyperion 数据中心扩至 5GW，总投资从 270 亿升至逾 500 亿美元，2032 年完工，将成全球最大 AI 数据中心之一。",
+        "url": "https://www.cnbc.com/2026/07/13/meta-louisiana-data-center-investment-reaches-50-billion-amid-ai-push.html"
+      },
+      {
         "title": "扎克伯格证实 Meta Compute 云业务将出租 AI 算力，与三大云厂正面竞争",
         "date": "2026-07-09",
         "category": "业务",
@@ -722,13 +729,6 @@
         "category": "产品",
         "summary": "据路透社内部备忘录，Meta 将于 9 月启动 Iris AI 芯片量产，计划 2026 年部署 7GW、2027 年翻倍至 14GW，以降低对英伟达和 AMD 的依赖。",
         "url": "https://finance.yahoo.com/technology/ai/articles/meta-start-production-iris-ai-122141801.html"
-      },
-      {
-        "title": "Meta 在加拿大阿尔伯塔投资 100 亿美元建 1GW 数据中心",
-        "date": "2026-07-08",
-        "category": "业务",
-        "summary": "Meta 宣布斥资约 100 亿美元在加拿大阿尔伯塔省建设首个加拿大 1 吉瓦数据中心,为其境外最大单体数据中心;同期自建 932MW 天然气电站确保稳定供电,并采用闭环液冷系统节约水资源。",
-        "url": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html"
       }
     ]
   },
