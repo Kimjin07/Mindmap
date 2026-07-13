@@ -2051,6 +2051,55 @@ body {
   color: var(--ink-dim);
 }
 
+/* ---- 项目详情抽屉 ---- */
+.prod-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.prod-head-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.prod-name {
+  margin: 0;
+  font-size: 20px;
+  color: var(--ink-strong);
+}
+.prod-by {
+  font-size: 12px;
+  color: var(--gold-line);
+}
+.prod-note {
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+.prod-desc {
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--ink-strong);
+  margin: 0;
+  border-top: 1px dashed rgba(var(--gold-rgb), 0.25);
+  padding-top: 10px;
+}
+.prod-ctx {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin: 0 0 6px;
+}
+.prod-cta {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
 /* ---- 地图右侧 AI 快讯面板 ---- */
 .atlas-news-tab {
   position: absolute;

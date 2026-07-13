@@ -179,6 +179,27 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
     })();
     return () => { stopped = true; };
   }, [panelCo]);
+  // 项目详情抽屉:每个图钉项目都有自己的窗口(公司主页是其中的下一步入口)
+  const [panelProd, setPanelProd] = useState<string | null>(null);
+  const [prodCo, setProdCo] = useState<Company | null>(null);
+  useEffect(() => {
+    setProdCo(null);
+    if (!panelProd) return;
+    const cid = PRODUCTS[panelProd]?.companyId;
+    if (!cid) return;
+    let stopped = false;
+    (async () => {
+      try {
+        const r = await fetch(`/api/company/${encodeURIComponent(cid)}`);
+        if (r.ok) {
+          const j = (await r.json()) as Company;
+          if (!stopped) setProdCo(j);
+        }
+      } catch {}
+    })();
+    return () => { stopped = true; };
+  }, [panelProd]);
+
   // 巡游「当前项目」的详情:从公司策展产品库匹配详细介绍(类别/描述/状态)
   const [originProd, setOriginProd] = useState<CompanyProduct | null>(null);
   const tourOriginId = tour?.productId ?? null;
@@ -454,7 +475,14 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
   /** 在左侧抽屉里打开公司详情（不跳页）。 */
   const openCompanyPanel = (id?: string) => {
     if (!id || !SLIM[id]) return;
+    setPanelProd(null);
     setPanelCo(id);
+  };
+  /** 打开项目详情抽屉(与公司抽屉互斥)。 */
+  const openProductPanel = (pid?: string) => {
+    if (!pid || !PRODUCTS[pid]) return;
+    setPanelCo(null);
+    setPanelProd(pid);
   };
   /** 抽屉里点「地图环节」→ 让地图飞过去定位（城市则进城）。 */
   const gotoNode = (nodeId: string) => {
@@ -714,14 +742,12 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
                     {NODES[tourData.origin.cityId].levels.l1 ?? NODES[tourData.origin.cityId].levels.l0}
                   </p>
                 )}
-                {tourCo && (
-                  <button
-                    className="vo-cta"
-                    onClick={() => openCompanyPanel(tourData.origin.companyId)}
-                  >
-                    查看 {tourCo.name} 主页 →
-                  </button>
-                )}
+                <button
+                  className="vo-cta"
+                  onClick={() => openProductPanel(tourData.origin.id)}
+                >
+                  查看「{tourData.origin.name}」详情 →
+                </button>
               </div>
             </div>
             {tourData.downCols.map((col, ci) => (
@@ -798,7 +824,87 @@ export default function Atlas({ focusLayer }: { focusLayer?: string }) {
       )}
 
       {/* 左侧公司详情抽屉（Google-Maps 式，不跳页） */}
-      {panelCo && SLIM[panelCo] && (
+      {/* 项目详情抽屉:每个图钉项目的专属窗口(公司主页在最底部作为下一步) */}
+      {panelProd && PRODUCTS[panelProd] && (() => {
+        const pr = PRODUCTS[panelProd]!;
+        const node = NODES[pr.cityId];
+        const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9一-鿿]/g, "");
+        const curated = prodCo?.products?.find((p) => {
+          const a = norm(p.name), b = norm(pr.name);
+          return a && b && (a.includes(b) || b.includes(a));
+        });
+        const foot = pr.companyId
+          ? Object.values(PRODUCTS).filter((e) => e.companyId === pr.companyId && e.id !== pr.id).slice(0, 8)
+          : [];
+        const coName = pr.companyId ? SLIM[pr.companyId]?.name : pr.by;
+        return (
+          <aside className="atlas-panel" onPointerDown={(e) => e.stopPropagation()}>
+            <div className="atlas-panel-bar">
+              <button className="atlas-back" onClick={() => setPanelProd(null)}>← 关闭</button>
+            </div>
+            <div className="atlas-panel-body">
+              <section className="company-card">
+                <div className="prod-head">
+                  <CompanyLogo companyId={pr.companyId} size={44} />
+                  <div className="prod-head-text">
+                    <h2 className="prod-name">{pr.name}</h2>
+                    <span className="prod-by">
+                      {coName ? `出品 · ${coName}` : ""}
+                      {curated?.category ? ` · ${curated.category}` : ""}
+                      {curated?.status ? ` · ${curated.status}` : ""}
+                    </span>
+                  </div>
+                </div>
+                {pr.note && <p className="prod-note">{pr.note}</p>}
+                {curated?.description && curated.description !== pr.note && (
+                  <p className="prod-desc">{curated.description}</p>
+                )}
+              </section>
+              {node && (
+                <section className="company-card">
+                  <h2>所在环节 · {node.name}</h2>
+                  <p className="prod-ctx">{node.levels.l1 ?? node.levels.l0}</p>
+                  {node.levels.l2 && (
+                    <details className="atlas-card-deep">
+                      <summary>深入了解 ▾</summary>
+                      <p>{node.levels.l2}</p>
+                    </details>
+                  )}
+                </section>
+              )}
+              {foot.length > 0 && (
+                <section className="company-card">
+                  <h2>同公司足迹</h2>
+                  <div className="chain-chips">
+                    {foot.map((s) => (
+                      <button
+                        key={s.id}
+                        type="button"
+                        className="chain-chip"
+                        onClick={() => { setPanelProd(null); hopTo(s.id); }}
+                      >
+                        {s.name}
+                        <span>{NODES[s.cityId]?.name}</span>
+                      </button>
+                    ))}
+                  </div>
+                </section>
+              )}
+              {pr.companyId && SLIM[pr.companyId] && (
+                <button
+                  type="button"
+                  className="cp-btn primary prod-cta"
+                  onClick={() => openCompanyPanel(pr.companyId)}
+                >
+                  前往 {SLIM[pr.companyId].name} 主页 →
+                </button>
+              )}
+            </div>
+          </aside>
+        );
+      })()}
+
+      {panelCo && !panelProd && SLIM[panelCo] && (
         <aside
           className="atlas-panel"
           onPointerDown={(e) => e.stopPropagation()}
