@@ -702,6 +702,13 @@
     },
     "news": [
       {
+        "title": "Meta 发布 Muse Image，首款自研图像生成模型上线 Meta AI",
+        "date": "2026-07-07",
+        "category": "产品",
+        "summary": "Meta Superintelligence Labs 7 月 7 日推出首款图像生成模型 Muse Image，免费集成至 Meta AI、Instagram 与 WhatsApp，支持从文字提示生成图像及多图融合创作，并将驱动 Advantage+ 广告创意工具。",
+        "url": "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/"
+      },
+      {
         "title": "推出首个专有大模型 Muse Spark,AI 资本开支近乎翻倍",
         "date": "2026-04",
         "category": "产品",
@@ -721,13 +728,6 @@
         "category": "业务",
         "summary": "据报道 Meta 计划对外出售其 AI 算力资源,将自建的大规模数据中心能力商业化,直接切入 AWS、Azure 与谷歌云所在的云计算市场。",
         "url": "https://finance.yahoo.com/technology/ai/articles/meta-wants-sell-ai-compute-171055420.html"
-      },
-      {
-        "title": "多吉瓦级集群 Prometheus 于 2026 年上线,Hyperion 规划 5GW",
-        "date": "2026",
-        "category": "落地",
-        "summary": "Meta 的多吉瓦级 AI 数据中心集群 Prometheus 计划于 2026 年投入运行,另一集群 Hyperion 将在数年内扩展至 5 吉瓦,支撑其「个人超级智能」战略。",
-        "url": "https://www.datacenterdynamics.com/en/news/meta-delivers-blowout-earnings-says-it-will-ramp-ai-data-center-investment-significantly-in-2026/"
       }
     ]
   },
