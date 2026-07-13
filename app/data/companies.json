@@ -1320,6 +1320,13 @@
     },
     "news": [
       {
+        "title": "台积电上调先进制程代工报价5%-10%，涵盖3nm至7nm全线节点",
+        "date": "2026-07-13",
+        "category": "业务",
+        "summary": "台积电向英伟达、苹果、AMD等客户通知涨价，3nm至7nm先进制程报价上调5%-10%，覆盖公司74%晶圆收入；AI算力需求旺盛致先进产能供不应求，代工行业进入供方定价新阶段。",
+        "url": "https://www.gurufocus.com/news/8955671/tsm-samsungs-price-hike-reflects-shifting-semiconductor-market-dynamics"
+      },
+      {
         "title": "台积电6月营收145亿美元，同比+68%；上半年约750亿，Q2符合预期",
         "date": "2026-07-13",
         "category": "财报",
@@ -1339,13 +1346,6 @@
         "category": "财报",
         "summary": "台积电 2026 年一季度营收 11341 亿新台币、净利润 5724.8 亿新台币;董事会批准向 TSMC Arizona 注资至多 200 亿美元,加速美国产能扩张,亚利桑那二厂已建成、2026 年装机。",
         "url": "https://www.stocktitan.net/sec-filings/TSM/6-k-taiwan-semiconductor-manufacturing-co-ltd-current-report-foreign--05f713e6aa54.html"
-      },
-      {
-        "title": "2026 年资本开支上调至 520-560 亿美元,最多增 40%",
-        "date": "2026-01",
-        "category": "业务",
-        "summary": "台积电宣布 2026 年资本开支计划为 520 亿-560 亿美元,较 2025 年最多增加 40%,其中 70-80% 投向 N3、N2 及更先进制程,并规划亚利桑那第四厂与首座先进封装厂。",
-        "url": "https://www.datacenterdynamics.com/en/news/tsmc-announces-2026-capex-spend-of-56bn-after-posting-eighth-consecutive-quarter-of-growth/"
       }
     ]
   },
@@ -4582,6 +4582,13 @@
     ],
     "news": [
       {
+        "title": "三星代工部门将4nm/5nm报价上调约15%，AI需求推动进入新定价周期",
+        "date": "2026-07-09",
+        "category": "业务",
+        "summary": "三星晶圆代工部门将4nm与5nm先进制程报价上调约15%，主要适用于新增客户；受AI芯片订单激增驱动，先进制程产能持续供不应求，三星同步台积电涨价节奏重构代工业务利润结构。",
+        "url": "https://wccftech.com/samsung-hikes-5nm-and-4nm-wafer-prices-15-breaking-from-tsmcs-broad-increases-as-ai-demand-rewrites-the-rules-report/"
+      },
+      {
         "title": "三星李在镕赴美拟月底会见黄仁勋，深化英伟达 AI 芯片供应链合作",
         "date": "2026-07-09",
         "category": "业务",
@@ -4601,13 +4608,6 @@
         "category": "重大",
         "summary": "韩国政府 7 月 2 日公布总规模 392 万亿韩元半导体振兴计划,三星集团承诺独力投入 140 万亿韩元,包括在忠清道新建 HBM 专属晶圆及先进封装产线,以加速缩小与 SK 海力士在 AI 存储领域的竞争差距。",
         "url": "https://letsdatascience.com/news/samsung-and-sk-hynix-build-hbm-packaging-fabs-f9069af3"
-      },
-      {
-        "title": "三星集团承诺国内投资 1000 万亿韩元,参与韩国最大 AI 芯片投资计划",
-        "date": "2026-06-29",
-        "category": "重大",
-        "summary": "三星集团承诺国内投入 1000 万亿韩元(约 6480 亿美元),与 SK 海力士联合达 1350 万亿韩元,用于 AI 代工厂及数据中心建设,创韩国最大科技投资纪录。",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-28/samsung-sk-reportedly-to-invest-1-3-trillion-over-10-years"
       }
     ]
   },
