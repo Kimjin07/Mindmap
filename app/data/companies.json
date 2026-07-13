@@ -119,6 +119,13 @@
         "url": "https://www.bloomberg.com/news/articles/2026-07-07/microsoft-replaces-openai-anthropic-with-own-ai-in-some-apps"
       },
       {
+        "title": "微软裁员4800人占全球员工2.1%，Xbox部门启动大规模重组",
+        "date": "2026-07-06",
+        "category": "业务",
+        "summary": "微软裁员约4800人，Xbox全年裁员累计约3200人（约占20%）并剥离四家游戏工作室；公司称此举旨在控制运营开支应对AI转型，同期加码AI基础设施。",
+        "url": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+      },
+      {
         "title": "微软成立 Frontier Company，25 亿美元押注企业 AI 落地",
         "date": "2026-07-02",
         "category": "业务",
@@ -131,13 +138,6 @@
         "category": "财报",
         "summary": "微软 2026 财年三季度营收 828.9 亿美元,同比增 18.3%,摊薄 EPS 4.27 美元;Azure 及其他云服务收入增长 40%,AI 年化收入超过 370 亿美元,业绩全面超预期。",
         "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html"
-      },
-      {
-        "title": "修订与 OpenAI 关系:终止收入分成,放开云独占",
-        "date": "2026-04",
-        "category": "重大",
-        "summary": "微软宣布调整与 OpenAI 的合作条款,终止收入分成安排,任何云服务商均可承载 OpenAI 模型,双方关系从独占转向更开放的合作模式。",
-        "url": "https://redmondmag.com/articles/2026/04/28/microsoft-openai-restructure-partnership.aspx"
       }
     ]
   },
@@ -2585,6 +2585,13 @@
     },
     "news": [
       {
+        "title": "中国AI拟人化新规7月15日生效，阿里Qwen关停用户自建智能体",
+        "date": "2026-07-06",
+        "category": "重大",
+        "summary": "受《AI拟人化交互服务管理暂行办法》约束，阿里Qwen与字节Doubao同步于7月15日下线用户自建AI智能体，新规禁止AI引发情感依附并限制私人对话被用于模型训练。",
+        "url": "https://technode.com/2026/07/06/bytedances-doubao-and-alibabas-qwen-to-shut-down-ai-agent-features-on-july-15/"
+      },
+      {
         "title": "2026 财年营收首破 1 万亿元,云业务增长 40%",
         "date": "2026-05",
         "category": "财报",
@@ -2604,12 +2611,6 @@
         "category": "研发",
         "summary": "阿里平头哥自研 GPU 芯片实现量产,截至 2026 年 2 月累计交付 47 万颗,服务互联网、金融、自动驾驶等领域超 400 家企业客户。",
         "url": "https://finance.sina.com.cn/jjxw/2026-05-21/doc-inhyqiye9524183.shtml"
-      },
-      {
-        "title": "通义千问(Qwen)开源生态全球领先,加码 AI 基建",
-        "date": "2026",
-        "category": "业务",
-        "summary": "Qwen 系列开源模型在全球社区影响力居前;阿里云宣布大规模 AI 基础设施投资计划,并投资月之暗面、智谱、MiniMax 等大模型公司。"
       }
     ]
   },
@@ -10087,6 +10088,13 @@
     },
     "news": [
       {
+        "title": "Mistral新旗舰稀疏MoE模型进入伙伴早测，将以Apache 2.0开源",
+        "date": "2026-07-06",
+        "category": "产品",
+        "summary": "Mistral CEO Mensch确认新款「fat but sparse」混合专家模型进入合作伙伴早测，模型将以Apache 2.0协议开源，目标拉近与闭源前沿模型的能力差距。",
+        "url": "https://www.techtimes.com/articles/319798/20260706/mistral-ai-targets-frontier-gap-open-weight-model-entering-july-early-access.htm"
+      },
+      {
         "title": "Mistral 发布 8B 机器人导航模型,单目摄像头成功率超最优多摄方案",
         "date": "2026-07",
         "category": "产品",
@@ -10106,13 +10114,6 @@
         "category": "产品",
         "summary": "Mistral 推出商用文档识别模型 OCR 4,提供边界框、置信度评分、块分类等能力,支持多平台分发与企业自托管部署,把文档抽取升级为完整的企业级 AI 产品线。",
         "url": "https://venturebeat.com/data/mistral-launches-ocr-4-turning-document-extraction-into-a-full-enterprise-ai-play"
-      },
-      {
-        "title": "发布 Medium 3.5 模型,2026 年营收目标 10 亿欧元",
-        "date": "2026-04",
-        "category": "业务",
-        "summary": "Mistral 于 4 月发布 1280 亿参数的 Medium 3.5,部分编码基准超越三倍于自身规模的模型;公司将 2026 年营收目标定为 10 亿欧元,较 2025 年约 2 亿欧元大幅提升。",
-        "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
       }
     ]
   },
@@ -11301,6 +11302,13 @@
         "url": "https://www.bloomberg.com/news/articles/2026-07-02/elevenlabs-in-talks-for-tender-offer-at-22-billion-valuation"
       },
       {
+        "title": "Netflix携ElevenLabs复原Gene Wilder声音，用于旺卡真人秀",
+        "date": "2026-07-01",
+        "category": "落地",
+        "summary": "Netflix与ElevenLabs合作，经Wilder遗产授权用AI克隆Gene Wilder声音用于旺卡真人秀，是头部流媒体平台首次将AI声音克隆引入真人秀制作。",
+        "url": "https://www.itechpost.com/articles/236524/20260701/netflix-uses-ai-gene-wilder-voice-wonka-reality-show-elevenlabs-ai-technology.htm"
+      },
+      {
         "title": "ElevenReader 升级为有声书平台,20 万本人声书目对标 Audible",
         "date": "2026-05",
         "category": "产品",
@@ -11312,13 +11320,6 @@
         "date": "2026-05",
         "category": "业务",
         "summary": "Spotify 宣布与 ElevenLabs 合作,让作者直接在 Spotify 平台使用 AI 生成有声书,目标撬动 1 亿美元有声书收入。",
-        "url": "https://texttolab.com/blog/elevenlabs-news"
-      },
-      {
-        "title": "Revolut、Klarna 部署其语音客服 Agent,覆盖数千万用户",
-        "date": "2026-01",
-        "category": "落地",
-        "summary": "Revolut 在英国和欧洲为超 400 万客户部署 ElevenLabs Agents 客服,解决时长缩短 8 倍、支持 30 多种语言;Klarna 随后为 3500 万美国用户上线其语音 AI 一线电话客服。",
         "url": "https://texttolab.com/blog/elevenlabs-news"
       }
     ]
@@ -17090,6 +17091,13 @@
     ],
     "news": [
       {
+        "title": "智谱AI创始人发布「Touch High」AGI战略，港股当日涨逾7%",
+        "date": "2026-07-13",
+        "category": "重大",
+        "summary": "创始人唐杰宣布「Touch High」计划，以AGI研究取代短期商业化，聚焦长程任务、自主智能体等四大方向，并承诺实现AGI前放弃薪酬；港股智谱当日涨逾7%。",
+        "url": "https://technode.com/2026/07/13/zhipu-ai-founder-outlines-touch-high-plan-for-agi-research/"
+      },
+      {
         "title": "GLM-5.2 首周使用量暴增 27 倍，智谱 AI 启动定制 ASIC 推理芯片探索",
         "date": "2026-07-08",
         "category": "研发",
@@ -17109,13 +17117,6 @@
         "category": "产品",
         "summary": "6月17日智谱正式发布并开源新一代旗舰大模型GLM-5.2，支持最高100万token无损上下文，编码能力显著增强，在多项基准测试中登顶。",
         "url": "https://theairankings.com/zhipu/"
-      },
-      {
-        "title": "发布开源旗舰GLM-5，据报未用英伟达芯片训练",
-        "date": "2026-02",
-        "category": "研发",
-        "summary": "智谱2月推出开放权重旗舰模型GLM-5，据报道训练未使用英伟达芯片；4月又推出GLM-5.1，强化长程智能体编码能力，持续逼近美国顶尖模型水平。",
-        "url": "https://www.cnbc.com/2026/06/26/china-zhipu-z-ai-open-source-anthropic-openai.html"
       }
     ]
   },
