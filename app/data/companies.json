@@ -1320,6 +1320,13 @@
     },
     "news": [
       {
+        "title": "台积电6月营收145亿美元，同比+68%；上半年约750亿，Q2符合预期",
+        "date": "2026-07-13",
+        "category": "财报",
+        "summary": "台积电2026年6月月度营收新台币4427亿元（约145亿美元），同比+68%、环比+6.2%；上半年累计750亿美元增35.6%；Q2合计396亿美元符合预期。",
+        "url": "https://www.cnbc.com/2026/07/13/tsmc-june-revenue-rises-percent-ahead-second-quarter.html"
+      },
+      {
         "title": "Q1 净利 5725 亿新台币,批准向亚利桑那子公司注资 200 亿美元",
         "date": "2026-04",
         "category": "财报",
@@ -8834,6 +8841,13 @@
     },
     "news": [
       {
+        "title": "华为联合本土伙伴在深圳筹建12寸DRAM晶圆厂，月产14万片",
+        "date": "2026-07-12",
+        "category": "研发",
+        "summary": "据报华为联合深圳厂商筹建12英寸DRAM晶圆厂，月产14万片，起步28nm，由政府资金支持，旨在摆脱三星、海力士等外部存储依赖，确保昇腾AI芯片供应链自主可控。",
+        "url": "https://www.digitimes.com/news/a20260713VL209/huawei-dram-fab-12-inch-manufacturing.html"
+      },
+      {
         "title": "昇腾 950 超节点将在 WAIC 亮相,950PR 采用自研 HBM",
         "date": "2026-07",
         "category": "进展",
@@ -8852,13 +8866,6 @@
         "date": "2026",
         "category": "产品",
         "summary": "昇腾 910C 自 2025 年 5 月量产后，2026 年出货量有望翻倍至约 60 万颗；5nm、支持 FP8 的 910D 预计 2026 年二三季度量产，CloudMatrix 384 超节点对标英伟达 GB200 NVL72。"
-      },
-      {
-        "title": "2025 年销售收入超 8800 亿元再创新高",
-        "date": "2026",
-        "category": "财报",
-        "summary": "华为董事长梁华透露 2025 年公司销售收入超 8800 亿元人民币,较 2024 年的 8621 亿元稳步增长,持续加码 AI 与鸿蒙生态建设。",
-        "url": "https://www.esmchina.com/news/13943.html"
       }
     ],
     "links": {
