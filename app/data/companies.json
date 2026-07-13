@@ -2008,6 +2008,15 @@
         "category": "重大",
         "summary": "分拆后 HDD 公司受益 AI 冷数据存储需求,大容量盘供不应求、订单能见度延长;闪存(闪迪)独立运营。"
       }
+    ],
+    "keyCustomers": [
+      "msft",
+      "amzn",
+      "googl",
+      "meta"
+    ],
+    "partners": [
+      "kioxia"
     ]
   },
   "vrt": {
@@ -2331,6 +2340,16 @@
         "category": "业务",
         "summary": "AI 数据中心用电激增使美国电力需求在停滞多年后重新进入结构性增长。作为最大受监管公用事业 FPL 的母公司与全球最大风光发电商，NextEra 成为这一主题下最核心的电力受益者之一。"
       }
+    ],
+    "keyCustomers": [
+      "googl",
+      "meta"
+    ],
+    "suppliers": [
+      "gev"
+    ],
+    "partners": [
+      "gev"
     ]
   },
   "cohr": {
@@ -3173,6 +3192,9 @@
         "category": "重大",
         "summary": "Recursion 于 2024 年合并 AI 药企 Exscientia，扩大用机器人实验加 AI 挖掘生物图谱的药物发现平台，并与英伟达深度合作用 GPU 训练生物模型，管线最终仍需临床数据验证。"
       }
+    ],
+    "suppliers": [
+      "nvda"
     ]
   },
   "cgnx": {
@@ -3512,6 +3534,13 @@
         "category": "业务",
         "summary": "与 Meta 合作把全闪存架构引入超大规模数据中心,企业 AI 数据平台需求带动订阅收入(Evergreen)增长。"
       }
+    ],
+    "keyCustomers": [
+      "meta"
+    ],
+    "partners": [
+      "nvda",
+      "csco"
     ]
   },
   "gev": {
@@ -3618,6 +3647,9 @@
         "category": "财报",
         "summary": "AI 数据中心用电激增带来新增发电与电网升级两大刚需，GE Vernova 全球领先的燃气轮机和变压器等电网装备正是核心供给，订单饱满、业绩大增，成为「AI 到电力」最直接受益者之一。"
       }
+    ],
+    "keyCustomers": [
+      "nee"
     ]
   },
   "sie": {
@@ -3721,6 +3753,10 @@
         "category": "进展",
         "summary": "西门子把 AI 融入预测性维护、生产优化与质量检测等工业场景，并让工程师用自然语言操作工业系统；同时与英伟达合作，将数字孪生与「工业元宇宙」结合，连接数字 AI 与实体工业。"
       }
+    ],
+    "partners": [
+      "nvda",
+      "msft"
     ]
   },
   "foxconn": {
@@ -3952,6 +3988,10 @@
         "category": "业务",
         "summary": "AI 数据中心功率密度暴增，施耐德通过 EcoStruxure 平台提供从园区供配电、UPS 到制冷液冷的整套方案，并收购整合 AI 数据中心设计能力，供配电与制冷成为直接受益的增长引擎。"
       }
+    ],
+    "keyCustomers": [
+      "eqix",
+      "dlr"
     ]
   },
   "envicool": {
@@ -4890,6 +4930,14 @@
         "category": "业务",
         "summary": "云厂商跨数据中心训练带动 WaveLogic 相干光设备需求,订单能见度改善,AI 成为增长叙事核心。"
       }
+    ],
+    "keyCustomers": [
+      "msft",
+      "googl",
+      "meta"
+    ],
+    "suppliers": [
+      "fn"
     ]
   },
   "nok": {
@@ -5317,6 +5365,18 @@
         "category": "业务",
         "summary": "AI 基础设施订单持续放量,网络设备+安全(Splunk)双线;Silicon One 芯片争夺超大规模客户。"
       }
+    ],
+    "keyCustomers": [
+      "msft"
+    ],
+    "suppliers": [
+      "tsm",
+      "fn",
+      "lite"
+    ],
+    "partners": [
+      "nvda",
+      "ualink"
     ]
   },
   "accelink": {
@@ -5420,6 +5480,12 @@
         "name": "胡强高",
         "title": "总经理"
       }
+    ],
+    "keyCustomers": [
+      "huawei",
+      "nok",
+      "csco",
+      "googl"
     ]
   },
   "tianfu": {
@@ -5931,6 +5997,14 @@
         "name": "Rami Rahim",
         "title": "HPE 网络业务执行副总裁兼总经理（原 Juniper CEO，2025 年被 HPE 收购）"
       }
+    ],
+    "suppliers": [
+      "avgo",
+      "tsm"
+    ],
+    "partners": [
+      "hpe",
+      "nvda"
     ]
   },
   "eric": {
@@ -6334,6 +6408,12 @@
         "summary": "首个在私有土地、全商业化燃料/设备的先进反应堆获 DOE 文件化安全分析批准;Aurora 电站在爱达荷国家实验室亦获初步批准;并与英伟达、洛斯阿拉莫斯合作推进核燃料验证与「核能 AI 工厂」。",
         "url": "https://oklo.com/newsroom/news-details/2026/U-S--Department-of-Energy-Approves-Final-Safety-Analysis-for-Oklos-Groves-Isotope-Test-Reactor-Advancing-the-Project-Toward-Operational-Authorization/default.aspx"
       }
+    ],
+    "keyCustomers": [
+      "eqix"
+    ],
+    "suppliers": [
+      "centrus"
     ]
   },
   "smr": {
@@ -10119,6 +10199,13 @@
       "Lightspeed Venture Partners",
       "Greycroft",
       "Sound Ventures"
+    ],
+    "suppliers": [
+      "amzn"
+    ],
+    "partners": [
+      "amzn",
+      "arm"
     ]
   },
   "midjourney": {
@@ -10396,6 +10483,9 @@
       "Amplify Partners",
       "CPP Investments",
       "Temasek"
+    ],
+    "keyCustomers": [
+      "amzn"
     ]
   },
   "ai21": {
@@ -10480,6 +10570,16 @@
         "category": "产品",
         "summary": "AI21 Labs 主打的 Jamba 融合 Mamba(SSM)与 Transformer,可在同等硬件上处理远超纯 Transformer 的上下文长度;公司聚焦企业级私有部署,并推出面向复杂多步任务的智能体系统 Maestro,估值约 14 亿美元级别。"
       }
+    ],
+    "suppliers": [
+      "nvda",
+      "amzn"
+    ],
+    "partners": [
+      "amzn",
+      "googl",
+      "msft",
+      "nvda"
     ]
   },
   "insilico": {
@@ -10563,6 +10663,9 @@
         "category": "研发",
         "summary": "英矽智能用 AI 大幅加速特发性肺纤维化(IPF)候选新药从靶点发现到临床的进程并成功推进临床试验,成为「AI 设计的药进入临床」的代表性案例,其端到端生成式制药流水线覆盖靶点发现、分子生成与临床预测。"
       }
+    ],
+    "suppliers": [
+      "nvda"
     ]
   },
   "perplexity": {
@@ -12468,6 +12571,12 @@
         "category": "融资",
         "summary": "2026 年 7 月，这家数据流架构（RDU）AI 芯片公司完成由 General Atlantic 领投的 F 轮首关 10 亿美元融资，英特尔参投，投后估值约 110 亿美元，JPMorgan 为其推理合作方之一。"
       }
+    ],
+    "suppliers": [
+      "tsm"
+    ],
+    "partners": [
+      "huggingface"
     ]
   },
   "graphcore": {
@@ -12635,6 +12744,12 @@
         "category": "进展",
         "summary": "由传奇架构师 Jim Keller 掌舵的 Tenstorrent 同时押注 AI 加速芯片与开放 RISC-V 架构，强调可授权、避免 CUDA 式锁定，获三星、现代等大公司投资，是最受关注的英伟达挑战者之一。"
       }
+    ],
+    "suppliers": [
+      "samsung"
+    ],
+    "partners": [
+      "samsung"
     ]
   },
   "etched": {
@@ -13794,6 +13909,18 @@
         "category": "业务",
         "summary": "作为向量数据库品类的开创者，Pinecone 的全托管服务让开发者无需自建即可为 AI 应用加上「长期记忆」与自有知识问答，是 AI 应用检索层最常用的基础设施之一。"
       }
+    ],
+    "keyCustomers": [
+      "notion"
+    ],
+    "suppliers": [
+      "amzn",
+      "googl",
+      "msft"
+    ],
+    "partners": [
+      "langchain",
+      "llamaindex"
     ]
   },
   "weaviate": {
@@ -13877,6 +14004,14 @@
       "NEA",
       "Zetta Venture Partners",
       "ING Ventures"
+    ],
+    "suppliers": [
+      "amzn",
+      "googl"
+    ],
+    "partners": [
+      "amzn",
+      "googl"
     ]
   },
   "chroma": {
@@ -13960,6 +14095,14 @@
       "AIX Ventures",
       "Bloomberg Beta",
       "Nat Friedman"
+    ],
+    "suppliers": [
+      "amzn",
+      "googl"
+    ],
+    "partners": [
+      "langchain",
+      "llamaindex"
     ]
   },
   "langchain": {
@@ -14045,6 +14188,13 @@
         "category": "产品",
         "summary": "作为最流行的大模型应用编排框架，LangChain 用 LangGraph 支持复杂可控的多智能体流程，用 LangSmith 提供调试、评测与可观测能力，形成开源与商业化并行的完整开发栈。"
       }
+    ],
+    "keyCustomers": [
+      "replit"
+    ],
+    "partners": [
+      "openai",
+      "anthropic"
     ]
   },
   "llamaindex": {
@@ -14124,6 +14274,12 @@
     "investors": [
       "Greylock",
       "Norwest Venture Partners"
+    ],
+    "keyCustomers": [
+      "crm"
+    ],
+    "partners": [
+      "databricks"
     ]
   },
   "scaleai": {
@@ -14500,6 +14656,13 @@
         "category": "研发",
         "summary": "由 DeepMind、Meta 等资深研究者创立的 Reka 持续打磨 Core、Flash、Edge 系列原生多模态模型，同时理解文本、图像、音频与视频，面向企业提供并探索私有部署落地。"
       }
+    ],
+    "suppliers": [
+      "nvda"
+    ],
+    "partners": [
+      "snow",
+      "nvda"
     ]
   },
   "zeroone": {
@@ -17132,6 +17295,11 @@
         "category": "业务",
         "summary": "这家港股上市的「AI 视觉四小龙」之首全力转型生成式 AI,推出日日新(SenseNova)大模型体系,布局大语言模型、多模态与文生图/视频,并将自建 AIDC 算力对外提供服务。"
       }
+    ],
+    "suppliers": [
+      "nvda",
+      "huawei",
+      "cambricon"
     ]
   },
   "iflytek": {
@@ -17242,6 +17410,9 @@
         "category": "落地",
         "summary": "这家 1999 年成立的中国智能语音龙头将几十年语音与 AI 积累与星火认知大模型结合,强调基于国产算力训练,在教育、医疗、办公等行业落地,教育与语音场景壁垒深厚。"
       }
+    ],
+    "suppliers": [
+      "huawei"
     ]
   },
   "cambricon": {
@@ -17451,6 +17622,10 @@
         "category": "重大",
         "summary": "这家 2020 年成立、被称为「中国英伟达」的国产 GPU 新锐正推进 IPO,其全功能 GPU 同时支持 AI 计算、图形渲染、视频编解码与科学计算,布局消费显卡与数据中心算力。"
       }
+    ],
+    "partners": [
+      "zhipu",
+      "sensetime"
     ]
   },
   "biren": {
@@ -17635,6 +17810,12 @@
         "category": "业务",
         "summary": "海光的 x86 授权 CPU 广泛用于国产服务器替代,DCU 通用加速卡面向 AI 训练推理并兼容主流编程生态。CPU 与 AI 加速卡双线布局使其成为国产算力稀缺上市标的。"
       }
+    ],
+    "suppliers": [
+      "amd"
+    ],
+    "partners": [
+      "sensetime"
     ]
   },
   "ubtech": {
@@ -18024,6 +18205,13 @@
         "category": "研发",
         "summary": "Magic.dev 宣称做出可一次读入上亿 token 的模型,让 AI 通读整个代码库后再写代码,目标是自主的 AI 软件工程师,获谷歌云、Eric Schmidt 等支持并合建专属算力。"
       }
+    ],
+    "suppliers": [
+      "googl",
+      "nvda"
+    ],
+    "partners": [
+      "googl"
     ]
   },
   "poolside": {
@@ -18102,6 +18290,15 @@
         "category": "业务",
         "summary": "这家 2023 年成立的公司坚持从底层自训代码基础模型,认为代码可自动验证、适合强化学习自我提升,凭巨额融资跻身高估值独角兽,主打企业级可私有部署的 AI 编程平台。"
       }
+    ],
+    "suppliers": [
+      "crwv",
+      "nvda",
+      "amzn"
+    ],
+    "partners": [
+      "amzn",
+      "nvda"
     ]
   },
   "abridge": {
@@ -18777,6 +18974,13 @@
         "category": "融资",
         "summary": "Celestial 自研 Photonic Fabric 用光把 GPU 与远端大容量内存池高带宽连接,突破 AI 大模型的内存与带宽瓶颈,获 a16z、Fidelity、AMD 风投等投资,估值约 25 亿美元。"
       }
+    ],
+    "suppliers": [
+      "samsung"
+    ],
+    "partners": [
+      "avgo",
+      "amd"
     ]
   },
   "modal": {
@@ -18856,6 +19060,13 @@
         "category": "业务",
         "summary": "Modal 让开发者在 Python 代码里加几行即可把 GPU 任务部署上云,按需拉起、用完释放、按秒计费,彻底抽象基础设施运维,踩中 AI 应用大爆发对灵活易用算力的需求。"
       }
+    ],
+    "keyCustomers": [
+      "suno"
+    ],
+    "suppliers": [
+      "amzn",
+      "googl"
     ]
   },
   "baseten": {
@@ -19028,6 +19239,12 @@
         "category": "产品",
         "summary": "Replicate 用其开源的 Cog 工具把各类开源模型打包成标准容器,开发者通过简单 API 即时调用、按量付费、免运维,并可一键部署分享自己的模型,持续降低使用开源 AI 的门槛。"
       }
+    ],
+    "suppliers": [
+      "nvda"
+    ],
+    "partners": [
+      "blackforest"
     ]
   },
   "anyscale": {
@@ -19119,6 +19336,16 @@
         "category": "业务",
         "summary": "开源分布式框架 Ray 广泛用于大模型训练、强化学习与推理，OpenAI 等知名 AI 公司曾用其训练模型。Anyscale 依托托管平台与企业服务，卡位「AI 计算从单机扩展到万卡集群」的底层刚需环节。"
       }
+    ],
+    "keyCustomers": [
+      "openai"
+    ],
+    "suppliers": [
+      "amzn",
+      "googl"
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "wandb": {
@@ -19317,6 +19544,17 @@
         "category": "重大",
         "summary": "Adobe 约 200 亿美元收购因反垄断于 2023 年告吹后，Figma 于 2025 年独立上市。公司持续推出文字生成界面、自动整理图层与 Dev Mode 等 AI 功能，加速「设计变代码」流程。"
       }
+    ],
+    "keyCustomers": [
+      "msft"
+    ],
+    "suppliers": [
+      "amzn",
+      "openai",
+      "anthropic"
+    ],
+    "partners": [
+      "googl"
     ]
   },
   "stx": {
@@ -19414,6 +19652,15 @@
         "name": "Dave Mosley",
         "title": "董事长兼 CEO"
       }
+    ],
+    "keyCustomers": [
+      "msft",
+      "amzn",
+      "googl",
+      "meta"
+    ],
+    "suppliers": [
+      "kioxia"
     ]
   },
   "kioxia": {
@@ -19515,6 +19762,17 @@
         "category": "业务",
         "summary": "AI 服务器对高性能企业级 SSD 需求激增,NAND 价格上行带动业绩大幅回升;与西数的合资产线持续扩产。"
       }
+    ],
+    "keyCustomers": [
+      "apple"
+    ],
+    "suppliers": [
+      "lrcx",
+      "amat"
+    ],
+    "partners": [
+      "wdc",
+      "nvda"
     ]
   },
   "vast": {
@@ -20077,6 +20335,13 @@
         "category": "落地",
         "summary": "盖茨创立的 TerraPower 于 2024 年在怀俄明州 Kemmerer 为 345MW Natrium 钠冷快堆破土动工，配套熔盐储能可将功率灵活放大至 500MW，预计 2030 年建成。"
       }
+    ],
+    "suppliers": [
+      "centrus"
+    ],
+    "partners": [
+      "gev",
+      "nvda"
     ]
   },
   "xenergy": {
@@ -20157,6 +20422,9 @@
         "name": "J. Clay Sell",
         "title": "CEO"
       }
+    ],
+    "keyCustomers": [
+      "amzn"
     ]
   },
   "kairos": {
@@ -20397,6 +20665,13 @@
         "category": "进展",
         "summary": "2026 年初 SPARC 示范装置装上首块 HTS 磁体，CFS 并与西门子、英伟达合作用 AI 数字孪生加速研发，目标 2027 年实现输出能量超过输入，打造世界首台商业相关净产能聚变机器。"
       }
+    ],
+    "keyCustomers": [
+      "googl"
+    ],
+    "partners": [
+      "nvda",
+      "sie"
     ]
   },
   "tae": {
@@ -20760,7 +21035,12 @@
     ],
     "links": {
       "x": "https://x.com/HitachiEnergy"
-    }
+    },
+    "partners": [
+      "nvda",
+      "msft",
+      "googl"
+    ]
   },
   "siemensenergy": {
     "id": "siemensenergy",
@@ -20857,6 +21137,11 @@
         "category": "财报",
         "summary": "数据中心需要「立刻能上、能持续」的电力，燃气轮机订单排期拉长，变压器与电网设备同样供不应求；此前受风电亏损拖累的西门子能源，靠燃气与电网业务强劲复苏。"
       }
+    ],
+    "partners": [
+      "etn",
+      "airliquide",
+      "vrt"
     ]
   },
   "powell": {
@@ -21057,6 +21342,9 @@
         "category": "业务",
         "summary": "AI 数据中心激增要求大规模新建和升级输电线路、变电站与配电网，美国电网又普遍老化，作为北美最大电网工程建设商，Quanta 是施工端最直接受益者，成长确定性高。"
       }
+    ],
+    "keyCustomers": [
+      "nee"
     ]
   },
   "nvent": {
@@ -23275,6 +23563,12 @@
         "category": "融资",
         "summary": "获贝索斯、盖茨投资的 Synchron 于 2025 年 11 月完成 2 亿美元 D 轮融资，正筹备 2026 年 pivotal trial，目标成为首个获 FDA 上市批准的植入式脑机接口。"
       }
+    ],
+    "partners": [
+      "nvda",
+      "apple",
+      "openai",
+      "amzn"
     ]
   },
   "precision_neuro": {
@@ -23744,6 +24038,10 @@
         "category": "落地",
         "summary": "Inworld 的 AI 角色引擎让 NPC 拥有人格、记忆并能与玩家自由对话，正与游戏厂商及微软等合作探索应用，站在生成式 AI 重塑游戏交互体验的前沿。"
       }
+    ],
+    "partners": [
+      "msft",
+      "nvda"
     ]
   },
   "scenario": {
@@ -24362,6 +24660,13 @@
       "黄浦江资本",
       "华控基金",
       "达晨财智"
+    ],
+    "suppliers": [
+      "nvda"
+    ],
+    "partners": [
+      "nvda",
+      "amzn"
     ]
   },
   "momenta": {
@@ -24558,6 +24863,10 @@
         "category": "业务",
         "summary": "Augment 的上下文引擎可索引理解百万行级复杂工程,提供贴合项目结构与团队规范的补全、问答和自主编程智能体,与 Cursor、Copilot 在企业级场景形成差异化竞争。"
       }
+    ],
+    "suppliers": [
+      "anthropic",
+      "googl"
     ]
   },
   "astera": {
@@ -25066,6 +25375,12 @@
         "category": "研发",
         "summary": "这家由 Transformer 作者 Llion Jones 等前谷歌研究者创立的东京独角兽,用进化算法、模型合并等自然启发方法高效组合模型,其 AI Scientist 可自主做研究写论文。"
       }
+    ],
+    "suppliers": [
+      "nvda"
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "aleph": {
@@ -25149,7 +25464,11 @@
     ],
     "links": {
       "github": "https://github.com/Aleph-Alpha"
-    }
+    },
+    "partners": [
+      "cohere",
+      "hpe"
+    ]
   },
   "moveworks": {
     "id": "moveworks",
@@ -25778,6 +26097,18 @@
         "name": "Hammad Syed",
         "title": "联合创始人兼 COO"
       }
+    ],
+    "keyCustomers": [
+      "amzn",
+      "ibm",
+      "crm"
+    ],
+    "suppliers": [
+      "groq"
+    ],
+    "partners": [
+      "meta",
+      "groq"
     ]
   },
   "lindy": {
@@ -25856,6 +26187,10 @@
       "Menlo Ventures",
       "Coatue",
       "Tiger Global"
+    ],
+    "suppliers": [
+      "anthropic",
+      "openai"
     ]
   },
   "multion": {
@@ -25936,6 +26271,12 @@
       "Samsung Next",
       "Amazon Alexa Fund",
       "Nat Friedman"
+    ],
+    "suppliers": [
+      "openai"
+    ],
+    "partners": [
+      "amzn"
     ]
   },
   "skild": {
@@ -26107,6 +26448,9 @@
         "category": "落地",
         "summary": "Dexterity 用 AI 视觉与操作模型让机械臂看懂杂乱货物、规划抓取并灵活应对变化,自主完成码垛拆垛、货车装卸、拣选打包等任务,服务大型物流、快递与制造企业。"
       }
+    ],
+    "suppliers": [
+      "nvda"
     ]
   },
   "cobot": {
@@ -26185,6 +26529,9 @@
         "category": "进展",
         "summary": "Brad Porter 创立的 Collaborative Robotics 不执着人形外观,专注能在仓库、工厂、医院、机场等真实场景与人协同搬运物料的移动机器人,凭大额融资与量产运营经验强调规模化落地。"
       }
+    ],
+    "suppliers": [
+      "nvda"
     ]
   },
   "waabi": {
@@ -26468,6 +26815,16 @@
       "Unusual Ventures",
       "42CAP",
       "Bosch Ventures"
+    ],
+    "keyCustomers": [
+      "xai"
+    ],
+    "suppliers": [
+      "amzn"
+    ],
+    "partners": [
+      "langchain",
+      "llamaindex"
     ]
   },
   "zilliz": {
@@ -26552,6 +26909,14 @@
       "5Y Capital",
       "Pavilion Capital",
       "Yunqi Capital"
+    ],
+    "suppliers": [
+      "amzn",
+      "googl",
+      "msft"
+    ],
+    "partners": [
+      "nvda"
     ]
   },
   "mercor": {
@@ -26875,6 +27240,9 @@
       "8VC",
       "Elad Gil",
       "General Catalyst"
+    ],
+    "partners": [
+      "pltr"
     ]
   },
   "ssi": {
@@ -27361,6 +27729,13 @@
         "category": "业务",
         "summary": "AssemblyAI 把高精度转录与说话人分离、摘要、情感分析、敏感内容检测等能力封装成开发者友好的 API,让应用无需自研语音模型即可「听懂」语音,广泛用于会议、客服质检与媒体。"
       }
+    ],
+    "keyCustomers": [
+      "vapi"
+    ],
+    "suppliers": [
+      "amzn",
+      "googl"
     ]
   },
   "dmatrix": {
@@ -27442,6 +27817,15 @@
       "Triatomic Capital",
       "M12 (Microsoft)",
       "Qatar Investment Authority"
+    ],
+    "suppliers": [
+      "tsm",
+      "alchip"
+    ],
+    "partners": [
+      "smci",
+      "anet",
+      "avgo"
     ]
   },
   "positron": {
@@ -27766,6 +28150,9 @@
         "category": "业务",
         "summary": "Nabla 的 AI 助手在医患对话中实时聆听并自动生成结构化病历草稿，医生只需审核确认。目前已服务大量诊所与医疗系统、处理数千万次问诊，稳居环境记录赛道领先阵营。"
       }
+    ],
+    "suppliers": [
+      "meta"
     ]
   },
   "suki": {
@@ -27844,6 +28231,12 @@
         "category": "产品",
         "summary": "Suki 在环境聆听自动生成临床记录之外，把产品做成语音驱动的医生助手：口述病历、查病人信息、开医嘱、查编码，并与主流电子病历系统集成，服务众多医疗机构。"
       }
+    ],
+    "suppliers": [
+      "googl"
+    ],
+    "partners": [
+      "oracle"
     ]
   },
   "alchip": {
@@ -29341,6 +29734,14 @@
         "name": "沈庆芳",
         "title": "董事长"
       }
+    ],
+    "keyCustomers": [
+      "apple",
+      "huawei"
+    ],
+    "partners": [
+      "nvda",
+      "foxconn"
     ]
   },
   "liteon": {
@@ -29853,6 +30254,16 @@
         "category": "业务",
         "summary": "与英伟达合作 800V HVDC 供电架构,功率半导体切入 AI 电源链;SiC/GaN 产品组合完整。"
       }
+    ],
+    "keyCustomers": [
+      "tsla"
+    ],
+    "suppliers": [
+      "tsm"
+    ],
+    "partners": [
+      "nvda",
+      "delta"
     ]
   },
   "apple": {
@@ -30346,6 +30757,14 @@
         "category": "业务",
         "summary": "Granite 开源模型+企业级治理工具服务监管行业;量子计算按路线图向容错演进,是企业 AI 与量子双线玩家。"
       }
+    ],
+    "suppliers": [
+      "samsung"
+    ],
+    "partners": [
+      "anthropic",
+      "amd",
+      "groq"
     ]
   },
   "oracle": {
@@ -30701,6 +31120,10 @@
         "category": "产品",
         "summary": "Kokai 平台用 AI 优化每一次竞价、定向与跨渠道分配，并主推隐私友好的 UID2 身份方案。TTD 重仓增长最快的联网电视，但也面临谷歌、亚马逊竞争与自身增长波动压力。"
       }
+    ],
+    "partners": [
+      "databricks",
+      "snow"
     ]
   },
   "ionq": {
@@ -30803,6 +31226,12 @@
         "category": "重大",
         "summary": "这家市值最高的纯量子计算上市公司近年大举收购（如 Oxford Ionics）扩充技术与人才，并通过 AWS、Azure、GCP 云平台输出算力；但季度营收仅数千万美元，估值高、波动剧烈。"
       }
+    ],
+    "partners": [
+      "amzn",
+      "msft",
+      "googl",
+      "nvda"
     ]
   },
   "rigetti": {
@@ -31079,7 +31508,10 @@
     ],
     "links": {
       "x": "https://x.com/PsiQuantum"
-    }
+    },
+    "partners": [
+      "nvda"
+    ]
   },
   "quantinuum": {
     "id": "quantinuum",
@@ -31170,6 +31602,10 @@
         "category": "重大",
         "summary": "2026 年 6 月霍尼韦尔控股的 Quantinuum 以代码 QNT 上市，成为仅次于 IonQ 的第二大上市量子公司。其离子阱 H 系列长期领先量子体积指标，并在纠错与逻辑量子比特上取得重要进展。"
       }
+    ],
+    "partners": [
+      "msft",
+      "nvda"
     ]
   },
   "hesai": {
@@ -31716,6 +32152,16 @@
         "category": "业务",
         "summary": "企业既要用公有云、又要就近部署自有算力并实现多云互联，Equinix 的中立机房作为汇聚成千上万网络与云厂商的低延迟互联枢纽，在 AI 时代作为「连接一切的中枢」持续受益。"
       }
+    ],
+    "keyCustomers": [
+      "amzn",
+      "msft",
+      "googl",
+      "oracle"
+    ],
+    "suppliers": [
+      "bloom",
+      "oklo"
     ]
   },
   "dlr": {
@@ -31816,6 +32262,12 @@
         "category": "业务",
         "summary": "AI 数据中心需求爆发，尤其是可支持 GPU 集群的大功率高密度机房供不应求。作为全球最大数据中心 REIT 之一，Digital Realty 与云巨头深度合作扩建 AI 相关容量，持续受益。"
       }
+    ],
+    "keyCustomers": [
+      "ibm",
+      "oracle",
+      "meta",
+      "msft"
     ]
   },
   "gds": {
@@ -31914,6 +32366,11 @@
         "category": "业务",
         "summary": "AI 大模型训练推动高密度机房需求激增,万国数据凭一线城市优质数据中心资源持续受益,并通过分拆的国际业务 GDS International(DayOne)承接 AI 驱动的东南亚等海外数据中心需求。"
       }
+    ],
+    "keyCustomers": [
+      "baba",
+      "bidu",
+      "huawei"
     ]
   },
   "irm": {
@@ -32212,6 +32669,14 @@
         "category": "重大",
         "summary": "全球最大资管贝莱德牵头设立大规模 AI 基础设施投资基金,与微软、MGX、英伟达等合作,并收购数据中心与电力资产,为 AI 时代的算力与能源提供长期资本。"
       }
+    ],
+    "suppliers": [
+      "msft"
+    ],
+    "partners": [
+      "msft",
+      "nvda",
+      "xai"
     ]
   },
   "duolingo": {
@@ -32571,6 +33036,17 @@
       "Greylock",
       "Reid Hoffman",
       "Bill Gates"
+    ],
+    "keyCustomers": [
+      "msft"
+    ],
+    "suppliers": [
+      "nvda",
+      "crwv"
+    ],
+    "partners": [
+      "intc",
+      "msft"
     ]
   },
   "retell": {
@@ -33076,6 +33552,14 @@
         "category": "研发",
         "summary": "Singularity 平台把机器学习模型直接部署到每个端点,实时检测异常、拦截攻击,甚至自动回滚被勒索软件加密的文件,尽量不依赖人工与云端连接就地响应,践行「用 AI 对抗 AI」。"
       }
+    ],
+    "suppliers": [
+      "amzn",
+      "anthropic"
+    ],
+    "partners": [
+      "amzn",
+      "googl"
     ]
   },
   "zscaler": {
@@ -33172,6 +33656,17 @@
         "category": "业务",
         "summary": "零信任云安全龙头 Zscaler 在其 SSE/SASE 平台上引入 AI 做威胁检测,并帮助企业管控员工使用 AI 应用带来的数据安全风险,巩固「云化+AI 化需要新安全底座」的定位。"
       }
+    ],
+    "keyCustomers": [
+      "sie"
+    ],
+    "suppliers": [
+      "eqix"
+    ],
+    "partners": [
+      "crowdstrike",
+      "nvda",
+      "msft"
     ]
   },
   "wiz": {
@@ -33358,6 +33853,17 @@
         "name": "Will Marshall",
         "title": "联合创始人兼 CEO"
       }
+    ],
+    "keyCustomers": [
+      "googl"
+    ],
+    "suppliers": [
+      "spacex"
+    ],
+    "partners": [
+      "anthropic",
+      "nvda",
+      "googl"
     ]
   },
   "blacksky": {
@@ -35266,6 +35772,13 @@
       "Greylock",
       "Addition",
       "Microsoft"
+    ],
+    "keyCustomers": [
+      "amzn"
+    ],
+    "suppliers": [
+      "oracle",
+      "nvda"
     ]
   },
   "sanhua": {
@@ -35568,6 +36081,12 @@
         "category": "研发",
         "summary": "「中国的西门子/发那科」汇川技术以伺服电机+驱动+控制的核心技术为基础,面向人形机器人对高性能关节执行器的大量需求布局核心部件,是被看好的国产机器人执行器潜在供应商之一。"
       }
+    ],
+    "keyCustomers": [
+      "tsla"
+    ],
+    "suppliers": [
+      "ifx"
     ]
   },
   "leaderdrive": {
