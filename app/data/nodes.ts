@@ -327,6 +327,12 @@ export const NODES: Record<string, NodeData> = {
       l1: "世界模型学习物理世界的运作规律，能生成可交互的 3D 环境，是机器人、自动驾驶与游戏的底层「想象力」。李飞飞 World Labs、谷歌 Genie 等领跑。",
       l2: "让 AI 理解并生成三维世界、具备空间智能——预测物理演化、生成可交互场景,被视为通向通用智能与机器人的关键。代表:李飞飞的 World Labs,以及各类视频/仿真世界模型。",
     }, companyIds: ["worldlabs", "googl"] },
+  data_fuel: { id: "data_fuel", parentId: "models", type: "category", name: "数据燃料", nameEn: "Data Fuel",
+    levels: {
+      l0: "喂养大模型的高质量训练数据与人类反馈。",
+      l1: "前沿模型要变聪明,离不开海量高质量数据:人类反馈(RLHF)、专家示范、评测标注。Scale、Surge、Mercor、Turing 就是给各大实验室「送燃料」的。",
+      l2: "大模型后训练对数据质量的要求越来越高:判断回答好坏、写高难度示范、做专业领域标注。这催生了年入数十亿美元的「数据燃料」产业——Surge 精简盈利、Mercor 请专家造数据、Scale 被 Meta 重金入股,数据即壁垒。",
+    }, companyIds: ["scaleai", "surge", "mercor", "turing"] },
 
   /* ---------------- 基础设施 / 芯片 / 能源 ---------------- */
   gpu: { id: "gpu", parentId: "chips", type: "category", name: "图形处理器", nameEn: "GPU", icon: "gpu",

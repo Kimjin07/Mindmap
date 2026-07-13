@@ -54,6 +54,7 @@ export const RELATIONS: [string, string][] = [
   ["science", "robotics"],
   ["manufacturing", "robotaxi"],
   /* 模型层 */
+  ["llm", "data_fuel"],
   ["llm", "gpt"],
   ["llm", "vlm"],
   ["llm", "moe"],
@@ -162,7 +163,7 @@ export const LAYER_GROUPS: Record<string, { dx: number; dy: number; name: string
     { dx: 1050, dy: 1050, nameEn: "Science & Frontier", name: "科学前沿", ids: ["science", "digital_biology", "health_ai", "defense_ai", "bci", "game_ai"] },
   ],
   models: [
-    { dx: 230, dy: 680, nameEn: "Language & Reasoning", name: "语言·推理", ids: ["llm", "gpt", "moe", "ssm", "gnn", "world_model"] },
+    { dx: 230, dy: 680, nameEn: "Language & Reasoning", name: "语言·推理", ids: ["llm", "gpt", "moe", "ssm", "gnn", "world_model", "data_fuel"] },
     { dx: -230, dy: -680, nameEn: "Multimodal & GenAI", name: "多模态·生成", ids: ["vlm", "vla", "mmllm", "dm", "lbm"] },
   ],
   chips: [

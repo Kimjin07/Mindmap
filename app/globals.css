@@ -2045,6 +2045,34 @@ body {
   color: var(--ink-strong);
 }
 
+/* ---- 地图装饰:星野 / 银河带 / 护城河 ---- */
+.deco-star {
+  fill: #cfe0ff;
+}
+.deco-star.gold {
+  fill: var(--gold-line);
+}
+.moat-water {
+  fill: none;
+  stroke: rgba(96, 165, 190, 0.15);
+  stroke-width: 220;
+}
+.moat-flow {
+  fill: none;
+  stroke: rgba(140, 210, 230, 0.3);
+  stroke-width: 9;
+  stroke-dasharray: 420 780;
+  animation: moatFlow 80s linear infinite;
+}
+@keyframes moatFlow {
+  to { stroke-dashoffset: -25896; }
+}
+.moat-ripple {
+  fill: none;
+  stroke: rgba(96, 165, 190, 0.22);
+  stroke-width: 3;
+}
+
 .atlas-panel-loading {
   padding: 24px 18px;
   font-size: 13px;

@@ -319,6 +319,12 @@ export const PLAYERS: Record<string, Player[]> = {
     { id: "genie_wm", name: "Genie", by: "Google", note: "从图像/文本生成可玩的 2D/3D 世界。" },
     { id: "sakana_wm", name: "Sakana 进化模型", by: "Sakana AI", note: "进化式方法做高效模型。" },
   ],
+  data_fuel: [
+    { id: "scale_platform", name: "Scale 数据引擎", by: "Scale AI", note: "前沿实验室的数据标注与评测平台,被 Meta 重金入股。" },
+    { id: "surge_rlhf", name: "Surge RLHF", by: "Surge AI", note: "高质量人类反馈数据,精简盈利、营收居前。" },
+    { id: "mercor_experts", name: "Mercor 专家数据", by: "Mercor", note: "请律师/医生/银行家给模型造专业数据。" },
+    { id: "turing_agi", name: "Turing AGI 数据", by: "Turing", note: "为 OpenAI/谷歌供代码与推理训练数据。" },
+  ],
 
   /* ---------- 芯片层 ---------- */
   gpu: [
