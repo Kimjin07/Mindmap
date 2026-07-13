@@ -1327,6 +1327,13 @@
         "url": "https://www.cnbc.com/2026/07/13/tsmc-june-revenue-rises-percent-ahead-second-quarter.html"
       },
       {
+        "title": "台积电宣布嘉义园区二期新建两座先进封装厂，AI 封装产能再扩",
+        "date": "2026-07-12",
+        "category": "进展",
+        "summary": "台积电将在嘉义园区二期新增两座先进封装厂，专注 CoWoS/SoIC AI 芯片封装；四厂建成后年产值逾 3000 亿新台币，可缓解全球 AI 封装供给瓶颈。",
+        "url": "https://finance.yahoo.com/technology/articles/tsmc-add-2-advanced-chip-034251078.html"
+      },
+      {
         "title": "Q1 净利 5725 亿新台币,批准向亚利桑那子公司注资 200 亿美元",
         "date": "2026-04",
         "category": "财报",
@@ -1339,13 +1346,6 @@
         "category": "业务",
         "summary": "台积电宣布 2026 年资本开支计划为 520 亿-560 亿美元,较 2025 年最多增加 40%,其中 70-80% 投向 N3、N2 及更先进制程,并规划亚利桑那第四厂与首座先进封装厂。",
         "url": "https://www.datacenterdynamics.com/en/news/tsmc-announces-2026-capex-spend-of-56bn-after-posting-eighth-consecutive-quarter-of-growth/"
-      },
-      {
-        "title": "2nm 产能 2026 年全数订满,毛利率近 70%,先进制程涨价",
-        "date": "2026",
-        "category": "业务",
-        "summary": "AI 需求强劲,TSMC 2026 年 2nm(N2)产能全部订满,苹果、英伟达拿下主要份额;二季度毛利率有望近 70%,全年营收增速上调至 30% 以上,并对 7nm 及以下先进制程涨价 5–10%。",
-        "url": "https://www.trendforce.com/news/2026/06/29/news-tsmcs-2q-margins-reportedly-near-70-as-ai-demand-strengthens-3q-revenue-seen-growing-over-10-sequentially/"
       }
     ]
   },
@@ -17090,6 +17090,13 @@
     ],
     "news": [
       {
+        "title": "GLM-5.2 首周使用量暴增 27 倍，智谱 AI 启动定制 ASIC 推理芯片探索",
+        "date": "2026-07-08",
+        "category": "研发",
+        "summary": "GLM-5.2 首周日均 token 使用量激增 27 倍，智谱 AI 初步接洽国内芯片设计公司探索定制 ASIC 推理芯片；受美国出口管制影响，项目落地预计逾两年。",
+        "url": "https://finance.yahoo.com/technology/ai/articles/zhipu-ai-explores-custom-asic-141918013.html"
+      },
+      {
         "title": "启动最高336亿港元配售，或成2026港股最大再融资",
         "date": "2026-07",
         "category": "融资",
@@ -17109,13 +17116,6 @@
         "category": "研发",
         "summary": "智谱2月推出开放权重旗舰模型GLM-5，据报道训练未使用英伟达芯片；4月又推出GLM-5.1，强化长程智能体编码能力，持续逼近美国顶尖模型水平。",
         "url": "https://www.cnbc.com/2026/06/26/china-zhipu-z-ai-open-source-anthropic-openai.html"
-      },
-      {
-        "title": "港股上市,市值约 560 亿美元",
-        "date": "2026",
-        "category": "重大",
-        "summary": "智谱 AI 以「Knowledge Atlas Technology」在港交所交易,市值约 4347 亿港元(约 560 亿美元),是中国大模型第一梯队的上市代表之一。",
-        "url": "https://www.forbes.com/sites/ywang/2026/05/07/chinese-ai-model-developer-kimi-raising-funds-valuing-it-at-20-billion/"
       }
     ]
   },
