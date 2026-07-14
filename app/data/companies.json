@@ -8626,6 +8626,13 @@
     ],
     "news": [
       {
+        "title": "Grok Build CLI 被曝秘密上传开发者完整代码库，马斯克承诺删除全部数据",
+        "date": "2026-07-14",
+        "category": "重大",
+        "summary": "研究人员发现 Grok Build CLI 将开发者完整 Git 仓库（含历史提交与 API 密钥）悄然上传至 xAI 云存储，实际传输量约为任务所需的 2.78 万倍。马斯克随即公开承诺删除全部已上传用户数据，xAI 已禁用该上传功能。",
+        "url": "https://www.techtimes.com/articles/320420/20260714/grok-build-shipped-entire-codebases-xai-cloud-privacy-toggle-did-nothing.htm"
+      },
+      {
         "title": "发布 Grok 4.5:与 Cursor 联合训练,主打编程与高性价比",
         "date": "2026-07",
         "category": "产品",
@@ -8644,13 +8651,6 @@
         "date": "2026",
         "category": "重大",
         "summary": "2026 年 2 月 SpaceX 以全股票收购 xAI(xAI 估值 2500 亿美元),7 月更名 SpaceXAI;E 轮融资 200 亿美元(英伟达、卡塔尔主权基金、MGX 等参投),用于扩建 Colossus 与训练 Grok 5。",
-        "url": "https://x.ai/news"
-      },
-      {
-        "title": "Colossus 2 成全球首个吉瓦级训练集群;Grok 4.3 发布",
-        "date": "2026",
-        "category": "算力",
-        "summary": "Colossus 2 上线为全球首个吉瓦级 AI 训练集群,4 月升级至 1.5GW;Colossus 1(约 22 万张英伟达 GPU)租给对手 Anthropic。旗舰 Grok 4.3 支持原生视频输入、百万 token 上下文,Grok 5 训练中。",
         "url": "https://x.ai/news"
       }
     ]
