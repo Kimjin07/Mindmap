@@ -8374,6 +8374,13 @@
     },
     "news": [
       {
+        "title": "ChatGPT 重返欧洲 WhatsApp，新签 Kakao 与 Viber 渠道合作",
+        "date": "2026-07-13",
+        "category": "业务",
+        "summary": "缺席欧洲经济区约六个月后，ChatGPT 于 7 月 13 日重回 WhatsApp，EEA 用户无需账号即可访问；同步与韩国最大即时通讯平台 Kakao 及全球 Viber 新签分发合作，移动消息渠道加速扩张。",
+        "url": "https://thewincentral.com/openai-restores-chatgpt-whatsapp-europe-kakao-viber/"
+      },
+      {
         "title": "OpenAI 向美国政府提议授予 5% 股权，价值约 426 亿美元",
         "date": "2026-07-02",
         "category": "业务",
@@ -8393,13 +8400,6 @@
         "category": "重大",
         "summary": "苹果在加州联邦法院指控 OpenAI 系统性盗取芯片工程与片上 AI 设计机密,称 OpenAI 首席硬件官 Tang Tan 主导招募逾 400 名前苹果员工并获取未发布产品机密。OpenAI 否认全部指控,双方关系因 OpenAI 收购 Jony Ive 公司进军硬件领域而急剧恶化。",
         "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html"
-      },
-      {
-        "title": "GPT-5.6 系列公开发布,推出 GPT-Live 语音模型",
-        "date": "2026-07",
-        "category": "产品",
-        "summary": "GPT-5.6 Sol/Terra/Luna 公开发布(此前应美国政府要求仅限受信伙伴,Sol 在生物/化学/网络安全上最强);GPT-Live 可同时听与说,对话更自然。",
-        "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html"
       }
     ]
   },
