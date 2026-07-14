@@ -4582,6 +4582,20 @@
     ],
     "news": [
       {
+        "title": "三星代工完成特斯拉AI5芯片流片，德州Taylor 2nm工厂年底启产",
+        "date": "2026-07-13",
+        "category": "合同",
+        "summary": "三星晶圆代工于德州Taylor完成特斯拉AI5芯片2nm制程流片，进入量产冲刺；工厂预计2026年底启动初步生产，2027年全面商业化，标志三星代工赢得重要AI大单。",
+        "url": "https://www.upi.com/Top_News/World-News/2026/07/13/samsung-tesla-foundry-texas-ai5-chip/8251783995948/"
+      },
+      {
+        "title": "三星将龙仁芯片工厂量产节点提前至2029年，加快AI存储供给扩张",
+        "date": "2026-07-13",
+        "category": "重大",
+        "summary": "三星电子确认将龙仁半导体园区首座晶圆厂量产时间提前至2029年，较原计划早约1-2年；此举在韩国总统主持的政企会议上达成共识，旨在匹配全球AI芯片供给缺口。",
+        "url": "https://www.benzinga.com/markets/tech/26/07/60406872/samsung-brings-forward-yongin-ai-chip-fab-launch-to-2029"
+      },
+      {
         "title": "三星代工部门将4nm/5nm报价上调约15%，AI需求推动进入新定价周期",
         "date": "2026-07-09",
         "category": "业务",
@@ -4594,20 +4608,6 @@
         "category": "业务",
         "summary": "据报道，三星集团会长李在镕计划赴美硅谷，与英伟达 CEO 黄仁勋会面，讨论 HBM4 认证进展及 AI 芯片供应链扩大合作；消息带动三星股价单日涨逾 5%。",
         "url": "https://www.investing.com/news/stock-market-news/samsungs-lee-seeks-to-meet-nvidias-huang-by-endjuly-report-4785205"
-      },
-      {
-        "title": "三星 Q2 初步业绩:营业利润 89.4 万亿韩元,同比增逾 18 倍创纪录",
-        "date": "2026-07-07",
-        "category": "财报",
-        "summary": "三星电子公布 Q2 初步业绩:营业利润约 89.4 万亿韩元,同比增长约 1810%,创历史新高,超分析师预期约 6%;合并营收约 171 万亿韩元。AI 驱动 HBM 存储器需求旺盛助推业绩井喷,完整财报将于 7 月 30 日公布。",
-        "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-second-quarter-2026"
-      },
-      {
-        "title": "三星加入韩国 392 万亿韩元半导体计划,承诺 140 万亿韩元建 HBM 封装厂",
-        "date": "2026-07",
-        "category": "重大",
-        "summary": "韩国政府 7 月 2 日公布总规模 392 万亿韩元半导体振兴计划,三星集团承诺独力投入 140 万亿韩元,包括在忠清道新建 HBM 专属晶圆及先进封装产线,以加速缩小与 SK 海力士在 AI 存储领域的竞争差距。",
-        "url": "https://letsdatascience.com/news/samsung-and-sk-hynix-build-hbm-packaging-fabs-f9069af3"
       }
     ]
   },
