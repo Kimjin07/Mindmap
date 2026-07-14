@@ -8735,6 +8735,13 @@
     },
     "news": [
       {
+        "title": "深度求索首轮后数周再启融资洽谈，意向估值 710 亿美元",
+        "date": "2026-07-14",
+        "category": "融资",
+        "summary": "彭博援引《金融时报》报道，深度求索在完成约74亿美元首轮外融仅数周后，已与潜在投资人接触，拟以710亿美元税前估值发起新一轮融资，较首轮提升近37%。",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-14/deepseek-mulls-new-funding-weeks-after-7-billion-round-ft-says"
+      },
+      {
         "title": "彭博:深度求索已启动自研 AI 推理芯片项目,专注推理侧算力自主可控",
         "date": "2026-07",
         "category": "研发",
@@ -8754,13 +8761,6 @@
         "category": "融资",
         "summary": "深度求索完成首次对外融资约 74 亿美元,估值 520~590 亿美元。腾讯、宁德时代领投,国家 AI 产业投资基金获投票权,创中国 AI 单轮融资历史纪录。",
         "url": "https://www.forbes.com/sites/anishasircar/2026/06/17/deepseek-just-raised-74-billion-heres-the-catch/"
-      },
-      {
-        "title": "发布开源 DeepSeek-V4(Pro/Flash),R2 仍未面世",
-        "date": "2026-04",
-        "category": "产品",
-        "summary": "2026 年 4 月发布开源 V4:V4-Pro 为 1.6 万亿参数 MoE(激活 490 亿)、百万 token 上下文,支持思考/非思考双模式;备受期待的 R2 推理模型因梁文锋对性能不满,仍未正式发布。",
-        "url": "https://api-docs.deepseek.com/news/news260424/"
       }
     ]
   },
