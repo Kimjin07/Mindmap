@@ -407,6 +407,13 @@
     ],
     "news": [
       {
+        "title": "美国官员证实英伟达 H200 芯片已向中国 10 家获批企业首批发货",
+        "date": "2026-07-14",
+        "category": "业务",
+        "summary": "美国商务部副部长 Kessler 在众议院听证会上证实，英伟达 H200 GPU 已向 10 家中国获批企业（含阿里、腾讯、字节、京东、深度求索）首批发货，数量极少，初始配额约 7.5 万块，英伟达股价当日涨逾 4%。",
+        "url": "https://www.cnbc.com/2026/07/14/nvidia-h200-ai-chips-china.html"
+      },
+      {
         "title": "路透社独家：美国向中兴等中国企业发放英伟达H200芯片采购许可证",
         "date": "2026-07-14",
         "category": "业务",
@@ -426,13 +433,6 @@
         "category": "业务",
         "summary": "英伟达响应美国出口管制压力，对新加坡、马来西亚及日本 AI 芯片购买商实施更严格审查，将白名单客户数量砍半，落选企业多为新兴云服务商；英伟达员工将赴客户数据中心现场核查合规情况，落选方整改后可申请重新入名单。",
         "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-halves-asia-buyer-list-033140201.html"
-      },
-      {
-        "title": "英伟达推出 GPU 融资兜底模式，Sharon AI 首批部署 4 万台 GB300",
-        "date": "2026-07-01",
-        "category": "业务",
-        "summary": "英伟达推出算力融资兜底新模式：以预设价格承租合作云商闲置 GPU 产能以换取持续收入分成；Sharon AI 作为首批合作伙伴，计划部署多达 4 万台 Grace Blackwell GB300 GPU。",
-        "url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/"
       }
     ],
     "links": {
