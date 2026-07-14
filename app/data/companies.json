@@ -407,6 +407,13 @@
     ],
     "news": [
       {
+        "title": "英伟达与三菱重工探讨 AI 数据中心冷却与电力管理战略合作",
+        "date": "2026-07-14",
+        "category": "业务",
+        "summary": "据日经亚洲报道，英伟达拟与三菱重工合作，由后者为\"AI 工厂\"数据中心提供冷却系统与能源管理方案，三菱重工或成英伟达下一代算力基础设施的核心工业合作伙伴。",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-mitsubishi-heavy-eye-cooperation-on-ai-data-center-cooling-and-power"
+      },
+      {
         "title": "英伟达缩减亚洲 AI 芯片买家白名单，逾半客户落选可申请重审",
         "date": "2026-07-14",
         "category": "业务",
@@ -426,13 +433,6 @@
         "category": "重大",
         "summary": "在 GTC 2026 大会上,CEO 黄仁勋表示预计到 2027 年 Blackwell 与 Vera Rubin 两代平台的采购订单总额将达 1 万亿美元,较此前 5000 亿美元的展望翻倍。",
         "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"
-      },
-      {
-        "title": "Q4 FY2026 营收约 680 亿美元,下季指引 780 亿",
-        "date": "2026-02",
-        "category": "财报",
-        "summary": "英伟达公布 2026 财年四季度业绩,营收约 680 亿美元超预期,并给出 2027 财年一季度 780 亿美元的营收指引,Rubin 样片已向头部客户出货、下半年量产。",
-        "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-26-nvidia-q4-2026-earnings-rubin-gpu-ramp-and-68-billion-revenue-blowout"
       }
     ],
     "links": {
@@ -4582,6 +4582,13 @@
     ],
     "news": [
       {
+        "title": "三星代工据报与 Anthropic 就定制 AI 芯片制造初步达成协议",
+        "date": "2026-07-14",
+        "category": "合同",
+        "summary": "据韩国媒体报道，三星代工已与 Anthropic 就其定制 AI 推理芯片制造初步达成协议，采用 2nm 制程；双方均未官方确认此次报道。",
+        "url": "https://en.cryptonomist.ch/2026/07/14/samsung-anthropic-ai-chips/"
+      },
+      {
         "title": "三星代工完成特斯拉AI5芯片流片，德州Taylor 2nm工厂年底启产",
         "date": "2026-07-13",
         "category": "合同",
@@ -4601,13 +4608,6 @@
         "category": "业务",
         "summary": "三星晶圆代工部门将4nm与5nm先进制程报价上调约15%，主要适用于新增客户；受AI芯片订单激增驱动，先进制程产能持续供不应求，三星同步台积电涨价节奏重构代工业务利润结构。",
         "url": "https://wccftech.com/samsung-hikes-5nm-and-4nm-wafer-prices-15-breaking-from-tsmcs-broad-increases-as-ai-demand-rewrites-the-rules-report/"
-      },
-      {
-        "title": "三星李在镕赴美拟月底会见黄仁勋，深化英伟达 AI 芯片供应链合作",
-        "date": "2026-07-09",
-        "category": "业务",
-        "summary": "据报道，三星集团会长李在镕计划赴美硅谷，与英伟达 CEO 黄仁勋会面，讨论 HBM4 认证进展及 AI 芯片供应链扩大合作；消息带动三星股价单日涨逾 5%。",
-        "url": "https://www.investing.com/news/stock-market-news/samsungs-lee-seeks-to-meet-nvidias-huang-by-endjuly-report-4785205"
       }
     ]
   },
@@ -8510,6 +8510,13 @@
     },
     "news": [
       {
+        "title": "Anthropic 与三星代工就首款定制 AI 推理芯片制造合作据报接近达成",
+        "date": "2026-07-14",
+        "category": "研发",
+        "summary": "据报道，Anthropic 与三星代工就定制 AI 推理芯片制造合作接近达成，拟采用 2nm 工艺；此举标志 Anthropic 向自研硅片迈出关键一步，官方未予证实。",
+        "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
+      },
+      {
         "title": "空军备忘录：承包商须 9 月 1 日前清除 Anthropic 全部产品",
         "date": "2026-07-09",
         "category": "业务",
@@ -8529,13 +8536,6 @@
         "category": "落地",
         "summary": "7 月 7 日 Anthropic 将 Claude 企业版 M365 连接器从只读升级为读写，可代发邮件、管理日历事件，并在 OneDrive/SharePoint 中创建更新文件，显著扩展企业 AI 办公落地能力。",
         "url": "https://www.anthropic.com/news/claude-microsoft-365-write-tools"
-      },
-      {
-        "title": "Anthropic 与 TeraWulf 签订 190 亿美元、20 年数据中心租约",
-        "date": "2026-07-06",
-        "category": "合同",
-        "summary": "Anthropic 与可持续算力公司 TeraWulf 签署 20 年数据中心长期租约，合同总额约 190 亿美元。基地位于肯塔基州 Hawesville，规划 IT 负载约 401MW，首批算力预计 2027 年下半年投产，2028 年初满载运行。",
-        "url": "https://siliconangle.com/2026/07/06/anthropic-inks-19b-ai-data-center-lease-terawulf/"
       }
     ]
   },
