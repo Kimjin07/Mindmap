@@ -407,6 +407,13 @@
     ],
     "news": [
       {
+        "title": "英伟达缩减亚洲 AI 芯片买家白名单，逾半客户落选可申请重审",
+        "date": "2026-07-14",
+        "category": "业务",
+        "summary": "英伟达响应美国出口管制压力，对新加坡、马来西亚及日本 AI 芯片购买商实施更严格审查，将白名单客户数量砍半，落选企业多为新兴云服务商；英伟达员工将赴客户数据中心现场核查合规情况，落选方整改后可申请重新入名单。",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-halves-asia-buyer-list-033140201.html"
+      },
+      {
         "title": "英伟达推出 GPU 融资兜底模式，Sharon AI 首批部署 4 万台 GB300",
         "date": "2026-07-01",
         "category": "业务",
@@ -426,13 +433,6 @@
         "category": "财报",
         "summary": "英伟达公布 2026 财年四季度业绩,营收约 680 亿美元超预期,并给出 2027 财年一季度 780 亿美元的营收指引,Rubin 样片已向头部客户出货、下半年量产。",
         "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-26-nvidia-q4-2026-earnings-rubin-gpu-ramp-and-68-billion-revenue-blowout"
-      },
-      {
-        "title": "CES 发布 Rubin 平台:六款新芯片,已全面量产",
-        "date": "2026-01",
-        "category": "产品",
-        "summary": "英伟达在 CES 宣布 Vera Rubin 芯片进入全面量产,Rubin 平台含六款新芯片,推理 token 成本较 Blackwell 最高降 10 倍;AWS、谷歌云、微软等将于 2026 年内率先部署。",
-        "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer"
       }
     ],
     "links": {
@@ -8735,6 +8735,13 @@
     },
     "news": [
       {
+        "title": "深度求索筹备国内 IPO，最快 2026 年提交申请拟 2027 年上市",
+        "date": "2026-07-14",
+        "category": "重大",
+        "summary": "据彭博社 7 月 14 日报道，深度求索已与会计师及投行顾问接触，计划在中国大陆申报 IPO，最快本年底递交材料并于 2027 年完成挂牌，有望成为中国 AI 行业迄今最受瞩目的公开上市事件。",
+        "url": "https://cryptobriefing.com/deepseek-ipo-china-ai-landmark/"
+      },
+      {
         "title": "深度求索首轮后数周再启融资洽谈，意向估值 710 亿美元",
         "date": "2026-07-14",
         "category": "融资",
@@ -8754,13 +8761,6 @@
         "category": "落地",
         "summary": "腾讯云宣布 DeepSeek-V4 正式版模型计划于 7 月中在大模型服务平台 TokenHub 及智能体开发平台上线,V4 生态落地进一步提速。",
         "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-07-03/doc-inifpqky0448372.shtml"
-      },
-      {
-        "title": "深度求索完成首轮对外融资 74 亿美元,估值超 520 亿美元创中国 AI 纪录",
-        "date": "2026-06-17",
-        "category": "融资",
-        "summary": "深度求索完成首次对外融资约 74 亿美元,估值 520~590 亿美元。腾讯、宁德时代领投,国家 AI 产业投资基金获投票权,创中国 AI 单轮融资历史纪录。",
-        "url": "https://www.forbes.com/sites/anishasircar/2026/06/17/deepseek-just-raised-74-billion-heres-the-catch/"
       }
     ]
   },
