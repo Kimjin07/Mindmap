@@ -407,6 +407,13 @@
     ],
     "news": [
       {
+        "title": "路透社独家：美国向中兴等中国企业发放英伟达H200芯片采购许可证",
+        "date": "2026-07-14",
+        "category": "业务",
+        "summary": "路透社7月14日独家披露，美国向中兴旗下公司、Maginfra等发放英伟达H200采购许可；阿里、腾讯、字节跳动此前亦获批，标志中国企业购入顶级AI芯片渠道实质性重开。",
+        "url": "https://ca.finance.yahoo.com/news/exclusive-zte-among-chinese-firms-143551303.html"
+      },
+      {
         "title": "英伟达与三菱重工探讨 AI 数据中心冷却与电力管理战略合作",
         "date": "2026-07-14",
         "category": "业务",
@@ -426,13 +433,6 @@
         "category": "业务",
         "summary": "英伟达推出算力融资兜底新模式：以预设价格承租合作云商闲置 GPU 产能以换取持续收入分成；Sharon AI 作为首批合作伙伴，计划部署多达 4 万台 Grace Blackwell GB300 GPU。",
         "url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/"
-      },
-      {
-        "title": "GTC 2026:黄仁勋预计 Blackwell+Rubin 订单达 1 万亿美元",
-        "date": "2026-03",
-        "category": "重大",
-        "summary": "在 GTC 2026 大会上,CEO 黄仁勋表示预计到 2027 年 Blackwell 与 Vera Rubin 两代平台的采购订单总额将达 1 万亿美元,较此前 5000 亿美元的展望翻倍。",
-        "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html"
       }
     ],
     "links": {
@@ -838,6 +838,13 @@
     },
     "news": [
       {
+        "title": "美国批准金山云旗下公司采购AMD AI芯片，中美芯片管控出现实质性松动",
+        "date": "2026-07-14",
+        "category": "业务",
+        "summary": "与英伟达H200许可同日，金山云旗下珠海横琴云享获批采购性能相当于H200的AMD AI芯片；美国银行同日将AMD目标价上调至620美元，看好中国市场重开带来的GPU出货增量。",
+        "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262029542-amd-nvidia-ai-chip-zte-kingsoft-maginfra-h200-boa-620-cpu-tradingkey"
+      },
+      {
         "title": "AMD 确认 EPYC Venice 7 月 22 日发布，256 核 TSMC 2nm",
         "date": "2026-07-11",
         "category": "产品",
@@ -857,13 +864,6 @@
         "category": "合同",
         "summary": "2 月 24 日 AMD 与 Meta 宣布扩大合作,将跨多代 Instinct 产品再部署 6 吉瓦 AMD GPU,其中包括基于 MI450 架构的定制加速器,继 OpenAI 之后再获超大规模客户锁定。",
         "url": "https://futurumgroup.com/insights/amd-q1-fy-2026-data-center-momentum-builds-as-ai-deployments-scale/"
-      },
-      {
-        "title": "OpenAI 入股约 10% 锁定 6GW GPU;MI400 下半年量产",
-        "date": "2026",
-        "category": "重大",
-        "summary": "2025 年底 OpenAI 取得 AMD 至多约 10% 股份以锁定 6GW GPU 供应(潜在采购额约 2000 亿美元);新一代 Instinct MI400(432GB HBM4、算力较 MI350 翻倍)将于 2026 下半年量产。",
-        "url": "https://ir.amd.com/news-events/press-releases/detail/1201/amd-accelerates-pace-of-data-center-ai-innovation-and-leadership-with-expanded-amd-instinct-gpu-roadmap"
       }
     ]
   },
@@ -4466,6 +4466,13 @@
     ],
     "news": [
       {
+        "title": "KIS下调SK海力士Q2利润预估8%，HBM4量产延至Q3，首尔股价创纪录跌15%",
+        "date": "2026-07-13",
+        "category": "财报",
+        "summary": "KIS下调SK海力士Q2利润至60.4万亿韩元（低于预期8%），主因HBM长约限价及HBM4推迟量产；首尔股价单日跌15.4%创历史最差，ADR跌9.3%。",
+        "url": "https://www.techtimes.com/articles/320352/20260713/sk-hynix-posts-worst-seoul-session-record-hbm-contracts-limit-earnings-upside.htm"
+      },
+      {
         "title": "SK 海力士登陆纳斯达克首日涨 13%,募资 265 亿美元创外国企业赴美上市纪录",
         "date": "2026-07",
         "category": "重大",
@@ -4485,13 +4492,6 @@
         "category": "业务",
         "summary": "据 TrendForce,SK 海力士放缓 HBM4 产能爬坡,规模化量产预计推迟至 2026 年三季度,优先优化利润并加码趋紧的通用 DRAM 市场。",
         "url": "https://www.trendforce.com/news/2026/06/23/news-memory-giants-split-on-hbm4-strategy-samsung-hbm4-sales-reportedly-tops-1b-sk-hynix-slows-ramp/"
-      },
-      {
-        "title": "HBM4E 下半年送样、2027 量产;HBM 份额 56.4% 全球第一",
-        "date": "2026-04",
-        "category": "进展",
-        "summary": "公司计划 2026 下半年供应第七代 HBM4E 样品,目标 2027 年量产;当前 HBM 全球市占率 56.4% 居首,2026 年产能已全部售罄。",
-        "url": "https://www.cnbc.com/2026/04/23/sk-hynix-earnings-ai-memory-shortage-hbm-demand.html"
       }
     ]
   },
