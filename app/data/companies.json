@@ -4466,6 +4466,13 @@
     ],
     "news": [
       {
+        "title": "SK海力士正式宣布12层HBM4量产，向英伟达Vera Rubin平台启动发货",
+        "date": "2026-07-14",
+        "category": "产品",
+        "summary": "SK海力士7月14日正式宣布12层堆栈HBM4进入量产阶段，已向英伟达Vera Rubin GPU平台开始批量发货，早于9月全面坡道计划；消息刺激其纳斯达克ADR涨逾17%，创上市以来新高。",
+        "url": "https://www.digitimes.com/news/a20260713VL219/sk-hynix-hbm4-nvidia-shipments-samsung.html"
+      },
+      {
         "title": "KIS下调SK海力士Q2利润预估8%，HBM4量产延至Q3，首尔股价创纪录跌15%",
         "date": "2026-07-13",
         "category": "财报",
@@ -4485,13 +4492,6 @@
         "category": "重大",
         "summary": "SK 海力士参与韩国政府主导的三星+SK 联合约 8800 亿美元 AI 芯片投资计划,将新建两座晶圆厂,多项项目由 2040 年代提速至 2030 年代中期完工。",
         "url": "https://www.bloomberg.com/news/articles/2026-06-28/samsung-sk-reportedly-to-invest-1-3-trillion-over-10-years"
-      },
-      {
-        "title": "调整 HBM4 爬坡节奏,转向利润优先策略",
-        "date": "2026-06",
-        "category": "业务",
-        "summary": "据 TrendForce,SK 海力士放缓 HBM4 产能爬坡,规模化量产预计推迟至 2026 年三季度,优先优化利润并加码趋紧的通用 DRAM 市场。",
-        "url": "https://www.trendforce.com/news/2026/06/23/news-memory-giants-split-on-hbm4-strategy-samsung-hbm4-sales-reportedly-tops-1b-sk-hynix-slows-ramp/"
       }
     ]
   },
