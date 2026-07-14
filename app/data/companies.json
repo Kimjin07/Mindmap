@@ -8842,6 +8842,13 @@
     },
     "news": [
       {
+        "title": "华为 Pura 90 全球首发：疑携 5G 重返国际市场，首款海外旗舰六年来亮相",
+        "date": "2026-07-14",
+        "category": "产品",
+        "summary": "华为今日在马来西亚吉隆坡全球首发 Pura 90、Pro 及 Max 三款旗舰；国际版疑搭 5G，或为近六年来华为首次向海外推出 5G 手机。",
+        "url": "https://www.phonearena.com/news/huawei-spectacular-global-5g-comeback_id181675"
+      },
+      {
         "title": "华为联合本土伙伴在深圳筹建12寸DRAM晶圆厂，月产14万片",
         "date": "2026-07-12",
         "category": "研发",
@@ -8861,12 +8868,6 @@
         "category": "产品",
         "summary": "6 月 12 日华为开发者大会上 HarmonyOS 7 开发者 Beta 正式启动,围绕 Agent 时代带来五大核心发布;截至 6 月鸿蒙生态设备累计超 13 亿台,覆盖手机、车机、IoT 等全品类。",
         "url": "https://finance.sina.com.cn/wm/2026-06-12/doc-iniceccm3470069.shtml"
-      },
-      {
-        "title": "华为昇腾 910C 出货量 2026 年有望翻倍至约 60 万颗，910D 下半年量产",
-        "date": "2026",
-        "category": "产品",
-        "summary": "昇腾 910C 自 2025 年 5 月量产后，2026 年出货量有望翻倍至约 60 万颗；5nm、支持 FP8 的 910D 预计 2026 年二三季度量产，CloudMatrix 384 超节点对标英伟达 GB200 NVL72。"
       }
     ],
     "links": {
