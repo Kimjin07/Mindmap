@@ -112,6 +112,13 @@
     ],
     "news": [
       {
+        "title": "微软联合谷歌等推出企业 AI 代理互联协议，制衡 Anthropic MCP",
+        "date": "2026-07-13",
+        "category": "重大",
+        "summary": "微软与谷歌、Salesforce、Snowflake、ServiceNow 五家科技巨头联手推出统一企业 AI 代理互联协议，直接对抗 Anthropic MCP 标准，争夺未来企业 AI 基础设施的生态主导权。",
+        "url": "https://cryptobriefing.com/ard-ai-standard-google-microsoft-salesforce/"
+      },
+      {
         "title": "微软在 Office 用自研 MAI 模型替换 OpenAI 和 Anthropic",
         "date": "2026-07-07",
         "category": "业务",
@@ -131,13 +138,6 @@
         "category": "业务",
         "summary": "微软宣布成立子公司 Microsoft Frontier Company，投入 25 亿美元资金及 6000 名行业与工程专家，以驻场工程师模式帮企业将 Azure AI 工具转化为可量化业务成果；早期客户涵盖伦敦证券交易所集团（LSEG）等大型机构。",
         "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/"
-      },
-      {
-        "title": "FY2026 Q3 营收 829 亿美元,Azure 增 40%、AI 年化收入超 37…",
-        "date": "2026-04",
-        "category": "财报",
-        "summary": "微软 2026 财年三季度营收 828.9 亿美元,同比增 18.3%,摊薄 EPS 4.27 美元;Azure 及其他云服务收入增长 40%,AI 年化收入超过 370 亿美元,业绩全面超预期。",
-        "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html"
       }
     ]
   },
@@ -263,6 +263,13 @@
     ],
     "news": [
       {
+        "title": "谷歌联手微软等推出企业 AI 代理互联标准，对抗 Anthropic MCP",
+        "date": "2026-07-13",
+        "category": "重大",
+        "summary": "谷歌、微软、Salesforce 等五家科技巨头于 7 月 13 日联合推出新企业 AI 代理互联协议，为 AI 智能体连接企业软件系统提供统一标准，直接对抗 Anthropic 已广泛落地的 MCP 生态。",
+        "url": "https://cryptobriefing.com/ard-ai-standard-google-microsoft-salesforce/"
+      },
+      {
         "title": "Gemini 3.5 Pro 确认 7/17 发布,2M token 上下文架构全重构",
         "date": "2026-07-12",
         "category": "产品",
@@ -282,13 +289,6 @@
         "category": "产品",
         "summary": "Gemini 3.5 Flash 正式版主打持续的前沿智能体与编码能力、约百万 token 上下文;旗舰 3.5 Pro 因架构从头重构推迟至 7 月 17 日,引入 200 万 token 上下文与 Deep Think 推理层。",
         "url": "https://ai.google.dev/gemini-api/docs/changelog"
-      },
-      {
-        "title": "谷歌顶级研究员 Shazeer 赴 OpenAI、Jumper 投奔 Anthropic",
-        "date": "2026-06-19",
-        "category": "研发",
-        "summary": "Transformer 架构共同作者、Gemini 核心负责人 Shazeer 转投 OpenAI，AlphaFold 诺奖负责人 Jumper 加入 Anthropic，谷歌两天内失去两位顶级研究员，股价单日跌超 5%。",
-        "url": "https://fortune.com/2026/06/23/google-deepmind-ai-researcher-departures-raise-doubts-about-ability-to-win-the-ai-race-shazeer-jumper-eye-on-ai/"
       }
     ]
   },
@@ -8381,25 +8381,25 @@
         "url": "https://thewincentral.com/openai-restores-chatgpt-whatsapp-europe-kakao-viber/"
       },
       {
+        "title": "OpenAI 发布 GPT-5.6 系列，Sol 旗舰推理 750 token/秒可达",
+        "date": "2026-07-09",
+        "category": "产品",
+        "summary": "OpenAI 推出 GPT-5.6 系列三款：旗舰 Sol 主打前沿推理、Terra 成本减半、Luna 最低价；已全面向 API 开放，Sol 最高达 750 token/秒。",
+        "url": "https://openai.com/index/previewing-gpt-5-6-sol/"
+      },
+      {
+        "title": "OpenAI 推出 GPT-Live 全双工语音，支持实时翻译与任务委托",
+        "date": "2026-07-08",
+        "category": "产品",
+        "summary": "OpenAI 推出 GPT-Live，实现全双工同步听说，含实时翻译与跨智能体任务委托；分 GPT-Live-1（旗舰）与 mini 两版，已向 ChatGPT 全球用户开放。",
+        "url": "https://openai.com/index/introducing-gpt-live/"
+      },
+      {
         "title": "OpenAI 向美国政府提议授予 5% 股权，价值约 426 亿美元",
         "date": "2026-07-02",
         "category": "业务",
         "summary": "7 月 2 日，OpenAI 向美国政府提议转让 5% 股权，按最新 8520 亿美元估值测算价值约 426 亿美元，并建议 Anthropic、谷歌等头部 AI 公司效仿，方案仍需国会批准。",
         "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html"
-      },
-      {
-        "title": "推出 ChatGPT Work 自主智能体，Codex 合并入 ChatGPT 桌面端",
-        "date": "2026-07",
-        "category": "产品",
-        "summary": "OpenAI 于 7 月 9 日发布 ChatGPT Work，由 GPT-5.6 驱动的自主智能体，可跨应用与文件持续执行多步任务数小时，产出成品文档、表格与演示文稿；Codex 同步并入 ChatGPT 桌面客户端。",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-09/openai-unveils-chatgpt-work-agent-to-field-tasks-for-hours"
-      },
-      {
-        "title": "苹果起诉 OpenAI 窃取芯片设计机密,涉 400 余名前苹果员工",
-        "date": "2026-07",
-        "category": "重大",
-        "summary": "苹果在加州联邦法院指控 OpenAI 系统性盗取芯片工程与片上 AI 设计机密,称 OpenAI 首席硬件官 Tang Tan 主导招募逾 400 名前苹果员工并获取未发布产品机密。OpenAI 否认全部指控,双方关系因 OpenAI 收购 Jony Ive 公司进军硬件领域而急剧恶化。",
-        "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html"
       }
     ]
   },
