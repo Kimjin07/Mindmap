@@ -8510,6 +8510,13 @@
     },
     "news": [
       {
+        "title": "Anthropic 推出教育版 Claude，为 K-12 教师免费开放最强模型",
+        "date": "2026-07-14",
+        "category": "产品",
+        "summary": "Anthropic 发布 Claude for Teachers，经认证的美国 K-12 教师可免费获得最高级别 Claude Opus 访问权限及覆盖全美 50 州课程标准的 Learning Commons 连接器，竞争 Google、OpenAI 争夺教育市场入口。",
+        "url": "https://www.anthropic.com/news/claude-for-teachers"
+      },
+      {
         "title": "Anthropic 与三星代工就首款定制 AI 推理芯片制造合作据报接近达成",
         "date": "2026-07-14",
         "category": "研发",
@@ -8529,13 +8536,6 @@
         "category": "产品",
         "summary": "Claude for Government Desktop 正式进入公开测试，在 FedRAMP High 授权环境中提供 Claude Code 和 Cowork，政府机构可用于软件现代化、文件审查与流程自动化，对话记录本地存储，具备强化审计日志与支出管控。",
         "url": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government"
-      },
-      {
-        "title": "Anthropic 为 Claude 企业版新增 M365 写权限，可代发邮件管理日历",
-        "date": "2026-07-07",
-        "category": "落地",
-        "summary": "7 月 7 日 Anthropic 将 Claude 企业版 M365 连接器从只读升级为读写，可代发邮件、管理日历事件，并在 OneDrive/SharePoint 中创建更新文件，显著扩展企业 AI 办公落地能力。",
-        "url": "https://www.anthropic.com/news/claude-microsoft-365-write-tools"
       }
     ]
   },
