@@ -284,11 +284,11 @@
         "url": "https://ai.google.dev/gemini-api/docs/changelog"
       },
       {
-        "title": "Q1 2026 营收 1099 亿美元增 22%,云业务大增 63%",
-        "date": "2026-04",
-        "category": "财报",
-        "summary": "Alphabet 2026 年一季度营收 1099 亿美元,同比增长 22%,净利润增 81%;谷歌云营收增长 63% 首次突破 200 亿美元,积压订单近乎环比翻倍至逾 4600 亿美元。",
-        "url": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html"
+        "title": "谷歌顶级研究员 Shazeer 赴 OpenAI、Jumper 投奔 Anthropic",
+        "date": "2026-06-19",
+        "category": "研发",
+        "summary": "Transformer 架构共同作者、Gemini 核心负责人 Shazeer 转投 OpenAI，AlphaFold 诺奖负责人 Jumper 加入 Anthropic，谷歌两天内失去两位顶级研究员，股价单日跌超 5%。",
+        "url": "https://fortune.com/2026/06/23/google-deepmind-ai-researcher-departures-raise-doubts-about-ability-to-win-the-ai-race-shazeer-jumper-eye-on-ai/"
       }
     ]
   },
@@ -407,6 +407,13 @@
     ],
     "news": [
       {
+        "title": "英伟达推出 GPU 融资兜底模式，Sharon AI 首批部署 4 万台 GB300",
+        "date": "2026-07-01",
+        "category": "业务",
+        "summary": "英伟达推出算力融资兜底新模式：以预设价格承租合作云商闲置 GPU 产能以换取持续收入分成；Sharon AI 作为首批合作伙伴，计划部署多达 4 万台 Grace Blackwell GB300 GPU。",
+        "url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/"
+      },
+      {
         "title": "GTC 2026:黄仁勋预计 Blackwell+Rubin 订单达 1 万亿美元",
         "date": "2026-03",
         "category": "重大",
@@ -426,13 +433,6 @@
         "category": "产品",
         "summary": "英伟达在 CES 宣布 Vera Rubin 芯片进入全面量产,Rubin 平台含六款新芯片,推理 token 成本较 Blackwell 最高降 10 倍;AWS、谷歌云、微软等将于 2026 年内率先部署。",
         "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer"
-      },
-      {
-        "title": "Q3 FY2026 数据中心营收创纪录,Blackwell「供不应求」",
-        "date": "2026",
-        "category": "财报",
-        "summary": "黄仁勋称 Blackwell 销量「爆表」、云端 GPU 售罄;Blackwell Ultra 相比 Hopper 推理性能最高提升 50 倍、成本降 35 倍。CFO 称 Blackwell 与下一代 Rubin 收入能见度约 5000 亿美元。",
-        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2026"
       }
     ],
     "links": {
@@ -8374,6 +8374,13 @@
     },
     "news": [
       {
+        "title": "OpenAI 向美国政府提议授予 5% 股权，价值约 426 亿美元",
+        "date": "2026-07-02",
+        "category": "业务",
+        "summary": "7 月 2 日，OpenAI 向美国政府提议转让 5% 股权，按最新 8520 亿美元估值测算价值约 426 亿美元，并建议 Anthropic、谷歌等头部 AI 公司效仿，方案仍需国会批准。",
+        "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html"
+      },
+      {
         "title": "推出 ChatGPT Work 自主智能体，Codex 合并入 ChatGPT 桌面端",
         "date": "2026-07",
         "category": "产品",
@@ -8393,13 +8400,6 @@
         "category": "产品",
         "summary": "GPT-5.6 Sol/Terra/Luna 公开发布(此前应美国政府要求仅限受信伙伴,Sol 在生物/化学/网络安全上最强);GPT-Live 可同时听与说,对话更自然。",
         "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html"
-      },
-      {
-        "title": "OpenAI 秘密提交 IPO 上市申请，高盛主承销，估值 8520 亿美元",
-        "date": "2026-06-08",
-        "category": "融资",
-        "summary": "OpenAI 秘密向 SEC 提交 S-1，目标 2026 年秋 IPO、估值约 8500 亿美元，高盛等主承销；公司月入 20 亿美元但尚未盈利。",
-        "url": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html"
       }
     ]
   },
@@ -23162,6 +23162,13 @@
     },
     "news": [
       {
+        "title": "Anduril 获空军 CCA 无人僚机 FQ-44 量产合同",
+        "date": "2026-06-17",
+        "category": "合同",
+        "summary": "6 月 17 日，美国空军正式授予 Anduril FQ-44 协同战斗无人机量产合同，Anduril 成为逾 50 年来首个在战斗机项目中胜出的新进入者，空军目标 2030 年前采购超 150 架。",
+        "url": "https://www.anduril.com/news/anduril-wins-production-contract-for-u-s-air-force-cca-program"
+      },
+      {
         "title": "融资 50 亿估值翻倍至 610 亿,获陆军 200 亿大单",
         "date": "2026-05",
         "category": "重大",
@@ -23181,13 +23188,6 @@
         "category": "合同",
         "summary": "美国防部宣布与Anduril等四家公司三年内采购超1万枚低成本高超音速导弹，Anduril将向陆军供应至少3000枚Barracuda-500M，2027上半年开始交付。",
         "url": "https://www.manufacturingdive.com/news/anduril-5b-h-series-leidos-defense-missiles-castelion-coaspire-zone-5/820174/"
-      },
-      {
-        "title": "俄亥俄Arsenal-1超级工厂投产，全年营收指引43亿美元",
-        "date": "2026",
-        "category": "进展",
-        "summary": "Arsenal-1大型制造基地2026年开始投产，产线涵盖Barracuda巡航导弹和入选空军CCA项目的YFQ-44A Fury自主战机，公司预计2026年营收达43亿美元。",
-        "url": "https://www.top1markets.com/news/anduril-industries-2026-valuation-contracts-lattice-ai"
       }
     ]
   },
