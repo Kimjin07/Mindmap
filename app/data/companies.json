@@ -8510,6 +8510,13 @@
     },
     "news": [
       {
+        "title": "Anthropic 启动IPO前路演，高盛等三大行协调投资人会面，最早10月挂牌",
+        "date": "2026-07-15",
+        "category": "重大",
+        "summary": "Bloomberg报道，Anthropic已委托高盛、摩根士丹利、摩根大通安排上市前投资人会面，拟最早2026年10月登陆纳斯达克；公司此前以9650亿美元估值完成650亿美元H轮融资，并已秘密向SEC提交S-1招股书。",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-15/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears"
+      },
+      {
         "title": "Anthropic联合黑石发布Ode企业AI服务公司，15亿美元资本百名工程师嵌驻客户",
         "date": "2026-07-15",
         "category": "业务",
@@ -8529,13 +8536,6 @@
         "category": "研发",
         "summary": "据报道，Anthropic 与三星代工就定制 AI 推理芯片制造合作接近达成，拟采用 2nm 工艺；此举标志 Anthropic 向自研硅片迈出关键一步，官方未予证实。",
         "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
-      },
-      {
-        "title": "空军备忘录：承包商须 9 月 1 日前清除 Anthropic 全部产品",
-        "date": "2026-07-09",
-        "category": "业务",
-        "summary": "美空军发备忘录要求承包商 9 月 1 日前清除 Anthropic 全部产品；Anthropic 因拒绝武器化而被国防部列为供应链风险，联邦法院驳回其暂停申请。",
-        "url": "https://breakingdefense.com/2026/07/air-force-pushing-contractors-to-purge-anthropic-by-sept-1-memo/"
       }
     ]
   },
@@ -27462,6 +27462,13 @@
     },
     "news": [
       {
+        "title": "Thinking Machines 发布首款开权重模型Inkling，9750亿参数MoE",
+        "date": "2026-07-15",
+        "category": "产品",
+        "summary": "Mira Murati旗下Thinking Machines Lab发布首款自研模型Inkling，9750亿总参数/410亿激活参数MoE架构，支持百万token上下文和多模态输入，开放权重于Hugging Face，主打供企业通过Tinker平台微调定制。",
+        "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/"
+      },
+      {
         "title": "与 Google Cloud 签数十亿美元协议扩展 AI 基础设施",
         "date": "2026-04",
         "category": "合同",
@@ -27481,12 +27488,6 @@
         "category": "融资",
         "summary": "据报道,Thinking Machines Lab 正寻求约 50 亿美元的新一轮融资,估值约 500 亿美元;此前公司已在 2025 年完成由 a16z 领投的 20 亿美元种子轮(估值 120 亿美元)。",
         "url": "https://techfundingnews.com/ex-openai-exec-mira-muratis-thinking-machines-lab-nears-50b-valuation/"
-      },
-      {
-        "title": "Mira Murati 实验室推出 Tinker 微调 API",
-        "date": "2025-07",
-        "category": "融资",
-        "summary": "前 OpenAI CTO 创立的 Thinking Machines Lab 于 2025 年 7 月完成 20 亿美元种子轮、估值 120 亿美元,创 AI 史上最大种子融资纪录,首个产品为微调开源模型的 API Tinker。"
       }
     ]
   },
