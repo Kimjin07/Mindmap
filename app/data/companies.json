@@ -8735,6 +8735,13 @@
     },
     "news": [
       {
+        "title": "DeepSeek V4 正式商用 API 上线，行业首创峰谷分时计费：高峰时段费率翻倍",
+        "date": "2026-07-15",
+        "category": "产品",
+        "summary": "V4 Pro（1.6T 参数）与 V4 Flash（284B）正式开放商业 API，推出业界首个「峰谷分时」方案：工作日高峰时段费率为低谷期两倍，以类电价机制平衡算力负荷。",
+        "url": "https://technode.com/2026/06/30/deepseek-to-launch-v4-in-mid-july-with-new-peak-time-api-pricing/"
+      },
+      {
         "title": "深度求索筹备国内 IPO，最快 2026 年提交申请拟 2027 年上市",
         "date": "2026-07-14",
         "category": "重大",
@@ -8754,13 +8761,6 @@
         "category": "研发",
         "summary": "据彭博社援引知情人士报道,深度求索已启动专用 AI 推理芯片研发。该芯片专注推理而非训练,旨在降低对英伟达 GPU 的依赖并强化算力自主能力,是中国头部 AI 模型公司布局自主硅片的最新进展。",
         "url": "https://www.bloomberg.com/news/articles/2026-07-07/chinese-ai-startup-deepseek-developing-own-ai-chip-reuters-says"
-      },
-      {
-        "title": "DeepSeek-V4 正式版「原厂直供」7 月中上线腾讯云",
-        "date": "2026-07",
-        "category": "落地",
-        "summary": "腾讯云宣布 DeepSeek-V4 正式版模型计划于 7 月中在大模型服务平台 TokenHub 及智能体开发平台上线,V4 生态落地进一步提速。",
-        "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-07-03/doc-inifpqky0448372.shtml"
       }
     ]
   },
