@@ -8374,6 +8374,13 @@
     },
     "news": [
       {
+        "title": "OpenAI 首款硬件产品曝光：可移动无屏 AI 伴侣音箱，2027 年上市",
+        "date": "2026-07-14",
+        "category": "产品",
+        "summary": "Bloomberg 披露 OpenAI 首款硬件为无屏可移动 AI 伴侣音箱，内置摄像头，由 Jony Ive 主导，售价约 200–300 美元，2027 年发布。",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion"
+      },
+      {
         "title": "ChatGPT 重返欧洲 WhatsApp，新签 Kakao 与 Viber 渠道合作",
         "date": "2026-07-13",
         "category": "业务",
@@ -8393,13 +8400,6 @@
         "category": "产品",
         "summary": "OpenAI 推出 GPT-Live，实现全双工同步听说，含实时翻译与跨智能体任务委托；分 GPT-Live-1（旗舰）与 mini 两版，已向 ChatGPT 全球用户开放。",
         "url": "https://openai.com/index/introducing-gpt-live/"
-      },
-      {
-        "title": "OpenAI 向美国政府提议授予 5% 股权，价值约 426 亿美元",
-        "date": "2026-07-02",
-        "category": "业务",
-        "summary": "7 月 2 日，OpenAI 向美国政府提议转让 5% 股权，按最新 8520 亿美元估值测算价值约 426 亿美元，并建议 Anthropic、谷歌等头部 AI 公司效仿，方案仍需国会批准。",
-        "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html"
       }
     ]
   },
