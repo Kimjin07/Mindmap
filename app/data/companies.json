@@ -7026,6 +7026,13 @@
     },
     "news": [
       {
+        "title": "Q2 营收 93 亿欧元超预期，全年指引大幅升至 430–450 亿欧元",
+        "date": "2026-07-15",
+        "category": "财报",
+        "summary": "Q2 净销售 93 亿欧元超预期，毛利率 54%；全年指引升至 430–450 亿欧元（前值 360–400 亿），为年内第三次上调，AI 驱动 EUV 需求强劲。",
+        "url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results"
+      },
+      {
         "title": "Q1 2026 净销售 88 亿欧元,毛利率达 53%",
         "date": "2026-04",
         "category": "财报",
@@ -7045,13 +7052,6 @@
         "category": "财报",
         "summary": "Q1 2026 营收 88 亿欧元、毛利率 53%;AI 客户(台/韩/美)的高毛利 EUV 需求替代了流失的对华 DUV 收入,对华销售占比降至 19%;High-NA EUV 持续出货。",
         "url": "https://www.globalbankingandfinance.com/asml-lifts-2026-outlook-back-stronger-ai-demand/"
-      },
-      {
-        "title": "2025 年末在手订单 388 亿欧元,High-NA 系统开始确认收入",
-        "date": "2025-12",
-        "category": "业务",
-        "summary": "2025 年四季度净销售额创纪录达 97 亿欧元,含两台 High-NA EUV 系统收入;当季净订单 132 亿欧元(EUV 占 74 亿),年末积压订单 388 亿欧元。",
-        "url": "https://www.heygotrade.com/en/blog/asml-investment-case-euv-monopoly-semi-capex/"
       }
     ]
   },
