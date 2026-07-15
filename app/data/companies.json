@@ -30414,6 +30414,13 @@
     },
     "news": [
       {
+        "title": "苹果 iOS 27 公测版发布，全新 Siri AI 首次向全球用户开放",
+        "date": "2026-07-14",
+        "category": "产品",
+        "summary": "苹果7月14日推出iOS 27公测版，全新Siri AI首度向普通用户开放，可读设备邮件、照片与消息，具屏幕感知与全球问答能力，并获专属独立App。",
+        "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/"
+      },
+      {
         "title": "苹果洽谈PrismML合作，27B参数大模型可在iPhone 17 Pro本地运行",
         "date": "2026-07-14",
         "category": "研发",
@@ -30433,13 +30440,6 @@
         "category": "产品",
         "summary": "彭博社报道，苹果放弃M6 Pro/Max/Ultra高端型号，直接推进AI神经处理能力更强的M7系列；M7 Ultra可支持1.5TB内存，预计2027年上半年起分批推出。",
         "url": "https://www.bloomberg.com/news/newsletters/2026-07-12/apple-s-chip-plans-m6-m7-pro-m7-max-m7-ultra-m8-details-touch-macbook-pro"
-      },
-      {
-        "title": "苹果与博通签署超 300 亿美元多年芯片协议，在美生产 150 亿颗定制芯片",
-        "date": "2026-07-08",
-        "category": "合同",
-        "summary": "苹果宣布与博通达成超 300 亿美元多年合作协议，在美国境内设计并生产定制硅片及无线连接芯片，博通将投资 15 亿美元扩建科罗拉多工厂，协议延续至 2031 年。",
-        "url": "https://www.cnbc.com/2026/07/08/apple-commits-30-billion-to-broadcom-for-us-chipmaking-push.html"
       }
     ]
   },
