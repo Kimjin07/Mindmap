@@ -8510,6 +8510,13 @@
     },
     "news": [
       {
+        "title": "Anthropic联合黑石发布Ode企业AI服务公司，15亿美元资本百名工程师嵌驻客户",
+        "date": "2026-07-15",
+        "category": "业务",
+        "summary": "Anthropic与黑石集团、Hellman & Friedman及Goldman Sachs、Apollo、Sequoia等联合成立独立企业AI服务公司Ode，初始资本15亿美元，100名专职AI工程师嵌驻大型企业客户一线，为其定制Claude落地与集成方案。",
+        "url": "https://www.businesswire.com/news/home/20260715205134/en/Anthropic-Blackstone-and-Hellman-Friedman-Introduce-Ode-with-Anthropic-an-Enterprise-AI-Services-Firm"
+      },
+      {
         "title": "Anthropic 推出教育版 Claude，为 K-12 教师免费开放最强模型",
         "date": "2026-07-14",
         "category": "产品",
@@ -8529,13 +8536,6 @@
         "category": "业务",
         "summary": "美空军发备忘录要求承包商 9 月 1 日前清除 Anthropic 全部产品；Anthropic 因拒绝武器化而被国防部列为供应链风险，联邦法院驳回其暂停申请。",
         "url": "https://breakingdefense.com/2026/07/air-force-pushing-contractors-to-purge-anthropic-by-sept-1-memo/"
-      },
-      {
-        "title": "Anthropic 发布政府版 Claude 公测，含 FedRAMP 高级安全认证",
-        "date": "2026-07-07",
-        "category": "产品",
-        "summary": "Claude for Government Desktop 正式进入公开测试，在 FedRAMP High 授权环境中提供 Claude Code 和 Cowork，政府机构可用于软件现代化、文件审查与流程自动化，对话记录本地存储，具备强化审计日志与支出管控。",
-        "url": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government"
       }
     ]
   },
