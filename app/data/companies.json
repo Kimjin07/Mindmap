@@ -4582,6 +4582,13 @@
     ],
     "news": [
       {
+        "title": "三星拟在器兴园区新建DRAM晶圆厂，月产能10万片扩充AI存储供给",
+        "date": "2026-07-15",
+        "category": "进展",
+        "summary": "三星宣布在器兴（Giheung）园区新建独立DRAM晶圆厂，设计月产能10万片，内部团队已就位并计划三季度破土，同步推进平泽P6线HBM4产能扩建，应对AI驱动的存储需求激增。",
+        "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202607150004"
+      },
+      {
         "title": "三星代工据报与 Anthropic 就定制 AI 芯片制造初步达成协议",
         "date": "2026-07-14",
         "category": "合同",
@@ -4601,13 +4608,6 @@
         "category": "重大",
         "summary": "三星电子确认将龙仁半导体园区首座晶圆厂量产时间提前至2029年，较原计划早约1-2年；此举在韩国总统主持的政企会议上达成共识，旨在匹配全球AI芯片供给缺口。",
         "url": "https://www.benzinga.com/markets/tech/26/07/60406872/samsung-brings-forward-yongin-ai-chip-fab-launch-to-2029"
-      },
-      {
-        "title": "三星代工部门将4nm/5nm报价上调约15%，AI需求推动进入新定价周期",
-        "date": "2026-07-09",
-        "category": "业务",
-        "summary": "三星晶圆代工部门将4nm与5nm先进制程报价上调约15%，主要适用于新增客户；受AI芯片订单激增驱动，先进制程产能持续供不应求，三星同步台积电涨价节奏重构代工业务利润结构。",
-        "url": "https://wccftech.com/samsung-hikes-5nm-and-4nm-wafer-prices-15-breaking-from-tsmcs-broad-increases-as-ai-demand-rewrites-the-rules-report/"
       }
     ]
   },
