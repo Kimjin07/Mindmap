@@ -30414,6 +30414,13 @@
     },
     "news": [
       {
+        "title": "Apple Intelligence 获中国监管正式批准，通义千问与百度提供 AI 支持",
+        "date": "2026-07-15",
+        "category": "落地",
+        "summary": "中国网信办7月15日批准苹果生成式 AI 服务上线，通义千问提供文本与图像生成、百度提供搜索增强，Apple Intelligence 即将首次向中国 iPhone 用户开放。",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-15/apple-gets-approval-for-alibaba-powered-iphone-ai-tools-in-china"
+      },
+      {
         "title": "苹果起诉 OpenAI 窃取 AI 硬件商业秘密，io Products 同被列为被告",
         "date": "2026-07-14",
         "category": "重大",
@@ -30433,13 +30440,6 @@
         "category": "研发",
         "summary": "PrismML证实与苹果洽谈AI模型压缩技术，其可将Qwen 3.6压缩至4GB在iPhone 17 Pro本地运行复杂推理与Agent任务，双方尚未正式签约。",
         "url": "https://www.cnbc.com/2026/07/14/apple-prismml-ai-compression-iphone.html"
-      },
-      {
-        "title": "苹果低调收购可观测性初创 SigScalr，增强云端运维调试能力",
-        "date": "2026-07-13",
-        "category": "业务",
-        "summary": "苹果通过欧盟 DMA 通知披露了 3 月对 SigScalr 的收购，获其 SigLens 开源日志平台技术与团队，将用于强化云服务可观测性与调试能力。",
-        "url": "https://9to5mac.com/2026/07/13/apple-acquires-observability-startup-sigscalr/"
       }
     ]
   },
