@@ -407,6 +407,13 @@
     ],
     "news": [
       {
+        "title": "黄仁勋确认 Vera Rubin 量产，驳斥延期报告称秋季大规模出货",
+        "date": "2026-07-15",
+        "category": "进展",
+        "summary": "英伟达 CEO 黄仁勋在东京开发者活动向记者表示，Vera Rubin AI 加速器已进入量产阶段，巨量产能即将到来，秋季将开始大规模出货，并正面否认市调机构 SemiAnalysis 关于电路板制造困难导致延期的报告。",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-huang-declares-vera-rubin-091105893.html"
+      },
+      {
         "title": "美国官员证实英伟达 H200 芯片已向中国 10 家获批企业首批发货",
         "date": "2026-07-14",
         "category": "业务",
@@ -426,13 +433,6 @@
         "category": "业务",
         "summary": "据日经亚洲报道，英伟达拟与三菱重工合作，由后者为\"AI 工厂\"数据中心提供冷却系统与能源管理方案，三菱重工或成英伟达下一代算力基础设施的核心工业合作伙伴。",
         "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-mitsubishi-heavy-eye-cooperation-on-ai-data-center-cooling-and-power"
-      },
-      {
-        "title": "英伟达缩减亚洲 AI 芯片买家白名单，逾半客户落选可申请重审",
-        "date": "2026-07-14",
-        "category": "业务",
-        "summary": "英伟达响应美国出口管制压力，对新加坡、马来西亚及日本 AI 芯片购买商实施更严格审查，将白名单客户数量砍半，落选企业多为新兴云服务商；英伟达员工将赴客户数据中心现场核查合规情况，落选方整改后可申请重新入名单。",
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-halves-asia-buyer-list-033140201.html"
       }
     ],
     "links": {
@@ -11701,6 +11701,13 @@
       "Founder Collective"
     ],
     "news": [
+      {
+        "title": "Suno 遭黑客入侵，泄露源码揭示曾从 YouTube 等平台抓取逾 200 万条训练音频",
+        "date": "2026-07-15",
+        "category": "重大",
+        "summary": "黑客通过供应链攻击获取员工凭证入侵 Suno 内部系统，泄露的源码显示其曾从 YouTube Music、Deezer 及播客平台等大规模抓取音频用于 AI 训练；数十万用户信息及 Stripe 支付数据同步外泄，进一步加重其在版权诉讼中的法律风险。",
+        "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/"
+      },
       {
         "title": "Suno 完成 4 亿美元 D 轮,估值 54 亿美元半年翻倍",
         "date": "2026-06",
