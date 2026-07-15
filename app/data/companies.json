@@ -2585,6 +2585,13 @@
     },
     "news": [
       {
+        "title": "中国网信办批准 Apple Intelligence，通义千问集成入全系苹果产品",
+        "date": "2026-07-15",
+        "category": "落地",
+        "summary": "中国网信办 7 月 15 日正式完成 Apple Intelligence 生成式 AI 服务备案，阿里旗下通义千问将集成进 iOS/iPadOS/macOS/visionOS 全线苹果产品，成为中国用户大模型底座；消息公布后阿里美股盘前涨逾 5%，标志苹果六年来首次获中国 AI 合规准入。",
+        "url": "https://technode.com/2026/07/15/alibabas-qwen-to-be-integrated-into-apple-intelligence/"
+      },
+      {
         "title": "中国AI拟人化新规7月15日生效，阿里Qwen关停用户自建智能体",
         "date": "2026-07-06",
         "category": "重大",
@@ -2604,13 +2611,6 @@
         "category": "重大",
         "summary": "CEO 吴泳铭在财报会上宣布,五年内包含 MaaS 在内的云和 AI 商业化收入将超过 1000 亿美元;当季阿里云在全栈 AI 驱动下加速增长 36%。",
         "url": "https://paper.cnstock.com/html/2026-03/20/content_2190434.htm"
-      },
-      {
-        "title": "平头哥自研 GPU 量产,累计交付 47 万颗",
-        "date": "2026-02",
-        "category": "研发",
-        "summary": "阿里平头哥自研 GPU 芯片实现量产,截至 2026 年 2 月累计交付 47 万颗,服务互联网、金融、自动驾驶等领域超 400 家企业客户。",
-        "url": "https://finance.sina.com.cn/jjxw/2026-05-21/doc-inhyqiye9524183.shtml"
       }
     ]
   },
