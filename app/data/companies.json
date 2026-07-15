@@ -30414,6 +30414,13 @@
     },
     "news": [
       {
+        "title": "苹果洽谈PrismML合作，27B参数大模型可在iPhone 17 Pro本地运行",
+        "date": "2026-07-14",
+        "category": "研发",
+        "summary": "PrismML证实与苹果洽谈AI模型压缩技术，其可将Qwen 3.6压缩至4GB在iPhone 17 Pro本地运行复杂推理与Agent任务，双方尚未正式签约。",
+        "url": "https://www.cnbc.com/2026/07/14/apple-prismml-ai-compression-iphone.html"
+      },
+      {
         "title": "苹果低调收购可观测性初创 SigScalr，增强云端运维调试能力",
         "date": "2026-07-13",
         "category": "业务",
@@ -30433,13 +30440,6 @@
         "category": "合同",
         "summary": "苹果宣布与博通达成超 300 亿美元多年合作协议，在美国境内设计并生产定制硅片及无线连接芯片，博通将投资 15 亿美元扩建科罗拉多工厂，协议延续至 2031 年。",
         "url": "https://www.cnbc.com/2026/07/08/apple-commits-30-billion-to-broadcom-for-us-chipmaking-push.html"
-      },
-      {
-        "title": "苹果起诉 OpenAI 窃取芯片与 AI 机密，点名首席硬件官 Tang Tan",
-        "date": "2026-07",
-        "category": "重大",
-        "summary": "苹果 7 月 11 日在加州北区联邦法院起诉 OpenAI 及其硬件子公司 io Products，指控其系统性招募逾 400 名苹果前员工带走芯片架构与端侧 AI 机密；点名 OpenAI 首席硬件官 Tang Tan 要求候选人面试时携带苹果内部零件。",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-10/apple-sues-openai-for-trade-secret-theft-in-blockbuster-case"
       }
     ]
   },
