@@ -8633,6 +8633,13 @@
         "url": "https://www.techtimes.com/articles/320420/20260714/grok-build-shipped-entire-codebases-xai-cloud-privacy-toggle-did-nothing.htm"
       },
       {
+        "title": "SpaceXAI 逾 10 亿美元收购 APR Energy，Grok 数据中心自主供电",
+        "date": "2026-07-14",
+        "category": "重大",
+        "summary": "SpaceXAI 悄然完成对 APR Energy 的逾 10 亿美元收购，APR 拥有超 1 GW 移动燃气轮机机队，将直接为 Grok 数据中心供电。",
+        "url": "https://electrek.co/2026/07/14/musk-buys-gas-turbine-company-apr-energy-grok/"
+      },
+      {
         "title": "发布 Grok 4.5:与 Cursor 联合训练,主打编程与高性价比",
         "date": "2026-07",
         "category": "产品",
@@ -8645,13 +8652,6 @@
         "category": "进展",
         "summary": "马斯克 7 月 5 日发文称「Done with Grok Imagine」,标志 Grok 图像与视频生成功能开发完成;同期 Grok Voice 新增 21 种多语言音色并支持语音克隆。",
         "url": "https://www.basenor.com/blogs/news/grok-imagine-is-done-xai-completes-image-generation-feature"
-      },
-      {
-        "title": "被 SpaceX 收购、更名 SpaceXAI,完成 200 亿美元 E 轮",
-        "date": "2026",
-        "category": "重大",
-        "summary": "2026 年 2 月 SpaceX 以全股票收购 xAI(xAI 估值 2500 亿美元),7 月更名 SpaceXAI;E 轮融资 200 亿美元(英伟达、卡塔尔主权基金、MGX 等参投),用于扩建 Colossus 与训练 Grok 5。",
-        "url": "https://x.ai/news"
       }
     ]
   },
@@ -30421,6 +30421,13 @@
         "url": "https://www.bloomberg.com/news/articles/2026-07-15/apple-gets-approval-for-alibaba-powered-iphone-ai-tools-in-china"
       },
       {
+        "title": "据报苹果洽购 AI 芯片初创企业，拟降低英伟达依赖补强服务器短板",
+        "date": "2026-07-15",
+        "category": "业务",
+        "summary": "据《信息》报道，苹果接触多家 AI 芯片初创公司探讨收购并咨询投行；背景是自研 Baltra 服务器芯片延期，苹果希望通过并购加快 AI 算力自主、降低对英伟达依赖。",
+        "url": "https://www.macrumors.com/2026/07/15/apple-looking-to-acquire-ai-chip-companies/"
+      },
+      {
         "title": "苹果起诉 OpenAI 窃取 AI 硬件商业秘密，io Products 同被列为被告",
         "date": "2026-07-14",
         "category": "重大",
@@ -30433,13 +30440,6 @@
         "category": "产品",
         "summary": "苹果7月14日推出iOS 27公测版，全新Siri AI首度向普通用户开放，可读设备邮件、照片与消息，具屏幕感知与全球问答能力，并获专属独立App。",
         "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/"
-      },
-      {
-        "title": "苹果洽谈PrismML合作，27B参数大模型可在iPhone 17 Pro本地运行",
-        "date": "2026-07-14",
-        "category": "研发",
-        "summary": "PrismML证实与苹果洽谈AI模型压缩技术，其可将Qwen 3.6压缩至4GB在iPhone 17 Pro本地运行复杂推理与Agent任务，双方尚未正式签约。",
-        "url": "https://www.cnbc.com/2026/07/14/apple-prismml-ai-compression-iphone.html"
       }
     ]
   },
